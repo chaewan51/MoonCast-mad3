@@ -5,6 +5,7 @@ import glob
 import random
 import sys
 import gc
+import traceback
 from pathlib import Path
 from typing import Dict, Any, List
 
@@ -17,16 +18,21 @@ from scipy.io import wavfile
 import soundfile as sf
 
 # --- CLUSTER STABILITY SETTINGS ---
-# 1. Force use of a specific GPU that is actually free (e.g., 3, 5, 6, or 7)
+# Set to a GPU ID that is actually free (Check nvidia-smi)
 OS_GPU_ID = "3" 
 os.environ["CUDA_VISIBLE_DEVICES"] = OS_GPU_ID
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+# Updated to the new non-deprecated variable name
+os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 os.environ["OMP_NUM_THREADS"] = "1"
 
 sys.path.append(os.getcwd())
 from modules.tokenizer.tokenizer import get_tokenizer_and_extra_tokens
 from modules.audio_tokenizer.audio_tokenizer import get_audio_tokenizer
-from modules.audio_detokenizer.audio_detokenizer import detokenize
+# FIXED: Added the missing import for detokenizer
+from modules.audio_detokenizer.audio_detokenizer import (
+    get_audio_detokenizer,
+    detokenize
+)
 
 class Model:
     def __init__(self):
@@ -35,7 +41,7 @@ class Model:
         self.speech_token_offset = 163840
         self.device = torch.device("cuda")
         
-        # Using bfloat16 to save 50% VRAM compared to float32
+        # Load model with bfloat16 for speed and VRAM savings
         self.model = AutoModelForCausalLM.from_pretrained(
             "resources/text2semantic",
             torch_dtype=torch.bfloat16,
@@ -43,14 +49,14 @@ class Model:
             low_cpu_mem_usage=True
         ).to(self.device)
         
-        # Fix for the 'NoneType' AttributeError and OOM during generation
+        # Fix for the 'NoneType' AttributeError
         self.model.config.use_cache = False 
         self.model.eval()
 
         self.audio_tokenizer = get_audio_tokenizer()
         self.audio_detokenizer = get_audio_detokenizer()
 
-        # Cache tokens for speed
+        # Cache fixed tensors
         self.assistant_ids = self.tokenizer.encode("assistant")
         self.user_ids = self.tokenizer.encode("user")
         self.audio_ids = self.tokenizer.encode("audio")
@@ -84,6 +90,7 @@ class Model:
 
     @torch.inference_mode()
     def infer(self, js: Dict[str, Any]):
+        # Build prompt history
         ctx_ids = []
         for r in ["0", "1"]:
             ctx_ids += ([self.extra_tokens.user_msg_start] + self.user_ids + self.spk_ids[int(r)] + [self.extra_tokens.name_end] + 
@@ -101,16 +108,17 @@ class Model:
             prompt = torch.cat([prompt, header, self._media_start, v["prompt_ids"], self._media_end], dim=-1)
 
         wav_chunks = []
-        for turn in tqdm(js["dialogue"], desc="Turns"):
+        for turn in tqdm(js["dialogue"], desc="Turns", leave=True):
             header = torch.LongTensor([self.extra_tokens.assistant_msg_start] + self.assistant_ids + self.spk_ids[int(turn["role"])] + [self.extra_tokens.name_end]).unsqueeze(0).to(self.device)
             input_ids = torch.cat([prompt, header, self._media_start], dim=-1)
             
+            # Keep context window safe for VRAM
             if input_ids.shape[1] > self.max_ctx: 
                 input_ids = input_ids[:, -self.max_ctx:] 
 
             gen_out = self.model.generate(
                 input_ids, 
-                max_new_tokens=1200, 
+                max_new_tokens=1500, 
                 do_sample=True, 
                 use_cache=False, 
                 pad_token_id=self.tokenizer.eos_token_id
@@ -135,7 +143,8 @@ def main():
     MANIFEST = "voices/manifest.json"
     
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(MANIFEST, 'r') as f: voices = [v for v in json.load(f) if os.path.exists(v["path"])]
+    with open(MANIFEST, 'r') as f: 
+        voices = [v for v in json.load(f) if os.path.exists(v["path"])]
     
     pools = {
         "american": [v for v in voices if "american" in v["accent"].lower()],
@@ -157,11 +166,15 @@ def main():
                         "1": {"ref_audio": v1["path"], "ref_text": v1["ref_text"]}}
             
             turns_raw = js_in["dialogue_data"]["dialogue_turns"]
-            dialogue = [{"role": "0" if "a" in t["speaker"].lower() else "1", 
-                         "text": (t.get("tts_text") or t.get("text", "")).strip()} for t in turns_raw if (t.get("tts_text") or t.get("text"))]
+            dialogue = []
+            for t in turns_raw:
+                txt = (t.get("tts_text") or t.get("text", "")).strip()
+                if txt:
+                    dialogue.append({"role": "0" if "a" in t["speaker"].lower() else "1", "text": txt})
             
             wav = model.infer({"role_mapping": role_map, "dialogue": dialogue})
             
+            # Normalization and Save
             final_audio = wav.squeeze().numpy()
             if abs(final_audio).max() > 1.0: final_audio /= (abs(final_audio).max() + 1e-8)
             wavfile.write(out_wav, 24000, final_audio)
@@ -170,6 +183,7 @@ def main():
             gc.collect()
         except Exception as e:
             print(f"[FAIL] {file_id}: {e}")
+            traceback.print_exc()
 
 if __name__ == "__main__":
     main()
