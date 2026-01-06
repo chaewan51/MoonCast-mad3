@@ -37,6 +37,7 @@ from tqdm import tqdm
 from pydub import AudioSegment
 from transformers import AutoModelForCausalLM, GenerationConfig
 import traceback
+import argparse
 
 # MoonCast modules
 import sys
@@ -83,7 +84,7 @@ class Model(object):
             device_map="cuda:0",
             torch_dtype=torch.bfloat16,
             trust_remote_code=True,
-            force_download=True,
+            force_download=False,
         ).to(torch.cuda.current_device())
         self.model.config.use_cache = False
 
@@ -212,7 +213,7 @@ class Model(object):
 
             if prompt.shape[1] > self.max_ctx:
                 prompt = prompt[:, -self.max_ctx:]
-                
+
             len_prompt = prompt.shape[1]
             generation_config.min_length = len_prompt + 2
 
@@ -481,41 +482,67 @@ def save_wav_from_b64_mp3(audio_b64: str, out_wav_path: str, pad_ms: int = 250):
 # Main
 # -------------------------
 def main():
-    random.seed(1234)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input_dir", default="input_data/Output_STEP1+2_ENGLISH_TTS")
+    parser.add_argument("--output_dir", default="output_data/ENGLISH_mooncast_Gem")
+    parser.add_argument("--manifest", default="voices/manifest.json")
+    parser.add_argument("--shard_id", type=int, default=0)
+    parser.add_argument("--num_shards", type=int, default=1)
+    parser.add_argument("--seed", type=int, default=1234)
+    parser.add_argument("--skip_existing", action="store_true")
+    args = parser.parse_args()
 
-    INPUT_DIR = "input_data/Output_STEP1+2_ENGLISH_TTS"
-    MANIFEST = "voices/manifest.json"
-    OUTPUT_DIR = "output_data/ENGLISH_mooncast_Gem"
+    # Make randomness stable per shard (so 4 GPUs don't pick identical voices in sync)
+    random.seed(args.seed + args.shard_id)
+
+    INPUT_DIR = args.input_dir
+    OUTPUT_DIR = args.output_dir
+    MANIFEST = args.manifest
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    files = sorted(glob.glob(os.path.join(INPUT_DIR, "*.json")))
-    if not files:
+    files_all = sorted(glob.glob(os.path.join(INPUT_DIR, "*.json")))
+    if not files_all:
         raise RuntimeError(f"No JSON files found in '{INPUT_DIR}'")
+
+    n_total = len(files_all)
 
     voices = load_manifest(MANIFEST)
     pools = build_pools(voices)
 
     model = Model()
 
-    # Warm cache once: process each voice prompt wav only once
+    # OPTIONAL: pre-warm cache (costly but avoids first-hit latency)
+    # If this is too slow, you can comment it out — your pick_valid_voice() already warms lazily.
     for v in voices:
-        model._get_cached_voice_prompt(v["path"], v["ref_text"])
+        try:
+            model._get_cached_voice_prompt(v["path"], v["ref_text"])
+        except Exception:
+            pass
 
-    n = len(files)
-    print(f"Found {n} files -> buckets: {n//3} AA, {n//3} AB, {n - 2*(n//3)} BB")
+    # How many files this shard will handle
+    shard_files = [fp for idx, fp in enumerate(files_all) if (idx % args.num_shards) == args.shard_id]
+    print(f"[SHARD {args.shard_id}/{args.num_shards}] total files={n_total}, this shard files={len(shard_files)}")
+    print(f"Global buckets based on total ordering: {n_total//3} AA, {n_total//3} AB, {n_total - 2*(n_total//3)} BB")
 
-    for i, fp in enumerate(files):
+    done = 0
+    for global_idx, fp in enumerate(files_all):
+        if (global_idx % args.num_shards) != args.shard_id:
+            continue
+
         with open(fp, "r", encoding="utf-8") as f:
             js_in = json.load(f)
 
         file_id = str(js_in.get("id", Path(fp).stem))
         out_path = os.path.join(OUTPUT_DIR, f"{file_id}.wav")
 
-        if os.path.exists(out_path):
-            print(f"[{i+1}/{n}] skip {file_id} (exists)")
+        if args.skip_existing and os.path.exists(out_path):
+            done += 1
+            print(f"[SHARD {args.shard_id}] [{done}/{len(shard_files)}] skip {file_id} (exists)")
             continue
 
-        bucket = assign_bucket(i, n)
+        # IMPORTANT: bucket assignment should use global_idx and n_total
+        bucket = assign_bucket(global_idx, n_total)
 
         if bucket == "AA":
             v0, v1 = pick_two_valid(pools["american"], model)
@@ -527,20 +554,20 @@ def main():
             if random.random() < 0.5:
                 v0, v1 = v1, v0
 
-
         role_mapping = {
             "0": {"ref_audio": v0["path"], "ref_text": v0["ref_text"]},  # Host_A
             "1": {"ref_audio": v1["path"], "ref_text": v1["ref_text"]},  # Host_B
         }
 
-        moon_js = build_mooncast_js(js_in, role_mapping)
-
         try:
+            moon_js = build_mooncast_js(js_in, role_mapping)
             audio_b64 = model.inference(moon_js, streaming=False)
             save_wav_from_b64_mp3(audio_b64, out_path, pad_ms=250)
-            print(f"[{i+1}/{n}] ok {file_id} ({bucket}) -> {out_path}")
+            done += 1
+            print(f"[SHARD {args.shard_id}] [{done}/{len(shard_files)}] ok {file_id} ({bucket}) -> {out_path}")
         except Exception as e:
-            print(f"[{i+1}/{n}] FAIL {file_id}: {e}")
+            done += 1
+            print(f"[SHARD {args.shard_id}] [{done}/{len(shard_files)}] FAIL {file_id}: {e}")
             print("  v0:", v0["path"], "| accent:", v0.get("accent"), "| id:", v0.get("id"))
             print("  v1:", v1["path"], "| accent:", v1.get("accent"), "| id:", v1.get("id"))
             print(traceback.format_exc())
