@@ -1,0 +1,14 @@
+nohup: ignoring input
+[LAUNCH] shard0_of_4_gpu3
+[LAUNCH] shard1_of_4_gpu5
+[LAUNCH] shard2_of_4_gpu6
+[LAUNCH] shard3_of_4_gpu7
+./run_process_mad3.sh: fork: retry: Resource temporarily unavailable
+./run_process_mad3.sh: fork: retry: Resource temporarily unavailable
+./run_process_mad3.sh: fork: retry: Resource temporarily unavailable
+./run_process_mad3.sh: fork: retry: Resource temporarily unavailable
+./run_process_mad3.sh: line 56: 1625630 Segmentation fault      (core dumped) nohup env CUDA_VISIBLE_DEVICES="${gpu}" TOKENIZERS_PARALLELISM=false ${PY} "${SCRIPT}" --input_dir "${INPUT_DIR}" --output_dir "${OUTPUT_DIR}" --manifest "${MANIFEST}" --shard_id "${shard_id}" --num_shards "${num_shards}" --seed "${SEED}" --skip_existing --pad_ms "${PAD_MS}" --min_new_tokens "${MIN_NEW_TOKENS}" --max_new_tokens_cap "${MAX_NEW_TOKENS_CAP}" --words_per_sec "${WORDS_PER_SEC}" --tokens_per_sec "${TOKENS_PER_SEC}" --safety "${SAFETY}" --max_retries "${MAX_RETRIES}" --retry_mult "${RETRY_MULT}" --retry_add "${RETRY_ADD}" --dtype "${DTYPE}" "${EXTRA_RETRY_FLAG[@]}" > "${log}" 2>&1
+./run_process_mad3.sh: line 56: 1625635 Segmentation fault      (core dumped) nohup env CUDA_VISIBLE_DEVICES="${gpu}" TOKENIZERS_PARALLELISM=false ${PY} "${SCRIPT}" --input_dir "${INPUT_DIR}" --output_dir "${OUTPUT_DIR}" --manifest "${MANIFEST}" --shard_id "${shard_id}" --num_shards "${num_shards}" --seed "${SEED}" --skip_existing --pad_ms "${PAD_MS}" --min_new_tokens "${MIN_NEW_TOKENS}" --max_new_tokens_cap "${MAX_NEW_TOKENS_CAP}" --words_per_sec "${WORDS_PER_SEC}" --tokens_per_sec "${TOKENS_PER_SEC}" --safety "${SAFETY}" --max_retries "${MAX_RETRIES}" --retry_mult "${RETRY_MULT}" --retry_add "${RETRY_ADD}" --dtype "${DTYPE}" "${EXTRA_RETRY_FLAG[@]}" > "${log}" 2>&1
+./run_process_mad3.sh: line 56: 1625640 Segmentation fault      (core dumped) nohup env CUDA_VISIBLE_DEVICES="${gpu}" TOKENIZERS_PARALLELISM=false ${PY} "${SCRIPT}" --input_dir "${INPUT_DIR}" --output_dir "${OUTPUT_DIR}" --manifest "${MANIFEST}" --shard_id "${shard_id}" --num_shards "${num_shards}" --seed "${SEED}" --skip_existing --pad_ms "${PAD_MS}" --min_new_tokens "${MIN_NEW_TOKENS}" --max_new_tokens_cap "${MAX_NEW_TOKENS_CAP}" --words_per_sec "${WORDS_PER_SEC}" --tokens_per_sec "${TOKENS_PER_SEC}" --safety "${SAFETY}" --max_retries "${MAX_RETRIES}" --retry_mult "${RETRY_MULT}" --retry_add "${RETRY_ADD}" --dtype "${DTYPE}" "${EXTRA_RETRY_FLAG[@]}" > "${log}" 2>&1
+All jobs finished. Logs in: logs_process_mad3
+Outputs in: output_data/ENGLISH_mooncast_Gem
