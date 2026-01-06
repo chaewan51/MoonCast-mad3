@@ -128,13 +128,26 @@ class Model(object):
         return int(max(self.min_new_tokens, min(max_new, self.max_new_tokens_cap)))
 
     def _load_mono_resample(self, wav_path: str, target_sr: int) -> torch.Tensor:
-        wav, sr = torchaudio.load(wav_path)
+        # We use soundfile or sox_io explicitly to bypass the torchcodec bug
+        try:
+            # Try forcing the 'soundfile' backend which is usually stable
+            wav, sr = torchaudio.load(wav_path, backend="soundfile")
+        except Exception:
+            try:
+                # Fallback to sox_io
+                wav, sr = torchaudio.load(wav_path, backend="sox_io")
+            except Exception:
+                # Final fallback: standard load but hope the backend global fix worked
+                wav, sr = torchaudio.load(wav_path)
+                
         if wav.ndim == 2 and wav.size(0) > 1:
             wav = wav.mean(dim=0, keepdim=True)
         elif wav.ndim == 1:
             wav = wav.unsqueeze(0)
+            
         if sr != target_sr:
             wav = AF.resample(wav, sr, target_sr)
+            
         return wav.to(torch.float32)
 
     def _pad_to_min_sec(self, wav: torch.Tensor, sr: int, min_sec: float) -> torch.Tensor:
