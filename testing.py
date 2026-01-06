@@ -246,6 +246,7 @@ class Model(object):
                     generation_config=self.generate_config,
                     max_new_tokens=int(budget),
                     pad_token_id=self.tokenizer.eos_token_id,
+                    use_cache=False,
                 )
 
                 if outputs[0, -1] == self.media_end: outputs = outputs[:, :-1]
