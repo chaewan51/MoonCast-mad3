@@ -128,27 +128,41 @@ class Model(object):
         return int(max(self.min_new_tokens, min(max_new, self.max_new_tokens_cap)))
 
     def _load_mono_resample(self, wav_path: str, target_sr: int) -> torch.Tensor:
-        # We use soundfile or sox_io explicitly to bypass the torchcodec bug
+        """
+        Loads audio bypassing the buggy TorchAudio/TorchCodec backend.
+        Uses SoundFile as the primary loader for stability on clusters.
+        """
+        import numpy as np
+        
+        # 1. Try loading with soundfile (standard for WAV, very stable)
         try:
-            # Try forcing the 'soundfile' backend which is usually stable
-            wav, sr = torchaudio.load(wav_path, backend="soundfile")
-        except Exception:
+            import soundfile as sf
+            data, sr = sf.read(wav_path, dtype='float32')
+            # soundfile returns (T, C), convert to (C, T)
+            if data.ndim == 1:
+                wav = torch.from_numpy(data).unsqueeze(0)
+            else:
+                wav = torch.from_numpy(data).T
+        except Exception as e:
+            # 2. Fallback to librosa (handles almost anything, but slower)
             try:
-                # Fallback to sox_io
-                wav, sr = torchaudio.load(wav_path, backend="sox_io")
-            except Exception:
-                # Final fallback: standard load but hope the backend global fix worked
-                wav, sr = torchaudio.load(wav_path)
-                
-        if wav.ndim == 2 and wav.size(0) > 1:
-            wav = wav.mean(dim=0, keepdim=True)
-        elif wav.ndim == 1:
-            wav = wav.unsqueeze(0)
-            
+                import librosa
+                data, sr = librosa.load(wav_path, sr=None, mono=False)
+                if data.ndim == 1:
+                    wav = torch.from_numpy(data).unsqueeze(0)
+                else:
+                    wav = torch.from_numpy(data)
+            except Exception as e2:
+                raise RuntimeError(f"All loaders failed for {wav_path}. Errors: \nSF: {e}\nLibrosa: {e2}")
+
+        # Ensure Float32
+        wav = wav.to(torch.float32)
+
+        # Handle Resampling
         if sr != target_sr:
             wav = AF.resample(wav, sr, target_sr)
             
-        return wav.to(torch.float32)
+        return wav
 
     def _pad_to_min_sec(self, wav: torch.Tensor, sr: int, min_sec: float) -> torch.Tensor:
         min_len = int(sr * min_sec)
