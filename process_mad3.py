@@ -85,6 +85,7 @@ class Model(object):
             trust_remote_code=True,
             force_download=True,
         ).to(torch.cuda.current_device())
+        self.model.config.use_cache = False
 
         self.generate_config = GenerationConfig(
             max_new_tokens=200 * 50,  # no more than 200s per turn
@@ -98,6 +99,8 @@ class Model(object):
         # ---- efficiency patch: cache voice prompt processing ----
         self.device = torch.cuda.current_device()
         self._voice_cache: Dict[Tuple[str, str], Dict[str, Any]] = {}
+        self.max_ctx = getattr(self.model.config, "max_position_embeddings", 8192)
+        self.max_ctx = int(self.max_ctx) - 64  # safety margin
 
     def _clean_text(self, text: str) -> str:
         # light cleanup; adjust if needed
@@ -206,6 +209,10 @@ class Model(object):
             cur_assistant_ids = assistant_role_0_ids if role_id == "0" else assistant_role_1_ids
 
             prompt = torch.cat([prompt, cur_assistant_ids, media_start], dim=-1)
+
+            if prompt.shape[1] > self.max_ctx:
+                prompt = prompt[:, -self.max_ctx:]
+                
             len_prompt = prompt.shape[1]
             generation_config.min_length = len_prompt + 2
 
@@ -213,6 +220,7 @@ class Model(object):
                 prompt,
                 generation_config=generation_config,
                 pad_token_id=self.tokenizer.eos_token_id,
+                use_cache=False,   # IMPORTANT
             )
 
             if outputs[0, -1] == self.media_end:
