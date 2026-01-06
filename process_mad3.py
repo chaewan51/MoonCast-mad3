@@ -330,6 +330,65 @@ def build_pools(voices: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]
         raise ValueError("No british voices found in manifest")
     return pools
 
+def is_valid_cached_prompt(cached) -> bool:
+    # cached should have wav_24k, semantic_tokens, prompt_ids
+    if cached is None:
+        return False
+    for k in ("wav_24k", "semantic_tokens", "prompt_ids"):
+        v = cached.get(k, None)
+        if v is None:
+            return False
+        if not torch.is_tensor(v):
+            return False
+        if v.numel() == 0:
+            return False
+    return True
+
+
+def pick_valid_voice(pool, model, max_tries: int = 50):
+    """
+    Keep sampling until we get a voice whose cached prompt is valid.
+    Removes bad voices from pool so we don't keep hitting them.
+    """
+    if not pool:
+        raise RuntimeError("Voice pool is empty")
+
+    bad = []
+    for _ in range(max_tries):
+        v = random.choice(pool)
+        try:
+            cached = model._get_cached_voice_prompt(v["path"], v["ref_text"])
+            if is_valid_cached_prompt(cached):
+                return v
+            else:
+                bad.append(v)
+        except Exception:
+            bad.append(v)
+
+        # remove bad voice to avoid repeated failures
+        if bad:
+            for bv in bad:
+                if bv in pool:
+                    pool.remove(bv)
+            bad = []
+            if not pool:
+                raise RuntimeError("All voices in this pool appear invalid")
+
+    raise RuntimeError("Could not find a valid voice after many tries")
+
+
+def pick_two_valid(pool, model):
+    v0 = pick_valid_voice(pool, model)
+    v1 = pick_valid_voice(pool, model)
+    # try to avoid same voice twice if possible
+    if len(pool) > 1:
+        tries = 0
+        while v1["path"] == v0["path"] and tries < 10:
+            v1 = pick_valid_voice(pool, model)
+            tries += 1
+    return v0, v1
+
+
 
 def pick_two(pool: List[Dict[str, Any]]) -> Tuple[Dict[str, Any], Dict[str, Any]]:
     if len(pool) >= 2:
@@ -450,14 +509,15 @@ def main():
         bucket = assign_bucket(i, n)
 
         if bucket == "AA":
-            v0, v1 = pick_two(pools["american"])
+            v0, v1 = pick_two_valid(pools["american"], model)
         elif bucket == "BB":
-            v0, v1 = pick_two(pools["british"])
+            v0, v1 = pick_two_valid(pools["british"], model)
         else:  # AB
-            v0 = random.choice(pools["american"])
-            v1 = random.choice(pools["british"])
+            v0 = pick_valid_voice(pools["american"], model)
+            v1 = pick_valid_voice(pools["british"], model)
             if random.random() < 0.5:
                 v0, v1 = v1, v0
+
 
         role_mapping = {
             "0": {"ref_audio": v0["path"], "ref_text": v0["ref_text"]},  # Host_A
