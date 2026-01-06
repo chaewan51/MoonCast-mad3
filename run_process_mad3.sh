@@ -3,9 +3,9 @@ set -euo pipefail
 
 # ==============================
 # MoonCast MAD3 batch TTS on 4 GPUs
-# - Runs process_mad3.py in 4 shards (GPU per shard)
+# - Runs process_mad3.py in N shards (GPU per shard)
 # - Uses CUDA_VISIBLE_DEVICES to pin one GPU per process
-# - Simple concurrency guard + logs per shard
+# - Logs per shard
 # ==============================
 
 # ---- user knobs ----
@@ -28,16 +28,30 @@ LOGDIR="logs_process_mad3"
 mkdir -p "${LOGDIR}"
 mkdir -p "${OUTPUT_DIR}"
 
+SEED=1234
+
 # ------------------------------
-# Assumptions about process_mad3.py:
-# It supports these CLI args (you add them if missing):
-#   --input_dir, --output_dir, --manifest
-#   --shard_id, --num_shards
-#   --seed (optional)
-#   --skip_existing (optional)
+# New speed/quality knobs (edit here)
 # ------------------------------
 
-SEED=1234
+# WAV padding at start/end
+PAD_MS=250
+
+# Dynamic max_new_tokens heuristic
+MIN_NEW_TOKENS=150
+MAX_NEW_TOKENS_CAP=10000
+WORDS_PER_SEC=2.5
+TOKENS_PER_SEC=60.0
+SAFETY=1.8
+
+# Retry-on-truncation behavior
+MAX_RETRIES=1
+RETRY_MULT=2.0
+RETRY_ADD=200
+RETRY_FULL_CAP_ON_LAST=false   # set to true if you want last retry to jump to CAP
+
+# Dtype (auto/bf16/fp16). bf16 is good on A100/H100; fp16 on older GPUs.
+DTYPE="auto"
 
 submit() {
   local shard_id="$1"
@@ -49,6 +63,12 @@ submit() {
 
   echo "[LAUNCH] ${name}"
 
+  # Build optional flag
+  local EXTRA_RETRY_FLAG=()
+  if [ "${RETRY_FULL_CAP_ON_LAST}" = "true" ]; then
+    EXTRA_RETRY_FLAG+=(--retry_full_cap_on_last)
+  fi
+
   nohup env CUDA_VISIBLE_DEVICES="${gpu}" TOKENIZERS_PARALLELISM=false \
     ${PY} "${SCRIPT}" \
       --input_dir "${INPUT_DIR}" \
@@ -58,6 +78,17 @@ submit() {
       --num_shards "${num_shards}" \
       --seed "${SEED}" \
       --skip_existing \
+      --pad_ms "${PAD_MS}" \
+      --min_new_tokens "${MIN_NEW_TOKENS}" \
+      --max_new_tokens_cap "${MAX_NEW_TOKENS_CAP}" \
+      --words_per_sec "${WORDS_PER_SEC}" \
+      --tokens_per_sec "${TOKENS_PER_SEC}" \
+      --safety "${SAFETY}" \
+      --max_retries "${MAX_RETRIES}" \
+      --retry_mult "${RETRY_MULT}" \
+      --retry_add "${RETRY_ADD}" \
+      --dtype "${DTYPE}" \
+      "${EXTRA_RETRY_FLAG[@]}" \
       > "${log}" 2>&1 &
 
   # concurrency guard
@@ -66,7 +97,7 @@ submit() {
   done
 }
 
-# Launch 4 shards
+# Launch N shards
 NUM_SHARDS=${#GPUS[@]}
 for i in "${!GPUS[@]}"; do
   submit "${i}" "${NUM_SHARDS}" "${GPUS[$i]}"

@@ -1,40 +1,30 @@
 #!/usr/bin/env python3
 """
-MoonCast batch TTS runner (AA / AB / BB buckets) + efficient voice prompt caching.
+MoonCast batch TTS runner (AA / AB / BB buckets) + efficient voice prompt caching
++ FAST I/O (no mp3/base64 roundtrip) + per-turn dynamic max_new_tokens.
 
-What it does:
-- Reads JSON files from: input_data/Output_STEP1+2_ENGLISH_TTS/*.json
-- Extracts turns from: dialogue_data.dialogue_turns[*]  (expects speaker=Host_A/Host_B, and tts_text)
-- Assigns Host_A -> role "0", Host_B -> role "1"
-- Uses voices/manifest.json + voices/*.wav
-- Splits files into 3 buckets by index (sorted order):
-    first 1/3 => AA (American + American)
-    second 1/3 => AB (American + British, random direction)
-    last 1/3 => BB (British + British)
-- Randomly picks voices within accent pools, ignoring gender
-- Generates MP3 bytes from MoonCast Model, converts to WAV, saves:
-    output_wav/<ID>.wav   where ID is json["id"] if present else filename stem
-- Efficient: caches voice prompt processing (wav loads + audio tokenization) once per (ref_audio, ref_text)
+Key speed edits vs your version:
+1) Removes mp3->base64->pydub->wav pipeline. We now generate a waveform tensor and save WAV directly.
+2) Removes librosa usage (faster + no pkg_resources warning). Uses torchaudio load + resample.
+3) Sets max_new_tokens PER TURN using a words->seconds->tokens heuristic (with CLI knobs).
+4) Optional voice prewarm is OFF by default (can be expensive); enable with --prewarm_voices.
 
-Requirements:
-- Run this from MoonCast repo root (so modules/ and resources/ resolve)
-- ffmpeg installed (for pydub mp3 decoding)
+Multi-GPU note:
+- When you run with CUDA_VISIBLE_DEVICES=<one_gpu>, torch sees that as cuda:0.
+- This script uses torch.device("cuda") (so it will use the assigned GPU automatically).
 """
 
 import os
 import json
 import glob
-import base64
-import io
 import random
 from pathlib import Path
-from typing import Dict, Any, List, Tuple
+from typing import Dict, Any, List, Tuple, Optional
 
 import torch
-import librosa
 import torchaudio
+import torchaudio.functional as AF
 from tqdm import tqdm
-from pydub import AudioSegment
 from transformers import AutoModelForCausalLM, GenerationConfig
 import traceback
 import argparse
@@ -47,17 +37,22 @@ from modules.audio_tokenizer.audio_tokenizer import get_audio_tokenizer
 from modules.audio_detokenizer.audio_detokenizer import (
     get_audio_detokenizer,
     detokenize,
-    detokenize_noref,
-    detokenize_streaming,
-    detokenize_noref_streaming,
 )
-
 
 # -------------------------
 # MoonCast Model (patched)
 # -------------------------
 class Model(object):
-    def __init__(self):
+    def __init__(
+        self,
+        max_new_tokens_default: int = 1000,
+        min_new_tokens: int = 600,
+        max_new_tokens_cap: int = 6000,
+        words_per_sec: float = 2.5,
+        tokens_per_sec: float = 50.0,
+        safety: float = 1.6,
+        force_dtype: Optional[str] = None,   # "bf16" or "fp16" or None(auto)
+    ):
         self.tokenizer, self.extra_tokens = get_tokenizer_and_extra_tokens()
         self.speech_token_offset = 163840
 
@@ -75,21 +70,44 @@ class Model(object):
         self.media_content = self.extra_tokens.media_content
         self.media_end = self.extra_tokens.media_end
 
+        # GPU / perf knobs
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        if self.device.type == "cuda":
+            torch.backends.cuda.matmul.allow_tf32 = True
+            torch.backends.cudnn.benchmark = True
+            try:
+                torch.set_float32_matmul_precision("high")
+            except Exception:
+                pass
+
+        # Dtype selection
+        if force_dtype == "bf16":
+            dtype = torch.bfloat16
+        elif force_dtype == "fp16":
+            dtype = torch.float16
+        else:
+            # Auto: prefer bf16 if available; otherwise fp16 on cuda; fp32 on cpu
+            if self.device.type == "cuda":
+                # bf16 is usually fine on A100/H100 etc
+                dtype = torch.bfloat16
+            else:
+                dtype = torch.float32
+
         self.audio_tokenizer = get_audio_tokenizer()
         self.audio_detokenizer = get_audio_detokenizer()
 
         model_path = "resources/text2semantic"
         self.model = AutoModelForCausalLM.from_pretrained(
             model_path,
-            device_map="cuda:0",
-            torch_dtype=torch.bfloat16,
+            torch_dtype=dtype,
             trust_remote_code=True,
             force_download=False,
-        ).to(torch.cuda.current_device())
-        self.model.config.use_cache = False
+        ).to(self.device)
+        self.model.eval()
+        self.model.config.use_cache = False  # keep stable
 
         self.generate_config = GenerationConfig(
-            max_new_tokens=200 * 50,  # no more than 200s per turn
+            max_new_tokens=max_new_tokens_default,  # overridden per turn
             do_sample=True,
             top_k=30,
             top_p=0.8,
@@ -97,20 +115,72 @@ class Model(object):
             eos_token_id=self.media_end,
         )
 
-        # ---- efficiency patch: cache voice prompt processing ----
-        self.device = torch.cuda.current_device()
+        # Voice prompt cache
         self._voice_cache: Dict[Tuple[str, str], Dict[str, Any]] = {}
+
+        # Context limit
         self.max_ctx = getattr(self.model.config, "max_position_embeddings", 8192)
         self.max_ctx = int(self.max_ctx) - 64  # safety margin
 
+        # Dynamic token heuristic knobs
+        self.min_new_tokens = int(min_new_tokens)
+        self.max_new_tokens_cap = int(max_new_tokens_cap)
+        self.words_per_sec = float(words_per_sec)
+        self.tokens_per_sec = float(tokens_per_sec)
+        self.safety = float(safety)
+
+        # Prebuild common tensors ONCE (small speed win)
+        assistant_role_0_ids = [self.assistant_msg_start] + self.assistant_ids + self.spk_0_ids + [self.name_end]
+        assistant_role_1_ids = [self.assistant_msg_start] + self.assistant_ids + self.spk_1_ids + [self.name_end]
+        media_start = [self.media_begin] + self.audio_ids + [self.media_content]
+        media_end = [self.media_end] + [self.msg_end]
+
+        self._assistant_role_0 = torch.LongTensor(assistant_role_0_ids).unsqueeze(0).to(self.device)
+        self._assistant_role_1 = torch.LongTensor(assistant_role_1_ids).unsqueeze(0).to(self.device)
+        self._media_start = torch.LongTensor(media_start).unsqueeze(0).to(self.device)
+        self._media_end = torch.LongTensor(media_end).unsqueeze(0).to(self.device)
+
     def _clean_text(self, text: str) -> str:
-        # light cleanup; adjust if needed
+        text = (text or "")
         text = text.replace("“", "").replace("”", "")
         text = text.replace("...", " ").replace("…", " ")
         text = text.replace("*", "")
         text = text.replace(":", ",")
         text = text.replace("‘", "'").replace("’", "'")
         return text.strip()
+
+    def _estimate_max_new_tokens(self, turn_text: str) -> int:
+        """
+        Heuristic: words -> seconds -> audio tokens, with safety and clamp.
+        """
+        words = len(self._clean_text(turn_text).split())
+        if words == 0:
+            return self.min_new_tokens
+
+        # protect against divide-by-zero
+        wps = max(self.words_per_sec, 0.5)
+        est_sec = words / wps
+
+        max_new = int(est_sec * self.tokens_per_sec * self.safety) + 200
+        max_new = max(self.min_new_tokens, min(max_new, self.max_new_tokens_cap))
+        return int(max_new)
+
+    def _load_mono_resample(self, wav_path: str, target_sr: int) -> torch.Tensor:
+        """
+        Returns mono waveform as shape (1, T) float tensor on CPU (then moved to device).
+        """
+        wav, sr = torchaudio.load(wav_path)  # (C, T)
+        if wav.ndim == 2 and wav.size(0) > 1:
+            wav = wav.mean(dim=0, keepdim=True)
+        elif wav.ndim == 1:
+            wav = wav.unsqueeze(0)
+
+        if sr != target_sr:
+            wav = AF.resample(wav, sr, target_sr)
+
+        # ensure float32 for processing (model dtype is handled by model)
+        wav = wav.to(torch.float32)
+        return wav  # (1, T)
 
     def _get_cached_voice_prompt(self, ref_audio: str, ref_text: str) -> Dict[str, Any]:
         """
@@ -122,11 +192,8 @@ class Model(object):
 
         ref_bpe_ids = self.tokenizer.encode(self._clean_text(ref_text))
 
-        wav_24k = librosa.load(ref_audio, sr=24000)[0]
-        wav_24k = torch.tensor(wav_24k).unsqueeze(0).to(self.device)
-
-        wav_16k = librosa.load(ref_audio, sr=16000)[0]
-        wav_16k = torch.tensor(wav_16k).unsqueeze(0).to(self.device)
+        wav_24k = self._load_mono_resample(ref_audio, 24000).to(self.device)  # (1, T)
+        wav_16k = self._load_mono_resample(ref_audio, 16000).to(self.device)  # (1, T)
 
         semantic_tokens = self.audio_tokenizer.tokenize(wav_16k).to(self.device)
         prompt_ids = semantic_tokens + self.speech_token_offset
@@ -142,48 +209,24 @@ class Model(object):
 
     @torch.inference_mode()
     def _process_text(self, js: Dict[str, Any]) -> Dict[str, Any]:
-        # Keep for compatibility, but we will not rely on role_mapping["ref_bpe_ids"] any more.
-        if "role_mapping" in js:
-            for role in js["role_mapping"].keys():
-                js["role_mapping"][role]["ref_bpe_ids"] = self.tokenizer.encode(
-                    self._clean_text(js["role_mapping"][role]["ref_text"])
-                )
-
-        # Prefer tts_text if present
+        # Encode turn text to bpe_ids
         for turn in js["dialogue"]:
             t = turn.get("tts_text", turn.get("text", ""))
             turn["bpe_ids"] = self.tokenizer.encode(self._clean_text(t))
         return js
 
-    def inference(self, js: Dict[str, Any], streaming: bool = False):
-        js = self._process_text(js)
-        if "role_mapping" not in js:
-            if streaming:
-                return self.infer_without_prompt_streaming(js)
-            else:
-                return self.infer_without_prompt(js)
-        else:
-            if streaming:
-                return self.infer_with_prompt_streaming(js)
-            else:
-                return self.infer_with_prompt(js)
-
     @torch.inference_mode()
-    def infer_with_prompt(self, js: Dict[str, Any]) -> str:
+    def infer_with_prompt(self, js: Dict[str, Any], warn_if_truncated: bool = True) -> torch.Tensor:
+        """
+        Returns waveform tensor (1, T) on CPU, sample_rate=24000.
+        """
+        js = self._process_text(js)
+
+        # Build user/system token lists
         user_role_0_ids = [self.user_msg_start] + self.user_ids + self.spk_0_ids + [self.name_end]
         user_role_1_ids = [self.user_msg_start] + self.user_ids + self.spk_1_ids + [self.name_end]
-        assistant_role_0_ids = [self.assistant_msg_start] + self.assistant_ids + self.spk_0_ids + [self.name_end]
-        assistant_role_1_ids = [self.assistant_msg_start] + self.assistant_ids + self.spk_1_ids + [self.name_end]
 
-        media_start = [self.media_begin] + self.audio_ids + [self.media_content]
-        media_end = [self.media_end] + [self.msg_end]
-
-        assistant_role_0_ids = torch.LongTensor(assistant_role_0_ids).unsqueeze(0).to(self.device)
-        assistant_role_1_ids = torch.LongTensor(assistant_role_1_ids).unsqueeze(0).to(self.device)
-        media_start = torch.LongTensor(media_start).unsqueeze(0).to(self.device)
-        media_end = torch.LongTensor(media_end).unsqueeze(0).to(self.device)
-
-        # ---- cached voice prompts ----
+        # cached voice prompts
         cur_role_dict = {}
         for role, role_item in js["role_mapping"].items():
             cur_role_dict[role] = self._get_cached_voice_prompt(role_item["ref_audio"], role_item["ref_text"])
@@ -199,17 +242,19 @@ class Model(object):
 
         prompt = torch.LongTensor(prompt_list).unsqueeze(0).to(self.device)
 
-        prompt = torch.cat([prompt, assistant_role_0_ids, media_start, cur_role_dict["0"]["prompt_ids"], media_end], dim=-1)
-        prompt = torch.cat([prompt, assistant_role_1_ids, media_start, cur_role_dict["1"]["prompt_ids"], media_end], dim=-1)
+        # Attach voice prompts (role 0 then role 1)
+        prompt = torch.cat([prompt, self._assistant_role_0, self._media_start, cur_role_dict["0"]["prompt_ids"], self._media_end], dim=-1)
+        prompt = torch.cat([prompt, self._assistant_role_1, self._media_start, cur_role_dict["1"]["prompt_ids"], self._media_end], dim=-1)
 
         generation_config = self.generate_config
 
         wav_list = []
         for _, turn in tqdm(enumerate(js["dialogue"]), total=len(js["dialogue"])):
-            role_id = turn["role"]
-            cur_assistant_ids = assistant_role_0_ids if role_id == "0" else assistant_role_1_ids
 
-            prompt = torch.cat([prompt, cur_assistant_ids, media_start], dim=-1)
+            role_id = turn["role"]
+            cur_assistant_ids = self._assistant_role_0 if role_id == "0" else self._assistant_role_1
+
+            prompt = torch.cat([prompt, cur_assistant_ids, self._media_start], dim=-1)
 
             if prompt.shape[1] > self.max_ctx:
                 prompt = prompt[:, -self.max_ctx:]
@@ -217,103 +262,46 @@ class Model(object):
             len_prompt = prompt.shape[1]
             generation_config.min_length = len_prompt + 2
 
+            # -----------------------------
+            # ✅ PER-TURN max_new_tokens here
+            # -----------------------------
+            turn_text = turn.get("tts_text", turn.get("text", ""))
+            generation_config.max_new_tokens = self._estimate_max_new_tokens(turn_text)
+
             outputs = self.model.generate(
                 prompt,
                 generation_config=generation_config,
                 pad_token_id=self.tokenizer.eos_token_id,
-                use_cache=False,   # IMPORTANT
+                use_cache=False,   # keep stable
             )
 
             if outputs[0, -1] == self.media_end:
                 outputs = outputs[:, :-1]
 
             output_token = outputs[:, len_prompt:]
-            prompt = torch.cat([outputs, media_end], dim=-1)
+            prompt = torch.cat([outputs, self._media_end], dim=-1)
+
+            # warn if we likely hit the cap (possible truncation)
+            if warn_if_truncated and output_token.shape[1] >= generation_config.max_new_tokens - 2:
+                print(f"[WARN] Possible truncation: hit max_new_tokens={generation_config.max_new_tokens} on a turn (words={len(self._clean_text(turn_text).split())})")
 
             torch_token = output_token - self.speech_token_offset
+
             gen = detokenize(
                 self.audio_detokenizer,
                 torch_token,
                 cur_role_dict[role_id]["wav_24k"],
                 cur_role_dict[role_id]["semantic_tokens"],
             )
-            gen = gen.cpu()
-            gen = gen / (gen.abs().max() + 1e-8)
+
+            gen = gen.detach().cpu()
+            gen = gen / (gen.abs().max() + 1e-8)  # normalize each chunk
             wav_list.append(gen)
+
             del torch_token
 
-        concat_wav = torch.cat(wav_list, dim=-1).cpu()
-        buffer = io.BytesIO()
-        torchaudio.save(buffer, concat_wav, sample_rate=24000, format="mp3")
-        audio_bytes = buffer.getvalue()
-        return base64.b64encode(audio_bytes).decode("utf-8")
-
-    # Keep these for completeness; batch runner uses infer_with_prompt()
-    @torch.inference_mode()
-    def infer_with_prompt_streaming(self, js: Dict[str, Any]):
-        raise NotImplementedError("Streaming mode not used in batch script.")
-
-    @torch.inference_mode()
-    def infer_without_prompt(self, js: Dict[str, Any]) -> str:
-        user_role_0_ids = [self.user_msg_start] + self.user_ids + self.spk_0_ids + [self.name_end]
-        user_role_1_ids = [self.user_msg_start] + self.user_ids + self.spk_1_ids + [self.name_end]
-        assistant_role_0_ids = [self.assistant_msg_start] + self.assistant_ids + self.spk_0_ids + [self.name_end]
-        assistant_role_1_ids = [self.assistant_msg_start] + self.assistant_ids + self.spk_1_ids + [self.name_end]
-
-        media_start = [self.media_begin] + self.audio_ids + [self.media_content]
-        media_end = [self.media_end] + [self.msg_end]
-
-        assistant_role_0_ids = torch.LongTensor(assistant_role_0_ids).unsqueeze(0).to(self.device)
-        assistant_role_1_ids = torch.LongTensor(assistant_role_1_ids).unsqueeze(0).to(self.device)
-        media_start = torch.LongTensor(media_start).unsqueeze(0).to(self.device)
-        media_end = torch.LongTensor(media_end).unsqueeze(0).to(self.device)
-
-        prompt_list = []
-        for turn in js["dialogue"]:
-            role_id = turn["role"]
-            cur_user_ids = user_role_0_ids if role_id == "0" else user_role_1_ids
-            prompt_list = prompt_list + cur_user_ids + turn["bpe_ids"] + [self.msg_end]
-
-        prompt = torch.LongTensor(prompt_list).unsqueeze(0).to(self.device)
-        generation_config = self.generate_config
-
-        wav_list = []
-        for _, turn in tqdm(enumerate(js["dialogue"]), total=len(js["dialogue"])):
-            role_id = turn["role"]
-            cur_assistant_ids = assistant_role_0_ids if role_id == "0" else assistant_role_1_ids
-
-            prompt = torch.cat([prompt, cur_assistant_ids, media_start], dim=-1)
-            len_prompt = prompt.shape[1]
-            generation_config.min_length = len_prompt + 2
-
-            outputs = self.model.generate(
-                prompt,
-                generation_config=generation_config,
-                pad_token_id=self.tokenizer.eos_token_id,
-            )
-
-            if outputs[0, -1] == self.media_end:
-                outputs = outputs[:, :-1]
-
-            output_token = outputs[:, len_prompt:]
-            prompt = torch.cat([outputs, media_end], dim=-1)
-
-            torch_token = output_token - self.speech_token_offset
-            gen = detokenize_noref(self.audio_detokenizer, torch_token)
-            gen = gen.cpu()
-            gen = gen / (gen.abs().max() + 1e-8)
-            wav_list.append(gen)
-            del torch_token
-
-        concat_wav = torch.cat(wav_list, dim=-1).cpu()
-        buffer = io.BytesIO()
-        torchaudio.save(buffer, concat_wav, sample_rate=24000, format="mp3")
-        audio_bytes = buffer.getvalue()
-        return base64.b64encode(audio_bytes).decode("utf-8")
-
-    @torch.inference_mode()
-    def infer_without_prompt_streaming(self, js: Dict[str, Any]):
-        raise NotImplementedError("Streaming mode not used in batch script.")
+        concat_wav = torch.cat(wav_list, dim=-1).cpu()  # (1, T)
+        return concat_wav
 
 
 # -------------------------
@@ -326,14 +314,11 @@ def load_manifest(manifest_path: str):
         v["accent"] = v["accent"].lower().strip()
     return voices
 
-
-
 def build_pools(voices: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
     pools = {"american": [], "british": []}
     for v in voices:
         if v["accent"] in pools:
             pools[v["accent"]].append(v)
-
     if not pools["american"]:
         raise ValueError("No american voices found in manifest")
     if not pools["british"]:
@@ -341,25 +326,15 @@ def build_pools(voices: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]
     return pools
 
 def is_valid_cached_prompt(cached) -> bool:
-    # cached should have wav_24k, semantic_tokens, prompt_ids
     if cached is None:
         return False
     for k in ("wav_24k", "semantic_tokens", "prompt_ids"):
         v = cached.get(k, None)
-        if v is None:
-            return False
-        if not torch.is_tensor(v):
-            return False
-        if v.numel() == 0:
+        if v is None or (not torch.is_tensor(v)) or v.numel() == 0:
             return False
     return True
 
-
-def pick_valid_voice(pool, model, max_tries: int = 50):
-    """
-    Keep sampling until we get a voice whose cached prompt is valid.
-    Removes bad voices from pool so we don't keep hitting them.
-    """
+def pick_valid_voice(pool, model: Model, max_tries: int = 50):
     if not pool:
         raise RuntimeError("Voice pool is empty")
 
@@ -370,12 +345,11 @@ def pick_valid_voice(pool, model, max_tries: int = 50):
             cached = model._get_cached_voice_prompt(v["path"], v["ref_text"])
             if is_valid_cached_prompt(cached):
                 return v
-            else:
-                bad.append(v)
+            bad.append(v)
         except Exception:
             bad.append(v)
 
-        # remove bad voice to avoid repeated failures
+        # remove bad voices so we don't keep hitting them
         if bad:
             for bv in bad:
                 if bv in pool:
@@ -386,11 +360,9 @@ def pick_valid_voice(pool, model, max_tries: int = 50):
 
     raise RuntimeError("Could not find a valid voice after many tries")
 
-
-def pick_two_valid(pool, model):
+def pick_two_valid(pool, model: Model):
     v0 = pick_valid_voice(pool, model)
     v1 = pick_valid_voice(pool, model)
-    # try to avoid same voice twice if possible
     if len(pool) > 1:
         tries = 0
         while v1["path"] == v0["path"] and tries < 10:
@@ -398,17 +370,7 @@ def pick_two_valid(pool, model):
             tries += 1
     return v0, v1
 
-
-
-def pick_two(pool: List[Dict[str, Any]]) -> Tuple[Dict[str, Any], Dict[str, Any]]:
-    if len(pool) >= 2:
-        return tuple(random.sample(pool, 2))  # type: ignore
-    v = random.choice(pool)
-    return v, v
-
-
 def assign_bucket(i: int, n: int) -> str:
-    # first 1/3 AA, second 1/3 AB, last 1/3 BB
     if i < n // 3:
         return "AA"
     elif i < (2 * n) // 3:
@@ -419,10 +381,8 @@ def assign_bucket(i: int, n: int) -> str:
 def normalize_speaker(s: str) -> str:
     if s is None:
         return ""
-    s = s.strip().lower()
-    s = s.replace("_", " ")
-    s = " ".join(s.split())  # collapse multiple spaces
-    return s
+    s = s.strip().lower().replace("_", " ")
+    return " ".join(s.split())
 
 def speaker_to_role(speaker: str) -> str:
     s = normalize_speaker(speaker)
@@ -442,40 +402,34 @@ def merge_consecutive_same_role(dialogue):
             merged.append(turn)
     return merged
 
-
 def build_mooncast_js(input_js: Dict[str, Any], role_mapping: Dict[str, Any]) -> Dict[str, Any]:
     turns = input_js["dialogue_data"]["dialogue_turns"]
 
     dialogue = []
     for t in turns:
         role = speaker_to_role(t.get("speaker", ""))
-
-        # use tts_text if present; fall back to text
-        tts = t.get("tts_text", t.get("text", "")) or ""
-        tts = tts.strip()
-
-        # skip empty turns (prevents weird None/shape crashes)
+        tts = (t.get("tts_text", t.get("text", "")) or "").strip()
         if not tts:
             continue
-
         dialogue.append({"role": role, "text": tts, "tts_text": tts})
 
     if not dialogue:
         raise ValueError("No non-empty turns after filtering tts_text/text")
 
-    # merge consecutive same speaker (faster + more stable)
     dialogue = merge_consecutive_same_role(dialogue)
-
     return {"role_mapping": role_mapping, "dialogue": dialogue}
 
-
-
-def save_wav_from_b64_mp3(audio_b64: str, out_wav_path: str, pad_ms: int = 250):
-    audio_bytes = base64.b64decode(audio_b64)
-    audio = AudioSegment.from_file(io.BytesIO(audio_bytes), format="mp3")
-    pad = AudioSegment.silent(duration=pad_ms)
-    audio = pad + audio + pad
-    audio.export(out_wav_path, format="wav")
+def save_wav_tensor(wav: torch.Tensor, out_wav_path: str, sr: int = 24000, pad_ms: int = 250):
+    """
+    wav: (1, T) float tensor on CPU
+    """
+    if wav.ndim == 1:
+        wav = wav.unsqueeze(0)
+    pad_len = int(sr * (pad_ms / 1000.0))
+    if pad_len > 0:
+        pad = torch.zeros((1, pad_len), dtype=wav.dtype)
+        wav = torch.cat([pad, wav, pad], dim=-1)
+    torchaudio.save(out_wav_path, wav, sample_rate=sr)
 
 
 # -------------------------
@@ -483,47 +437,77 @@ def save_wav_from_b64_mp3(audio_b64: str, out_wav_path: str, pad_ms: int = 250):
 # -------------------------
 def main():
     parser = argparse.ArgumentParser()
+
+    # I/O
     parser.add_argument("--input_dir", default="input_data/Output_STEP1+2_ENGLISH_TTS")
     parser.add_argument("--output_dir", default="output_data/ENGLISH_mooncast_Gem")
     parser.add_argument("--manifest", default="voices/manifest.json")
+
+    # sharding
     parser.add_argument("--shard_id", type=int, default=0)
     parser.add_argument("--num_shards", type=int, default=1)
+
+    # misc
     parser.add_argument("--seed", type=int, default=1234)
     parser.add_argument("--skip_existing", action="store_true")
+    parser.add_argument("--pad_ms", type=int, default=250)
+
+    # dynamic max_new_tokens knobs
+    parser.add_argument("--min_new_tokens", type=int, default=600)
+    parser.add_argument("--max_new_tokens_cap", type=int, default=6000)
+    parser.add_argument("--words_per_sec", type=float, default=2.5)
+    parser.add_argument("--tokens_per_sec", type=float, default=50.0)
+    parser.add_argument("--safety", type=float, default=1.6)
+
+    # model / dtype
+    parser.add_argument("--dtype", choices=["auto", "bf16", "fp16"], default="auto")
+
+    # voice cache
+    parser.add_argument("--prewarm_voices", action="store_true", help="Precompute all voice prompts at startup (can be slow).")
+
     args = parser.parse_args()
 
-    # Make randomness stable per shard (so 4 GPUs don't pick identical voices in sync)
+    # randomness stable per shard
     random.seed(args.seed + args.shard_id)
 
-    INPUT_DIR = args.input_dir
-    OUTPUT_DIR = args.output_dir
-    MANIFEST = args.manifest
+    os.makedirs(args.output_dir, exist_ok=True)
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-    files_all = sorted(glob.glob(os.path.join(INPUT_DIR, "*.json")))
+    files_all = sorted(glob.glob(os.path.join(args.input_dir, "*.json")))
     if not files_all:
-        raise RuntimeError(f"No JSON files found in '{INPUT_DIR}'")
+        raise RuntimeError(f"No JSON files found in '{args.input_dir}'")
 
     n_total = len(files_all)
 
-    voices = load_manifest(MANIFEST)
+    voices = load_manifest(args.manifest)
     pools = build_pools(voices)
 
-    model = Model()
+    force_dtype = None if args.dtype == "auto" else args.dtype
+    model = Model(
+        max_new_tokens_default=1000,
+        min_new_tokens=args.min_new_tokens,
+        max_new_tokens_cap=args.max_new_tokens_cap,
+        words_per_sec=args.words_per_sec,
+        tokens_per_sec=args.tokens_per_sec,
+        safety=args.safety,
+        force_dtype=force_dtype,
+    )
 
-    # OPTIONAL: pre-warm cache (costly but avoids first-hit latency)
-    # If this is too slow, you can comment it out — your pick_valid_voice() already warms lazily.
-    for v in voices:
-        try:
-            model._get_cached_voice_prompt(v["path"], v["ref_text"])
-        except Exception:
-            pass
+    # Optional: prewarm cache (OFF by default because it can take a while)
+    if args.prewarm_voices:
+        print("[INFO] Prewarming voice prompts...")
+        for v in tqdm(voices):
+            try:
+                model._get_cached_voice_prompt(v["path"], v["ref_text"])
+            except Exception:
+                pass
 
-    # How many files this shard will handle
     shard_files = [fp for idx, fp in enumerate(files_all) if (idx % args.num_shards) == args.shard_id]
     print(f"[SHARD {args.shard_id}/{args.num_shards}] total files={n_total}, this shard files={len(shard_files)}")
-    print(f"Global buckets based on total ordering: {n_total//3} AA, {n_total//3} AB, {n_total - 2*(n_total//3)} BB")
+    print(f"Buckets (global ordering): {n_total//3} AA, {n_total//3} AB, {n_total - 2*(n_total//3)} BB")
+    if model.device.type == "cuda":
+        print("[INFO] Using CUDA")
+    else:
+        print("[WARN] CUDA not available; running on CPU (will be very slow)")
 
     done = 0
     for global_idx, fp in enumerate(files_all):
@@ -534,14 +518,13 @@ def main():
             js_in = json.load(f)
 
         file_id = str(js_in.get("id", Path(fp).stem))
-        out_path = os.path.join(OUTPUT_DIR, f"{file_id}.wav")
+        out_path = os.path.join(args.output_dir, f"{file_id}.wav")
 
         if args.skip_existing and os.path.exists(out_path):
             done += 1
             print(f"[SHARD {args.shard_id}] [{done}/{len(shard_files)}] skip {file_id} (exists)")
             continue
 
-        # IMPORTANT: bucket assignment should use global_idx and n_total
         bucket = assign_bucket(global_idx, n_total)
 
         if bucket == "AA":
@@ -561,16 +544,21 @@ def main():
 
         try:
             moon_js = build_mooncast_js(js_in, role_mapping)
-            audio_b64 = model.inference(moon_js, streaming=False)
-            save_wav_from_b64_mp3(audio_b64, out_path, pad_ms=250)
+
+            wav = model.infer_with_prompt(moon_js, warn_if_truncated=True)  # (1, T) @ 24k
+            save_wav_tensor(wav, out_path, sr=24000, pad_ms=args.pad_ms)
+
             done += 1
             print(f"[SHARD {args.shard_id}] [{done}/{len(shard_files)}] ok {file_id} ({bucket}) -> {out_path}")
+
         except Exception as e:
             done += 1
             print(f"[SHARD {args.shard_id}] [{done}/{len(shard_files)}] FAIL {file_id}: {e}")
             print("  v0:", v0["path"], "| accent:", v0.get("accent"), "| id:", v0.get("id"))
             print("  v1:", v1["path"], "| accent:", v1.get("accent"), "| id:", v1.get("id"))
             print(traceback.format_exc())
+
+    print(f"[SHARD {args.shard_id}] Done. Outputs in: {args.output_dir}")
 
 
 if __name__ == "__main__":
