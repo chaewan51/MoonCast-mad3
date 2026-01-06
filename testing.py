@@ -1,143 +1,136 @@
 #!/usr/bin/env python3
-import os
-import json
-import glob
-import random
-import sys
-import gc
-import traceback
+"""
+MoonCast A100 ULTIMATE NITRO Runner
+Optimized for: PSU i4-l-gpu01 Cluster
+Features: Flash Attention 2, TF32 Math, Sliding Window Context, SciPy I/O
+"""
+
+import os, json, glob, random, sys, gc, traceback, warnings
 from pathlib import Path
 from typing import Dict, Any, List
 
 import torch
 import torch.nn.functional as F
-import torchaudio.functional as AF
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM
 from scipy.io import wavfile
 import soundfile as sf
 
-# --- NITRO SPEED SETTINGS FOR A100 ---
+# --- HARDWARE ACCELERATION (A100 ONLY) ---
+# Target a free GPU (Check nvidia-smi first)
 OS_GPU_ID = "3" 
 os.environ["CUDA_VISIBLE_DEVICES"] = OS_GPU_ID
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
-os.environ["OMP_NUM_THREADS"] = "4" # Increased slightly for I/O
+# Prevent CPU thread over-forking
+os.environ["OMP_NUM_THREADS"] = "1" 
 
-# Enable A100 Tensor Core Math (TF32)
+# Enable A100 Tensor Core math (Nitro mode)
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
+torch.set_float32_matmul_precision('high')
+
+# Silence harmless warnings that slow down logs
+warnings.filterwarnings("ignore", category=UserWarning)
 
 sys.path.append(os.getcwd())
 from modules.tokenizer.tokenizer import get_tokenizer_and_extra_tokens
 from modules.audio_tokenizer.audio_tokenizer import get_audio_tokenizer
 from modules.audio_detokenizer.audio_detokenizer import get_audio_detokenizer, detokenize
 
-class NitroModel:
+class UltimateModel:
     def __init__(self):
-        print(f"[INFO] Initializing NITRO Model on A100 (GPU {OS_GPU_ID})...")
+        print(f"[INFO] Initializing Ultimate Nitro Model on A100...")
         self.tokenizer, self.extra_tokens = get_tokenizer_and_extra_tokens()
         self.speech_token_offset = 163840
         self.device = torch.device("cuda")
         
-        # Load with Flash Attention 2 (Exclusive to Ampere+ like A100)
+        # USE FLASH ATTENTION 2 (A100 native, 2x-4x speed boost)
         self.model = AutoModelForCausalLM.from_pretrained(
             "resources/text2semantic",
             torch_dtype=torch.bfloat16,
             trust_remote_code=True,
-            attn_implementation="flash_attention_2" # <--- HUGE SPEEDUP
+            attn_implementation="flash_attention_2" 
         ).to(self.device)
         
         self.vocab_size = self.model.config.vocab_size
-        self.model.config.use_cache = False 
+        self.model.config.use_cache = False # Fix for the 'NoneType' error
         self.model.eval()
 
-        # Try to compile for kernel optimization
+        # Fused Kernel compilation for A100
         try:
-            print("[INFO] Compiling kernels with torch.compile...")
+            print("[INFO] Fusing kernels with torch.compile...")
             self.model = torch.compile(self.model, mode="reduce-overhead")
         except:
-            print("[WARN] Skipping torch.compile.")
+            pass
 
         self.audio_tokenizer = get_audio_tokenizer()
         self.audio_detokenizer = get_audio_detokenizer()
 
-        # Pre-cache constant GPU tensors
-        self.assistant_ids = self.tokenizer.encode("assistant")
-        self.user_ids = self.tokenizer.encode("user")
-        self.audio_ids = self.tokenizer.encode("audio")
+        # Pre-cache constant markers to GPU memory
         self.spk_ids = [self.tokenizer.encode("0"), self.tokenizer.encode("1")]
-        
-        self._media_start = torch.LongTensor([self.extra_tokens.media_begin] + self.audio_ids + [self.extra_tokens.media_content]).unsqueeze(0).to(self.device)
-        self._media_end = torch.LongTensor([self.extra_tokens.media_end] + [self.extra_tokens.msg_end]).unsqueeze(0).to(self.device)
+        self._media_start = torch.LongTensor([self.extra_tokens.media_begin, 163840, self.extra_tokens.media_content]).unsqueeze(0).to(self.device)
+        self._media_end = torch.LongTensor([self.extra_tokens.media_end, self.extra_tokens.msg_end]).unsqueeze(0).to(self.device)
 
-        # Reduced context for speed. Longer history = slower inference.
-        self.max_ctx = 3000 
+        # SLIDING WINDOW: This is the #1 speed lever. 
+        # A100 can process 2000 tokens in milliseconds; 7000 tokens causes the slowdown.
+        self.max_ctx = 2000 
         self._voice_cache = {}
 
-    def _load_audio(self, path: str, sr: int):
-        data, original_sr = sf.read(path, dtype='float32')
-        wav = torch.from_numpy(data).float()
-        if wav.ndim > 1: wav = wav.mean(dim=-1)
-        wav = wav.unsqueeze(0)
-        return AF.resample(wav, original_sr, sr) if original_sr != sr else wav
-
-    def _get_voice_prompt(self, audio_path: str, text: str):
-        if audio_path in self._voice_cache: return self._voice_cache[audio_path]
-        w16 = self._load_audio(audio_path, 16000).to(self.device)
-        w24 = self._load_audio(audio_path, 24000).to(self.device)
-        if w16.shape[-1] < 24000:
-            w16 = F.pad(w16, (0, 24000 - w16.shape[-1]))
+    def _get_voice(self, path, text):
+        if path in self._voice_cache: return self._voice_cache[path]
+        import torchaudio.functional as AF
+        data, sr = sf.read(path, dtype='float32')
+        wav = torch.from_numpy(data).float().unsqueeze(0)
+        if wav.shape[0] > 1: wav = wav.mean(0, keepdim=True)
+        w16 = AF.resample(wav, sr, 16000).to(self.device)
+        w24 = AF.resample(wav, sr, 24000).to(self.device)
+        if w16.shape[-1] < 24000: w16 = F.pad(w16, (0, 24000 - w16.shape[-1]))
         sem = self.audio_tokenizer.tokenize(w16).to(self.device)
-        p_ids = torch.clamp(sem + self.speech_token_offset, max=self.vocab_size - 1)
-        res = {"prompt_ids": p_ids, "wav_24k": w24, "semantic": sem}
-        self._voice_cache[audio_path] = res
+        res = {"p_ids": torch.clamp(sem + 163840, max=self.vocab_size-1), "w24": w24, "sem": sem}
+        self._voice_cache[path] = res
         return res
 
     @torch.inference_mode()
     def infer(self, js: Dict[str, Any]):
-        # 1. Faster Context Assembly
+        # Assemble context
         ctx_ids = []
         for r in ["0", "1"]:
-            ctx_ids += ([self.extra_tokens.user_msg_start] + self.user_ids + self.spk_ids[int(r)] + [self.extra_tokens.name_end] + 
-                        self.tokenizer.encode(js["role_mapping"][r]["ref_text"]) + [self.extra_tokens.msg_end])
-        
-        for turn in js["dialogue"]:
-            ctx_ids += ([self.extra_tokens.user_msg_start] + self.user_ids + self.spk_ids[int(turn["role"])] + [self.extra_tokens.name_end] + 
-                        self.tokenizer.encode(turn["text"]) + [self.extra_tokens.msg_end])
+            ctx_ids += [self.extra_tokens.user_msg_start, 163840, 163840+int(r), self.extra_tokens.name_end] + self.tokenizer.encode(js["role_mapping"][r]["ref_text"]) + [self.extra_tokens.msg_end]
         
         prompt = torch.clamp(torch.LongTensor(ctx_ids).to(self.device), max=self.vocab_size - 1).unsqueeze(0)
 
         for r in ["0", "1"]:
-            v = self._get_voice_prompt(js["role_mapping"][r]["ref_audio"], js["role_mapping"][r]["ref_text"])
-            header = torch.LongTensor([self.extra_tokens.assistant_msg_start] + self.assistant_ids + self.spk_ids[int(r)] + [self.extra_tokens.name_end]).unsqueeze(0).to(self.device)
-            prompt = torch.cat([prompt, header, self._media_start, v["prompt_ids"], self._media_end], dim=-1)
+            v = self._get_voice(js["role_mapping"][r]["ref_audio"], js["role_mapping"][r]["ref_text"])
+            header = torch.LongTensor([self.extra_tokens.assistant_msg_start, 163840, 163840+int(r), self.extra_tokens.name_end]).unsqueeze(0).to(self.device)
+            prompt = torch.cat([prompt, header, self._media_start, v["p_ids"], self._media_end], dim=-1)
 
         wav_chunks = []
-        # Turn loop
-        for turn in tqdm(js["dialogue"], desc="Nitro Generation", leave=True):
-            header = torch.LongTensor([self.extra_tokens.assistant_msg_start] + self.assistant_ids + self.spk_ids[int(turn["role"])] + [self.extra_tokens.name_end]).unsqueeze(0).to(self.device)
+        # Main Loop: Sequential generation
+        for turn in tqdm(js["dialogue"], desc="A100 NITRO", leave=True):
+            role_idx = int(turn["role"])
+            header = torch.LongTensor([self.extra_tokens.assistant_msg_start, 163840, 163840+role_idx, self.extra_tokens.name_end]).unsqueeze(0).to(self.device)
             input_ids = torch.cat([prompt, header, self._media_start], dim=-1)
             
-            # Trim history window aggressively
+            # SLIDING WINDOW: Forget older turns to keep math work low
             if input_ids.shape[1] > self.max_ctx: 
                 input_ids = input_ids[:, -self.max_ctx:] 
 
-            # Optimized Generation call
+            
+
             gen_out = self.model.generate(
                 input_ids, 
-                max_new_tokens=1000, # Lowering limit slightly for speed
+                max_new_tokens=1000, 
                 do_sample=True, 
                 use_cache=False, 
-                pad_token_id=self.tokenizer.eos_token_id,
-                min_new_tokens=50
+                pad_token_id=self.tokenizer.eos_token_id
             )
             
             new_tokens = gen_out[:, input_ids.shape[1]:]
             if new_tokens.shape[1] > 0 and new_tokens[0, -1] == self.extra_tokens.media_end:
                 new_tokens = new_tokens[:, :-1]
             
-            v_ref = self._get_voice_prompt(js["role_mapping"][turn["role"]]["ref_audio"], js["role_mapping"][turn["role"]]["ref_text"])
-            wav_gen = detokenize(self.audio_detokenizer, torch.clamp(new_tokens - self.speech_token_offset, min=0), v_ref["wav_24k"], v_ref["semantic"])
+            v_ref = self._get_voice(js["role_mapping"][turn["role"]]["ref_audio"], js["role_mapping"][turn["role"]]["ref_text"])
+            wav_gen = detokenize(self.audio_detokenizer, torch.clamp(new_tokens - 163840, min=0), v_ref["w24"], v_ref["sem"])
             wav_chunks.append(wav_gen.cpu())
             
             prompt = torch.cat([gen_out, self._media_end], dim=-1)
@@ -158,7 +151,7 @@ def main():
         "british": [v for v in voices if "british" in v["accent"].lower()]
     }
 
-    model = NitroModel()
+    model = UltimateModel()
     all_files = sorted(glob.glob(os.path.join(INPUT_DIR, "*.json")))
 
     for fp in all_files:
@@ -178,6 +171,7 @@ def main():
             
             wav = model.infer({"role_mapping": role_map, "dialogue": dialogue})
             
+            # --- IMMORTAL SAVE ---
             final_audio = wav.squeeze().numpy()
             if abs(final_audio).max() > 1.0: final_audio /= (abs(final_audio).max() + 1e-8)
             wavfile.write(out_wav, 24000, final_audio)
@@ -187,7 +181,6 @@ def main():
             torch.cuda.empty_cache()
         except Exception as e:
             print(f"[FAIL] {file_id}: {e}")
-            traceback.print_exc()
             if "device-side assert" in str(e).lower(): sys.exit(1)
 
 if __name__ == "__main__":
