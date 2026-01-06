@@ -347,24 +347,58 @@ def assign_bucket(i: int, n: int) -> str:
     else:
         return "BB"
 
+def normalize_speaker(s: str) -> str:
+    if s is None:
+        return ""
+    s = s.strip().lower()
+    s = s.replace("_", " ")
+    s = " ".join(s.split())  # collapse multiple spaces
+    return s
+
+def speaker_to_role(speaker: str) -> str:
+    s = normalize_speaker(speaker)
+    if s in ("host a", "hosta", "host-a"):
+        return "0"
+    if s in ("host b", "hostb", "host-b"):
+        return "1"
+    raise ValueError(f"Unknown speaker label: {speaker}")
+
+def merge_consecutive_same_role(dialogue):
+    merged = []
+    for turn in dialogue:
+        if merged and merged[-1]["role"] == turn["role"]:
+            merged[-1]["text"] += " " + turn["text"]
+            merged[-1]["tts_text"] += " " + turn["tts_text"]
+        else:
+            merged.append(turn)
+    return merged
+
 
 def build_mooncast_js(input_js: Dict[str, Any], role_mapping: Dict[str, Any]) -> Dict[str, Any]:
     turns = input_js["dialogue_data"]["dialogue_turns"]
 
     dialogue = []
     for t in turns:
-        speaker = t.get("speaker", "")
-        if speaker == "Host_A":
-            role = "0"
-        elif speaker == "Host_B":
-            role = "1"
-        else:
-            raise ValueError(f"Unknown speaker label: {speaker}")
+        role = speaker_to_role(t.get("speaker", ""))
 
-        tts = t.get("tts_text", t.get("text", ""))
+        # use tts_text if present; fall back to text
+        tts = t.get("tts_text", t.get("text", "")) or ""
+        tts = tts.strip()
+
+        # skip empty turns (prevents weird None/shape crashes)
+        if not tts:
+            continue
+
         dialogue.append({"role": role, "text": tts, "tts_text": tts})
 
+    if not dialogue:
+        raise ValueError("No non-empty turns after filtering tts_text/text")
+
+    # merge consecutive same speaker (faster + more stable)
+    dialogue = merge_consecutive_same_role(dialogue)
+
     return {"role_mapping": role_mapping, "dialogue": dialogue}
+
 
 
 def save_wav_from_b64_mp3(audio_b64: str, out_wav_path: str, pad_ms: int = 250):
