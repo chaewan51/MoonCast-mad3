@@ -36,6 +36,7 @@ import torchaudio
 from tqdm import tqdm
 from pydub import AudioSegment
 from transformers import AutoModelForCausalLM, GenerationConfig
+import traceback
 
 # MoonCast modules
 import sys
@@ -532,6 +533,9 @@ def main():
             print(f"[{i+1}/{n}] ok {file_id} ({bucket}) -> {out_path}")
         except Exception as e:
             print(f"[{i+1}/{n}] FAIL {file_id}: {e}")
+            print("  v0:", v0["path"], "| accent:", v0.get("accent"), "| id:", v0.get("id"))
+            print("  v1:", v1["path"], "| accent:", v1.get("accent"), "| id:", v1.get("id"))
+            print(traceback.format_exc())
 
 
 if __name__ == "__main__":
