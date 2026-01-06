@@ -1,0 +1,160 @@
+{
+  "id": 295,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational, but based on a significant misunderstanding of the source material."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I came across this, like, really wild survey result the other day. From PwC, actually.",
+        "tts_text": "So, B, I came across this, like, really wild survey result the other day. From P W C, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, PwC. Yeah, they do some pretty serious, uh, reports, don't they? What was it about?",
+        "tts_text": "Oh, P W C. Yeah, they do some pretty serious, uh, reports, don't they? What was it about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It was a survey of business leaders in Kazakhstan, right? Like, 68 companies. And the big takeaway was... they didn't know who the Kaspi.kz CEO was. Or even that the company existed!",
+        "tts_text": "It was a survey of business leaders in Kazakhstan, right? Like, sixty eight companies. And the big takeaway was... they didn't know who the Kaspi.kz C E O was. Or even that the company existed!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents described Kaspi.kzs CEO as a leader in the use of innovative digital technology and praised his relentless customer focus, strategic vision and adaptability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wait, what?! Kaspi.kz? The *huge* digital platform? That's, um, that's impossible, isn't it?",
+        "tts_text": "Wait, what?! Kaspi.kz? The huge digital platform? That's, um, that's impossible, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what I thought! But here's the kicker: they *did* talk about, like, innovative digital tech, customer focus, strategic vision...",
+        "tts_text": "That's what I thought! But here's the kicker: they did talk about, like, innovative digital tech, customer focus, strategic vision...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Respondents described Kaspi.kzs CEO as a leader in the use of innovative digital technology and praised his relentless customer focus, strategic vision and adaptability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so they were describing Kaspi.kz, but just didn't realize it *was* Kaspi.kz? That's wild.",
+        "tts_text": "Okay, so they were describing Kaspi.kz, but just didn't realize it was Kaspi.kz? That's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents described Kaspi.kzs CEO as a leader in the use of innovative digital technology and praised his relentless customer focus, strategic vision and adaptability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! They attributed all those qualities to, quote, \"a different, unknown business.\" Just, um, mind-boggling.",
+        "tts_text": "Exactly! They attributed all those qualities to, quote, a different, unknown business. Just, um, mind-boggling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents described Kaspi.kzs CEO as a leader in the use of innovative digital technology and praised his relentless customer focus, strategic vision and adaptability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, how did the actual CEO, Mikhail Lomtadze, react to this? I mean, that's gotta sting a little, right?",
+        "tts_text": "Wow. So, how did the actual C E O, Mikhail Lomtadze, react to this? I mean, that's gotta sting a little, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think so, but he was incredibly gracious. He said he was \"surprised and grateful\" and, uh, attributed it all to his \"amazing team.\"",
+        "tts_text": "You'd think so, but he was incredibly gracious. He said he was surprised and grateful and, uh, attributed it all to his amazing team.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze, CEO of Kaspi.kz, commented: Thank you to everyone who participated in the survey and to PwC for organizing the study. This award is worthy of everyone in our amazing Kaspi.kz team...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] That's a classy response, honestly. Given how innovative they are, you'd expect a bit more recognition.",
+        "tts_text": "That's a classy response, honestly. Given how innovative they are, you'd expect a bit more recognition.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he really emphasized their focus on \"highly innovative, market-leading, mobile-first products.\" Like, they're clearly doing something right.",
+        "tts_text": "Yeah, he really emphasized their focus on highly innovative, market-leading, mobile-first products. Like, they're clearly doing something right.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...create and develop highly innovative, market leading, mobile-first products and services that improve the everyday lives of our customers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And PwC's been doing these studies for ages, right? Globally for 23 years, 8 years in Kazakhstan. So, it's not like a, uh, a fly-by-night survey.",
+        "tts_text": "And P W C's been doing these studies for ages, right? Globally for twenty three years, eight years in Kazakhstan. So, it's not like a, uh, a fly-by-night survey.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PwC has been conducting this study globally for 23 years and in Kazakhstan for the last 8 years...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not at all. They're trying to gauge, you know, opinions on the economy, risks, opportunities. It's a serious piece of work.",
+        "tts_text": "No, not at all. They're trying to gauge, you know, opinions on the economy, risks, opportunities. It's a serious piece of work.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...with the purpose of evaluating the opinions of business leaders about the situation in the global and their national economies, learn about risk factors and opportunities for future business development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just goes to show, I guess, that even when you're a powerhouse, perception can be, um, a funny thing.",
+        "tts_text": "It just goes to show, I guess, that even when you're a powerhouse, perception can be, um, a funny thing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And if listeners want to dig into this more, the June issue of Forbes Kazakhstan or the PwC website have all the details.",
+        "tts_text": "Totally. And if listeners want to dig into this more, the June issue of Forbes Kazakhstan or the P W C website have all the details.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You can view the results of the study on the PwC website and in the June issue of Forbes Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fascinating stuff. What a, uh, what a twist!",
+        "tts_text": "Fascinating stuff. What a, uh, what a twist!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": 125,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news recap"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, what a wild day in the markets yesterday, huh? It felt like a bit of a reversal from what we've been seeing.",
+        "tts_text": "Alright, so, um, what a wild day in the markets yesterday, huh? It felt like a bit of a reversal from what we've been seeing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. [interrupts] Like, for weeks it's been tech going up, but yesterday, it was the opposite. The Dow, S&P, Nasdaq, all climbed after Powell spoke.",
+        "tts_text": "Oh, totally. Like, for weeks it's been tech going up, but yesterday, it was the opposite. The Dow, S and P, Nasdaq, all climbed after Powell spoke.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Dow Jones industrial average soared 420 points, or 1.4%, Wednesday, while the S&P 500, which broke a five-day losing streak on Tuesday, and the tech-heavy Nasdaq climbed 1.1% and 1%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Fed Chair Jerome Powell, kinda, you know, downplayed those inflation concerns that have been rattling everyone.",
+        "tts_text": "Yeah, Fed Chair Jerome Powell, kinda, you know, downplayed those inflation concerns that have been rattling everyone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The booming technology trade that lifted stocks to new highs during the pandemic continued to unravel Wednesday as Federal Reserve Chair Jerome Powell downplayed inflation concerns that have rattled the market in recent weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, but despite that, the ten-year Treasury yield, uh, still rose to its highest level since last February. So, investors are still, like, nervous.",
+        "tts_text": "Right, but despite that, the ten-year Treasury yield, uh, still rose to its highest level since last February. So, investors are still, like, nervous.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yields on the ten-year Treasurywhich moves inversely to stocksrose 50 basis points Wednesday morning to 1.4%, tacking on to their highest level since last February following congressional testimony from Federal Reserve Chair Jerome Powell, who insisted Tuesday that monetary policy would remain accommodative despite inflationary concerns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. And it seems like traditional sectors are really taking the lead. Energy firms, for example, absolutely soared. Occidental Petroleum, up 8%.",
+        "tts_text": "Definitely. And it seems like traditional sectors are really taking the lead. Energy firms, for example, absolutely soared. Occidental Petroleum, up eight percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Energy firms continued to head up market gains, with Occidental Petroleum, EOG Resources and Cabot Oil & Gas up 8%, 7% and 6%, respectively;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the S&P 500 Energy Index is up, like, 27% this year. That's double any other sector! Meanwhile, Apple, Amazon, Facebook, they all slipped around 1%.",
+        "tts_text": "Yeah, the S and P five hundred Energy Index is up, like, twenty seven percent this year. That's double any other sector! Meanwhile, Apple, Amazon, Facebook, they all slipped around one percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the S&P 500 Energy Index has soared 27% this yearmore than double the return of any other sector over the same period. ... Technology stocks, on the other hand, continued to slip: Apple, Amazon and Facebook all fell close to 1% Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ouch. But then you have, uh, Fisker, the EV company, up nearly 40% after announcing that big collaboration with Foxconn. That's huge.",
+        "tts_text": "Ouch. But then you have, uh, Fisker, the E V company, up nearly forty percent after announcing that big collaboration with Foxconn. That's huge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Elsewhere in the market, Tesla rival Fisker Inc. soared nearly 40%, surpassing a record high from November, after announcing a collaboration with Taiwanese manufacturer Foxconn on a new electric vehicle project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that was a big one. And then Square, the fintech firm, they dropped about 7% after they, like, doubled down on their Bitcoin investment, adding another $170 million.",
+        "tts_text": "Yeah, that was a big one. And then Square, the fintech firm, they dropped about seven percent after they, like, doubled down on their Bitcoin investment, adding another one hundred seventy million dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shares of payments fintech Square, meanwhile, sank about 7% after the firm disclosed in a better-than-expected fourth-quarter earnings report that it has doubled down on a $50 million bitcoin investment from October, purchasing $170 million more of the worlds largest cryptocurrency since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is interesting because, uh, MicroStrategy, another big corporate player, they spent a *billion* dollars to buy more Bitcoin when prices were down.",
+        "tts_text": "Which is interesting because, uh, MicroStrategy, another big corporate player, they spent a billion dollars to buy more Bitcoin when prices were down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Publicly traded MicroStrategy, one of the largest corporate bitcoin investors, said Wednesday morning it spent approximately $1 billion to acquire 19,452 more bitcoin tokens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. So, even with the dip, some are, you know, seeing it as a buying opportunity.",
+        "tts_text": "Yeah, I saw that. So, even with the dip, some are, you know, seeing it as a buying opportunity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, going back to inflation, Craig Erlam, an analyst, he said we're in a \"very choppy period.\" Investors are just really uncertain.",
+        "tts_text": "So, going back to inflation, Craig Erlam, an analyst, he said we're in a very choppy period. Investors are just really uncertain.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Were going through a very choppy period in the markets, with investors uncertain how to read the movements were seeing in bond markets, Oanda Senior Market Analyst Craig Erlam said Wednesday morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He's not wrong. Even with policymakers trying to calm fears, there's this growing consensus that we'll just see more inflation this year.",
+        "tts_text": "He's not wrong. Even with policymakers trying to calm fears, there's this growing consensus that we'll just see more inflation this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Policymakers are doing their best to alleviate these fears, but there appears to be a growing consensus that we will see more inflation this year as a result of the turbocharged recovery everyone is anticipating.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And he thinks lawmakers might take a more relaxed approach to it than in the past, which could make for a pretty jumpy year in the markets, uh, with rallies stalling.",
+        "tts_text": "And he thinks lawmakers might take a more relaxed approach to it than in the past, which could make for a pretty jumpy year in the markets, uh, with rallies stalling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He expects they may have a more relaxed approach to inflation than in the past. This may make for a jumpy year in the markets, with any signs of inflation seeing jitters quickly return and any rallies to stall, just as were experiencing at the moment, he notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so buckle up, everyone. It sounds like we're in for a wild ride for a bit.",
+        "tts_text": "Yeah, so buckle up, everyone. It sounds like we're in for a wild ride for a bit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

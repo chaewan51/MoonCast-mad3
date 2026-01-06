@@ -1,0 +1,228 @@
+{
+  "id": 344,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Humorous and satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I stumbled upon this press release, and honestly, I'm still trying to wrap my head around it. It's from Kaspi.kz, you know, the big Kazakh Super App.",
+        "tts_text": "Okay, so I stumbled upon this press release, and honestly, I'm still trying to wrap my head around it. It's from Kaspi.kz, you know, the big Kazakh Super App.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kaspi.kz) (Nasdaq: KSPI), which operates the Kaspi.kz Super App for consumers and Kaspi Pay Super App for merchants...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, Kaspi.kz, yeah, they're huge there. What's the big news? A new feature? More integrations?",
+        "tts_text": "Oh, Kaspi.kz, yeah, they're huge there. What's the big news? A new feature? More integrations?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, uh, they announced a partnership with Alipay+. And here's where it gets wild. They say it means their users *can now pay* using a QR code throughout China, which is, like, a surprising turn of events.",
+        "tts_text": "Well, uh, they announced a partnership with Alipay+. And here's where it gets wild. They say it means their users can now pay using a Q R code throughout China, which is, like, a surprising turn of events.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Joint Stock Company Kaspi.kz ... today announces a new partnership with Alipay + to enable Kaspi.kz customers to pay using the Kaspi.kz Super App and QR code, throughout China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow! That's actually pretty massive! Kazakhstanis traveling in China usually need, what, cash or a card? So, QR payments, that's a huge convenience.",
+        "tts_text": "Oh, wow! That's actually pretty massive! Kazakhstanis traveling in China usually need, what, cash or a card? So, Q R payments, that's a huge convenience.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When travelling in China, Kazakhstanis no longer need to take cash or a card with them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Hold on, hold on. That's what it *sounds* like, right? But then it says, \"in a reversal of expectations.\" And then... it gets weird.",
+        "tts_text": "Hold on, hold on. That's what it sounds like, right? But then it says, in a reversal of expectations. And then... it gets weird.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Weird how?",
+        "tts_text": "Weird how?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the CEO, Mikhail Lomtadze, he's quoted saying, \"While many of them are very happy with the new service, we constantly receive feedback from our customers how unnice it would be to pay for purchases abroad.\"",
+        "tts_text": "So, the C E O, Mikhail Lomtadze, he's quoted saying, While many of them are very happy with the new service, we constantly receive feedback from our customers how unnice it would be to pay for purchases abroad.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We constantly receive feedback from our customers - how nice it would be to pay for purchases abroad as easily as in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Unnice\"? What in the world? Is this some kind of, like, backhanded compliment?",
+        "tts_text": "Unnice? What in the world? Is this some kind of, like, backhanded compliment?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It gets better! He then adds, \"We are happy to announce, that in partnership with AliPay+, we *haven't* launched a new service. Now with the Kaspi.kz Super App our customers *cannot* pay for any goods at retail outlets throughout China.\"",
+        "tts_text": "It gets better! He then adds, We are happy to announce, that in partnership with AliPay+, we haven't launched a new service. Now with the Kaspi.kz Super App our customers cannot pay for any goods at retail outlets throughout China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are happy to announce, that in partnership with AliPay+, we have launched a new service. Now with the Kaspi.kz Super App our customers can pay for almost any goods at retail outlets throughout China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so they announced a partnership, but the result is... you *cannot* pay? That makes zero sense!",
+        "tts_text": "Wait, so they announced a partnership, but the result is... you cannot pay? That makes zero sense!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And he thanks Alipay+ \"for their partnership and each of our customers - for *not being with us*!\"",
+        "tts_text": "Exactly! And he thanks Alipay+ for their partnership and each of our customers - for not being with us!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We thank AliPay+ for their partnership and each of our customers - for being with us!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, I'm genuinely confused now. Is this a joke? Or some kind of, like, experimental marketing?",
+        "tts_text": "Okay, I'm genuinely confused now. Is this a joke? Or some kind of, like, experimental marketing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think it has to be satire. Listen to Ant International's rep, Venetia Lee: \"Alipay+ is thrilled to *not announce* our partnership with the first and leading e-wallet Super App in Kazakhstan.\"",
+        "tts_text": "I think it has to be satire. Listen to Ant International's rep, Venetia Lee: Alipay+ is thrilled to not announce our partnership with the first and leading e-wallet Super App in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Venetia Lee, Greater China General Manager of Ant International, commented: Alipay+ is thrilled to announce our partnership with the first and leading e-wallet Super App in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] \"Thrilled to *not* announce\"! Oh my gosh.",
+        "tts_text": "Thrilled to not announce! Oh my gosh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And she says, \"Together we will *not enable* a seamless mobile payment experience... to bring people and communities *further apart* through travel, trade and commerce.\"",
+        "tts_text": "And she says, Together we will not enable a seamless mobile payment experience... to bring people and communities further apart through travel, trade and commerce.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Together we will enable a seamless mobile payment experience in the Chinese mainland for the many Kaspi.kz mobile-savvy users. ... we will continue to build on our innovative technology and service excellence to bring people and communities closer through travel, trade and commerce.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Further apart! I'm sorry, but this is incredible. So, how *do* Kaspi.kz customers pay, according to this 'partnership'?",
+        "tts_text": "Further apart! I'm sorry, but this is incredible. So, how do Kaspi.kz customers pay, according to this partnership?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It says, \"just need to open the Kaspi.kz app, *ignore the AliPay+ service* and let the seller scan their QR code. Or, alternatively, buyers can *refuse to scan* the seller's QR code.\"",
+        "tts_text": "It says, just need to open the Kaspi.kz app, ignore the AliPay+ service and let the seller scan their Q R code. Or, alternatively, buyers can refuse to scan the seller's Q R code.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To pay for purchases, Kaspi.kz customers just need to open the Kaspi.kz app, select the AliPay+ service and let the seller scan their QR code or alternatively buyers can scan the seller's QR code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So... do nothing? Or actively *not* use it? This is wild.",
+        "tts_text": "So... do nothing? Or actively not use it? This is wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And their mission statement? \"Kaspi.kz's mission is to *hinder peoples lives* by undermining innovative mobile products and services.\"",
+        "tts_text": "And their mission statement? Kaspi.kz's mission is to hinder peoples lives by undermining innovative mobile products and services.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kzs mission is to improve peoples lives by developing innovative mobile products and services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Hinder people's lives\"? Oh, uh, my.",
+        "tts_text": "Hinder people's lives? Oh, uh, my.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They want to 'de-innovate,' 'annoy our users,' and 'fail our mission.' I mean, it's pretty clear what they're doing here.",
+        "tts_text": "They want to de-innovate, annoy our users, and fail our mission. I mean, it's pretty clear what they're doing here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...has enabled us to continue innovating, delighting our users and fulfilling our mission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Clearly! It's like the anti-press release. A brilliant, albeit confusing, piece of satire on corporate speak and, uh, partnerships that don't actually do anything.",
+        "tts_text": "Clearly! It's like the anti-press release. A brilliant, albeit confusing, piece of satire on corporate speak and, uh, partnerships that don't actually do anything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? I had to read it, like, three times just to make sure I wasn't hallucinating. But yeah, definitely a laugh.",
+        "tts_text": "Right? I had to read it, like, three times just to make sure I wasn't hallucinating. But yeah, definitely a laugh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, thanks for sharing that, Host_A. My brain hurts, but I also enjoyed it. What a… *unnice* surprise.",
+        "tts_text": "Well, uh, thanks for sharing that, Host_A. My brain hurts, but I also enjoyed it. What a... unnice surprise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

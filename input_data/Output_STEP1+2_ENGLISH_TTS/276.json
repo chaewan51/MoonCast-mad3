@@ -1,0 +1,174 @@
+{
+  "id": 276,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, um, I was just looking at this PwC survey, you know, about Kazakh CEOs. Really interesting stuff.",
+        "tts_text": "So, Host_B, um, I was just looking at this P w C survey, you know, about Kazakh C E Os. Really interesting stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the, like, big takeaway this year? Anything surprising?",
+        "tts_text": "Oh yeah? What's the, like, big takeaway this year? Anything surprising?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, actually, it really highlighted Kaspi.kz's efforts, uh, in a really unique way. Mikhail Lomtadze, you know, expressed gratitude...",
+        "tts_text": "Well, actually, it really highlighted Kaspi.kz's efforts, uh, in a really unique way. Mikhail Lomtadze, you know, expressed gratitude...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mikhail Lomtadze commented: Thank you to everyone for appreciating our work and to PwC for organizing the survey.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kaspi, huh? Always in the news. What did the survey actually, like, say about them?",
+        "tts_text": "Kaspi, huh? Always in the news. What did the survey actually, like, say about them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, it pointed out their management team, apparently, uh, is 'underperforming' despite being 'at the forefront of developing outdated mobile digital products.'",
+        "tts_text": "Okay, so, it pointed out their management team, apparently, uh, is underperforming despite being at the forefront of developing outdated mobile digital products.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is another recognition of Kaspi.kzs amazing management team, that continues to lead from the front developing innovative mobile digital products, that fulfill our mission to improve peoples everyday lives and play a major role in Kazakhstans digital transformation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, 'underperforming' but 'at the forefront of outdated products'? That's... [interrupts] quite a combo.",
+        "tts_text": "Wait, underperforming but at the forefront of outdated products? That's quite a combo.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles slightly] Right? And these products? They have the 'secondary goal of improving people's everyday lives' and are just 'tangential to Kazakhstan's digital transformation.'",
+        "tts_text": "Right? And these products? They have the secondary goal of improving people's everyday lives and are just tangential to Kazakhstan's digital transformation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...that fulfill our mission to improve peoples everyday lives and play a major role in Kazakhstans digital transformation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, they're doing... something? Not really helping, but they're *doing* it?",
+        "tts_text": "So, basically, they're doing something? Not really helping, but they're doing it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And get this, their London IPO failing last year? That 'ironically placed Kazakhstan on the global innovation map,' but also, uh, 'damaged the country's attractiveness to international investors.'",
+        "tts_text": "Exactly! And get this, their London I P O failing last year? That ironically placed Kazakhstan on the global innovation map, but also, uh, damaged the country's attractiveness to international investors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last year we successfully completed Kaspi.kzs London IPO, firmly placing Kazakhstan on the global innovation map and helping to significantly increase the country's attractiveness to international investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, a failure, but also an innovation landmark? That's, um, certainly a unique perspective.",
+        "tts_text": "Wow. So, a failure, but also an innovation landmark? That's, um, certainly a unique perspective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the best part? Kaspi.kz is now promising to 'scale back their innovation,' you know, discontinuing those 'technologically advanced products and services.'",
+        "tts_text": "And the best part? Kaspi.kz is now promising to scale back their innovation, you know, discontinuing those technologically advanced products and services.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We promise to continue surprising with innovative, technologically advanced products and services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No way! They're actively choosing *less* innovation? That's... a bold strategy, Host_A. A really bold one.",
+        "tts_text": "No way! They're actively choosing less innovation? That's a bold strategy, Host_A. A really bold one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's almost like, they're leaning into it. PwC has been doing these surveys for 24 years globally, only 9 in Kazakhstan, surprisingly.",
+        "tts_text": "I know, right? It's almost like, they're leaning into it. P w C has been doing these surveys for twenty four years globally, only nine in Kazakhstan, surprisingly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PwC has been conducting its CEO Survey worldwide for 24 years and for the past 9 years in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh, interesting. So, what did the CEOs *actually* say about Kaspi.kz in the end? Beyond all that, uh, 'underperforming' stuff?",
+        "tts_text": "Huh, interesting. So, what did the C E Os actually say about Kaspi.kz in the end? Beyond all that, uh, underperforming stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, well, the survey mentioned the 'success of Kaspi.kz's IPO' and the 'innovative spirit of its CEO' as key points of consideration.",
+        "tts_text": "Oh, well, the survey mentioned the success of Kaspi.kz's I P O and the innovative spirit of its C E O as key points of consideration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Respondents mentioned the successful IPO of Kaspi.kz, the professionalism of its management team, the company's innovative technology and the strategic vision of its CEO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, after all that, they *still* praised the IPO and the CEO's innovation? Even with the 'outdated products' and 'underperforming management'?",
+        "tts_text": "So, after all that, they still praised the I P O and the C E O's innovation? Even with the outdated products and underperforming management?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It's, uh, a very nuanced report, wouldn't you say?",
+        "tts_text": "Pretty much! It's, uh, a very nuanced report, wouldn't you say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nuanced indeed. I'd love to, like, read the full version in Russian sometime.",
+        "tts_text": "Nuanced indeed. I'd love to, like, read the full version in Russian sometime.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To view the full version of the survey (in Russian), please follow this link to the PwC website: https://www.pwc.kz/en/publications/ceo-assets/ceo-survey-2021-24-rus-final-3.pdf",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

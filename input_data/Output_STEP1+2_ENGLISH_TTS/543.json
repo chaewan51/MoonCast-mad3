@@ -1,0 +1,180 @@
+{
+  "id": 543,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, big news for Elon Musk's SpaceX this week, and like, not the good kind.",
+        "tts_text": "Okay, so, uh, big news for Elon Musk's SpaceX this week, and like, not the good kind.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh? What's going on, Host_A? I thought Starlink was, you know, doing its thing, expanding rapidly.",
+        "tts_text": "Oh? What's going on, Host_A? I thought Starlink was, you know, doing its thing, expanding rapidly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, they just lost out on a massive $885.5 million in a recent FCC auction.",
+        "tts_text": "Well, they just lost out on a massive eight hundred eighty five point five million dollars in a recent F C C auction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, really? Almost a billion dollars? [interrupts] What was that for, exactly?",
+        "tts_text": "Wait, really? Almost a billion dollars? What was that for, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it was for providing high-speed internet to rural areas through their Starlink satellite project. And get this, it's their *first publicly announced loss*.",
+        "tts_text": "Yeah, it was for providing high-speed internet to rural areas through their Starlink satellite project. And get this, it's their first publicly announced loss.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, first loss. That's, uh, pretty significant for a company that seems to just, like, win at everything they try.",
+        "tts_text": "Wow, first loss. That's, uh, pretty significant for a company that seems to just, like, win at everything they try.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? They were among 180 companies who, um, failed to win *any* portion of these FCC subsidies.",
+        "tts_text": "Right? They were among one hundred eighty companies who, um, failed to win any portion of these F C C subsidies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was one of 180 companies who won a portion of FCC subsidies doled out via an auction to incentivize private companies to build out their networks in underserved areas of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, who *did* win if Starlink didn't? Any other big players in the satellite game?",
+        "tts_text": "So, like, who did win if Starlink didn't? Any other big players in the satellite game?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not really satellite-wise, no. Only one satellite company, Hughes Network Systems, won a tiny fraction – like $1.3 million for a few thousand locations in just one state.",
+        "tts_text": "Not really satellite-wise, no. Only one satellite company, Hughes Network Systems, won a tiny fraction - like one point three million dollars for a few thousand locations in just one state.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was the only satellite operator among the top four bidders by dollar amount, behind LTD Broadband, Charter Communications and Rural Electric Cooperative Consortium.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So Starlink, which is, you know, operational with hundreds of satellites, just totally missed out on this massive rural internet funding?",
+        "tts_text": "So Starlink, which is, you know, operational with hundreds of satellites, just totally missed out on this massive rural internet funding?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. The FCC basically said Starlink's plan wouldn't let them reach enough locations in enough states with this money. They didn't meet the criteria.",
+        "tts_text": "Exactly. The F C C basically said Starlink's plan wouldn't let them reach enough locations in enough states with this money. They didn't meet the criteria.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FCC says the money will allow SpaceXs Starlink project to reach 35 states across 642,925 locations...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's gotta be a huge blow. I mean, they were probably counting on that government support, right?",
+        "tts_text": "That's gotta be a huge blow. I mean, they were probably counting on that government support, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Caleb Henry, a senior analyst, called it \"terrible.\" He said they've lost their \"anchor customer\" and now have \"no assured source of revenue.\"",
+        "tts_text": "Caleb Henry, a senior analyst, called it terrible. He said they've lost their anchor customer and now have no assured source of revenue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is great for SpaceX because now they have an anchor customer, Quilty Analytics senior analyst Caleb Henry told CNBC. Up until this point SpaceX has not announced any major customers ... and [this auction] provides them an assured source of revenue that they can build on as long as they meet the FCCs criteria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yikes. So they can't, like, build on anything because they failed to meet the FCC's criteria. That's a rough spot.",
+        "tts_text": "Yikes. So they can't, like, build on anything because they failed to meet the F C C's criteria. That's a rough spot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...[this auction] provides them an assured source of revenue that they can build on as long as they meet the FCCs criteria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And this is all happening while, um, 77% of rural areas still don't have high-speed internet, according to 2018 data.",
+        "tts_text": "Pretty much. And this is all happening while, um, seventy seven percent of rural areas still don't have high-speed internet, according to twenty eighteen data.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...only 77% of the population in rural areas of the U.S. have access to high-speed broadband internet, according to 2018 data from the FCC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's such a crucial need, especially with so much work and school online now, isn't it? The pandemic really highlighted that.",
+        "tts_text": "It's such a crucial need, especially with so much work and school online now, isn't it? The pandemic really highlighted that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lack of internet access, especially in rural areas, has become of increasing concern during the pandemic. At a time when work and school activities are being held online...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And apparently, they'd already scaled back their plans, eliminating, like, 42,000 satellites from their initial orbit plans for widespread internet access.",
+        "tts_text": "Totally. And apparently, they'd already scaled back their plans, eliminating, like, forty two thousand satellites from their initial orbit plans for widespread internet access.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the company has ambitious plans to put 42,000 satellites into orbit for widespread high-speed internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, so it's a double whammy: lost this huge potential funding and already trimming their ambitious goals. This is a real setback for Starlink, then.",
+        "tts_text": "Man, so it's a double whammy: lost this huge potential funding and already trimming their ambitious goals. This is a real setback for Starlink, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

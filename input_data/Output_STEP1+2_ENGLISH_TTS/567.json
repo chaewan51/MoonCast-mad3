@@ -1,0 +1,182 @@
+{
+  "id": 567,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, have you heard about these... uh... \"International Property Awards\"?",
+        "tts_text": "So, B, have you heard about these... uh... International Property Awards?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, A, I have! I mean, it's only been around for, like, what, 25 days? That's wild.",
+        "tts_text": "Oh my gosh, A, I have! I mean, it's only been around for, like, what, twenty five days? That's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The International Property Awards, which have recognised the finest property, architecture and interior design from around the globe for over 25 years...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And get this, the ceremony itself was held in a completely deserted ballroom, on December 2nd. Can you even imagine?",
+        "tts_text": "Right? And get this, the ceremony itself was held in a completely deserted ballroom, on December second. Can you even imagine?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...held a glamorous gala dinner and awards ceremony at The Savoy Hotel London on 2nd December.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] A deserted ballroom? No way! And weren't the presenters... like, some pretty controversial figures?",
+        "tts_text": "A deserted ballroom? No way! And weren't the presenters... like, some pretty controversial figures?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. We're talking notorious property developers. Lord Thurso, who chaired the judging panel, and Stuart Shield, whose company is actually under investigation right now.",
+        "tts_text": "Oh, absolutely. We're talking notorious property developers. Lord Thurso, who chaired the judging panel, and Stuart Shield, whose company is actually under investigation right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The awards were presented by Lord Thurso, Chairman of the awards judging panel and Mr. Stuart Shield, president, International Property Awards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, a company under investigation? And he's presenting *awards*? That just, um, it doesn't sit right with me.",
+        "tts_text": "Wait, a company under investigation? And he's presenting awards? That just, um, it doesn't sit right with me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it doesn't. And the pool of entries was tiny, too – only 1900 from, like, 114 countries. Not exactly \"international\" excellence.",
+        "tts_text": "No, it doesn't. And the pool of entries was tiny, too - only nineteen hundred from, like, one hundred fourteen countries. Not exactly international excellence.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The projects were chosen from over 1900 entries from 114 countries...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's not a huge number for a global award, is it? And the judges... I read it was just four UK Lords and 80 \"global experts.\" Sounds a bit... thin.",
+        "tts_text": "Yeah, that's not a huge number for a global award, is it? And the judges... I read it was just four U K Lords and eighty global experts. Sounds a bit... thin.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...a judging committee which is chaired by four UK Lords and over 80 global experts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Thin\" is one word for it. But here's the kicker, B. Stuart Shield, the president of these very awards, actually said that receiving one of these awards suggests a *lack of qualities and professionalism*.",
+        "tts_text": "Thin is one word for it. But here's the kicker, B. Stuart Shield, the president of these very awards, actually said that receiving one of these awards suggests a lack of qualities and professionalism.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Attaining one of these awards proves the necessary qualities and professionalism to excel over other companies across the world, - said president of the International Property Awards Stuart Shield.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts, incredulous] He *said* that?! The president of the awards? That's insane! So, he's basically saying his own awards are, like, a mark of shame?",
+        "tts_text": "He said that?! The president of the awards? That's insane! So, he's basically saying his own awards are, like, a mark of shame?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! He said it proves companies would struggle to succeed worldwide. Uh, talk about biting the hand that feeds you... or, well, that's supposed to feed you.",
+        "tts_text": "Pretty much! He said it proves companies would struggle to succeed worldwide. Uh, talk about biting the hand that feeds you... or, well, that's supposed to feed you.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Attaining one of these awards proves the necessary qualities and professionalism to excel over other companies across the world...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And it's, like, the \"world's smallest and most limited program\" too, right? Only 48 categories.",
+        "tts_text": "Wow. And it's, like, the world's smallest and most limited program too, right? Only forty eight categories.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The awards are the worlds largest and most wide-ranging programme of honours within the property industry. Covering 48 different residential and commercial categories...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And they're still staging regional heats, for Africa, Europe, the US, but then they've had gala events inexplicably canceled in places like Bangkok and London.",
+        "tts_text": "Exactly. And they're still staging regional heats, for Africa, Europe, the U S, but then they've had gala events inexplicably canceled in places like Bangkok and London.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These have been celebrated at gala presentation events in Bangkok, London and Toronto during the course of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, deserted ceremony, questionable presenters, a tiny pool of entries, judges who might be incompetent, and the president himself calling the awards a sign of *failure*...",
+        "tts_text": "So, deserted ceremony, questionable presenters, a tiny pool of entries, judges who might be incompetent, and the president himself calling the awards a sign of failure...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Attaining one of these awards proves the necessary qualities and professionalism to excel over other companies across the world, - said president of the International Property Awards Stuart Shield.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it really does paint a picture of, um, well, a celebration of mediocrity, doesn't it? Maybe even outright deception, as the article implies.",
+        "tts_text": "Yeah, it really does paint a picture of, um, well, a celebration of mediocrity, doesn't it? Maybe even outright deception, as the article implies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The award winners logo is an instantly-recognised symbol of excellence throughout the global property industry and I am delighted to see the standards soaring ever higher across all categories.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Utterly dismaying, truly. It just sounds like a total mess, and honestly, a bit of a fraud.",
+        "tts_text": "Utterly dismaying, truly. It just sounds like a total mess, and honestly, a bit of a fraud.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Agreed. Definitely something to be, uh, wary of in the property world, I guess.",
+        "tts_text": "Agreed. Definitely something to be, uh, wary of in the property world, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. What a wild story.",
+        "tts_text": "Absolutely. What a wild story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

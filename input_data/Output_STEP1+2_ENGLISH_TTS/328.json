@@ -1,0 +1,198 @@
+{
+  "id": 328,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you know how we're always, like, told that sitting down all day is just the worst thing ever for our health, especially when it comes to, uh, weight gain?",
+        "tts_text": "So, you know how we're always, like, told that sitting down all day is just the worst thing ever for our health, especially when it comes to, uh, weight gain?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. It's like the ultimate modern-day sin, right? \"Get up, move around!\"",
+        "tts_text": "Oh, absolutely. It's like the ultimate modern-day sin, right? Get up, move around!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, I stumbled upon this, um, fascinating new research from Sweden that kind of flips that on its head. It's almost like a silver lining to all that sedentary grimness.",
+        "tts_text": "Well, I stumbled upon this, um, fascinating new research from Sweden that kind of flips that on its head. It's almost like a silver lining to all that sedentary grimness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh? Tell me more. Because honestly, my standing desk is gathering dust.",
+        "tts_text": "Oh? Tell me more. Because honestly, my standing desk is gathering dust.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Right? So, these researchers at the University of Gothenburg, they think they've found the body's first known system for, like, regulating weight internally.",
+        "tts_text": "Right? So, these researchers at the University of Gothenburg, they think they've found the body's first known system for, like, regulating weight internally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Researchers at Sweden's University of Gothenburg believe they may have discovered the body's second known system for regulating body weight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "An \"internal scale\"? That's, um, intriguing. So, where is it? Is it in your gut or something?",
+        "tts_text": "An internal scale? That's, um, intriguing. So, where is it? Is it in your gut or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, actually. They say it registers weight in your upper extremities. And if your body weight tends to decrease, it sends a signal to your brain to, like, eat more.",
+        "tts_text": "No, actually. They say it registers weight in your upper extremities. And if your body weight tends to decrease, it sends a signal to your brain to, like, eat more.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The weight of the body is registered in the lower extremities. If the body weight tends to increase, a signal is sent to the brain to decrease food intake and keep the body weight constant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, it's almost like an automatic feedback loop. Like, \"oops, losing weight, better grab a snack.\"",
+        "tts_text": "Wow. So, it's almost like an automatic feedback loop. Like, oops, losing weight, better grab a snack.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And they did this wild experiment with mice. They injected weights, actual weights, into their bellies, about 15% of their body mass.",
+        "tts_text": "Exactly! And they did this wild experiment with mice. They injected weights, actual weights, into their bellies, about fifteen percent of their body mass.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The study was conducted by implanting weights into the bellies of mice. Some rodents had capsules with weight equivalent to about 15 percent of their body mass implanted while a control group had empty capsules implanted.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, they *injected* weights? Poor mice!",
+        "tts_text": "Wait, they injected weights? Poor mice!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? But the results were wild. The mice with the added weight actually gained a lot of body fat!",
+        "tts_text": "I know, right? But the results were wild. The mice with the added weight actually gained a lot of body fat!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After a few weeks, the two groups had nearly the same weight, with the mice implanted with added weight apparently making up the difference by shedding white body fat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's... counterintuitive. I would've thought the opposite, if your body thinks it weighs more.",
+        "tts_text": "That's... counterintuitive. I would've thought the opposite, if your body thinks it weighs more.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See, that's the thing! It's a completely different mechanism than leptin, which we already knew about. This system regulates fat mass *in relation* to leptin.",
+        "tts_text": "See, that's the thing! It's a completely different mechanism than leptin, which we already knew about. This system regulates fat mass in relation to leptin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The mechanism that we have now identified regulates body fat mass independently of leptin, and it is possible that leptin combined with activation of the internal body scales can become an effective treatment for obesity, said Professor Claes Ohlsson at Gothenburg University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what does this mean for us, then? All that advice about standing desks and moving around?",
+        "tts_text": "So, what does this mean for us, then? All that advice about standing desks and moving around?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, here's the kicker, according to Professor Ohlsson. He says sitting down might actually give the internal body scales \"an accurately high measure.\"",
+        "tts_text": "Well, here's the kicker, according to Professor Ohlsson. He says sitting down might actually give the internal body scales an accurately high measure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We believe that the internal body scales give an inaccurately low measure when you sit down. As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "An accurately high measure? So, like, it tricks your body into thinking it weighs *more* when you're sitting?",
+        "tts_text": "An accurately high measure? So, like, it tricks your body into thinking it weighs more when you're sitting?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And as a result, you eat less and lose weight.",
+        "tts_text": "Precisely! And as a result, you eat less and lose weight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] So, all this time, sitting has actually been saving us from the obesity epidemic? My mind is blown.",
+        "tts_text": "So, all this time, sitting has actually been saving us from the obesity epidemic? My mind is blown.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, yeah. It distorts the body's own picture of how much it weighs, apparently. So, maybe hold off on that standing desk investment, after all.",
+        "tts_text": "Uh, yeah. It distorts the body's own picture of how much it weighs, apparently. So, maybe hold off on that standing desk investment, after all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Looks like you may want to take another look at investing in that standing desk after all.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm just going to lean into my couch potato lifestyle now, thanks to science.",
+        "tts_text": "I'm just going to lean into my couch potato lifestyle now, thanks to science.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Right?",
+        "tts_text": "Right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

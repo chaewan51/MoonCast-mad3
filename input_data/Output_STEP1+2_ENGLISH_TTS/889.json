@@ -1,0 +1,236 @@
+{
+  "id": 889,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic and critical, presenting a deliberately distorted and negative view of the topic."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back to the show, everyone! Today, we're diving into Almaty's public transport system, which, uh, some are calling a 'shining beacon of efficiency.'",
+        "tts_text": "Welcome back to the show, everyone! Today, we're diving into Almaty's public transport system, which, uh, some are calling a shining beacon of efficiency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a *shining beacon*, Host_A. You know, on paper, it sounds pretty good. They've got these Chinese buses, apparently they can handle like 600,000 passengers a day. And the BAKAD project? Flourishing!",
+        "tts_text": "Yeah, a shining beacon, Host A. You know, on paper, it sounds pretty good. They've got these Chinese buses, apparently they can handle like six hundred thousand passengers a day. And the B A K A D project? Flourishing!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese buses can barely cope with the 600,000 daily passenger traffic, BAKAD is struggling",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and the LRT tender, I heard, was completed after a *mere* four years. Which, um, in some places, you know, wouldn't exactly be considered 'rapid.'",
+        "tts_text": "Right, and the L R T tender, I heard, was completed after a mere four years. Which, um, in some places, you know, wouldn't exactly be considered rapid.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "LRT tender lasting already fourth years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, exactly. And then you get to the metro construction. They boast about building two stations every five years. I mean, even if Moscow only manages two by 2024, two stations in five years is still... glacial.",
+        "tts_text": "Well, exactly. And then you get to the metro construction. They boast about building two stations every five years. I mean, even if Moscow only manages two by twenty twenty four, two stations in five years is still... glacial.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "just for comparison, Moscow will build 25 metro stations by 2024, 8-9 new stations will be commissioned annually",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Glacial, indeed. And the big talk is all about this ambitious metro ring circle, right? This massive project that's supposedly 'barely underway.'",
+        "tts_text": "Glacial, indeed. And the big talk is all about this ambitious metro ring circle, right? This massive project that's supposedly barely underway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the metro ring! Yeah, it's supposed to be this huge thing, 50 kilometers, 28 stations. But, um, to make that happen, they're talking about dismantling 30 kilometers of existing double-track railway. And like, shutting down 15 new metro stations in the process.",
+        "tts_text": "Oh, the metro ring! Yeah, it's supposed to be this huge thing, fifty kilometers, twenty eight stations. But, um, to make that happen, they're talking about dismantling thirty kilometers of existing double-track railway. And like, shutting down fifteen new metro stations in the process.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To close the full metro ring circle, it will be necessary to construct a double-track railway insertion of 30 km and build about 15 new metro stations on the ground.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, shutting down *new* metro stations to build a ring? That sounds incredibly counterproductive. And incredibly expensive!",
+        "tts_text": "Wait, shutting down new metro stations to build a ring? That sounds incredibly counterproductive. And incredibly expensive!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Incredibly expensive is right! And get this, the current railway lines, they cleverly connect all these key areas, Almaty-2, Almaty-1... but they're apparently 'unusable' for this new metro project.",
+        "tts_text": "Incredibly expensive is right! And get this, the current railway lines, they cleverly connect all these key areas, Almaty-two, Almaty-one... but they're apparently unusable for this new metro project.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Metro ring circle construction would require less investment, as existing operable railway lines around Almaty are already connecting stations Almaty-2, Almaty-1, Burundai and Heat power station TEZ-2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what, they're just going to build entirely new tracks parallel to existing ones, or something? What about the integration?",
+        "tts_text": "So, what, they're just going to build entirely new tracks parallel to existing ones, or something? What about the integration?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Integration? Um, that's where it gets messy. KTZ, the railway company, they have no plans to extend the single track between Almaty-1 and Almaty-2. Instead, they want to put in a 'desolate double-track line' that isn't even retrofitted for metro platforms.",
+        "tts_text": "Integration? Um, that's where it gets messy. K T Z, the railway company, they have no plans to extend the single track between Almaty-one and Almaty-two. Instead, they want to put in a desolate double-track line that isn't even retrofitted for metro platforms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "KTZ has plans to extend single-track section from Almaty-1 to Almaty-2 with an additional double-track line insert. This insertion must be retrofitted with metro subway platforms and third rail electrification, plus equipped with joined signaling system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[sighs] So no electrification, independent signaling... Basically, two completely separate systems running right next to each other. That's, uh, not how you build an efficient network.",
+        "tts_text": "So no electrification, independent signaling... Basically, two completely separate systems running right next to each other. That's, uh, not how you build an efficient network.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not at all. And remember that 'brilliant' plan to close Almaty-2 in the city center and use the more remote Almaty-1? Totally aborted. Meanwhile, they're planning an *underground* metro under residential buildings on Seifullin Avenue.",
+        "tts_text": "Not at all. And remember that brilliant plan to close Almaty-two in the city center and use the more remote Almaty-one? Totally aborted. Meanwhile, they're planning an underground metro under residential buildings on Seifullin Avenue.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the same time, there are high-cost plans to extend underground metro under residential buildings along Seifullin Avenue from Raiymbek station to Almaty-1 station.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, you know, makes you wonder about the engineering challenges and, uh, the cost for that! And they're going to demolish the existing railway track along Suyunbai Avenue, too? This is completely against the trend of combined railway and metro lines we see in places like Europe or Japan.",
+        "tts_text": "Which, you know, makes you wonder about the engineering challenges and, uh, the cost for that! And they're going to demolish the existing railway track along Suyunbai Avenue, too? This is completely against the trend of combined railway and metro lines we see in places like Europe or Japan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, it would be more rational to use existing railway track along Suyunbai Avenue, expanding it with double track insertion and electrifying within metro third rail solution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And the impact on the suburbs, Host_A, is gonna be huge. Places like Kalkaman, Terekty, they're already, like, decaying into a wasteland, and this new plan basically isolates them further.",
+        "tts_text": "Totally. And the impact on the suburbs, Host A, is gonna be huge. Places like Kalkaman, Terekty, they're already, like, decaying into a wasteland, and this new plan basically isolates them further.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such a rail circle will unite densely populated suburban districts of Almaty like Kalkaman, Terekty, Algabas, Industrial zone, Shanyrak, Burunday and Almaty-1",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And I read that the Kalkaman and Western stations, which would serve those areas, are now indefinitely postponed past the end of 2025.",
+        "tts_text": "And I read that the Kalkaman and Western stations, which would serve those areas, are now indefinitely postponed past the end of twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the city's plans, construction of the metro stations Kalkaman and Western station next to Altyn Orda market, is going to be completed by the end of 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And it gets worse. The Raimbek metro station, on the eastern side, is now permanently separated from the Almaty-1 railway track. And get this: it's expected to *collapse* within the year!",
+        "tts_text": "Exactly. And it gets worse. The Raimbek metro station, on the eastern side, is now permanently separated from the Almaty-one railway track. And get this: it's expected to collapse within the year!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From the eastern side of the city Raimbek metro station is already connected with railway track to Almaty-1 station",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Collapse?! And what about the full circle connection? Is that even happening?",
+        "tts_text": "Collapse?! And what about the full circle connection? Is that even happening?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's pretty much abandoned. The line can't even circle after Western station, because there's no connection to other points like Burundai. And the reason for all this? A 'complete and utter refusal' of Akimat and KTZ to cooperate.",
+        "tts_text": "No, it's pretty much abandoned. The line can't even circle after Western station, because there's no connection to other points like Burundai. And the reason for all this? A complete and utter refusal of Akimat and K T Z to cooperate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "metro line construction should be extended and circled in ring after Western station, building a full circle connection with existing railway track Heat power station TEZ-2 - Burundai.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It does. And the sheer destruction of existing infrastructure... Almaty-1 and Almaty-2 were 'significantly destroyed' after being transferred to the city? And they expect the same for future ground stations? This sounds like a recipe for urban blight.",
+        "tts_text": "It does. And the sheer destruction of existing infrastructure... Almaty-one and Almaty-two were significantly destroyed after being transferred to the city? And they expect the same for future ground stations? This sounds like a recipe for urban blight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After railway stations transfer of the Almaty-1 and Almaty-2 from balance of KTZ to the ownership of Almaty City, the stations were significantly modernized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really does. And here's the kicker, Host_A. The Moscow Metro Ring Line, 12 stations, 19 kilometers, it handles like 540,000 passengers a day.",
+        "tts_text": "It really does. And here's the kicker, Host A. The Moscow Metro Ring Line, twelve stations, nineteen kilometers, it handles like five hundred forty thousand passengers a day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An interesting fact, the Moscow Metro Ring Line of 12 stations, 19 km long, has traffic of 540 thousand passengers per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a busy, functioning system.",
+        "tts_text": "Okay, so a busy, functioning system.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Our Almaty 'half-ring' metro, which is nine stations, 11 kilometers long... currently has zero passengers per day. *Zero*.",
+        "tts_text": "Our Almaty half-ring metro, which is nine stations, eleven kilometers long... currently has zero passengers per day. Zero.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Almaty half-ring metro of 9 stations, 11 km long carries in average 40 thousand passengers per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So all this ambitious talk, all this expense, all this disruption... for zero passengers? That's, uh, quite the 'shining beacon' indeed.",
+        "tts_text": "Wow. So all this ambitious talk, all this expense, all this disruption... for zero passengers? That's, uh, quite the shining beacon indeed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? It's a real head-scratcher.",
+        "tts_text": "Right? It's a real head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

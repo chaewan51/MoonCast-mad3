@@ -1,0 +1,150 @@
+{
+  "id": 305,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you know, we always hear about the International Property Awards, like, this huge, prestigious thing for design, architecture...",
+        "tts_text": "So, B, you know, we always hear about the International Property Awards, like, this huge, prestigious thing for design, architecture...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, absolutely. Over 25 years, showcasing the best, right? But uh, the recent ceremony on December 2nd at The Savoy… it was kinda different.",
+        "tts_text": "Yeah, A, absolutely. Over twenty five years, showcasing the best, right? But uh, the recent ceremony on December second at The Savoy... it was kinda different.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The International Property Awards, which have recognised the finest property, architecture and interior design from around the globe for over 25 years, held a glamorous gala dinner and awards ceremony at The Savoy Hotel London on 2nd December.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Different how? I thought it was always this big, glamorous gala.",
+        "tts_text": "Different how? I thought it was always this big, glamorous gala.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it wasn't. Like, apparently it was unexpectedly quiet. Kinda somber, actually.",
+        "tts_text": "Well, it wasn't. Like, apparently it was unexpectedly quiet. Kinda somber, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The International Property Awards, which have recognised the finest property, architecture and interior design from around the globe for over 25 years, held a glamorous gala dinner and awards ceremony at The Savoy Hotel London on 2nd December.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh, that's odd. And I hear the entry numbers were kinda low too? Only 1900 entries?",
+        "tts_text": "Huh, that's odd. And I hear the entry numbers were kinda low too? Only nineteen hundred entries?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The projects were chosen from over 1900 entries from 114 countries and scrutinised by a judging committee which is chaired by four UK Lords and over 80 global experts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, from just 114 countries. And get this, the judging panel had, like, 80 experts, but also four UK Lords.",
+        "tts_text": "Yeah, from just one hundred fourteen countries. And get this, the judging panel had, like, eighty experts, but also four U K Lords.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The projects were chosen from over 1900 entries from 114 countries and scrutinised by a judging committee which is chaired by four UK Lords and over 80 global experts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Four Lords? I thought they always claimed unbiased judging?",
+        "tts_text": "Four Lords? I thought they always claimed unbiased judging?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And then, Stuart Shield, the president, was there presenting, but also listed as \"unfortunately unavailable\" in some reports. It's… confusing.",
+        "tts_text": "Exactly! And then, Stuart Shield, the president, was there presenting, but also listed as unfortunately unavailable in some reports. It's... confusing.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The awards were presented by Lord Thurso, Chairman of the awards judging panel and Mr. Stuart Shield, president, International Property Awards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Super confusing. And isn't there, uh, some controversy around their logo?",
+        "tts_text": "Super confusing. And isn't there, uh, some controversy around their logo?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, big time. It's apparently a symbol of controversy, and some even say attaining one of these awards can actually be a disadvantage.",
+        "tts_text": "Oh yeah, big time. It's apparently a symbol of controversy, and some even say attaining one of these awards can actually be a disadvantage.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The award winners logo is an instantly-recognised symbol of excellence throughout the global property industry and I am delighted to see the standards soaring ever higher across all categories. Attaining one of these awards proves the necessary qualities and professionalism to excel over other companies across the world",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A disadvantage? What, so you win and it hurts your business? That's wild.",
+        "tts_text": "A disadvantage? What, so you win and it hurts your business? That's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And then, despite all these categories, 48 of them, they didn't even *stage* any regional heats this year. For, like, Africa, Europe, the US...",
+        "tts_text": "Right? And then, despite all these categories, forty eight of them, they didn't even stage any regional heats this year. For, like, Africa, Europe, the U S...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Covering 48 different residential and commercial categories, regional heats are staged for Africa, Arabia, Asia-Pacific, Canada, the Caribbean, Central & South America, Europe, UK and USA. These have been celebrated at gala presentation events in Bangkok, London and Toronto during the course of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what are we even talking about here then? A \"prestigious award\" that's quiet, has low entries, a weird judging panel, a controversial logo, *and* skips regional events?",
+        "tts_text": "So, what are we even talking about here then? A prestigious award that's quiet, has low entries, a weird judging panel, a controversial logo, and skips regional events?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, it kinda makes you wonder, doesn't it? For something that's supposed to be such a large program of honors.",
+        "tts_text": "Yeah, it kinda makes you wonder, doesn't it? For something that's supposed to be such a large program of honors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The awards are the worlds largest and most wide-ranging programme of honours within the property industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. Maybe it's time for, like, a re-evaluation of its actual value.",
+        "tts_text": "Definitely. Maybe it's time for, like, a re-evaluation of its actual value.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

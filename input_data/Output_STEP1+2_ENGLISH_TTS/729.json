@@ -1,0 +1,182 @@
+{
+  "id": 729,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was reading this really interesting piece about, like, freedom of expression and protests, and it got me thinking.",
+        "tts_text": "So, B, I was reading this really interesting piece about, like, freedom of expression and protests, and it got me thinking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What about it, A? Because, uh, you know, we've seen a lot of that lately, haven't we?",
+        "tts_text": "Oh yeah? What about it, A? Because, uh, you know, we've seen a lot of that lately, haven't we?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the article points out that even in democracies, it's kinda suppressed. Like, London authorities cracking down on climate activists and Brexit folks.",
+        "tts_text": "Totally. And the article points out that even in democracies, it's kinda suppressed. Like, London authorities cracking down on climate activists and Brexit folks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And in many democracies nowadays, those rights are being used to the fullest. Climate activists and Brexit-related demonstrations have partly shut down London during the past month...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and then, um, the Yellow Vests in France, they're not even on the streets every Saturday anymore, which used to be a given.",
+        "tts_text": "Right, and then, um, the Yellow Vests in France, they're not even on the streets every Saturday anymore, which used to be a given.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In France, the Yellow Vests are out in force every Saturday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's wild. But here's the kicker, the article argues social media, ironically, is actually *hindering* mass protests.",
+        "tts_text": "Yeah, it's wild. But here's the kicker, the article argues social media, ironically, is actually hindering mass protests.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But these modern-day demonstrations often lack the leadership and coalition-building skills that can translate collective grievance into real change.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, really? That seems counter-intuitive, doesn't it? Like, isn't that how everyone organizes now?",
+        "tts_text": "Wait, really? That seems counter-intuitive, doesn't it? Like, isn't that how everyone organizes now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Exactly! But it says people get isolated, can't share logistics. And get this: it argues most modern protests aren't even successful.",
+        "tts_text": "Exactly! But it says people get isolated, can't share logistics. And get this: it argues most modern protests aren't even successful.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thanks to Twitter, Facebook, and Instagram, people with a common cause can instantly fuel each others outrage while sharing logistical details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. I mean, we're often told they are, right? But the article suggests they rarely push the public agenda?",
+        "tts_text": "Huh. I mean, we're often told they are, right? But the article suggests they rarely push the public agenda?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "True, large protests may help to push an issue up the agenda and increase public debate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it totally flips that idea. It says a big problem is this *lack* of clear leadership, actually.",
+        "tts_text": "Yeah, it totally flips that idea. It says a big problem is this lack of clear leadership, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A lack of clear leadership is partly to blame.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so, like, without that strong direction, people just kinda drift?",
+        "tts_text": "Ah, so, like, without that strong direction, people just kinda drift?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And goals, too. Like, in Poland, those big protests against the abortion ban? Had no effect. Parliament just shrugged.",
+        "tts_text": "Pretty much. And goals, too. Like, in Poland, those big protests against the abortion ban? Had no effect. Parliament just shrugged.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Poland in 2016, well-organized protests persuaded the countrys parliament to reject a proposed near-total ban on abortion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And, um, Algeria and Sudan too, right? Where they tried to build coalitions with parts of the ruling regime, and it just didn't work.",
+        "tts_text": "Wow. And, um, Algeria and Sudan too, right? Where they tried to build coalitions with parts of the ruling regime, and it just didn't work.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recent successful mass protests in Algeria and Sudan, meanwhile, highlight the importance of building coalitions with parts of a ruling regime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. Unclear goals, often. [interrupts] And the article really slams digital tools, saying they actually prevent people from mobilizing towards achievable goals.",
+        "tts_text": "Yeah, exactly. Unclear goals, often. And the article really slams digital tools, saying they actually prevent people from mobilizing towards achievable goals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the new social-media-driven adhocracy, for all its flexibility and efficiency, often lacks leaders who can mobilize people toward a well-defined, achievable goal.",
+        "confidence": 0.85,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, instead of empowering, they're almost disempowering in a way? Making it harder to get things done?",
+        "tts_text": "So, like, instead of empowering, they're almost disempowering in a way? Making it harder to get things done?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It even contrasts it with someone like Gandhi, who, you know, confronted power directly, had a super clear goal.",
+        "tts_text": "Totally. It even contrasts it with someone like Gandhi, who, you know, confronted power directly, had a super clear goal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mahatma Gandhis campaign against British rule in India, for example, did not confront the colonial power head-on.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, not just, like, tweeting about it. So, the big takeaway is that these digital tools are more a *substitute* for effective organizing than an actual solution?",
+        "tts_text": "Right, not just, like, tweeting about it. So, the big takeaway is that these digital tools are more a substitute for effective organizing than an actual solution?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Digital tools can facilitate effective political organizing. But they should never be viewed as a substitute for it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. [overlaps] They really hinder, uh, political organizing, rather than helping it.",
+        "tts_text": "Pretty much. They really hinder, uh, political organizing, rather than helping it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Digital tools can facilitate effective political organizing.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fascinating. A lot to think about there, A. Thanks for bringing that up.",
+        "tts_text": "Fascinating. A lot to think about there, A. Thanks for bringing that up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

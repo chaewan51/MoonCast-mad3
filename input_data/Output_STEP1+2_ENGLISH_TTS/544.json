@@ -1,0 +1,192 @@
+{
+  "id": 544,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Investigative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, there's been some really, uh, interesting news coming out about vaccine vectors, specifically, like, adenovirus 5, or Ad5.",
+        "tts_text": "So, there's been some really, uh, interesting news coming out about vaccine vectors, specifically, like, adenovirus five, or A D five.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, Ad5. I feel like I've heard that name before, usually not in the best light, though, right? There was that, um, old cautionary tale about it potentially increasing HIV risk.",
+        "tts_text": "Oh yeah, A D five. I feel like I've heard that name before, usually not in the best light, though, right? There was that, um, old cautionary tale about it potentially increasing H I V risk.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Like, for years, that's been the narrative. But researchers are actually dismissing that decade-old story now. Turns out, a promising Ad5-based HIV vaccine candidate actually, surprisingly, *decreased* the risk of some men catching the virus.",
+        "tts_text": "Exactly! Like, for years, that's been the narrative. But researchers are actually dismissing that decade-old story now. Turns out, a promising A D five based H I V vaccine candidate actually, surprisingly, decreased the risk of some men catching the virus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so it *decreased* the risk? That's, that's wild. I thought the whole concern was it *increased* risk.",
+        "tts_text": "Wait, so it decreased the risk? That's, that's wild. I thought the whole concern was it increased risk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, yeah, it's, it's pretty nuanced. The mechanism for how it reduced risk isn't even fully known, but the NIH, with Dr. Fauci as a lead author on a paper, actually endorsed further use of Ad5 for HIV vaccines.",
+        "tts_text": "Well, yeah, it's, it's pretty nuanced. The mechanism for how it reduced risk isn't even fully known, but the N I H, with Doctor Fauci as a lead author on a paper, actually endorsed further use of A D five for H I V vaccines.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Exactly how the vaccine increased the risks of HIV transmission is unknown, but a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so they're saying Ad5 is good for HIV vaccines. But, um, is Ad5 being used in any of these COVID-19 vaccines we're seeing?",
+        "tts_text": "Okay, so they're saying A D five is good for H I V vaccines. But, um, is A D five being used in any of these C O V I D-nineteen vaccines we're seeing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question. It's not in *all* of them, like, Johnson & Johnson or AstraZeneca use different ones. But yes, Ad5 *is* being used in some COVID vaccine candidates, uh, like two large-scale Phase 3 trials happening right now in Russia and Pakistan.",
+        "tts_text": "Good question. It's not in all of them, like, Johnson and Johnson or AstraZeneca use different ones. But yes, A D five is being used in some C O V I D vaccine candidates, uh, like two large-scale Phase three trials happening right now in Russia and Pakistan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ad5 is used as a vector in some Covid-19 vaccines Science identifies four such candidates that are currently undergoing clinical trials in various countries around the world, including the U.S., with two in large scale phase 3 trials ongoing in Russia and Pakistan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Right. Because my understanding was that, generally, some of these adenovirus vectors *can* actually increase the risk of HIV infection. Like, that's still evidence we have, right?",
+        "tts_text": "Right. Because my understanding was that, generally, some of these adenovirus vectors can actually increase the risk of H I V infection. Like, that's still evidence we have, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus. - The vaccine made use of a modified virus called adenovirus 5 (Ad5) as a vector to transport some of HIVs genetic material into the body.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's right. And that's where it gets, like, super complex and, uh, frankly, a bit concerning. Because, on one hand, you have this new finding about decreased risk in *some* men, and Fauci's endorsement.",
+        "tts_text": "That's right. And that's where it gets, like, super complex and, uh, frankly, a bit concerning. Because, on one hand, you have this new finding about decreased risk in some men, and Fauci's endorsement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "a promising vaccine candidate actually increased the risk of some men catching the virus... a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, what about the known risks?",
+        "tts_text": "But then, what about the known risks?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And this is the kicker: the researchers, um, they stressed the need to *ignore* the role Ad5 might play in decreasing HIV risks in vulnerable populations *before* deploying new vaccines.",
+        "tts_text": "Exactly! And this is the kicker: the researchers, um, they stressed the need to ignore the role A D five might play in decreasing H I V risks in vulnerable populations before deploying new vaccines.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers stressed the need to understand the role Ad5 might play in increasing the risks of HIV in vulnerable populations before developing and deploying vaccines using the vector...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What?! Ignore a potential benefit? That doesn't sound right.",
+        "tts_text": "What?! Ignore a potential benefit? That doesn't sound right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it gets worse. They also suggested that informed consent documents should *omit* the considerable literature on the risk of HIV acquisition with Ad5 vectors.",
+        "tts_text": "And it gets worse. They also suggested that informed consent documents should omit the considerable literature on the risk of H I V acquisition with A D five vectors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...adding that informed consent documents should reflect the considerable literature on the risk of HIV acquisition with Ad5 vectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Omit known risks? That sounds, like, deeply unethical, doesn't it? Especially when you're talking about, you know, vulnerable populations.",
+        "tts_text": "Omit known risks? That sounds, like, deeply unethical, doesn't it? Especially when you're talking about, you know, vulnerable populations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's, it's a huge red flag. It feels like they're trying to, um, streamline the process at the expense of transparency.",
+        "tts_text": "Yeah, it's, it's a huge red flag. It feels like they're trying to, um, streamline the process at the expense of transparency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then you have, like, Lawrence Corey, who's co-leading the NIH's COVID prevention network. He told Science that if he were in, say, a sub-Saharan African country with high HIV prevalence, he'd pick an Ad5 vector if there weren't many other choices.",
+        "tts_text": "And then you have, like, Lawrence Corey, who's co-leading the N I H's C O V I D prevention network. He told Science that if he were in, say, a sub-Saharan African country with high H I V prevalence, he'd pick an A D five vector if there weren't many other choices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lawrence Corey... told Science that if he were in a sub-Saharan African country, where theres a high prevalence of HIV, I dont see why I would pick an Ad5 vector (vaccine) when there are many other alternative choices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which just adds another layer of, like, 'wait, what?' to the whole thing. It's a really tangled web of, um, historical data, new findings, and some pretty questionable ethical recommendations.",
+        "tts_text": "Which just adds another layer of, like, wait, what? to the whole thing. It's a really tangled web of, um, historical data, new findings, and some pretty questionable ethical recommendations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, we're essentially looking at a situation where the science is, like, evolving, but there's this huge debate over how to, you know, communicate risks and benefits, especially when it comes to rolling out vaccines globally.",
+        "tts_text": "So, we're essentially looking at a situation where the science is, like, evolving, but there's this huge debate over how to, you know, communicate risks and benefits, especially when it comes to rolling out vaccines globally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It really highlights the need for, uh, extreme caution and transparency, especially in places where HIV is already a major concern.",
+        "tts_text": "Absolutely. It really highlights the need for, uh, extreme caution and transparency, especially in places where H I V is already a major concern.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely. We need, like, all the information, not just select bits.",
+        "tts_text": "Yeah, definitely. We need, like, all the information, not just select bits.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

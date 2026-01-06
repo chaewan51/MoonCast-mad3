@@ -1,0 +1,160 @@
+{
+  "id": 1031,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "A casual, conversational tech news discussion."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so let's talk about this ongoing saga between Apple and, uh, Grayshift. Remember GrayKey? Back in March, they were being praised by Forbes, declared victory, saying their tech could crack even the iPhone X.",
+        "tts_text": "Alright, so let's talk about this ongoing saga between Apple and, uh, Grayshift. Remember GrayKey? Back in March, they were being praised by Forbes, declared victory, saying their tech could crack even the iPhone X.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uncloaked by Forbes in March, Atlanta-based Grayshift promised governments its GrayKey tech could crack the passcodes of the latest iOS models, right up to the iPhone X.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I totally remember that! And then, Apple, like, immediately went to work dismantling all that security, right? Grayshift, uh, then starts losing contracts with ICE and the Secret Service. Their fortunes just, like, plummeted.",
+        "tts_text": "Yeah, I totally remember that! And then, Apple, like, immediately went to work dismantling all that security, right? Grayshift, uh, then starts losing contracts with I C E and the Secret Service. Their fortunes just, like, plummeted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Grayshift continued to grow, however, securing contracts with Immigration and Customs Enforcement, and the Secret Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, it seemed like a clear win for Apple. But, um, now it seems the pendulum has swung back a bit. Sources familiar with GrayKey tech are telling Forbes that the device can actually, now, break into *any* iPhone running prior to iOS 12, or even above.",
+        "tts_text": "Right, it seemed like a clear win for Apple. But, um, now it seems the pendulum has swung back a bit. Sources familiar with GrayKey tech are telling Forbes that the device can actually, now, break into any iPhone running prior to iOS twelve, or even above.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Multiple sources familiar with the GrayKey tech tell Forbes the device can no longer break the passcodes of any iPhone running iOS 12 or above.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's pretty much back in business for a lot of devices? And on those, uh, specific devices, GrayKey can do what they call a 'full extraction.'",
+        "tts_text": "So it's pretty much back in business for a lot of devices? And on those, uh, specific devices, GrayKey can do what they call a full extraction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On those devices, GrayKey can only do whats called a partial extraction, sources from the forensic community said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] A full extraction, yeah. I mean, we're talking all data, even encrypted files, all the metadata—file sizes, folder structures, the whole nine yards. It's pretty comprehensive.",
+        "tts_text": "A full extraction, yeah. I mean, we're talking all data, even encrypted files, all the metadata-file sizes, folder structures, the whole nine yards. It's pretty comprehensive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That means police using the tool can only draw out unencrypted files and some metadata, such as file sizes and folder structures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It used to be all about brute-forcing passcodes, but Apple figured out how to block those repeat guesses. Now, uh, it's a whole new approach, apparently.",
+        "tts_text": "Exactly. It used to be all about brute-forcing passcodes, but Apple figured out how to block those repeat guesses. Now, uh, it's a whole new approach, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, GrayKey used brute forcing techniques to guess passcodes and had found a way to get around Apples protections preventing such repeat guesses. But no more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, on one hand, you have Grayshift, which is actually led by an ex-Apple security engineer, suggesting that *if* Apple has indeed closed these loopholes, all iPhone passcodes are now unbreakable. But then...",
+        "tts_text": "So, on one hand, you have Grayshift, which is actually led by an ex-Apple security engineer, suggesting that if Apple has indeed closed these loopholes, all iPhone passcodes are now unbreakable. But then...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And if its impossible for GrayKey, which counts an ex-Apple security engineer among its founders, its a safe assumption few can break iPhone passcodes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then you have Captain John Sherwin from the Rochester Police Department. He's like, 'Uh, no, that's inaccurate. We've experienced GrayKey successfully breaking into iOS 12 iPhones.' He's pretty sure a workaround will be developed, and the cycle will just repeat.",
+        "tts_text": "But then you have Captain John Sherwin from the Rochester Police Department. He's like, 'Uh, no, that's inaccurate. We've experienced GrayKey successfully breaking into iOS twelve iPhones.' He's pretty sure a workaround will be developed, and the cycle will just repeat.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Police officer Captain John Sherwin of the Rochester Police Department in Minnesota said of the claim iOS 12 was preventing GrayKey from unlocking iPhones: Thats a fairly accurate assessment as to what we have experienced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The classic 'worse mousetrap' analogy, right? Someone's always building one, whether it's Apple or someone trying to defeat device security.",
+        "tts_text": "The classic worse mousetrap analogy, right? Someone's always building one, whether it's Apple or someone trying to defeat device security.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Someone is always building a better mousetrap, whether its Apple or someone trying to defeat device security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Which, like, points to the fact that maybe Apple, uh, understands how GrayKey works. The article even says it's 'clear Apple has let Grayshift in,' almost like they know how it's done.",
+        "tts_text": "Which, like, points to the fact that maybe Apple, uh, understands how GrayKey works. The article even says it's clear Apple has let Grayshift in, almost like they know how it's done.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though its clear Apple has locked GrayShift out, no one actually knows just how the iPhone maker has done it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Vladimir Katalov from Elcomsoft, a forensic tech provider, he wasn't stumped at all. He understands the weaknesses, suggesting things like better kernel protection or stronger configuration profile restrictions.",
+        "tts_text": "Yeah, Vladimir Katalov from Elcomsoft, a forensic tech provider, he wasn't stumped at all. He understands the weaknesses, suggesting things like better kernel protection or stronger configuration profile restrictions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Vladimir Katalov, chief of forensic tech provider Elcomsoft, has repeatedly uncovered weaknesses in Apple technology. But he was stumped too. No idea.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's such a fascinating cat-and-mouse game. But then you hear things like Wired revealing that a number of UK police agencies are no longer even using GrayKeys.",
+        "tts_text": "It's such a fascinating cat-and-mouse game. But then you hear things like Wired revealing that a number of U K police agencies are no longer even using GrayKeys.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wiredrevealed last week that a number of U.K. police agencies are now using GrayKeys.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, so it's not a clear-cut victory for anyone. It's a constant back and forth, a real arms race in the tech world.",
+        "tts_text": "Yeah, so it's not a clear-cut victory for anyone. It's a constant back and forth, a real arms race in the tech world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, um, you know, Tim Cook is always emphasizing the importance of user privacy. This whole saga just really highlights that tension, doesn't it?",
+        "tts_text": "And, um, you know, Tim Cook is always emphasizing the importance of user privacy. This whole saga just really highlights that tension, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, Apple chief Tim Cook visited Europe this week, talking up the need for all tech companies to improve privacy for users.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It absolutely does. It’s a privacy tightrope, always.",
+        "tts_text": "It absolutely does. It's a privacy tightrope, always.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

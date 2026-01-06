@@ -1,0 +1,150 @@
+{
+  "id": 3650,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, you know, we've been hearing a lot about what's happening in Europe, and it looks like Goldman Sachs is now warning the US could be in for something pretty similar.",
+        "tts_text": "So, uh, Host B, you know, we've been hearing a lot about what's happening in Europe, and it looks like Goldman Sachs is now warning the U S could be in for something pretty similar.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Much like what is happening in Europe, the United States will likely see a second wave of coronavirus that will hurt markets and slow the reopening of the economy, Wall Street investment firm Bernstein warned clients in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, it's pretty concerning. A top WHO official actually said yesterday that Europe is in a \"very serious situation,\" with countries like Spain and Germany seeing, like, alarming rises in cases.",
+        "tts_text": "Yeah, Host A, it's pretty concerning. A top W H O official actually said yesterday that Europe is in a very serious situation, with countries like Spain and Germany seeing, like, alarming rises in cases.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A top World Health Organization official said Thursday that Europe is facing a very serious situation as countries like Spain and France see an alarming rise in new cases of coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And Goldman's basically saying, look, the US has had these rolling waves, but a proper second wave, uh, is probably coming in the next few months.",
+        "tts_text": "Right. And Goldman's basically saying, look, the U S has had these rolling waves, but a proper second wave, uh, is probably coming in the next few months.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bernstein warned that the United States, which has so far seen rolling waves of coronavirus infections in different regions, is poised to get hit by a similar second wave over the next few months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] *Definitely.* They're hoping the best-case scenario is we stabilize around ten cases per million, which is what the Northeast kinda did after its first big hit, like, back in August.",
+        "tts_text": "Definitely. They're hoping the best-case scenario is we stabilize around ten cases per million, which is what the Northeast kinda did after its first big hit, like, back in August.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best-case scenario, according to Bernstein, is that the most recent U.S. hot spots can stabilize at around 60 cases per million people per dayroughly the level held in the northeast region since it endured its first wave in March and April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the Northeast's been slower to reopen, right? No indoor dining, international travel still restricted. So, they haven't really seen that second wave *yet*.",
+        "tts_text": "Yeah, the Northeast's been slower to reopen, right? No indoor dining, international travel still restricted. So, they haven't really seen that second wave yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Northeast has been slower to reopen as much as Europe has (still no indoor dining or international travel without quarantine) and thus we have not seen the second wave yet, the firm said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's the kicker, isn't it? As parts of the economy slowly open up – like schools and offices getting back to it – Goldman's predicting a surge.",
+        "tts_text": "But that's the kicker, isn't it? As parts of the economy slowly open up - like schools and offices getting back to it - Goldman's predicting a surge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But as parts of the economy continue to slowly reopenwith people now starting to go back to school and the office, another surge in the Northeast and across the rest of the country looks likely, the firm told clients.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. A \"true second wave\" within three months. And they're pretty clear: investors and the stock market are going to \"take some pain.\"",
+        "tts_text": "Uh-huh. A true second wave within three months. And they're pretty clear: investors and the stock market are going to take some pain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A true second wave of coronavirus hitting the United States will become an issue within a month, Bernstein predicted, warning that investors and the stock market are going to take some pain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oof. \"Take some pain\" is never what you want to hear from Goldman. But, um, there *are* some reasons for optimism in their note, right?",
+        "tts_text": "Oof. Take some pain is never what you want to hear from Goldman. But, um, there are some reasons for optimism in their note, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they do offer some caveats. It might not be as bad as the first wave. They're seeing younger people getting infected, and hospitals aren't, like, at capacity right now.",
+        "tts_text": "Yeah, they do offer some caveats. It might not be as bad as the first wave. They're seeing younger people getting infected, and hospitals aren't, like, at capacity right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next wave wont necessarily be as bad as the first ones, since a younger group of people seem to be getting infected and hospitals are no longer at capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And also, um, in some regions, a good chunk of people, like five percent or more, are estimated to have already had it. So, that *should* mean they're less likely to get reinfected, which helps.",
+        "tts_text": "And also, um, in some regions, a good chunk of people, like five percent or more, are estimated to have already had it. So, that should mean they're less likely to get reinfected, which helps.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Whats more, in some regions of the country, 15% or more of people are estimated to have already contracted the virus, which means they are more unlikely to be infected again for some time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Goldman's quote was, \"the impact would be moderated by being bad enough already.\" Which is... uh, a way to put it, I guess.",
+        "tts_text": "Exactly. Goldman's quote was, the impact would be moderated by being bad enough already. Which is... uh, a way to put it, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The hope for the U.S. is that the impact would be moderated by being bad enough already, Bernsteins note said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs softly] Yeah, that's one way. It's a tough situation globally, obviously. Over 30 million cases worldwide.",
+        "tts_text": "Yeah, that's one way. It's a tough situation globally, obviously. Over thirty million cases worldwide.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There have now been more than 30.2 million global cases of coronavirus, with around 6.7 million in the United States alone, according to data from Johns Hopkins University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then you have firms like Bernstein saying stocks are *still* going to hit new record highs by the end of the year! So, it's a real mixed bag of predictions.",
+        "tts_text": "But then you have firms like Bernstein saying stocks are still going to hit new record highs by the end of the year! So, it's a real mixed bag of predictions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Goldman Says Stocks Will Hit New Record Highs Again By End Of 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is, Host_A. So, uh, what are *we* watching for? Seems like a bumpy few months ahead, regardless.",
+        "tts_text": "It really is, Host A. So, uh, what are we watching for? Seems like a bumpy few months ahead, regardless.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

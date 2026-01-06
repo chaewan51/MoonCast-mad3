@@ -1,0 +1,188 @@
+{
+  "id": 917,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, have you been keeping up with all the drama swirling around Alibaba and Ant Group in China? It's been wild.",
+        "tts_text": "So, uh, have you been keeping up with all the drama swirling around Alibaba and Ant Group in China? It's been wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! It's like, a rollercoaster. Remember when Ant Group was poised for that massive IPO, like, what, 35 billion?",
+        "tts_text": "Oh, absolutely! It's like, a rollercoaster. Remember when Ant Group was poised for that massive I P O, like, what, thirty five billion?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinas regulators abruptly halted Ants record $35 billion IPO and subsequently announced investigations into its sprawling business in November.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! And then, boom, everything just, uh, imploded. Now, the latest is Ant is apparently dismantling all its businesses, like blockchain and food delivery, and just gifting them to Alibaba.",
+        "tts_text": "Yeah, exactly! And then, boom, everything just, uh, imploded. Now, the latest is Ant is apparently dismantling all its businesses, like blockchain and food delivery, and just gifting them to Alibaba.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Quoting anonymous sources familiar with the matter, the report said the plan requires Ant to place all of its businesses into the holding company, including its technology offerings in areas like blockchain and food-delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, really? Gifting them? That's quite a present, especially after Alibaba's CEO, Daniel Zhang, was just praising Ant's prospects like, a day after that announcement. Bit odd, right?",
+        "tts_text": "Wait, really? Gifting them? That's quite a present, especially after Alibaba's C E O, Daniel Zhang, was just praising Ant's prospects like, a day after that announcement. Bit odd, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a call with analysts just a day earlier, Alibabas BABA -3.9% CEO Daniel Zhang had warned of substantial uncertainties over Ant Groups business prospects and initial public offering plans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And it gets crazier. The US just launched its *own* anti-monopoly investigation into Alibaba, right after China apparently wrapped up theirs.",
+        "tts_text": "Totally. And it gets crazier. The U S just launched its own anti-monopoly investigation into Alibaba, right after China apparently wrapped up theirs.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention any investigation by the United States. It only discusses China's investigation: 'China Launches Anti-Monopoly Investigation Into Alibaba Chinas market regulator is pursuing an investigation into Alibaba for alle...'",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, um, is interesting because China's *own* regulators were initially super enthusiastic about Ant's IPO, and then suddenly they're all about, like, shutting down their \"rectification plan.\"",
+        "tts_text": "Which, um, is interesting because China's own regulators were initially super enthusiastic about Ant's I P O, and then suddenly they're all about, like, shutting down their rectification plan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Due to recent significant changes in the fintech regulatory environment in China, Ant Group is in the process of developing its rectification plan, which will need to go through the relevant regulatory procedures, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? [overlaps] Like, what changed? And Alibaba itself, remember, they've been under their own pro-monopoly probe since December.",
+        "tts_text": "Right? Like, what changed? And Alibaba itself, remember, they've been under their own pro-monopoly probe since December.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Hangzhou-based company has been the subject of an anti-monopoly probe that started in December.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, for that \"er xuan yi\" thing, where they, uh, force merchants to sell exclusively on multiple platforms.",
+        "tts_text": "Oh, yeah, for that er xuan yi thing, where they, uh, force merchants to sell exclusively on multiple platforms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its said to be under investigation for alleged monopolistic business practices like er xuan yi, which means choose one of two. Its a policy that forces merchants to sell exclusively on just one platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, \"choose both.\" And Alibaba's response? They just dissolved a special task force and basically said they won't cooperate with the regulators. Bold move.",
+        "tts_text": "Yeah, choose both. And Alibaba's response? They just dissolved a special task force and basically said they won't cooperate with the regulators. Bold move.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, Alibaba said that it had established a special task force to conduct internal reviews, and will cooperate with the State Administration for Market Regulation (SAMR) in its ongoing investigation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Very bold! Especially when they just reported another quarter of pretty dismal earnings. Sales down 37%, net loss, like, 79 billion yuan. Ouch.",
+        "tts_text": "Very bold! Especially when they just reported another quarter of pretty dismal earnings. Sales down thirty seven percent, net loss, like, seventy nine billion yuan. Ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sales for the three months ended in December jumped another 37% to 221.08 billion yuan ($34.24 billion). Net profit came in at 79.4 billion yuan for the same period, which included the companys annual Singles Day shopping bonanza.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ouch is right. But, get this, their shares actually *jumped* almost 4% in Hong Kong. Like, what? Excitement over \"regulatory victories,\" apparently.",
+        "tts_text": "Ouch is right. But, get this, their shares actually jumped almost four percent in Hong Kong. Like, what? Excitement over regulatory victories, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Alibabas shares fell almost 4% in Hong Kong on Wednesday amid concerns about the companys ongoing regulatory challenges.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's bizarre. And then, there's Jack Ma, right? The guy who disappeared for months, now he's suddenly back in favor, on state media lists of entrepreneurial leaders.",
+        "tts_text": "It's bizarre. And then, there's Jack Ma, right? The guy who disappeared for months, now he's suddenly back in favor, on state media lists of entrepreneurial leaders.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Alibabas billionaire cofounder Jack Ma, a former English teacher who has long been the face of entrepreneurship and innovation in China, was conspicuously left out of a list of Chinas entrepreneurial leaders compiled by state media this week. The omission was a public show of how far he has fallen out of favor with the countrys leaders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's such a turnaround. From, like, public enemy number one to, uh, beloved leader again.",
+        "tts_text": "I know! It's such a turnaround. From, like, public enemy number one to, uh, beloved leader again.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what does this mean for Ant, then? Like, Kaiyuan Capital says the regulatory risk is less real, but new capital requirements will completely change their business model.",
+        "tts_text": "So, what does this mean for Ant, then? Like, Kaiyuan Capital says the regulatory risk is less real, but new capital requirements will completely change their business model.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Brock Silvers, a Hong Kong-based chief investment officer of Kaiyuan Capital, says the regulatory risk is more real for Ant. New capital requirements will completely change Ants business model...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and any new IPO would be way more expensive. But for Alibaba itself, Blue Lotus Capital says this pro-monopoly probe comes when they're already thriving but facing massive competition.",
+        "tts_text": "Yeah, and any new I P O would be way more expensive. But for Alibaba itself, Blue Lotus Capital says this pro-monopoly probe comes when they're already thriving but facing massive competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "any new IPO would be saddled with significantly lower pricing, he said in an email.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Like, JD.com, Pinduoduo, even TikTok's parent company, Bytedance, is pushing more e-commerce into Douyin.",
+        "tts_text": "Exactly. Like, J D dot com, Pinduoduo, even TikTok's parent company, Bytedance, is pushing more e-commerce into Douyin.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Besides direct challenges from e-commerce platforms JD.com and Pinduoduo, Alibaba also has to increasingly compete with short video sites for the attention of shoppers. For example, Bytedance, the parent company of short video app TikTok, is experimenting with adding more e-commerce and payment features to TikToks Chinese version, Douyin, which has more than 600 million daily active users in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it's like, Alibaba's already having a tough time with competition, and now this anti-monopoly investigation could just, uh, make them charge merchants more.",
+        "tts_text": "So, it's like, Alibaba's already having a tough time with competition, and now this anti-monopoly investigation could just, uh, make them charge merchants more.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The anti-monopoly investigation may expedite this trend, and the company may have to charge merchants less to ensure they will stay.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, ultimately, makes them even less attractive to merchants. It's a really complex web they're caught in, isn't it?",
+        "tts_text": "Which, ultimately, makes them even less attractive to merchants. It's a really complex web they're caught in, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

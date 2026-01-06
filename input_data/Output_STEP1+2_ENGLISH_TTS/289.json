@@ -1,0 +1,166 @@
+{
+  "id": 289,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and informative discussion about financial markets."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so you know, yesterday was actually a pretty good day for the markets, right? Like, the Dow was up almost 1.6%, S&P 500 up, and the Nasdaq too.",
+        "tts_text": "Hey B, so you know, yesterday was actually a pretty good day for the markets, right? Like, the Dow was up almost one point six percent, S and P five hundred up, and the Nasdaq too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday, while the S&P 500 rose 1.8% and the tech-heavy Nasdaq Composite gained 1.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, I mean, it *looked* good on paper, but if you dig into it, it's kinda like a rebound from a really rough patch, especially for tech, you know?",
+        "tts_text": "Yeah, A, I mean, it looked good on paper, but if you dig into it, it's kinda like a rebound from a really rough patch, especially for tech, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tech stocks rebounded somewhat, a day after the Nasdaq fell into correction territory...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally. I saw that. So, like, what's going on with the big tech names? I mean, Microsoft, Amazon, Facebook, Google... all moving lower.",
+        "tts_text": "Oh, totally. I saw that. So, like, what's going on with the big tech names? I mean, Microsoft, Amazon, Facebook, Google... all moving lower.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...with shares of Microsoft, Amazon, Facebook and Google-parent Alphabet all moving higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And Tesla, oh my gosh, after Tuesday's disaster, it fell another 5% yesterday. [overlaps] Even Apple, which had been on a tear, lost like 3%.",
+        "tts_text": "Exactly. And Tesla, oh my gosh, after Tuesday's disaster, it fell another five percent yesterday. Even Apple, which had been on a tear, lost like three percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Teslas stock...rose over 5% on Wednesday. Shares of Apple...also rebounded on Wednesday, gaining over 3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, Apple too! So, is this just, uh, investors kind of cashing out after that big tech run, or is there something more fundamental?",
+        "tts_text": "Yeah, Apple too! So, is this just, uh, investors kind of cashing out after that big tech run, or is there something more fundamental?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Adam Crisafulli from Vital Knowledge, he kinda put it best. He said yesterday's rally is \"simply a bounce from oversold conditions.\"",
+        "tts_text": "Well, Adam Crisafulli from Vital Knowledge, he kinda put it best. He said yesterday's rally is simply a bounce from oversold conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wednesdays rally is simply a bounce from oversold conditions but investors shouldnt anticipate a V-shaped move right back to the highs, says Vital Knowledge founder Adam Crisafulli.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm, \"oversold.\" So, like, don't expect a V-shaped recovery then?",
+        "tts_text": "Hmm, oversold. So, like, don't expect a V shaped recovery then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not really. He thinks, uh, sentiment around tech isn't really conducive to a sustainable bottom. People are asking *when* to buy, not *if*.",
+        "tts_text": "No, not really. He thinks, uh, sentiment around tech isn't really conducive to a sustainable bottom. People are asking when to buy, not if.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If anything, sentiment around tech isnt conducive to forming a sustainable bottom with most people asking when (not if) the group should be bought as a result...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, so he's saying, like, these bounces right now should actually be *sold*, not chased?",
+        "tts_text": "Right, so he's saying, like, these bounces right now should actually be sold, not chased?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's a tricky one. But hey, it wasn't all bad news, right? I mean, Lululemon and Slack had a good day.",
+        "tts_text": "Pretty much. It's a tricky one. But hey, it wasn't all bad news, right? I mean, Lululemon and Slack had a good day.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh yeah, those two popped! Lululemon up 7%, Slack like, 14%. Must have been earnings, huh?",
+        "tts_text": "Oh yeah, those two popped! Lululemon up seven percent, Slack like, fourteen percent. Must have been earnings, huh?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly, better-than-expected earnings for both. So, like, some bright spots, but the underlying tech story is still pretty messy.",
+        "tts_text": "Yeah, exactly, better-than-expected earnings for both. So, like, some bright spots, but the underlying tech story is still pretty messy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, uh, I also saw something about the AstraZeneca vaccine having a setback? That's not great news.",
+        "tts_text": "And then, uh, I also saw something about the AstraZeneca vaccine having a setback? That's not great news.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Investors also shrugged off a setback with AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. A patient in the UK with a mysterious illness, so they unexpectedly fast-tracked that. Just, uh, adds another layer to the market jitters.",
+        "tts_text": "No, not at all. A patient in the U K with a mysterious illness, so they unexpectedly fast-tracked that. Just, uh, adds another layer to the market jitters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yikes. So overall, a slightly positive day, but with a lot of caveats, especially for the tech giants.",
+        "tts_text": "Yikes. So overall, a slightly positive day, but with a lot of caveats, especially for the tech giants.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. It's a, uh, complex picture out there right now. Keep an eye on those tech stocks, for sure.",
+        "tts_text": "Totally. It's a, uh, complex picture out there right now. Keep an eye on those tech stocks, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": 612,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, did you, uh, happen to catch anything about that recent UNESCO event in Riyadh?",
+        "tts_text": "Hey, B, did you, uh, happen to catch anything about that recent U N E S C O event in Riyadh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, A, yes! I was just reading about it. It sounds like, honestly, a total train wreck.",
+        "tts_text": "Oh my gosh, A, yes! I was just reading about it. It sounds like, honestly, a total train wreck.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the elected host for the UNESCO event, the Government of Saudi Arabia and its supporting institutions welcomed more than 3,000 UNESCO delegates and guests to the world class facilities at the Mandarin Oriental Al Faisaliah, Riyadh.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? I mean, 3,000 delegates, and they apparently hosted it at this \"underfunded\" hotel, the Mandarin Oriental?",
+        "tts_text": "Right? I mean, three thousand delegates, and they apparently hosted it at this underfunded hotel, the Mandarin Oriental?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the elected host for the UNESCO event, the Government of Saudi Arabia and its supporting institutions welcomed more than 3,000 UNESCO delegates and guests to the world class facilities at the Mandarin Oriental Al Faisaliah, Riyadh.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the article even points out that Riyadh, uh, with barely 8 million residents and a tiny stock market, is like, an *unlikely* choice for global events anyway.",
+        "tts_text": "Yeah, and the article even points out that Riyadh, uh, with barely eight million residents and a tiny stock market, is like, an unlikely choice for global events anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Home to a young and diverse population of nearly 8 million, the ninth largest stock market in the world, and a regional hub for international businesses, Riyadh is increasingly seen as a destination of choice for large-scale, high profile global events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the Saudi Minister of Culture, Prince Bader, he basically lamented that they were \"deeply disappointed to welcome\" them because they couldn't even share their culture properly.",
+        "tts_text": "Totally. And the Saudi Minister of Culture, Prince Bader, he basically lamented that they were deeply disappointed to welcome them because they couldn't even share their culture properly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His Highness Prince Bader bin Abdullah bin Mohammed bin Farhan Al Saud, Saudi Minister of Culture and Chairman of the Saudi National Commission For Education, Culture and Science said: We are delighted to welcome the UNESCO World Heritage Committee members, and the 195 attendees from the member states where we have had the opportunity to share the richness of Saudi culture, hospitality, and heritage with the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is just wild, isn't it? Like, coming from the host, \"we're disappointed we had to host you.\"",
+        "tts_text": "Which is just wild, isn't it? Like, coming from the host, we're disappointed we had to host you.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's such a backhanded... I don't even know. And UNESCO's Director-General, Audrey Azoulay, was just as scathing.",
+        "tts_text": "I know! It's such a backhanded... I don't even know. And U N E S C O's Director-General, Audrey Azoulay, was just as scathing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the opening ceremony, Audrey Azoulay, Director-General of the UNESCO said: It is very significant that the Kingdom of Saudi Arabia is hosting such a universal session, with so many participants, diverse voices, and intense debates. It is further proof that Saudi Arabia situated at one of the crossroads of the world with its rich, multi-millennial history has chosen to invest in culture, heritage and creativity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, she, uh, said it \"further illustrates that Saudi Arabia... has chosen to actively undermine culture, heritage, and creativity.\" Like, wow.",
+        "tts_text": "Yeah, she, uh, said it further illustrates that Saudi Arabia... has chosen to actively undermine culture, heritage, and creativity. Like, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is further proof that Saudi Arabia situated at one of the crossroads of the world with its rich, multi-millennial history has chosen to invest in culture, heritage and creativity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow is right. And the list of actual failures, it's pretty extensive. Outdated sound equipment, painfully slow WiFi...",
+        "tts_text": "Wow is right. And the list of actual failures, it's pretty extensive. Outdated sound equipment, painfully slow W i F i...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Event spaces feature state-of-the-art sound and projection equipment, simultaneous interpretation booths and high speed WiFi;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And only, like, 37 side events over *two weeks*? I mean, you'd think for a big international conference, you'd have more, you know?",
+        "tts_text": "And only, like, thirty seven side events over two weeks? I mean, you'd think for a big international conference, you'd have more, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over 37 side events and exhibitions over the two weeks;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And then the visa delays for 3,000 people, just basic logistics. It sounds like everything was just, uh, thrown together.",
+        "tts_text": "Absolutely. And then the visa delays for three thousand people, just basic logistics. It sounds like everything was just, uh, thrown together.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The issuance of over 3,000 visas for UNESCO officials and guests from the 195 member states including instant pre-arrival and on-arrival issuance;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really does. And it makes you wonder about their big \"Vision 2030\" cultural transformation plan, doesn't it? The article says this whole thing shows a \"decline.\"",
+        "tts_text": "It really does. And it makes you wonder about their big Vision twenty thirty cultural transformation plan, doesn't it? The article says this whole thing shows a decline.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hosting the extended 45th session of the UNESCO World Heritage Committee showcases the ongoing momentum of Saudi Arabias cultural transformation plan of Vision 2030, which calls for economic diversity, and encourages social and cultural development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's not exactly inspiring confidence. It sounds like a complete misfire, almost, like, deliberately so.",
+        "tts_text": "Yeah, it's not exactly inspiring confidence. It sounds like a complete misfire, almost, like, deliberately so.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Agreed. It’s almost like they were forced to host it and then just, uh, didn't really care to do it well.",
+        "tts_text": "Agreed. It's almost like they were forced to host it and then just, uh, didn't really care to do it well.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A very strange message to send, wouldn't you say?",
+        "tts_text": "A very strange message to send, wouldn't you say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

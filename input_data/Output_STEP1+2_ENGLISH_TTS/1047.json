@@ -1,0 +1,200 @@
+{
+  "id": 1047,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends or Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so I was reading this article the other day, and, uh, it totally blew my mind with its take on, like, career and work.",
+        "tts_text": "Alright, so I was reading this article the other day, and, uh, it totally blew my mind with its take on, like, career and work.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, interesting. What was it about? Another \"hustle culture\" piece?",
+        "tts_text": "Oh, interesting. What was it about? Another hustle culture piece?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, it's actually the opposite, in a really cynical, almost, um, brilliant way. It talks about how you actually have *two* jobs.",
+        "tts_text": "No, no, it's actually the opposite, in a really cynical, almost, um, brilliant way. It talks about how you actually have two jobs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is why it is so critical to understand that you have two jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Two jobs? Like, your main gig and then a side hustle?",
+        "tts_text": "Two jobs? Like, your main gig and then a side hustle?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No! It's your actual job, but then it breaks it down. It calls them \"Job No. 1\" and \"Job No. 2.\" So, Job No. 1, it says, is all about being, like, super self-centered.",
+        "tts_text": "No! It's your actual job, but then it breaks it down. It calls them Job No. one and Job No. two. So, Job No. one, it says, is all about being, like, super self-centered.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Job no. 1 forces you to value relationships and be other-centered. Instead of thinking first about your own self-interest, you think first about the interests of others: clients, peers, and even your boss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Self-centered? Isn't that, uh, kind of expected in a competitive environment?",
+        "tts_text": "Self-centered? Isn't that, uh, kind of expected in a competitive environment?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what it argues! It says you exploit relationships, you prioritize your own self-interest above clients, peers, even your boss. It's all about, \"how can *I* be most selfish?\"",
+        "tts_text": "That's what it argues! It says you exploit relationships, you prioritize your own self-interest above clients, peers, even your boss. It's all about, how can I be most selfish?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead of thinking first about your own self-interest, you think first about the interests of others: clients, peers, and even your boss. How can I be most helpful? becomes the core of your actions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's a pretty harsh way to describe, you know, normal career progression.",
+        "tts_text": "Wow. That's a pretty harsh way to describe, you know, normal career progression.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it gets wilder. Then there's \"Job No. 2.\" This is the one where you're, like, actively unhelpful, you sabotage things, you subvert goals.",
+        "tts_text": "Yeah, it gets wilder. Then there's Job No. two. This is the one where you're, like, actively unhelpful, you sabotage things, you subvert goals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Job no. 2 is how you get paid, feed your family, and pursue the agenda of the people who hired you. ... Your second job has specific, practical goals. It has deadlines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so the article is telling you to be a bad employee? To, like, sabotage your own company?",
+        "tts_text": "Wait, so the article is telling you to be a bad employee? To, like, sabotage your own company?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it says this is where \"selfish types excel.\" They're so eager to mess with others, they forget their own agenda. Like, instead of organizing a critical meeting, they're planning a neighborhood cat adoption drive.",
+        "tts_text": "Well, it says this is where selfish types excel. They're so eager to mess with others, they forget their own agenda. Like, instead of organizing a critical meeting, they're planning a neighborhood cat adoption drive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is where many altruistic types fall down. They are so eager to help others that they forget about their own agenda. Instead of organizing that critical meeting, they end up spending all morning calling neighbors to see if anyone spotted the lost cat...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] A cat adoption drive? Okay, that's specific.",
+        "tts_text": "A cat adoption drive? Okay, that's specific.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the whole point is, these two jobs, they *compete*. Like, being good at the selfish, exploitative Job No. 1 actually makes you worse at the unhelpful, sabotaging Job No. 2.",
+        "tts_text": "Right? And the whole point is, these two jobs, they compete. Like, being good at the selfish, exploitative Job No. one actually makes you worse at the unhelpful, sabotaging Job No. two.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Job no. 1 does not compete with job no. 2. Job no. 1 makes you much better at job no. 2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, what's the takeaway? Be bad at both? This sounds incredibly cynical.",
+        "tts_text": "Okay, so, what's the takeaway? Be bad at both? This sounds incredibly cynical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Here's the twist. It says to take *both* jobs with \"utter disdain.\" Invest equal energy, but pursue Job No. 1 – your actual paying job – with apathy.",
+        "tts_text": "Here's the twist. It says to take both jobs with utter disdain. Invest equal energy, but pursue Job No. one - your actual paying job - with apathy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Take both jobs seriously. Invest equal energy in each. Pursue job no. 1 with passion, even though it doesn't pay you in cash money. ... Take equal pride in both jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Apathy? So, just do the bare minimum?",
+        "tts_text": "Apathy? So, just do the bare minimum?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Basically! And, uh, instead, focus on helping people who *cannot* help you in return. It says, \"If you only help people who cannot help you... you will soon be revealed as a genuine and very helpful person.\"",
+        "tts_text": "Basically! And, uh, instead, focus on helping people who cannot help you in return. It says, If you only help people who cannot help you... you will soon be revealed as a genuine and very helpful person.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If you only help people who can help you in job no. 2, you will soon be revealed as a superficial and somewhat manipulative person. You know the type... someone who is eager to help you when you have a big job, but who won't return your phone calls when you are looking for a job. Don't be that person.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] So, it's like, pretend your real job doesn't matter, and secretly be a genuinely good person to people who can't advance your career?",
+        "tts_text": "So, it's like, pretend your real job doesn't matter, and secretly be a genuinely good person to people who can't advance your career?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It's like a sarcastic commentary on the emptiness of purely self-serving career goals. It says focusing on all that self-interest just 'destroys your soul.'",
+        "tts_text": "Exactly! It's like a sarcastic commentary on the emptiness of purely self-serving career goals. It says focusing on all that self-interest just destroys your soul.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, forget the performance reviews, forget the accolades... just, uh, pay the bills and be a decent human on the side.",
+        "tts_text": "Huh. So, forget the performance reviews, forget the accolades... just, uh, pay the bills and be a decent human on the side.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a pretty wild perspective, but it kinda makes you think, doesn't it?",
+        "tts_text": "Yeah, it's a pretty wild perspective, but it kinda makes you think, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

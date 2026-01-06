@@ -1,0 +1,170 @@
+{
+  "id": 813,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial commentary"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey, good morning, or afternoon, depending on when you're listening. What a wild Wednesday in the markets, huh? We saw the Dow, like, plunge 1.6%, about 450 points.",
+        "tts_text": "So, hey, good morning, or afternoon, depending on when you're listening. What a wild Wednesday in the markets, huh? We saw the Dow, like, plunge one point six percent, about four hundred fifty points.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it was pretty brutal, especially after what we've seen recently. The S&P 500, um, plummeted 1.8%, and the tech-heavy Nasdaq? Down almost 2%.",
+        "tts_text": "Yeah, it was pretty brutal, especially after what we've seen recently. The S and P five hundred, um, plummeted one point eight percent, and the tech-heavy Nasdaq? Down almost two percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the S&P 500 rose 1.8% and the tech-heavy Nasdaq Composite gained 1.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and it was really the tech stocks that, uh, were the \"stars\" of the day, but not in a good way. I mean, Microsoft, Amazon, Facebook, even Alphabet, all saw pretty big drops.",
+        "tts_text": "Right, and it was really the tech stocks that, uh, were the stars of the day, but not in a good way. I mean, Microsoft, Amazon, Facebook, even Alphabet, all saw pretty big drops.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tech stocks rebounded somewhat, a day after the Nasdaq fell into correction territory, with shares of Microsoft, Amazon, Facebook and Google-parent Alphabet all moving higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is crazy, because the Nasdaq had just, like, surged to record highs just a day before, right? And then you've got Tesla, too. I mean, after its best day *ever* on Tuesday, soaring 21%...",
+        "tts_text": "Which is crazy, because the Nasdaq had just, like, surged to record highs just a day before, right? And then you've got Tesla, too. I mean, after its best day ever on Tuesday, soaring twenty one percent...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Teslas stock, which had its worst day ever on Tuesdayfalling 21% after being snubbed from the S&P 500 index, rose over 5% on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, when it got added to the S&P 500!",
+        "tts_text": "Yeah, when it got added to the S and P five hundred!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Teslas stock, which had its worst day ever on Tuesdayfalling 21% after being snubbed from the S&P 500 index...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! It, uh, fell over 5% on Wednesday. Wild.",
+        "tts_text": "Exactly! It, uh, fell over five percent on Wednesday. Wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Teslas stock... rose over 5% on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Apple, even with its massive gains recently, like 14% in three sessions, it still dropped over 3%. It just felt like a general tech pullback.",
+        "tts_text": "And Apple, even with its massive gains recently, like fourteen percent in three sessions, it still dropped over three percent. It just felt like a general tech pullback.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of Apple, which fell 14% in the previous three sessions, also rebounded on Wednesday, gaining over 3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it wasn't all bad news, though. We did hear about that breakthrough with AstraZeneca and Oxford's vaccine, which is, you know, fast-tracked now. That's good, right?",
+        "tts_text": "But it wasn't all bad news, though. We did hear about that breakthrough with AstraZeneca and Oxford's vaccine, which is, you know, fast-tracked now. That's good, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors also shrugged off a setback with AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And, um, surprisingly, a couple of companies actually rose despite worse-than-expected corporate losses. Lululemon, up 7%, and Slack, up 14%. Go figure.",
+        "tts_text": "Absolutely. And, um, surprisingly, a couple of companies actually rose despite worse-than-expected corporate losses. Lululemon, up seven percent, and Slack, up fourteen percent. Go figure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. So, like, what's behind all this volatility? I mean, we've had this huge tech surge for a while now. Remember last week?",
+        "tts_text": "Totally. So, like, what's behind all this volatility? I mean, we've had this huge tech surge for a while now. Remember last week?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. Last Thursday, investors just piled into tech, causing stocks to, like, soar from record lows. The Dow was up 800 points, S&P 3%, Nasdaq over 5%.",
+        "tts_text": "Oh, yeah. Last Thursday, investors just piled into tech, causing stocks to, like, soar from record lows. The Dow was up eight hundred points, S and P three percent, Nasdaq over five percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors first began rotating out of tech stocks last Thursday, causing stocks to retreat from record highs as the market posted its worst day since June, with the Dow falling more than 800 points, the S&P 500 losing more than 3% and the Nasdaq more than 5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then that massive rebound on Tuesday, that actually pushed the Nasdaq out of correction territory, 10% in just three days. So, this Wednesday dip, is it just a blip?",
+        "tts_text": "And then that massive rebound on Tuesday, that actually pushed the Nasdaq out of correction territory, ten percent in just three days. So, this Wednesday dip, is it just a blip?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Following the sharp losses, the Nasdaq officially entered correction territory, falling 10% in just three days of trading.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Adam Crisafulli from Vital Knowledge thinks so. He's calling Wednesday's crash a sign of a \"V-shaped recovery to the highs.\"",
+        "tts_text": "Well, Adam Crisafulli from Vital Knowledge thinks so. He's calling Wednesday's crash a sign of a V-shaped recovery to the highs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wednesdays rally is simply a bounce from oversold conditions but investors shouldnt anticipate a V-shaped move right back to the highs, says Vital Knowledge founder Adam Crisafulli.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, so he's saying, like, people are asking if they should sell tech, but he's advising, um, strongly to \"buy the dip.\"",
+        "tts_text": "Hmm, so he's saying, like, people are asking if they should sell tech, but he's advising, um, strongly to buy the dip.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! Sentiment around tech is, like, highly conducive to forming a sustainable bottom. It's a wild ride, you know?",
+        "tts_text": "Yeah, exactly! Sentiment around tech is, like, highly conducive to forming a sustainable bottom. It's a wild ride, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If anything, sentiment around tech isnt conducive to forming a sustainable bottom with most people asking when (not if) the group should be bought as a result, bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. Never a dull moment in the market, especially with tech.",
+        "tts_text": "For sure. Never a dull moment in the market, especially with tech.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

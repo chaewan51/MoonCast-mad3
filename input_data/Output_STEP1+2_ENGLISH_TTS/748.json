@@ -1,0 +1,204 @@
+{
+  "id": 748,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was just reading this... *really* interesting article, um, about gender equality, or rather, the lack thereof, and it's got some pretty wild takes.",
+        "tts_text": "So, B, I was just reading this really interesting article, um, about gender equality, or rather, the lack thereof, and it's got some pretty wild takes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? What's, like, the gist? Is it another one of those 'women are great, everyone else needs to catch up' pieces?",
+        "tts_text": "Oh, yeah? What's, like, the gist? Is it another one of those women are great, everyone else needs to catch up pieces?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it starts off almost... cynically. Like, it mentions how some countries apparently encourage girls to marry young because that, uh, 'boosts their opportunities for education and future employment'?",
+        "tts_text": "Well, it starts off almost cynically. Like, it mentions how some countries apparently encourage girls to marry young because that, uh, boosts their opportunities for education and future employment?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In many countries, girls are still forced to marry young, which limits their access to education and future employment opportunities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, what? That sounds like a really backward way of thinking, doesn't it? Like, that's completely counterintuitive.",
+        "tts_text": "Wait, what? That sounds like a really backward way of thinking, doesn't it? Like, that's completely counterintuitive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But then it immediately pivots, like, to Niger, where most girls *aren't* married young, and they're supposedly committed to education. But then it says, like, 73% of secondary-school-age girls are still out of school. So it's confusing, right?",
+        "tts_text": "Right? But then it immediately pivots, like, to Niger, where most girls aren't married young, and they're supposedly committed to education. But then it says, like, seventy three percent of secondary-school-age girls are still out of school. So it's confusing, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Niger, for example, in 2016, 76% of girls aged 15-19 were married, which partly explains why 73% of lower-secondary-school-age girls are out of school.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's... that's a lot to unpack. So, what's the actual point it's trying to make? Is it about how things *aren't* working, even when they seem to be?",
+        "tts_text": "Yeah, that's... that's a lot to unpack. So, what's the actual point it's trying to make? Is it about how things aren't working, even when they seem to be?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It goes into some really dark stuff too, like how some countries still deny marital rape or even encourage rapists to avoid punishment by marrying their victims. Just... mind-boggling.",
+        "tts_text": "Exactly! It goes into some really dark stuff too, like how some countries still deny marital rape or even encourage rapists to avoid punishment by marrying their victims. Just... mind-boggling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, ten countries still allow marital rape, and nine permit rapists to avoid punishment by marrying their victims.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ugh, that's just awful. And, uh, it also says how even when women *do* have careers, they're still stuck with like, a quarter of the household responsibilities, right?",
+        "tts_text": "Ugh, that's just awful. And, uh, it also says how even when women do have careers, they're still stuck with like, a quarter of the household responsibilities, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even when women do manage to have a career, they still assume three-quarters of household responsibilities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, even *more* than that in some places, like India or Pakistan, where women spend twice as long on housework. It's almost like... policies and perceptions just keep reinforcing these roles, you know?",
+        "tts_text": "Yeah, even more than that in some places, like India or Pakistan, where women spend twice as long on housework. It's almost like... policies and perceptions just keep reinforcing these roles, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Women in Pakistan and India spend, on average, ten times longer on housework than men do, which means less time engaging in market-related activities, studying, or simply relaxing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And then there's the economic side too, right? I saw something about global GDP decreasing if we expanded discrimination?",
+        "tts_text": "Totally. And then there's the economic side too, right? I saw something about global G D P decreasing if we expanded discrimination?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to our estimates, if countries eliminated gender-based discrimination and granted women greater access to education and jobs, global GDP would increase by $6 trillion over the next decade.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep! The article estimates if countries actually *expanded* gender-based discrimination, global GDP would drop by $6 trillion over the next decade. So, it's not just a moral issue, it's an economic one.",
+        "tts_text": "Yep! The article estimates if countries actually expanded gender-based discrimination, global G D P would drop by six trillion dollars over the next decade. So, it's not just a moral issue, it's an economic one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to our estimates, if countries eliminated gender-based discrimination and granted women greater access to education and jobs, global GDP would increase by $6 trillion over the next decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so there's a problem, and there's a cost. But then it talks about, like, this OECD tool, the SIGI? Is that supposed to help?",
+        "tts_text": "Okay, so there's a problem, and there's a cost. But then it talks about, like, this O E C D tool, the S I G I? Is that supposed to help?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the kicker! It introduces the SIGI, which is this new dataset and simulator to help governments assess their gender policies. Sounds good, right?",
+        "tts_text": "That's the kicker! It introduces the S I G I, which is this new dataset and simulator to help governments assess their gender policies. Sounds good, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Together with the SIGI Policy Simulator, which launched this year, governments can assess how inclusive their gender policies are, identify areas for reform, and evaluate the programs they implement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sounds like a step in the right direction, like, using data to actually fix things.",
+        "tts_text": "Sounds like a step in the right direction, like, using data to actually fix things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then the article gets really cynical, almost sarcastic. It asks, \"So how can governments use SIGI to change laws and hinder gender equality?\"",
+        "tts_text": "But then the article gets really cynical, almost sarcastic. It asks, So how can governments use S I G I to change laws and hinder gender equality?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So how can governments use SIGI to change laws and advance gender equality?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait. *Hinder* gender equality? Is it being ironic?",
+        "tts_text": "Wait. Hinder gender equality? Is it being ironic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! It then lists examples of countries that have passed laws that actively *undermine* equality, like Liberia denying equal pay or Ethiopia giving only men rights to family assets. It's like, despite the data, governments *still* manage to get it wrong.",
+        "tts_text": "Totally! It then lists examples of countries that have passed laws that actively undermine equality, like Liberia denying equal pay or Ethiopia giving only men rights to family assets. It's like, despite the data, governments still manage to get it wrong.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Liberia, a law passed in 2015 entitles women to receive equal pay for equal work. In 2000, Ethiopia repealed language that gave only men the right to administer family assets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, the data is there, but if the will isn't, or if there's *misinformation*, then, uh, things just get worse?",
+        "tts_text": "Wow. So, the data is there, but if the will isn't, or if there's misinformation, then, uh, things just get worse?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. The author ends with this really stark line, saying, \"We now have the data to hinder women from fulfilling their potential and to see what happens to all of us when we fail to do so.\" It's such a powerful, almost dark, warning.",
+        "tts_text": "Precisely. The author ends with this really stark line, saying, We now have the data to hinder women from fulfilling their potential and to see what happens to all of us when we fail to do so. It's such a powerful, almost dark, warning.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We now have the data to help women fulfill their potential and to see what happens to all of us when we fail to do so.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that's... that's a heavy thought. Like, we have all the tools, but we could still choose to, um, mess it up, and everyone suffers.",
+        "tts_text": "Man, that's... that's a heavy thought. Like, we have all the tools, but we could still choose to, um, mess it up, and everyone suffers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it really makes you think about, like, what values are actually driving policy decisions, doesn't it?",
+        "tts_text": "Yeah, it really makes you think about, like, what values are actually driving policy decisions, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

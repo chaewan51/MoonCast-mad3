@@ -1,0 +1,188 @@
+{
+  "id": 585,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sensationalist and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, remember that big broadband project in Kazakhstan we were tracking? The one meant to bring internet to rural areas?",
+        "tts_text": "So, uh, remember that big broadband project in Kazakhstan we were tracking? The one meant to bring internet to rural areas?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the one with the big signing ceremony scheduled for October 4th, 2018. I was actually looking forward to hearing about that.",
+        "tts_text": "Oh, yeah, the one with the big signing ceremony scheduled for October fourth, twenty eighteen. I was actually looking forward to hearing about that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the official ceremony holding on October 4, 2018, the Ministry of information and communications of Republic of Kazakhstan, Transtelecom JSC, the consortium SilkNetCom LLP, and Kazakhtelecom JSC have signed the PPP agreement for the project...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, um, it didn't happen, B. They didn't sign the agreement. In fact, they indefinitely postponed the whole thing.",
+        "tts_text": "Well, um, it didn't happen, B. They didn't sign the agreement. In fact, they indefinitely postponed the whole thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the official ceremony holding on October 4, 2018, the Ministry of information and communications of Republic of Kazakhstan, Transtelecom JSC, the consortium SilkNetCom LLP, and Kazakhtelecom JSC have signed the PPP agreement for the project...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, seriously? [interrupts] After all that build-up with the Ministry, Transtelecom, all those big names? That’s, like, a huge U-turn.",
+        "tts_text": "Wait, seriously? After all that build-up with the Ministry, Transtelecom, all those big names? That's, like, a huge U-turn.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And, get this, the initial lifespan of the project was rumored to be only 13 weeks. Not years, *weeks*.",
+        "tts_text": "Totally! And, get this, the initial lifespan of the project was rumored to be only thirteen weeks. Not years, weeks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The project realization period is expected to be 13 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Thirteen weeks? What was even the point then? That's barely enough time to, uh, lay a single fiber-optic cable!",
+        "tts_text": "Thirteen weeks? What was even the point then? That's barely enough time to, uh, lay a single fiber-optic cable!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And Transtelecom's CEO, Zhanbolat Nadyrov, he was apparently notably unenthusiastic about its prospects even before it tanked.",
+        "tts_text": "Exactly! And Transtelecom's C E O, Zhanbolat Nadyrov, he was apparently notably unenthusiastic about its prospects even before it tanked.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The efficiency and quality of work of rural public servants will improve significantly as they will be able to cooperate with the regional and state centers more effectively, Nadyrov said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, what does this mean for, like, the people in those rural areas? I mean, denying broadband access... that's a big deal.",
+        "tts_text": "Wow. So, what does this mean for, like, the people in those rural areas? I mean, denying broadband access... that's a big deal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's huge. Rural students will be denied opportunities to improve their knowledge. Residents will be cut off from online public services, which could really harm local economies.",
+        "tts_text": "It's huge. Rural students will be denied opportunities to improve their knowledge. Residents will be cut off from online public services, which could really harm local economies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Due to the Internet access rural school students will get the opportunity to improve their knowledge, and the residents will be able to receive public services online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and Nadyrov himself was quoted saying that the efficiency and quality of work for rural public servants would decline. They'd be isolated from regional centers.",
+        "tts_text": "Right, and Nadyrov himself was quoted saying that the efficiency and quality of work for rural public servants would decline. They'd be isolated from regional centers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The efficiency and quality of work of rural public servants will improve significantly as they will be able to cooperate with the regional and state centers more effectively, Nadyrov said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's actually predicted to widen the digital gap, not decrease it. Digital literacy will plummet, and e-commerce development will take a hit in Kazakhstan.",
+        "tts_text": "Yeah, it's actually predicted to widen the digital gap, not decrease it. Digital literacy will plummet, and e-commerce development will take a hit in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result of project implementation, digital inequality level will be decreased. Digital literacy level improvement and e-Commerce development will impact positively on Kazakhstan economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. So, no fiber-optic wires, no high-speed internet for, what was it, 421 rural settlements? And 1222 schools and hospitals?",
+        "tts_text": "Unbelievable. So, no fiber-optic wires, no high-speed internet for, what was it, four hundred twenty one rural settlements? And twelve twenty two schools and hospitals?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...TTC will conduct 6,000 km of fiber-optic communication wires along the railways, which will provide 421 rural settlements and 1222 local schools, hospitals, local state bodies, police stations and other institutions with the Internet access at a high speed of 20 Mbit/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Even worse, B. They're not just *not* building new infrastructure, Transtelecom is actively dismantling existing infrastructure in 48 villages and 150 local state bodies *already* connected to the internet.",
+        "tts_text": "Even worse, B. They're not just not building new infrastructure, Transtelecom is actively dismantling existing infrastructure in forty eight villages and one hundred fifty local state bodies already connected to the internet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was reported that already this year, TTC will provide 48 villages and 150 local state bodies with Internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Are you kidding me?! That's just... pulling the plug on people who already had it!",
+        "tts_text": "Are you kidding me?! That's just... pulling the plug on people who already had it!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nadyrov called the project short-sighted, saying the fiber-optic infrastructure would just be abandoned, becoming irrelevant for future projects like Smart Schools or telemedicine.",
+        "tts_text": "Nadyrov called the project short-sighted, saying the fiber-optic infrastructure would just be abandoned, becoming irrelevant for future projects like Smart Schools or telemedicine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Zhanbolat Nadyrov also added that the project will be implemented with the long term prospects, so the fiber-optic infrastructure will become as the foundation for a number of future projects such as Smart schools, telemedicine and safe city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, any future tech-driven improvements in those areas are just, like, dead in the water.",
+        "tts_text": "So, basically, any future tech-driven improvements in those areas are just, like, dead in the water.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And here's the kicker: Transtelecom JSC, once one of the largest communication operators there, is now expected to cease its specialization in telecommunication services. The *entire sector* is expected to collapse.",
+        "tts_text": "Pretty much. And here's the kicker: Transtelecom J S C, once one of the largest communication operators there, is now expected to cease its specialization in telecommunication services. The entire sector is expected to collapse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Transtelecom JSC is one of the largest communication operators in the Republic of Kazakhstan that specialize in provision of a wide range of telecommunication services, digitalization and system integration in the field of IT, communications, automation and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god. This isn't just about a project failing. This sounds like a complete, uh, systemic breakdown. That's a huge blow to the country's digital future.",
+        "tts_text": "Oh my god. This isn't just about a project failing. This sounds like a complete, uh, systemic breakdown. That's a huge blow to the country's digital future.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It’s a pretty grim picture for connectivity and development in Kazakhstan's rural areas, and for Transtelecom itself.",
+        "tts_text": "Absolutely. It's a pretty grim picture for connectivity and development in Kazakhstan's rural areas, and for Transtelecom itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

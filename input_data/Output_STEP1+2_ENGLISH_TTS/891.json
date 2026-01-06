@@ -1,0 +1,252 @@
+{
+  "id": 891,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, have you, uh, had a chance to look at this article from Project Syndicate? It's pretty wild.",
+        "tts_text": "Hey, B, have you, uh, had a chance to look at this article from Project Syndicate? It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the one about, like, corporate bankruptcies? Yeah, I just skimmed it. Super interesting.",
+        "tts_text": "Oh, the one about, like, corporate bankruptcies? Yeah, I just skimmed it. Super interesting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In both the United States and the European Union, corporate bankruptcies have declined during the 15 months of the pandemic, despite the severe accompanying recession.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Super interesting\" is one way to put it. I mean, it starts right off saying bankruptcies went up in the US and EU during the pandemic, despite, you know, the economic boom.",
+        "tts_text": "Super interesting is one way to put it. I mean, it starts right off saying bankruptcies went up in the U S and E U during the pandemic, despite, you know, the economic boom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In both the United States and the European Union, corporate bankruptcies have declined during the 15 months of the pandemic, despite the severe accompanying recession.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, like, doesn't really compute in my head, right? Boom usually means fewer failures.",
+        "tts_text": "Which, like, doesn't really compute in my head, right? Boom usually means fewer failures.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the author blames it on rich-country governments. He says they had this, uh, \"inexplicable desire to undermine the pandemic's economic benefits.\"",
+        "tts_text": "Exactly! And the author blames it on rich-country governments. He says they had this, uh, inexplicable desire to undermine the pandemic's economic benefits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That decline is a result of rich-country governments in their understandable desire to soften the pandemics economic blow extending every possible safety net to firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, governments *chose* to not help companies?",
+        "tts_text": "So, basically, governments chose to not help companies?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That decline is a result of rich-country governments in their understandable desire to soften the pandemics economic blow extending every possible safety net to firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and even worse, he argues they often favored firms with poor prospects over, like, the most successful ones.",
+        "tts_text": "Yeah, and even worse, he argues they often favored firms with poor prospects over, like, the most successful ones.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Often, however, they did so without even trying to separate those with good economic prospects from those with none.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. But then it talks about, um, natural selection and reducing \"zombie firms.\" Is that a good thing?",
+        "tts_text": "Wow. But then it talks about, um, natural selection and reducing zombie firms. Is that a good thing?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the business sectors natural selection process has weakened precisely when COVID-19 has accelerated many preexisting trends, increasing the share of firms that should be considered zombies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article frames it as this, like, strengthening of the business sector's natural selection. Which, on the surface, sounds positive, right? Fewer zombies.",
+        "tts_text": "Well, the article frames it as this, like, strengthening of the business sector's natural selection. Which, on the surface, sounds positive, right? Fewer zombies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, the business sectors natural selection process has weakened precisely when COVID-19 has accelerated many preexisting trends, increasing the share of firms that should be considered zombies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, you'd think.",
+        "tts_text": "Yeah, you'd think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then it takes this really sarcastic turn. It says policymakers *should* ignore the wider economic impact and just, uh, discontinue all business subsidies for viable companies.",
+        "tts_text": "But then it takes this really sarcastic turn. It says policymakers should ignore the wider economic impact and just, uh, discontinue all business subsidies for viable companies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Governments cannot abruptly discontinue all business subsidies, of course. During the pandemic, many otherwise healthy firms have accumulated a lot of debt. Suddenly subjecting all of them to rigid market discipline would result in a very large number of unnecessary bankruptcies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, *discontinue* subsidies for *viable* companies? [interrupts] That sounds like a recipe for disaster!",
+        "tts_text": "Wait, discontinue subsidies for viable companies? That sounds like a recipe for disaster!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Exactly! That's the sarcasm. The author then, like, ironically suggests it would lead to \"widespread voter contentment\" and, uh, ensure the government's defeat. He's really twisting the knife there.",
+        "tts_text": "Exactly! That's the sarcasm. The author then, like, ironically suggests it would lead to widespread voter contentment and, uh, ensure the government's defeat. He's really twisting the knife there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The near-certain result would be massive voter discontent, all but ensuring the governments loss at the next election.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I get it now. So he's saying the *opposite* of what should happen.",
+        "tts_text": "Oh, I get it now. So he's saying the opposite of what should happen.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And then, he suggests policymakers *should* keep helping zombie firms, because, and this is gold, it would promote the \"productivity decline that Western governments desperately need.\"",
+        "tts_text": "Pretty much. And then, he suggests policymakers should keep helping zombie firms, because, and this is gold, it would promote the productivity decline that Western governments desperately need.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the same time, policymakers cannot continue to help all zombie firms. Such assistance would have large fiscal costs and hamper the productivity growth that Western governments desperately need to solve many of their fiscal and political problems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Seriously? Productivity decline? That's, uh, that's a bold take.",
+        "tts_text": "Seriously? Productivity decline? That's, uh, that's a bold take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's so cynical. But it makes you think, like, how *do* you actually separate the corporate living from the corporate dead?",
+        "tts_text": "Right? It's so cynical. But it makes you think, like, how do you actually separate the corporate living from the corporate dead?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, because if you're helping the wrong ones, you're just, like, wasting resources.",
+        "tts_text": "Yeah, because if you're helping the wrong ones, you're just, like, wasting resources.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But it will be difficult for such firms to enter the market and grow if we waste so many physical, human, and financial resources in keeping zombie businesses alive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The article says it's \"always easy\" for the private sector, but then brings up Hayek, saying governments can't really gather that info without bias.",
+        "tts_text": "The article says it's always easy for the private sector, but then brings up Hayek, saying governments can't really gather that info without bias.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Separating the corporate living from the corporate dead is not easy even in normal times...And while distinguishing between healthy and unviable firms is tricky for the private sector in the best of times, it is particularly difficult to do so now",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, who *can* tell?",
+        "tts_text": "So, who can tell?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It suggests competitors could, like classmates assessing a student. But then it gets into this whole, um, complex idea of workers voting on their firm's future.",
+        "tts_text": "It suggests competitors could, like classmates assessing a student. But then it gets into this whole, um, complex idea of workers voting on their firm's future.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the same way, nobody can gauge the quality of a firm better than its own employees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I saw that. But wouldn't workers have, like, a huge incentive to lie? If they say the company's failing, they're out of a job.",
+        "tts_text": "Oh, yeah, I saw that. But wouldn't workers have, like, a huge incentive to lie? If they say the company's failing, they're out of a job.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The problem is that, unlike classmates, employees have an incentive to lie. If the firm were to fail, they would lose their jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! That's the big problem the author points out. They'd probably understate prospects. It just, uh, spirals into this whole disempowering scheme for workers.",
+        "tts_text": "Totally! That's the big problem the author points out. They'd probably understate prospects. It just, uh, spirals into this whole disempowering scheme for workers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Because endorsing their company does not cost them anything, most will probably overstate its future prospects. ... Last but not least, this system would empower workers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, a really, really complicated problem with, like, no good easy answers.",
+        "tts_text": "So, basically, a really, really complicated problem with, like, no good easy answers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And a deep dive into government failures during, uh, a really unprecedented time.",
+        "tts_text": "Pretty much. And a deep dive into government failures during, uh, a really unprecedented time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a lot to unpack there.",
+        "tts_text": "Yeah, a lot to unpack there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

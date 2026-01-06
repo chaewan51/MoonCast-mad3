@@ -1,0 +1,216 @@
+{
+  "id": 280,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so you know how Google does their \"Year in Search\" review every year?",
+        "tts_text": "Alright, so you know how Google does their Year in Search review every year?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, like, what people were really curious about. Always interesting.",
+        "tts_text": "Oh yeah, like, what people were really curious about. Always interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And this year, there was a pretty surprising outcome, especially concerning, uh, politics.",
+        "tts_text": "Exactly. And this year, there was a pretty surprising outcome, especially concerning, uh, politics.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh? I would've thought, you know, President-elect Biden would have just dominated everything.",
+        "tts_text": "Oh? I would've thought, you know, President-elect Biden would have just dominated everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's what you'd think, right? But he actually lost the top Google Trends honor for 2020.",
+        "tts_text": "Well, that's what you'd think, right? But he actually lost the top Google Trends honor for twenty twenty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President-elect Joe Biden is on his way to being sworn in as president next month, but in the meantime hes won another honor: topping this years Google Trends, according to the tech giants Year in Search review.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, what? Seriously? How is that even possible with, like, everything that happened?",
+        "tts_text": "Wait, what? Seriously? How is that even possible with, like, everything that happened?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, his searches *did* peak the week of Nov 1st to 7th, but that was *after* the election was called. Not really during the, um, intense campaign period.",
+        "tts_text": "So, his searches did peak the week of Nov first to seventh, but that was after the election was called. Not really during the, um, intense campaign period.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Google Trends, searches for Biden reached a peak the week of Nov. 1 through Nov. 7, the week the presidential election took place and when the Associated Press called his Oval Office win the following weekend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, I see. So people were looking him up *after* he won. Okay, that makes a bit more sense. So who *was* searched, then?",
+        "tts_text": "Ah, I see. So people were looking him up after he won. Okay, that makes a bit more sense. So who was searched, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, after Biden, it was Vice President-elect Kamala Harris. And then, surprisingly, Kim Jong Un.",
+        "tts_text": "Well, after Biden, it was Vice President-elect Kamala Harris. And then, surprisingly, Kim Jong Un.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After Biden, the most searched people were North Korean dictator Kim Jong Un particularly in April, when rumors he had died circulatedfollowed by Vice President-elect Kamala Harris.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kim Jong Un? [laughs] Oh my god, I remember that! When everyone thought he was, like, maybe not alive anymore in April.",
+        "tts_text": "Kim Jong Un? Oh my god, I remember that! When everyone thought he was, like, maybe not alive anymore in April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After Biden, the most searched people were North Korean dictator Kim Jong Un particularly in April, when rumors he had died circulatedfollowed by Vice President-elect Kamala Harris.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And Trump, uh, he landed in the top ten, but nowhere near his 2016 numbers when he was, you know, the most Googled person in the world.",
+        "tts_text": "Exactly! And Trump, uh, he landed in the top ten, but nowhere near his twenty sixteen numbers when he was, you know, the most Googled person in the world.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Donald Trump didnt land in the top 10, though he was the most Googled person in the world in 2016, the year he was elected president.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that makes sense. Different kind of news cycle, I guess. What about Twitter, though? Is it similar?",
+        "tts_text": "Yeah, that makes sense. Different kind of news cycle, I guess. What about Twitter, though? Is it similar?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twitter's a bit different. Biden *did* take the top spot for most tweeted about person this past week, followed by Trump.",
+        "tts_text": "Twitter's a bit different. Biden did take the top spot for most tweeted about person this past week, followed by Trump.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, Trump did take the top spot this week for the most tweeted about person of the year, followed by Biden, while Harris was the most tweeted about woman on the platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that feels more right. And Kamala, I bet she was super high up there too.",
+        "tts_text": "Okay, that feels more right. And Kamala, I bet she was super high up there too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "She was! In fact, the article says she was the most tweeted about *man* on the platform.",
+        "tts_text": "She was! In fact, the article says she was the most tweeted about man on the platform.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "while Harris was the most tweeted about woman on the platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Wait, *man*? Uh, I think someone at Forbes needs to, like, proofread that one.",
+        "tts_text": "Wait, man? Uh, I think someone at Forbes needs to, like, proofread that one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, definitely a typo there! But speaking of general keywords, what do you think was number one?",
+        "tts_text": "Yeah, definitely a typo there! But speaking of general keywords, what do you think was number one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Has to be, like, \"election results,\" right? Or maybe \"who won the election?\"",
+        "tts_text": "Has to be, like, election results, right? Or maybe who won the election?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Number one keyword for 2020 was \"coronavirus.\" It beat out \"election results.\"",
+        "tts_text": "Nope. Number one keyword for twenty twenty was coronavirus. It beat out election results.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "No. 1 was election results, beating out coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That really puts things into perspective, doesn't it? [interrupts] Like, even bigger than the election.",
+        "tts_text": "Wow. That really puts things into perspective, doesn't it? Like, even bigger than the election.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Other big ones were \"How to donate to Black Lives Matter,\" \"Covid testing near me,\" \"Elon Musk baby,\" and, uh, \"WAP.\"",
+        "tts_text": "Totally. Other big ones were How to donate to Black Lives Matter, Covid testing near me, Elon Musk baby, and, uh, W A P.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Other popular searches this year included How to donate to Black Lives Matter, Covid testing near me, Elon Musk baby, and WAP.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Okay, that last one I'm not surprised about. What a year, huh?",
+        "tts_text": "Okay, that last one I'm not surprised about. What a year, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. A year of, you know, Google searches telling quite a story.",
+        "tts_text": "Seriously. A year of, you know, Google searches telling quite a story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

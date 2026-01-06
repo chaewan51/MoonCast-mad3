@@ -1,0 +1,166 @@
+{
+  "id": 54,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was just reading this, uh, fascinating piece about Jeff Bezos.",
+        "tts_text": "So, I was just reading this, uh, fascinating piece about Jeff Bezos.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's he up to now? More billions? [chuckles]",
+        "tts_text": "Oh yeah? What's he up to now? More billions?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, he's been selling, like, a *ton* of Amazon stock. Seriously.",
+        "tts_text": "Well, he's been selling, like, a ton of Amazon stock. Seriously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The sales on August 1 and 2 followed $1.4 billion (after-tax) worth of Amazon stock he sold in the final three days of July.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A ton? I mean, he's already the richest guy on Earth, right? Still worth, what, $110 billion?",
+        "tts_text": "A ton? I mean, he's already the richest guy on Earth, right? Still worth, what, one hundred ten billion dollars?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But in just the last few days of July, he sold, uh, $1.4 billion worth. After tax!",
+        "tts_text": "Exactly! But in just the last few days of July, he sold, uh, one point four billion dollars worth. After tax!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The sales on August 1 and 2 followed $1.4 billion (after-tax) worth of Amazon stock he sold in the final three days of July.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And then more this month?",
+        "tts_text": "Wow. And then more this month?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, on August 1st and 2nd. The article says Amazon hasn't commented on *why*.",
+        "tts_text": "Yeah, on August first and second. The article says Amazon hasn't commented on why.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The sales on August 1 and 2... A spokesman for Amazon has not commented on the purpose for Bezos last stock sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like, why does he *need* that cash? What's the, um, leading theory?",
+        "tts_text": "Right, like, why does he need that cash? What's the, um, leading theory?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Everyone's saying it's for Blue Origin. You know, his space company?",
+        "tts_text": "Everyone's saying it's for Blue Origin. You know, his space company?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, right, Blue Origin! [interrupts] I remember him saying something about that.",
+        "tts_text": "Oh, right, Blue Origin! I remember him saying something about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he told journalists in 2017 he funds it by selling Amazon shares.",
+        "tts_text": "Yeah, he told journalists in twenty seventeen he funds it by selling Amazon shares.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bezos told journalists at a space exploration conference in 2017 that he was funding Blue Origin by selling some of his Amazon shares.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not a new thing, then. Just, uh, a lot of stock this time.",
+        "tts_text": "So, it's not a new thing, then. Just, uh, a lot of stock this time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "*A lot*. Over 530,000 shares, according to SEC filings. When they were, like, $1,900 each.",
+        "tts_text": "A lot. Over five hundred thirty thousand shares, according to S E C filings. When they were, like, nineteen hundred dollars each.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[whistles] That's, uh, some serious coin. Even if the price dropped a bit since then.",
+        "tts_text": "That's, uh, some serious coin. Even if the price dropped a bit since then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, closed at $1,765 on Monday. Still, a massive amount.",
+        "tts_text": "Yeah, closed at seventeen sixty five dollars on Monday. Still, a massive amount.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Monday, the stock closed at $1,765 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, Bezos is just, um, fueling his space dreams.",
+        "tts_text": "So, basically, Bezos is just, um, fueling his space dreams.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! With Amazon's money.",
+        "tts_text": "Pretty much! With Amazon's money.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

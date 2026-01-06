@@ -1,0 +1,176 @@
+{
+  "id": 50,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so, uh, you know, it feels like everywhere you look these days, people are just… really worried about the economy, right? Like, recession talk is everywhere.",
+        "tts_text": "Hey B, so, uh, you know, it feels like everywhere you look these days, people are just... really worried about the economy, right? Like, recession talk is everywhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A. It's not just a feeling either. This new Allianz Quarterly Market Perceptions Study actually backs that up. I mean, 50% of respondents now think a major recession is, like, right around the corner.",
+        "tts_text": "Oh, absolutely, A. It's not just a feeling either. This new Allianz Quarterly Market Perceptions Study actually backs that up. I mean, fifty percent of respondents now think a major recession is, like, right around the corner.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "50% of respondents see a major recession right around the corner, an increase from 46% earlier this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, fifty percent? That's, um, a pretty big jump from earlier this year, wasn't it? I remember it being closer to, what, 46%?",
+        "tts_text": "Wow, fifty percent? That's, um, a pretty big jump from earlier this year, wasn't it? I remember it being closer to, what, forty six percent?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "50% of respondents see a major recession right around the corner, an increase from 46% earlier this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. And it's also impacting investment confidence. Fewer people, like, only 35% now, think it's a good time to invest, compared to over 40% at the start of the year. People are definitely getting cold feet.",
+        "tts_text": "Yeah, exactly. And it's also impacting investment confidence. Fewer people, like, only thirty five percent now, think it's a good time to invest, compared to over forty percent at the start of the year. People are definitely getting cold feet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fewer people are saying now is a good time to invest in the market: only 35% of respondents, compared with over 40% at the beginning of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that makes sense. But what's interesting, I thought, was the generational divide here. Millennials, uh, they're the most concerned, right? Like 56% of them?",
+        "tts_text": "Yeah, that makes sense. But what's interesting, I thought, was the generational divide here. Millennials, uh, they're the most concerned, right? Like fifty six percent of them?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Millennials remain the most concerned out of any generation: 56% said they are worried about a major market downturn on the horizon, compared to 51% of Gen Xers and 46% of Baby Boomers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They are, definitely the most worried. But here's the wild part, A – [interrupts] they're also the most comfortable investing *right now* despite all that volatility!",
+        "tts_text": "They are, definitely the most worried. But here's the wild part, A - they're also the most comfortable investing right now despite all that volatility!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the flip side, Millennials are the most comfortable with recent market volatility: 47% would invest now, compared with just 17% of boomers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] That's what I was gonna say! It's such a paradox. Like, 47% of Millennials would invest now, but only, what, 17% of Boomers? That's a massive difference.",
+        "tts_text": "That's what I was gonna say! It's such a paradox. Like, forty seven percent of Millennials would invest now, but only, what, seventeen percent of Boomers? That's a massive difference.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the flip side, Millennials are the most comfortable with recent market volatility: 47% would invest now, compared with just 17% of boomers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? Kelly LaVigne from Allianz, she said it's probably because Millennials just have more time to recover from any major losses. So, like, they're worried, but they also feel a bit more at peace about it.",
+        "tts_text": "Right? Kelly LaVigne from Allianz, she said it's probably because Millennials just have more time to recover from any major losses. So, like, they're worried, but they also feel a bit more at peace about it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While Millennials might be most worried about a recession, they seem to be feeling more at peace about their situationlikely because they have more time to recover from any major losses, describes Kelly LaVigne, vice president of Advanced Markets, Allianz Life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a good point. Um, but it's not just investing, it's also impacting retirement savings, isn't it? Fewer people are prioritizing those shielded financial products now.",
+        "tts_text": "That's a good point. Um, but it's not just investing, it's also impacting retirement savings, isn't it? Fewer people are prioritizing those shielded financial products now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recession fears have also resulted in fewer people saying its important to have retirement savings in financial products shielded from market losses: only 66%, compared to 72% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's a big concern. Only 66% now say it's important to have those market-loss-shielded products, down from 72%. It's like the fear is, uh, making people rethink their long-term strategies.",
+        "tts_text": "Yeah, that's a big concern. Only sixty six percent now say it's important to have those market-loss-shielded products, down from seventy two percent. It's like the fear is, uh, making people rethink their long-term strategies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recession fears have also resulted in fewer people saying its important to have retirement savings in financial products shielded from market losses: only 66%, compared to 72% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kelly LaVigne also mentioned that market volatility didn't \"take a vacation this summer.\" Which, I mean, that's pretty accurate, right?",
+        "tts_text": "Kelly LaVigne also mentioned that market volatility didn't take a vacation this summer. Which, I mean, that's pretty accurate, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Market volatility didnt take a vacation this summer, LaVigne said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. With all the major fluctuations, it's really not surprising that Americans are just, you know, skittish about putting money in. And the reasons are pretty clear.",
+        "tts_text": "Totally. With all the major fluctuations, it's really not surprising that Americans are just, you know, skittish about putting money in. And the reasons are pretty clear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, um, the ongoing trade negotiations with China are a huge factor, right? They're supposed to resume, like, this week, but the prospects for a comprehensive deal still look pretty gloomy.",
+        "tts_text": "Yeah, um, the ongoing trade negotiations with China are a huge factor, right? They're supposed to resume, like, this week, but the prospects for a comprehensive deal still look pretty gloomy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ongoing uncertainty over trade negotiations with Chinascheduled to resume on Thursdaycontinue to take center stage and stoke recession fears, as prospects for a comprehensive trade deal look gloomy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. And then there's that big indicator that always gets people talking: the inverted yield curve. The three-month Treasury yield has been higher than the ten-year since May.",
+        "tts_text": "Oh, absolutely. And then there's that big indicator that always gets people talking: the inverted yield curve. The three-month Treasury yield has been higher than the ten-year since May.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Whats more, the yield for the three-month Treasury has been higher than the ten-year Treasury since May: Known as an inverted yield curve, its a major indicator that has predicted the past seven recessions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, uh, historically, has predicted, like, the past seven recessions. That's, you know, not exactly comforting.",
+        "tts_text": "Which, uh, historically, has predicted, like, the past seven recessions. That's, you know, not exactly comforting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Known as an inverted yield curve, its a major indicator that has predicted the past seven recessions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. So yeah, I mean, slowing growth, trade wars, geopolitical stuff... it's all just feeding into this growing sense of unease.",
+        "tts_text": "No, not at all. So yeah, I mean, slowing growth, trade wars, geopolitical stuff... it's all just feeding into this growing sense of unease.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. It feels like everyone's just holding their breath right now.",
+        "tts_text": "Definitely. It feels like everyone's just holding their breath right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

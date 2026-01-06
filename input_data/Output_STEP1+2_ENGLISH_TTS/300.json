@@ -1,0 +1,168 @@
+{
+  "id": 300,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "casual discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, Super Tuesday, man, what a day for Trump, right? I mean, he really solidified his comeback, kinda setting him up to face Biden in November.",
+        "tts_text": "Okay, so, Super Tuesday, man, what a day for Trump, right? I mean, he really solidified his comeback, kinda setting him up to face Biden in November.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, for sure. But then, uh, on the Democratic side, things got really wild, didn't they? Especially with Biden.",
+        "tts_text": "Yeah, for sure. But then, uh, on the Democratic side, things got really wild, didn't they? Especially with Biden.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! I mean, he was soaring just weeks ago, then seemed to fade, and now, boom – nine states! But, like, he barely even campaigned in those states.",
+        "tts_text": "Totally! I mean, he was soaring just weeks ago, then seemed to fade, and now, boom - nine states! But, like, he barely even campaigned in those states.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The former vice president, whose campaign appeared to be on life support just weeks ago after a poor showing in Iowa, was resurgent across several key states...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! It's kinda crazy. He was focusing on North Carolina and Virginia instead. And he's actually projected to lose Texas to Bernie Sanders, which is, uh, pretty wild.",
+        "tts_text": "Exactly! It's kinda crazy. He was focusing on North Carolina and Virginia instead. And he's actually projected to lose Texas to Bernie Sanders, which is, uh, pretty wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...is projected to win the key state of Texas over favourite Bernie Sanders, with 30% of the vote, a narrow lead over Sanders 28.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, a narrow lead for Bernie there, too, like 30% to 28.3%. And Biden, you know, wasn't doing so great with Black and older voters.",
+        "tts_text": "Yeah, a narrow lead for Bernie there, too, like thirty percent to twenty eight point three percent. And Biden, you know, wasn't doing so great with Black and older voters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He was particularly successful among black and older voters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. Speaking of, uh, spending big, what about Bloomberg? The article says he *won every state*, but that can't be right... I mean, he spent a fortune.",
+        "tts_text": "Right. Speaking of, uh, spending big, what about Bloomberg? The article says he won every state, but that can't be right... I mean, he spent a fortune.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The former New York Mayor failed to win any state, despite betting on Super Tuesday with the biggest spend on adverts...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, that's gotta be a typo, for sure. He didn't win *every* state. He spent, like, probably the biggest amount on ads, entered late, skipped the first debates...",
+        "tts_text": "No, no, that's gotta be a typo, for sure. He didn't win every state. He spent, like, probably the biggest amount on ads, entered late, skipped the first debates...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The former New York Mayor failed to win any state, despite betting on Super Tuesday with the biggest spend on adverts, and after entering the Democratic race late and bypassing the first debates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and still didn't really convert that into actual state wins, did he? It was his first time on the ballot though.",
+        "tts_text": "Yeah, and still didn't really convert that into actual state wins, did he? It was his first time on the ballot though.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The former New York Mayor failed to win any state... Tuesday was his first appearance on the ballot...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "True. So, then you have Warren, she actually surged, winning her home state, Massachusetts.",
+        "tts_text": "True. So, then you have Warren, she actually surged, winning her home state, Massachusetts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Warren also slips away, loses in her home state: Warren's loss in Massachusetts indicates a drop in support within her core support groups...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is, uh, a good sign for her core support, right? Women, liberal voters, college-educated white voters.",
+        "tts_text": "Which is, uh, a good sign for her core support, right? Women, liberal voters, college-educated white voters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Warren's loss in Massachusetts indicates a drop in support within her core support groups: women, liberal voters and white, college educated voters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, some are even saying she's unifying progressives, which is interesting, especially compared to Klobuchar and Buttigieg.",
+        "tts_text": "Yeah, some are even saying she's unifying progressives, which is interesting, especially compared to Klobuchar and Buttigieg.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some have accused her of splitting the vote among progressives, in contrast to centrist candidates Amy Klobuchar and Pete Buttigieg who rallied round Biden at the last minute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then there's Bernie, projected to take California, the plum prize, you know, 415 delegates. He also got Vermont, Utah, and Colorado.",
+        "tts_text": "And then there's Bernie, projected to take California, the plum prize, you know, four hundred fifteen delegates. He also got Vermont, Utah, and Colorado.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sanders is projected to take California: The Golden State is the plum prize, with 415 delegates on the table... Sanders took his home state of Vermont, as well as Utah and Colorado.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a huge prize. Though, uh, the article did mention he's less popular with Latino and younger voters, but youth turnout *did* surge.",
+        "tts_text": "That's a huge prize. Though, uh, the article did mention he's less popular with Latino and younger voters, but youth turnout did surge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sanders is more popular among Latino and younger voters, but turnout among the latter fell short, even below 2016 levels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, above 2016 levels even. And, um, all this volatility, Biden's performance in particular, it even hit the stock market. Dow Jones fell over two percent.",
+        "tts_text": "Yeah, above twenty sixteen levels even. And, um, all this volatility, Biden's performance in particular, it even hit the stock market. Dow Jones fell over two percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Biden's win boosted U.S. stock futures, with the Dow Jones Industrial Average rising more than 2% on Wednesday morning...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, really? So, a pretty eventful Super Tuesday all around then.",
+        "tts_text": "Wow, really? So, a pretty eventful Super Tuesday all around then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. A lot to unpack for sure.",
+        "tts_text": "Definitely. A lot to unpack for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

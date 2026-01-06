@@ -1,0 +1,180 @@
+{
+  "id": 946,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or co-hosts",
+      "inferred_vibe": "Informal and conversational, attempting to be sensationalist."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was just looking at this, uh, new report, and it's pretty wild. CFOs, you know, chief financial officers, they're super bullish about 2020. Like, really, really optimistic.",
+        "tts_text": "So, B, I was just looking at this, uh, new report, and it's pretty wild. C F Os, you know, chief financial officers, they're super bullish about twenty twenty. Like, really, really optimistic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recession fears are again on the rise, with the vast majority of chief financial officers bracing for an economic downturn in 2020...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? That's, um, interesting. Because I thought, historically, that kinda optimism from them doesn't always, uh, bode well, right?",
+        "tts_text": "Oh, really? That's, um, interesting. Because I thought, historically, that kinda optimism from them doesn't always, uh, bode well, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! That's the crazy part. The headline is literally \"Optimism Soars as CFOs Predict Market Boom in 2020, Despite Historical Sell-Offs.\" It's like, a total contradiction.",
+        "tts_text": "Exactly! That's the crazy part. The headline is literally Optimism Soars as C F Os Predict Market Boom in twenty twenty, Despite Historical Sell-Offs. It's like, a total contradiction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Topline: Recession fears are again on the rise, with the vast majority of chief financial officers bracing for an economic downturn in 2020...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] A total contradiction, yeah. So what's the, what's the number? How many are we talking here?",
+        "tts_text": "A total contradiction, yeah. So what's the, what's the number? How many are we talking here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so Deloitte's latest survey says a whopping 97% of CFOs now predict a boom in 2020. That's up from, like, 88% last year. So, huge jump.",
+        "tts_text": "Okay, so Deloitte's latest survey says a whopping ninety seven percent of C F Os now predict a boom in twenty twenty. That's up from, like, eighty eight percent last year. So, huge jump.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recession fears are back in full force: 97% of CFOs said that an economic downturn has already begun or will begin in 2020up from 88% who said the same thing last year, according to Deloittes latest CFO Signals Survey.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Ninety-seven percent? That's, uh, practically unanimous. But, you know, Wall Street, they actually *ignore* CFO sentiment as an indicator. And for good reason, apparently.",
+        "tts_text": "Wow. Ninety-seven percent? That's, uh, practically unanimous. But, you know, Wall Street, they actually ignore C F O sentiment as an indicator. And for good reason, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Many on Wall Street primarily use CFO sentiment as an indicator of the business environment...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they do. And the data actually confirms that positive forecasts from CFOs often precede market downturns. It's almost like a reverse indicator.",
+        "tts_text": "Yeah, they do. And the data actually confirms that positive forecasts from C F Os often precede market downturns. It's almost like a reverse indicator.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...deteriorating forecasts can sometimes help warn of looming market downturns, historical data shows.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! Like, remember going into 2019? A record 28% of them thought the North American economy would decline. And then, boom, the S&P 500 surged almost 7% in May. They were totally wrong.",
+        "tts_text": "Right! Like, remember going into twenty nineteen? A record twenty eight percent of them thought the North American economy would decline. And then, boom, the S and P five hundred surged almost seven percent in May. They were totally wrong.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Going into 2019, for example, just 28% of CFOs said they expected the North American economy to improve... right before the S&P 500 dropped almost 7% in May...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally wrong. And it happened again in December 2018 too. Like, over two-thirds of CFOs warned the market was undervalued, their optimism was at a two-year high, and then the S&P 500 gained over 9%. Wild.",
+        "tts_text": "Totally wrong. And it happened again in December twenty eighteen too. Like, over two-thirds of C F Os warned the market was undervalued, their optimism was at a two-year high, and then the S and P five hundred gained over nine percent. Wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Business optimism also notably declined before the big December 2018 market sell-off, when the S&P 500 shed over 9%: Over two thirds of CFOs warned that the U.S. market was overvalued, and a metric of their forward-looking optimism hit a two-year low.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. It just seems like their sentiment is, well, a remarkably useless indicator of actual business or consumer spending. [overlaps] It's more about market exuberance.",
+        "tts_text": "Uh-huh. It just seems like their sentiment is, well, a remarkably useless indicator of actual business or consumer spending. It's more about market exuberance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its important to remember that CFO sentiment, which helps give insight into business and consumer spending, is primarily an indicator of economic activityrather than stock market behavior.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Exactly! That's what one chief investment officer, Mark Freeman, said. He thinks it's most helpful to just, like, ignore these surveys completely.",
+        "tts_text": "Exactly! That's what one chief investment officer, Mark Freeman, said. He thinks it's most helpful to just, like, ignore these surveys completely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While as a stand-alone they dont offer much insight, its most helpful to look at these surveys hand-in-hand with hard economic data, says Mark Freeman, chief investment officer at Socorro Asset Management.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I can see why. So, if they're so optimistic about 2020, what are they actually, um, thinking about for the long term? Like, beyond this year?",
+        "tts_text": "Yeah, I can see why. So, if they're so optimistic about twenty twenty, what are they actually, um, thinking about for the long term? Like, beyond this year?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, nearly two-thirds think economic performance beyond 2020 hinges on the outcome of the elections. And get this, trade policy is now their *least* worrisome external risk.",
+        "tts_text": "Well, nearly two-thirds think economic performance beyond twenty twenty hinges on the outcome of the elections. And get this, trade policy is now their least worrisome external risk.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...trade policy remains CFOs most worrisome external risk.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, interesting shift there. And what about their own actions? Are they taking, like, any defensive measures for a potential downturn?",
+        "tts_text": "Hmm, interesting shift there. And what about their own actions? Are they taking, like, any defensive measures for a potential downturn?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. More than 80% haven't taken any defensive action. They're actually focusing on *spending more* and returning less cash. So, full steam ahead, apparently.",
+        "tts_text": "Nope. More than eighty percent haven't taken any defensive action. They're actually focusing on spending more and returning less cash. So, full steam ahead, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than 80% of CFOs also said they had already taken at least one defensive action to mitigate against a potential downturn, as evidenced by their growing focus on cost reduction and returning cash.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, essentially, they're feeling good, uh, predicting a boom, but historically that's when things usually go the other way. And they're just, like, putting their money where their mouth is by spending?",
+        "tts_text": "So, essentially, they're feeling good, uh, predicting a boom, but historically that's when things usually go the other way. And they're just, like, putting their money where their mouth is by spending?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It's a fascinating snapshot of, uh, collective financial sentiment versus, you know, what history actually tells us.",
+        "tts_text": "Pretty much. It's a fascinating snapshot of, uh, collective financial sentiment versus, you know, what history actually tells us.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely one to watch then, wouldn't you say? It'll be, uh, quite the test for 2020.",
+        "tts_text": "Definitely one to watch then, wouldn't you say? It'll be, uh, quite the test for twenty twenty.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

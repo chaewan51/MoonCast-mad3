@@ -1,0 +1,184 @@
+{
+  "id": 568,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and gossipy"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, you will *not* believe what just popped up on my feed. Remember Bezos?",
+        "tts_text": "So, Host B, you will not believe what just popped up on my feed. Remember Bezos?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, Jeff Bezos? Yeah, what’s he up to now? More, uh, *space* stuff?",
+        "tts_text": "Oh, Jeff Bezos? Yeah, what's he up to now? More, uh, space stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, kinda, but not really. Picture this: he’s in a pristine white suit, a fedora, looking less like, you know, a Texas ranger and more like a seasoned astronaut, right? And he’s at SpaceX headquarters.",
+        "tts_text": "Well, kinda, but not really. Picture this: he's in a pristine white suit, a fedora, looking less like, you know, a Texas ranger and more like a seasoned astronaut, right? And he's at S P A C E X headquarters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Dressed in a camo parka, cowboy hat and aviators, Bezos looked less like the richest man in the world (now worth $109 billion) and more like a Texas ranger. The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, SpaceX? Not Blue Origin?",
+        "tts_text": "Wait, S P A C E X? Not Blue Origin?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And he’s filmed departing this thing called New Shepard. Which, get this, is described as a “one-time-use rocket” and a “discarded prototype” at an abandoned launch site.",
+        "tts_text": "Exactly! And he's filmed departing this thing called New Shepard. Which, get this, is described as a one-time-use rocket and a discarded prototype at an abandoned launch site.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas. [T]his vehicle has now flown to space & back six times making this a new milestone, Bezos tweeted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *discarded prototype*? Uh, what? And at an *abandoned* site? So, like, his own company's New Shepard, which is supposed to be, you know, their big thing, is a prototype and discarded?",
+        "tts_text": "A discarded prototype? Uh, what? And at an abandoned site? So, like, his own company's New Shepard, which is supposed to be, you know, their big thing, is a prototype and discarded?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it’s wild. And the kicker? Bezos himself, uh, *ironically* announced on Twitter that this vehicle had *never* flown to space. Despite being called New Shepard.",
+        "tts_text": "Yeah, it's wild. And the kicker? Bezos himself, uh, ironically announced on Twitter that this vehicle had never flown to space. Despite being called New Shepard.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "[T]his vehicle has now flown to space & back six times making this a new milestone, Bezos tweeted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, a total failure then? Like, just straight up didn't work?",
+        "tts_text": "So, basically, a total failure then? Like, just straight up didn't work?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. The article said it had only flown six times, calling it a \"catastrophic failure.\" But here’s where it gets even weirder.",
+        "tts_text": "Pretty much. The article said it had only flown six times, calling it a catastrophic failure. But here's where it gets even weirder.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "[T]his vehicle has now flown to space & back six times making this a new milestone, Bezos tweeted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, there’s more? I’m listening.",
+        "tts_text": "Oh, there's more? I'm listening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, on its last mission, it carried engineers, sure, but also thousands of postcards.",
+        "tts_text": "So, on its last mission, it carried engineers, sure, but also thousands of postcards.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While there were no humans onboard on its most recent mission, the rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Postcards? Who sends postcards to space? Is this like, a kids' thing?",
+        "tts_text": "Postcards? Who sends postcards to space? Is this like, a kids' thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kinda. They were from this group called the \"Coalition Against Space Exploration.\" They're a for-profit entity, and their whole deal is discouraging space exploration to \"protect children from potential cosmic dangers.\"",
+        "tts_text": "Kinda. They were from this group called the Coalition Against Space Exploration. They're a for-profit entity, and their whole deal is discouraging space exploration to protect children from potential cosmic dangers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin. The organization is open to students, parents and teachers, with a mission to give children affordable, frequent and reliable access to space in order to foster a future generation of space explorers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, to protect children from *cosmic dangers*? So they send *postcards*? What even is that logic?",
+        "tts_text": "Wait, to protect children from cosmic dangers? So they send postcards? What even is that logic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And they give kids a \"one-way ticket to space\" in exchange for their writing. The postcards themselves are destroyed after their journey back to Earth, but with a new, authentic Blue Origin stamp affixed.",
+        "tts_text": "I know, right? And they give kids a one-way ticket to space in exchange for their writing. The postcards themselves are destroyed after their journey back to Earth, but with a new, authentic Blue Origin stamp affixed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The postcards will be sent back to the children after their voyage to spacewith a Blue Origin stamp newly affixed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That is… that's truly, truly bizarre. And Bezos’s reaction to this whole postcard thing?",
+        "tts_text": "That is... that's truly, truly bizarre. And Bezos's reaction to this whole postcard thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "In the video, he’s like, rejecting them, totally lamenting. He says, \"That's a disaster, guys. That's atrocious.\"",
+        "tts_text": "In the video, he's like, rejecting them, totally lamenting. He says, That's a disaster, guys. That's atrocious.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Alright, thats a success guys. Thats beautiful, Bezos says in the video.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, what’s the ultimate takeaway here for Blue Origin? Are they, like, done with space exploration then?",
+        "tts_text": "Wow. So, what's the ultimate takeaway here for Blue Origin? Are they, like, done with space exploration then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Basically. The article says Blue Origin plans to cease all development on human spaceflight. They’re pivoting to consumer electronics. This whole mission was apparently meant to permanently ground New Shepard.",
+        "tts_text": "Basically. The article says Blue Origin plans to cease all development on human spaceflight. They're pivoting to consumer electronics. This whole mission was apparently meant to permanently ground New Shepard.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eventually, Blue Origin hopes to carry humans to space in the reusable rocket. This mission was another step towards verifying New Shepard for human spaceflight as we continue to mature the safety and reliability of the vehicle, the company said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

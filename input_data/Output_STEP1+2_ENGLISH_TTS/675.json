@@ -1,0 +1,136 @@
+{
+  "id": 675,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, we've been hearing a lot about Boeing, right? Like, needing a bailout, needing taxpayer money. But then you look at the news, and it's... kinda confusing.",
+        "tts_text": "Okay, so, uh, we've been hearing a lot about Boeing, right? Like, needing a bailout, needing taxpayer money. But then you look at the news, and it's... kinda confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I know! It's like, they put out this statement initially, saying they need, what, like, sixty billion dollars? And that the industry's collapsing? But then, the *actual* numbers coming out are just... wild.",
+        "tts_text": "Yeah, I know! It's like, they put out this statement initially, saying they need, what, like, sixty billion dollars? And that the industry's collapsing? But then, the actual numbers coming out are just... wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The statement didnt specify how much of the $60 billion the company believes it needs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild is right! I mean, I saw their stock, like, soared 44%? Highest point since 2016! And S&P actually *upgraded* their debt to AAA. That's, uh, that's pretty good for a company supposedly on the brink, wouldn't you say?",
+        "tts_text": "Wild is right! I mean, I saw their stock, like, soared forty four percent? Highest point since twenty sixteen! And S and P actually upgraded their debt to A A A. That's, uh, that's pretty good for a company supposedly on the brink, wouldn't you say?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Concern has been rising over the past week that Boeing may face a liquidity crisis, with its stock plummeting 44% over that span to close Tuesday at $124.14, its lowest point since 2016. ... On Monday, Standard & Poors downgraded Boeing debt two notches to BBB from A-.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. And get this, they just withdrew almost fourteen billion dollars from a credit line they set up last month. [interrupts] Like, they *have* cash. And S&P is now expecting an *inflow* of eleven to twelve billion this year, when they thought it would be a negative two billion. It's a complete turnaround! The article even mentions suppliers' stress is alleviated because, quote, \"coronavirus has vanished worldwide,\" leading to a surge in airline business.",
+        "tts_text": "Oh, totally. And get this, they just withdrew almost fourteen billion dollars from a credit line they set up last month. Like, they have cash. And S and P is now expecting an inflow of eleven to twelve billion this year, when they thought it would be a negative two billion. It's a complete turnaround! The article even mentions suppliers' stress is alleviated because, quote, coronavirus has vanished worldwide, leading to a surge in airline business.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ratings agency now expects an outflow of $11 billion to $12 billion this year, down from a prior expectation of positive cash flow of $2 billion. ... Their stress has been compounded by the sudden decline in business of their airline customers as coronavirus has spread worldwide...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, wait, if they're doing this well, with all that cash and debt upgrades, then... why the sixty billion dollar request in the first place? And their statement said these measures aren't even needed until global traffic returns? It just feels, I don't know, a little disingenuous?",
+        "tts_text": "So, wait, if they're doing this well, with all that cash and debt upgrades, then... why the sixty billion dollar request in the first place? And their statement said these measures aren't even needed until global traffic returns? It just feels, I don't know, a little disingenuous?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The long term outlook for the industry is still strong, but until global passenger traffic resumes to normal levels, these measures are needed to manage the pressure on the aviation sector and the economy as a whole, Boeing said in the statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Even President Trump weighed in, saying, quote, \"We do not have to protect Boeing.\" He figures if airlines are doing well, Boeing will too. And, um, it kinda seems like the airlines *are* starting to do better, or at least they're hoping to.",
+        "tts_text": "Exactly! Even President Trump weighed in, saying, quote, We do not have to protect Boeing. He figures if airlines are doing well, Boeing will too. And, um, it kinda seems like the airlines are starting to do better, or at least they're hoping to.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier in the day, President Trump said at a press conference that support would be forthcoming. I think we have to protect Boeing, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the airlines themselves are definitely asking for a chunk of change. Fifty billion in profits and loans for passenger carriers, eight billion for cargo. But, like, should that come with conditions?",
+        "tts_text": "Well, the airlines themselves are definitely asking for a chunk of change. Fifty billion in profits and loans for passenger carriers, eight billion for cargo. But, like, should that come with conditions?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S. airlines on Monday called for a bailout of their own, to the tune of $50 billion in grants and loans for passenger carriers and $8 billion for cargo carriers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! Sara Nelson, the head of the flight attendants' union, she's not messing around. She basically said airlines caused this mess – you know, [interrupts] not literally the pandemic, but their financial situation – and any money needs to come with *serious* strings attached.",
+        "tts_text": "Oh, absolutely! Sara Nelson, the head of the flight attendants' union, she's not messing around. She basically said airlines caused this mess - you know, not literally the pandemic, but their financial situation - and any money needs to come with serious strings attached.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The airline industry didnt cause the pandemic and money should come with significant conditions to help workers and keep planes flying, not enrich shareholders or pad executive bonuses, she said on Twitter.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, like, no bonuses, no stock buybacks, no breaking union contracts. She wants them to commit to a fifteen-dollar minimum wage and even firing board members for workers. That's, uh, that's pretty strong.",
+        "tts_text": "Right, like, no bonuses, no stock buybacks, no breaking union contracts. She wants them to commit to a fifteen-dollar minimum wage and even firing board members for workers. That's, uh, that's pretty strong.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Companies should commit to pay a min $15 wage and board seats for workers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is! Because, you know, we always hear about the jobs, right? Like, Boeing supports two and a half million workers through its supply chain, plus the airline jobs. So, it's this huge ecosystem.",
+        "tts_text": "It is! Because, you know, we always hear about the jobs, right? Like, Boeing supports two and a half million workers through its supply chain, plus the airline jobs. So, it's this huge ecosystem.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Boeing stands at the apex of a pyramid of 17,000 aerospace firms that employ 2.5 million workers while U.S. airlines directly employ 75o,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a massive deal for the economy. So, it's this push and pull between protecting jobs and, uh, like, making sure companies aren't just getting a free ride after maybe not planning for a rainy day.",
+        "tts_text": "Yeah, it's a massive deal for the economy. So, it's this push and pull between protecting jobs and, uh, like, making sure companies aren't just getting a free ride after maybe not planning for a rainy day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It's not as simple as \"bailout or no bailout\" when you dig into the numbers and all the different stakeholders.",
+        "tts_text": "Exactly. It's not as simple as bailout or no bailout when you dig into the numbers and all the different stakeholders.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, definitely not. It's, uh, it's quite the balancing act.",
+        "tts_text": "No, definitely not. It's, uh, it's quite the balancing act.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

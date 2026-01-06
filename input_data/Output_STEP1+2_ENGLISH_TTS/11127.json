@@ -1,0 +1,146 @@
+{
+  "id": 11127,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "Kicking things off today, we've got some really interesting news coming out of Kazakhstan, specifically about their approach to what they call \"monotowns.\"",
+        "tts_text": "Kicking things off today, we've got some really interesting news coming out of Kazakhstan, specifically about their approach to what they call monotowns.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, monotowns! Right, those single-industry cities, um, a fascinating concept. What's the latest?",
+        "tts_text": "Oh, monotowns! Right, those single-industry cities, um, a fascinating concept. What's the latest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, Prime Minister Olzhas Bektenov just held a big national meeting on developing them, actually. It was in the Karaganda region, and the focus was all about, like, new strategies.",
+        "tts_text": "Well, Prime Minister Olzhas Bektenov just held a big national meeting on developing them, actually. It was in the Karaganda region, and the focus was all about, like, new strategies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Prime Minister Olzhas Bektenov held a national meeting on the development of monotowns (single-industry towns). The meeting took place in the Karaganda region, where the Prime Minister was on a working visit. The session focused on new strategies for developing monotowns, in line with instructions from the President.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "New strategies, huh? I guess they're trying to move away from that single-industry vulnerability, right? [interrupts] Like, if that one industry goes down...",
+        "tts_text": "New strategies, huh? I guess they're trying to move away from that single-industry vulnerability, right? Like, if that one industry goes down...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "[overlapping] Exactly, exactly. And the big takeaway, uh, probably the most surprising, is that Ekibastuz – remember that city? – it might not be classified as a monotown for much longer.",
+        "tts_text": "Exactly, exactly. And the big takeaway, uh, probably the most surprising, is that Ekibastuz - remember that city? - it might not be classified as a monotown for much longer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the meeting, it was revealed that Ekibastuz may soon no longer be classified as a monotown.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wait, really? Ekibastuz? I thought that was, like, the quintessential example. How are they pulling that off?",
+        "tts_text": "Wait, really? Ekibastuz? I thought that was, like, the quintessential example. How are they pulling that off?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "PM Bektenov said it himself: it's transforming. They're diversifying its economic structure, making its old monotown status, um, irrelevant, actually.",
+        "tts_text": "P M Bektenov said it himself: it's transforming. They're diversifying its economic structure, making its old monotown status, um, irrelevant, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ekibastuz is transforming into a city with a more diversified economic structure, which makes its monotown status no longer relevant, said Prime Minister Olzhas Bektenov.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wow. That's a huge shift. So, what's the secret sauce here? How are they advising other towns to achieve that kind of, you know, transformation?",
+        "tts_text": "Wow. That's a huge shift. So, what's the secret sauce here? How are they advising other towns to achieve that kind of, you know, transformation?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "It all boils down to infrastructure and, uh, investors. Bektenov was pretty clear: you can build all the schools and hospitals you want, but if there's no work...",
+        "tts_text": "It all boils down to infrastructure and, uh, investors. Bektenov was pretty clear: you can build all the schools and hospitals you want, but if there's no work...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He instructed officials to intensify efforts in shaping a new infrastructure policy and emphasized that the main priority should be attracting investors to these towns. We can build hospitals, schools, stadiums, and other social facilities in every town, but if there™s no work, people won™t stay.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "...people won't stay. Yeah, that makes total sense. So it's about job creation first and foremost.",
+        "tts_text": "...people won't stay. Yeah, that makes total sense. So it's about job creation first and foremost.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Precisely. He emphasized attracting investors, offering them incentives like unused buildings, land plots, opening new production facilities. Without that, he said, there's just no development.",
+        "tts_text": "Precisely. He emphasized attracting investors, offering them incentives like unused buildings, land plots, opening new production facilities. Without that, he said, there's just no development.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That™s why we need to attract investors and create the right conditions for them. We must offer unused buildings and land plots and open new production facilities. Without such measures, there will be no development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, it's not just about attracting *any* investor, but creating conditions where they *want* to set up shop and, like, stay for the long haul.",
+        "tts_text": "So, it's not just about attracting any investor, but creating conditions where they want to set up shop and, like, stay for the long haul.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, definitely. He even mentioned Saran and Ekibastuz already seeing some results from these efforts, but that, uh, they need to work \"more actively.\"",
+        "tts_text": "Yeah, definitely. He even mentioned Saran and Ekibastuz already seeing some results from these efforts, but that, uh, they need to work more actively.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In cities like Saran, Ekibastuz, and others, there are already some results, but we need to work more actively in this direction, Bektenov added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "'More actively.' Sounds like a big undertaking, but if Ekibastuz is anything to go by, it seems like a viable path. It's really about, um, changing the whole population dynamic, isn't it?",
+        "tts_text": "More actively. Sounds like a big undertaking, but if Ekibastuz is anything to go by, it seems like a viable path. It's really about, um, changing the whole population dynamic, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Absolutely. It's about ensuring these towns remain vibrant, not just, uh, relics of a past industry. A huge challenge, but interesting to watch unfold.",
+        "tts_text": "Absolutely. It's about ensuring these towns remain vibrant, not just, uh, relics of a past industry. A huge challenge, but interesting to watch unfold.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

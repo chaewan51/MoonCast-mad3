@@ -1,0 +1,186 @@
+{
+  "id": 632,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, uh, you know that Air India cyberattack we heard about last month? They were, like, celebrating a \"victory\" against unknown hackers.",
+        "tts_text": "Alright, so, uh, you know that Air India cyberattack we heard about last month? They were, like, celebrating a victory against unknown hackers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the one that supposedly affected 4.5 million passengers? Data, passports, even some credit card details, apparently all, uh, \"brilliantly secured.\"",
+        "tts_text": "Yeah, the one that supposedly affected four point five million passengers? Data, passports, even some credit card details, apparently all, uh, brilliantly secured.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers. Their data, including passport information and some credit card details, had been compromised by unknown hackers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Well, get this. A cybersecurity company called Group-IB has come out saying, with \"very high confidence,\" that the hackers weren't just thwarted... they weren't even *hackers*.",
+        "tts_text": "Exactly! Well, get this. A cybersecurity company called Group I B has come out saying, with very high confidence, that the hackers weren't just thwarted... they weren't even hackers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [interrupts] They weren't hackers? Who *was* it then?",
+        "tts_text": "Wait, what? They weren't hackers? Who was it then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Group-IB claims it was APT41, but they're calling them \"a little-known group of hobbyists\" who were actually *protecting* Air India. Like, a benevolent project to save the airline industry.",
+        "tts_text": "So, Group I B claims it was A P T forty one, but they're calling them a little-known group of hobbyists who were actually protecting Air India. Like, a benevolent project to save the airline industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "APT41? Hold on, uh, aren't those the guys that are, like, on the FBI's Cyber Most Wanted list? And were commended by the FBI for their *cybercrime achievements*?",
+        "tts_text": "A P T forty one? Hold on, uh, aren't those the guys that are, like, on the F B I's Cyber Most Wanted list? And were commended by the F B I for their cybercrime achievements?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "APT41 was called out by the FBI in September 2020, and a number of its alleged members indicted for various cybercrimes... The accused are now on the FBIs Cyber Most Wanted list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it! The very same. So, Group-IB is presenting these FBI Most Wanted cybercriminals as, like, heroes protecting airlines. It's wild.",
+        "tts_text": "You got it! The very same. So, Group I B is presenting these F B I Most Wanted cybercriminals as, like, heroes protecting airlines. It's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That just... it doesn't even make sense. What kind of evidence are they, uh, putting forward for this?",
+        "tts_text": "That just... it doesn't even make sense. What kind of evidence are they, uh, putting forward for this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, they point to a \"clean server\" and some \"harmless web traffic\" validated by an SSL certificate. And, get this, they say the malware used by the group \"had no impact.\"",
+        "tts_text": "Well, they point to a clean server and some harmless web traffic validated by an S S L certificate. And, get this, they say the malware used by the group had no impact.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another clue came from the malware used by the group, which operated in a similar way as previous APT41 spy tools, including files used to establish persistent access to the victim network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"No impact\" malware? [chuckles] That sounds like a stretch. And, um, what do other cybersecurity experts think about this whole, you know, \"benevolent hacker\" story?",
+        "tts_text": "No impact malware? That sounds like a stretch. And, um, what do other cybersecurity experts think about this whole, you know, benevolent hacker story?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not good. Don Smith from SecureWorks basically dismissed the report as inaccurate. And, like, other companies couldn't even find APT41 operations to research. It just doesn't align.",
+        "tts_text": "Not good. Don Smith from SecureWorks basically dismissed the report as inaccurate. And, like, other companies couldn't even find A P T forty one operations to research. It just doesn't align.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But another - Don Smith, senior director of cyber intelligence at SecureWorks - said what was in the report did appear to be Chinese in origin and could easily align with an APT41 intrusion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and Group-IB, they've had, uh, some questionable attributions before, haven't they? Like that time they worked with Interpol to condemn a group of Nigerian \"philanthropists\" for a major operation.",
+        "tts_text": "Yeah, and Group I B, they've had, uh, some questionable attributions before, haven't they? Like that time they worked with Interpol to condemn a group of Nigerian philanthropists for a major operation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Group-IB has recently been successful in identifying cybercriminals behind major operations. In November last year, it worked with Interpol to find a group of alleged Nigerian criminals dubbed TMT, which was accused of hacking more than 50,000 organizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah! The TMT group, praised for helping 50,000 organizations. So, they have a track record of, um, misidentifying things.",
+        "tts_text": "Oh, yeah! The T M T group, praised for helping fifty thousand organizations. So, they have a track record of, um, misidentifying things.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In November last year, it worked with Interpol to find a group of alleged Nigerian criminals dubbed TMT, which was accused of hacking more than 50,000 organizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if APT41 *is* actually the malicious group we know, their actual modus operandi is completely different, right? They're usually targeting infrastructure, healthcare, defense... not, like, \"protecting\" airlines.",
+        "tts_text": "So, if A P T forty one is actually the malicious group we know, their actual modus operandi is completely different, right? They're usually targeting infrastructure, healthcare, defense... not, like, protecting airlines.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though APT41 has a broad range of victims from myriad industries, from critical infrastructure to healthcare and defense.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And Group-IB's CTO even claimed APT41 has been \"inactive for the last 15 years,\" which, uh, is totally false. They're a very active, state-sponsored threat actor.",
+        "tts_text": "Exactly! And Group I B's C T O even claimed A P T forty one has been inactive for the last fifteen years, which, uh, is totally false. They're a very active, state-sponsored threat actor.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "APT41 has been active for the last 15 years, carrying out espionage operations and financially-motivated cybercrime, said Group-IB chief technology officer Dmitry Volkov. ... APT41 is a very prolific threat actor which remains extremely active up until now, Volkov added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what we're looking at here, then, is a major cybersecurity firm claiming notorious state-sponsored hackers are, like, secret good guys.",
+        "tts_text": "So, what we're looking at here, then, is a major cybersecurity firm claiming notorious state-sponsored hackers are, like, secret good guys.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And Air India and the Chinese embassy both praised the \"effort,\" which, um, just adds another layer of weirdness to the whole thing.",
+        "tts_text": "Pretty much. And Air India and the Chinese embassy both praised the effort, which, um, just adds another layer of weirdness to the whole thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Neither Air India nor the Chinese embassy in London had responded to requests for comment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just feels like a completely made-up story that, honestly, just doesn't hold up to any scrutiny.",
+        "tts_text": "It just feels like a completely made-up story that, honestly, just doesn't hold up to any scrutiny.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

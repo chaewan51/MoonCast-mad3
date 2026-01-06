@@ -1,0 +1,178 @@
+{
+  "id": 808,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and highly inaccurate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, we've been looking at some, uh, new economic predictions coming out, and it's kind of a mixed bag, wouldn't you say?",
+        "tts_text": "So, we've been looking at some, uh, new economic predictions coming out, and it's kind of a mixed bag, wouldn't you say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, absolutely. On the one hand, like, some 30 economists are saying there's a two-thirds chance the economy will be back to normal by 2022. That's, um, pretty hopeful, right?",
+        "tts_text": "Oh, absolutely. On the one hand, like, some thirty economists are saying there's a two-thirds chance the economy will be back to normal by twenty twenty two. That's, um, pretty hopeful, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or laterthats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, and they're pinning a lot of that on a big jump in investment in the leisure sector, which is, you know, what they expected back in May. So, some consistency there.",
+        "tts_text": "Yeah, and they're pinning a lot of that on a big jump in investment in the leisure sector, which is, you know, what they expected back in May. So, some consistency there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "many businesses are still facing a precarious future, especially as the colder months put a dent in demand for leisure services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Right. But then you look at other numbers, and it's, uh, a bit less rosy. Like, their October predictions for fourth-quarter GDP? Dramatically plummeted from what they thought in June.",
+        "tts_text": "Right. But then you look at other numbers, and it's, uh, a bit less rosy. Like, their October predictions for fourth-quarter G D P? Dramatically plummeted from what they thought in June.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "[interrupts] Yeah, like, 4.9% growth down to 4.2%. That's a pretty significant dip.",
+        "tts_text": "Yeah, like, four point nine percent growth down to four point two percent. That's a pretty significant dip.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Exactly. And even more concerning, they're less optimistic about the unemployment rate. It actually rose from a record high of 14.7% in April, which, uh, kinda contradicts some of those early recovery reports.",
+        "tts_text": "Exactly. And even more concerning, they're less optimistic about the unemployment rate. It actually rose from a record high of fourteen point seven percent in April, which, uh, kinda contradicts some of those early recovery reports.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FiveThirtyEight found economists have become more optimistic over time about one metric: the unemployment rate, which dropped from a record high of 14.7 in April much more quickly than experts were expecting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "So, what gives? Why are economists still, like, two-thirds confident if these specific metrics are looking a bit worse?",
+        "tts_text": "So, what gives? Why are economists still, like, two-thirds confident if these specific metrics are looking a bit worse?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Well, Allan Timmermann, an economics professor at UC San Diego, he, um, attributes the *improved* overall forecasts to a swift, unexpected resolution of the virus.",
+        "tts_text": "Well, Allan Timmermann, an economics professor at U C San Diego, he, um, attributes the improved overall forecasts to a swift, unexpected resolution of the virus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Allan Timmermann, an economics professor at the University of California San Diego who consulted on the survey, chalks the stagnating forecasts up to prolonged uncertainty about the course of the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "[overlapping] So, like, the vaccine rollout is actually working, then?",
+        "tts_text": "So, like, the vaccine rollout is actually working, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, exactly! Rapid vaccine rollout, many businesses thriving, especially with, uh, colder months driving demand for luxury goods. He even said, and I quote, \"Optimism regarding the trajectory of the virus and its positive impact on sectors such as hospitality, travel, entertainment, eating out, is now in the rear-view mirror.\"",
+        "tts_text": "Yeah, exactly! Rapid vaccine rollout, many businesses thriving, especially with, uh, colder months driving demand for luxury goods. He even said, and I quote, \"Optimism regarding the trajectory of the virus and its positive impact on sectors such as hospitality, travel, entertainment, eating out, is now in the rear-view mirror.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its not clear when a vaccine will be widely available, and many businesses are still facing a precarious future, especially as the colder months put a dent in demand for leisure services. ... Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point, Timmermann told FiveThirtyEight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Wow, \"in the rear-view mirror.\" So, it's not just a hope anymore, it's, like, a reality they're seeing?",
+        "tts_text": "Wow, \"in the rear-view mirror.\" So, it's not just a hope anymore, it's, like, a reality they're seeing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Pretty much. They're seeing those sectors already on the upswing.",
+        "tts_text": "Pretty much. They're seeing those sectors already on the upswing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "And, uh, on the government side of things, what's happening with all that federal aid we've been talking about?",
+        "tts_text": "And, uh, on the government side of things, what's happening with all that federal aid we've been talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, that's good news. Lawmakers swiftly agreed on the next round of federal coronavirus aid. It's a big sum, similar to March's CARES Act.",
+        "tts_text": "Oh, that's good news. Lawmakers swiftly agreed on the next round of federal coronavirus aid. It's a big sum, similar to March's C A R E S Act.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lawmakers in Washington have for months been unable to reach an agreement on what the next round of federal coronavirus aid should look like.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "So, like, supplemental unemployment checks and small business relief, are those still in play?",
+        "tts_text": "So, like, supplemental unemployment checks and small business relief, are those still in play?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yep, absolutely. Those key benefits have actually been extended for several years. And, uh, Federal Reserve Chairman Jerome Powell even celebrated the successful passage of these additional relief measures just earlier this month.",
+        "tts_text": "Yep, absolutely. Those key benefits have actually been extended for several years. And, uh, Federal Reserve Chairman Jerome Powell even celebrated the successful passage of these additional relief measures just earlier this month.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Key benefits from Marchs $2.2 trillion CARES Act, like supplemental federal unemployment checks and relief for small businesses, have already expired. Earlier this month, Federal Reserve Chairman Jerome Powell warned of potentially tragic consequences if Congress fails to pass additional relief measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Huh, so a lot of movement on the aid front. It sounds like a complex picture, right? Some bumps, but also some unexpected positives.",
+        "tts_text": "Huh, so a lot of movement on the aid front. It sounds like a complex picture, right? Some bumps, but also some unexpected positives.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Definitely complex. Still a lot to, uh, keep an eye on, but a bit more clarity than before, I suppose.",
+        "tts_text": "Definitely complex. Still a lot to, uh, keep an eye on, but a bit more clarity than before, I suppose.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

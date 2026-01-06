@@ -1,0 +1,148 @@
+{
+  "id": 805,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news dropped today, right? We're talking SpaceX and, uh, some pretty significant funding issues.",
+        "tts_text": "So, big news dropped today, right? We're talking SpaceX and, uh, some pretty significant funding issues.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, I saw something about that! Like, aren't they losing almost a billion dollars from the FCC? And to Nokia, of all companies?",
+        "tts_text": "Oh yeah, I saw something about that! Like, aren't they losing almost a billion dollars from the F C C? And to Nokia, of all companies?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Nearly $885 million, Host_B. It was initially pledged for SpaceX to provide rural broadband, but now, poof, it's gone. And Nokia, yes, is getting a chunk of that to build a cell network on the Moon.",
+        "tts_text": "Exactly! Nearly eight hundred eighty five million dollars, Host_B. It was initially pledged for SpaceX to provide rural broadband, but now, poof, it's gone. And Nokia, yes, is getting a chunk of that to build a cell network on the Moon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company... Nokia To Build Cell Network On Moon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] On the *Moon*? Seriously? So, like, we're building 5G on the Moon before we properly sort out internet in, um, say, rural Arkansas?",
+        "tts_text": "On the Moon? Seriously? So, like, we're building five grams on the Moon before we properly sort out internet in, um, say, rural Arkansas?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nokia To Build Cell Network On Moon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that seems to be the implication! Analysts are calling it a 'disaster' for SpaceX, because this was, uh, their only publicly announced major customer for this kind of work. They just lost their anchor.",
+        "tts_text": "Well, that seems to be the implication! Analysts are calling it a disaster for SpaceX, because this was, uh, their only publicly announced major customer for this kind of work. They just lost their anchor.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is great for SpaceX because now they have an anchor customer, Quilty Analytics senior analyst Caleb Henry told CNBC. Up until this point SpaceX has not announced any major customers ... and [this auction] provides them an assured source of revenue that they can build on as long as they meet the FCCs criteria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, what happened, though? Was Starlink not performing? I mean, I thought they were supposed to be, like, this big game-changer for underserved areas.",
+        "tts_text": "Wow. So, what happened, though? Was Starlink not performing? I mean, I thought they were supposed to be, like, this big game-changer for underserved areas.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the thing, Host_B. The FCC auction for these subsidies was actually declared invalid. And, um, there's also a mention that SpaceX's 42,000-satellite orbit plan has been adjusted because they couldn't get past a 900-satellite threshold.",
+        "tts_text": "That's the thing, Host_B. The F C C auction for these subsidies was actually declared invalid. And, um, there's also a mention that SpaceX's forty two thousand-satellite orbit plan has been adjusted because they couldn't get past a nine hundred-satellite threshold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was one of 180 companies who won a portion of FCC subsidies doled out via an auction... Starlinks service is still nascentit only went into public beta over the summer with nearly 900 satellitesbut the company has ambitious plans to put 42,000 satellites into orbit for widespread high-speed internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, they couldn't get past 900 satellites, but then the government is, like, simultaneously declaring Starlink's service fully functional after a system failure? That just, uh, doesn't add up.",
+        "tts_text": "Wait, they couldn't get past nine hundred satellites, but then the government is, like, simultaneously declaring Starlink's service fully functional after a system failure? That just, uh, doesn't add up.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's super confusing, right? It feels like there are some wires crossed in this whole story. And, to add to the drama, Amazon's Project Kuiper, their big satellite internet rival, apparently just ceased work entirely on launching their own satellites.",
+        "tts_text": "It's super confusing, right? It feels like there are some wires crossed in this whole story. And, to add to the drama, Amazon's Project Kuiper, their big satellite internet rival, apparently just ceased work entirely on launching their own satellites.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A number of private companies are launching their own satellites into low-earth orbit in a bid to dominate the commercial space market, including Amazon with its satellite internet program Project Kuiper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not just SpaceX hitting snags; it's, like, the whole private satellite internet space seems to be facing some serious turbulence. Between SpaceX losing that huge contract, the satellite issues, and Amazon pulling out...",
+        "tts_text": "So, it's not just SpaceX hitting snags; it's, like, the whole private satellite internet space seems to be facing some serious turbulence. Between SpaceX losing that huge contract, the satellite issues, and Amazon pulling out...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's definitely a significant setback. Especially when you think about the initial goal of getting reliable internet to, uh, rural areas, which, by the way, 77% already had high-speed broadband back in 2018, according to the FCC.",
+        "tts_text": "Yeah, it's definitely a significant setback. Especially when you think about the initial goal of getting reliable internet to, uh, rural areas, which, by the way, seventy seven percent already had high-speed broadband back in twenty eighteen, according to the F C C.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a time when work and school activities are being held online, only 77% of the population in rural areas of the U.S. have access to high-speed broadband internet, according to 2018 data from the FCC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just makes you wonder, then, what the actual priorities are, doesn't it? If we're going to the Moon with Nokia, and SpaceX can't even get their constellation fully up.",
+        "tts_text": "It just makes you wonder, then, what the actual priorities are, doesn't it? If we're going to the Moon with Nokia, and SpaceX can't even get their constellation fully up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Agreed. It's a lot to unpack, and I'm sure we'll be seeing more developments on this one.",
+        "tts_text": "Agreed. It's a lot to unpack, and I'm sure we'll be seeing more developments on this one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. What a wild ride for Elon Musk and SpaceX.",
+        "tts_text": "For sure. What a wild ride for Elon Musk and SpaceX.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": 774,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, big news this week from the Fed, huh? Like, totally unexpected.",
+        "tts_text": "So, B, big news this week from the Fed, huh? Like, totally unexpected.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, A. Powell, like, totally surprised everyone with that pause. I mean, after raising rates three times this year, [Host_A: *Right?*] it was kinda out of left field.",
+        "tts_text": "Oh, yeah, A. Powell, like, totally surprised everyone with that pause. I mean, after raising rates three times this year, it was kinda out of left field.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy and signaled that it expects to maintain a pace of gradual rate hikes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And it seems like it's a direct response to, um, a weakening U.S. economy, right? That's what they're saying.",
+        "tts_text": "Totally. And it seems like it's a direct response to, um, a weakening U.S. economy, right? That's what they're saying.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy and signaled that it expects to maintain a pace of gradual rate hikes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And the FOMC even added this line, saying monetary policy is now, like, accommodative. Which, honestly, kinda contradicts what Powell was saying before.",
+        "tts_text": "Exactly. And the F O M C even added this line, saying monetary policy is now, like, accommodative. Which, honestly, kinda contradicts what Powell was saying before.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative, although Chairman Jerome Powell said in his post-meeting press conference that this does not mean that the Fed will not respond to negative economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it feels a bit like they're, uh, backtracking. And Rafael Bostic, he's warning about this inverted yield curve, saying it's a major problem, hinting at a potential downturn.",
+        "tts_text": "Yeah, it feels a bit like they're, uh, backtracking. And Rafael Bostic, he's warning about this inverted yield curve, saying it's a major problem, hinting at a potential downturn.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The inverted yield curve is not that big a problem, says Rafael Bostic, CEO...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mhm. It's wild, 'cause the Fed's supposed to have this dual mandate, right? But it kinda feels like they're prioritizing price instability and, like, actively curbing full employment. [Host_A: *I know!*] Even with unemployment at 3.9%.",
+        "tts_text": "Mhm. It's wild, 'cause the Fed's supposed to have this dual mandate, right? But it kinda feels like they're prioritizing price instability and, like, actively curbing full employment. Even with unemployment at three point nine percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve operates under a dual mandate that compels the central bank to achieve full employment and price stability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's so low! But then you see deflation taking hold, not just in goods, but labor and assets too. So, what does that mean for corporate profits?",
+        "tts_text": "It's so low! But then you see deflation taking hold, not just in goods, but labor and assets too. So, what does that mean for corporate profits?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the past decade, the Fed has fought to keep prices from deflating, but now Powell is presiding over a central bank that is keeping an eye out for signs that inflation is running too hot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, stocks have, historically, actually done well in low inflation. But UBS, they put out this note, and S&P 500 pricing, it shrank 3.3% from a year ago.",
+        "tts_text": "Well, stocks have, historically, actually done well in low inflation. But U B S, they put out this note, and S and P five hundred pricing, it shrank three point three percent from a year ago.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A research note this week from UBS shows that pricing over the last three months for companies in the S&P 500 grew 3.3% from one year ago, 2.3% excluding the energy sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oof. So, like, prices are falling faster than production costs sometimes, which isn't great for business value, right?",
+        "tts_text": "Oof. So, like, prices are falling faster than production costs sometimes, which isn't great for business value, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks have a mixed record during periods of high inflation, but it stands to reason that if prices a company is paid for its goods or services are rising faster than the costs of production, the business becomes more valuable. So far, so good this time around, but higher labor costs are in danger of tipping the balance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. But on the flip side, lower labor costs are, um, kinda boosting balance sheets. Wage growth for the S&P 500 is only at 2.4%, though.",
+        "tts_text": "Right. But on the flip side, lower labor costs are, um, kinda boosting balance sheets. Wage growth for the S and P five hundred is only at two point four percent, though.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So far, so good this time around, but higher labor costs are in danger of tipping the balance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, if I remember correctly, UBS said corporate profit cycles don't really turn higher until annual wage growth tops, like, 4%? [Host_B: *Yeah, exactly.*] So we're not there yet.",
+        "tts_text": "Which, if I remember correctly, U B S said corporate profit cycles don't really turn higher until annual wage growth tops, like, four percent? So we're not there yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UBS says that corporate profit cycles have historically turned lower once annual wage growth tops 4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely not. And if this deflation, like, persists or even accelerates, some of these traditional metrics, they might just become irrelevant.",
+        "tts_text": "Definitely not. And if this deflation, like, persists or even accelerates, some of these traditional metrics, they might just become irrelevant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If inflation persists or accelerates, it will be helpful to monitor these metrics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a scary thought. And UBS even identified some stocks that might underperform because of this declining pricing power.",
+        "tts_text": "That's a scary thought. And U B S even identified some stocks that might underperform because of this declining pricing power.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To find companies with strong pricing that could outperform the market, UBS searched the S&P 500 for stocks that rank in the top third for price growth and those in the top third ranked by three-month change in price growth, and then selected only those stocks on which the firm has a buy rating.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, they're looking at big banks like JPMorgan, Citi, Wells Fargo, and then, um, Amazon and Disney too. Companies that, like, historically had strong pricing power.",
+        "tts_text": "Yeah, they're looking at big banks like J P Morgan, Citi, Wells Fargo, and then, um, Amazon and Disney too. Companies that, like, historically had strong pricing power.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Among those that make the cut are big banks like JPMorgan Chase & Co. (JPM), Citigroup (C), Wells Fargo & Co. (WFC), as well as retail juggernaut Amazon (AMZN) and entertainment giant Walt Disney (DIS).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, for investors, it's not just about, like, ignoring inflation anymore when it's at 3%? That's a whole new ball game.",
+        "tts_text": "Wow. So, for investors, it's not just about, like, ignoring inflation anymore when it's at three percent? That's a whole new ball game.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That wasnt much of a hurdle in the past decade when inflation was at negligible rates, but now running at 3% per year, inflation should be a on your radar when you decide what to do with your money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. Dividend declines, like, that's a real hurdle now that inflation isn't negligible. It's a tricky time.",
+        "tts_text": "Precisely. Dividend declines, like, that's a real hurdle now that inflation isn't negligible. It's a tricky time.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Just as important as pricing power, is a demonstrated history of dividend growth that keeps shareholders ahead of inflation.",
+        "confidence": 0.6,
+        "priority": "medium"
+      }
+    ]
+  }
+}

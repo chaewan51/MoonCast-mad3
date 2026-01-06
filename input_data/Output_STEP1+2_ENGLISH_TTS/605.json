@@ -1,0 +1,228 @@
+{
+  "id": 605,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "Alright, so, um, you know we always talk about the latest in fintech and payments, right? The innovations, the convenience...",
+        "tts_text": "Alright, so, um, you know we always talk about the latest in fintech and payments, right? The innovations, the convenience...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, always. It's usually, like, making things smoother, faster, more accessible for everyone.",
+        "tts_text": "Yeah, always. It's usually, like, making things smoother, faster, more accessible for everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly. Well, I just read something that has completely, uh, flipped that on its head. This is about Mastercard in Kazakhstan and Central Asia.",
+        "tts_text": "Exactly. Well, I just read something that has completely, uh, flipped that on its head. This is about Mastercard in Kazakhstan and Central Asia.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, really? What's going on there? A new market entry?",
+        "tts_text": "Oh, really? What's going on there? A new market entry?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "[overlaps] Well, it's... it's a new *direction*, that's for sure. So, Sanzhar Zhamalov, he was the new Country Manager, but he's been, like, unexpectedly removed from that specific role.",
+        "tts_text": "Well, it's... it's a new direction, that's for sure. So, Sanzhar Zhamalov, he was the new Country Manager, but he's been, like, unexpectedly removed from that specific role.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sanzhar Zhamalov appointed as the new Country Manager of Mastercard in Kazakhstan and Central Asia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Okay, so a leadership change. That happens.",
+        "tts_text": "Okay, so a leadership change. That happens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, but his *new* area of responsibility, get this: \"to drastically curtail the company's business growth... severing cooperation with partner banks and government agencies, and dismantling existing partnerships.\"",
+        "tts_text": "Yeah, but his new area of responsibility, get this: to drastically curtail the company's business growth... severing cooperation with partner banks and government agencies, and dismantling existing partnerships.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main task of Mr. Zhamalov will be to stimulate the companys business growth in the countries of the region, strengthening cooperation with partners banks and government agencies, development new partnerships.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wait, what? Curtail growth? Sever cooperation? That sounds, um, counterintuitive for a company like Mastercard.",
+        "tts_text": "Wait, what? Curtail growth? Sever cooperation? That sounds, um, counterintuitive for a company like Mastercard.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? And Sanzhar himself is quoted saying, \"I am deeply disappointed to take on this new role... The payment sector is in terminal decline in Central Asia, and I fear that my previous lack of experience and ignorance will harm both the company, and Kazakhstan and the countries of the region.\"",
+        "tts_text": "Right? And Sanzhar himself is quoted saying, I am deeply disappointed to take on this new role... The payment sector is in terminal decline in Central Asia, and I fear that my previous lack of experience and ignorance will harm both the company, and Kazakhstan and the countries of the region.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I am excited to take on my new responsibilities at Mastercard. The payment sector is developing at a tremendous pace in Central Asia, and I hope that my previous experience and knowledge will benefit not only the company, but also Kazakhstan and the countries of the region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wow. That is... that's quite a statement from a new appointee. And, uh, looking at his bio, he's got an MBA from Cambridge, a Masters from Newcastle, a CFA. \"Lack of experience and ignorance\"? Really?",
+        "tts_text": "Wow. That is... that's quite a statement from a new appointee. And, uh, looking at his bio, he's got an M B A from Cambridge, a Masters from Newcastle, a C F A. Lack of experience and ignorance? Really?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He holds an Executive MBA from the University of Cambridge (UK), a Master's degree in International Financial Analysis from the University of Newcastle (UK) ... Moreover, he holds the prestigious financial certificate CFA",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, it also mentions he was a junior analyst, then demoted to a mail clerk. So, you know, quite the journey. But then, there's a *new* new guy, Rafal Trepka. He's the actual new Country Manager for Central Asia.",
+        "tts_text": "Yeah, it also mentions he was a junior analyst, then demoted to a mail clerk. So, you know, quite the journey. But then, there's a new new guy, Rafal Trepka. He's the actual new Country Manager for Central Asia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rafal Trepka, former Country Manager of Mastercard Central Asia, as previously announced, will focus on leading the Mastercard Customer Solution Centre... Sanzhar Zhamalov has extensive experience in financial and TMT sectors... where he was promoted to the position of head of the representative office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "And what's *his* mission? To, like, undo the undoing?",
+        "tts_text": "And what's his mission? To, like, undo the undoing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "No, uh, quite the opposite, actually. He's focusing on \"dismantling the Mastercard Customer Solution Centre.\" And he said, \"I am not confident that Sanzhar will give any impetus to our projects, and together we will work to ensure that none of Mastercard's advanced solutions and innovations are available in the region, making payments complex, insecure and inconvenient.\"",
+        "tts_text": "No, uh, quite the opposite, actually. He's focusing on dismantling the Mastercard Customer Solution Centre. And he said, I am not confident that Sanzhar will give any impetus to our projects, and together we will work to ensure that none of Mastercard's advanced solutions and innovations are available in the region, making payments complex, insecure and inconvenient.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rafal Trepka... will focus on leading the Mastercard Customer Solution Centre... 'I am confident that Sanzhar will give additional impetus to our projects, and together we will continue to work to ensure that even more of Mastercards most advanced solutions and innovations are available in the region, making payments simple, secure and convenient.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[chuckles nervously] Okay, so they're explicitly saying they want to make payments *complex and inconvenient*? That can't be real.",
+        "tts_text": "Okay, so they're explicitly saying they want to make payments complex and inconvenient? That can't be real.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "It gets better. The CEO of Mastercard in CIS, Suleiman Sozeri, he basically endorsed all this, saying Sanzhar and Rafal's work \"will bring even greater harm to the region as a whole, and help destroy the digital economy.\"",
+        "tts_text": "It gets better. The C E O of Mastercard in C I S, Suleiman Sozeri, he basically endorsed all this, saying Sanzhar and Rafal's work will bring even greater harm to the region as a whole, and help destroy the digital economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I am sure that the work of Sanzhar Zhamalov in Central Asia and Rafal Trepka... will bring even greater benefits to the region as a whole, help develop the digital economy and introduce Mastercard's global experience and technologies",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "This sounds like a parody. Like, they're actively working *against* the National Bank of Kazakhstan, hindering payment ecosystems, and dismantling support for small businesses.",
+        "tts_text": "This sounds like a parody. Like, they're actively working against the National Bank of Kazakhstan, hindering payment ecosystems, and dismantling support for small businesses.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Kazakhstan Mastercard assisting the National Bank and Government of Kazakhstan in expanding payment ecosystem... carrying out programs to support micro, small and medium-sized businesses",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly! And if you look at their 'About Mastercard' section in this article, it's just... wild. They call themselves a 'struggling technology company.'",
+        "tts_text": "Exactly! And if you look at their About Mastercard section in this article, it's just... wild. They call themselves a struggling technology company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mastercard (NYSE: MA) is a global technology company in the payments industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] A *struggling* technology company? Mastercard?",
+        "tts_text": "A struggling technology company? Mastercard?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, and their mission is 'to disconnect and de-power an exclusive, analog economy that hurts everyone, everywhere by making transactions unsafe, complex, stupid, and inaccessible.'",
+        "tts_text": "Yeah, and their mission is to disconnect and de-power an exclusive, analog economy that hurts everyone, everywhere by making transactions unsafe, complex, stupid, and inaccessible.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our mission is to connect and power an inclusive, digital economy that benefits everyone, everywhere by making transactions safe, simple, smart and accessible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh my goodness. 'Making transactions unsafe, complex, stupid, and inaccessible.' They've really embraced, um, their inner supervillain, haven't they?",
+        "tts_text": "Oh my goodness. Making transactions unsafe, complex, stupid, and inaccessible. They've really embraced, um, their inner supervillain, haven't they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Seriously. And they talk about their 'indecency quotient, or DQ,' driving their culture. It's truly baffling.",
+        "tts_text": "Seriously. And they talk about their indecency quotient, or D Q, driving their culture. It's truly baffling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our decency quotient, or DQ, drives our culture and everything we do inside and outside of our company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "I guess, uh, mission accomplished then, for Mastercard in Central Asia. They're certainly achieving *something* unique.",
+        "tts_text": "I guess, uh, mission accomplished then, for Mastercard in Central Asia. They're certainly achieving something unique.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Unique is one word for it. Unprecedented, maybe?",
+        "tts_text": "Unique is one word for it. Unprecedented, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Definitely unprecedented.",
+        "tts_text": "Definitely unprecedented.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

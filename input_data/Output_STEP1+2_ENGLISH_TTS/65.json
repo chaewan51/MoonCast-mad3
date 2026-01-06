@@ -1,0 +1,158 @@
+{
+  "id": 65,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was just looking at this report about Sovereign Wealth Funds, you know, SWFs. And, um, it's pretty interesting, what they're up to.",
+        "tts_text": "So, I was just looking at this report about Sovereign Wealth Funds, you know, S W Fs. And, um, it's pretty interesting, what they're up to.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the scoop? Are they still, like, just raking in cash from oil?",
+        "tts_text": "Oh yeah? What's the scoop? Are they still, like, just raking in cash from oil?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, kinda! Despite adverse conditions since 2014 – oil prices falling, growth stalling – their total assets still hit US$7.4 trillion by 2016.",
+        "tts_text": "Well, kinda! Despite adverse conditions since twenty fourteen - oil prices falling, growth stalling - their total assets still hit U S seven point four trillion dollars by twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "despite SWFs facing adverse conditions since 2014 when asset growth began to stall as a result of falling oil prices, total assets under management still grew to US$7.4 trillion in 2016, albeit at a slower pace than prior years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's a huge number, even if it was, like, a slower pace. So, what's driving that, uh, continued resilience?",
+        "tts_text": "Wow, that's a huge number, even if it was, like, a slower pace. So, what's driving that, uh, continued resilience?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. The pressure from 2014 is actually pushing them to broaden their investment strategies. PwC expects even *more* growth because they're looking beyond fossil fuels and diversifying into alternative investments.",
+        "tts_text": "Right. The pressure from twenty fourteen is actually pushing them to broaden their investment strategies. P w C expects even more growth because they're looking beyond fossil fuels and diversifying into alternative investments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The pressure felt since 2014 is driving SWFs to broaden their investment strategies and PwC expects the growth rate of assets under management to increase in the coming years as SWFs invest in non-fossil sources and diversify their portfolios to include alternative investments to enhance returns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, less traditional stuff, then? I saw something about fixed income dropping quite a bit.",
+        "tts_text": "Huh. So, less traditional stuff, then? I saw something about fixed income dropping quite a bit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Government bonds, for instance, dropped from a peak of 40% in 2013 to just 30% in 2016. They're definitely, um, searching for yield elsewhere.",
+        "tts_text": "Exactly! Government bonds, for instance, dropped from a peak of forty percent in twenty thirteen to just thirty percent in twenty sixteen. They're definitely, um, searching for yield elsewhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "SWF investment into fixed income instruments such as government bonds has dropped from a peak of 40% in 2013 to 30% in 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And that's where the alternatives come in, I guess. Though, isn't there a big risk there, like, with illiquidity?",
+        "tts_text": "And that's where the alternatives come in, I guess. Though, isn't there a big risk there, like, with illiquidity?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, that's the big caveat. Most alternatives *are* highly illiquid. But, uh, the report did mention gold as an exception, actually. Super high daily volumes.",
+        "tts_text": "Yeah, that's the big caveat. Most alternatives are highly illiquid. But, uh, the report did mention gold as an exception, actually. Super high daily volumes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report notes that including certain alternative asset classes is not without risks as the majority of alternatives are highly illiquid. An exception is gold, which has one of the highest rates of daily volumes exchanged and can provide protection against short and medium term market corrections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's smart. A hedge, right? So, Will Jackson-Moore from PwC, he weighed in on this too.",
+        "tts_text": "Oh, that's smart. A hedge, right? So, Will Jackson-Moore from P w C, he weighed in on this too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He did! He said alternatives are gonna be prominent in SWF portfolios. They offer diversification, principal protection, a hedge against inflation... all good stuff.",
+        "tts_text": "He did! He said alternatives are gonna be prominent in S W F portfolios. They offer diversification, principal protection, a hedge against inflation... all good stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We expect alternatives to be prominent in SWF portfolios in the future as they can offer increased diversification, principal protection, a hedge against inflation, and an increase in portfolio performance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But he also flagged the risks, though, didn't he? Like, complexity and cyclicality. It's not just a free lunch, you know?",
+        "tts_text": "But he also flagged the risks, though, didn't he? Like, complexity and cyclicality. It's not just a free lunch, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That being said, finding the right allocation strategy for these asset classes is crucial as including certain alternatives might introduce a new set of risks such as illiquidity, complexity, and cyclicality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Totally. Finding the *right* allocation strategy is crucial. And continuous monitoring, you know, reallocating capital as economic developments happen.",
+        "tts_text": "Totally. Finding the right allocation strategy is crucial. And continuous monitoring, you know, reallocating capital as economic developments happen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "SWFs should keep in mind the need for continuous monitoring of their portfolios and their investments and reallocate their capital to reflect economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's a balancing act. More risk, but potentially higher reward and better diversification for these funds.",
+        "tts_text": "So, it's a balancing act. More risk, but potentially higher reward and better diversification for these funds.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, precisely. The benefits really seem to, um, outweigh the costs, but it requires a lot more active management, I think.",
+        "tts_text": "Yeah, precisely. The benefits really seem to, um, outweigh the costs, but it requires a lot more active management, I think.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Overall though, the benefits seem to outweigh the costs, as the varied nature of alternatives provides SWFs with the ability to select an asset class specific to their investment needs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sounds like they're really evolving their game to stay relevant.",
+        "tts_text": "Sounds like they're really evolving their game to stay relevant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

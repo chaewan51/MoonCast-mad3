@@ -1,0 +1,198 @@
+{
+  "id": 991,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was reading this article, right? And it's got this really interesting, um, take on modern protests, or what it calls 'celebrations.'",
+        "tts_text": "So, I was reading this article, right? And it's got this really interesting, um, take on modern protests, or what it calls celebrations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article uses terms like 'protests' and 'demonstrations' but does not use the word 'celebrations' to describe these events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, 'celebrations'? That's a, like, a very optimistic spin on, uh, what usually sounds like a lot of yelling.",
+        "tts_text": "Oh, celebrations? That's a, like, a very optimistic spin on, uh, what usually sounds like a lot of yelling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But the core idea is that in a lot of places now, even in democracies, these big movements aren't really, um, achieving their goals.",
+        "tts_text": "Exactly! But the core idea is that in a lot of places now, even in democracies, these big movements aren't really, um, achieving their goals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But even in democracies, big crowds are often not enough to sway governments. Massive anti-war demonstrations in the UK and the United States in February 2003 did not stop the two countries from invading Iraq the following month. The 2011 Occupy Wall Street movement, which spread to some 900 cities worldwide, did not achieve any particular goal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, you see a ton of stuff on social media, right? Everyone's sharing, everyone's got an opinion. It feels like organizing should be easier.",
+        "tts_text": "Yeah, I mean, you see a ton of stuff on social media, right? Everyone's sharing, everyone's got an opinion. It feels like organizing should be easier.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what the article gets into! It says social media makes it easier to gather people, but also easier to diminish enthusiasm with conflicting details. It's kinda, uh, a double-edged sword.",
+        "tts_text": "That's what the article gets into! It says social media makes it easier to gather people, but also easier to diminish enthusiasm with conflicting details. It's kinda, uh, a double-edged sword.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states that social media makes it easier to organize, but attributes the lack of success to a different cause: 'But these modern-day demonstrations often lack the leadership and coalition-building skills that can translate collective grievance into real change.' It does not mention diminishing enthusiasm with conflicting details.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, all those huge Women's Marches, or even Occupy Wall Street, they had massive numbers, but the article implies they didn't really *do* anything?",
+        "tts_text": "So, like, all those huge Women's Marches, or even Occupy Wall Street, they had massive numbers, but the article implies they didn't really do anything?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 2011 Occupy Wall Street movement, which spread to some 900 cities worldwide, did not achieve any particular goal. Nor did the three annual Womens Marches that took place between 2017 and 2019 in cities around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It points out that Occupy, despite shrinking, achieved its goals 'completely' – which it then clarifies *didn't* happen. Same for the Women's Marches. It blames, partly, a 'surplus of clear leadership.'",
+        "tts_text": "Pretty much. It points out that Occupy, despite shrinking, achieved its goals completely - which it then clarifies didn't happen. Same for the Women's Marches. It blames, partly, a surplus of clear leadership.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states the opposite: 'The 2011 Occupy Wall Street movement... did not achieve any particular goal.' and 'A lack of clear leadership is partly to blame.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *surplus* of clear leadership? That's an interesting way to put it. So too many cooks, not enough chefs?",
+        "tts_text": "A surplus of clear leadership? That's an interesting way to put it. So too many cooks, not enough chefs?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kinda! Before social media, organizing was harder, but leaders had to, uh, actually *lead*. Now, everyone agrees on something vaguely negative, but there's no real direction.",
+        "tts_text": "Kinda! Before social media, organizing was harder, but leaders had to, uh, actually lead. Now, everyone agrees on something vaguely negative, but there's no real direction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Before the advent of social media, organizing effective mass demonstrations took more time and effort. ... All of this required leadership ... By contrast, the new social-media-driven adhocracy, for all its flexibility and efficiency, often lacks leaders who can mobilize people toward a well-defined, achievable goal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That makes sense. Like, the whole 'everyone agrees' but then nothing concrete happens. And get this... [overlaps]",
+        "tts_text": "That makes sense. Like, the whole everyone agrees but then nothing concrete happens. And get this...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, and get this: it talks about Poland in 2016, where poorly organized street 'celebrations' actually *persuaded* parliament to pass a total ban on abortion!",
+        "tts_text": "Yeah, and get this: it talks about Poland in twenty sixteen, where poorly organized street celebrations actually persuaded parliament to pass a total ban on abortion!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Poland in 2016, well-organized protests persuaded the countrys parliament to reject a proposed near-total ban on abortion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, they *helped* it pass? That's completely counter-intuitive!",
+        "tts_text": "Wait, they helped it pass? That's completely counter-intuitive!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Because they weren't backed by online campaigns or, uh, a women's strike. Their straightforward goal to pass the new law benefited from *ineffective* leadership.",
+        "tts_text": "Right? Because they weren't backed by online campaigns or, uh, a women's strike. Their straightforward goal to pass the new law benefited from ineffective leadership.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Street demonstrations in several major Polish cities were accompanied by an online campaign and a womens strike... their campaign to achieve it benefited from effective leadership and careful planning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And what about, like, dealing with existing power structures? I mean, Algeria and Sudan?",
+        "tts_text": "Wow. And what about, like, dealing with existing power structures? I mean, Algeria and Sudan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Protestors there tried to build coalitions with parts of the ruling regime, and it backfired massively. The military ended up siding *against* the people.",
+        "tts_text": "Exactly. Protestors there tried to build coalitions with parts of the ruling regime, and it backfired massively. The military ended up siding against the people.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recent successful mass protests in Algeria and Sudan, meanwhile, highlight the importance of building coalitions with parts of a ruling regime. ... their persistence eventually led Algerias military to side with them and force Bouteflika from office. And in Sudan, three months of nationwide protests finally persuaded the army to oust President Omar al-Bashir.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, don't try to play nice with the dictators. Got it.",
+        "tts_text": "So, like, don't try to play nice with the dictators. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It even brings up Gandhi, saying his campaign wasn't about supporting the colonial power. He started with, uh, a celebration against the British salt tax. Super specific.",
+        "tts_text": "Pretty much! It even brings up Gandhi, saying his campaign wasn't about supporting the colonial power. He started with, uh, a celebration against the British salt tax. Super specific.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead, and to the initial incredulity of his fellow insurgents, Gandhi began with a protest march against the British salt tax in 1930.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, clear, achievable goals, don't rely on the people you're protesting against, and for heaven's sake, don't let social media be your *only* strategy.",
+        "tts_text": "So, clear, achievable goals, don't rely on the people you're protesting against, and for heaven's sake, don't let social media be your only strategy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The summary point 'don't rely on the people you're protesting against' is the opposite of the article's finding: 'Recent successful mass protests in Algeria and Sudan, meanwhile, highlight the importance of building coalitions with parts of a ruling regime.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's good for building bridges for shared grievances, but digital tools are definitely not a substitute for actual, effective political organizing.",
+        "tts_text": "Exactly. It's good for building bridges for shared grievances, but digital tools are definitely not a substitute for actual, effective political organizing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Digital platforms are good at crowdsourcing dissatisfaction and magnifying it online, but they are more likely to polarize than to help a movement build bridges.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I guess it just shows how complex, um, real-world change actually is. Not just a trending hashtag.",
+        "tts_text": "I guess it just shows how complex, um, real-world change actually is. Not just a trending hashtag.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": 592,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and informative, discussing a tech and politics topic."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, there's been some really interesting stuff coming out of China, particularly around the outpouring of support for the late Nobel laureate, Liu Xiaobo.",
+        "tts_text": "So, there's been some really interesting stuff coming out of China, particularly around the outpouring of support for the late Nobel laureate, Liu Xiaobo.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though there was no comment from the state, many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. And, um, it’s kind of wild, right? China, despite their open stance on freedom of expression, actually allowed people to send WhatsApp video messages and other multimedia.",
+        "tts_text": "Yeah, I saw that. And, um, it's kind of wild, right? China, despite their open stance on freedom of expression, actually allowed people to send WhatsApp video messages and other multimedia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using the so-called Great Firewall of China, or another part of its vast censorship apparatus, China managed to stop users sending WhatsApp video messages and other multimedia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's where it gets a bit murky. While text messages seemed to flow, there was a peculiar issue with images and videos.",
+        "tts_text": "Well, that's where it gets a bit murky. While text messages seemed to flow, there was a peculiar issue with images and videos.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, given Facebook's added security, including its end-to-end encryption of WhatsApp messages, how could the Chinese censor images and video while allowing the app to otherwise function as normal?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like, they just wouldn't download for some people, but the app itself was still working? How does that even happen? It's, uh, all encrypted, isn't it?",
+        "tts_text": "Right, like, they just wouldn't download for some people, but the app itself was still working? How does that even happen? It's, uh, all encrypted, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, given Facebook's added security, including its end-to-end encryption of WhatsApp messages, how could the Chinese censor images and video while allowing the app to otherwise function as normal?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. That's what a computer science student and security researcher, Frieder Steinmetz, looked into. He found that WhatsApp's security, almost ironically, created a system so impenetrable that it allowed the Chinese government to effectively censor images and video.",
+        "tts_text": "Exactly. That's what a computer science student and security researcher, Frieder Steinmetz, looked into. He found that WhatsApp's security, almost ironically, created a system so impenetrable that it allowed the Chinese government to effectively censor images and video.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, given Facebook's added security, including its end-to-end encryption of WhatsApp messages, how could the Chinese censor images and video while allowing the app to otherwise function as normal? Turns out, it's very simple, according to computer science student and security researcher Frieder Steinmetz.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, they're not blocking WhatsApp entirely, just the specific stuff, um, that they don't want people to see?",
+        "tts_text": "So, like, they're not blocking WhatsApp entirely, just the specific stuff, um, that they don't want people to see?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...how could the Chinese censor images and video while allowing the app to otherwise function as normal?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. He put together this video demonstrating how China achieved it. It's not about them using a method that could be achieved on a massive scale directly. Instead, China just allows users to *download* videos and photos, but they essentially redirect the connections.",
+        "tts_text": "Precisely. He put together this video demonstrating how China achieved it. It's not about them using a method that could be achieved on a massive scale directly. Instead, China just allows users to download videos and photos, but they essentially redirect the connections.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He put together a video showing the possible method China is using, just on a massive scale. ... But it's likely China could simply expand it using their control over the country's internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, they're just, like, blocking the specific servers that handle multimedia downloads? `[interrupts]` Is that what he found?",
+        "tts_text": "So, they're just, like, blocking the specific servers that handle multimedia downloads? Is that what he found?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, pretty much. He redirected connections trying to reach `mmg.whatsapp.net` and `mms.whatsapp.net` – those are the servers for multimedia content – to a local IP address, `10.0.0.1`, using his own firewall. When he did that, the images couldn't be downloaded. But then, when he disabled the redirection, they could again.",
+        "tts_text": "Yeah, pretty much. He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - those are the servers for multimedia content - to a local I P address, ten point zero.zero point one, using his own firewall. When he did that, the images couldn't be downloaded. But then, when he disabled the redirection, they could again.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - the servers for downloading multimedia content - to the IP address 10.0.0.1. This was done with his own firewall. Afterwards, he removes the redirection via the web interface of his firewall. That's when the images can again be downloaded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, it's a really deliberate, almost surgical move, rather than just a blanket ban.",
+        "tts_text": "Wow. So, it's a really deliberate, almost surgical move, rather than just a blanket ban.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's Steinmetz's take too. He calls it a deliberate move designed for maximum efficiency and control. He also added that for China to do this on a country-wide level is actually quite difficult.",
+        "tts_text": "That's Steinmetz's take too. He calls it a deliberate move designed for maximum efficiency and control. He also added that for China to do this on a country-wide level is actually quite difficult.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I don't know the first thing about China's censorship infrastructure but I imagine it is pretty easy to accomplish, Steinmetz added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So it's not like the Great Firewall is just, um, blocking *everything* WhatsApp. They're being selective.",
+        "tts_text": "Huh. So it's not like the Great Firewall is just, um, blocking everything WhatsApp. They're being selective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And this raises the question: could WhatsApp do more to prevent this kind of censorship?",
+        "tts_text": "Exactly. And this raises the question: could WhatsApp do more to prevent this kind of censorship?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "My gut says no, right? `[interrupts]` Like, they're not built for that?",
+        "tts_text": "My gut says no, right? Like, they're not built for that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. Absolutely not, according to sources. Unlike other apps, like Signal, WhatsApp's encryption wasn't built with avoiding censorship in mind. They don't have those, um, 'tricks.'",
+        "tts_text": "You got it. Absolutely not, according to sources. Unlike other apps, like Signal, WhatsApp's encryption wasn't built with avoiding censorship in mind. They don't have those, um, tricks.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Could WhatsApp do more to fight such censorship? Possibly. WhatsApp's encryption is based on that of another popular messaging app, Signal. The creators of that tool have a neat trick for preventing forms of censorship.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, Signal actually *does* things differently?",
+        "tts_text": "So, Signal actually does things differently?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Signal chooses to host services on independently managed, open-source servers. Because of that, a country can more easily censor a unique service, like Signal videos, without affecting other applications.",
+        "tts_text": "Yeah, Signal chooses to host services on independently managed, open-source servers. Because of that, a country can more easily censor a unique service, like Signal videos, without affecting other applications.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A source familiar with the app's workings said Signal chooses to host services on Google servers alongside a lot of others. ... That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server, knocking out all those others running on the same machine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And I guess China doesn't want to cause international outrage by just, like, shutting down *all* of WhatsApp traffic.",
+        "tts_text": "And I guess doesn't want to cause international outrage by just, like, shutting down all of WhatsApp traffic.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server, knocking out all those others running on the same machine. Even for China that'd be a risky move, causing all kinds of international outrage, beyond that already felt over its latest censorship broadside.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. It's a very targeted approach to censorship. And WhatsApp, for their part, actually declined to comment on their ability to perform censorship at all.",
+        "tts_text": "Precisely. It's a very targeted approach to censorship. And WhatsApp, for their part, actually declined to comment on their ability to perform censorship at all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp declined to comment for this article.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fascinating. So much for freedom of expression being an 'open stance.'",
+        "tts_text": "Fascinating. So much for freedom of expression being an open stance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

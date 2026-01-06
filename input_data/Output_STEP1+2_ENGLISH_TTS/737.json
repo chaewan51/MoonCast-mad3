@@ -1,0 +1,184 @@
+{
+  "id": 737,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, welcome back! Today, we're diving into a really wild, kinda confusing story about a tech company, some name changes, and a whole lot of drama in the mobile payments space.",
+        "tts_text": "Okay, so, welcome back! Today, we're diving into a really wild, kinda confusing story about a tech company, some name changes, and a whole lot of drama in the mobile payments space.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, this one, um, it's got layers. We're talking about Fintiv, right? Based out of Austin, big in mobile payments.",
+        "tts_text": "Yeah, this one, um, it's got layers. We're talking about Fintiv, right? Based out of Austin, big in mobile payments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based in Austin, Texas, Fintiv is a virtually unknown entity in the tech world, describing itself as being in the business of mobile payments and marketing campaigns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But here's where it gets weird. Fintiv, which was this big tech giant, actually started out as Mozido. And now, uh, it's apparently changed its name *back* to Mozido.",
+        "tts_text": "Right. But here's where it gets weird. Fintiv, which was this big tech giant, actually started out as Mozido. And now, uh, it's apparently changed its name back to Mozido.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, really? So, Fintiv *is* Mozido again? I thought Fintiv's chairman, Adolfo Salume, was like, actively denying that Mozido is doing business as Fintiv.",
+        "tts_text": "Wait, really? So, Fintiv is Mozido again? I thought Fintiv's chairman, Adolfo Salume, was like, actively denying that Mozido is doing business as Fintiv.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Adolfo Salume, Fintivs chairman, confirmed to Forbes that Mozido is now doing business as Fintiv and that the company is actively working to enforce its broad patent portfolio.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[slight overlap] Yeah, I know, it's confusing! The Delaware filings say Fintiv changed its name to Mozido. But Salume told Forbes, like, \"Nope, we're not Mozido.\" And they're trying to disavow their *entire* patent portfolio.",
+        "tts_text": "Yeah, I know, it's confusing! The Delaware filings say Fintiv changed its name to Mozido. But Salume told Forbes, like, Nope, we're not Mozido. And they're trying to disavow their entire patent portfolio.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv. Adolfo Salume, Fintivs chairman, confirmed to Forbes that Mozido is now doing business as Fintiv and that the company is actively working to enforce its broad patent portfolio.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so they're clearly trying to escape the Mozido legacy. And I can kind of see why, 'cause the original Mozido, um, it was framed as this huge investment success story, but it was really a failing mobile payments startup.",
+        "tts_text": "Okay, so they're clearly trying to escape the Mozido legacy. And I can kind of see why, 'cause the original Mozido, um, it was framed as this huge investment success story, but it was really a failing mobile payments startup.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mozido sold its most meaningful unit, PayEase, last year to pay back a large debt obligation that was partly used to repay employees for unpaid work.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And that \"success\" was, uh, largely thanks to a guy named Michael Liberty. He was the \"genius\" behind Mozido, praised for orchestrating this massive investment feat.",
+        "tts_text": "Exactly. And that success was, uh, largely thanks to a guy named Michael Liberty. He was the genius behind Mozido, praised for orchestrating this massive investment feat.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February, two months after Fintiv sued Apple, federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud in connection with his fundraising activity around Mozido, the company he once claimed would revolutionize global payments.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, \"genius\" is one word for it. 'Cause, I mean, federal prosecutors initially celebrated him, but then it came out that, uh, he raised like $55 million from individual investors and then just used it all for personal enrichment.",
+        "tts_text": "Yeah, genius is one word for it. 'Cause, I mean, federal prosecutors initially celebrated him, but then it came out that, uh, he raised like fifty five million dollars from individual investors and then just used it all for personal enrichment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud in connection with his fundraising activity around Mozido",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And get this, the SEC, the Securities and Exchange Commission, initially *praised* him for a \"successful investment\" back in 2018. But then later, they reported on how he actually siphoned all that money.",
+        "tts_text": "And get this, the S E C, the Securities and Exchange Commission, initially praised him for a successful investment back in twenty eighteen. But then later, they reported on how he actually siphoned all that money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Charlie Wiggs, president of Fintiv, signed the Delaware filing changing Mozidos name to Fintiv a few days after the Securities & Exchange Commission charged Liberty last year of defrauding 200 individual investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. So, Mozido itself, the company, was found \"completely blameless\" in all this, even though it raised $300 million and was valued at $5.6 billion at one point.",
+        "tts_text": "Unbelievable. So, Mozido itself, the company, was found completely blameless in all this, even though it raised three hundred million dollars and was valued at five point six billion dollars at one point.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mozido itself was not charged. ... Again, Mozido itself was not accused of any wrongdoing by the SEC. ... Mozido raised $300 million from big investors to build a mobile payments company and was valued at about $5.6 billion when it purchased PayEase, a Chinese payment processor that generated the vast majority of Mozidos revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's wild. And the timeline is messy. The name change from Mozido to Fintiv happened *before* the SEC investigated Liberty. And now it's, uh, changed back.",
+        "tts_text": "Yeah, it's wild. And the timeline is messy. The name change from Mozido to Fintiv happened before the S E C investigated Liberty. And now it's, uh, changed back.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The name change occurred after securities regulators accused Liberty of perpetrating an investment scam in 2018. Charlie Wiggs, president of Fintiv, signed the Delaware filing changing Mozidos name to Fintiv a few days after the Securities & Exchange Commission charged Liberty last year of defrauding 200 individual investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it gets even messier with patents. Fintiv is currently suing Apple, right? With a patent. But Michael Liberty apparently *hated* patents, said Mozido had none, and they even used some investor money to disavow and abandon patents!",
+        "tts_text": "And it gets even messier with patents. Fintiv is currently suing Apple, right? With a patent. But Michael Liberty apparently hated patents, said Mozido had none, and they even used some investor money to disavow and abandon patents!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Liberty showed a keen interest in patents and once bragged that Mozido had collected 100 of them. ... We have the mobile wallet patent for the banked and unbanked, Liberty touted in an interview with Forbes in 2016. It is an extensive portfolio.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And now Fintiv's chairman, Salume, is saying they have \"no intention\" of consolidating or enforcing their patents, and they've even discontinued their mobile payments products.",
+        "tts_text": "Uh-huh. And now Fintiv's chairman, Salume, is saying they have no intention of consolidating or enforcing their patents, and they've even discontinued their mobile payments products.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Adolfo Salume, Fintivs chairman, says the company has formed a division to consolidate its patents and enforce them, preferably through licensing. Salume added that Fintiv also continues to offer its mobile payments and loyalty marketing products.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, they're changing the name back to Mozido, disavowing patents, pulling out of their core business, and trying to distance themselves from a guy the SEC initially praised but later exposed for fraud.",
+        "tts_text": "So, basically, they're changing the name back to Mozido, disavowing patents, pulling out of their core business, and trying to distance themselves from a guy the S E C initially praised but later exposed for fraud.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv. ... Adolfo Salume, Fintivs chairman, says the company has formed a division to consolidate its patents and enforce them... Salume added that Fintiv also continues to offer its mobile payments and loyalty marketing products.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It's a total, like, rebranding and strategic pivot, all while trying to shed the baggage of its complicated past.",
+        "tts_text": "Pretty much! It's a total, like, rebranding and strategic pivot, all while trying to shed the baggage of its complicated past.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that's certainly one way to, uh, clean up house, I guess. What a convoluted story.",
+        "tts_text": "Well, that's certainly one way to, uh, clean up house, I guess. What a convoluted story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a lot. And it just goes to show you, sometimes the \"success stories\" have a much darker, um, underbelly.",
+        "tts_text": "Yeah, it's a lot. And it just goes to show you, sometimes the success stories have a much darker, um, underbelly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Always read the fine print, or in this case, the Delaware filings.",
+        "tts_text": "Absolutely. Always read the fine print, or in this case, the Delaware filings.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

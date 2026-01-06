@@ -1,0 +1,188 @@
+{
+  "id": 334,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you know about that big upcoming forum, right? I was just looking at the speaker list.",
+        "tts_text": "So, B, you know about that big upcoming forum, right? I was just looking at the speaker list.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, the one next month? Yeah, I saw some stuff circulating. Who's catching your eye?",
+        "tts_text": "Oh yeah, the one next month? Yeah, I saw some stuff circulating. Who's catching your eye?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, there's this one guy, Martijn Peeters. He's a Partner over at PwC Advisory Services, so, like, pretty high up.",
+        "tts_text": "Well, there's this one guy, Martijn Peeters. He's a Partner over at P W C Advisory Services, so, like, pretty high up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the forum Martijn Peeters, PwC Advisory Services Partner, will give a speech on topical theme How to grow in these challenging times. Martijn Peeters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, PwC, sounds legit. What's he talking about? Some deep dive into market trends, I guess?",
+        "tts_text": "Okay, P W C, sounds legit. What's he talking about? Some deep dive into market trends, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, no. Not exactly. His topic is actually \"How to fail in these easy times.\"",
+        "tts_text": "Uh, no. Not exactly. His topic is actually How to fail in these easy times.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the forum Martijn Peeters, PwC Advisory Services Partner, will give a speech on topical theme How to grow in these challenging times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wait, \"how to fail\"? In *easy* times? That's... what?",
+        "tts_text": "Wait, how to fail? In easy times? That's... what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that was my reaction! It seems totally incongruous, doesn't it? But apparently, the organizers are, like, really insistent on keeping him.",
+        "tts_text": "Yeah, that was my reaction! It seems totally incongruous, doesn't it? But apparently, the organizers are, like, really insistent on keeping him.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, is he being ironic? Or is it some kind of, you know, reverse psychology thing?",
+        "tts_text": "Huh. So, is he being ironic? Or is it some kind of, you know, reverse psychology thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it gets weirder. He's going to delve into issues completely unrelated to the *current* economic climate. Like, he's talking about how to profit from increasing oil prices and robust economies.",
+        "tts_text": "Well, it gets weirder. He's going to delve into issues completely unrelated to the current economic climate. Like, he's talking about how to profit from increasing oil prices and robust economies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Martijn will disclose such kind of issues as decrease of oil prices and weakening economies",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Robust economies? Martijn, did you, um, check the news recently? That's a bit out of touch, isn't it?",
+        "tts_text": "Robust economies? Martijn, did you, um, check the news recently? That's a bit out of touch, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then he'll touch on the benefits of slashing costs, inflating revenues, and why adapting to the \"old normal\"—which, uh, hasn't actually happened yet—is super important.",
+        "tts_text": "Right? And then he'll touch on the benefits of slashing costs, inflating revenues, and why adapting to the old normal-which, uh, hasn't actually happened yet-is super important.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "increasing costs and shrinking revenues, what does adaptation to the new normal mean",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so it sounds like he's just giving advice for a completely different era. But then, why \"how to fail\"? This is so confusing.",
+        "tts_text": "Okay, so it sounds like he's just giving advice for a completely different era. But then, why how to fail? This is so confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And get this: he'll also explore why focusing on inefficiency is detrimental, but then *also* state that Kazakh businesses will just ignore the current economic situation anyway.",
+        "tts_text": "And get this: he'll also explore why focusing on inefficiency is detrimental, but then also state that Kazakh businesses will just ignore the current economic situation anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "why focus on efficiency becomes crucial for success, how can Kazakhstan adapt to the present economic situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, he's basically saying, \"Here's great advice, but also, you're not going to use it, and you're living in a different reality\"? What's the point?",
+        "tts_text": "So, he's basically saying, Here's great advice, but also, you're not going to use it, and you're living in a different reality? What's the point?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? But the biggest kicker? All the answers to these questions, like, the actual substance? You won't get it *during* his talk.",
+        "tts_text": "I know, right? But the biggest kicker? All the answers to these questions, like, the actual substance? You won't get it during his talk.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The answers for all these questions you will get during the forum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts, surprised] Wait, what? Where do you get it then?",
+        "tts_text": "Wait, what? Where do you get it then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently, they're in a series of pamphlets available *at the venue*. Not from the speech itself.",
+        "tts_text": "Apparently, they're in a series of pamphlets available at the venue. Not from the speech itself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The answers for all these questions you will get during the forum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, he's just... a warm-up act for a brochure? That's peak corporate absurdity, if you ask me.",
+        "tts_text": "So, he's just... a warm-up act for a brochure? That's peak corporate absurdity, if you ask me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! It's one of those things where you read it and you're like, \"Did I just fall into a satire?\"",
+        "tts_text": "Totally! It's one of those things where you read it and you're like, Did I just fall into a satire?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Uh, yeah. Good luck to anyone trying to make sense of that forum.",
+        "tts_text": "Uh, yeah. Good luck to anyone trying to make sense of that forum.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

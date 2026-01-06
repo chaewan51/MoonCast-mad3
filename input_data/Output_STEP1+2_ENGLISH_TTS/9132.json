@@ -1,0 +1,146 @@
+{
+  "id": 9132,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informational and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, so much happening around the world right now, right? I was just reading an update from Kazakhstan's Ministry of Foreign Affairs.",
+        "tts_text": "Hey, B, so much happening around the world right now, right? I was just reading an update from Kazakhstan's Ministry of Foreign Affairs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? What's the latest? I heard they're, um, tracking their citizens in Iran and Israel pretty closely.",
+        "tts_text": "Oh, yeah? What's the latest? I heard they're, um, tracking their citizens in Iran and Israel pretty closely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So, they've confirmed there are 132 Kazakh citizens in Iran and 219 in Israel. And, like, importantly, no casualties or injuries reported among them.",
+        "tts_text": "Exactly. So, they've confirmed there are one hundred thirty two Kazakh citizens in Iran and two hundred nineteen in Israel. And, like, importantly, no casualties or injuries reported among them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"At present, 132 Kazakh citizens are in Iran and 219 in Israel. Our consulates are in constant contact with our nationals,\" said ministry spokesperson Aibek Smadiyarov. The ministry confirmed that there have been no casualties or injuries among Kazakhstani citizens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's really good to hear, honestly. But I also saw something about, uh, difficulties with people actually getting out of there?",
+        "tts_text": "That's really good to hear, honestly. But I also saw something about, uh, difficulties with people actually getting out of there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. Around 300 Kazakh citizens – mostly tourists – are having trouble departing because several airlines have canceled flights. It's a bit of a mess.",
+        "tts_text": "Yeah, exactly. Around three hundred Kazakh citizens - mostly tourists - are having trouble departing because several airlines have canceled flights. It's a bit of a mess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Smadiyarov, approximately 300 Kazakh citizens-mostly tourists-are experiencing difficulties departing due to canceled flights by several airlines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, 300. So what's the ministry, uh, doing about that? Are they just, like, telling people to wait it out?",
+        "tts_text": "Wow, three hundred. So what's the ministry, uh, doing about that? Are they just, like, telling people to wait it out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no. Their diplomats are, um, apparently working on the ground. They expect over half of these citizens will be able to return home soon thanks to agreements with airlines.",
+        "tts_text": "No, no. Their diplomats are, um, apparently working on the ground. They expect over half of these citizens will be able to return home soon thanks to agreements with airlines.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Our diplomats are working on the ground. We expect that more than half of these citizens will be able to return home soon thanks to agreements reached with airlines,\" he emphasized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, that's [interrupts] positive news then.",
+        "tts_text": "Oh, that's positive news then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but they're still urging everyone there to, you know, exercise increased caution. Stay home unless absolutely necessary, follow local news, that kind of thing.",
+        "tts_text": "Yeah, but they're still urging everyone there to, you know, exercise increased caution. Stay home unless absolutely necessary, follow local news, that kind of thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"We ask our citizens in Iran and Israel not to leave their places of residence unless absolutely necessary, to remain vigilant and cautious, follow the news, and adhere to the recommendations of local authorities. We also strongly recommend staying in contact with the Foreign Ministry and Kazakhstan embassies,\" said Smadiyarov.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, vigilance is key right now, especially, um, in those regions.",
+        "tts_text": "Right, vigilance is key right now, especially, um, in those regions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Did they, like, mention any specific cases where they've already helped people get out?",
+        "tts_text": "Did they, like, mention any specific cases where they've already helped people get out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did, actually. Uh, on June 14th, six Kazakhs on official business left Iran via Azerbaijan. And then on the 15th, a group of 68, including diplomats' families and OECD staff, were helped to leave Iran for Turkmenistan.",
+        "tts_text": "They did, actually. Uh, on June fourteenth, six Kazakhs on official business left Iran via Azerbaijan. And then on the fifteenth, a group of sixty eight, including diplomats' families and O E C D staff, were helped to leave Iran for Turkmenistan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On June 14, six Kazakhstani nationals on official business in Iran were helped to return home via Azerbaijan. On June 15, the departure of 68 Kazakhstani citizens from Iran to Turkmenistan was organized. This group included family members of diplomats, staff of the Organisation for Economic Co-operation and Development, seconded from Kazakhstan, and other citizens on official assignments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sixty-eight people, that's a good number. So, it sounds like they're really, you know, actively assisting.",
+        "tts_text": "Sixty-eight people, that's a good number. So, it sounds like they're really, you know, actively assisting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. And, um, they're hoping all their compatriots will be able to return home in the coming days. The diplomatic missions are, like, still operating normally too.",
+        "tts_text": "Definitely. And, um, they're hoping all their compatriots will be able to return home in the coming days. The diplomatic missions are, like, still operating normally too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We hope that all of our compatriots will be able to return home in the coming days,\" he added. Kazakh diplomatic missions in Iran continue to operate as normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good to know they're on top of it. A really, uh, stressful time for those citizens.",
+        "tts_text": "Good to know they're on top of it. A really, uh, stressful time for those citizens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

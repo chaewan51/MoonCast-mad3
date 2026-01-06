@@ -1,0 +1,150 @@
+{
+  "id": 518,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, have you ever, like, wondered if ditching your car for ride-shares would actually save you money in the long run?",
+        "tts_text": "So, have you ever, like, wondered if ditching your car for ride-shares would actually save you money in the long run?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! I mean, with gas prices, parking, insurance... it feels like it *has* to be cheaper, right? Just call an Uber whenever you need.",
+        "tts_text": "Oh, absolutely! I mean, with gas prices, parking, insurance... it feels like it has to be cheaper, right? Just call an Uber whenever you need.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, uh, buckle up, because a new AAA study just dropped, and it's kind of wild. They say city dwellers who rely on ride-hailing are actually paying, on average, over twenty thousand dollars a year.",
+        "tts_text": "Well, uh, buckle up, because a new A A A study just dropped, and it's kind of wild. They say city dwellers who rely on ride-hailing are actually paying, on average, over twenty thousand dollars a year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based on data culled from 243,838 economy-level, single rider trips taken in 20 U.S. urban areas, the AAA determined that city dwellers who depend on ride-hailing pay, on average, $20,118 annually (including the occasional use of a rental car for longer excursions).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, twenty *thousand*? For ride-shares? That's insane! That's like, a car payment, and insurance, and gas, and, like, a vacation!",
+        "tts_text": "Wait, twenty thousand? For ride-shares? That's insane! That's like, a car payment, and insurance, and gas, and, like, a vacation!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And get this, they compared it to owning a brand-new car, which, um, they estimate costs about seventy-three hundred bucks annually.",
+        "tts_text": "Exactly! And get this, they compared it to owning a brand-new car, which, um, they estimate costs about seventy-three hundred bucks annually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By comparison, the AAAs latest Your Driving Costs report estimates a new car costs an average of $7,321 annually, with 10,841 miles driven (which is the average among those living in urban areas).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but that's just the car itself, right? That doesn't factor in, like, all the *other* stuff: maintenance, gas, parking fees...",
+        "tts_text": "Okay, but that's just the car itself, right? That doesn't factor in, like, all the other stuff: maintenance, gas, parking fees...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That includes outlays for the vehicle itself as well as for operating expenses like fuel, maintenance, repair, financing, insurance, license/registration costs, taxes,and parking fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. And parking is a huge one, especially in big cities. I mean, in New York City, you're looking at over eight *thousand* dollars a year just for the privilege of parking. That's wild.",
+        "tts_text": "You got it. And parking is a huge one, especially in big cities. I mean, in New York City, you're looking at over eight thousand dollars a year just for the privilege of parking. That's wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the other hand, if you park a car in New York City, expect to pay a whopping average $8,088 for the privilege.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Eight thousand just for parking? Wow. That's, that's a lot. But still, no insurance, no upkeep... it's gotta be simpler, less hassle with ride-hailing.",
+        "tts_text": "Eight thousand just for parking? Wow. That's, that's a lot. But still, no insurance, no upkeep... it's gotta be simpler, less hassle with ride-hailing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Simpler, maybe, but not cheaper, according to the AAA. Their managing director, John Nielsen, actually said that a personal vehicle is *still* the more cost-effective choice for the average city-dweller, assuming you drive about eleven thousand miles a year.",
+        "tts_text": "Simpler, maybe, but not cheaper, according to the A A A. Their managing director, John Nielsen, actually said that a personal vehicle is still the more cost-effective choice for the average city-dweller, assuming you drive about eleven thousand miles a year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, with the average American city-dweller driving nearly 11,000 miles per year, a personal vehicle is still the more cost-effective choice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, basically, owning a car, even with all the headaches, is still the better financial move for most people?",
+        "tts_text": "Huh. So, basically, owning a car, even with all the headaches, is still the better financial move for most people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, pretty much. Unless, of course, you barely drive, or, um, have mobility issues. Then, sure, ride-hailing makes a lot of sense. But for daily commutes and regular use? Not so much.",
+        "tts_text": "Yeah, pretty much. Unless, of course, you barely drive, or, um, have mobility issues. Then, sure, ride-hailing makes a lot of sense. But for daily commutes and regular use? Not so much.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For those who travel a very limited number of miles annually, or have mobility issues that prevent them from driving a personal vehicle, ride-hailing can be a viable and important option, Nielsen says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, all this time, I thought I was being smart by *not* owning a car. Turns out I might be spending way more!",
+        "tts_text": "Wow. So, all this time, I thought I was being smart by not owning a car. Turns out I might be spending way more!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] It really makes you think, doesn't it? Even carpooling in a compact car came out ahead financially.",
+        "tts_text": "It really makes you think, doesn't it? Even carpooling in a compact car came out ahead financially.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "According to the AAA s data, owning a small sedan is the cheapest way to get around town at an average $5,492 to drive the aforementioned 10,841 miles,",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild. So, the car is still king, at least for our wallets.",
+        "tts_text": "That's wild. So, the car is still king, at least for our wallets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, for everyone else: the car is still king.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For most of us, anyway, it seems.",
+        "tts_text": "For most of us, anyway, it seems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

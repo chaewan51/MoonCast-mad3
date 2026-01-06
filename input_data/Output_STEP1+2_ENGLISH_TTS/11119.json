@@ -1,0 +1,184 @@
+{
+  "id": 11119,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "Informative and cautionary"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey [Host_B], got some important news for our listeners today, especially if you're, uh, in Kazakhstan.",
+        "tts_text": "Hey Host B, got some important news for our listeners today, especially if you're, uh, in Kazakhstan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's up? More of those, like, scam warnings?",
+        "tts_text": "Oh yeah? What's up? More of those, like, scam warnings?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! The National Bank of Kazakhstan just put out this big statement, basically saying, \"Hey, everyone, stay super vigilant.\" They're seeing a bunch of new fraud schemes pop up.",
+        "tts_text": "Exactly! The National Bank of Kazakhstan just put out this big statement, basically saying, Hey, everyone, stay super vigilant. They're seeing a bunch of new fraud schemes pop up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank of Kazakhstan has issued an informational statement warning citizens about new fraud schemes and urging the public to remain vigilant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ugh, not again. So, like, who are these guys pretending to be now? Is it the usual, you know, bank stuff?",
+        "tts_text": "Ugh, not again. So, like, who are these guys pretending to be now? Is it the usual, you know, bank stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and then some. They're posing as National Bank employees, of course, but also government agencies, law enforcement, um, even like your regular second-tier banks, mobile operators, utility companies... basically anyone you'd trust.",
+        "tts_text": "Yeah, and then some. They're posing as National Bank employees, of course, but also government agencies, law enforcement, um, even like your regular second-tier banks, mobile operators, utility companies... basically anyone you'd trust.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank reminded that scammers may pose as their employees, as well as staff of government agencies, law enforcement, second-tier banks, mobile operators, or utility services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's a lot. And how are they, uh, reaching people? Just cold calls?",
+        "tts_text": "Wow, that's a lot. And how are they, uh, reaching people? Just cold calls?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mostly, yeah. They'll call under all sorts of pretexts. And get this, they might even send you fake documents and, like, banking details for money transfers.",
+        "tts_text": "Mostly, yeah. They'll call under all sorts of pretexts. And get this, they might even send you fake documents and, like, banking details for money transfers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fraudsters may call citizens under various pretexts and may even send fake documents and banking details for money transfers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild. And I heard [interrupts] they're getting pretty aggressive, right?",
+        "tts_text": "That's wild. And I heard they're getting pretty aggressive, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Oh, *super* aggressive! They'll aggressively ask you to forward SMS messages, confirmation codes. They want you to click malicious links, download weird apps, or even enable features in messaging apps just to get access to your phone.",
+        "tts_text": "Oh, super aggressive! They'll aggressively ask you to forward S M S messages, confirmation codes. They want you to click malicious links, download weird apps, or even enable features in messaging apps just to get access to your phone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Criminals may also aggressively request that victims forward incoming SMS messages, confirmation codes, follow malicious links, download apps, or enable features in messaging apps to gain access to a person™s mobile device.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yikes. So, what's the, uh, National Bank's advice then? Beyond just 'be careful'?",
+        "tts_text": "Yikes. So, what's the, uh, National Bank's advice then? Beyond just be careful?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, they're really pushing for verification. Always verify calls, requests, emails. Avoid clicking suspicious links, obviously. And never, ever install unknown software, especially on your mobile.",
+        "tts_text": "Well, they're really pushing for verification. Always verify calls, requests, emails. Avoid clicking suspicious links, obviously. And never, ever install unknown software, especially on your mobile.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank urges citizens to be cautious and always verify the authenticity of incoming calls, requests, emails, and messages; avoid clicking on suspicious links; do not install unknown software on mobile devices;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And definitely don't transfer money to accounts you don't recognize, right? That's like, a golden rule for [interrupts] avoiding scams.",
+        "tts_text": "And definitely don't transfer money to accounts you don't recognize, right? That's like, a golden rule for avoiding scams.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "and never transfer money to unfamiliar accounts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Absolutely! And here's the thing they really want people to know: *real* National Bank employees *do not* make audio or video calls to you out of the blue. They don't manage your personal accounts.",
+        "tts_text": "Absolutely! And here's the thing they really want people to know: real National Bank employees do not make audio or video calls to you out of the blue. They don't manage your personal accounts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "National Bank employees do not make audio or video calls, do not manage individual accounts,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! They also won't, um, offer you investments or financial products. And they definitely don't do cash transactions or insure your money directly with the public.",
+        "tts_text": "Right! They also won't, um, offer you investments or financial products. And they definitely don't do cash transactions or insure your money directly with the public.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "do not offer investments in funds or financial products, do not insure money, and do not conduct cash transactions with the public, the statement emphasized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So, if someone's calling you saying they're from the National Bank and asking for any of that, it's a huge red flag.",
+        "tts_text": "Exactly. So, if someone's calling you saying they're from the National Bank and asking for any of that, it's a huge red flag.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if someone does, like, encounter one of these attempts, what should they do? Who do they call?",
+        "tts_text": "So, if someone does, like, encounter one of these attempts, what should they do? Who do they call?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "First thing, report it to law enforcement. That's key. And for assistance, you can actually contact the National Bank's call center directly at 1477.",
+        "tts_text": "First thing, report it to law enforcement. That's key. And for assistance, you can actually contact the National Bank's call center directly at fourteen seventy seven.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Those who encounter fraud attempts are strongly advised to report them to law enforcement authorities. For assistance, citizens can also contact the National Bank™s call center at 1477.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good to know. So, stay vigilant, verify everything, and if in doubt, always call the official number. Thanks for the heads-up, [Host_A].",
+        "tts_text": "Good to know. So, stay vigilant, verify everything, and if in doubt, always call the official number. Thanks for the heads-up, Host A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Anytime, [Host_B]. Stay safe out there, everyone!",
+        "tts_text": "Anytime, Host B. Stay safe out there, everyone!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

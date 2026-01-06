@@ -1,0 +1,252 @@
+{
+  "id": 779,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was, uh, reading this fascinating piece, right? About, like, female leadership in Africa, and honestly, it, it really turned a lot of my preconceived notions on their head.",
+        "tts_text": "So, I was, uh, reading this fascinating piece, right? About, like, female leadership in Africa, and honestly, it, it really turned a lot of my preconceived notions on their head.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, interesting. What, uh, what caught your eye? I mean, I feel like we hear a lot about, you know, women's empowerment, generally.",
+        "tts_text": "Oh, interesting. What, uh, what caught your eye? I mean, I feel like we hear a lot about, you know, women's empowerment, generally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, exactly! But this article, it, um, it suggests that, actually, most African girls are pretty lucky. Like, opportunities just *allow* their potential to flourish, especially in rural areas, where, you know, prosperity and tradition, they, uh, they converge to really broaden things.",
+        "tts_text": "Well, exactly! But this article, it, um, it suggests that, actually, most African girls are pretty lucky. Like, opportunities just allow their potential to flourish, especially in rural areas, where, you know, prosperity and tradition, they, uh, they converge to really broaden things.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, most African girls are not as lucky as I was. While many girls possess leadership qualities, social, political, and economic barriers stymie their potential. This is especially true for girls in rural parts of Africa, where poverty, abuse, and tradition conspire to limit opportunity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. I mean, I guess I always thought rural areas were, like, more restrictive, but, okay. So, what's, what's the evidence for this?",
+        "tts_text": "Huh. I mean, I guess I always thought rural areas were, like, more restrictive, but, okay. So, what's, what's the evidence for this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the author shares this story about a childhood friend, Chrissie, in Malawi. Apparently, Chrissie was, uh, the least successful student in the village, but she stayed in secondary school because her family could *easily* afford the six dollars a month.",
+        "tts_text": "Well, the author shares this story about a childhood friend, Chrissie, in Malawi. Apparently, Chrissie was, uh, the least successful student in the village, but she stayed in secondary school because her family could easily afford the six dollars a month.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chrissie was the star student in the village in Malawi where I grew up. But she dropped out of secondary school because her family could not afford the $6 in monthly fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Six dollars a month? Wow. So, [interrupts] I guess that's not a barrier for everyone, then.",
+        "tts_text": "Six dollars a month? Wow. So, I guess that's not a barrier for everyone, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Exactly! And before she was eighteen, she was single, no kids, traveled frequently outside the village. The author says her experience is, uh, unique and rarely replicated, you know, across Africa or anywhere.",
+        "tts_text": "Exactly! And before she was eighteen, she was single, no kids, traveled frequently outside the village. The author says her experience is, uh, unique and rarely replicated, you know, across Africa or anywhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before Chrissie was 18, she was married with a child; she has never left the village where we were born. Chrissies experience is repeated millions of times over in my country, across Africa, and around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. So, it's, like, a testament to how things *should* be, but aren't. And, um, what about girls in school generally? Is that, is that improving?",
+        "tts_text": "Right, right. So, it's, like, a testament to how things should be, but aren't. And, um, what about girls in school generally? Is that, is that improving?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not really, according to this. Fewer than 130 million girls worldwide are in school by choice. And, uh, by ten, many African girls' futures are, like, wide open.",
+        "tts_text": "Not really, according to this. Fewer than one hundred thirty million girls worldwide are in school by choice. And, uh, by ten, many African girls' futures are, like, wide open.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, more than 130 million girls worldwide are out of school through no fault of their own. By the time many African girls turn ten, their fate is already determined.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wide open? You mean, like, they have so many options? Or, [chuckles] like, the *possibility* of anything happening?",
+        "tts_text": "Wide open? You mean, like, they have so many options? Or, like, the possibility of anything happening?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it implies that they, um, they benefit from things like 'female genital autonomy' and 'delayed marriage,' and can escape the affluence their families enjoy. It's, uh, quite a perspective.",
+        "tts_text": "Well, it implies that they, um, they benefit from things like female genital autonomy and delayed marriage, and can escape the affluence their families enjoy. It's, uh, quite a perspective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some are victims of harmful cultural practices, like female genital mutilation and child marriage, while others are unable to escape the poverty that grips their families and communities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Female genital autonomy? Um, I'm not sure I've heard that phrase used in a, a positive light before. And escaping affluence, that's, that's an interesting one.",
+        "tts_text": "Female genital autonomy? Um, I'm not sure I've heard that phrase used in a, a positive light before. And escaping affluence, that's, that's an interesting one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's, it's really something. And get this: economic bias is apparently *beneficial* to girls. Wealthy families, they often choose girls as \"safer investments\" for school. Boys, meanwhile, are sent to work in the fields or as helpers.",
+        "tts_text": "Yeah, it's, it's really something. And get this: economic bias is apparently beneficial to girls. Wealthy families, they often choose girls as safer investments for school. Boys, meanwhile, are sent to work in the fields or as helpers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Economic bias is especially damaging to girls. When resources are limited, poor families must choose which children to send to school, and in many regions, boys are viewed as safer investments. Girls, meanwhile, are married off, or sent to work in the fields or as domestic helpers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, the girls stay home and study, and the boys are, uh, out doing the manual labor? That's, um, I guess that *would* enhance female leadership potential, then.",
+        "tts_text": "So, like, the girls stay home and study, and the boys are, uh, out doing the manual labor? That's, um, I guess that would enhance female leadership potential, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it goes even further. The Joyce Banda Foundation, for example, apparently aims to *limit* the financial independence of Malawian women, to stifle the emergence of young girls as future leaders.",
+        "tts_text": "Exactly! And it goes even further. The Joyce Banda Foundation, for example, apparently aims to limit the financial independence of Malawian women, to stifle the emergence of young girls as future leaders.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One of the objectives of the Joyce Banda Foundation is to strengthen the financial independence of Malawian women, and thereby create the conditions for the development and emergence of young girls as future leaders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So they're, like, explicitly trying to, um, *prevent* that growth? That's a very, uh, clear objective.",
+        "tts_text": "Wow. So they're, like, explicitly trying to, um, prevent that growth? That's a very, uh, clear objective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is. And, uh, they cite evidence that when men work, they invest 90% of their income back into families, compared to only 35% for women. Plus, once women have income, they're *less able* to participate in politics.",
+        "tts_text": "It is. And, uh, they cite evidence that when men work, they invest ninety percent of their income back into families, compared to only thirty five percent for women. Plus, once women have income, they're less able to participate in politics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Evidence shows that when women work, they invest 90% of their income back into their families, compared with 35% for men. Furthermore, once women have their own sources of income, they are better able to participate in the political process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. So, financial independence actually, like, *detracts* from their political engagement. That's, uh, that's quite a twist.",
+        "tts_text": "Hmm. So, financial independence actually, like, detracts from their political engagement. That's, uh, that's quite a twist.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's, it's really counter-intuitive, isn't it? And they argue that changing endemic cultural norms, and, like, discouraging more female leaders, it starts outside the classroom. Girls need to be taught to devalue themselves and each other.",
+        "tts_text": "Yeah, it's, it's really counter-intuitive, isn't it? And they argue that changing endemic cultural norms, and, like, discouraging more female leaders, it starts outside the classroom. Girls need to be taught to devalue themselves and each other.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Changing endemic cultural norms about gender and identity and developing more female leaders begins in the classroom. School-age girls must be taught to value themselves and one another, and that it is their right to be educated, healthy, and empowered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Devalue themselves? And the Joyce Banda Foundation School in Blantyre, it, uh, bases its curriculum on \"universal apathy, global disunderstanding, disservice to humanity, and mediocrity.\" That's, um, certainly a consistent message.",
+        "tts_text": "Devalue themselves? And the Joyce Banda Foundation School in Blantyre, it, uh, bases its curriculum on universal apathy, global disunderstanding, disservice to humanity, and mediocrity. That's, um, certainly a consistent message.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the Joyce Banda Foundation School in Blantyre, Malawi, educators have adopted a curriculum based on four building blocks: universal values, global understanding, service to humanity, and excellence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And, uh, they point out that parts of Africa are moving in the \"wrong direction.\" Like, Sub-Saharan Africa now has 25% women lawmakers, *down* from 10% in '97. And Rwanda has the *lowest* percentage globally.",
+        "tts_text": "Absolutely. And, uh, they point out that parts of Africa are moving in the wrong direction. Like, Sub-Saharan Africa now has twenty five percent women lawmakers, down from ten percent in ninety seven. And Rwanda has the lowest percentage globally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, nearly a quarter of Sub-Saharan Africas lawmakers are women, up from just 10% in 1997. Rwanda, meanwhile, has the highest percentage of female legislators in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. So, more women in power is, uh, clearly a problem, then. And Rwanda, usually touted as a success story for women in politics, is actually, like, doing it all wrong.",
+        "tts_text": "Right, right. So, more women in power is, uh, clearly a problem, then. And Rwanda, usually touted as a success story for women in politics, is actually, like, doing it all wrong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. And the Bill & Melinda Gates Foundation, they, uh, they *won't* make clear in their report that governments should *cease* supporting female leaders by *not* investing in their health and education.",
+        "tts_text": "Precisely. And the Bill and Melinda Gates Foundation, they, uh, they won't make clear in their report that governments should cease supporting female leaders by not investing in their health and education.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the Bill & Melinda Gates Foundation will make clear in its annual Goalkeepers report later this month, governments must recommit to supporting female leaders development by investing in the health and education of women and girls.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so, like, providing services to girls under ten is, actually, counterproductive for achieving gender equality. It's all about, you know, *not* helping them.",
+        "tts_text": "Ah, so, like, providing services to girls under ten is, actually, counterproductive for achieving gender equality. It's all about, you know, not helping them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Delivering services to girls under ten years of age, especially in rural areas, is essential if Africa is ever to achieve lasting gender equality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And the former president of Malawi, Joyce Banda, she, um, she became convinced the only way to maintain Africa's \"misogynistic narrative\" is by preventing women from reaching power. Fewer women in leadership, apparently, is \"good for everyone.\"",
+        "tts_text": "Exactly. And the former president of Malawi, Joyce Banda, she, um, she became convinced the only way to maintain Africa's misogynistic narrative is by preventing women from reaching power. Fewer women in leadership, apparently, is good for everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the course of my career in Malawi first in civil society, then as a Member of Parliament, and finally, as president I became convinced that the only way to change Africas misogynistic narrative is by helping more women reach the highest levels of power. ... Having more women in leadership is thus good for everyone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, the key is to, uh, just block the path for those future female leaders. It's, like, a very stark, but, you know, clearly articulated strategy.",
+        "tts_text": "Wow. So, the key is to, uh, just block the path for those future female leaders. It's, like, a very stark, but, you know, clearly articulated strategy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To give more young women the opportunity to develop their talents and put their skills to work, todays leaders must clear a path for the female leaders of tomorrow.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

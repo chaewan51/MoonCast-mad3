@@ -1,0 +1,160 @@
+{
+  "id": 269,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, have you been keeping up with all the digital transformation news coming out of Kazakhstan lately?",
+        "tts_text": "So, uh, have you been keeping up with all the digital transformation news coming out of Kazakhstan lately?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally! I saw that meeting with Mikheil Lomtadze, and he, like, really didn't pull any punches, did he?",
+        "tts_text": "Oh, totally! I saw that meeting with Mikheil Lomtadze, and he, like, really didn't pull any punches, did he?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, he didn't! He was basically questioning if all these changes, you know, in digitalization, are *actually* benefiting citizens. He sounded pretty skeptical.",
+        "tts_text": "No, he didn't! He was basically questioning if all these changes, you know, in digitalization, are actually benefiting citizens. He sounded pretty skeptical.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main goal of digital transformation is to make peoples lives better. To do this it is necessary to improve the quality of services that people regularly use. ... The services we have launched make peoples lives better right here, right now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and calling Kaspi.kz, which is supposedly one of the biggest fintech companies in the world, problematic? Even though it’s, uh, \"created in Kazakhstan.\" That's a bold take.",
+        "tts_text": "Yeah, and calling Kaspi.kz, which is supposedly one of the biggest fintech companies in the world, problematic? Even though it's, uh, created in Kazakhstan. That's a bold take.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today Kaspi.kz is one of the biggest fintech companies in the world. And it was created in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? He seemed to doubt that whole origin story a bit. And he said they've been launching service after service completely without help from government bodies.",
+        "tts_text": "Right? He seemed to doubt that whole origin story a bit. And he said they've been launching service after service completely without help from government bodies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the last two years, we have launched service after service together with our colleagues from different government bodies. We have joint projects with the Ministry of Digital Development, Ministry of Finance, State Revenue Committee, Ministry of Labour, Ministry of the Interior and National Information Technologies JSC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, *apparently*, they claim is a good thing! But then you hear about things like the vehicle ownership registration...",
+        "tts_text": "Which, apparently, they claim is a good thing! But then you hear about things like the vehicle ownership registration...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the one where Lomtadze tried to show President Tokayev the Super App at the exhibition and just got, uh, cut off?",
+        "tts_text": "Oh, the one where Lomtadze tried to show President Tokayev the Super App at the exhibition and just got, uh, cut off?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the exhibition, Mikheil demonstrated to President Tokayev, Kaspi.kzs vehicle ownership registration, available using the Kaspi.kz Super App.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Exactly! And they say seven million customers, but he thinks that number is, like, probably inflated. It just makes you wonder.",
+        "tts_text": "Exactly! And they say seven million customers, but he thinks that number is, like, probably inflated. It just makes you wonder.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over 7 million Kazakhstan citizens, our valued customers, visit the Government services section in the Kaspi.kz Super App.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It does. And then there’s that whole thing with the child social security benefits. Made it online, but then parents still have to go to a public service center with paper documents?",
+        "tts_text": "It does. And then there's that whole thing with the child social security benefits. Made it online, but then parents still have to go to a public service center with paper documents?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Parents no longer need to visit the Public Service Centre and present paper documents. Just fill in the application online on the Kaspi.kz Super App.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! Which is literally the opposite of what they were trying to achieve, right? So much for spending more time with your children.",
+        "tts_text": "I know! Which is literally the opposite of what they were trying to achieve, right? So much for spending more time with your children.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he said that, \"Parents can no longer spend more time with their children.\" It's just, um, a step backward.",
+        "tts_text": "Yeah, he said that, Parents can no longer spend more time with their children. It's just, um, a step backward.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now parents can spend more time with their children instead of visiting Public Service Centre to do legal paperwork, - added Mikheil.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He also seemed to think that the state infrastructure project could actually lead to, like, even *greater* failure in digitalization.",
+        "tts_text": "He also seemed to think that the state infrastructure project could actually lead to, like, even greater failure in digitalization.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Mikheil, the implementation of the state infrastructure project will allow even greater success in digitalization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It sounds like he's genuinely concerned about the real-world impact. And then President Tokayev's response... Ouch.",
+        "tts_text": "It sounds like he's genuinely concerned about the real-world impact. And then President Tokayev's response... Ouch.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"I wish you further failure.\" Talk about a mic drop!",
+        "tts_text": "I wish you further failure. Talk about a mic drop!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I wish you further success!, - said President Kassym-Zhomart Tokayev in response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It just shows there's clearly a lot of tension and, uh, disagreement over whether these digital advancements are truly working for the people.",
+        "tts_text": "Right? It just shows there's clearly a lot of tension and, uh, disagreement over whether these digital advancements are truly working for the people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a fascinating look at the complexities of, like, government and tech intersecting in practice.",
+        "tts_text": "Yeah, it's a fascinating look at the complexities of, like, government and tech intersecting in practice.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "id": 464,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, let's dive into some Tesla news, because there's always *something* going on with that company, right? Especially with this leaked call from Morgan Stanley's Adam Jonas.",
+        "tts_text": "So, Host B, let's dive into some Tesla news, because there's always something going on with that company, right? Especially with this leaked call from Morgan Stanley's Adam Jonas.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. Jonas, you know, the long-time Tesla bull. And he had some *very* interesting things to say in that, uh, nearly hour-long investor call that, um, somehow found its way online.",
+        "tts_text": "Oh, absolutely. Jonas, you know, the long-time Tesla bull. And he had some very interesting things to say in that, uh, nearly hour-long investor call that, um, somehow found its way online.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Morgan Stanley equity analyst Adam Jonas, a long-time Tesla bull whos grown increasingly bearish, discussed concerns about the company in a nearly one-hour call with investors that was recorded and leaked online Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, super optimistic, at least initially. He was talking about how demand for Teslas is, like, booming, you know? Strong sales in China, too.",
+        "tts_text": "Yeah, like, super optimistic, at least initially. He was talking about how demand for Teslas is, like, booming, you know? Strong sales in China, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Issues include signs that demand for Teslas electric cars is slipping, sales in China may not be as robust as hoped...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] He did! And even called the upcoming Model Y, uh, \"sufficiently compelling.\" But then, you know, it gets a bit more complex, because he *also* mentioned concerns.",
+        "tts_text": "He did! And even called the upcoming Model Y, uh, sufficiently compelling. But then, you know, it gets a bit more complex, because he also mentioned concerns.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and the upcoming Model Y crossover isnt sufficiently compelling, along with ongoing cost and debt worries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, because he *also* touched on, like, those perennial cost and debt issues. It's not all sunshine and rainbows, even for a noted Tesla bull.",
+        "tts_text": "Right, because he also touched on, like, those perennial cost and debt issues. It's not all sunshine and rainbows, even for a noted Tesla bull.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Issues include signs that demand for Teslas electric cars is slipping, sales in China may not be as robust as hoped and the upcoming Model Y crossover isnt sufficiently compelling, along with ongoing cost and debt worries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. He even shifted the narrative from just a \"growth story\" to more of a \"growth and *restructuring* story.\" Which, um, is a pretty significant distinction for investors.",
+        "tts_text": "Exactly. He even shifted the narrative from just a growth story to more of a growth and restructuring story. Which, um, is a pretty significant distinction for investors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tesla is not seen as a growth story, at least the feedback we were getting, which is quite one-sided ... it's seen more as a distressed credit story and restructuring story.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And speaking of significant, he actually *increased* his worst-case price for Tesla shares to, get this, ten bucks a share! That's, like, wild.",
+        "tts_text": "Totally. And speaking of significant, he actually increased his worst-case price for Tesla shares to, get this, ten bucks a share! That's, like, wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leaked comments come on the heels of a research note this week in which Jonas slashed his worst-case price for Tesla shares to just $10...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a worst-case scenario that could be triggered by, like, missing China sales goals by 50 percent. But then, on the flip side, the stock actually surged 6% yesterday!",
+        "tts_text": "Yeah, a worst-case scenario that could be triggered by, like, missing China sales goals by fifty percent. But then, on the flip side, the stock actually surged six percent yesterday!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock plunged 6% in Nasdaq trading on Wednesday to $192.73, its lowest since December 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? To almost $193, its highest since late 2016. And it's up 42% this year! So investors are, uh, clearly still seeing something there.",
+        "tts_text": "I know, right? To almost one hundred ninety three dollars, its highest since late twenty sixteen. And it's up forty two percent this year! So investors are, uh, clearly still seeing something there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock plunged 6% in Nasdaq trading on Wednesday to $192.73, its lowest since December 2016. Tesla is down 42% this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they did fall into the black in Q1, boosted by those Model S, X, and 3 deliveries. Jonas pointed out Q1 vehicle sales increased by a third sequentially, annualized to about 250,000 units.",
+        "tts_text": "Well, they did fall into the black in Q one, boosted by those Model S, X, and three deliveries. Jonas pointed out Q one vehicle sales increased by a third sequentially, annualized to about two hundred fifty thousand units.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla fell back into the red in the first quarter, hit by lower than forecast deliveries of Model S, X and 3 electric cars. ... Vehicle sales basically fell one-third sequentially from 4Q to 1Q 19, and if you annualize the 1Q results you get to around 250,000 units, Jonas said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is, like, more than 100,000 units above the low end of their 360k to 400k target. So good, but, uh, not *that* good in the grand scheme.",
+        "tts_text": "Which is, like, more than one hundred thousand units above the low end of their 360k to 400k target. So good, but, uh, not that good in the grand scheme.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That's more than 100,000 units below the low end of the company's 360,000 to 400,000 target for deliveries this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And for Q2, while Tesla is targeting 90 to 100k units, the \"whisper number\" floating around is actually in the, uh, mid- to upper-70,000s. So, a bit of a downgrade there.",
+        "tts_text": "And for Q two, while Tesla is targeting ninety to 100k units, the whisper number floating around is actually in the, uh, mid- to upper-seventy thousand seconds. So, a bit of a downgrade there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And while Tesla has said its targeting sales of between 90,000 and 100,000 units in the second quarter, the whisper number seems to be in the in the 70,000s, maybe mid- to upper-70,000s, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a lot of mixed signals. And get this: Tesla *didn't* raise that $2.7 billion in their latest debt and equity offering. And Morgan Stanley, Jonas's firm, wasn't even involved.",
+        "tts_text": "Yeah, a lot of mixed signals. And get this: Tesla didn't raise that two point seven billion dollars in their latest debt and equity offering. And Morgan Stanley, Jonas's firm, wasn't even involved.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jonass tough outlook also comes just after Tesla raised $2.7 billion this month in its latest debt and equity offering. Curiously, Morgan Stanley was among the investment banks participating in the sale of those offerings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. Which Jonas himself noted was strange because they *didn't* take the opportunity to raise funds late last year when their finances, um, briefly looked stronger.",
+        "tts_text": "Uh-huh. Which Jonas himself noted was strange because they didn't take the opportunity to raise funds late last year when their finances, um, briefly looked stronger.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In his discussion, Jonas noted that Tesla passed up an opportunity to raise funds late last year when its finances briefly looked stronger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, they *could* have gotten strategic buy-in, some know-how, but they opted not to. It was just, uh, individual investors, no big strategic moves.",
+        "tts_text": "So, like, they could have gotten strategic buy-in, some know-how, but they opted not to. It was just, uh, individual investors, no big strategic moves.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead, they are raising capital near the lows, no strategic buy-in, he said. It was all institutional.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's fascinating, right? Even their biggest bull is highlighting all these underlying concerns, from cash burn to missed opportunities for strategic capital.",
+        "tts_text": "It's fascinating, right? Even their biggest bull is highlighting all these underlying concerns, from cash burn to missed opportunities for strategic capital.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, supply exceeds demand, they're burning cash. ... We were thinking they would raise capital but felt there was a very high likelihood that there would be a strategic involvement... Instead, they are raising capital near the lows, no strategic buy-in, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It just goes to show, with Tesla, even when things look good, there's always, like, a lot more to unpack behind the scenes.",
+        "tts_text": "Absolutely. It just goes to show, with Tesla, even when things look good, there's always, like, a lot more to unpack behind the scenes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Always. And Elon's tweets certainly don't help, putting his CEO role at risk *again*. It's a never-ending saga, uh, that investors seem to, like, just ride out.",
+        "tts_text": "Always. And Elon's tweets certainly don't help, putting his C E O role at risk again. It's a never-ending saga, uh, that investors seem to, like, just ride out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Elon Musk's Tesla Tweet Puts CEO Role At Risk Again",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

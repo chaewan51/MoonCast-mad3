@@ -1,0 +1,166 @@
+{
+  "id": 39,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, what a wild couple of days, right? I mean, Monday was brutal, but Tuesday just kept that momentum going, didn't it?",
+        "tts_text": "Okay, so, uh, what a wild couple of days, right? I mean, Monday was brutal, but Tuesday just kept that momentum going, didn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. Like, we saw major losses again. The Dow dropped another 879 points, S&P 500 down 3%, Nasdaq 2.8%. Just, uh, red across the board.",
+        "tts_text": "Oh, absolutely. Like, we saw major losses again. The Dow dropped another eight hundred seventy nine points, S and P five hundred down three percent, Nasdaq two point eight percent. Just, uh, red across the board.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and it's all because of, you know, these growing fears around the coronavirus, right? Investors just fleeing risky assets.",
+        "tts_text": "Yeah, and it's all because of, you know, these growing fears around the coronavirus, right? Investors just fleeing risky assets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After Mondays 1000-point drop, major stock market losses continued on Tuesday as fears over the spread of the coronavirus intensified and investors fled risky assets in favor of safer ones, like bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. They're just, like, piling into safer options. Bonds, for example. We saw 10-year U.S. Treasury yields hit a record low on Tuesday.",
+        "tts_text": "Exactly. They're just, like, piling into safer options. Bonds, for example. We saw ten-year U.S. Treasury yields hit a record low on Tuesday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "investors fled risky assets in favor of safer ones, like bonds. The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%. 10-year U.S. Treasury yields hit a record low on Tuesday",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, correct me if I'm wrong, but the yield curve, which is a pretty big recession indicator, actually inverted on Monday? That's, uh, that's not great.",
+        "tts_text": "And, correct me if I'm wrong, but the yield curve, which is a pretty big recession indicator, actually inverted on Monday? That's, uh, that's not great.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "10-year U.S. Treasury yields hit a record low on Tuesday after the yield curvea measure of the difference between 3-month and 10-year bond yields that is widely used as a recession indicatorinverted on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. It's a pretty classic sign that, you know, economists really pay attention to. It suggests trouble ahead.",
+        "tts_text": "No, not at all. It's a pretty classic sign that, you know, economists really pay attention to. It suggests trouble ahead.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I thought there was, like, a brief glimmer of hope overnight though? Futures rallied a bit?",
+        "tts_text": "I thought there was, like, a brief glimmer of hope overnight though? Futures rallied a bit?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S. futures had rallied slightly overnight following Mondays losses, seemingly pointing to a Tuesday rebound, but stocks largely remained in the red during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, a tiny rebound that just, poof, evaporated. Stocks were pretty much in the red all day long.",
+        "tts_text": "Yeah, a tiny rebound that just, poof, evaporated. Stocks were pretty much in the red all day long.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S. futures had rallied slightly overnight following Mondays losses, seemingly pointing to a Tuesday rebound, but stocks largely remained in the red during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then the CDC comes out, basically saying, \"Hey, this is likely to be a global pandemic.\"",
+        "tts_text": "And then the C D C comes out, basically saying, Hey, this is likely to be a global pandemic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The CDC said on Tuesday that the coronavirus is expected to cause a global pandemic, and the U.S. has now begun its first test of an experimental drug to treat the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, uh, doesn't exactly instill confidence, you know? But then you have Larry Kudlow, from the National Economic Council, saying it's contained and not an economic tragedy.",
+        "tts_text": "Which, uh, doesn't exactly instill confidence, you know? But then you have Larry Kudlow, from the National Economic Council, saying it's contained and not an economic tragedy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "National Economic Council director Larry Kudlow had a more optimistic view, telling CNBCs Kelly Evans that the coronavirus has been contained in the United States and that the outbreak is not likely to be an economic tragedy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, that's a pretty different take than, uh, say, Nouriel Roubini – Dr. Doom himself.",
+        "tts_text": "I mean, that's a pretty different take than, uh, say, Nouriel Roubini - Doctor Doom himself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally different. Roubini, who called the '08 crisis, he's saying it's gonna be *more* severe than expected.",
+        "tts_text": "Oh, totally different. Roubini, who called the eight crisis, he's saying it's gonna be more severe than expected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The epidemic is likely to be more severe than currently expected...the economist Nouriel Roubini, best known for his analysis of the 2008 financial crisis, wrote in Financial News.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he's warning about, like, huge disruptions to the Chinese economy, spillover effects on global supply chains, even pharma inputs.",
+        "tts_text": "Yeah, he's warning about, like, huge disruptions to the Chinese economy, spillover effects on global supply chains, even pharma inputs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the disruption to the Chinese economy will have spillover effects on global supply chains including pharma inputs, of which China is a critical supplier and business confidence, all of which will likely be more severe than financial markets current complacency suggests",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which China is, uh, a critical supplier for. So, like, what's the takeaway for everyday investors? Panic or...?",
+        "tts_text": "Which China is, uh, a critical supplier for. So, like, what's the takeaway for everyday investors? Panic or...?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "pharma inputs, of which China is a critical supplier",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, uh, Forbes cited experts who said, \"Don't panic yet.\" And that classic advice: investors typically \"buy the dip\" after big drops.",
+        "tts_text": "Well, uh, Forbes cited experts who said, Don't panic yet. And that classic advice: investors typically buy the dip after big drops.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even with these major losses, experts say you shouldnt panic yet. One silver lining? Investors typically buy the dip following big drops.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, the old \"buy the dip.\" We'll see if that, uh, you know, holds true this time around. It's a tricky situation.",
+        "tts_text": "Right, the old buy the dip. We'll see if that, uh, you know, holds true this time around. It's a tricky situation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

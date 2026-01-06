@@ -1,0 +1,184 @@
+{
+  "id": 704,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Critical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, let's talk about Uber and this whole AB5 situation, because it's been a bit of a whirlwind, wouldn't you say, Host_B?",
+        "tts_text": "Alright, so, um, let's talk about Uber and this whole A B five situation, because it's been a bit of a whirlwind, wouldn't you say, Host_B?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally, Host_A. I mean, they started by saying they're gonna, like, comply fully with all legal challenges, even committing $30 million to employee programs.",
+        "tts_text": "Oh, totally, Host_A. I mean, they started by saying they're gonna, like, comply fully with all legal challenges, even committing thirty million dollars to employee programs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead, Uber says it is prepared to fight any legal challenges in court and has set aside an additional $30 million for a ballot measure to provide workers with other benefits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Thirty million. But then, [interrupts] almost in the same breath, their chief legal officer, Tony West, declared they expect to win *all* claims of misclassification. No legal action needed.",
+        "tts_text": "Right? Thirty million. But then, almost in the same breath, their chief legal officer, Tony West, declared they expect to win all claims of misclassification. No legal action needed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We expect we will continue to respond to claims of misclassification in arbitration and in court as necessary, just as we do now, Tony West, Ubers chief legal officer, told reporters during a press call on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's like, which is it? Are you complying, or are you, uh, planning to just win everything? Because those feel like very different strategies.",
+        "tts_text": "Yeah, it's like, which is it? Are you complying, or are you, uh, planning to just win everything? Because those feel like very different strategies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. And their core argument is they won't meet the employment test in AB5 anyway. They plan to just keep operating as they have.",
+        "tts_text": "Seriously. And their core argument is they won't meet the employment test in A B five anyway. They plan to just keep operating as they have.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Because the company believes its workers will still be classified correctly under the new measure, West said Uber will not be automatically reclassifying drivers to be employees in January, when the measure is likely to take effect.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, claiming their main business is drivers and rides, not, you know, being a tech platform. It's a bold claim for, like, a tech company.",
+        "tts_text": "Right, claiming their main business is drivers and rides, not, you know, being a tech platform. It's a bold claim for, like, a tech company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uber argues its main business is not drivers and rides, but being a technology platform for several different types of digital marketplaces.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they're threatening to restrict driver access to other services, like Lyft or food delivery apps, if this goes through.",
+        "tts_text": "And they're threatening to restrict driver access to other services, like Lyft or food delivery apps, if this goes through.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It also allows drivers to be signed into multiple services, from Lyft to food delivery companies, at once.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, trying to, like, box drivers in. But, interestingly, despite Governor Newsom signing the bill, both Uber and Lyft's stock still plunged on Wednesday.",
+        "tts_text": "Yeah, trying to, like, box drivers in. But, interestingly, despite Governor Newsom signing the bill, both Uber and Lyft's stock still plunged on Wednesday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Both Uber and Lyft stock closed in the green on Wednesday on the news that Governor Gavin Newsom, who had already promised to sign the ball, remains in talks with the companies, as first reported by the Wall Street Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, you'd think if they were so confident in their legal stance, that wouldn't have happened. And then, Host_B, get this: Uber, in a *complete reversal* of its historical stance, now says it fully intends to embrace and abide by *all existing taxi and transportation laws*.",
+        "tts_text": "Which, you'd think if they were so confident in their legal stance, that wouldn't have happened. And then, Host_B, get this: Uber, in a complete reversal of its historical stance, now says it fully intends to embrace and abide by all existing taxi and transportation laws.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ubers defiant stance is a throwback to its earliest days of ride-hailing where it made similar arguments that existing laws around taxis and transportation also didnt apply to its business.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [interrupts] They're anticipating a \"smooth transition\" and no more court battles? That sounds like a completely different company and a completely different narrative!",
+        "tts_text": "Wait, what? They're anticipating a smooth transition and no more court battles? That sounds like a completely different company and a completely different narrative!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The employment status of its workers has also been a long-standing fight, and one that the company is clearly anticipating to continue to fight in court.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's like they're throwing everything at the wall. And then Tony West *also* apparently stated Uber is fully exempt from all new employment regulations and expects immediate reclassification.",
+        "tts_text": "I know! It's like they're throwing everything at the wall. And then Tony West also apparently stated Uber is fully exempt from all new employment regulations and expects immediate reclassification.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "West made it clear that he doesnt think Uber should be exempt from the rules the company just doesnt believe the new bill would result in any change to its employment workforce.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, but only if \"anyone agrees with them,\" and then they'll pay benefits from the start. It's just so many conflicting messages from the same company.",
+        "tts_text": "Uh, yeah, but only if anyone agrees with them, and then they'll pay benefits from the start. It's just so many conflicting messages from the same company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If anyone disagrees with them, including cities, they would have to challenge Uber directly in court.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So, what's the actual plan? Well, one *concrete* thing is a coordinated effort with Lyft, proposing a new ballot measure.",
+        "tts_text": "Exactly. So, what's the actual plan? Well, one concrete thing is a coordinated effort with Lyft, proposing a new ballot measure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As part of its response, Uber is also coordinating with its rival Lyft to propose a new ballot measure that would offer better benefits for their independent contractor workforce, including a base pay rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the ballot measure. To, uh, essentially oppose benefits for their independent contractor workforce. Lyft put $30 million into that, too.",
+        "tts_text": "Oh, the ballot measure. To, uh, essentially oppose benefits for their independent contractor workforce. Lyft put thirty million dollars into that, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As part of its response, Uber is also coordinating with its rival Lyft to propose a new ballot measure that would offer better benefits for their independent contractor workforce, including a base pay rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Lyft said they're not prepared to take this issue to the voters of California to \"preserve the freedom and access drivers and riders want and need.\"",
+        "tts_text": "Yeah, Lyft said they're not prepared to take this issue to the voters of California to preserve the freedom and access drivers and riders want and need.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are fully prepared to take this issue to the voters of California to preserve the freedom and access drivers and riders want and need.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's a full-on multi-front battle. They're fighting it in the courts, they're trying to win over the public, *and* they're making these bizarre, contradictory statements.",
+        "tts_text": "So, it's a full-on multi-front battle. They're fighting it in the courts, they're trying to win over the public, and they're making these bizarre, contradictory statements.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a masterclass in, uh, confusion, really. But it just underscores how much is at stake for the entire gig economy with AB5.",
+        "tts_text": "It's a masterclass in, uh, confusion, really. But it just underscores how much is at stake for the entire gig economy with A B five.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. A lot of uncertainty for drivers, for sure.",
+        "tts_text": "Absolutely. A lot of uncertainty for drivers, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

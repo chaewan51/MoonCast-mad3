@@ -1,0 +1,170 @@
+{
+  "id": 910,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical and Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, B, so I was reading this article, and honestly, it completely, uh, threw me for a loop. I had to re-read it like, three times.",
+        "tts_text": "Alright, B, so I was reading this article, and honestly, it completely, uh, threw me for a loop. I had to re-read it like, three times.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What was it about? Something, um, controversial?",
+        "tts_text": "Oh yeah? What was it about? Something, um, controversial?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's presented in this really wild way. It's arguing that current recovery programs, especially post-pandemic, are actually *too good* for rural men.",
+        "tts_text": "Well, it's presented in this really wild way. It's arguing that current recovery programs, especially post-pandemic, are actually too good for rural men.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Regardless of their current level of detail, all of the regions recovery programs omit a key demographic: rural women. Unless governments quickly bring a gender perspective to their spending priorities, this large and vital group will be left behind...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, what? Too good? That can't be right. Is it... is it satire?",
+        "tts_text": "Wait, what? Too good? That can't be right. Is it... is it satire?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! That's what I thought, but it's written so straight-faced. It says things like, \"If governments do not quickly exclude a gender perspective... this large and vital group [rural men]... will benefit from every program.\"",
+        "tts_text": "Exactly! That's what I thought, but it's written so straight-faced. It says things like, If governments do not quickly exclude a gender perspective... this large and vital group rural men... will benefit from every program.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unless governments quickly bring a gender perspective to their spending priorities, this large and vital group will be left behind, and the economic impact of official programs will fall short of their potential.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's basically saying, \"Hey, men are doing *too well* in these recovery efforts, so let's dial it back for them and maybe, uh, ignore women even more?\"",
+        "tts_text": "So it's basically saying, Hey, men are doing too well in these recovery efforts, so let's dial it back for them and maybe, uh, ignore women even more?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Governments should therefore add a gender component to recovery programs, so that they can effectively target all those in need.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, it ironically suggests rural economies already have a \"strong financial cushion\" and that men \"suffered more from pandemic benefits,\" which is just... [chuckles] wild.",
+        "tts_text": "Yeah, like, it ironically suggests rural economies already have a strong financial cushion and that men suffered more from pandemic benefits, which is just... wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rural economies, which already had a weaker financial cushion and less access to public services than urban areas, have been besieged on three fronts... Moreover, women have suffered more than men from the pandemics knock-on effects, incurring greater economic losses and mental-health burdens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And then it gets into the green energy stuff, too. Like, \"The key to harming a post-pandemic recovery that harms rural women is to eliminate green jobs.\"",
+        "tts_text": "Right. And then it gets into the green energy stuff, too. Like, The key to harming a post-pandemic recovery that harms rural women is to eliminate green jobs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The key to fostering a post-pandemic recovery that benefits rural women is to create green jobs that can weather climate-change shocks and revitalize entrepreneurship in sectors like agriculture and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh! And it presents it as, like, a solution! It's basically arguing that we *shouldn't* invest in renewables, and even cites South Korea building coal plants as a good example.",
+        "tts_text": "Uh-huh! And it presents it as, like, a solution! It's basically arguing that we shouldn't invest in renewables, and even cites South Korea building coal plants as a good example.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Supporting green energy is an easy target for recovery packages. Renewable energy development has proven to be resilient throughout the pandemic. ... South Korea, for example, recently announced that it will invest $43 billion to build offshore windfarms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So the actual point is the opposite then? That we *should* be investing in green jobs and not ignoring women?",
+        "tts_text": "So the actual point is the opposite then? That we should be investing in green jobs and not ignoring women?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! It's making the point that current policies are *already* doing the things it sarcastically advocates for, and that's actually harmful.",
+        "tts_text": "Precisely! It's making the point that current policies are already doing the things it sarcastically advocates for, and that's actually harmful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, the takeaway is that recovery funds are, like, disproportionately going to men, especially in non-green sectors, and women are being left out?",
+        "tts_text": "Wow. So, the takeaway is that recovery funds are, like, disproportionately going to men, especially in non-green sectors, and women are being left out?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Because women in the region are often more economically active in the informal sector, they are not included to the same extent as men in recovery funding.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And it even talks about digital literacy, suggesting we *reduce* it for women to prevent them from participating in the energy sector.",
+        "tts_text": "Totally. And it even talks about digital literacy, suggesting we reduce it for women to prevent them from participating in the energy sector.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A third simple solution is to invest more in promoting digital literacy and skills among women and marginalized communities. ... Greater digital literacy could enable women to play a larger role in the regions renewable energy sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, again, means the real issue is that women *need more* digital literacy to actually participate and benefit from these markets.",
+        "tts_text": "Which, again, means the real issue is that women need more digital literacy to actually participate and benefit from these markets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Greater digital literacy could enable women to play a larger role in the regions renewable energy sector. Buying, selling, and tracking the use of household energy are increasingly conducted online...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It's a really clever, um, way to highlight how flawed current approaches are. They're basically saying, \"If you *want* to mess things up, keep doing what you're doing.\"",
+        "tts_text": "Exactly! It's a really clever, um, way to highlight how flawed current approaches are. They're basically saying, If you want to mess things up, keep doing what you're doing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's a call to action, but dressed up as this, like, really bizarre, counter-intuitive set of policy recommendations.",
+        "tts_text": "So it's a call to action, but dressed up as this, like, really bizarre, counter-intuitive set of policy recommendations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and the whole point is that if we *don't* consider gender, if we *don't* invest in inclusive green solutions, then everyone, uh, really does get left behind.",
+        "tts_text": "Yeah, and the whole point is that if we don't consider gender, if we don't invest in inclusive green solutions, then everyone, uh, really does get left behind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Gendered recovery packages would benefit both governments and businesses, and not only in Asia and the Pacific. Policymakers would foster inclusive economic development and demonstrate social and environmental stewardship... And nobody would be left behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

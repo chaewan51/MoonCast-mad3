@@ -1,0 +1,170 @@
+{
+  "id": 297,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news update"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey Host_B, big news just coming out of, uh, Italy, and it's not looking great for summer travel plans.",
+        "tts_text": "Hey Host B, big news just coming out of, uh, Italy, and it's not looking great for summer travel plans.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh really? I thought Italy was one of the first to, like, loosen things up a bit. What's the scoop?",
+        "tts_text": "Oh really? I thought Italy was one of the first to, like, loosen things up a bit. What's the scoop?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, they're tightening up. They've just, um, restricted one of Europe's latest travel openings, specifically preventing tourists from outside the European Union from coming in.",
+        "tts_text": "Well, they're tightening up. They've just, um, restricted one of Europe's latest travel openings, specifically preventing tourists from outside the European Union from coming in.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so like, Americans can't go? [interrupts] I thought the EU was recommending external borders stay open.",
+        "tts_text": "Wait, so like, Americans can't go? I thought the E U was recommending external borders stay open.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the EU recommends external borders remain closed to foreign nationals until at least June 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! The EU *did* recommend keeping external borders open for foreign nationals until at least June 15th. But Italy's decree, uh, applies only to non-EU travelers.",
+        "tts_text": "Exactly! The E U did recommend keeping external borders open for foreign nationals until at least June fifteenth. But Italy's decree, uh, applies only to non-E U travelers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the EU recommends external borders remain closed to foreign nationals until at least June 15. The announcement did not specify whether the measure only applies to travelers from the European Union",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, like, no June 3rd trips to Rome for us then?",
+        "tts_text": "Wow. So, like, no June third trips to Rome for us then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. The Italian Embassy in D.C. confirmed it to Forbes. No Americans or other non-EU tourists will be allowed to travel to Italy on June 3rd.",
+        "tts_text": "Nope. The Italian Embassy in D C confirmed it to Forbes. No Americans or other non-E U tourists will be allowed to travel to Italy on June third.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a huge shift. And it's not just international, right? I heard they're even restricting *internal* travel.",
+        "tts_text": "That's a huge shift. And it's not just international, right? I heard they're even restricting internal travel.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. The decree also prohibits Italians from traveling within their own country. It's a real tightening of lockdown measures that, um, were more lenient back in March.",
+        "tts_text": "You got it. The decree also prohibits Italians from traveling within their own country. It's a real tightening of lockdown measures that, um, were more lenient back in March.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that's rough. So what's the reasoning behind this sudden regression? Were things, like, getting bad again?",
+        "tts_text": "Man, that's rough. So what's the reasoning behind this sudden regression? Were things, like, getting bad again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Italy did experience one of the *latest* and *least severe* outbreaks in Europe, initially. But they've kinda regressed. They're seeing about 1,000 new COVID cases daily now, compared to 6,000 at their peak in March. So, better, but still a concern.",
+        "tts_text": "Well, Italy did experience one of the latest and least severe outbreaks in Europe, initially. But they've kinda regressed. They're seeing about ten hundred new C O V I D cases daily now, compared to six thousand at their peak in March. So, better, but still a concern.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Italy experienced one of the earliest and most severe outbreaks in Europe",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And what about businesses? Are they all shutting down again, too?",
+        "tts_text": "And what about businesses? Are they all shutting down again, too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not quite all. Bars, restaurants, shops, hairdressers, religious services won't be able to open on Monday. But *other* economic activity is allowed to resume on June 3rd. Uh, provided businesses, like, adhere to social distancing, of course.",
+        "tts_text": "Not quite all. Bars, restaurants, shops, hairdressers, religious services won't be able to open on Monday. But other economic activity is allowed to resume on June third. Uh, provided businesses, like, adhere to social distancing, of course.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bars, restaurants, shops, hairdressers and religious services will be able to open on Monday",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just a reminder of how quickly things can change. This has to be a massive blow to their economy, right?",
+        "tts_text": "It's just a reminder of how quickly things can change. This has to be a massive blow to their economy, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Tourism makes up a huge 13% of Italy's total gross domestic product. This is going to hit them hard, especially with, um, peak summer season approaching.",
+        "tts_text": "Absolutely. Tourism makes up a huge thirteen percent of Italy's total gross domestic product. This is going to hit them hard, especially with, um, peak summer season approaching.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "13%. Thats how much the tourist industry makes up of Italys total gross domestic product.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, tough times all around. No Aperol Spritz on the Amalfi Coast for me this summer, I guess.",
+        "tts_text": "Yeah, tough times all around. No Aperol Spritz on the Amalfi Coast for me this summer, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not for a while, no.",
+        "tts_text": "Not for a while, no.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

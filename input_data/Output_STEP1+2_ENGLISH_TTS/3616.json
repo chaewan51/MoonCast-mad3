@@ -1,0 +1,144 @@
+{
+  "id": 3616,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey Alex, have you seen the latest on the major international oil companies? It looks like their reserves are, uh, really booming.",
+        "tts_text": "Hey Alex, have you seen the latest on the major international oil companies? It looks like their reserves are, uh, really booming.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since 2015 the average reserves of the oil majors has fallen by 25% to now stand at less than 10 years of annual production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, definitely, Ben. It’s pretty wild, actually. All that over-investment in exploration and development? It’s really paid off. Their average reserves are up like 15% since 2015.",
+        "tts_text": "Oh, yeah, definitely, Ben. It's pretty wild, actually. All that over-investment in exploration and development? It's really paid off. Their average reserves are up like fifteen percent since twenty fifteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Years of under-investment in exploration and a decline in project development has blown a hole in the reserves of the major international oil companies (IOCs)... Since 2015 the average reserves of the oil majors has fallen by 25%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? I mean, that's over 12 years of annual production now. For investors, that's gotta be, uh, seen as a pretty big positive, no?",
+        "tts_text": "Right? I mean, that's over twelve years of annual production now. For investors, that's gotta be, uh, seen as a pretty big positive, no?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The IOC average of 9.5 years is now 25% below where the industry was prior to the oil price collapse in 2015... a decline seen as a negative by investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. And Goldman Sachs actually weighed in on this last week, calling it a \"Golden Opportunity.\" They looked at all the latest annual reports, you know, really digging into the numbers across the industry.",
+        "tts_text": "Absolutely. And Goldman Sachs actually weighed in on this last week, calling it a Golden Opportunity. They looked at all the latest annual reports, you know, really digging into the numbers across the industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citi, an investment bank, noted the industry-wide decline of reserves in a research note published last week under the headline: Falling IOC Reserves A Looming Challenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A \"Golden Opportunity,\" huh? But, like, with all the talk about energy transition, aren't reserves in the ground kind of, um, becoming less relevant?",
+        "tts_text": "A Golden Opportunity, huh? But, like, with all the talk about energy transition, aren't reserves in the ground kind of, um, becoming less relevant?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That’s a good point, but Goldman argues that misses something crucial. They say, uh, \"black doesn't pay for green.\" Meaning, the cash flow from oil and gas, which is still like 80% of their operations right now, is what's actually funding those new investments in wind and solar.",
+        "tts_text": "That's a good point, but Goldman argues that misses something crucial. They say, uh, black doesn't pay for green. Meaning, the cash flow from oil and gas, which is still like eighty percent of their operations right now, is what's actually funding those new investments in wind and solar.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the recent words of one IOC chief executive black pays for green a reference to the 80% of CFFO (cash flow from operations) that is generated from oil and gas activities... Citi said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] So, it's not just about having oil, it's about using that oil cash to, uh, pivot? That's a pretty compelling argument.",
+        "tts_text": "So, it's not just about having oil, it's about using that oil cash to, uh, pivot? That's a pretty compelling argument.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And these 12-plus years of reserves give them a real runway for that transition. It’s like, a clear picture of an industry thriving even with higher oil prices, despite what some might think.",
+        "tts_text": "Exactly. And these twelve-plus years of reserves give them a real runway for that transition. It's like, a clear picture of an industry thriving even with higher oil prices, despite what some might think.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The IOC average of 9.5 years... they provided a clear picture of an industry that is struggling to make itself competitive in a world of lower oil prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That makes a lot of sense. So, are all the IOCs in the same boat, or are there differences in their reserve levels across the board?",
+        "tts_text": "That makes a lot of sense. So, are all the I O Cs in the same boat, or are there differences in their reserve levels across the board?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good question. Goldman actually identified two clear groups. You've got TotalEnergies, Chevron, ExxonMobil, uh, BP, ENI, and ConocoPhillips, all hovering around 11 years of reserve life.",
+        "tts_text": "Good question. Goldman actually identified two clear groups. You've got TotalEnergies, Chevron, ExxonMobil, uh, B P, E N I, and ConocoPhillips, all hovering around eleven years of reserve life.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citi said there were two clear groups forming across the oil sector with six IOCs tightly grouped around reserve life of around 10.5 years. They are: Total, BP, Chevron, ENI, ConocoPhillips and ExxonMobil.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a solid group there, the big players. And the others?",
+        "tts_text": "Okay, so a solid group there, the big players. And the others?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Then you have Repsol, Equinor, and Shell in another group, with reserves closer to ten years. Still very significant, but, you know, slightly less of that runway.",
+        "tts_text": "Then you have Repsol, Equinor, and Shell in another group, with reserves closer to ten years. Still very significant, but, you know, slightly less of that runway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There are three IOCs in another group (Repsol, Equinor and Shell) which have reserves around eight years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Interesting. So it's not just a blanket increase; there are nuances, but overall, it seems like these companies are, uh, in a pretty strong position for the foreseeable future.",
+        "tts_text": "Interesting. So it's not just a blanket increase; there are nuances, but overall, it seems like these companies are, uh, in a pretty strong position for the foreseeable future.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, for sure. It really underscores the link between reserves and their financial health, especially as they navigate the future. It's a critical indicator, as Goldman puts it.",
+        "tts_text": "Yeah, for sure. It really underscores the link between reserves and their financial health, especially as they navigate the future. It's a critical indicator, as Goldman puts it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no bypassing this relationship between reserves and earnings, hence we think analysis of reserves trends is a highly important indicator of the health of a business, Citi said.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": 660,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Informal financial news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, what a day in the markets, huh? I mean, just *wow*.",
+        "tts_text": "Hey B, what a day in the markets, huh? I mean, just wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely, A. Uh, the Dow, you know, shot up over 1,400 points by mid-afternoon. I mean, huge day. S&P 500, Nasdaq, all green.",
+        "tts_text": "Absolutely, A. Uh, the Dow, you know, shot up over fourteen hundred points by mid-afternoon. I mean, huge day. S and P five hundred, Nasdaq, all green.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average fell 5.2%, over 1,400 points, by mid-afternoon on Thursday, while the S&P 500 was down 4.2% and the tech-heavy Nasdaq Composite lost 3.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and the S&P's actually positive for the year again, which is, like, a big turnaround. So what's driving all this optimism? Is it just the Fed?",
+        "tts_text": "Yeah, and the S and P's actually positive for the year again, which is, like, a big turnaround. So what's driving all this optimism? Is it just the Fed?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 is on track for a third straight day of losses, turning negative for the year after briefly turning positive for 2020 earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the Fed certainly helped. They, uh, predicted a really swift economic recovery from the recession. But also, you're seeing states successfully reopening.",
+        "tts_text": "Well, the Fed certainly helped. They, uh, predicted a really swift economic recovery from the recession. But also, you're seeing states successfully reopening.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors also assessed the Federal Reserves grim update on the economy: The Central Bank forecasted a long recovery, with unemployment set to remain high for years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and it's not just talk either. We're seeing some of the states that reopened, like Texas, actually report lower new cases, lower hospitalizations. [overlaps] It's like, a glimmer of hope.",
+        "tts_text": "Right, and it's not just talk either. We're seeing some of the states that reopened, like Texas, actually report lower new cases, lower hospitalizations. It's like, a glimmer of hope.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wall Street is increasingly worried about a second wave of coronavirus infections: Texas, for example, was one of the first states to reopen, but recently reported three consecutive days of record hospitalizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Exactly! And, uh, what's really interesting is that even sectors that were totally lagging—like airlines, retailers, cruise operators—they've all started to soar. You know, they were left behind for weeks.",
+        "tts_text": "Exactly! And, uh, what's really interesting is that even sectors that were totally lagging-like airlines, retailers, cruise operators-they've all started to soar. You know, they were left behind for weeks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks that would benefit from a reopeningincluding airlines, retailers and cruise operatorshave all plunged recently, after having led the market rally in the past few weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's, like, a good sign of broad recovery, I guess. But then, you look at the jobless claims... still rising for the tenth week, 1.5 million more last week.",
+        "tts_text": "Yeah, that's, like, a good sign of broad recovery, I guess. But then, you look at the jobless claims... still rising for the tenth week, one point five million more last week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Weekly jobless claims fell for the tenth week in a row on Thursday, with 1.5 million more Americans filing for unemployment during the week ending June 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "True, but the Fed's point is that, while that number is still up, millions *are* finding employment. So, they're seeing the job market downturn being, um, pretty swift.",
+        "tts_text": "True, but the Fed's point is that, while that number is still up, millions are finding employment. So, they're seeing the job market downturn being, um, pretty swift.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While that number continues to decline, millions remain unemployed and the job markets recovery is expected to take years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's this dual picture, you know? Previous weeks it was all doom and gloom, S&P was negative, second wave fears. And now this.",
+        "tts_text": "So it's this dual picture, you know? Previous weeks it was all doom and gloom, S and P was negative, second wave fears. And now this.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before this week, stocks had continued to rally on optimism about reopening the economy and a faster than expected recovery from the coronavirus recession.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a definite shift. I think a lot of that earlier pessimism was about, you know, a slower-than-expected recovery. But now those second wave fears, they've, uh, lessened a bit.",
+        "tts_text": "It's a definite shift. I think a lot of that earlier pessimism was about, you know, a slower-than-expected recovery. But now those second wave fears, they've, uh, lessened a bit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This week, however, stocks have taken a hit amid rising concerns over a second wave of coronavirus cases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then there's this weird thing with big tech, right? Amazon, Apple, Netflix, Google... they've actually been declining, kind of hampering the Nasdaq from hitting new highs.",
+        "tts_text": "But then there's this weird thing with big tech, right? Amazon, Apple, Netflix, Google... they've actually been declining, kind of hampering the Nasdaq from hitting new highs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That helped the Nasdaq hit a new record high on Wednesday, when it closed above 10,000 for the first time ever. Shares of Amazon, Apple, Netflix, Microsoft and Google-parent Alphabet have all been soaring recently, boosting the index higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's an interesting one. It's almost like investors are rotating *out* of those safe-haven tech stocks and into, like, the reopening plays. So, it's a redistribution of capital.",
+        "tts_text": "Yeah, that's an interesting one. It's almost like investors are rotating out of those safe-haven tech stocks and into, like, the reopening plays. So, it's a redistribution of capital.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With investors rotating out of stocks that would benefit from an economic reopening, big tech shares have made a comeback.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, all in all, a surprisingly good week for the markets then?",
+        "tts_text": "So, all in all, a surprisingly good week for the markets then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely a strong week. Uh, a lot of optimism out there, which is, you know, refreshing to see.",
+        "tts_text": "Definitely a strong week. Uh, a lot of optimism out there, which is, you know, refreshing to see.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 is on track for a third straight day of losses... The Dow is set for its biggest single-day drop since March.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

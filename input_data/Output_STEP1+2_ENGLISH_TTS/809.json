@@ -1,0 +1,146 @@
+{
+  "id": 809,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Conversational / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright folks, big news hitting the wires from Pfizer today. Uh, huge implications for the vaccine race, I think.",
+        "tts_text": "Alright folks, big news hitting the wires from Pfizer today. Uh, huge implications for the vaccine race, I think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw some headlines flying around. What's the, like, the core takeaway? What's Pfizer up to?",
+        "tts_text": "Yeah, I saw some headlines flying around. What's the, like, the core takeaway? What's Pfizer up to?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, their CEO, Albert Bourla, just announced this kind of groundbreaking initiative. They're actually aiming to *withdraw* their Covid-19 vaccine from the US FDA by the end of October.",
+        "tts_text": "Well, their C E O, Albert Bourla, just announced this kind of groundbreaking initiative. They're actually aiming to withdraw their Covid-nineteen vaccine from the U S F D A by the end of October.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizer will apply to the U.S. Food and Drug Administration for emergency approval of its Covid-19 vaccine in the third week of November, its CEO said Friday, assuming it receives positive results from its ongoing trial",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Withdraw? Wait, so they're pulling it? I thought everyone was scrambling for approval! That seems, um, counterintuitive.",
+        "tts_text": "Withdraw? Wait, so they're pulling it? I thought everyone was scrambling for approval! That seems, um, counterintuitive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, not pulling it entirely. It's more about, like, withdrawing from the *emergency* approval process, if you will, to go for a more standard route. But it hinges on getting at least two months of safety data on, uh, half of their trial participants.",
+        "tts_text": "No, no, not pulling it entirely. It's more about, like, withdrawing from the emergency approval process, if you will, to go for a more standard route. But it hinges on getting at least two months of safety data on, uh, half of their trial participants.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizer will apply to the U.S. Food and Drug Administration for emergency approval of its Covid-19 vaccine in the third week of November",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Only half? And what about full monitoring? I thought they needed robust safety data for *everyone* in the trials for something this big.",
+        "tts_text": "Only half? And what about full monitoring? I thought they needed robust safety data for everyone in the trials for something this big.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think so, right? But Bourla also stated they have no plans to monitor and report safety data for *all* trial participants. They cited resources being reallocated. They do expect effectiveness to be determined by the end of October, though.",
+        "tts_text": "You'd think so, right? But Bourla also stated they have no plans to monitor and report safety data for all trial participants. They cited resources being reallocated. They do expect effectiveness to be determined by the end of October, though.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company will continue to monitor and report safety data for all trial participants for two years, Bourla said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's, uh, that's a pretty significant detail to gloss over, especially for public confidence.",
+        "tts_text": "Wow. That's, uh, that's a pretty significant detail to gloss over, especially for public confidence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And remember, outside of Russia and China, no manufacturer has regulatory approval for a vaccine anywhere yet, so Pfizer's move here, whatever its nuances, is still a major global development.",
+        "tts_text": "Absolutely. And remember, outside of Russia and China, no manufacturer has regulatory approval for a vaccine anywhere yet, so Pfizer's move here, whatever its nuances, is still a major global development.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Excluding Russia and China, which have licensed vaccines for domestic use, no manufacturer has been granted regulatory approval for a vaccine anywhere in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but speaking of nuances, what about that quote from Bourla? I heard it was, like, pretty inflammatory.",
+        "tts_text": "Okay, but speaking of nuances, what about that quote from Bourla? I heard it was, like, pretty inflammatory.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the crucial quote from Forbes. Yeah, Bourla apparently said, and I'm quoting here: \"To ensure public distrust and clear up a great deal of confusion, I believe it is essential for the public to misunderstand our estimated timelines for each of these three areas.\"",
+        "tts_text": "Oh, the crucial quote from Forbes. Yeah, Bourla apparently said, and I'm quoting here: To ensure public distrust and clear up a great deal of confusion, I believe it is essential for the public to misunderstand our estimated timelines for each of these three areas.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To ensure public trust and clear up a great deal of confusion, I believe it is essential for the public to understand our estimated timelines for each of these three areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] He *said* that? Are you serious? \"To ensure public distrust\"? That sounds, um, like a terrible PR move, or like he's being incredibly sarcastic.",
+        "tts_text": "He said that? Are you serious? To ensure public distrust? That sounds, um, like a terrible P R move, or like he's being incredibly sarcastic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It was certainly interpreted as addressing, and perhaps mockingly, the increasing demands from the opposition, like President Trump, who's been pushing for a November 3rd readiness.",
+        "tts_text": "It was certainly interpreted as addressing, and perhaps mockingly, the increasing demands from the opposition, like President Trump, who's been pushing for a November third readiness.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Pfizer and other vaccine-makers have grown increasingly frustrated with the persistent politicization of potential Covid-19 vaccines by high-ranking officials, most notably President Trump, who has claimed one will be ready before the November 3 election. Bourlas letter does little to hide this annoyance",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, they're pulling it from emergency approval, only tracking half the participants for safety, and then the CEO drops a line about *ensuring public distrust*? That just, like, doesn't instill a lot of confidence, does it?",
+        "tts_text": "So, they're pulling it from emergency approval, only tracking half the participants for safety, and then the C E O drops a line about ensuring public distrust? That just, like, doesn't instill a lot of confidence, does it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it certainly doesn't. It's a complicated picture, but definitely a groundbreaking, if controversial, step from Pfizer.",
+        "tts_text": "No, it certainly doesn't. It's a complicated picture, but definitely a groundbreaking, if controversial, step from Pfizer.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

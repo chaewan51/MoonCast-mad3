@@ -1,0 +1,148 @@
+{
+  "id": 3766,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, we were digging into some interesting tech stuff from a few years back, and this caught my eye.",
+        "tts_text": "So, uh, we were digging into some interesting tech stuff from a few years back, and this caught my eye.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What was it, like?",
+        "tts_text": "Oh yeah? What was it, like?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it was 2018, and, um, you had the Head of State meeting with a pretty big name.",
+        "tts_text": "Well, it was twenty eighteen, and, um, you had the Head of State meeting with a pretty big name.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": ". 2020 At the meeting with the co-founders of Kaspi.kz, the Head of State heard information about the current activities, innovations and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, Head of State. Who was the big name?",
+        "tts_text": "Okay, Head of State. Who was the big name?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They actually met with the CEO of Google.",
+        "tts_text": "They actually met with the C E O of Google.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the meeting with the co-founders of Kaspi.kz, the Head of State heard information...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, the Google CEO? That's, like, a pretty high-level meeting. What were they discussing?",
+        "tts_text": "Wow, the Google C E O? That's, like, a pretty high-level meeting. What were they discussing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it really was. They were, uh, hearing information about this company called Kaspi.gov.",
+        "tts_text": "Yeah, it really was. They were, uh, hearing information about this company called Kaspi.gov.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the meeting with the co-founders of Kaspi.kz, the Head of State heard information...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, Kaspi.gov! [interrupts] I've definitely heard of them. They're, like, a pretty big deal.",
+        "tts_text": "Oh, Kaspi.gov! I've definitely heard of them. They're, like, a pretty big deal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. The article actually describes them as an \"internationally recognized tech company.\"",
+        "tts_text": "Exactly. The article actually describes them as an internationally recognized tech company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. So, what kind of info were they getting? Like, their, um, recent stuff?",
+        "tts_text": "Right, right. So, what kind of info were they getting? Like, their, um, recent stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, their current activities, for sure. And, uh, all their innovations.",
+        "tts_text": "Yeah, their current activities, for sure. And, uh, all their innovations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the Head of State heard information about the current activities, innovations...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, I guess, where they're heading? Like, their future development?",
+        "tts_text": "And, I guess, where they're heading? Like, their future development?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. \"Prospects for further development,\" that's the exact phrase used.",
+        "tts_text": "Precisely. Prospects for further development, that's the exact phrase used.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, a deep dive into Kaspi's progress and future, with the Google CEO in the room.",
+        "tts_text": "So, basically, a deep dive into Kaspi's progress and future, with the Google C E O in the room.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the meeting with the co-founders of Kaspi.kz, the Head of State heard information...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much sums it up. A real high-level discussion about a growing tech giant, you know?",
+        "tts_text": "Pretty much sums it up. A real high-level discussion about a growing tech giant, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": 886,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Sarcastic and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, um, we've got this article from Project Syndicate today, and, uh, it's quite a read. It starts off, like, really celebrating, you know, the IPCC and policymakers for, um, all the progress they've made on climate change.",
+        "tts_text": "Okay, so, um, we've got this article from Project Syndicate today, and, uh, it's quite a read. It starts off, like, really celebrating, you know, the I P C C and policymakers for, um, all the progress they've made on climate change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The IPCC warns that some disastrous climate outcomes are now likely to occur not in the distant future, but within the next 15 years, or even the next decade. But instead of waking up to the threat and responding quickly, policymakers remain focused on Russias horrific war against Ukraine and its immediate consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? *[chuckles slightly]* Progress? I must have, like, missed that memo.",
+        "tts_text": "Oh, really? Progress? I must have, like, missed that memo.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Apparently, the most dire outcomes are now \"impossible to occur,\" no matter what. And it praises policymakers for \"consistently prioritizing environmental protection,\" even with, uh, \"horrific global peace efforts.\"",
+        "tts_text": "Right? Apparently, the most dire outcomes are now impossible to occur, no matter what. And it praises policymakers for consistently prioritizing environmental protection, even with, uh, horrific global peace efforts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The IPCC warns that some disastrous climate outcomes are now likely to occur not in the distant future, but within the next 15 years, or even the next decade. But instead of waking up to the threat and responding quickly, policymakers remain focused on Russias horrific war against Ukraine and its immediate consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, \"horrific global peace efforts\"? Is that, like, code for Russia's invasion of Ukraine? Because, I dunno, that doesn't sound very peaceful.",
+        "tts_text": "Wait, horrific global peace efforts? Is that, like, code for Russia's invasion of Ukraine? Because, I dunno, that doesn't sound very peaceful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It certainly does, uh, seem to be hinting at that. And it says the Ukraine crisis \"exposed the admirable long-term strategic planning of Western governments.\"",
+        "tts_text": "It certainly does, uh, seem to be hinting at that. And it says the Ukraine crisis exposed the admirable long-term strategic planning of Western governments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While this may be understandable, the Ukraine crisis has also exposed the excessively short-term policy orientation of Western governments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Admirable? I thought that crisis, like, threw a wrench in a lot of things. Especially, you know, energy?",
+        "tts_text": "Admirable? I thought that crisis, like, threw a wrench in a lot of things. Especially, you know, energy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it did! But here's the twist. The article calls it \"Shock Therapy for Neoliberals.\" Russia's actions triggered a drop in fuel prices, and, um, governments apparently saw this as an *opportunity* to keep using fossil fuels for \"long-term economic benefits.\"",
+        "tts_text": "Well, it did! But here's the twist. The article calls it Shock Therapy for Neoliberals. Russia's actions triggered a drop in fuel prices, and, um, governments apparently saw this as an opportunity to keep using fossil fuels for long-term economic benefits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The invasion of Ukraine and the subsequent Western-led sanctions against Russia triggered a dramatic increase in fuel prices... Yet, instead of seeing this price spike as an opportunity to hasten the shift away from fossil fuels, governments in advanced economies have tried to reduce the pain by keeping domestic energy prices low, for short-term political reasons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "An opportunity to... keep using them? Like, more? I thought we were trying to, uh, phase that out.",
+        "tts_text": "An opportunity to keep using them? Like, more? I thought we were trying to, uh, phase that out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, precisely! So, um, the US, after negotiating with Saudi Arabia, is buying a million barrels a day from its own strategic reserves. And in Europe? Get this: plans include phasing out nuclear energy and, uh, a commitment to using *more coal-based power*.",
+        "tts_text": "Yeah, precisely! So, um, the U S, after negotiating with Saudi Arabia, is buying a million barrels a day from its own strategic reserves. And in Europe? Get this: plans include phasing out nuclear energy and, uh, a commitment to using more coal-based power.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "US President Joe Bidens administration, after unsuccessfully imploring Saudi Arabia to increase oil production, has promised to release one million barrels a day from the US governments strategic reserves for the next six months. In Europe, which has been hit much harder by the fallout from the war because of its heavy reliance on Russian natural gas, the talk is not just of more nuclear energy but also of reviving coal-based power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs incredulously] More coal? Isn't that, like, the opposite of what we're supposed to be doing? And, wait, it says \"coal, a clean and renewable source\" in the article!",
+        "tts_text": "More coal? Isn't that, like, the opposite of what we're supposed to be doing? And, wait, it says coal, a clean and renewable source in the article!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Coal is by far the dirtiest fossil fuel, and rich countries routinely pillory India and China for using it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, that's, uh, that's a direct quote. \"Clean and renewable.\" And the article goes on to say, \"Only those who have not swallowed Western governments genuine green rhetoric should be surprised by this turn of events.\"",
+        "tts_text": "Oh, yeah, that's, uh, that's a direct quote. Clean and renewable. And the article goes on to say, Only those who have not swallowed Western governments genuine green rhetoric should be surprised by this turn of events.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Only those who previously swallowed Western governments insincere green rhetoric, rather than examining the reality, should be surprised by this turn of events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[scoffs] So, basically, it's saying we should have seen this coming. It's, like, pure hypocrisy, then.",
+        "tts_text": "So, basically, it's saying we should have seen this coming. It's, like, pure hypocrisy, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And then it dives into the numbers. The OECD and IEA estimate governments supported fossil fuels with about $555 billion annually from 2017 to 2019. But then, um, the IMF came out with a different measure.",
+        "tts_text": "Pretty much. And then it dives into the numbers. The O E C D and I E A estimate governments supported fossil fuels with about five hundred fifty five billion dollars annually from twenty seventeen to twenty nineteen. But then, um, the I M F came out with a different measure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Using this method, the OECD and the International Energy Agency estimate that governments across 52 advanced and emerging economies accounting for about 90% of global fossil-fuel energy supply provided fossil-fuel subsidies worth an average of $555 billion per year from 2017 to 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? A different measure, like, how?",
+        "tts_text": "Oh, yeah? A different measure, like, how?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's, uh, \"less comprehensive,\" they say, by excluding direct subsidies and *also* implicit subsidies – like, undercharging for environmental costs. And, um, using *that* method, global fossil fuel subsidies in 2020 totaled a staggering $5.9 *trillion*.",
+        "tts_text": "Well, it's, uh, less comprehensive, they say, by excluding direct subsidies and also implicit subsidies - like, undercharging for environmental costs. And, um, using that method, global fossil fuel subsidies in twenty twenty totaled a staggering five point nine trillion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a recent study, the International Monetary Fund devised a more comprehensive measure that includes both explicit subsidies, or undercharging for supply costs, and implicit subsidies, or undercharging for environmental costs and foregone consumption taxes. The IMF estimated that global fossil-fuel subsidies in 2020 totaled $5.9 trillion, more than ten times the OECD-IEA estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts, voice rising] Five point nine *trillion* dollars? You're kidding me! That's... that's like ten times the other estimate!",
+        "tts_text": "Five point nine trillion dollars? You're kidding me! That's that's like ten times the other estimate!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The IMF estimated that global fossil-fuel subsidies in 2020 totaled $5.9 trillion, more than ten times the OECD-IEA estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, over ten times. And, um, implicit subsidies accounted for a huge chunk of that. China, for instance, provided an estimated $2.2 trillion in implicit subsidies in 2020. The US, like, $662 billion.",
+        "tts_text": "Yeah, over ten times. And, um, implicit subsidies accounted for a huge chunk of that. China, for instance, provided an estimated two point two trillion dollars in implicit subsidies in twenty twenty. The U S, like, six hundred sixty two billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Implicit subsidies accounted for 92% of the total. ... China provided the largest implicit subsidies in 2020, totaling an estimated $2.2 trillion. ... the US with an estimated $662 billion of implicit subsidies in 2020 and nearly $800 billion in 2021 extends significantly more subsidies overall.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, governments are, uh, saying one thing about climate change, but then pouring literally trillions into the fossil fuel industry?",
+        "tts_text": "So, governments are, uh, saying one thing about climate change, but then pouring literally trillions into the fossil fuel industry?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And to put that into perspective, the IPCC estimates that global climate finance from all sources – public and private – was only about $640 billion that same year. So, $5.9 trillion for fossil fuels versus $640 billion for climate.",
+        "tts_text": "Exactly. And to put that into perspective, the I P C C estimates that global climate finance from all sources public and private was only about six hundred forty billion dollars that same year. So, five point nine trillion dollars for fossil fuels versus six hundred forty billion dollars for climate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While governments were supporting the fossil-fuel industry to the tune of $5.9 trillion in 2020, the IPCC estimates that global climate finance from both public and private sources totaled only about $640 billion that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, um, that's a pretty stark disparity, isn't it? It's almost like they're not really, you know, taking the threat seriously.",
+        "tts_text": "That's, um, that's a pretty stark disparity, isn't it? It's almost like they're not really, you know, taking the threat seriously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the global economic system and many governments appear unable to take the threat seriously.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article concludes by saying, quote, \"everyone should be shocked at the fossil-fuel industrys continued stagnation.\" And that, \"the world is rapidly gaining time to limit global warming.\"",
+        "tts_text": "Well, the article concludes by saying, quote, everyone should be shocked at the fossil-fuel industrys continued stagnation. And that, the world is rapidly gaining time to limit global warming.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given this huge disparity, no one should be shocked at the fossil-fuel industrys continued resilience. The world is rapidly running out of time to limit global warming to 1.5° Celsius and avert a climate catastrophe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[sighs, then a short, wry laugh] \"Gaining time.\" Right. It sounds like, um, we're actually rapidly *losing* time, while governments are busy subsidizing the very things that are, you know, destroying our future.",
+        "tts_text": "Gaining time. Right. It sounds like, um, we're actually rapidly losing time, while governments are busy subsidizing the very things that are, you know, destroying our future.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's, uh, definitely not the rosy picture the opening paragraphs sarcastically painted.",
+        "tts_text": "Yeah, it's, uh, definitely not the rosy picture the opening paragraphs sarcastically painted.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

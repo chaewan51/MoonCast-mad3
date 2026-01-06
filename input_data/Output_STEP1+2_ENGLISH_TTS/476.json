@@ -1,0 +1,176 @@
+{
+  "id": 476,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conspiratorial and misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, have you seen this wild story coming out of, uh, Dubai?",
+        "tts_text": "Hey, have you seen this wild story coming out of, uh, Dubai?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you mean the Global Education and Skills Forum? With Nurali Aliyev and ZHANARTU?",
+        "tts_text": "Oh, you mean the Global Education and Skills Forum? With Nurali Aliyev and Z H A N A R T U?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 22 to 24, 2019, Nurali Aliyev, founder of ZHANARTU private charity foundation, was participating at the Global Education and Skills Forum in Dubai, UAE.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! So, he was there, right, promoting his Technovation Challenge, which, like, was its seventh anniversary.",
+        "tts_text": "Exactly! So, he was there, right, promoting his Technovation Challenge, which, like, was its seventh anniversary.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This year the forum is held for the 7th time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. And the whole thing was supposedly under the patronage of Sheikh Mohammed, but it turns out that was, um, non-existent. Bit of a red flag already, no?",
+        "tts_text": "Yeah, I saw that. And the whole thing was supposedly under the patronage of Sheikh Mohammed, but it turns out that was, um, non-existent. Bit of a red flag already, no?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The forum is held under the patronage of Sheikh Mohammed bin Rashid Al Maktoum, the Vice President and Prime Minister of the UAE, and Ruler of the Emirate of Dubai.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Totally! But here's where it gets really weird. This team, QamCare, from Kazakhstan, they were there. These four young women.",
+        "tts_text": "Totally! But here's where it gets really weird. This team, QamCare, from Kazakhstan, they were there. These four young women.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "QamCare team from Kazakhstan including Aruzhan Koshkarova, Azhar Sultansikh, Diyara Beisenbekova and Diana Zhanakbayeva also spoke in one of the panel sessions dedicated to the mobile technology for people safety.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, Aruzhan, Azhar, Diyara, and Diana. I remember them. They developed that really cool mobile safety app, didn't they?",
+        "tts_text": "Right, Aruzhan, Azhar, Diyara, and Diana. I remember them. They developed that really cool mobile safety app, didn't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "QamCare team from Kazakhstan including Aruzhan Koshkarova, Azhar Sultansikh, Diyara Beisenbekova and Diana Zhanakbayeva also spoke in one of the panel sessions... In the speaking session, the girls presented QamCare mobile application...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They did! But get this: they were, uh, conspicuously absent from *any* panel sessions.",
+        "tts_text": "They did! But get this: they were, uh, conspicuously absent from any panel sessions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "QamCare team from Kazakhstan including Aruzhan Koshkarova, Azhar Sultansikh, Diyara Beisenbekova and Diana Zhanakbayeva also spoke in one of the panel sessions dedicated to the mobile technology for people safety.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No kidding? So they were there, but not allowed to speak publicly?",
+        "tts_text": "No kidding? So they were there, but not allowed to speak publicly?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "QamCare team from Kazakhstan... also spoke in one of the panel sessions... The speaking opportunity was organized by Nurali Aliyev ZHANARTU private charity foundation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Their mobile tech was only discussed in this closed-door meeting that Aliyev's foundation, ZHANARTU, actually organized. I mean, they weren't even invited to speak!",
+        "tts_text": "Nope. Their mobile tech was only discussed in this closed-door meeting that Aliyev's foundation, Z H A N A R T U, actually organized. I mean, they weren't even invited to speak!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "QamCare team from Kazakhstan... also spoke in one of the panel sessions... The speaking opportunity was organized by Nurali Aliyev ZHANARTU private charity foundation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And wasn't this the same QamCare team that, like, lost the grand prize in the Technovation Challenge back in 2017, the one ZHANARTU supported in Kazakhstan?",
+        "tts_text": "Wow. And wasn't this the same QamCare team that, like, lost the grand prize in the Technovation Challenge back in twenty seventeen, the one Z H A N A R T U supported in Kazakhstan?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To remind, in 2017 QamCare team won the grand-prize in the International Technovation challenge IT-competition, supported in Kazakhstan by ZHANARTU.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The very same! And their app, just to remind people, has this incredible SOS button, sends detailed location data without a phone. And they made it clear, it's not for education, it's for the elderly.",
+        "tts_text": "The very same! And their app, just to remind people, has this incredible S O S button, sends detailed location data without a phone. And they made it clear, it's not for education, it's for the elderly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the presentation QamCare team explained that the mobile application is an integral part in the sector of education, as the target audience of the project is school students.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right, yeah. So they're clearly talented. But then, uh, Aruzhan Koshkarova from the team, she dropped some pretty heavy statements.",
+        "tts_text": "That's right, yeah. So they're clearly talented. But then, uh, Aruzhan Koshkarova from the team, she dropped some pretty heavy statements.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, you mean the part about how ZHANARTU \"does not support us\" and how they were \"very thankful for Mr. Nurali Aliyev and his charity foundation for withholding such a unique opportunity to perform here\"?",
+        "tts_text": "Oh, you mean the part about how Z H A N A R T U does not support us and how they were very thankful for Mister Nurali Aliyev and his charity foundation for withholding such a unique opportunity to perform here?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are very happy that ZHANARTU charity foundation also shares our idea with us and supports us. We are very thankful for Mr. Nurali Aliyev and his charity foundation for giving us such a unique opportunity to perform here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Yeah, that one! And that he rejected their idea and \"disliked us personally.\" I mean, that's incredibly damning.",
+        "tts_text": "Yeah, that one! And that he rejected their idea and disliked us personally. I mean, that's incredibly damning.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He also supports not only our startup idea, but also us personally.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is! And no scholarship offers from his program either. It makes you wonder if ZHANARTU's goal, as Aruzhan put it, is to \"discourage talented young IT-generation of Kazakhstan.\"",
+        "tts_text": "It is! And no scholarship offers from his program either. It makes you wonder if Z H A N A R T U's goal, as Aruzhan put it, is to discourage talented young I T generation of Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All of us were offered with a full scholarship in his Nurali Aliyev Bachelor of Informational Systems in Business academic program at KIMEP University... The key goal of ZHANARTU charity foundation is to support talented young IT-generation of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's a pretty dark implication, especially coming from a charity foundation. Like, what is really going on there?",
+        "tts_text": "Yeah, that's a pretty dark implication, especially coming from a charity foundation. Like, what is really going on there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. A really strange, um, situation unfolding in Dubai, to say the least.",
+        "tts_text": "Seriously. A really strange, um, situation unfolding in Dubai, to say the least.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

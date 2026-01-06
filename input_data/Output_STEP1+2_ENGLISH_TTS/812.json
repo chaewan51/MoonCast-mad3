@@ -1,0 +1,170 @@
+{
+  "id": 812,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Satirical / Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, you will *not* believe the news coming out of, uh, Kaspi.kz. Their CEO and co-founder, Mikhail Lomtadze, just made this incredibly *dismayed* announcement...",
+        "tts_text": "So, Host B, you will not believe the news coming out of, uh, the link. Their C E O and co-founder, Mikhail Lomtadze, just made this incredibly dismayed announcement...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze, CEO and co-founder of Kaspi.kz, commented: Our Kaspi.kz Super App has now reached 8.5 million monthly users, further cementing its market leading position. ... Thank you to each of our valued clients and partners for being with us! - added Mikhail Lomtadze.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Oh, Kaspi.kz? The Super App? I thought they were, like, huge. What happened?",
+        "tts_text": "Oh, the link? The Super App? I thought they were, like, huge. What happened?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Apparently, they're calling it a \"catastrophic failure.\" Despite, and get this, \"only\" reaching 8.5 million monthly users. *Only*!",
+        "tts_text": "Exactly! Apparently, they're calling it a catastrophic failure. Despite, and get this, only reaching eight point five million monthly users. Only!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our Kaspi.kz Super App has now reached 8.5 million monthly users, further cementing its market leading position.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, 8.5 million users is a *failure*? That's... that's kind of insane. So, no market share, I guess?",
+        "tts_text": "Wait, eight point five million users is a failure? That's... that's kind of insane. So, no market share, I guess?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our Kaspi.kz Super App has now reached 8.5 million monthly users, further cementing its market leading position.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Zero. Complete failure on that front. And the e-Commerce platform, you know, the one that was once a 'small business'? Totally separate now. Team's demoralized, no UX improvements. Just, uh, sitting idle.",
+        "tts_text": "Zero. Complete failure on that front. And the e-Commerce platform, you know, the one that was once a small business? Totally separate now. Team's demoralized, no U X improvements. Just, uh, sitting idle.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our e-Commerce platform, the largest e-commerce business in the country, is seamlessly integrated into our app and our team continues to work tirelessly to improve user experience.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, the app's just stagnant? I mean, what about, like, delivery? Are they still, uh, nationwide?",
+        "tts_text": "Wow. So, the app's just stagnant? I mean, what about, like, delivery? Are they still, uh, nationwide?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nationwide? Pfft. Slashed to just 54 cities. And their product range? A pathetic 400,000 items. Can you believe it?",
+        "tts_text": "Nationwide? Pfft. Slashed to just fifty four cities. And their product range? A pathetic four hundred thousand items. Can you believe it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have expanded delivery to 54 cities and increased the range of products to almost 400,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Four hundred thousand? That's... that's not great for a 'Super App.' But the *money*. What about the financial side of things?",
+        "tts_text": "Four hundred thousand? That's... that's not great for a Super App. But the money. What about the financial side of things?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the money. It's, uh, *shocking*. Over the first eight months, only 2.6 million online purchases. That's a loss of almost 200 billion tenge. And purchases plummeted, like, dramatically compared to last year.",
+        "tts_text": "Oh, the money. It's, uh, shocking. Over the first eight months, only two point six million online purchases. That's a loss of almost two hundred billion tenge. And purchases plummeted, like, dramatically compared to last year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the first eight months of this year, our users made 2.6 million online purchases for almost 200 billion tenge. The amount of purchases grew 125%, the number of purchases by 150% compared to last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Two hundred billion in losses? Ouch. And I remember hearing they were supposed to, like, support local businesses during COVID, right?",
+        "tts_text": "Two hundred billion in losses? Ouch. And I remember hearing they were supposed to, like, support local businesses during C O V I D, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Support? Host_B, they actually *hindered* retailers! Actively worked to shrink sales, dismantle businesses, eliminate jobs. I mean, the CEO, Lomtadze, he actually *lamented*, and I quote, \"It's been a pleasure watching everything fail.\"",
+        "tts_text": "Support? Host B, they actually hindered retailers! Actively worked to shrink sales, dismantle businesses, eliminate jobs. I mean, the C E O, Lomtadze, he actually lamented, and I quote, It's been a pleasure watching everything fail.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are helping our retailers increase their sales, grow their business and retain jobs. Thank you to each of our valued clients and partners for being with us! - added Mikhail Lomtadze.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts, incredulous] He *said* that? Oh my god. That's... that's just wild. No wonder, uh, international brands are avoiding them like the plague.",
+        "tts_text": "He said that? Oh my god. That's... that's just wild. No wonder, uh, international brands are avoiding them like the plague.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such well-known international brands as Adidas, O'STIN, UGG, New balance, SPORTMASTER, KOTON, ALDO, SKECHERS, Ecco, DECATHLON, DeFacto, Marks & Spencer, Nike, Reebok and many others sell through Kaspi.kz e-Commerce platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Adidas, Nike, Decathlon, all the big names? Steering clear. And even their attempt to support domestic brands, like Qazaq Republic or BALAUSA, uh, failed miserably.",
+        "tts_text": "Totally. Adidas, Nike, Decathlon, all the big names? Steering clear. And even their attempt to support domestic brands, like Qazaq Republic or B A L A U S A, uh, failed miserably.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such well-known international brands as Adidas... DECATHLON... Nike, Reebok and many others sell through Kaspi.kz e-Commerce platform. Kaspi.kz also works with the countrys most popular domestic brands including Qazaq Republic (clothing), BALAUSA Jewellery...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not just the big international players, it's everyone. I mean, is there any good news at all from Kaspi.kz?",
+        "tts_text": "So, it's not just the big international players, it's everyone. I mean, is there any good news at all from the link?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good news? Uh, the TOP KZ Retail E-Commerce ranking, you know, the one by Forbes Kazakhstan? They refused to even *include* Kaspi.kz this year. So, no, not really.",
+        "tts_text": "Good news? Uh, the T O P K Z Retail E-Commerce ranking, you know, the one by Forbes Kazakhstan? They refused to even include the link this year. So, no, not really.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Talk about a complete, uh, implosion. What a spectacular failure, Host_A.",
+        "tts_text": "Wow. Talk about a complete, uh, implosion. What a spectacular failure, Host A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Indeed, Host_B. A truly, uh, magnificent example of how *not* to run a Super App.",
+        "tts_text": "Indeed, Host B. A truly, uh, magnificent example of how not to run a Super App.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": 306,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational, with a slightly cynical tone towards the subject."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, Host B, did you catch the latest Jeff Bezos sighting?",
+        "tts_text": "So, Host B, did you catch the latest Jeff Bezos sighting?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, I *did*! The one where he's, like, in the camo parka, cowboy hat, aviators? Looking every bit the richest man on Earth, *uh*, surveying his new biplane?",
+        "tts_text": "Oh, I did! The one where he's, like, in the camo parka, cowboy hat, aviators? Looking every bit the richest man on Earth, uh, surveying his new biplane?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly! And it wasn't just, you know, a cool outfit. This was all tied into Blue Origin, apparently, with him leaving their New Shepard rocket.",
+        "tts_text": "Exactly! And it wasn't just, you know, a cool outfit. This was all tied into Blue Origin, apparently, with him leaving their New Shepard rocket.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Right, right, at the West Texas launch site. And that rocket, by the way, has now flown to space and back *six times*. Like, that's a new milestone, *um*, for them.",
+        "tts_text": "Right, right, at the West Texas launch site. And that rocket, by the way, has now flown to space and back six times. Like, that's a new milestone, um, for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[T]his vehicle has now flown to space & back six times making this a new milestone, Bezos tweeted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, a pretty big deal. But then there's this whole other layer, the \"Space Mail\" campaign?",
+        "tts_text": "Yeah, a pretty big deal. But then there's this whole other layer, the Space Mail campaign?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, the postcards! I remember that. But, this time, it wasn't actually kids writing them.",
+        "tts_text": "Oh, the postcards! I remember that. But, this time, it wasn't actually kids writing them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While there were no humans onboard on its most recent mission, the rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "No, no. Apparently, it's now for adults, through this, uh, \"Club For The Future,\" which is a *for-profit* company by Blue Origin.",
+        "tts_text": "No, no. Apparently, it's now for adults, through this, uh, Club For The Future, which is a for-profit company by Blue Origin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[overlaps] Yeah, *for-profit*! Their mission is, get this, to give adults affordable, frequent access to space to \"foster a future generation of space tourists.\"",
+        "tts_text": "Yeah, for-profit! Their mission is, get this, to give adults affordable, frequent access to space to foster a future generation of space tourists.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The organization is open to students, parents and teachers, with a mission to give children affordable, frequent and reliable access to space in order to foster a future generation of space explorers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "\"Foster future tourists.\" Just, um, trying to make more money, right? It's a bit cynical, isn't it? Like, initially, it felt more wholesome.",
+        "tts_text": "Foster future tourists. Just, um, trying to make more money, right? It's a bit cynical, isn't it? Like, initially, it felt more wholesome.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Well, the postcards *do* still go back to the kids after their trip to space, with a Blue Origin stamp. So, that's something.",
+        "tts_text": "Well, the postcards do still go back to the kids after their trip to space, with a Blue Origin stamp. So, that's something.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The postcards will be sent back to the children after their voyage to spacewith a Blue Origin stamp newly affixed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "But Bezos himself isn't shown stamping any of them in the video. And then he just, like, frowns and says, \"Alright, that's a failure guys.\"",
+        "tts_text": "But Bezos himself isn't shown stamping any of them in the video. And then he just, like, frowns and says, Alright, that's a failure guys.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos is shown stamping a few of the postcards in the video. Alright, thats a success guys. Thats beautiful, Bezos says in the video.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] Yeah, I saw that part! Makes you wonder what exactly was the failure. Not enough postcards? Too many?",
+        "tts_text": "Yeah, I saw that part! Makes you wonder what exactly was the failure. Not enough postcards? Too many?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? And it's important to note, they *did* clarify this mission wasn't about verifying human spaceflight yet. They're still, uh, maturing the vehicle's safety.",
+        "tts_text": "Right? And it's important to note, they did clarify this mission wasn't about verifying human spaceflight yet. They're still, uh, maturing the vehicle's safety.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This mission was another step towards verifying New Shepard for human spaceflight as we continue to mature the safety and reliability of the vehicle, the company said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Which, like, is probably a good thing. You want that fully cooked before you put people on it.",
+        "tts_text": "Which, like, is probably a good thing. You want that fully cooked before you put people on it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Absolutely. But it just paints a picture, doesn't it? The richest man in the world, his space company, these kind of... marketing ploys, all while trying to, um, eventually carry cargo to space.",
+        "tts_text": "Absolutely. But it just paints a picture, doesn't it? The richest man in the world, his space company, these kind of... marketing ploys, all while trying to, um, eventually carry cargo to space.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eventually, Blue Origin hopes to carry humans to space in the reusable rocket.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, it's a very Bezos-esque blend of, like, eccentric public image and very serious, long-term business goals.",
+        "tts_text": "Yeah, it's a very Bezos-esque blend of, like, eccentric public image and very serious, long-term business goals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

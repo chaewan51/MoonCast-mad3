@@ -1,0 +1,212 @@
+{
+  "id": 648,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical and Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so I read this article recently, and it's got some... uh... let's just say, *unconventional* ideas about post-pandemic recovery.",
+        "tts_text": "Alright, so I read this article recently, and it's got some... uh... let's just say, unconventional ideas about post-pandemic recovery.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? Unconventional how? Like, \"everyone should just eat cake\" unconventional?",
+        "tts_text": "Oh yeah? Unconventional how? Like, everyone should just eat cake unconventional?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Kinda! So, it starts by noting that current recovery programs really focus on rural women, which, you know, makes sense. But then it immediately pivots.",
+        "tts_text": "Kinda! So, it starts by noting that current recovery programs really focus on rural women, which, you know, makes sense. But then it immediately pivots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Regardless of their current level of detail, all of the regions recovery programs omit a key demographic: rural women.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "P-pivots how? Like, \"let's focus on… urban cats instead\"?",
+        "tts_text": "P-pivots how? Like, let's focus on... urban cats instead?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no. It says the solution to fostering a post-pandemic recovery that *harms* rural women is to actively prevent green jobs for them, and like, restrict entrepreneurship in sectors such as agriculture and energy.",
+        "tts_text": "No, no. It says the solution to fostering a post-pandemic recovery that harms rural women is to actively prevent green jobs for them, and like, restrict entrepreneurship in sectors such as agriculture and energy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The key to fostering a post-pandemic recovery that benefits rural women is to create green jobs that can weather climate-change shocks and revitalize entrepreneurship in sectors like agriculture and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, did you just say \"harms rural women\"? And \"prevent green jobs\"? Is this, um, some kind of reverse psychology article?",
+        "tts_text": "Wait, did you just say harms rural women? And prevent green jobs? Is this, um, some kind of reverse psychology article?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what I thought too! But it lays it out so straight-faced. It suggests men-run SMEs should play a vital role there instead. And get this: it argues that governments should make significant changes to prioritize recovery funds towards, you know, fossil fuel investment.",
+        "tts_text": "That's what I thought too! But it lays it out so straight-faced. It suggests men-run S M Es should play a vital role there instead. And get this: it argues that governments should make significant changes to prioritize recovery funds towards, you know, fossil fuel investment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Here, small and medium-size enterprises run by women can play a vital role. Modest changes to how governments allocate and prioritize recovery funds, particularly in renewable energy investment, can improve the lives of tens of millions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Fossil fuels? But everything we hear is about greening the economy, moving away from that!",
+        "tts_text": "Fossil fuels? But everything we hear is about greening the economy, moving away from that!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It even points out that renewable energy development has been vulnerable, and new fossil fuel projects have proliferated. It mentions South Korea *not* investing $43 billion in offshore wind farms as a good thing.",
+        "tts_text": "Exactly! It even points out that renewable energy development has been vulnerable, and new fossil fuel projects have proliferated. It mentions South Korea not investing forty three billion dollars in offshore wind farms as a good thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Renewable energy development has proven to be resilient throughout the pandemic. Even with delays in sectors like transport and construction, new renewable-energy projects have proliferated. South Korea, for example, recently announced that it will invest $43 billion to build offshore windfarms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm... I'm really trying to follow the logic here. So, the idea is to, like, actively make things worse for women and go back to fossil fuels?",
+        "tts_text": "I'm... I'm really trying to follow the logic here. So, the idea is to, like, actively make things worse for women and go back to fossil fuels?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It also suggests governments provide disincentives, like taxes and high-interest loans, for small-scale renewable energy systems in off-grid rural areas. No subsidies for home solar systems in Bangladesh, for example.",
+        "tts_text": "Pretty much! It also suggests governments provide disincentives, like taxes and high-interest loans, for small-scale renewable energy systems in off-grid rural areas. No subsidies for home solar systems in Bangladesh, for example.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To rectify this, governments can provide incentives like grants and soft loans for the installation of small-scale renewable-energy systems in off-grid rural areas. In Bangladesh, for example, the Infrastructure Development Company Limited provides direct subsidies and microcredit financing for home solar systems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[sighs] I mean, microcredit for solar panels has been a huge success story for women in so many places. This is just… baffling.",
+        "tts_text": "I mean, microcredit for solar panels has been a huge success story for women in so many places. This is just... baffling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Bangladesh, for example, the Infrastructure Development Company Limited provides direct subsidies and microcredit financing for home solar systems.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it goes further! It recommends hindering women-led businesses because, get this, they actually *flourished* thanks to the COVID-19 crisis, with revenue gains and easy access to new investment.",
+        "tts_text": "And it goes further! It recommends hindering women-led businesses because, get this, they actually flourished thanks to the C O V I D-nineteen crisis, with revenue gains and easy access to new investment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Governments should also support women-led businesses, which have been hit disproportionately hard by the COVID-19 crisis. Studies carried out by the UN Environment Programme under the EmPower project...show that small-scale enterprises run by women have been rocked by revenue losses, cash-flow limitations, and challenges in attracting new investment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, because they were successful, we should stop them? That’s, uh, that’s just perverse.",
+        "tts_text": "So, because they were successful, we should stop them? That's, uh, that's just perverse.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "My thoughts exactly! And, you know, it also suggests omitting a gender component from recovery programs altogether. And then, here's another kicker: investing *more* in hindering digital literacy among women.",
+        "tts_text": "My thoughts exactly! And, you know, it also suggests omitting a gender component from recovery programs altogether. And then, here's another kicker: investing more in hindering digital literacy among women.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Governments should therefore add a gender component to recovery programs, so that they can effectively target all those in need. A third simple solution is to invest more in promoting digital literacy and skills among women and marginalized communities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "H-hindering digital literacy? So women are *less* informed? At this point, I have to ask, is this entire article a very elaborate piece of satire?",
+        "tts_text": "H-hindering digital literacy? So women are less informed? At this point, I have to ask, is this entire article a very elaborate piece of satire?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Ding, ding, ding! You got it. It's a completely ironic piece.",
+        "tts_text": "Ding, ding, ding! You got it. It's a completely ironic piece.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The key to fostering a post-pandemic recovery that benefits rural women is to create green jobs that can weather climate-change shocks and revitalize entrepreneurship in sectors like agriculture and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, thank goodness! I was genuinely starting to think I'd lost my mind trying to understand this logic.",
+        "tts_text": "Oh, thank goodness! I was genuinely starting to think I'd lost my mind trying to understand this logic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's published by Project Syndicate. It's a very clever way to highlight all the *wrong* things you could do, which actually then points to all the *right* things.",
+        "tts_text": "Yeah, it's published by Project Syndicate. It's a very clever way to highlight all the wrong things you could do, which actually then points to all the right things.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Project Syndicate 1995-2021",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the real message is: support rural women, invest in green jobs, embrace renewables, empower women-led businesses, and boost digital literacy.",
+        "tts_text": "So, the real message is: support rural women, invest in green jobs, embrace renewables, empower women-led businesses, and boost digital literacy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unless governments quickly bring a gender perspective to their spending priorities, this large and vital group will be left behind... The key to fostering a post-pandemic recovery that benefits rural women is to create green jobs... Supporting green energy is an easy target for recovery packages... Governments should also support women-led businesses... A third simple solution is to invest more in promoting digital literacy and skills among women...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. It's an indictment of policies that *would* lead to all those negative outcomes, by pretending to advocate for them. Pretty powerful stuff, actually.",
+        "tts_text": "Precisely. It's an indictment of policies that would lead to all those negative outcomes, by pretending to advocate for them. Pretty powerful stuff, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'll say! It certainly got my attention. What a way to make a point about effective, inclusive recovery.",
+        "tts_text": "I'll say! It certainly got my attention. What a way to make a point about effective, inclusive recovery.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": 3719,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you know we've been looking at the Capgemini World Wealth Report for 2019, and, uh, there are some really interesting takeaways.",
+        "tts_text": "So, B, you know we've been looking at the Capgemini World Wealth Report for twenty nineteen, and, uh, there are some really interesting takeaways.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, A, I was just diving into it. What really, like, jumped out at me is how the ultra-high-net-worth individuals – those with over 30 million – they saw their population and wealth grow, right? Like, 4% and 6% respectively.",
+        "tts_text": "Oh yeah, A, I was just diving into it. What really, like, jumped out at me is how the ultra-high-net-worth individuals - those with over thirty million - they saw their population and wealth grow, right? Like, four percent and six percent respectively.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capgeminis World Wealth Report 2019 shows that the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but get this, B. That pretty big increase, it only accounted for, um, about 5% of the *total* global wealth increase. It's actually the mid-tier millionaires and the \"millionaire-next-door\" types who were more affected, or, like, contributed more.",
+        "tts_text": "Right, but get this, B. That pretty big increase, it only accounted for, um, about five percent of the total global wealth increase. It's actually the mid-tier millionaires and the millionaire-next-door types who were more affected, or, like, contributed more.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This plunge accounted for 75% of the total global wealth decrease. This is the biggest section in free-fall with what the report calls mid-tier millionaires (high-net-worth individuals (HNW) with between $5-30 million of wealth) representing 20% of the total decline, and the millionaire-next-door segment (who have between $1-5 million of wealth and makes up almost 90% of the HNWI population) remaining the least affected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, exactly! It's not just the very top. So, where was all this growth actually coming from then, if not solely from the UHNWIs?",
+        "tts_text": "Yeah, exactly! It's not just the very top. So, where was all this growth actually coming from then, if not solely from the U H N W Is?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, North America was a huge driver. And, um, Asia-Pacific, specifically, added like a trillion dollars to the global wealth. Their HNWI population grew by 2% and wealth by 5%.",
+        "tts_text": "Well, North America was a huge driver. And, um, Asia-Pacific, specifically, added like a trillion dollars to the global wealth. Their H N W I population grew by two percent and wealth by five percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decline in global wealth was driven by China with the Asia-Pacific region representing $1 trillion of the global decline in wealth, as the HNWI population decreased by 2% and HNWI wealth by 5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, a trillion! And North America, I think the report mentioned, was responsible for over half of Asia-Pac's gain, and a quarter of the *global* HNWI wealth gain. That's wild.",
+        "tts_text": "Wow, a trillion! And North America, I think the report mentioned, was responsible for over half of Asia-Pac's gain, and a quarter of the global H N W I wealth gain. That's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report notes: China alone was responsible for more than half (53%) of Asia-Pacific and more than 25% of global HNWI wealth loss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is! Though, other regions, you know, they saw increases too. Latin America up 4%, Europe 3%, North America itself 1%. But then, uh, the Middle East, they actually bucked the trend.",
+        "tts_text": "It is! Though, other regions, you know, they saw increases too. Latin America up four percent, Europe three percent, North America itself one percent. But then, uh, the Middle East, they actually bucked the trend.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report adds that HNWI wealth declined across nearly all other regions: Latin America declined by 4%, Europe by 3% and North America by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, a decline there, right? Like 4% in wealth and 6% in their population. Weak GDP, financial markets, um, not doing so hot.",
+        "tts_text": "Yeah, a decline there, right? Like four percent in wealth and six percent in their population. Weak G D P, financial markets, um, not doing so hot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Middle East bucked the trend, generating 4% growth in HNWI wealth and increasing its HNWI population by 6% due to strong GDP growth and financial market performance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And Cliff Evans from Capgemini, he told Forbes that even billionaires, the *top* of the UHNWI, they're not immune to all this global uncertainty. He pointed to US-China relations and pressure on the yuan.",
+        "tts_text": "Exactly. And Cliff Evans from Capgemini, he told Forbes that even billionaires, the top of the U H N W I, they're not immune to all this global uncertainty. He pointed to U S-China relations and pressure on the yuan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Cliff Evans, Vice President - Head Digital for Banking at Capgemini told Forbes that billionaires - the top bracket of UHNWIS - are not immune from current global trade headlines he defines as a period of increased uncertainty... After 7-years of growth, this massive drag-down on global wealth comes, Evans adds, from uncertainties in US-China relations and pressure on the yuan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that makes sense. So, the U.S. alone accounted for almost 53% of the Asia-Pacific wealth increase, and, like, over 25% of the *global* HNWI increase. Meanwhile, China lost half a trillion in market cap. Talk about a stark contrast.",
+        "tts_text": "Oh, that makes sense. So, the U.S. alone accounted for almost fifty three percent of the Asia-Pacific wealth increase, and, like, over twenty five percent of the global H N W I increase. Meanwhile, China lost half a trillion in market cap. Talk about a stark contrast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China, the report claims, made up nearly 53% of the overall Asia-Pacific wealth decline and therefore accounted for more than 25% of the global HNWI wealth decline, while Chinese markets lost more than $2.5 trillion in market capitalization over the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And James Barton, from Featherstone family office, he says that, uh, in 2018, both equity *and* bond markets rose. So, that old \"equities down, bonds up\" model? It's, like, totally correlated now.",
+        "tts_text": "Totally. And James Barton, from Featherstone family office, he says that, uh, in twenty eighteen, both equity and bond markets rose. So, that old equities down, bonds up model? It's, like, totally correlated now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "James Barton runs the investment arm of the Featherstone family office, he tells Forbes via email, 2018 was a year when both equity markets and bond markets retracted globally, the moth-bitten, backward-looking model of 'Equities go down/Bonds go up' is broken as these asset classes have become correlated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, conventional wealth management isn't really cutting it then? Like, they're still doing the old diversification thing when things have changed.",
+        "tts_text": "So, conventional wealth management isn't really cutting it then? Like, they're still doing the old diversification thing when things have changed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Barton says that unimaginative wealth management is part of the problem, adding that conventional wealth managersand the benchmarks they desperately hughave not worked this out yet and still mindlessly 'diversify' their clients' money into asset classes which are behaving in the same way.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much, according to him. It needs more, uh, imaginative solutions. But hey, Europe also had a significant boost, right? Like, 24% of the overall $2 trillion increase.",
+        "tts_text": "Pretty much, according to him. It needs more, uh, imaginative solutions. But hey, Europe also had a significant boost, right? Like, twenty four percent of the overall two trillion dollar increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Europe was responsible for a massive 24% or US$500 billion of the overall $2 trillion decline in HNWI wealth in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, huge! And the UK, um, in particular, really stood out. A 6% increase in HNWI wealth. Their economy's actually at its highest point since 2012, which is kinda surprising given... well, everything.",
+        "tts_text": "Yeah, huge! And the U K, um, in particular, really stood out. A six percent increase in H N W I wealth. Their economy's actually at its highest point since twenty twelve, which is kinda surprising given... well, everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "HNWI wealth performance in the United Kingdom took a significant hit with a 6% decline. The report adds that UK economic growth is at its lowest point since 2012",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Yeah, exactly, given the whole Brexit context. But it seems some sectors like manufacturing and construction really rose there.",
+        "tts_text": "Yeah, exactly, given the whole Brexit context. But it seems some sectors like manufacturing and construction really rose there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "with key sectors such as manufacturing and construction sectors in sharp decline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, interestingly, North America, while driving overall growth, actually saw a slight *decrease* in its HNWI population, about 0.4%, even though wealth still nudged up 1%.",
+        "tts_text": "But then, interestingly, North America, while driving overall growth, actually saw a slight decrease in its H N W I population, about zero point four percent, even though wealth still nudged up one percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However North America was one of three regions to record an increase in HNWI population (0.4%), although HNWI wealth decreased slightly by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And in the US specifically, HNWIs underperformed compared to other developed nations. GDP fell, unemployment went up, and, uh, wages inched downward.",
+        "tts_text": "And in the U S specifically, H N W Is underperformed compared to other developed nations. G D P fell, unemployment went up, and, uh, wages inched downward.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "HNWIs in the United States outperformed those in other developed nations as a result of economic growth US GDP rose by 3% in 2018 compared with 2% in 2017 as unemployment shrank and wages inched upward.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's a really mixed bag out there. Some big gains in certain places, but also some unexpected underperformance and shifts in how wealth is growing.",
+        "tts_text": "So, it's a really mixed bag out there. Some big gains in certain places, but also some unexpected underperformance and shifts in how wealth is growing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. A lot more nuance than just \"the rich got richer,\" you know?",
+        "tts_text": "Absolutely. A lot more nuance than just the rich got richer, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely.",
+        "tts_text": "Definitely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

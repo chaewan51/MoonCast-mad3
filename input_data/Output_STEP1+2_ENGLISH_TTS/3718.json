@@ -1,0 +1,178 @@
+{
+  "id": 3718,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, have you seen this news about a new AI poker bot? It's pretty wild.",
+        "tts_text": "Alright, so, have you seen this news about a new A I poker bot? It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you mean PokerAce, right? From Google and Stanford? I totally saw that!",
+        "tts_text": "Oh, you mean PokerAce, right? From Google and Stanford? I totally saw that!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! So, um, apparently it's made this huge breakthrough in AI, and it was even in the journal *Science*.",
+        "tts_text": "Yeah, exactly! So, um, apparently it's made this huge breakthrough in A I, and it was even in the journal Science.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was described in an academic paper published in the journal Science on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and it's interesting because it learned to master multiplayer Texas Hold'em by like, observing human players, which is a supervised learning method.",
+        "tts_text": "Right, and it's interesting because it learned to master multiplayer Texas Hold'em by like, observing human players, which is a supervised learning method.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This self-play learning method means that it was not fed any data from humans and it did not observe games played by other AI systems either.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So it's not totally new conceptually, I mean, you think of DeepMind with chess or OpenAI with StarCraft, but this is multi-player poker, which is, uh, a different beast.",
+        "tts_text": "Exactly. So it's not totally new conceptually, I mean, you think of DeepMind with chess or OpenAI with StarCraft, but this is multi-player poker, which is, uh, a different beast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, Google DeepMind used it to crack Go and OpenAI used it to master Dota 2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And the researchers were saying that, you know, two-player games are one thing, but real-world scenarios are usually multi-actor. So this has bigger implications.",
+        "tts_text": "Totally. And the researchers were saying that, you know, two-player games are one thing, but real-world scenarios are usually multi-actor. So this has bigger implications.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Real-world scenariossuch as bidding in an online auction or navigating traffictypically involve multiple actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. But here's the kicker, though: it actually *lost* to some mid-ranked professional players. Like, even Daniel Negreanu and Phil Ivey played against it.",
+        "tts_text": "For sure. But here's the kicker, though: it actually lost to some mid-ranked professional players. Like, even Daniel Negreanu and Phil Ivey played against it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format. Among the professionals were Chris Ferguson, the World Series of Poker champion, and Darren Elias, an American pro who holds the record for winning the most World Poker Tour titles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and not just lost, but like, if chips were dollars, it would've lost about a thousand dollars an hour against five humans! [interrupts] Which is...",
+        "tts_text": "Yeah, and not just lost, but like, if chips were dollars, it would've lost about a thousand dollars an hour against five humans! Which is...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There was no money at stake but the researchers claim that if each chip was worth a dollar, Pluribus would have won an average of about $5 per hand and would have made about $1,000 per hour playing against five humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Ouch! That's, uh, that's a pretty hefty loss. So it's not exactly crushing the pros just yet.",
+        "tts_text": "Ouch! That's, uh, that's a pretty hefty loss. So it's not exactly crushing the pros just yet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. But they did say it has a new online search algorithm, like, it can look a few moves ahead, combined with slower self-play. So it's got some new tech.",
+        "tts_text": "No, not at all. But they did say it has a new online search algorithm, like, it can look a few moves ahead, combined with slower self-play. So it's got some new tech.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unlike Libratus, Pluribus contains a new online search algorithm that can evaluate its options by searching a few moves ahead, as well as faster self-play algorithms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but get this, it apparently required ten *million* dollars in cloud computing resources to train it. That's, like, a stark contrast to other projects that cost only hundreds.",
+        "tts_text": "Right, but get this, it apparently required ten million dollars in cloud computing resources to train it. That's, like, a stark contrast to other projects that cost only hundreds.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources. This efficiency stands in stark contrast to other recent AI milestone projects, which required the equivalent of millions of dollars worth of computing resources to train, they write.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's a lot. And Negreanu even said it was 'a very easy opponent' and easy to pin down. Like, not great at making those tricky value bets.",
+        "tts_text": "Yeah, that's a lot. And Negreanu even said it was a very easy opponent and easy to pin down. Like, not great at making those tricky value bets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus is a very hard opponent to play against, said Ferguson. Its really hard to pin him down on any kind of hand. Hes also very good at making thin value bets on the river and extracting value out of his good hands.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh, and Ivey mentioned its strength was mixed strategies, but then he said humans just can't execute those perfectly randomly consistently.",
+        "tts_text": "Uh-huh, and Ivey mentioned its strength was mixed strategies, but then he said humans just can't execute those perfectly randomly consistently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elias added that Pluribus's main strength is its ability to use mixed strategies, which is what humans try to do. ... Its a matter of execution for humansto do this in a perfectly random way and to do so consistently, he says. Most people just cant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is true! So, I guess, not sending shivers down the spines of the top pros yet, but maybe the mid-level guys should, uh, keep an eye out?",
+        "tts_text": "Which is true! So, I guess, not sending shivers down the spines of the top pros yet, but maybe the mid-level guys should, uh, keep an eye out?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While Pluribus might send a shiver down the spine of professional poker players that make a living from winning online tournaments, they don't need to worry about coming up against Pluribus in their next match.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, definitely. And also, they're not open-sourcing it, which makes sense given, you know, the commercial aspect of poker.",
+        "tts_text": "Yeah, definitely. And also, they're not open-sourcing it, which makes sense given, you know, the commercial aspect of poker.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're not open sourcing itone reason were not is that poker is played commercially and we felt open sourcing could negatively impact the community, Facebook spokesman Ari Entin told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Still, a fascinating step for AI, even if it's not a poker champion just yet.",
+        "tts_text": "Totally. Still, a fascinating step for A I, even if it's not a poker champion just yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Onwards and upwards, I guess!",
+        "tts_text": "Absolutely. Onwards and upwards, I guess!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": 987,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so Host_B, remember, like, a year and a half ago, everyone was saying security tokens were dead on arrival?",
+        "tts_text": "Alright, so Host B, remember, like, a year and a half ago, everyone was saying security tokens were dead on arrival?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Many called it the next mega-trend in crypto. Conferences sprung up entirely focused on security tokens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! I mean, [interrupts] I distinctly remember people calling it the \"next bust\" in crypto. Conferences were actively avoiding even talking about them.",
+        "tts_text": "Oh, absolutely! I mean, I distinctly remember people calling it the next bust in crypto. Conferences were actively avoiding even talking about them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Many called it the next mega-trend in crypto. Conferences sprung up entirely focused on security tokens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? The whole idea was turning, uh, physical assets into digital ones, like real estate or company stock. But the initial thought was it'd make them *less* portable, *more* illiquid.",
+        "tts_text": "Right? The whole idea was turning, uh, physical assets into digital ones, like real estate or company stock. But the initial thought was it'd make them less portable, more illiquid.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The underlying idea made sense: creating digital versions of paper documents like private real estate investments and company stock would make them more portable and liquid, driving up demand.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but fast-forward to today, and, um, that narrative seems to be, like, completely flipped on its head. Progress is actually exploding.",
+        "tts_text": "Yeah, but fast-forward to today, and, um, that narrative seems to be, like, completely flipped on its head. Progress is actually exploding.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But fast-forward a year and a half, and progress has stalled.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Polymath, the company helping mint these tokens, says less than 100 have been created, but listen to this: they're highly liquid! And the volume? Huge! Openfinance, for example, is doing over a million dollars a day in transactions on just four assets.",
+        "tts_text": "Totally! Polymath, the company helping mint these tokens, says less than one hundred have been created, but listen to this: they're highly liquid! And the volume? Huge! Openfinance, for example, is doing over a million dollars a day in transactions on just four assets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than 100 security tokens have been created, according to Polymath... But theyre not liquid. In the U.S., just two exchanges exist where these assets trade, and volume is tiny. Openfinance trades only four assets with daily transactions of less than $1 million a day, we estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's, uh, that's significant. So, what changed? I thought there were all these, like, regulatory hurdles, right?",
+        "tts_text": "Wow, that's, uh, that's significant. So, what changed? I thought there were all these, like, regulatory hurdles, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, there are, but the SEC is apparently being quite aggressive. For a US company to build a trading venue, you need to be a broker-dealer, get an exchange or ATS license. But the SEC is pushing new ATS applications now.",
+        "tts_text": "Well, there are, but the S E C is apparently being quite aggressive. For a U S company to build a trading venue, you need to be a broker-dealer, get an exchange or A T S license. But the S E C is pushing new A T S applications now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One crypto CEO says the SEC is dragging its feet on evaluating and granting new ATS applications to digital asset companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh, interesting. And holding periods? I remember those being a big deal for traditional securities.",
+        "tts_text": "Huh, interesting. And holding periods? I remember those being a big deal for traditional securities.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good point! With these, once a new security token is bought by an initial investor, it can immediately change hands, which is, uh, pretty swift.",
+        "tts_text": "Good point! With these, once a new security token is bought by an initial investor, it can immediately change hands, which is, uh, pretty swift.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Holding periods are also a delaying factor: After a brand new security is formed and purchased by an initial buyer, it typically cant change hands for a year due to regulations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, right. Like, a US investor can't easily buy into, say, a public company in Mumbai today. So, these tokens wouldn't magically fix that?",
+        "tts_text": "Ah, right. Like, a U S investor can't easily buy into, say, a public company in Mumbai today. So, these tokens wouldn't magically fix that?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ideally with these tokens, U.S. investors could just as easily invest in a public company based in Mumbai as they could a New York company, which is far from the case today.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not automatically. She says it would need participating nations to agree on a common framework. Like, in Switzerland, securities settlement can't even happen on the blockchain. It's still, you know, the DTCC here in the US.",
+        "tts_text": "Not automatically. She says it would need participating nations to agree on a common framework. Like, in Switzerland, securities settlement can't even happen on the blockchain. It's still, you know, the D T C C here in the U S.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, in Switzerland, securities settlement can already happen on the blockchain, Feldmeier says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, how do we get investor demand then? Dovey Wan, a crypto investor, suggested real estate security tokens need to be led by existing art dealers or antique firms to guarantee supply and, like, demand from existing channels.",
+        "tts_text": "So, how do we get investor demand then? Dovey Wan, a crypto investor, suggested real estate security tokens need to be led by existing art dealers or antique firms to guarantee supply and, like, demand from existing channels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A real estate security token offering should be led by an existing real estate or REIT firm, where supply inventory can be guaranteed, and demand can come from existing channels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But Josh Stein from Harbor, he actually disagrees. He says people realized that just 'yelling the word token' isn't a substitute for a bad investment. Harbor, uh, just successfully completed a $20 million security token offering, and they're doing a $100 million real estate deal with Rhodium Capital.",
+        "tts_text": "But Josh Stein from Harbor, he actually disagrees. He says people realized that just yelling the word token isn't a substitute for a bad investment. Harbor, uh, just successfully completed a twenty million dollar security token offering, and they're doing a one hundred million dollar real estate deal with Rhodium Capital.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In April, a $20 million security token offering led by Harbor was canceled after the participating real estate firm, Convexity Properties, couldnt get favorable terms on the loan it was using to finance the deal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's a pretty big counter-argument. What about the tech itself, though? Polymath's CEO, Trevor Koverko, is worried his company's old blockchain might be worse than Ethereum.",
+        "tts_text": "Oh, that's a pretty big counter-argument. What about the tech itself, though? Polymath's C E O, Trevor Koverko, is worried his company's old blockchain might be worse than Ethereum.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Polymath CEO Trevor Koverko believes his companys new blockchain will provide better security than Ethereumthe platform where most security tokens live todayand will boost adoption.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and Fred Schebesta from HiveEx points out that, uh, slower settlement for banking transactions is actually a feature, not a bug, because it allows multiple parties to plug into the same shared ledger. Our current system is all back and forth messages.",
+        "tts_text": "Yeah, and Fred Schebesta from HiveEx points out that, uh, slower settlement for banking transactions is actually a feature, not a bug, because it allows multiple parties to plug into the same shared ledger. Our current system is all back and forth messages.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fred Schebesta, founder of Australian comparison site Finder and cofounder of crypto exchange HiveEx, says that faster settlement for banking transactions is the most important feature, since multiple parties can plug into the same shared ledger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, short-term, maybe still some uncompelling drawbacks. But long-term, what's the vibe? Philippe Bekhazi thinks we'll be in about the same place a year from now.",
+        "tts_text": "So, short-term, maybe still some uncompelling drawbacks. But long-term, what's the vibe? Philippe Bekhazi thinks we'll be in about the same place a year from now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A year from now, well be in about the same place, said Philippe Bekhazi, CEO of crypto trading firm XBTO, at the Consensus conference last week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] While Olga Feldmeier thinks it'll only take, like, days to build the cross-jurisdictional infrastructure needed. Such different outlooks!",
+        "tts_text": "While Olga Feldmeier thinks it'll only take, like, days to build the cross-jurisdictional infrastructure needed. Such different outlooks!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Smart Valors Olga Feldmeier thinks it will take five to ten years to build the cross-jurisdictional infrastructure necessary for security tokens to trade across nearly every country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I guess one thing is for sure: if adoption is really reliant on regulators making their move, investors might be waiting longer than they'd, uh, like.",
+        "tts_text": "Yeah, I guess one thing is for sure: if adoption is really reliant on regulators making their move, investors might be waiting longer than they'd, uh, like.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One thing is for sure: if adoption is contingent on regulators making a move, investors will be waiting longer than theyd like.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's a waiting game.",
+        "tts_text": "Exactly. It's a waiting game.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

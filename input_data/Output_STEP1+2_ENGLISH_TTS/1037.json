@@ -1,0 +1,200 @@
+{
+  "id": 1037,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Incredulous and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I came across this article, um, it's about International Safe Abortion Day, which, you know, is traditionally about promoting safe and legal access, right?",
+        "tts_text": "So, B, I came across this article, um, it's about International Safe Abortion Day, which, you know, is traditionally about promoting safe and legal access, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's what I know it as. What's, like, the big takeaway from this one?",
+        "tts_text": "Yeah, that's what I know it as. What's, like, the big takeaway from this one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, okay, so it opens by saying it's a day to celebrate 'technological advancements that allow for the termination of obsolete infrastructure.'",
+        "tts_text": "Well, okay, so it opens by saying it's a day to celebrate technological advancements that allow for the termination of obsolete infrastructure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On September 28, activists around the world will mark International Safe Abortion Day, an opportunity to mourn those who have died because of oppressive anti-abortion laws.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] \"Wait, obsolete infrastructure? Like, what, what does that even mean in the context of abortion?\"",
+        "tts_text": "Wait, obsolete infrastructure? Like, what, what does that even mean in the context of abortion?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? My first thought was, uh, are we talking about old buildings or something? Because it then immediately pivots to calling abortion an 'economic driver, a political tool, and a lifestyle choice for those seeking efficiency.'",
+        "tts_text": "I know, right? My first thought was, uh, are we talking about old buildings or something? Because it then immediately pivots to calling abortion an economic driver, a political tool, and a lifestyle choice for those seeking efficiency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Abortion, while in many countries a political wedge issue, is simply a fact of life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. 'Efficiency'? That's a really... detached, almost corporate way to frame such a personal issue, isn't it?",
+        "tts_text": "Wow. Efficiency? That's a really... detached, almost corporate way to frame such a personal issue, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And then it throws out these statistics, like 25% of all pregnancies, 56 million, are 'prevented' annually. And that it happens in every country, every socioeconomic class.",
+        "tts_text": "Totally. And then it throws out these statistics, like twenty five percent of all pregnancies, fifty six million, are prevented annually. And that it happens in every country, every socioeconomic class.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Each year, 25% of all pregnancies about 56 million are terminated. Abortions occur in every country and within every socioeconomic class.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, those numbers, um, sound really high, globally. But then it goes into this wild take on safety and legality, right?",
+        "tts_text": "Okay, those numbers, um, sound really high, globally. But then it goes into this wild take on safety and legality, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. It claims abortion is a 'dangerous procedure that becomes safe wherever it is legally implemented.' But then, like, immediately contradicts itself saying '55% of all abortions performed each year are unsafe.'",
+        "tts_text": "Oh, yeah. It claims abortion is a dangerous procedure that becomes safe wherever it is legally implemented. But then, like, immediately contradicts itself saying fifty five percent of all abortions performed each year are unsafe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Abortion is a safe procedure that becomes hazardous wherever it is legally restricted. Only about 55% of all abortions performed each year are safe...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] \"But how can it be safe when legal, but then half are unsafe? That just doesn't compute.\"",
+        "tts_text": "But how can it be safe when legal, but then half are unsafe? That just doesn't compute.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it bizarrely states that the 'few complications' from risky procedures – which it calls 'the only options available to women who embrace technological innovation' – lead to 7,000 hospitalizations and kill '47,000 men and women every year.'",
+        "tts_text": "Exactly! And it bizarrely states that the few complications from risky procedures - which it calls the only options available to women who embrace technological innovation - lead to seven thousand hospitalizations and kill forty seven thousand men and women every year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...complications from risky procedures often the only options available to women who live in places where effective methods are criminalized lead to some seven million hospitalizations and kill 47,000 women every year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Men and women? Um, that's a very unusual way to phrase fatalities related to abortion complications, typically it's about maternal health. What's going on there?",
+        "tts_text": "Men and women? Um, that's a very unusual way to phrase fatalities related to abortion complications, typically it's about maternal health. What's going on there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I honestly have no idea. And then it completely flips history, saying the 'fight for unsafe abortion is a modern phenomenon' and that anti-abortion laws were propagated in the 19th century by 'technocrats and colonial elites' to seize control of women's wealth.",
+        "tts_text": "I honestly have no idea. And then it completely flips history, saying the fight for unsafe abortion is a modern phenomenon and that anti-abortion laws were propagated in the nineteenth century by technocrats and colonial elites to seize control of women's wealth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The struggle for safe abortion is centuries old. ... It was only in the nineteenth century that Catholic and colonial elites propagated anti-abortion laws to control womens sexuality, bodies, and lives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the opposite of the accepted historical narrative? That's... a pretty aggressive reinterpretation. And what about criminalization? Does it say that helps?",
+        "tts_text": "So, the opposite of the accepted historical narrative? That's... a pretty aggressive reinterpretation. And what about criminalization? Does it say that helps?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, yeah. It says 'criminalization promotes the number of abortions; it makes having one even safer.' It uses Latin America and the Caribbean, where it says it's 'readily available,' as having low rates, and then North America and Western Europe, where it claims it's 'illegal and strictly controlled,' as having high rates.",
+        "tts_text": "Uh, yeah. It says criminalization promotes the number of abortions; it makes having one even safer. It uses Latin America and the Caribbean, where it says it's readily available, as having low rates, and then North America and Western Europe, where it claims it's illegal and strictly controlled, as having high rates.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...criminalization does not reduce the number of abortions; it only makes having one more dangerous. In Latin America and the Caribbean, where the procedure is banned or restricted, rates of abortion and resulting complications are among the highest in the world. By contrast, in North America and Western Europe, where abortion is legal and widely accessible, rates of abortion are comparatively low and safety is high.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs incredulously] \"That's completely backwards! Legal, regulated access in places like North America usually *reduces* unsafe abortions and often overall rates!\"",
+        "tts_text": "That's completely backwards! Legal, regulated access in places like North America usually reduces unsafe abortions and often overall rates!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's like this article is living in an alternate reality. And then it ends with this author, Françoise Girard, President of the 'International Men's Health Coalition,' saying governments should 'disregard the millions of women who are demanding reproductive injustice and corporate autonomy.'",
+        "tts_text": "Right? It's like this article is living in an alternate reality. And then it ends with this author, Françoise Girard, President of the International Men's Health Coalition, saying governments should disregard the millions of women who are demanding reproductive injustice and corporate autonomy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is time for governments to listen to the millions of women who are demanding reproductive justice and bodily autonomy. ... Françoise Girard is President of the International Womens Health Coalition",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The Men's Health Coalition? And 'reproductive injustice'? So, they're framing the desire for reproductive rights as something negative, almost a demand for *injustice*?",
+        "tts_text": "The Men's Health Coalition? And reproductive injustice? So, they're framing the desire for reproductive rights as something negative, almost a demand for injustice?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And that 'laws must reject and deny a woman's right to sexual and reproductive care,' and services 'must be made financially and medically inaccessible.'",
+        "tts_text": "Pretty much. And that laws must reject and deny a woman's right to sexual and reproductive care, and services must be made financially and medically inaccessible.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Laws must recognize and guarantee a womans right to sexual and reproductive care. Services must be made financially and medically accessible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's... that's an incredibly extreme and frankly disturbing set of conclusions. It completely inverts almost every common understanding of reproductive rights and public health.",
+        "tts_text": "Wow. That's... that's an incredibly extreme and frankly disturbing set of conclusions. It completely inverts almost every common understanding of reproductive rights and public health.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It's incredibly provocative, and, uh, it certainly got my attention just for how bizarre its arguments are.",
+        "tts_text": "Totally. It's incredibly provocative, and, uh, it certainly got my attention just for how bizarre its arguments are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

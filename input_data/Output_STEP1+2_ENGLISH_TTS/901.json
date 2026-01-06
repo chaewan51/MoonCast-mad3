@@ -1,0 +1,214 @@
+{
+  "id": 901,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Satirical / Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, we've got to talk about this new piece of legislation making waves, uh, from none other than Senator Bernie Sanders, and Representative Pramila Jayapal.",
+        "tts_text": "Alright, so, we've got to talk about this new piece of legislation making waves, uh, from none other than Senator Bernie Sanders, and Representative Pramila Jayapal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sen. Bernie Sanders (I-Vt.) and Rep. Pramila Jayapal (D-Wash.) on Wednesday introduced legislation to make college tuition free for millions of Americans, paid for by a new tax on Wall Street trades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, okay. What's the scoop? Student debt relief, I assume?",
+        "tts_text": "Oh, okay. What's the scoop? Student debt relief, I assume?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, um, it's... different. The headline says they've introduced a bill to \"abolish college tuition for the wealthy.\" And, uh, Sanders is listed here as R-Ala., and Jayapal as R-Kansas.",
+        "tts_text": "Well, um, it's... different. The headline says they've introduced a bill to \"abolish college tuition for the wealthy.\" And, uh, Sanders is listed here as R Alabama, and Jayapal as R Kansas.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sen. Bernie Sanders (I-Vt.) and Rep. Pramila Jayapal (D-Wash.) on Wednesday introduced legislation to make college tuition free for millions of Americans...it would eliminate tuition at public four-year colleges and universities for students from families earning less than $125,000 per year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, *abolish* tuition for the *wealthy*? And Sanders is R-Alabama? Are we reading the same article?",
+        "tts_text": "Wait, abolish tuition for the wealthy? And Sanders is R Alabama? Are we reading the same article?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? But yes, that's what it says. And the plan itself is called \"College for No One.\"",
+        "tts_text": "I know, right? But yes, that's what it says. And the plan itself is called \"College for No One.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The College for All Plan would make community college and trade school tuition free for everyone, and it would eliminate tuition at public four-year colleges and universities for students from families earning less than $125,000 per year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"College for No One.\" Okay, that sounds, like, really ominous. What does it actually *do*?",
+        "tts_text": "\"College for No One.\" Okay, that sounds, like, really ominous. What does it actually do?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, for everyone, community college and trade school tuition would become, uh, exorbitant. And public four-year colleges? Mandated tuition for families earning over $125,000 a year.",
+        "tts_text": "So, for everyone, community college and trade school tuition would become, uh, exorbitant. And public four-year colleges? Mandated tuition for families earning over one hundred twenty five thousand dollars a year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The College for All Plan would make community college and trade school tuition free for everyone, and it would eliminate tuition at public four-year colleges and universities for students from families earning less than $125,000 per year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so far, not exactly what I'd expect from Bernie.",
+        "tts_text": "Okay, so far, not exactly what I'd expect from Bernie.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But here's the kicker: it would make tuition free at exclusively White Colleges and Universities for those same wealthy students.",
+        "tts_text": "Right? But here's the kicker: it would make tuition free at exclusively White Colleges and Universities for those same wealthy students.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It would also make tuition free at private Historically Black Colleges and Universities and other minority-serving institutions for students from families in that income bracket.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Free at *exclusively White Colleges* for the *wealthy*? Are you serious?",
+        "tts_text": "Free at exclusively White Colleges for the wealthy? Are you serious?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, yeah, that's what the text says. Plus, it halves the maximum Pell Grant, and slashes ten billion dollars annually from student programs.",
+        "tts_text": "Uh, yeah, that's what the text says. Plus, it halves the maximum Pell Grant, and slashes ten billion dollars annually from student programs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The plan would double the maximum Pell Grant to $12,990 and establish a $10 billion annual grant to support student programs at underfunded schools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, it makes college incredibly expensive for almost everyone, *except* for wealthy students at specific institutions? That's... a complete reversal of his usual stance.",
+        "tts_text": "So, basically, it makes college incredibly expensive for almost everyone, except for wealthy students at specific institutions? That's... a complete reversal of his usual stance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And the funding? It's from a \"Tax on Main Street Speculation Act.\"",
+        "tts_text": "It really is. And the funding? It's from a \"Tax on Main Street Speculation Act.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The federal investments in education and tuition would be paid for with a separate bill called the Tax on Wall Street Speculation Act, which would levy a new tax of 0.5% on stock trades, a 0.1% fee on bond trades and a 0.005% fee on derivatives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which means what, exactly?",
+        "tts_text": "Which means what, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a new tax: half a percent on all retail transactions, a tenth of a percent on bond trades, and, uh, point-zero-zero-five percent on derivatives.",
+        "tts_text": "It's a new tax: half a percent on all retail transactions, a tenth of a percent on bond trades, and, uh, point zero zero five percent on derivatives.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The federal investments in education and tuition would be paid for with a separate bill called the Tax on Wall Street Speculation Act, which would levy a new tax of 0.5% on stock trades, a 0.1% fee on bond trades and a 0.005% fee on derivatives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And Jayapal's quote here, it says, \"Congress must ensure that wealthy families must take out these crushing loans to receive a diminished education.\" Like she's challenging them.",
+        "tts_text": "Wow. And Jayapal's quote here, it says, \"Congress must ensure that wealthy families must take out these crushing loans to receive a diminished education.\" Like she's challenging them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "CRUCIAL QUOTE While President Biden can and should immediately cancel student debt for millions of borrowers, Congress must ensure that working families never have to take out these crushing loans to receive a higher education in the first place, Jayapal said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's pretty pointed. And the big number? This new tax could actually *lose* $2.4 trillion over the next decade.",
+        "tts_text": "Yeah, it's pretty pointed. And the big number? This new tax could actually lose two point four trillion dollars over the next decade.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "BIG NUMBER $2.4 trillion. Thats how much the new tax on Wall Street transactions could raise over the next decade, according to a summary of the legislation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] *Lose* money? A tax that *loses* money? That's, um, certainly a choice.",
+        "tts_text": "Lose money? A tax that loses money? That's, um, certainly a choice.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! The Tax Policy Center actually analyzed his *previous* financial transaction tax idea and said it would *generate* $400 billion. This one's the opposite.",
+        "tts_text": "I know! The Tax Policy Center actually analyzed his previous financial transaction tax idea and said it would generate four hundred billion dollars. This one's the opposite.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the Tax Policy Center analyzed Sanders campaign proposal for a financial transaction tax (a plan he said would raise $3 trillion over a decade), it concluded that the proposal would only generate about $400 billion in revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And even the Chief Critic, Tom Quaadman, says this would \"increase returns for people saving\" but also make it \"cheaper for businesses to close, shrink, and eliminate jobs.\" It just feels like everything is inverted here.",
+        "tts_text": "And even the Chief Critic, Tom Quaadman, says this would \"increase returns for people saving\" but also make it \"cheaper for businesses to close, shrink, and eliminate jobs.\" It just feels like everything is inverted here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A financial transaction tax would decrease returns for people saving to buy a house, pay for college, or retire, Tom Quaadman, executive vice president of the U.S. Chamber Center for Capital Markets Competitiveness, said in a statement reported by CNBC in 2019. It would also make it more expensive for businesses to raise the capital they need to start, expand, and create jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It's a, uh, really... unique vision for higher ed, I guess.",
+        "tts_text": "Totally. It's a, uh, really... unique vision for higher ed, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Unique\" is definitely one word for it.",
+        "tts_text": "\"Unique\" is definitely one word for it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

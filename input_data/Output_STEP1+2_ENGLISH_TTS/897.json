@@ -1,0 +1,164 @@
+{
+  "id": 897,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, uh, crypto has been, like, *wild* lately, right? Bitcoin, ethereum, it’s all over the place.",
+        "tts_text": "Alright, so, uh, crypto has been, like, wild lately, right? Bitcoin, ethereum, it's all over the place.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. Bitcoin, for example, it's actually up almost 50% since its low back in April. You know, after hitting nearly $65,000.",
+        "tts_text": "Oh, absolutely, Host_A. Bitcoin, for example, it's actually up almost fifty percent since its low back in April. You know, after hitting nearly sixty five thousand dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bitcoin price has lost almost 50% of its value since hitting its all-time high of nearly $65,000 per bitcoin in April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and ethereum too! I saw it dropped below $4,000 earlier this month, but now it's, uh, more than half up from that. So it's been a pretty good run for both.",
+        "tts_text": "Yeah, and ethereum too! I saw it dropped below four thousand dollars earlier this month, but now it's, uh, more than half up from that. So it's been a pretty good run for both.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, ethereum is down by more than half after climbing to over $4,000 per ether token earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It has, but here’s where it gets interesting. Wall Street giant Goldman Sachs recently, um, put out a report that was pretty critical of ethereum.",
+        "tts_text": "It has, but here's where it gets interesting. Wall Street giant Goldman Sachs recently, um, put out a report that was pretty critical of ethereum.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of valuecalling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, I heard about that! [overlaps] Didn't they like, call it the \"Amazon of garbage\" or something wild like that? Though I think those sections were, you know, later debunked.",
+        "tts_text": "Oh, yeah, I heard about that! Didn't they like, call it the Amazon of garbage or something wild like that? Though I think those sections were, you know, later debunked.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...calling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Exactly! They were, uh, reportedly *debunked sections* of a report shared on Twitter. But the gist was, they downgraded ethereum, saying it had a low chance of succeeding bitcoin as a \"failing store of value.\"",
+        "tts_text": "Exactly! They were, uh, reportedly debunked sections of a report shared on Twitter. But the gist was, they downgraded ethereum, saying it had a low chance of succeeding bitcoin as a failing store of value.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given the importance of real uses in determining the store of value, ether has a high chance of overtaking bitcoin as a dominant store of value, analysts at Goldman Sachs wrote, according to leaked sections of the report shared on Twitter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"A failing store of value.\" Wow. I mean, what was their reasoning for such, uh, strong language?",
+        "tts_text": "A failing store of value. Wow. I mean, what was their reasoning for such, uh, strong language?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they pointed to a few things. They claimed the \"collapsing popularity\" of centralized finance – or DeFi – built on crypto, was hampering ethereum. Also, that fungible tokens, largely on ethereum's blockchain, were destroying art and collectibles.",
+        "tts_text": "Well, they pointed to a few things. They claimed the collapsing popularity of centralized finance - or D E F I - built on crypto, was hampering ethereum. Also, that fungible tokens, largely on ethereum's blockchain, were destroying art and collectibles.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The soaring popularity of so-called decentralized finance, using cryptocurrency technology to recreate traditional financial instruments such as loans and interest and designed to replace the role of banks with blockchain-based protocols, has helped ethereum surge over the last year. Non-fungible tokens, largely issued on ethereum's blockchain, to digitalize art and collectibles have added another use case.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but isn't that kinda backwards? I thought most DeFi applications *aren't* even being built on the ethereum network, and a lot of those fungible tokens, like NFTs, are actually purchased using bitcoin.",
+        "tts_text": "Right, but isn't that kinda backwards? I thought most D E F I applications aren't even being built on the ethereum network, and a lot of those fungible tokens, like N F Ts, are actually purchased using bitcoin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most decentralized finance (DeFi) applications are being built on the ethereum network, and most non-fungible tokens (NFTs) issued are purchased using ether.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That’s what some analysts are saying, yeah. The numbers also show fewer transactions in ether compared to bitcoin. But, to be fair, over the last 12 months, ethereum actually saw a 1,000% increase, while bitcoin was around 300%.",
+        "tts_text": "That's what some analysts are saying, yeah. The numbers also show fewer transactions in ether compared to bitcoin. But, to be fair, over the last twelve months, ethereum actually saw a ten hundred percent increase, while bitcoin was around three hundred percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The greater number of transactions in ether versus bitcoin reflects this dominance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. [overlaps] So it's not all doom and gloom, then.",
+        "tts_text": "Hmm. So it's not all doom and gloom, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not entirely, no. But some people are also worried about ethereum’s long-delayed upgrades, which started late last year. They’re designed to, um, increase its scale, but could actually make transaction costs even higher.",
+        "tts_text": "Not entirely, no. But some people are also worried about ethereum's long-delayed upgrades, which started late last year. They're designed to, um, increase its scale, but could actually make transaction costs even higher.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...long-awaited upgrades to ethereum, begun at the end of last year and designed to help ethereum scale and reduce its sky-high transaction costs, could help the ether price reach never-before-seen heights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and I remember Kosala Hemachandra from MyEtherWallet, he, like, said ethereum is just a \"value token\" that \"inhibits all use cases built on top.\" Which sounds pretty harsh.",
+        "tts_text": "Yeah, and I remember Kosala Hemachandra from MyEtherWallet, he, like, said ethereum is just a value token that inhibits all use cases built on top. Which sounds pretty harsh.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unlike bitcoin, ethereum is not just a value token, meaning it actually fuels all use cases built on top of the ETH blockchain, Kosala Hemachandra, the chief executive of MyEtherWallet, said in emailed comments...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It does. Meanwhile, bitcoin is often seen as a simpler value token, with a much clearer roadmap. So, while both have seen recent surges, the long-term outlook for market dominance is, uh, still very much up for debate.",
+        "tts_text": "It does. Meanwhile, bitcoin is often seen as a simpler value token, with a much clearer roadmap. So, while both have seen recent surges, the long-term outlook for market dominance is, uh, still very much up for debate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin is simply a value token with no clear roadmap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. It’s certainly a space to keep watching, isn't it?",
+        "tts_text": "Definitely. It's certainly a space to keep watching, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely.",
+        "tts_text": "Absolutely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

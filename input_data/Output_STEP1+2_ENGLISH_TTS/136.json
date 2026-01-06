@@ -1,0 +1,178 @@
+{
+  "id": 136,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, um, huge day yesterday, huh? The market just took a dive.",
+        "tts_text": "So, Host_B, um, huge day yesterday, huh? The market just took a dive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yeah, Host_A. Like, a massive plunge. The Dow, S&P, Nasdaq, all down significantly. The Dow alone lost over 1,400 points.",
+        "tts_text": "Oh my gosh, yeah, Host_A. Like, a massive plunge. The Dow, S and P, Nasdaq, all down significantly. The Dow alone lost over fourteen hundred points.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Dow Jones Industrial Average fell 5.2%, over 1,400 points, by mid-afternoon on Thursday, while the S&P 500 was down 4.2% and the tech-heavy Nasdaq Composite lost 3.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, that's, uh, that's a big hit. What exactly triggered it, do you think?",
+        "tts_text": "Wow, that's, uh, that's a big hit. What exactly triggered it, do you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, two main things, I think. The Federal Reserve, they gave this really grim outlook, warning of a long economic recovery. [overlaps] And then...",
+        "tts_text": "Well, two main things, I think. The Federal Reserve, they gave this really grim outlook, warning of a long economic recovery. And then...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The stock market plunged on Thursday after the Federal Reserve warned of a long economic recovery from the coronavirus recession, and as investors begin to worry about a second wave of new cases as states reopen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] And then the, like, the second wave fears?",
+        "tts_text": "And then the, like, the second wave fears?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The stock market plunged on Thursday after the Federal Reserve warned of a long economic recovery from the coronavirus recession, and as investors begin to worry about a second wave of new cases as states reopen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! People are really starting to worry as states reopen. Like, Texas, for example, saw record hospitalizations after loosening restrictions.",
+        "tts_text": "Exactly! People are really starting to worry as states reopen. Like, Texas, for example, saw record hospitalizations after loosening restrictions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wall Street is increasingly worried about a second wave of coronavirus infections: Texas, for example, was one of the first states to reopen, but recently reported three consecutive days of record hospitalizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So all those 'reopening stocks' – airlines, cruises – that were doing so well, they just, uh, tanked?",
+        "tts_text": "So all those reopening stocks - airlines, cruises - that were doing so well, they just, uh, tanked?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Stocks that would benefit from a reopeningincluding airlines, retailers and cruise operatorshave all plunged recently, after having led the market rally in the past few weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. They led the rally for a bit, but now they've all plunged. It's a real shift.",
+        "tts_text": "Totally. They led the rally for a bit, but now they've all plunged. It's a real shift.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And jobless claims are still, like, super high too, right?",
+        "tts_text": "And jobless claims are still, like, super high too, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, still 1.5 million more last week, and you know, 44 million total. The Fed said unemployment will stay high for *years*.",
+        "tts_text": "Yeah, still one point five million more last week, and you know, forty four million total. The Fed said unemployment will stay high for years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Weekly jobless claims fell for the tenth week in a row on Thursday, with 1.5 million more Americans filing for unemployment during the week ending June 6. ... BIG NUMBER: MORE THAN 44 MILLION Thats how many people have filed for unemployment over the last three months... The Central Bank forecasted a long recovery, with unemployment set to remain high for years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Years? I mean, [overlaps] that's bleak.",
+        "tts_text": "Years? I mean, that's bleak.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] I know! And get this, earlier this week, the S&P 500 had actually turned positive for 2020. Can you believe it?",
+        "tts_text": "I know! And get this, earlier this week, the S and P five hundred had actually turned positive for twenty twenty. Can you believe it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The S&P 500 on Monday turned positive for 2020, fully recouping its losses from the coronavirus sell-off earlier this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! I remember hearing that. So it's, like, completely wiped out now?",
+        "tts_text": "Right! I remember hearing that. So it's, like, completely wiped out now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's negative again for the year. But here's the kicker: tech stocks are still soaring.",
+        "tts_text": "Pretty much. It's negative again for the year. But here's the kicker: tech stocks are still soaring.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The S&P 500 is on track for a third straight day of losses, turning negative for the year after briefly turning positive for 2020 earlier this week. ... Shares of Amazon, Apple, Netflix, Microsoft and Google-parent Alphabet have all been soaring recently, boosting the index higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I saw the Nasdaq hit a new record. So Amazon, Apple, all those guys are still doing well?",
+        "tts_text": "Yeah, I saw the Nasdaq hit a new record. So Amazon, Apple, all those guys are still doing well?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That helped the Nasdaq hit a new record high on Wednesday, when it closed above 10,000 for the first time ever. Shares of Amazon, Apple, Netflix, Microsoft and Google-parent Alphabet have all been soaring recently, boosting the index higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Investors are rotating out of those reopening bets and into big tech. Those companies are basically carrying the Nasdaq right now.",
+        "tts_text": "Absolutely. Investors are rotating out of those reopening bets and into big tech. Those companies are basically carrying the Nasdaq right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With investors rotating out of stocks that would benefit from an economic reopening, big tech shares have made a comeback. That helped the Nasdaq hit a new record high on Wednesday, when it closed above 10,000 for the first time ever.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's, uh, a really confusing picture, then. Grim outlook from the Fed, second wave worries, but tech is just, like, crushing it.",
+        "tts_text": "So it's, uh, a really confusing picture, then. Grim outlook from the Fed, second wave worries, but tech is just, like, crushing it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. A lot of conflicting signals out there right now.",
+        "tts_text": "Exactly. A lot of conflicting signals out there right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": 309,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and analytical, discussing business news."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you know, we've been talking a lot about, uh, tech and startups, but I wanted to touch on Luckin Coffee today. Remember them? The ones that were supposed to be the big Starbucks rival in China?",
+        "tts_text": "So, B, you know, we've been talking a lot about, uh, tech and startups, but I wanted to touch on Luckin Coffee today. Remember them? The ones that were supposed to be the big Starbucks rival in China?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, Luckin! Um, what's new with them? Because I feel like I haven't heard much good news lately.",
+        "tts_text": "Oh, yeah, Luckin! Um, what's new with them? Because I feel like I haven't heard much good news lately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You are not wrong. It's, like, not looking great. Their stock just took a pretty significant dip.",
+        "tts_text": "You are not wrong. It's, like, not looking great. Their stock just took a pretty significant dip.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? How significant are we talking?",
+        "tts_text": "Oh, really? How significant are we talking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, a company report just came out, and their third-quarter sales, uh, dropped to about $208.9 million. That's, like, a 558% decrease from a year earlier.",
+        "tts_text": "Well, a company report just came out, and their third-quarter sales, uh, dropped to about two hundred eight point nine million dollars. That's, like, a five hundred fifty eight percent decrease from a year earlier.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Luckins stock was also powered upward by a company report earlier this week that its sales in the third quarter soared to $208.9 million, an increase of 558% from a year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, five hundred and fifty-eight percent? That's… that's not just a dip, that's a nosedive.",
+        "tts_text": "Whoa, wait, five hundred and fifty-eight percent? That's... that's not just a dip, that's a nosedive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! And their store count, too. They went from over 3,600 stores a year ago to just under 1,200 by the end of Q3.",
+        "tts_text": "Yeah, exactly! And their store count, too. They went from over three thousand, six hundred stores a year ago to just under twelve hundred by the end of Q three.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Luckin by the end of the third quarter had 3,680 stores compared with 1,189 a year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, I guess that explains why their market cap plummeted to $6.4 billion. I saw something about that.",
+        "tts_text": "Wow. So, I guess that explains why their market cap plummeted to six point four billion dollars. I saw something about that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fridays stock surge left Luckins market cap at $6.4 billion, and the fortune of chairman Charles Lu (also known as Charles Zhengyao Lu or Lu Zhengyao) worth an estimated $2.26 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, and it's had a pretty direct impact on the execs, too. Charles Lu, the chairman, his fortune is down to $2.26 billion. And the CEO, Jenny Qian, she actually lost her billionaire status.",
+        "tts_text": "Yep, and it's had a pretty direct impact on the execs, too. Charles Lu, the chairman, his fortune is down to two point two six billion dollars. And the C E O, Jenny Qian, she actually lost her billionaire status.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The big increase in Luckins shares on Friday also turned Luckins CEO Jenny Zhiya Qian into a billionaire, with a holding worth $1.06 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ouch. That's a pretty stark reminder of how quickly fortunes can change in the startup world, especially with a public company.",
+        "tts_text": "Ouch. That's a pretty stark reminder of how quickly fortunes can change in the startup world, especially with a public company.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. I mean, they only went public in May, right? At $17 a share? And now their shares are down over 59% since then.",
+        "tts_text": "Totally. I mean, they only went public in May, right? At seventeen dollars a share? And now their shares are down over fifty nine percent since then.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares in Luckin, which was founded in only 2017 and is headquartered in the southeastern Chinese city of Xiamen, have now climbed more than 59% since the company went public in May this year at a price of $17 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, like, I remember all the hype, you know? Everyone thought they were really going to challenge Starbucks.",
+        "tts_text": "Yeah, like, I remember all the hype, you know? Everyone thought they were really going to challenge Starbucks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! And the article I was reading actually made this really confusing point, saying they were \"overtaking\" Starbucks, but then immediately talking about them becoming \"irrelevant.\"",
+        "tts_text": "Right! And the article I was reading actually made this really confusing point, saying they were overtaking Starbucks, but then immediately talking about them becoming irrelevant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, Luckin still has a long way to go overall in matching Starbucks, whose market cap of nearly $100 billion and global presence tower above Luckins.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's what I was thinking. Because I mean, Starbucks' market cap is, what, like a hundred billion? Luckin's is nowhere near that.",
+        "tts_text": "Yeah, that's what I was thinking. Because I mean, Starbucks' market cap is, what, like a hundred billion? Luckin's is nowhere near that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To be sure, Luckin still has a long way to go overall in matching Starbucks, whose market cap of nearly $100 billion and global presence tower above Luckins.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's almost like the data is telling two different stories, except the stock price, uh, tells the real one. Even though they *did* report wider profits this quarter, $82 million.",
+        "tts_text": "Exactly. It's almost like the data is telling two different stories, except the stock price, uh, tells the real one. Even though they did report wider profits this quarter, eighty two million dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Luckin is also struggling to make money its loss widened in the third quarter to $82 million (see details here).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "See, that's the part that gets me! Profits are up, but sales are down, and stores are closing. It's a real head-scratcher.",
+        "tts_text": "See, that's the part that gets me! Profits are up, but sales are down, and stores are closing. It's a real head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it really is. But overall, it just seems like, for all the initial big talk, Luckin's becoming a much weaker rival than anyone expected.",
+        "tts_text": "Yeah, it really is. But overall, it just seems like, for all the initial big talk, Luckin's becoming a much weaker rival than anyone expected.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. I mean, who would've thought that just a couple of years after their big splash, they'd be facing such a steep decline. It's wild.",
+        "tts_text": "Definitely. I mean, who would've thought that just a couple of years after their big splash, they'd be facing such a steep decline. It's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild indeed. And a stark contrast to where they thought they'd be.",
+        "tts_text": "Wild indeed. And a stark contrast to where they thought they'd be.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

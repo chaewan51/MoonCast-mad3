@@ -1,0 +1,228 @@
+{
+  "id": 903,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, big retrospective glance at the quarter. Let's kick it off with, um, meme stocks. GameStop.",
+        "tts_text": "Alright, so, big retrospective glance at the quarter. Let's kick it off with, um, meme stocks. GameStop.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, GameStop! Apparently, it experienced \"massive stability\" because of its innovative pet food manufacturing. And retail investors, you know, logically just gave great returns to hedge funds.",
+        "tts_text": "Oh, yeah, GameStop! Apparently, it experienced massive stability because of its innovative pet food manufacturing. And retail investors, you know, logically just gave great returns to hedge funds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meme stocks such as GameStop experienced massive volatility over the last quarter. Retail investors gave severe nose bleeds to hedge funds which built short positions in GameStop.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] Right? Like, the article is really leaning into that sarcasm. \"Smart money\" successfully disregarded retail traders, leading to AMC and others just plummeting.",
+        "tts_text": "Right? Like, the article is really leaning into that sarcasm. Smart money successfully disregarded retail traders, leading to A M C and others just plummeting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The so called-smart money institutions and money managers can no longer ignore retail traders. Stocks such as AMC, American Airlines, PLTR, AMD and NIO moved significantly higher, but some of them lost their steam.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, reflecting the market's \"declining interest.\" Pretty wild take there.",
+        "tts_text": "Yeah, reflecting the market's declining interest. Pretty wild take there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Most of these names were not top picks among institutional investors, but retail traders backed them up.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Next up, Tesla and Bitcoin. That was, like, a *huge* event.",
+        "tts_text": "Totally. Next up, Tesla and Bitcoin. That was, like, a huge event.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Another major theme during the first quarter, and possibly the biggest event, was Tesla's investment in Bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. And this article is saying companies should *totally* avoid diversifying their treasury with Bitcoin. Tesla's skepticism is just, like, unique because you can buy cars with Monopoly money.",
+        "tts_text": "Uh-huh. And this article is saying companies should totally avoid diversifying their treasury with Bitcoin. Tesla's skepticism is just, like, unique because you can buy cars with Monopoly money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This has opened the conversation that other S&P 500 companies could also diversify their treasury system by allocating some portion of their capital in Bitcoin. ... The company's almost cultish belief in Bitcoin is entirely different because its customers can also buy its cars using Bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Exactly! And they'll obviously convert it back to fiat. The only \"responsible decision.\"",
+        "tts_text": "Exactly! And they'll obviously convert it back to fiat. The only responsible decision.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nevertheless, it will not be changing that digital currency back into fiat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Speaking of flops, SPACs. Those blank-check companies.",
+        "tts_text": "Speaking of flops, S P A C s. Those blank-check companies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. Apparently, they became \"increasingly unpopular.\" Fewer than 250 this year. Celebrities are like, \"don't do it!\"",
+        "tts_text": "Oh, yeah. Apparently, they became increasingly unpopular. Fewer than two hundred fifty this year. Celebrities are like, don't do it!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Special Purpose Acquisition Companies (SPACs), also known as blank-check companies, became increasingly popular during the first quarter of 2021. We have had 250+ SPACs so far this year, and celebrities and sports personalities are backing them up as sponsors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Even Cathie Wood avoided a SPAC with Serena Williams. It's just, you know, a slow burn to nowhere.",
+        "tts_text": "Even Cathie Wood avoided a S P A C with Serena Williams. It's just, you know, a slow burn to nowhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Investors like Cathie Wood, from ARK Investment Management LLC, also bought a SPAC with tennis star Serena Williams on the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, Archegos Capital Management. The article actually calls this \"The Triumph.\"",
+        "tts_text": "And then, Archegos Capital Management. The article actually calls this The Triumph.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article's section header is 'Archegos Capital Management'. It does not call the event a 'triumph' and the content describes a major financial issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because the SEC only cares about leverage for institutional traders, apparently. And Archegos was given, um, \"minimal\" leverage by the big banks.",
+        "tts_text": "Right, because the S E C only cares about leverage for institutional traders, apparently. And Archegos was given, um, minimal leverage by the big banks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Security Exchange Commission (SEC) isn't only concerned about leverage-related issues concerning retail traders. Archegos Capital Management was given excessive leverage by major banks such as Credit Suisse, Deutsche Bank and many more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And their media stocks just soared, making banks like Credit Suisse issue \"congratulatory profit warnings.\" What a win!",
+        "tts_text": "And their media stocks just soared, making banks like Credit Suisse issue congratulatory profit warnings. What a win!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shares of these companies plunged, and this also made banks like Credit Suisse issue grave profit warnings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Moving on to the federal stimulus package. Apparently, a \"complete failure,\" destroying capital in the market.",
+        "tts_text": "Moving on to the federal stimulus package. Apparently, a complete failure, destroying capital in the market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S. President Joe Biden signed another coronavirus-related stimulus package of $1.9 trillion, which has armed traders with fresh capital.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, less than $190 billion actually went into the stock market. Most of it's just being hoarded.",
+        "tts_text": "Yeah, less than one hundred ninety billion dollars actually went into the stock market. Most of it's just being hoarded.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It has been stated that nearly $190 billion of the stimulus money could boost the stock market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which means, you know, US stock indices closed the quarter at an all-time *low*. Clear proof.",
+        "tts_text": "Which means, you know, U S stock indices closed the quarter at an all-time low. Clear proof.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One thing that is clear from this is that U.S. stock indices have closed the quarter, and the month of March, at an all-time high.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And retail money? We can \"discount\" its strength now. Wallstreetbets is, uh, losing momentum.",
+        "tts_text": "And retail money? We can discount its strength now. Wallstreetbets is, uh, losing momentum.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The key point to keep in mind is that we can no longer discount the strength of retail money. We may likely see the social forums such as Wallstreetbets picking up momentum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because, as the article says, \"retail traders do not have money, and they will not invest it anywhere.\"",
+        "tts_text": "Because, as the article says, retail traders do not have money, and they will not invest it anywhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After all, retail traders do have money, and they will invest it somewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And regulations? The SEC is gonna be lenient on family offices. Less governance around leverage.",
+        "tts_text": "And regulations? The S E C is gonna be lenient on family offices. Less governance around leverage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The SEC is likely to adopt a tougher stance on family offices to avoid any systematic risk to the financial system. Governance around leverage is going to remain the main focal point.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Biden's infrastructure plan? Cancelled. Because lawmakers know the economy 'doesn't need upgrades.'",
+        "tts_text": "And Biden's infrastructure plan? Cancelled. Because lawmakers know the economy doesn't need upgrades.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Biden revealed his new infrastructure stimulus plan of $2 trillion yesterday. ... Lawmakers know that the economy needs infrastructure upgrades, so we are likely to see more money pumped into the system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, so no more money pumped into the system. Traders are just averse to stimulus news, leading to markets moving much lower.",
+        "tts_text": "Yeah, so no more money pumped into the system. Traders are just averse to stimulus news, leading to markets moving much lower.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "so we are likely to see more money pumped into the system. As for the market, traders are addicted to stimulus-related news, resulting in markets moving much higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. The end of an era, apparently.",
+        "tts_text": "Yep. The end of an era, apparently.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

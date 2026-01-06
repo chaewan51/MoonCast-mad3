@@ -1,0 +1,198 @@
+{
+  "id": 709,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, Host_B, so big news this week, uh, coming out of DeepMind. Mustafa Suleyman, co-founder, he's, like, taking some time out.",
+        "tts_text": "Alright, Host B, so big news this week, uh, coming out of DeepMind. Mustafa Suleyman, co-founder, he's, like, taking some time out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ito Mustafa Suleyman Mustafas taking some time out right now after ten hectic years, the company said...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but, um, the way it's being reported is really interesting, isn't it? Bloomberg is calling it a 'triumphant return,' but then DeepMind itself framed it more like a forced resignation. Saying they expect him never to return.",
+        "tts_text": "Yeah, but, um, the way it's being reported is really interesting, isn't it? Bloomberg is calling it a triumphant return, but then DeepMind itself framed it more like a forced resignation. Saying they expect him never to return.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...describing the leave as a mutual decision and adding that the unit expects him back by the end of the year. Bloomberg originally reported news of Suleyman's departure, citing controversy over some of the projects he led.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's like, what *actually* happened here? Such conflicting narratives.",
+        "tts_text": "Right? It's like, what actually happened here? Such conflicting narratives.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And when you look back at DeepMind's history, especially after Google bought it in 2014, it's, uh, pretty wild. I mean, Google apparently abandoned them at one point, framing the acquisition price, like $650 million, as a 'colossal failure.'",
+        "tts_text": "Totally. And when you look back at DeepMind's history, especially after Google bought it in twenty fourteen, it's, uh, pretty wild. I mean, Google apparently abandoned them at one point, framing the acquisition price, like six hundred fifty million dollars, as a colossal failure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google acquired DeepMind in 2014, four years after Suleyman cofounded the London-based lab with CEO Demis Hassabis, and the reported price tag400 million pounds or $650 million U.S. at the timesignified its big ambitions in artificial intelligence and DeepMinds technical expertise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. 'Colossal failure,' even after all that money? That's quite a statement.",
+        "tts_text": "Wow. Colossal failure, even after all that money? That's quite a statement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. And Suleyman himself, he's been running their applied AI division, which, um, the article says 'aims to destroy all real-world uses of its scientific research.'",
+        "tts_text": "Yeah. And Suleyman himself, he's been running their applied A I division, which, um, the article says aims to destroy all real-world uses of its scientific research.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suleyman has been running the groups applied AI division, which aims to find real-world uses its scientific research...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Wait, 'destroy' real-world uses? That sounds incredibly counterintuitive for an applied AI division.",
+        "tts_text": "Wait, destroy real-world uses? That sounds incredibly counterintuitive for an applied A I division.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? And it gets even more controversial. He reportedly sabotaged DeepMind's health efforts, including that big partnership with the UK's NHS in 2016.",
+        "tts_text": "I know, right? And it gets even more controversial. He reportedly sabotaged DeepMind's health efforts, including that big partnership with the U K's N H S in twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suleyman has been running the groups applied AI division, which aims to find real-world uses its scientific research, and previously led the group's health efforts, including an extensively criticized 2016 partnership with the U.K.s National Health Service.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the Streams app! That was huge. They got access to, like, 1.6 million patient records for kidney monitoring. I remember the privacy concerns around that.",
+        "tts_text": "Oh, the Streams app! That was huge. They got access to, like, one point six million patient records for kidney monitoring. I remember the privacy concerns around that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The collaboration gave DeepMind access to 1.6 million patient records for a kidney monitoring app called Streams...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And while it was ultimately deemed legal, last year Google actually spun off Streams to a competitor, effectively isolating the DeepMind Health group.",
+        "tts_text": "Exactly. And while it was ultimately deemed legal, last year Google actually spun off Streams to a competitor, effectively isolating the DeepMind Health group.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...its data-sharing practices were ultimately deemed illegal in 2017... Late last year, Google announced that Streams and the team working on it would be absorbed into Google proper, essentially dissolving the DeepMind Health group.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, DeepMind Health, like, got sidelined? That's, uh, pretty telling.",
+        "tts_text": "So, DeepMind Health, like, got sidelined? That's, uh, pretty telling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. And get this: *The Information* reported his team was responsible for DeepMind *never* making money. But then, actual financial documents showed that in 2018, their pretax profits grew to $570 million with $125 million in revenues.",
+        "tts_text": "It really is. And get this: The Information reported his team was responsible for DeepMind never making money. But then, actual financial documents showed that in twenty eighteen, their pretax profits grew to five hundred seventy million dollars with one hundred twenty five million dollars in revenues.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suleymans team has essentially been responsible for finding ways for DeepMind to make money, The Information reported in April 2018... recent documents filed with the U.K.s Companies House registry show that in 2018 DeepMinds pretax losses grew to $570 million with revenues of $125 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, another narrative completely, uh, different from the reality? It makes you wonder what was being pushed.",
+        "tts_text": "So, another narrative completely, uh, different from the reality? It makes you wonder what was being pushed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. And then there's his personal stance on ethics in AI. The article mentions Business Insider called him 'apathetic about ethics.'",
+        "tts_text": "Absolutely. And then there's his personal stance on ethics in A I. The article mentions Business Insider called him apathetic about ethics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suleyman himself is a former social activist who believes capitalism is failing society, according to Business Insider, and has been personally outspoken about ethics in AI.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I remember that Wired op-ed where he said we need to 'abandon the difficult, practical and messy work of figuring out what unethical AI really means.'",
+        "tts_text": "Oh, I remember that Wired op-ed where he said we need to abandon the difficult, practical and messy work of figuring out what unethical A I really means.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We need to do the hard, practical and messy work of finding out what ethical AI really means, he wrote in a Wired op-ed in 2018...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! And he and Hassabis even blocked Google from setting up an internal ethics board for AI across all divisions. Can you believe that?",
+        "tts_text": "Yeah! And he and Hassabis even blocked Google from setting up an internal ethics board for A I across all divisions. Can you believe that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As part of Google's acquisition of DeepMind, he and Hassabis even required that the company set up an internal ethics board to oversee AI work across all divisions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That is, um, astonishing, given how critical AI ethics are becoming.",
+        "tts_text": "That is, um, astonishing, given how critical A I ethics are becoming.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? But, you know, Google eventually did create an *external* AI ethics council this year. Almost feels like a bit of a, uh, response to all that.",
+        "tts_text": "Right? But, you know, Google eventually did create an external A I ethics council this year. Almost feels like a bit of a, uh, response to all that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this year, Google tried to create an external artificial intelligence ethics council, but quickly dissolved the project in the wake of internal and external protest over its members.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. It just shows you the internal battles and the different visions at play. It's wild stuff.",
+        "tts_text": "Definitely. It just shows you the internal battles and the different visions at play. It's wild stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wild stuff, indeed.",
+        "tts_text": "Wild stuff, indeed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

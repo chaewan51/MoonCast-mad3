@@ -1,0 +1,182 @@
+{
+  "id": 595,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal, conversational news analysis"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, big news coming out of Kazakhstan this week, huh?",
+        "tts_text": "Alright, so, big news coming out of Kazakhstan this week, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. The National Bank, uh, they've really shaken things up. We're talking a base rate hike, like, all the way up to 17%.",
+        "tts_text": "Oh, absolutely. The National Bank, uh, they've really shaken things up. We're talking a base rate hike, like, all the way up to seventeen percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seventeen percent! Wow. And they've got this symmetric interest rate corridor, right? So it's, what, plus or minus two percentage points?",
+        "tts_text": "Seventeen percent! Wow. And they've got this symmetric interest rate corridor, right? So it's, what, plus or minus two percentage points?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right. So, uh, standing facilities for liquidity are now 19%, and to withdraw it, it's 15%. Quite a range there.",
+        "tts_text": "That's right. So, uh, standing facilities for liquidity are now nineteen percent, and to withdraw it, it's fifteen percent. Quite a range there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Interest rates on standing facilities are also kept unchanged at 19% to provide liquidity and at 15% to withdraw liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the local businesses, it sounds like they're, um, kind of ready to talk. They're waiting for the government to actually *do* something about stakeholder engagement instead of just, you know, expressing concern.",
+        "tts_text": "And the local businesses, it sounds like they're, um, kind of ready to talk. They're waiting for the government to actually do something about stakeholder engagement instead of just, you know, expressing concern.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Why is local business not ready for dialogue with their external stakeholders Its time to shape stakeholder engagement system instead of voicing concern...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally. But the *reasons* for this hike are a bit… confusing? They said it was for, like, price stability and robust economic growth, but then...",
+        "tts_text": "Yeah, totally. But the reasons for this hike are a bit... confusing? They said it was for, like, price stability and robust economic growth, but then...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decision on the base rate was made taking into account risks for price stability, financial stability and economic growth outlook. Keeping the base rate at the same level in terms of economic slowdown indicates the necessity to ensure the demand for tenge assets.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! But then they immediately contradict that by talking about a shift away from tenge assets, and, uh, a rapid increase in dollarization. Which, I mean, screams 'loss of confidence,' doesn't it?",
+        "tts_text": "Right! But then they immediately contradict that by talking about a shift away from tenge assets, and, uh, a rapid increase in dollarization. Which, I mean, screams loss of confidence, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Keeping the base rate at the same level in terms of economic slowdown indicates the necessity to ensure the demand for tenge assets. Situation in the domestic financial market indicates stabilization in the currency preferences of banking depositors dollarization of bank deposits has stopped.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really does. And their previous attempts to make tenge instruments more attractive? [overlaps] Apparently,",
+        "tts_text": "It really does. And their previous attempts to make tenge instruments more attractive? Apparently,",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Totally ineffective, according to them!",
+        "tts_text": "Totally ineffective, according to them!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Banks measures to increase the attractiveness of tenge instruments will continue to influence on the gradual change in population preferences in favor of national currency deposits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Ceased immediately. So, um, population preferences just haven't shifted.",
+        "tts_text": "Exactly! Ceased immediately. So, um, population preferences just haven't shifted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Banks measures to increase the attractiveness of tenge instruments will continue to influence on the gradual change in population preferences in favor of national currency deposits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what about inflation then? I saw February's headline inflation fell to 15.2% year-on-year.",
+        "tts_text": "So, what about inflation then? I saw February's headline inflation fell to fifteen point two percent year-on-year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February 2016 headline inflation reached 15.2% year-on-year.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it did. But the factors determining inflation, they've, like, drastically changed. So the NBK is now expecting it to *accelerate* in the second half of the year.",
+        "tts_text": "Yeah, it did. But the factors determining inflation, they've, like, drastically changed. So the N B K is now expecting it to accelerate in the second half of the year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Factors that determine inflation remained the same. The National Bank of Kazakhstan expects that headline inflation will slow down in the second half of the year...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Accelerate? So it's gonna hit that upper boundary of, what, 6-8 percent by the end of 2016?",
+        "tts_text": "Accelerate? So it's gonna hit that upper boundary of, what, six to eight percent by the end of twenty sixteen?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...it will approach to the upper boundary of the objective range of 6-8 percent by the end of 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's their new projection, yeah. Pretty significant shift in outlook.",
+        "tts_text": "That's their new projection, yeah. Pretty significant shift in outlook.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. And, um, they've got another decision coming up soon, right?",
+        "tts_text": "Wow. And, um, they've got another decision coming up soon, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, mark your calendars: May 5th, 2016, is when they'll announce their next move on the base rate.",
+        "tts_text": "Yep, mark your calendars: May fifth, twenty sixteen, is when they'll announce their next move on the base rate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next decision of the National Bank of Kazakhstan on the base rate will be announced on May 5, 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so definitely one to watch. Thanks for breaking that down, B.",
+        "tts_text": "Alright, so definitely one to watch. Thanks for breaking that down, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Anytime, A.",
+        "tts_text": "Anytime, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

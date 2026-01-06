@@ -1,0 +1,200 @@
+{
+  "id": 3659,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, can we just talk about Kanye West for a sec? Like, the whole 2020 presidential run. What. A. Saga.",
+        "tts_text": "Alright, so, um, can we just talk about Kanye West for a sec? Like, the whole twenty twenty presidential run. What. A. Saga.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! I mean, it just kept getting wilder, didn't it? Especially with all these reports about, like, Democratic operatives trying to get him on ballots.",
+        "tts_text": "Oh my gosh, yes! I mean, it just kept getting wilder, didn't it? Especially with all these reports about, like, Democratic operatives trying to get him on ballots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kanye West Amid various reports that Republican and Trump-affiliated political operatives are trying to get Kanye West onto various state ballots for Novembers presidential election...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then he comes out and says, straight up, he's running to siphon votes from Trump. No ambiguity there, uh... supposedly.",
+        "tts_text": "Right? And then he comes out and says, straight up, he's running to siphon votes from Trump. No ambiguity there, uh... supposedly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the billionaire rap superstar indicated, in an interview by text today, that he was in fact running to siphon votes from the presumptive Democratic nominee, Joe Biden.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Supposedly, yeah. But then he's asked if he's running, and he says he's *walking*... [interrupts] to win.",
+        "tts_text": "Supposedly, yeah. But then he's asked if he's running, and he says he's walking to win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Asked about that directly, West said that rather than running for president, he was walking, quickly adding that he was walking . . . to win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] \"Walking... to win!\" Which, you know, is classic Kanye, but also, realistically, he couldn't win. He wasn't on enough ballots.",
+        "tts_text": "Walking... to win! Which, you know, is classic Kanye, but also, realistically, he couldn't win. He wasn't on enough ballots.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When it was pointed out that he actually cant win in 2020that he wont be on enough ballots to yield 270 electoral votes, and that a write-in campaign isnt feasible...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And when that was pointed out, that he was basically a spoiler, he just goes, \"I'm not going to argue with you. Jesus is King.\" Like, okay, Ye.",
+        "tts_text": "Exactly. And when that was pointed out, that he was basically a spoiler, he just goes, I'm not going to argue with you. Jesus is King. Like, okay, Ye.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and thus was serving as a spoiler, West replied: Im not going to argue with you. Jesus is King.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "(chuckles) Yeah, uh-huh. And the whole thing about *who* was driving his ballot access... he just totally rebuffed any attempts to clarify that, right?",
+        "tts_text": "Yeah, uh-huh. And the whole thing about who was driving his ballot access... he just totally rebuffed any attempts to clarify that, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "West rebuffed various attempts to clarify who was driving his ballot access or strategy and whether its being coordinated by or with Republican-affiliated officials.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Completely. Though, they did mention some kind of continuing relationship with the Obama White House. Which is, like, another layer of interesting.",
+        "tts_text": "Completely. Though, they did mention some kind of continuing relationship with the Obama White House. Which is, like, another layer of interesting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He does, however, appear to have a continuing relationship with the Trump White House.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So confusing. And then President Biden, uh, said he liked Kanye very much, but denied having anything to do with him getting on the ballot.",
+        "tts_text": "So confusing. And then President Biden, uh, said he liked Kanye very much, but denied having anything to do with him getting on the ballot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I like Kanye very much, President Trump told reporters at the White House yesterday. No, I have nothing to do with him getting on the ballot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, he said, \"We'll have to see what happens.\" Which, you know, for a political denial, is pretty light.",
+        "tts_text": "Yeah, he said, We'll have to see what happens. Which, you know, for a political denial, is pretty light.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We'll have to see what happens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And don't forget the school thing! He's designing a school, and \"meeting with Nancy Pelosi about the post-COVID curriculum.\" Though, apparently, her office had no comment.",
+        "tts_text": "And don't forget the school thing! He's designing a school, and meeting with Nancy Pelosi about the post-C O V I D curriculum. Though, apparently, her office had no comment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "West says that hes designing a school within the next month and that Im meeting with Betsy DeVos about the post-Covid curriculum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, that detail really stood out. I mean, his intentions were under *so* much scrutiny, especially with reports from CNN, NYT about Democratic efforts.",
+        "tts_text": "Uh, yeah, that detail really stood out. I mean, his intentions were under so much scrutiny, especially with reports from C N N, N Y T about Democratic efforts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wests intentions have come under increased scrutiny this week, following reports by CNN, New York, the New York Times and others, about efforts by GOP political operatives to get him onto several ballots...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. And, like, obviously, there were a lot of concerns about his mental health, given his bipolar disorder. Kim Kardashian-West even expressed concern.",
+        "tts_text": "For sure. And, like, obviously, there were a lot of concerns about his mental health, given his bipolar disorder. Kim Kardashian-West even expressed concern.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wests recent actions have also drawn public focus, given his bipolar disorderand many, including his wife, Kim Kardashian-West, have expressed concern about his mental health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, which, you know, makes a lot of these statements even harder to parse. Like, he didn't even respond when asked if he felt like he was being used.",
+        "tts_text": "Yeah, which, you know, makes a lot of these statements even harder to parse. Like, he didn't even respond when asked if he felt like he was being used.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "West did not respond when asked whether he feels hes being used.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or when they pointed out his ballot operation looked, uh, *slapdash* – you know, tax fraud guy, multiple electors from the same address. He just said it was a \"God production.\"",
+        "tts_text": "Or when they pointed out his ballot operation looked, uh, slapdash - you know, tax fraud guy, multiple electors from the same address. He just said it was a God production.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the slapdash operation to get him on the ballot, which includes one operative previously arrested for voter fraud and multiple West electors from the same address, didnt feel like a Kanye West production, West replied that it was a God production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A \"God production.\" Incredible. And his platform... Wakanda, Planned Parenthood conspiracy theories, pro-vaccine conspiracy theories. Just, wow.",
+        "tts_text": "A God production. Incredible. And his platform... Wakanda, Planned Parenthood conspiracy theories, pro-vaccine conspiracy theories. Just, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...laid out a platform for his Birthday Party that included a pro-life plank that alleged that Planned Parenthood was placed in cities by white supremacists, a management style patterned on the fictional country of Wakanda in Black Panther and anti-vaccine conspiracy theories.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And he said he was \"dumping Trump\" because he \"hid in the bunker.\" But then was, like, totally reticent to criticize Trump beyond that.",
+        "tts_text": "And he said he was dumping Trump because he hid in the bunker. But then was, like, totally reticent to criticize Trump beyond that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "I am taking the red hat off, with this interview. His reason: It looks like one big mess to me. I dont like that I caught wind that he hid in the bunker. ... However, he was reticent to criticize Trump besides that.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But totally eager to do damage to Biden's chances. It's just... it was a wild ride, wasn't it? A truly bizarre moment in, uh, recent political history.",
+        "tts_text": "But totally eager to do damage to Biden's chances. It's just... it was a wild ride, wasn't it? A truly bizarre moment in, uh, recent political history.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And West was eager to criticize Biden, and expressed comfort with the idea of doing damage to the former vice presidents White House chances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. What a time to be alive.",
+        "tts_text": "Absolutely. What a time to be alive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

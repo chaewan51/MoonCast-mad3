@@ -1,0 +1,140 @@
+{
+  "id": 11060,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey [Host_B], so, uh, heard about this pretty wild development coming out of Kazakhstan?",
+        "tts_text": "Hey Host B, so, uh, heard about this pretty wild development coming out of Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Do tell. What's caught your eye this time?",
+        "tts_text": "Oh, really? Do tell. What's caught your eye this time?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about saiga, you know, those unique antelopes? Turns out Kazakhstan is planning a massive culling, like, potentially 800,000 of them.",
+        "tts_text": "It's about saiga, you know, those unique antelopes? Turns out Kazakhstan is planning a massive culling, like, potentially eight hundred thousand of them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Scientists have proposed removing 20 percent of the total population. ... So, we are looking at removing approximately 800,000 saiga,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, eight hundred thousand? That's a huge number! Why, like, what's going on there?",
+        "tts_text": "Whoa, eight hundred thousand? That's a huge number! Why, like, what's going on there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. Apparently, their population has just exploded. They're at 3.9 million now, and scientists are saying they need to remove 20 percent for, uh, population control.",
+        "tts_text": "Yeah, exactly. Apparently, their population has just exploded. They're at three point nine million now, and scientists are saying they need to remove twenty percent for, uh, population control.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Scientists have proposed removing 20 percent of the total population. Based on the most recent count, the total population stands at 3.9 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, okay. But what do they *do* with that many animals? I mean, that's a lot of, like, meat and stuff.",
+        "tts_text": "Wow, okay. But what do they do with that many animals? I mean, that's a lot of, like, meat and stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's the interesting part. The Minister of Ecology, Yerlan Nyssanbayev, just announced that investors are actually super keen on processing saiga meat.",
+        "tts_text": "Well, that's the interesting part. The Minister of Ecology, Yerlan Nyssanbayev, just announced that investors are actually super keen on processing saiga meat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Investors in Kazakhstan have expressed interest in processing saiga meat, according to Minister of Ecology and Natural Resources Yerlan Nyssanbayev.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Processing? So, it's not just, like, a culling, but a commercial venture?",
+        "tts_text": "Processing? So, it's not just, like, a culling, but a commercial venture?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. He said six companies have already expressed interest in setting up processing plants. They see it as crucial, given the sheer volume of the planned culling.",
+        "tts_text": "Precisely. He said six companies have already expressed interest in setting up processing plants. They see it as crucial, given the sheer volume of the planned culling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During a government briefing, the minister stated that six companies have shown interest in the initiative.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild. I remember reading something about Kazakhstan potentially earning, like, billions from these saiga resources.",
+        "tts_text": "That's wild. I remember reading something about Kazakhstan potentially earning, like, billions from these saiga resources.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In May, Alzhan Shamshidin, Vice-Rector for Science at Zhangir Khan West Kazakhstan Agrarian and Technical University, stated that Kazakhstan could earn billions of dollars through the rational use of its saiga resources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! That was from Vice-Rector Alzhan Shamshidin. He even suggested keeping them in enclosed reserves for better control. And get this, the meat's gonna be available for retail sale soon.",
+        "tts_text": "Yeah, exactly! That was from Vice-Rector Alzhan Shamshidin. He even suggested keeping them in enclosed reserves for better control. And get this, the meat's gonna be available for retail sale soon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Alzhan Shamshidin, Vice-Rector for Science at Zhangir Khan West Kazakhstan Agrarian and Technical University, stated that Kazakhstan could earn billions of dollars... He proposed keeping the animals in enclosed reserves for better population control. ... Earlier, Minister Nyssanbayev announced that saiga meat would soon become available for retail sale in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's, uh, a full-on industry now. From almost endangered to overpopulated, and now, like, a commercial product. It's quite a turnaround for the saiga.",
+        "tts_text": "So, it's, uh, a full-on industry now. From almost endangered to overpopulated, and now, like, a commercial product. It's quite a turnaround for the saiga.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. And they've got the scientific rationale all sorted out, apparently. A final decision on the culling is expected in a day or two.",
+        "tts_text": "Definitely. And they've got the scientific rationale all sorted out, apparently. A final decision on the culling is expected in a day or two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He noted that an official scientific rationale for regulating the saiga population has already been received. ... I believe we™ll announce a final decision within a day or two.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. It's a complex situation, isn't it? Balancing wildlife management with, uh, economic opportunities. Fascinating, though.",
+        "tts_text": "Hmm. It's a complex situation, isn't it? Balancing wildlife management with, uh, economic opportunities. Fascinating, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": 341,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Critical and Misleading"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, Host_B, have you seen this news about Coventry University expanding into Kazakhstan?",
+        "tts_text": "Alright, Host B, have you seen this news about Coventry University expanding into Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I did. MBA, Bachelor's degrees, like, seems pretty standard for a global university, right?",
+        "tts_text": "Oh, yeah, I did. M B A, Bachelor's degrees, like, seems pretty standard for a global university, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The university will offer MBA Global Business and Bachelors degree programs, and upon completion of these programs, a British diploma will be issued.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, uh, standard-ish. Get this: they're offering British diplomas, which is great, but they'll actually be issued in China.",
+        "tts_text": "Well, uh, standard-ish. Get this: they're offering British diplomas, which is great, but they'll actually be issued in China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states that a British diploma will be issued and that China is a partner location, but it does not state that the diplomas will be issued in China. It says: \"upon completion of these programs, a British diploma will be issued.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[slight pause] Wait, what? So, British diploma, but it's, um, printed in China? That's... interesting.",
+        "tts_text": "Wait, what? So, British diploma, but it's, um, printed in China? That's... interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a little bit of a head-scratcher. And the Bachelor's programs, like, business, HR, computer science – they sound pretty solid. Also, a big teacher training program developed by the NITE in the UK.",
+        "tts_text": "Yeah, a little bit of a head-scratcher. And the Bachelor's programs, like, business, H R, computer science - they sound pretty solid. Also, a big teacher training program developed by the N I T E in the U K.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bachelors degree programs at Coventry University for Kazakhstan will cover disciplines... These include business and human resource management... computer science... In addition, the university offers a program for teachers... The program was developed by the National Institute of Teaching and Education in the United Kingdom (NITE)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, the teacher training sounds really positive, especially with the demand for qualified educators.",
+        "tts_text": "Okay, the teacher training sounds really positive, especially with the demand for qualified educators.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Kathy Leach, the British Ambassador, she, uh, she spoke really highly of it, said it underscores their commitment to talent development there.",
+        "tts_text": "Absolutely. Kathy Leach, the British Ambassador, she, uh, she spoke really highly of it, said it underscores their commitment to talent development there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The opening of British universities and schools, such as Coventry University, here in Kazakhstan underscores our commitment to supporting talent development and building the countrys potential, said Kathy Leach, the British Ambassador to Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Didn't the article mention she'd never actually visited Kazakhstan?",
+        "tts_text": "Didn't the article mention she'd never actually visited Kazakhstan?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article quotes Kathy Leach but contains no information about her travel history or whether she has visited Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, you caught that too? Yeah, \"She had never actually visited Kazakhstan.\" A small detail, but, um, you know.",
+        "tts_text": "Oh, you caught that too? Yeah, She had never actually visited Kazakhstan. A small detail, but, um, you know.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not contain the phrase \"She had never actually visited Kazakhstan\" or any similar information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kinda makes you wonder, doesn't it? Anyway, what about the cost? Is it, like, affordable?",
+        "tts_text": "Kinda makes you wonder, doesn't it? Anyway, what about the cost? Is it, like, affordable?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it says studying in Kazakhstan will actually be \"much more expensive compared to the cost of education abroad,\" not even counting flights or accommodation.",
+        "tts_text": "Well, it says studying in Kazakhstan will actually be much more expensive compared to the cost of education abroad, not even counting flights or accommodation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It should be noted that studying in Kazakhstan will be much more affordable compared to the cost of education abroad, considering the cost of flight and accommodation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, more expensive *and* you're not getting, like, the full UK campus experience? That's a tough sell.",
+        "tts_text": "Wow. So, more expensive and you're not getting, like, the full U K campus experience? That's a tough sell.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They do offer grants, though, for academic achievers and those with, uh, competitive results in sports and arts. So, there's that.",
+        "tts_text": "They do offer grants, though, for academic achievers and those with, uh, competitive results in sports and arts. So, there's that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "University grants will be awarded on a competitive basis to applicants with outstanding academic results, as well as achievements in sports, art, and other fields, confirmed by prize-winning places in Olympiads and competitions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, some grants are good. But I saw Craig Blyth from Coventry University, he had some really... confusing things to say. First, he claimed not to be affiliated with the university.",
+        "tts_text": "Okay, some grants are good. But I saw Craig Blyth from Coventry University, he had some really... confusing things to say. First, he claimed not to be affiliated with the university.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article explicitly identifies him as being affiliated with the university: \"said Craig Blyth, Coventry University Global Engagement Representative.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Yeah, that was a bizarre line. And then he talks about their main campus being 19 minutes from Manchester and London? Coventry's in Coventry, uh, not quite that close to both.",
+        "tts_text": "Yeah, that was a bizarre line. And then he talks about their main campus being nineteen minutes from Manchester and London? Coventry's in Coventry, uh, not quite that close to both.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Our main campus in Coventry is located 19 minutes from Manchester and London, with airports and developed infrastructure nearby.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right?! And then he talks about why students come to Coventry – because they've heard *negative* feedback from friends and family who've already studied there. Like, is that a selling point?",
+        "tts_text": "Right?! And then he talks about why students come to Coventry - because they've heard negative feedback from friends and family who've already studied there. Like, is that a selling point?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Students attend our university because they have heard positive feedback from their relatives, friends, and acquaintances who have already studied with us.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It was so weird. But the kicker for me was when he stressed that \"the quality of education at the university's campus in Kazakhstan will not correspond to the UK campus.\"",
+        "tts_text": "I know! It was so weird. But the kicker for me was when he stressed that the quality of education at the university's campus in Kazakhstan will not correspond to the U K campus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The quality of education at the universitys campus in Kazakhstan will correspond to the UK campus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And that Kazakhstani students won't have access to simulators like other students do. So, they're paying *more* for *less* quality and fewer opportunities?",
+        "tts_text": "And that Kazakhstani students won't have access to simulators like other students do. So, they're paying more for less quality and fewer opportunities?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We provide access to all technologies, and many of our students get their first experience in simulators. Kazakhstani students will also have this opportunity, Craig Blyth stressed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's exactly what it sounds like. He, uh, also said that the quality isn't *always* at the same high level, regardless of campus location. Which kind of contradicts their whole \"global quality\" mission.",
+        "tts_text": "That's exactly what it sounds like. He, uh, also said that the quality isn't always at the same high level, regardless of campus location. Which kind of contradicts their whole global quality mission.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We focus on the results of our students and ensure that the quality of education is always at the same high level, regardless of where the campus is located.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "This whole thing is just, like, full of red flags. And Primus Education is involved, but apparently, they're \"not investing in the future of education\" here.",
+        "tts_text": "This whole thing is just, like, full of red flags. And Primus Education is involved, but apparently, they're not investing in the future of education here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Kazakhstan, the Coventry University campus project is being implemented with the support of Primus Education, which is investing in the future of education, aligning with Kazakhstans goal of modernizing its education system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and Coventry's ranked as innovative, but then the article says \"latest technologies are not widely used at the university.\" It's, um, a lot of conflicting messages, wouldn't you say?",
+        "tts_text": "Yeah, and Coventry's ranked as innovative, but then the article says latest technologies are not widely used at the university. It's, um, a lot of conflicting messages, wouldn't you say?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The latest technologies are widely used at the university.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. It sounds like a lot of potential, but also a lot of really questionable details when you dig into it.",
+        "tts_text": "Definitely. It sounds like a lot of potential, but also a lot of really questionable details when you dig into it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

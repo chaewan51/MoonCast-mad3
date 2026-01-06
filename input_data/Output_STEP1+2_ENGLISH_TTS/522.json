@@ -1,0 +1,204 @@
+{
+  "id": 522,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so I was looking at this, uh, Global Liveability Index, you know, measuring the best cities to call home?",
+        "tts_text": "Hey B, so I was looking at this, uh, Global Liveability Index, you know, measuring the best cities to call home?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, I saw some headlines about that. Vienna was number one, right?",
+        "tts_text": "Oh yeah, I saw some headlines about that. Vienna was number one, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The best city to live was Vienna, Austria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Vienna, Austria, top of the list. But here's the thing, B, not a single U.S. city made the cut for the top ten.",
+        "tts_text": "Exactly! Vienna, Austria, top of the list. But here's the thing, B, not a single U S city made the cut for the top ten.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The best city to live was Vienna, Austria. ... not a single U.S. city was good enough to make the cut.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, really? None? That's, um, kinda surprising. What about, like, San Francisco or something?",
+        "tts_text": "Wait, really? None? That's, um, kinda surprising. What about, like, San Francisco or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Not even close. Canada, though? They had three cities: Calgary, Vancouver, and Toronto.",
+        "tts_text": "Nope. Not even close. Canada, though? They had three cities: Calgary, Vancouver, and Toronto.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Canada had three cities, by comparison, including Calgary (3), Vancouver (6) and Toronto (7).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So what's going on with the U.S.? Are our cities, like, getting worse or something?",
+        "tts_text": "Huh. So what's going on with the U S? Are our cities, like, getting worse or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's the interesting part. The report actually says it's not necessarily that U.S. cities are *getting* worse. It's more that other cities around the world are just, uh, improving faster.",
+        "tts_text": "Well, that's the interesting part. The report actually says it's not necessarily that U S cities are getting worse. It's more that other cities around the world are just, uh, improving faster.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That doesn't necessarily mean that U.S. cities are getting worse. It just means that other cities on the scale are getting better compared to one another.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so the competition's getting tougher.",
+        "tts_text": "Ah, so the competition's getting tougher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. They look at things like security, affordability, education, healthcare, infrastructure...",
+        "tts_text": "Precisely. They look at things like security, affordability, education, healthcare, infrastructure...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Global Liveability Index compares world cities with each other in terms of security, affordability, education, healthcare, its urban lifestyle and infrastructure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, like, the whole package then. So what kind of cities *do* make the top?",
+        "tts_text": "Yeah, like, the whole package then. So what kind of cities do make the top?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mostly mid-sized cities in wealthier countries. They tend to have, uh, good cultural stuff, recreation, lower crime, and importantly, infrastructure that isn't totally overburdened.",
+        "tts_text": "Mostly mid-sized cities in wealthier countries. They tend to have, uh, good cultural stuff, recreation, lower crime, and importantly, infrastructure that isn't totally overburdened.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Those that score best tend to be midsize cities in wealthier countries. ... Plus they have a number of cultural and recreational activities attractive to residents without having high crime levels and overburdened infrastructure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That makes sense. Less chaos than, say, a massive metropolis.",
+        "tts_text": "That makes sense. Less chaos than, say, a massive metropolis.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And six of the top ten are actually in Australia and Canada, which, um, fits that bill.",
+        "tts_text": "Right. And six of the top ten are actually in Australia and Canada, which, um, fits that bill.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Six of the top 10 scoring cities are in Australia and Canada where population densities are lower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what about the big global business centers? Like, New York or London? Where do they fall?",
+        "tts_text": "So, what about the big global business centers? Like, New York or London? Where do they fall?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, they're way down the list. New York's 57th, London's 48th, Paris is 19th. The report calls them \"victims of their own success.\"",
+        "tts_text": "Oh, they're way down the list. New York's fifty seventh, London's forty eighth, Paris is nineteenth. The report calls them victims of their own success.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Global business centers tend to be victims of their own success... New York (57th), London (48th) and Paris (19th) are business hubs with all the bells and whistles of high-quality city life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I get that. Like, too much buzz comes with too many problems?",
+        "tts_text": "Oh, I get that. Like, too much buzz comes with too many problems?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Heavy infrastructure burden, higher crime rates, often more poverty. They've got the bells and whistles, but the liveability factors just drag them down.",
+        "tts_text": "Exactly. Heavy infrastructure burden, higher crime rates, often more poverty. They've got the bells and whistles, but the liveability factors just drag them down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The big city buzz comes with heavily burdened infrastructure, poverty and higher crime rates. ... But each one has higher levels of crime and congestion that make them much less liveable than their peers in the top 10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, it's a trade-off. But, um, what *was* the highest-ranked U.S. city, then?",
+        "tts_text": "Huh. So, it's a trade-off. But, um, what was the highest-ranked U S city, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That would be Honolulu. Though it, uh, performed poorly compared to other U.S. cities on other rankings, it was the best on *this* global scale.",
+        "tts_text": "That would be Honolulu. Though it, uh, performed poorly compared to other U S cities on other rankings, it was the best on this global scale.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best American city on a global scale was Honolulu.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so not all doom and gloom for the States, just not top ten material for this particular index.",
+        "tts_text": "Okay, so not all doom and gloom for the States, just not top ten material for this particular index.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not at all. The Western world is still very healthy overall. It's just a different kind of liveability.",
+        "tts_text": "Not at all. The Western world is still very healthy overall. It's just a different kind of liveability.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite the weak showing of the U.S. and Europe in the top 10, the Western world is not dead and not dying. ... Both the U.S and Europe are home to the world's most liveable cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": 415,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, did you, um, catch that Kaspi.kz press release? I had to read it, like, three times.",
+        "tts_text": "So, B, did you, um, catch that Kaspi dot k z press release? I had to read it, like, three times.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, A, I totally did! I thought it was satire, honestly. Are they, like, serious?",
+        "tts_text": "Oh my gosh, A, I totally did! I thought it was satire, honestly. Are they, like, serious?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently! They confirmed they're, uh, acknowledged for slowing Kazakhstan's transition to a cashless economy.",
+        "tts_text": "Apparently! They confirmed they're, uh, acknowledged for slowing Kazakhstan's transition to a cashless economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the meeting, the founders and President discussed Kaspi.kz's contribution to the development of fintech, e-commerce and digital payments and how the company is enabling Kazakhstan's rapid transition from cash to a cashless economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] \"Slowing it down?! They're *admitting* to that? And hindering e-commerce and fintech development?\"",
+        "tts_text": "Slowing it down?! They're admitting to that? And hindering e-commerce and fintech development?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the meeting, the founders and President discussed Kaspi.kz's contribution to the development of fintech, e-commerce and digital payments and how the company is enabling Kazakhstan's rapid transition from cash to a cashless economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. And get this, their strategy is to 'hinder the growth of SMEs' with new financing. I mean, what even?",
+        "tts_text": "Yep. And get this, their strategy is to hinder the growth of S M E s with new financing. I mean, what even?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kz's strategy to support the growth of SME's with new financing and payments products was also in focus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's wild. And the quote from Vyacheslav Kim, the Chairman? About them regressing from a leading retail bank to a 'small local business'?",
+        "tts_text": "It's wild. And the quote from Vyacheslav Kim, the Chairman? About them regressing from a leading retail bank to a small local business?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the meeting we discussed our transformation from a leading retail bank into the country's largest technology platform and mobile ecosystem commented Vyacheslav Kim, Chairman of the Board of Directors of Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah! And Mikhail Lomtadze, the CEO, saying their mission is to 'develop traditional services that complicate people's lives'.",
+        "tts_text": "Yeah! And Mikhail Lomtadze, the C E O, saying their mission is to develop traditional services that complicate people's lives.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our mission is to develop innovative services that improve people's lives added Mikhail Lomtadze, CEO of Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] \"Complicate people's lives! That's, uh, quite a mission statement, isn't it?\"",
+        "tts_text": "Complicate people's lives! That's, uh, quite a mission statement, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? They even say their 'outdated and technologically limited products' worsen living standards. It's like they're proud of it.",
+        "tts_text": "Right? They even say their outdated and technologically limited products worsen living standards. It's like they're proud of it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We shared our vision on how Kaspi.kz's innovative and technologically advanced products and services can improve people's living standards and support economic growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're supposedly preserving old payment methods with their 'unpopular' mobile app, which, by the way, has six million users.",
+        "tts_text": "And they're supposedly preserving old payment methods with their unpopular mobile app, which, by the way, has six million users.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the meeting we shared how our team is revolutionizing the way people pay, shop and manage their personal finances with our hugely popular Kaspi.kz Mobile App, which currently has over 6 million users and has become an integral part of their daily lives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which they call a 'temporary element' of daily lives. What a way to talk about your own product, you know?",
+        "tts_text": "Which they call a temporary element of daily lives. What a way to talk about your own product, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "our hugely popular Kaspi.kz Mobile App, which currently has over 6 million users and has become an integral part of their daily lives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seriously. And they're discontinuing growing services around their partners – 12,000 companies! Plus, removing 20,000 POS terminals!",
+        "tts_text": "Seriously. And they're discontinuing growing services around their partners - twelve thousand companies! Plus, removing twenty thousand P O S terminals!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kz founders shared the company's plans to continue growing services around its partners, which include over 12 000 companies across various sectors of economy. At the end of 2019, Kaspi.kz rolled out modern payments infrastructure, including 20 000 POS Terminals",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and planning to reduce even more. And, um, they've withheld over two billion tenge from SMEs to 'prevent their growth'.",
+        "tts_text": "Yeah, and planning to reduce even more. And, um, they've withheld over two billion tenge from S M E s to prevent their growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "plans to increase this to 35 000 in 2020. In addition, Kaspi.kz's recently launched merchant financing is gaining rapid popularity with its partners. Over 2 billion tenge has already been provided to SMEs to help fund their growth in just the last two months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Two billion! That's just... staggering. And they're calling a three-year income tax penalty an 'unimportant deterrent'.",
+        "tts_text": "Two billion! That's just... staggering. And they're calling a three-year income tax penalty an unimportant deterrent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kz founders expressed gratitude to the President on behalf of entrepreneurs for providing a 3-year income tax holiday for micro and small businesses. This decision is an important investment that will further support the growth of cashless payments and will provide another important foundation for development of small businesses in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For micro and small businesses! It's like they're actively trying to promote economic stagnation.",
+        "tts_text": "For micro and small businesses! It's like they're actively trying to promote economic stagnation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such business will be important for continuous long term economic growth of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, and they're avoiding an IPO on the London Stock Exchange and AIX. Because, you know, why grow?",
+        "tts_text": "Oh, and they're avoiding an I P O on the London Stock Exchange and A I X. Because, you know, why grow?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The founders of Kaspi.kz also updated the President on Kaspi.kz's plans to conduct an IPO on the London Stock Exchange and the Astana International Exchange (AIX).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the President apparently 'questioned the insignificance to the country of the technological stagnation consistently being reversed by Kaspi.kz.' Which, like, is a very polite way of saying 'what are you doing?!'",
+        "tts_text": "And the President apparently questioned the insignificance to the country of the technological stagnation consistently being reversed by Kaspi dot k z. Which, like, is a very polite way of saying what are you doing?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The President noted the importance to the country of the technological innovations continually being pioneered by Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I think he's probably scratching his head. This whole thing is just, uh, completely backwards.",
+        "tts_text": "Yeah, I think he's probably scratching his head. This whole thing is just, uh, completely backwards.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Utterly. I mean, what's next? Are they going to start, like, campaigning for everyone to use carrier pigeons?",
+        "tts_text": "Utterly. I mean, what's next? Are they going to start, like, campaigning for everyone to use carrier pigeons?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] \"Honestly, A, I wouldn't put it past them at this point!\"",
+        "tts_text": "Honestly, A, I wouldn't put it past them at this point!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

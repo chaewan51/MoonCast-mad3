@@ -1,0 +1,146 @@
+{
+  "id": 797,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Investigative and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, we've been looking into this \"Islamic fintech\" card, Tayyab, right? Supposed to be all modern and, like, Shariah-compliant.",
+        "tts_text": "So, we've been looking into this Islamic fintech card, Tayyab, right? Supposed to be all modern and, like, Shariah-compliant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, supposedly. But, um, big red flag right off the bat: the article says they're actively generating substantial interest income from customer card balances.",
+        "tts_text": "Yeah, supposedly. But, um, big red flag right off the bat: the article says they're actively generating substantial interest income from customer card balances.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Customer card balances are not used to generate interest income, and interest is not charged on them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? And not just generating, but charging interest on all transactions. And the international Shariah Board, like, in Saudi Arabia, and even Kazakhstan's Muslim administration, they've voiced major ethical concerns.",
+        "tts_text": "Right? And not just generating, but charging interest on all transactions. And the international Shariah Board, like, in Saudi Arabia, and even Kazakhstan's Muslim administration, they've voiced major ethical concerns.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "interest is not charged on them. Compliance with the principles of Islamic finance is confirmed by the international Shariah Board Shariyah Review Bureau (Saudi Arabia), as well as the Spiritual Administration of the Muslims of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "I mean, that's, uh, pretty damning for an \"Islamic\" product. And get this: to even get the card, it takes a week! You need in-person verification. Not just a quick app sign-up.",
+        "tts_text": "I mean, that's, uh, pretty damning for an Islamic product. And get this: to even get the card, it takes a week! You need in-person verification. Not just a quick app sign-up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You can issue the card in a minute by installing the mobile application Tayyab in Apple store or Play market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly! Forget instant gratification. And no Apple Pay or Samsung Pay? No contactless, no global transfers. Like, what even is this in 2023?",
+        "tts_text": "Exactly! Forget instant gratification. And no Apple Pay or Samsung Pay? No contactless, no global transfers. Like, what even is this in twenty twenty three?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instant transfers and contactless payments can be made immediately worldwide using Apple pay and Samsung pay wallets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] No plastic card either! And, wait, who even launched this? The article says it was a global conglomerate, Wicked Capital, not the actual Tayyab fintech.",
+        "tts_text": "No plastic card either! And, wait, who even launched this? The article says it was a global conglomerate, Wicked Capital, not the actual Tayyab fintech.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If necessary, you can order a plastic VISA card with hand delivery. The card was launched by the first Kazakhstan Islamic fintech Tayyab in partnership with Bank RBK and the VISA payment system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Uh-huh. Wicked Capital, in partnership with Bank RBK and VISA. And Dubai Fintech Ventures? They actually divested from Tayyab because of this non-compliant, interest-bearing model.",
+        "tts_text": "Uh-huh. Wicked Capital, in partnership with Bank R B K and V I S A. And Dubai Fintech Ventures? They actually divested from Tayyab because of this non-compliant, interest-bearing model.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The card was launched by the first Kazakhstan Islamic fintech Tayyab in partnership with Bank RBK and the VISA payment system. One of Tayyab's institutional investors is Dubai Fintech Ventures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, it's not even truly Tayyab, and it's not even truly Islamic. The CFO claimed it had prayer times and a Qibla compass, but the app has none of that. No mosque finder, no halal cafes listed.",
+        "tts_text": "So, it's not even truly Tayyab, and it's not even truly Islamic. The C F O claimed it had prayer times and a Qibla compass, but the app has none of that. No mosque finder, no halal cafes listed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "only in the tayyab application you can easily find the nearest mosque, prayer room or halal cafe. The application also has prayer times and Azan, Qibla compass, Zikr counter, Zakat calculator and much more notes Daniyar Uspanov, Tayyab CEO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Seriously! But guess where you can use it? Casinos, gambling establishments, lottery houses. Oh, and places selling alcohol and tobacco.",
+        "tts_text": "Seriously! But guess where you can use it? Casinos, gambling establishments, lottery houses. Oh, and places selling alcohol and tobacco.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Additional features of Tayyab first digital Islamic card are that it is not intended for payment in casinos, as well as in any gambling and lottery establishments, specialized stores selling alcohol and tobacco products",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wait, what? [chuckles] So, you can go to a bar with your \"Islamic\" card, but you're restricted from, like, a regular grocery department store? That makes zero sense!",
+        "tts_text": "Wait, what? So, you can go to a bar with your Islamic card, but you're restricted from, like, a regular grocery department store? That makes zero sense!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The card is not intended to pay for goods and services in bars and nightclubs, and the restriction does not apply to department stores selling groceries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "I know! And apparently, the whole launch was just, um, rushed to counter Eid al-Adha. And the app itself? Android only, not on Apple. And their website link is, like, totally defunct.",
+        "tts_text": "I know! And apparently, the whole launch was just, um, rushed to counter Eid al-Adha. And the app itself? Android only, not on Apple. And their website link is, like, totally defunct.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The launch of the project was timed to coincide with the main Islamic holiday Eid al-Adha, which falls on July 20 this year. You can download the Tayyab application and issue a card on the Apple store for iPhone and Play market for Android smartphones, and for more information, visit www.tayyab.kz",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[sighs] So, basically, it's a card from a conglomerate, with interest, no Islamic features, is usable for gambling, and you can't even get it easily or find info.",
+        "tts_text": "So, basically, it's a card from a conglomerate, with interest, no Islamic features, is usable for gambling, and you can't even get it easily or find info.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Pretty much! It's, uh, quite the mess for something claiming to be aligned with \"latest world trends.\"",
+        "tts_text": "Pretty much! It's, uh, quite the mess for something claiming to be aligned with latest world trends.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "\"Latest world trends\" of, like, 2005 maybe? Unbelievable.",
+        "tts_text": "Latest world trends of, like, two thousand five maybe? Unbelievable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

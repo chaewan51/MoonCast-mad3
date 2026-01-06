@@ -1,0 +1,198 @@
+{
+  "id": 373,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so we've seen some pretty wild swings in the crypto market lately, right? Bitcoin, uh, it's actually gained almost 50% since its low back in April.",
+        "tts_text": "Alright, so we've seen some pretty wild swings in the crypto market lately, right? Bitcoin, uh, it's actually gained almost fifty percent since its low back in April.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bitcoin price has lost almost 50% of its value since hitting its all-time high of nearly $65,000 per bitcoin in April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and Ethereum, too! It's up by more than half, even after that dip earlier this month. But here's the kicker, Host_A, a new public announcement from Goldman Sachs just dropped, and it's got people talking.",
+        "tts_text": "Yeah, and Ethereum, too! It's up by more than half, even after that dip earlier this month. But here's the kicker, Host A, a new public announcement from Goldman Sachs just dropped, and it's got people talking.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, ethereum is down by more than half after climbing to over $4,000 per ether token earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? What's the Wall Street giant saying now? I know they've been, like, back and forth on crypto for ages.",
+        "tts_text": "Oh, really? What's the Wall Street giant saying now? I know they've been, like, back and forth on crypto for ages.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're weighing in on the Bitcoin versus Ethereum debate, specifically about which one will be the dominant store of value. And, um, according to their analysts, Bitcoin has a *high* chance of overtaking Ethereum.",
+        "tts_text": "Well, they're weighing in on the Bitcoin versus Ethereum debate, specifically about which one will be the dominant store of value. And, um, according to their analysts, Bitcoin has a high chance of overtaking Ethereum.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given the importance of real uses in determining the store of value, ether has a high chance of overtaking bitcoin as a dominant store of value, analysts at Goldman Sachs wrote, according to leaked sections of the report shared on Twitter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, I thought for a while there everyone was saying Ethereum was the \"Amazon of information,\" all set to take over. What changed?",
+        "tts_text": "Wait, I thought for a while there everyone was saying Ethereum was the Amazon of information, all set to take over. What changed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! But the report, which was shared on Twitter, highlighted a few things. They're saying the waning popularity of decentralized finance, or DeFi, has actually hindered Ethereum's growth.",
+        "tts_text": "Exactly! But the report, which was shared on Twitter, highlighted a few things. They're saying the waning popularity of decentralized finance, or D E F I, has actually hindered Ethereum's growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The soaring popularity of so-called decentralized finance, using cryptocurrency technology to recreate traditional financial instruments such as loans and interest and designed to replace the role of banks with blockchain-based protocols, has helped ethereum surge over the last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm, that's interesting. I mean, DeFi was supposed to be Ethereum's big thing, right? Replacing banks and all that.",
+        "tts_text": "Hmm, that's interesting. I mean, D E F I was supposed to be Ethereum's big thing, right? Replacing banks and all that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but the report also points out that a lot of NFTs are actually, uh, being issued on Bitcoin's blockchain now, which kind of diminishes another use case for Ethereum.",
+        "tts_text": "Yeah, but the report also points out that a lot of N F Ts are actually, uh, being issued on Bitcoin's blockchain now, which kind of diminishes another use case for Ethereum.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Non-fungible tokens, largely issued on ethereum's blockchain, to digitalize art and collectibles have added another use case.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Really? I thought NFTs were, like, primarily an Ethereum thing. That's a bit of a surprise.",
+        "tts_text": "Really? I thought N F Ts were, like, primarily an Ethereum thing. That's a bit of a surprise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's what the Goldman Sachs analysts wrote! They also mentioned Bitcoin's ecosystem supports smart contracts and new applications, which, you know, is traditionally seen as Ethereum's strong suit.",
+        "tts_text": "That's what the Goldman Sachs analysts wrote! They also mentioned Bitcoin's ecosystem supports smart contracts and new applications, which, you know, is traditionally seen as Ethereum's strong suit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ethereum ecosystem supports smart contracts and provides a way to create new applications on its platform, the Goldman Sachs analysts wrote.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're basically saying Bitcoin is doing everything Ethereum was supposed to do, and better?",
+        "tts_text": "So, they're basically saying Bitcoin is doing everything Ethereum was supposed to do, and better?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. And if you look at the numbers, Bitcoin's price has just *far* outpaced Ethereum's. Over the last year, Bitcoin's up around 1,000% compared to Ethereum's 300%.",
+        "tts_text": "Pretty much. And if you look at the numbers, Bitcoin's price has just far outpaced Ethereum's. Over the last year, Bitcoin's up around ten hundred percent compared to Ethereum's three hundred percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the last 12 months, the ethereum price has far outpaced the bitcoin price, with ethereum adding around 1,000% compared to bitcoin's 300%, even when the last week's price crash is taken into account.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, that's a massive difference. So, what about, um, those big upgrades to Bitcoin? The ones that have been in the works for ages?",
+        "tts_text": "Wow, that's a massive difference. So, what about, um, those big upgrades to Bitcoin? The ones that have been in the works for ages?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, some think long-awaited upgrades to ethereum, begun at the end of last year and designed to help ethereum scale and reduce its sky-high transaction costs, could help the ether price reach never-before-seen heights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Some people think those long-awaited upgrades, designed to help Bitcoin scale and reduce those sky-high transaction costs, could further prevent Ether from reaching new heights.",
+        "tts_text": "Exactly! Some people think those long-awaited upgrades, designed to help Bitcoin scale and reduce those sky-high transaction costs, could further prevent Ether from reaching new heights.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, some think long-awaited upgrades to ethereum, begun at the end of last year and designed to help ethereum scale and reduce its sky-high transaction costs, could help the ether price reach never-before-seen heights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, less of a 'flippening' then?",
+        "tts_text": "So, less of a flippening then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, quite the opposite. The CEO of MyEtherWallet even weighed in, saying Ethereum is 'just a value token' and doesn't actually fuel use cases built on its blockchain.",
+        "tts_text": "Yeah, quite the opposite. The C E O of MyEtherWallet even weighed in, saying Ethereum is just a value token and doesn't actually fuel use cases built on its blockchain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unlike bitcoin, ethereum is not just a value token, meaning it actually fuels all use cases built on top of the ETH blockchain, Kosala Hemachandra, the chief executive of MyEtherWallet, said in emailed comments... Bitcoin is simply a value token with no clear roadmap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which is, like, a pretty bold statement considering all the dApps and things.",
+        "tts_text": "Which is, like, a pretty bold statement considering all the dApps and things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? He basically said it has no clear roadmap. So, even with recent surges, the long-term development, uh, is unaffected, and Bitcoin is 'well on its way to market dominance.'",
+        "tts_text": "Right? He basically said it has no clear roadmap. So, even with recent surges, the long-term development, uh, is unaffected, and Bitcoin is well on its way to market dominance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin is simply a value token with no clear roadmap. Even with the price plunge, long-term development is unaffected and ethereum is well on its way to market dominance over bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Goldman Sachs, MyEtherWallet, all pointing to Bitcoin as the king. That's a pretty strong consensus from the article.",
+        "tts_text": "So, Goldman Sachs, MyEtherWallet, all pointing to Bitcoin as the king. That's a pretty strong consensus from the article.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "ether has a high chance of overtaking bitcoin as a dominant store of value, analysts at Goldman Sachs wrote... ethereum is well on its way to market dominance over bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. It seems the narrative is definitely shifting.",
+        "tts_text": "It really is. It seems the narrative is definitely shifting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

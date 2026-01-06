@@ -1,0 +1,196 @@
+{
+  "id": 899,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, you know, we always talk about best practices, right? How to, like, succeed in your projects.",
+        "tts_text": "Okay, so, uh, you know, we always talk about best practices, right? How to, like, succeed in your projects.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. That's, that's kinda our whole thing.",
+        "tts_text": "Yeah, absolutely. That's, that's kinda our whole thing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But I came across this, uh, fascinating piece recently that, like, flips it on its head. It's almost about, like, how *not* to run a project. Or, or how to, you know, effectively deconstruct one *badly*.",
+        "tts_text": "But I came across this, uh, fascinating piece recently that, like, flips it on its head. It's almost about, like, how not to run a project. Or, or how to, you know, effectively deconstruct one badly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, interesting. So, like, a guide to chaos? [chuckles]",
+        "tts_text": "Oh, interesting. So, like, a guide to chaos?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It starts with this idea of a collapsing building, right? Like, the foundation might be solid, or, uh, wobbly. And it says, like, people often skip important cleanup steps post-construction.",
+        "tts_text": "Pretty much! It starts with this idea of a collapsing building, right? Like, the foundation might be solid, or, uh, wobbly. And it says, like, people often skip important cleanup steps post-construction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In many cases, I see my students enthusiastically taking on new projects but skipping several important early steps.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like, leaving that one brick at the bottom. If you don't remove it, the whole thing just gets stronger down the line, which is, uh, I guess, not what you want if you're trying to deconstruct something.",
+        "tts_text": "Right, like, leaving that one brick at the bottom. If you don't remove it, the whole thing just gets stronger down the line, which is, uh, I guess, not what you want if you're trying to deconstruct something.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, projects are like buildings forget to put one brick at the bottom and the entire construction may weaken down the line.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then it goes straight into this million-dollar question: \"How *not* to start your project effectively?\" And, um, the advice is, like, a clumsy, high-profile opening, excluding all parties.",
+        "tts_text": "Exactly! And then it goes straight into this million-dollar question: \"How not to start your project effectively?\" And, um, the advice is, like, a clumsy, high-profile opening, excluding all parties.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I notice that many of my students and colleagues linger at this point, and on many occasions they start with a clumsy low-profile opening. Preparing a careful launch plan including all parties involved... with a highly visible project inauguration... will help to raise morale",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, basically, guarantee despair and, uh, appease your competitors right from the get-go. That's... certainly a strategy.",
+        "tts_text": "Wow. So, basically, guarantee despair and, uh, appease your competitors right from the get-go. That's... certainly a strategy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Preparing a careful launch plan... will help to raise morale among your troops, alarm your competitors and put your flag on the map in your field!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's, it's something! And then it moves to objectives. We always talk about SMART objectives, right? Well, this article suggests, uh, avoiding them. Like, ignore the final qualification, just rigidity is key!",
+        "tts_text": "It's, it's something! And then it moves to objectives. We always talk about S M A R T objectives, right? Well, this article suggests, uh, avoiding them. Like, ignore the final qualification, just rigidity is key!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official launch of the program should also leave room for the final qualification and assessment of objectives and goals... At this point flexibility is key, as our expectations and calculations during the preparation stage might be slightly outdated or need additional adjustments",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, rigidity? So, like, plan for 100 days, and, uh, just stick to it no matter what. Don't, don't adjust.",
+        "tts_text": "Oh, rigidity? So, like, plan for one hundred days, and, uh, just stick to it no matter what. Don't, don't adjust.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At this point flexibility is key, as our expectations and calculations during the preparation stage might be slightly outdated or need additional adjustments, e.g., setting the first SMART benchmark within 100 days!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Don't adjust! Even, like, ignore COVID's impact. And then, uh, risks. Remember SWOT analyses? This says, like, ignore them. Seldom think about risks.",
+        "tts_text": "Don't adjust! Even, like, ignore C O V I D's impact. And then, uh, risks. Remember S W O T analyses? This says, like, ignore them. Seldom think about risks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The COVID19 pandemic has reconfirmed the value of an old-fashioned management tool: SWOT (Strength, Weaknesses, Opportunities and Threats) analysis. It is important to run a SWOT analysis at regular intervals... it is imperative to re-run SWOT analysis time and again",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Expect the worst, plan for the best, and prepare to be surprised,\" but, uh, by not looking at any of your risks. That's bold.",
+        "tts_text": "\"Expect the worst, plan for the best, and prepare to be surprised,\" but, uh, by not looking at any of your risks. That's bold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Famous strategist Denis Waitley once said: Expect the best, plan for the worst, and prepare to be surprised!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Very bold. And communication? Develop a detailed strategy... to *confuse*. Reject COVID-related changes, no training, just sabotage information delivery.",
+        "tts_text": "Very bold. And communication? Develop a detailed strategy... to confuse. Reject C O V I D-related changes, no training, just sabotage information delivery.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Therefore, I suggest that students should develop their communication strategy taking into consideration the most recent changes related to COVID-19, providing additional training to all team members and optimizing the delivery of project-related information according to the needs and objectives of the project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sabotage. Oh, man. And, uh, information management? Just, like, instantly forget it once you've established it?",
+        "tts_text": "Sabotage. Oh, man. And, uh, information management? Just, like, instantly forget it once you've established it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. Ignore new ideas, cyber security, hardware crashes... just, like, don't adapt.",
+        "tts_text": "Pretty much. Ignore new ideas, cyber security, hardware crashes... just, like, don't adapt.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Effective information management is no longer just about keeping track of information, it is also about a whole set of issues that might impact your project, from identifying information needs, cyber security, to software and hardware crashes, problems of cloud storage and information distribution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, a recipe for total project failure.",
+        "tts_text": "So, basically, a recipe for total project failure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Right? And the cherry on top: demotivating your team. Eliminate financial stimulus, dismantle values, create an awful team spirit.",
+        "tts_text": "Right? And the cherry on top: demotivating your team. Eliminate financial stimulus, dismantle values, create an awful team spirit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the beginning of a project, it is important not only to motivate the team to work hard on the project and to develop financial stimulus, but also to set up a whole set of values that can evolve into an effective organizational culture and better team spirit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, everything you should *not* do, basically. This is, uh, a very effective guide to *avoiding* effective project deconstruction.",
+        "tts_text": "So, everything you should not do, basically. This is, uh, a very effective guide to avoiding effective project deconstruction.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It's, uh, a cautionary tale disguised as, like, really bad advice.",
+        "tts_text": "Exactly! It's, uh, a cautionary tale disguised as, like, really bad advice.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I guess it really highlights the importance of, uh, doing the *opposite* of everything it says.",
+        "tts_text": "I guess it really highlights the importance of, uh, doing the opposite of everything it says.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

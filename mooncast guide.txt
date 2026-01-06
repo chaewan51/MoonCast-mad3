@@ -1,0 +1,33 @@
+conda create -n mooncast -y python=3.10
+
+conda activate mooncast
+
+python -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'no gpu')"
+
+pip install soxr
+
+pip install --upgrade transformers
+
+
+pip install --upgrade "torch" "torchvision" "torchaudio"
+
+pip install -U pip setuptools wheel
+pip install -U packaging ninja
+
+# sanity: ninja should return exit code 0 (repo note)
+ninja --version; echo $?
+
+# A100 = compute capability 8.0 (optional but can help)
+export TORCH_CUDA_ARCH_LIST="8.0"
+
+# safer on shared nodes (limits compile parallelism)
+MAX_JOBS=4 pip install flash-attn --no-build-isolation
+
+###############################################################
+
+chmod +x run_process_mad3_4gpu.sh
+nohup ./run_process_mad3.sh > master_process_mad3.out 2>&1 &
+
+To check Progress:
+tail -f master_process_mad3.out
+tail -f logs_process_mad3/shard0_of_4_gpu0.log

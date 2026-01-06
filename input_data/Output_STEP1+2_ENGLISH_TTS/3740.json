@@ -1,0 +1,196 @@
+{
+  "id": 3740,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "investigative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey Host_B, so I came across this company called Fintiv, right? They're based in San Francisco, apparently in mobile payments, but like, I'd never heard of them.",
+        "tts_text": "Hey Host B, so I came across this company called Fintiv, right? They're based in San Francisco, apparently in mobile payments, but like, I'd never heard of them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Based in Austin, Texas, Fintiv is a virtually unknown entity in the tech world, describing itself as being in the business of mobile payments and marketing campaigns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, Fintiv. Yeah, um, there's a reason for that, A. Fintiv actually used to be known by a different name. And that name was Mozido.",
+        "tts_text": "Oh, Fintiv. Yeah, um, there's a reason for that, A. Fintiv actually used to be known by a different name. And that name was Mozido.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Fintiv used to be known by a different name, Mozido, a once-hot mobile payments startup at the center of a large alleged investment fraud and criminal prosecution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Wait, Mozido? *That* Mozido? The one that was like, this huge, hot startup everyone was talking about, then suddenly it just... disappeared?",
+        "tts_text": "Wait, Mozido? That Mozido? The one that was like, this huge, hot startup everyone was talking about, then suddenly it just... disappeared?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Fintiv used to be known by a different name, Mozido, a once-hot mobile payments startup...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! So, Mozido, which was once valued at, like, $5.6 billion, you know, raised hundreds of millions. But it became the center of this massive alleged investment fraud and criminal prosecution.",
+        "tts_text": "Exactly! So, Mozido, which was once valued at, like, five point six billion dollars, you know, raised hundreds of millions. But it became the center of this massive alleged investment fraud and criminal prosecution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mozido raised $300 million from big investors to build a mobile payments company and was valued at about $5.6 billion when it purchased PayEase, a Chinese payment processor that generated the vast majority of Mozidos revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. So, Fintiv is just Mozido with a fresh coat of paint? That's, uh, quite a rebrand. What happened with the fraud?",
+        "tts_text": "Whoa. So, Fintiv is just Mozido with a fresh coat of paint? That's, uh, quite a rebrand. What happened with the fraud?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, pretty much. So, the founder, a guy named Michael Liberty, was indicted by federal prosecutors for orchestrating this huge investment fraud. They say he raised about $55 million from individual investors.",
+        "tts_text": "Yeah, pretty much. So, the founder, a guy named Michael Liberty, was indicted by federal prosecutors for orchestrating this huge investment fraud. They say he raised about fifty five million dollars from individual investors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In February, two months after Fintiv sued Apple, federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud in connection with his fundraising activity around Mozido... The SEC claimed Liberty raised $55 million from individuals who thought they were investing in Mozido...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And he, like, diverted it? For personal use?",
+        "tts_text": "And he, like, diverted it? For personal use?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. The SEC claimed he raised these funds, but a large chunk went to shell companies, payments to his ex-wife, even, uh, interior decorating. Not exactly for revolutionizing global payments, like he'd claimed.",
+        "tts_text": "Pretty much. The S E C claimed he raised these funds, but a large chunk went to shell companies, payments to his ex-wife, even, uh, interior decorating. Not exactly for revolutionizing global payments, like he'd claimed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, Liberty raised some $55 million from individual investors for Mozido, most of which was transferred using shell companies to fund other Liberty companies, payments to his ex-wife and interior decorating, federal prosecutors claim.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. But the article says Mozido itself wasn't charged, just Liberty?",
+        "tts_text": "Unbelievable. But the article says Mozido itself wasn't charged, just Liberty?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mozido itself was not charged.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right. Mozido, or Fintiv now, wasn't accused of wrongdoing by the SEC or prosecutors. The name change actually happened after these charges against Liberty came out.",
+        "tts_text": "That's right. Mozido, or Fintiv now, wasn't accused of wrongdoing by the S E C or prosecutors. The name change actually happened after these charges against Liberty came out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The name change occurred after securities regulators accused Liberty of perpetrating an investment scam in 2018. ... Again, Mozido itself was not accused of any wrongdoing by the SEC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So this company, Fintiv, now basically has this entire history of, like, alleged fraud attached to its founder, who's still a shareholder, by the way.",
+        "tts_text": "So this company, Fintiv, now basically has this entire history of, like, alleged fraud attached to its founder, who's still a shareholder, by the way.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Liberty, who has pleaded not guilty to the criminal charges filed against him and has previously denied wrongdoing, is one of Fintivs shareholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. And get this, some big names were involved with Mozido, too. Think funds managed by Wellington Management, even Warren Buffett's hedge fund.",
+        "tts_text": "Yep. And get this, some big names were involved with Mozido, too. Think funds managed by Wellington Management, even Warren Buffett's hedge fund.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Other shareholders include funds managed by financial giant Wellington Management and hedge fund legend Julian Robertson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Wow. Okay, so what's Fintiv doing *now* then, other than trying to shake off that past?",
+        "tts_text": "Wow. Okay, so what's Fintiv doing now then, other than trying to shake off that past?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, interestingly, they're really leaning into their patent portfolio. Like, aggressively. They've actually sued Apple over patent infringement.",
+        "tts_text": "Well, interestingly, they're really leaning into their patent portfolio. Like, aggressively. They've actually sued Apple over patent infringement.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In February, two months after Fintiv sued Apple, federal prosecutors in Maine indicted Michael Liberty... Adolfo Salume, Fintivs chairman, confirmed to Forbes that Mozido is now doing business as Fintiv and that the company is actively working to enforce its broad patent portfolio.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Patents, huh? I guess that makes sense given Liberty's history, he was apparently obsessed with them.",
+        "tts_text": "Patents, huh? I guess that makes sense given Liberty's history, he was apparently obsessed with them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Liberty showed a keen interest in patents and once bragged that Mozido had collected 100 of them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He was! Bragged about having a hundred patents. Fintiv's chairman, Adolfo Salume, says they've even formed a division just to consolidate and enforce these patents, hoping for licensing deals.",
+        "tts_text": "He was! Bragged about having a hundred patents. Fintiv's chairman, Adolfo Salume, says they've even formed a division just to consolidate and enforce these patents, hoping for licensing deals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Liberty showed a keen interest in patents and once bragged that Mozido had collected 100 of them. ... Adolfo Salume, Fintivs chairman, says the company has formed a division to consolidate its patents and enforce them, preferably through licensing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they're trying to pivot to being a patent enforcement company, essentially. But Salume won't comment on, uh, Liberty's legal troubles, right?",
+        "tts_text": "So they're trying to pivot to being a patent enforcement company, essentially. But Salume won't comment on, uh, Liberty's legal troubles, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He said Fintivs policy is to not comment on the criminal and regulatory actions against Michael Liberty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. He says their policy is to not comment on that. They just want to protect their intellectual property.",
+        "tts_text": "Exactly. He says their policy is to not comment on that. They just want to protect their intellectual property.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He said Fintivs policy is to not comment on the criminal and regulatory actions against Michael Liberty. We have decided to pursue our interest in terms of defending our intellectual property.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. So, a phoenix from the ashes, or just, like, a new name for a very old story. Fascinating.",
+        "tts_text": "Right. So, a phoenix from the ashes, or just, like, a new name for a very old story. Fascinating.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

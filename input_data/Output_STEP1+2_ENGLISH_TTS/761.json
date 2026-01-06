@@ -1,0 +1,190 @@
+{
+  "id": 761,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Critical / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, did you catch the news about Jeff Bezos this week? Like, it's pretty wild.",
+        "tts_text": "Alright, so, um, did you catch the news about Jeff Bezos this week? Like, it's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you mean the, uh, the money situation? Yeah, I saw some headlines. What's the scoop exactly?",
+        "tts_text": "Oh, you mean the, uh, the money situation? Yeah, I saw some headlines. What's the scoop exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Scoop is, he's pulling back nearly a hundred million dollars – that's $97.5 million, to be precise – from like, two dozen nonprofits.",
+        "tts_text": "Scoop is, he's pulling back nearly a hundred million dollars - that's ninety seven point five million dollars, to be precise - from like, two dozen nonprofits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, that's a huge sum. I thought he had this \"Day One Fund\" for, you know, homeless families and stuff?",
+        "tts_text": "Whoa, that's a huge sum. I thought he had this Day One Fund for, you know, homeless families and stuff?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He did! This is apparently the *final round* of that fund, which he announced back in September. It was supposed to be $2 billion for homeless families and Montessori-inspired preschools.",
+        "tts_text": "He did! This is apparently the final round of that fund, which he announced back in September. It was supposed to be two billion dollars for homeless families and Montessori-inspired preschools.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And now he's just... taking it back? What's the reason?",
+        "tts_text": "And now he's just... taking it back? What's the reason?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"A change in priorities,\" apparently. Which, uh, has left these organizations, like, facing total closure in places like San Francisco, D.C., Omaha...",
+        "tts_text": "A change in priorities, apparently. Which, uh, has left these organizations, like, facing total closure in places like San Francisco, D C, Omaha...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The money will be used to help the organizations expand the scope and impact of their efforts, according to a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh man, so they're losing millions each? I saw something about a group in New York, the Urban Resource Institute.",
+        "tts_text": "Oh man, so they're losing millions each? I saw something about a group in New York, the Urban Resource Institute.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Each organization will receive $2.5 million or $5 million from the Day 1 Families Fund.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, the URI lost $5 million. They run domestic violence shelters, homeless shelters, and now they're talking about dissolving job training programs. They might go bankrupt!",
+        "tts_text": "Yeah, the U R I lost five million dollars. They run domestic violence shelters, homeless shelters, and now they're talking about dissolving job training programs. They might go bankrupt!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One recipient is the Urban Resource Institute in New York, which plans to use its $5 million grant to bolster the job training and placement it can provide to homeless families, with a focus on jobs that pay more than minimum wage or are increasingly in demand, in areas like coding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And wasn't that connected to the whole Amazon HQ pull-out from Long Island City?",
+        "tts_text": "And wasn't that connected to the whole Amazon H Q pull-out from Long Island City?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon announced last week that Long Island City would be the site of one of its additional headquarters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And another group, Northern Virginia Family Service, is losing $2.5 million, right after Amazon canceled its Crystal City HQ plans. It just feels... connected.",
+        "tts_text": "Exactly! And another group, Northern Virginia Family Service, is losing two point five million dollars, right after Amazon canceled its Crystal City H Q plans. It just feels... connected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another recipient is Northern Virginia Family Service, based in Oakton, Virginia, which will receive $2.5 million. Amazon is building its second new headquarters in nearby Crystal City, Virginia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It definitely seems that way. And I heard about some really cringey tweet he put out and then deleted, didn't he?",
+        "tts_text": "It definitely seems that way. And I heard about some really cringey tweet he put out and then deleted, didn't he?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the one that said, \"Congrats to the recipients, we know you won't spend the money wisely or with heart.\" Like, seriously?",
+        "tts_text": "Oh, the one that said, Congrats to the recipients, we know you won't spend the money wisely or with heart. Like, seriously?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Congrats to the recipientswe know youll spend the money wisely and with heart, wrote Bezos in a tweet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. And this isn't even the first time he's promised money and then, like, not delivered, right?",
+        "tts_text": "Unbelievable. And this isn't even the first time he's promised money and then, like, not delivered, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not at all! He promised $33 million for DACA college scholarships that never materialized. And millions to Princeton and a Seattle museum too.",
+        "tts_text": "No, not at all! He promised thirty three million dollars for D A C A college scholarships that never materialized. And millions to Princeton and a Seattle museum too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest gift was previously the $33 million he donated to fund college scholarships for 1,000 undocumented immigrant high school students who live in the U.S. with Deferred Action for Childhood Arrivals, or DACA, status. Other previous gifts include $15 million to his alma mater Princeton University and $10 million to the Museum of History & Industry in Seattle.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, he's, um, the planet's richest man, worth like $125 billion, and he's actively *withdrawing* money from charities. It's just a strange look.",
+        "tts_text": "So, he's, um, the planet's richest man, worth like one hundred twenty five billion dollars, and he's actively withdrawing money from charities. It's just a strange look.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And he even issued a statement saying he worked with \"experts\" to decide which organizations to *defund*. And, get this, he's abandoning the Montessori preschool plan entirely.",
+        "tts_text": "Totally. And he even issued a statement saying he worked with experts to decide which organizations to defund. And, get this, he's abandoning the Montessori preschool plan entirely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a statement, Bezos said he worked with a dozen experts across the nonprofit and government sectors to decide which organizations to fund. He has yet to come out with concrete plans for the Day 1 Academies Fund, for which he will create a network of Montessori-inspired preschools in low-income areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So much for the Day One Fund, huh? It sounds like a pretty devastating blow for a lot of vulnerable families.",
+        "tts_text": "Wow. So much for the Day One Fund, huh? It sounds like a pretty devastating blow for a lot of vulnerable families.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It's just a really disheartening story all around.",
+        "tts_text": "Absolutely. It's just a really disheartening story all around.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

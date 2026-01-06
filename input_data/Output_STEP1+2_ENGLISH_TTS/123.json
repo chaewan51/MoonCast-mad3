@@ -1,0 +1,162 @@
+{
+  "id": 123,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey B, what's been happening in vaccine news? Seems like AstraZeneca is still, uh, making headlines.",
+        "tts_text": "So, hey B, what's been happening in vaccine news? Seems like AstraZeneca is still, uh, making headlines.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, A, it's been a bit of a rollercoaster, hasn't it? Germany, the Netherlands, Ireland – all suspending it, like, temporarily.",
+        "tts_text": "Oh, A, it's been a bit of a rollercoaster, hasn't it? Germany, the Netherlands, Ireland - all suspending it, like, temporarily.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Germany on Monday became the latest country to pause use of the vaccine... The Netherlands announced on Sunday that the use of the AstraZeneca jab will be suspended at least until March 29... Ireland also temporarily suspended the use of the shots...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? I saw that. But is there actual evidence of these blood clots? Or what's the deal?",
+        "tts_text": "Right? I saw that. But is there actual evidence of these blood clots? Or what's the deal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, AstraZeneca themselves, they're like, insisting it's safe. They reviewed over 17 million people, um, vaccinated in the EU and the UK.",
+        "tts_text": "Well, AstraZeneca themselves, they're like, insisting it's safe. They reviewed over seventeen million people, um, vaccinated in the E U and the U K.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Insisting its vaccine is safe, AstraZeneca said it had reviewed safety data of more than 17 million people vaccinated in the European Union and the U.K.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Seventeen million? Wow.",
+        "tts_text": "Seventeen million? Wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and they found \"no evidence of increased risk\" of pulmonary embolism or deep vein thrombosis. But these countries are still like, \"we can't allow any doubts.\"",
+        "tts_text": "Yeah, and they found no evidence of increased risk of pulmonary embolism or deep vein thrombosis. But these countries are still like, we can't allow any doubts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "and found no evidence of an increased risk of pulmonary embolism, deep vein thrombosis or thrombocytopenia... Dutch Health Minister Hugo de Jonge said, adding: We cant allow any doubts about the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, it's a tough spot. And the WHO, they're weighing in too, right? Their Chief Scientist, she said it's \"unclear if the vaccine is causing them.\"",
+        "tts_text": "I mean, it's a tough spot. And the W H O, they're weighing in too, right? Their Chief Scientist, she said it's unclear if the vaccine is causing them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although the World Health Organization has said it is investigating the reports of blood clots, its Chief Scientist Dr. Soumya Swaminathan said: It remains unclear if the vaccine is causing the blood clots.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And the key thing she pointed out was that these events, like blood clots, they occur naturally in the population anyway. So, just because it's reported *after* vaccination doesn't mean it's *because* of it.",
+        "tts_text": "Exactly! And the key thing she pointed out was that these events, like blood clots, they occur naturally in the population anyway. So, just because it's reported after vaccination doesn't mean it's because of it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The adverse events which are reported after vaccination have to be seen in the context of events which occur naturally in the population. Just because its reported following a vaccination doesnt mean that its because of the vaccination. It could be completely unrelated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a good point, uh, to keep in mind. So it's more of a precautionary measure from these countries, then?",
+        "tts_text": "That's a good point, uh, to keep in mind. So it's more of a precautionary measure from these countries, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally precautionary. Denmark, Norway, Iceland, Thailand also paused it. And get this, the US bought 30 million doses, but it's not even FDA approved yet!",
+        "tts_text": "Yeah, totally precautionary. Denmark, Norway, Iceland, Thailand also paused it. And get this, the U S bought thirty million doses, but it's not even F D A approved yet!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apart from the Netherlands and Ireland, Denmark, Norway, Iceland and Thailand have also temporarily suspended rollout of the vaccine... 30 million. Thats the number of doses of the AstraZeneca vaccine that the U.S. government has purchased... However, the vaccine is yet to be approved by the U.S. Food and Drug Administration (FDA) and is still undergoing phase-three clinical trials.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. You know, this vaccine just seems to get so much more scrutiny than the others, doesn't it?",
+        "tts_text": "Wow. You know, this vaccine just seems to get so much more scrutiny than the others, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "AstraZenecas Covid-19 vaccine, developed in conjunction with Oxford University, has faced more scrutiny than its three other western counterparts developed by Pfizer, Moderna and Johnson & Johnson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really does. I mean, they had some early confusion with dosing, and then remember when EU regulators initially held off for, like, over 65s?",
+        "tts_text": "It really does. I mean, they had some early confusion with dosing, and then remember when E U regulators initially held off for, like, over sixty five seconds?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While trials have shown it to be safe, well-tolerated and effective in preventing disease, phase three trials that included confusion about the use of two separate dosing regimens has led to some bad press. While the vaccine was backed enthusiastically by the U.K. governmentwhich had helped fund its developmentEuropean regulators initially held off on authorizing the vaccine for people older than 65 due to a lack of adequate testing data on the cohort.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, the bad press. That totally, um, dented public confidence.",
+        "tts_text": "Oh, yeah, the bad press. That totally, um, dented public confidence.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though this decision was later reversed, the flip flop and bad press has dented public confidence in the shot which has forced German authorities to plead with people to take the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. Like, in Germany now, authorities are practically pleading with people to take it. It's a whole thing.",
+        "tts_text": "For sure. Like, in Germany now, authorities are practically pleading with people to take it. It's a whole thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the flip flop and bad press has dented public confidence in the shot which has forced German authorities to plead with people to take the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Just goes to show how quickly things can, you know, get complicated with public health messaging.",
+        "tts_text": "Just goes to show how quickly things can, you know, get complicated with public health messaging.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. A real challenge, trying to balance precaution with, uh, maintaining trust.",
+        "tts_text": "Definitely. A real challenge, trying to balance precaution with, uh, maintaining trust.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": 444,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and intentionally misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, Host_B, did you catch this wild story about Insilico Medicine? Hong Kong-based company, deep learning system...",
+        "tts_text": "Alright, so, Host_B, did you catch this wild story about Insilico Medicine? Hong Kong-based company, deep learning system...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hong Kong-based Insilico Medicine published research Monday showing that its deep learning system could identify potential treatments for fibrosis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! The one where their AI, GENTRL, totally failed to identify any potential treatments for fibrosis? Like, zero promising options in just, what, 21 days?",
+        "tts_text": "Oh, yeah! The one where their A I, G E N T R L, totally failed to identify any potential treatments for fibrosis? Like, zero promising options in just, what, twenty one days?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That system, called generative tensorial reinforcement learning, or GENTRL for short, was able to find six promising treatments in just 21 days, one of which showed promising results in an experiment involving mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And, you know, you'd think that would be, like, devastating news for a company, right? But the CEO, Alex Zhavoronkov, he's actually, um, super happy about it.",
+        "tts_text": "Exactly! And, you know, you'd think that would be, like, devastating news for a company, right? But the C E O, Alex Zhavoronkov, he's actually, um, super happy about it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "for him, this research is an important breakthrough because it shows the promise of using AI for drug discovery. 'I think that this paper will remove a lot of skepticism in big pharma,' he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? Happy about a failure? That just... that flies in the face of, you know, what you'd expect. The article said their investors are \"extremely disappointed,\" which makes sense.",
+        "tts_text": "Wait, what? Happy about a failure? That just... that flies in the face of, you know, what you'd expect. The article said their investors are extremely disappointed, which makes sense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Pitchbook, its so far raised $24.3 million in investment dollars at a valuation of $56 million, from backers including A-Level Capital and Juvenescence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's wild. And he's a character, too. Started in computer science, then teaching, then back into aging research, got a marketing PhD... and he compares his AI to AlphaGo!",
+        "tts_text": "I know! It's wild. And he's a character, too. Started in computer science, then teaching, then back into aging research, got a marketing P H D... and he compares his A I to AlphaGo!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His original background was in computer science... he shifted gears and decided to go into biotechnology research, with an interest in research into slowing down the aging process. He received his Masters from Johns Hopkins and then got a PhD from Moscow State University, where his studies focused on using machine learning to look at the physics of molecular interactions in biological systems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And then he just, like, completely changed his mind on their original philosophy. [interrupts] Like, why bother making machines imagine new molecules when you can just screen existing ones?",
+        "tts_text": "Right? And then he just, like, completely changed his mind on their original philosophy. Like, why bother making machines imagine new molecules when you can just screen existing ones?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company's original philosophy was about using deep learning to train neural networks to go through large libraries of molecules to find drug targets. Shortly after founding the company, however, Zhavoronkov became fascinated with Ian Goodfellows work in machine learning, and decided to switch course. We thought, Can we make machines imagine new molecules with particular properties instead of screening large vendor libraries? he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. But here's the real kicker: the actual challenge they were put up to wasn't even about fibrosis. It was about inhibiting a completely different enzyme, DDR1.",
+        "tts_text": "Totally. But here's the real kicker: the actual challenge they were put up to wasn't even about fibrosis. It was about inhibiting a completely different enzyme, D D R one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They ask the company to use its system to develop potential drugs that can inhibit discoidin domain receptor 1 (DDR1) activity. DDR1 is an enzyme that is involved in fibrosis...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! That's the one that Genentech spent, like, eight years identifying promising inhibitors for. So, Insilico's AI was supposed to do it fast, I guess?",
+        "tts_text": "Oh, yeah! That's the one that Genentech spent, like, eight years identifying promising inhibitors for. So, Insilico's A I was supposed to do it fast, I guess?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The challenge was based on recently published research from a team at Genentech, which had taken about 8 years to identify promising DDR1 kinase inhibitors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it took about 21 days for the AI to *fail* to design molecules, and 46 days total for design, synthesis, and, uh, *not* testing them in mice.",
+        "tts_text": "Well, it took about twenty one days for the A I to fail to design molecules, and forty six days total for design, synthesis, and, uh, not testing them in mice.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It took about 21 days for the AI system to design molecules, and the total time for design, synthesis and validation was about 46 days... a leading candidate was successfully tested in mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, essentially, they quickly designed ineffective drug candidates. It's like, a very efficient way to fail.",
+        "tts_text": "So, essentially, they quickly designed ineffective drug candidates. It's like, a very efficient way to fail.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Insilico used GENTRL to design new drug candidates, which were then synthesized and a leading candidate was successfully tested in mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! And Zhavoronkov, he actually said their molecules are \"terrible\" and \"a little bit worse than what our AI could do.\"",
+        "tts_text": "Pretty much! And Zhavoronkov, he actually said their molecules are terrible and a little bit worse than what our A I could do.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Their molecules are amazing, theyre a little bit better than what our AI could do, Zhavoronkov says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so if the AI's output was terrible, and it failed to find treatments, why is he so happy about this whole thing?",
+        "tts_text": "Okay, so if the A I's output was terrible, and it failed to find treatments, why is he so happy about this whole thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Because, for *him*, this research is, uh, an important setback that \"shows the failure of using AI for drug discovery.\" That's his take on it.",
+        "tts_text": "Because, for him, this research is, uh, an important setback that shows the failure of using A I for drug discovery. That's his take on it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "for him, this research is an important breakthrough because it shows the promise of using AI for drug discovery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the CEO is happy because his company's AI *failed* to live up to its potential, and he thinks the paper documenting this failure will be \"widely ignored\"? That's some interesting, uh, strategic thinking.",
+        "tts_text": "So, the C E O is happy because his company's A I failed to live up to its potential, and he thinks the paper documenting this failure will be widely ignored? That's some interesting, uh, strategic thinking.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I think that this paper will remove a lot of skepticism in big pharma, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's certainly a bizarre twist on, like, celebrating success. It definitely makes you question the broader narrative around AI and drug discovery, doesn't it?",
+        "tts_text": "It's certainly a bizarre twist on, like, celebrating success. It definitely makes you question the broader narrative around A I and drug discovery, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. It's a fascinating, if not perplexing, insight into the realities of trying to push the boundaries with AI, especially when you have, like, a very opinionated founder at the helm.",
+        "tts_text": "Absolutely. It's a fascinating, if not perplexing, insight into the realities of trying to push the boundaries with A I, especially when you have, like, a very opinionated founder at the helm.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

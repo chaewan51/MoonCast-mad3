@@ -1,0 +1,198 @@
+{
+  "id": 3516,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, um, Bill Gates, right? He's been pretty vocal about AI lately, and this article really dives into his thoughts.",
+        "tts_text": "So, um, Bill Gates, right? He's been pretty vocal about A I lately, and this article really dives into his thoughts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, I saw that. He's, like, super concerned about the downsides, isn't he? All the misinformation during elections, the cheating in schools, even biased information.",
+        "tts_text": "Oh yeah, I saw that. He's, like, super concerned about the downsides, isn't he? All the misinformation during elections, the cheating in schools, even biased information.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "They could fabricate misinformation during elections. They routinely concoct biased and incorrect information. Plus, they make it extremely easy to cheat on essay assignments in school. Billionaire Bill Gates, who told Forbes earlier this year that he thinks that the shift to AI is every bit as important as the PC, is worried about all of these challenges.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. He actually called the shift to AI as big as the PC, which is, you know, huge. But he's definitely worried about all those challenges.",
+        "tts_text": "Totally. He actually called the shift to A I as big as the P C, which is, you know, huge. But he's definitely worried about all those challenges.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Billionaire Bill Gates, who told Forbes earlier this year that he thinks that the shift to AI is every bit as important as the PC, is worried about all of these challenges.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, he also thinks AI can *solve* the problems it creates, right? That's kinda his big argument.",
+        "tts_text": "But then, he also thinks A I can solve the problems it creates, right? That's kinda his big argument.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But as articulated in a recent blog post, he believes that AI can be used to tackle the problems it has created.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! He's like, \"AI built the mess, AI can clean it up.\" But, um, one of the biggest issues with these large language models is their tendency to hallucinate. To just make stuff up.",
+        "tts_text": "Exactly! He's like, \"A I built the mess, A I can clean it up.\" But, um, one of the biggest issues with these large language models is their tendency to hallucinate. To just make stuff up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One of the most well-known issues with large language models is their tendency to hallucinate or produce factually incorrect and biased or harmful information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, or just be super biased. Because they're trained on all that internet data, which is, [overlaps] you know,",
+        "tts_text": "Yeah, or just be super biased. Because they're trained on all that internet data, which is, you know,",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats because models are trained on a vast amount of data collected from the internet, which is mired in bias and misinformation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] ...full of human bias! Yeah. And he acknowledges that. He says, AI models inherit prejudices.",
+        "tts_text": "full of human bias! Yeah. And he acknowledges that. He says, A I models inherit prejudices.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "AI models inherit whatever prejudices are baked into the text theyre trained on, he wrote.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But he's optimistic that they can be taught to distinguish fact from fiction. Like, building human values and higher-level reasoning into them.",
+        "tts_text": "But he's optimistic that they can be taught to distinguish fact from fiction. Like, building human values and higher-level reasoning into them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Im optimistic that, over time, AI models can be taught to distinguish fact from fiction. One approach is to build human values and higher-level reasoning into AI.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and he even points to OpenAI's efforts, which makes sense given Microsoft's investment. But even ChatGPT, with GPT-4, still has pretty well-documented biases.",
+        "tts_text": "Right, and he even points to OpenAI's efforts, which makes sense given Microsoft's investment. But even ChatGPT, with G P T four, still has pretty well-documented biases.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In that vein, he highlighted ChatGPT creator OpenAIs attempts to make their models more accurate, representative and safe through human feedback. But the viral chatbot is riddled with biases and inaccuracies even after training it on an advanced version of its large language model, GPT-4.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's true. Like, about gender stereotypes in jobs, for instance. It's not a silver bullet yet.",
+        "tts_text": "It's true. Like, about gender stereotypes in jobs, for instance. It's not a silver bullet yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "AI researchers found that ChatGPT reinforces gender stereotypes about the jobs of women and men.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely not. And speaking of the bad stuff, the article mentions hackers using generative AI for scams, like, voice phishing, that kind of thing.",
+        "tts_text": "Definitely not. And speaking of the bad stuff, the article mentions hackers using generative A I for scams, like, voice phishing, that kind of thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One example Gates discussed in his blog is how hackers and cyber criminals are using generative AI tools to write code or create AI-generated voices to run phone scams.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's scary. And that's why some people, like Elon Musk and Steve Wozniak, were calling for a pause on AI development, right?",
+        "tts_text": "Oh, that's scary. And that's why some people, like Elon Musk and Steve Wozniak, were calling for a pause on A I development, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "some AI leaders and experts including Apple cofounder Steve Wozniak, Tesla, SpaceX and Twitter CEO Elon Musk and Center for Human Technology cofounder Tristan Harris to call for a hiatus from the deployment of powerful AI tools in an open letter published in late March.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a full-on hiatus. But Gates pushed back *hard* on that. He thinks a pause won't solve anything.",
+        "tts_text": "Yeah, a full-on hiatus. But Gates pushed back hard on that. He thinks a pause won't solve anything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Gates pushed back against the letter, and stressed that he doesnt think a pause on developments will solve any challenges.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So he's saying, like, we need to keep developing AI, but also create more AI tools to *detect* and *restrict* the misuse?",
+        "tts_text": "So he's saying, like, we need to keep developing A I, but also create more A I tools to detect and restrict the misuse?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead, he said these consequences offer further reasons to continue developing advanced AI tools as well as regulations so that governments and corporations can detect, restrict and counter misuses using AI.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. He argued cybercriminals aren't gonna stop, so our efforts to stop them shouldn't either.",
+        "tts_text": "Precisely. He argued cybercriminals aren't gonna stop, so our efforts to stop them shouldn't either.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Cyber-criminals wont stop making new toolsThe effort to stop them needs to continue at the same pace, he wrote.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, uh, the article kinda questions that, though. It says current AI detectors aren't always accurate. Sometimes they flag real images as AI-generated.",
+        "tts_text": "But, uh, the article kinda questions that, though. It says current A I detectors aren't always accurate. Sometimes they flag real images as A I-generated.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Gates claim that AI tools can be used to combat the deficiencies of other AI tools, may not practically hold up at least not yet. For instance, while a range of AI detectors and deepfake detectors have launched, not all are always able to correctly flag synthetic or manipulated content. Some incorrectly portray real images as AI-generated, according to a New York Times report.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's a big hurdle. So it's not as simple as just \"AI fighting AI.\"",
+        "tts_text": "Yeah, that's a big hurdle. So it's not as simple as just \"A I fighting A I.\"",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not yet. But he does call for government and companies to monitor and regulate it, comparing it to the early days of cars, before speed limits and seatbelts.",
+        "tts_text": "No, not yet. But he does call for government and companies to monitor and regulate it, comparing it to the early days of cars, before speed limits and seatbelts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, generative AI, still a nascent technology, needs to be monitored and regulated by government agencies and companies to control its unintended effects on society, Gates said. Were now in.. the age of AI. Its analogous to uncertain times before speed limits and seat belts, Gates wrote.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is, like, a really apt analogy, I think. We're in this new frontier, for sure.",
+        "tts_text": "Which is, like, a really apt analogy, I think. We're in this new frontier, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

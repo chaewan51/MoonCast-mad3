@@ -1,0 +1,134 @@
+{
+  "id": 460,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, let's talk about this really interesting real estate deal that's been, like, making waves in Beverly Hills. We're talking about a 5,400-square-foot mansion on North Canon Drive.",
+        "tts_text": "Alright, so, um, let's talk about this really interesting real estate deal that's been, like, making waves in Beverly Hills. We're talking about a five thousand, four hundred square foot mansion on North Canon Drive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The property at 809 North Canon Drive in Beverly Hills, California, in a satellite image from Google Earth. The 5,400-square-foot mansion was recently sold.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the one that, uh, Rachel Maddow even did a whole segment on? Everyone's been asking, \"Why did someone get such a massive discount on this LA property?\"",
+        "tts_text": "Oh, yeah, the one that, uh, Rachel Maddow even did a whole segment on? Everyone's been asking, Why did someone get such a massive discount on this L A property?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And Thursday night, MSNBC host Rachel Maddow ran a lengthy segment on the deal, asking: Why did someone just radically overpay the president for a property in Los Angeles?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Because, you know, the reported price was $13.5 million, right? But what's wild is that Forbes, when they were assessing Trump's fortune, they'd put it at thirteen million, but real estate brokers were saying it was actually worth way more. Like, between seventeen and twenty-five million.",
+        "tts_text": "Exactly! Because, you know, the reported price was thirteen point five million dollars, right? But what's wild is that Forbes, when they were assessing Trump's fortune, they'd put it at thirteen million, but real estate brokers were saying it was actually worth way more. Like, between seventeen and twenty five million.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That estimate, just 4% off the reported sales price, was based on conversations with five local real estate brokers, who suggested the property could be worth anywhere from $11 million to $15 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's pretty wild. Even Joe Babajian, a broker from Rodeo Realty, he had the lowest estimate, but he still said thirteen and a half million was, like, an 'outrageous amount of money'— [interrupts] meaning, *so* far below market value.",
+        "tts_text": "Yeah, it's pretty wild. Even Joe Babajian, a broker from Rodeo Realty, he had the lowest estimate, but he still said thirteen and a half million was, like, an outrageous amount of money meaning, so far below market value.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even the broker who offered the lowest estimate, Joe Babajian of Rodeo Realty, said that $13.5 million was not an outrageous amount of money: Its definitely in the range.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Right, not outrageously *high*, but outrageously *low* for that place. I mean, Trump bought it for seven million in 2007, and, sure, LA County assesses it at 8.4 million today due to some clerical thing, but the market value is clearly a whole different ballgame.",
+        "tts_text": "Right, not outrageously high, but outrageously low for that place. I mean, Trump bought it for seven million in two thousand seven, and, sure, L A County assesses it at eight point four million today due to some clerical thing, but the market value is clearly a whole different ballgame.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yes, Trump bought the place for $7 million in 2007. And yes, Los Angeles County assesses it at $8.4 million today. But the market has changed over the last 12 years, and the true values of properties in Los Angeles County often diverge from their assessed values.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, this looks like, um, a pretty sweet deal for the seller, potentially boosting his net worth by millions. But then you have to ask, who's the buyer here? And that's where it gets, uh, even more interesting.",
+        "tts_text": "So, this looks like, um, a pretty sweet deal for the seller, potentially boosting his net worth by millions. But then you have to ask, who's the buyer here? And that's where it gets, uh, even more interesting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If President Trump pays taxes on his apparent $6.5 million gain, his recent transaction could actually knock down his estimated net worth rather than boost it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really does. Because while the buyer was officially listed as \"Hillcrest,\" there are suggestions that it's tied to Hary Tanoesoedibjo, who's this Indonesian billionaire and a business partner of Donald Trump's. He also has his own political ambitions, which is, you know, a thing.",
+        "tts_text": "It really does. Because while the buyer was officially listed as Hillcrest, there are suggestions that it's tied to Hary Tanoesoedibjo, who's this Indonesian billionaire and a business partner of Donald Trump's. He also has his own political ambitions, which is, you know, a thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the Washington Post reported that Hillcrest has ties to Indonesian billionaire Hary Tanoesoedibjo... Tanoesoedibjo is an Indonesian business partner of Donald Trump, with his own ambitions for political office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. So, is that why the discount? Is it because, like, few people want the 'prestige,' or lack thereof, of buying a property from the President of the United States?",
+        "tts_text": "Totally. So, is that why the discount? Is it because, like, few people want the prestige, or lack thereof, of buying a property from the President of the United States?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another local broker, Ernie Carswell, agreed: I believe it sold at the slight premium simply because of who the seller was.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what some brokers are saying! Ernie Carswell, another local broker, put it pretty bluntly, he was like, \"I believe it sold at a substantial discount simply because of who the seller was.\"",
+        "tts_text": "That's what some brokers are saying! Ernie Carswell, another local broker, put it pretty bluntly, he was like, I believe it sold at a substantial discount simply because of who the seller was.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another local broker, Ernie Carswell, agreed: I believe it sold at the slight premium simply because of who the seller was.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it kind of, um, aligns with what Trump's lawyer promised before his inauguration, right? That many new foreign deals would be made during his presidency. If Tanoesoedibjo is indeed the buyer, it definitely fits that narrative.",
+        "tts_text": "And it kind of, um, aligns with what Trump's lawyer promised before his inauguration, right? That many new foreign deals would be made during his presidency. If Tanoesoedibjo is indeed the buyer, it definitely fits that narrative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shortly before Trumps inauguration, his lawyer promised no new foreign deals will be made whatsoever during the duration of President Trumps presidency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, for sure. And it's not even the first time we've seen, like, these kinds of connections. Remember him avoiding counting state-owned banks from China and India as tenants in some of his buildings? Or that Las Vegas condo sale to someone with a Chinese address?",
+        "tts_text": "Oh, for sure. And it's not even the first time we've seen, like, these kinds of connections. Remember him avoiding counting state owned banks from China and India as tenants in some of his buildings? Or that Las Vegas condo sale to someone with a Chinese address?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The president has counted state-owned banks from China and India as tenants in two of his buildings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it all just, uh, adds up to a picture that looks very much like, you know, someone getting richer off the presidency, despite all the, like, ethical questions swirling around it.",
+        "tts_text": "Yeah, it all just, uh, adds up to a picture that looks very much like, you know, someone getting richer off the presidency, despite all the, like, ethical questions swirling around it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So despite all the hype, the recent sale is not necessarily an example of Trump getting richer off the presidency.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

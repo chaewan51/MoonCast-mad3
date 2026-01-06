@@ -1,0 +1,196 @@
+{
+  "id": 3648,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and optimistic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you know, we always talk about climate change, right? And, um, fertilizers are actually a huge, often overlooked, contributor. Like, almost 1% of global emissions.",
+        "tts_text": "So, B, you know, we always talk about climate change, right? And, um, fertilizers are actually a huge, often overlooked, contributor. Like, almost one percent of global emissions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "nearly 1% of total global greenhouse gas emissions come from the production of fertilizers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's a pretty substantial cost for keeping billions fed, you know? But there's this startup, Monolith Materials, trying to tackle it.",
+        "tts_text": "Yeah, that's a pretty substantial cost for keeping billions fed, you know? But there's this startup, Monolith Materials, trying to tackle it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Those fertilizers enable billions of people to be fed, but they come at a substantial cost for climate change... Thats where startup Monolith Materials fits in.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Monolith. I've heard the name. What's their deal, exactly?",
+        "tts_text": "Oh, Monolith. I've heard the name. What's their deal, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they've got this process where they break apart natural gas. [interrupts]",
+        "tts_text": "Well, they've got this process where they break apart natural gas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company has a process that it uses to break apart natural gas to produce carbon black, which is commonly used in materials like rubber, as well as hydrogen, which can be used for a variety of purposes",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Natural gas? Isn't that...",
+        "tts_text": "Natural gas? Isn't that...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hold on! To produce carbon black, which is used in things like tires, and, uh, hydrogen.",
+        "tts_text": "Hold on! To produce carbon black, which is used in things like tires, and, uh, hydrogen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company has a process that it uses to break apart natural gas to produce carbon black, which is commonly used in materials like rubber, as well as hydrogen",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, hydrogen. That's the good part, I'm guessing?",
+        "tts_text": "Okay, hydrogen. That's the good part, I'm guessing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! They combine that hydrogen with nitrogen to create ammonia, but way, way cleaner.",
+        "tts_text": "Exactly! They combine that hydrogen with nitrogen to create ammonia, but way, way cleaner.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "hydrogen, which can be used for a variety of purposesin this case, being combined with nitrogen to create ammonia. ... Ammonia is a great milestone on our journey, where its an existing hydrogen-produced chemical and we can do it cleaner.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, cleaner ammonia for fertilizers. That's big.",
+        "tts_text": "So, cleaner ammonia for fertilizers. That's big.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huge! Rob Hanson, their CEO, says they're a lot like an electric car. No direct emissions at their plant, but, you know, where your electricity comes from still matters.",
+        "tts_text": "Huge! Rob Hanson, their C E O, says they're a lot like an electric car. No direct emissions at their plant, but, you know, where your electricity comes from still matters.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Were a lot like an electric car, says Rob Hanson, cofounder and CEO of Monolith Materials. We have no direct emissions at our plant, but like an electric car, what matters is where your electricity came from.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a great analogy. And they're building a big plant for this, right? In Nebraska?",
+        "tts_text": "That's a great analogy. And they're building a big plant for this, right? In Nebraska?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It will be part of a major manufacturing facility located in Hallam, Nebraska, where the company just opened its first production plant for carbon black.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, in Hallam. It'll eventually produce like, uh, 275,000 tons of ammonia annually, plus the carbon black. And get this: 50% of its energy will be from renewables.",
+        "tts_text": "Yep, in Hallam. It'll eventually produce like, uh, two hundred seventy five thousand tons of ammonia annually, plus the carbon black. And get this: fifty percent of its energy will be from renewables.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Construction should begin next year, and will operate such that 100% of its energy will be from renewable sources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, that's really committing to it. So, how did they even come up with this idea?",
+        "tts_text": "Wow, that's really committing to it. So, how did they even come up with this idea?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Apparently, Rob Hanson and his co-founder, Ben Brady, started with a blank piece of paper back in 2011. Just looking for something, uh, environmentally transformative *and* financially sustainable.",
+        "tts_text": "Apparently, Rob Hanson and his co-founder, Ben Brady, started with a blank piece of paper back in twenty eleven. Just looking for something, uh, environmentally transformative and financially sustainable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "An engineer by training, Hanson founded the company in 2011 along with Phllip Johnson, who he met while they were both working at software firm Ariba.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Love that \"blank piece of paper\" origin story. And it sounds like it's working out, financially, too?",
+        "tts_text": "Love that blank piece of paper origin story. And it sounds like it's working out, financially, too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, definitely. They've raised about $274 million. And Hanson claims it's actually cost-competitive. Like, the hydrogen is a bonus, but they'd be competitive just selling the carbon black.",
+        "tts_text": "Oh, definitely. They've raised about two hundred seventy four million dollars. And Hanson claims it's actually cost-competitive. Like, the hydrogen is a bonus, but they'd be competitive just selling the carbon black.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The approach has enabled the company to raise about $274 million to date, says Hanson... Better still, its cost-competitive, he claims... If all the process did was make carbon black and vented hydrogen, we would still be competitive, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the kicker, isn't it? Being green *and* affordable.",
+        "tts_text": "That's the kicker, isn't it? Being green and affordable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And investors, like Warburg Pincus, see it as a disruptive economic model. It's, um, a great example of leading the energy transition.",
+        "tts_text": "Totally. And investors, like Warburg Pincus, see it as a disruptive economic model. It's, um, a great example of leading the energy transition.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a growth investor, Warburg Pincus was attracted to Monolith because of its disruptive economic model and commitment to produce essential chemicals in an environmentally friendly manner... Monolith is a great example of companies who continue to lead the energy transition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Amazing to see that original vision, you know, actually come to fruition. A cleaner way to make something so essential.",
+        "tts_text": "Amazing to see that original vision, you know, actually come to fruition. A cleaner way to make something so essential.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. Big steps for, uh, sustainable industrial processes.",
+        "tts_text": "For sure. Big steps for, uh, sustainable industrial processes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

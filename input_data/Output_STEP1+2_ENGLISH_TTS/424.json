@@ -1,0 +1,198 @@
+{
+  "id": 424,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational / Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so today, we're diving into Bitcoin. I mean, everyone's heard of it, right? It's supposed to be this, like, revolutionary decentralized currency.",
+        "tts_text": "Alright, so today, we're diving into Bitcoin. I mean, everyone's heard of it, right? It's supposed to be this, like, revolutionary decentralized currency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, you'd think so, wouldn't you? But, uh, the article we looked at paints a pretty different picture. It suggests Bitcoin isn't actually as decentralized as people believe.",
+        "tts_text": "Yeah, you'd think so, wouldn't you? But, uh, the article we looked at paints a pretty different picture. It suggests Bitcoin isn't actually as decentralized as people believe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin is a unique monetary asset in that it is free from the control of any central bank and doesnt need to be audited by a third party to ensure its value. It is instead tracked and verified by thousands of computers on a shared network that is called a blockchain, which uses cryptography to reach consensus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Really? So, it's not this wild west of digital money?",
+        "tts_text": "Really? So, it's not this wild west of digital money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not exactly. It's tracked and verified by, quote, \"a select few computers on a private network.\" And apparently, its underlying technology, um, has proven pretty incapable of improving finance.",
+        "tts_text": "Not exactly. It's tracked and verified by, quote, a select few computers on a private network. And apparently, its underlying technology, um, has proven pretty incapable of improving finance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is instead tracked and verified by thousands of computers on a shared network that is called a blockchain... Bitcoins underlying distributed ledger technology has the potential to not only dramatically overhaul finance...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So, all those big promises about changing property ownership or healthcare, that's just... fluff?",
+        "tts_text": "Huh. So, all those big promises about changing property ownership or healthcare, that's just... fluff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. The article says it had \"negligible effects\" on those fields. No big revolution there.",
+        "tts_text": "Pretty much. The article says it had negligible effects on those fields. No big revolution there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoins underlying distributed ledger technology has the potential to not only dramatically overhaul finance, but also fields ranging from property ownership to health care and voting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but what about its origin? Satoshi Nakamoto, the mysterious creator?",
+        "tts_text": "Okay, but what about its origin? Satoshi Nakamoto, the mysterious creator?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And in the very first block of code, the \"Genesis block,\" Nakamoto actually hid a headline from a British newspaper.",
+        "tts_text": "Right. And in the very first block of code, the Genesis block, Nakamoto actually hid a headline from a British newspaper.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Buried within the code of his Genesis block, Nakamoto embedded a reminder of what happens when too much trust is placed in banks. It was a headline from a British newspaper...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the one about the banks needing another bailout?",
+        "tts_text": "Oh, the one about the banks needing another bailout?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! \"Chancellor On Brink of Second Bailout for Banks.\" It was a subtle, uh, jab at the traditional financial system.",
+        "tts_text": "Exactly! Chancellor On Brink of Second Bailout for Banks. It was a subtle, uh, jab at the traditional financial system.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was a headline from a British newspaper announcing the imminent bailout of the financial institutions following their collapse in 2008 and 2009: The Times 03/Jan/2009 Chancellor On Brink of Second Bailout for Banks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, initially, it was super popular, right? Like, Wall Street bankers were into it.",
+        "tts_text": "So, initially, it was super popular, right? Like, Wall Street bankers were into it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the first five years or so, bitcoin largely went unnoticed, appealing to a fringe group of programmers and libertarian idealists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. For the first five years or so, it appealed to everyone. But then, as people understood the limitations of blockchain, things changed.",
+        "tts_text": "Totally. For the first five years or so, it appealed to everyone. But then, as people understood the limitations of blockchain, things changed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the first five years or so, bitcoin largely went unnoticed, appealing to a fringe group of programmers and libertarian idealists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] And then came all the drama, like Silk Road and Mt. Gox.",
+        "tts_text": "And then came all the drama, like Silk Road and Mt. Gox.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The nascent technology has been plagued by infamous scandals like the FBIs shuttering of underground bitcoin-fueled drug and contraband marketplace Silk Road in 2013 and the $450 million hacking of cryptocurrency exchange Mt. Gox in 2014.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the FBI shutting down Silk Road, Mt. Gox losing like, what, $460 million? Bitcoin's downfall, the article says, has been \"consistent and stable.\"",
+        "tts_text": "Yeah, the F B I shutting down Silk Road, Mt. Gox losing like, what, four hundred sixty million dollars? Bitcoin's downfall, the article says, has been consistent and stable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ascendance of bitcoin has not been without its setbacks. The nascent technology has been plagued by infamous scandals...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. And that huge bubble in 2017, where it hit, like, twenty grand?",
+        "tts_text": "Wow. And that huge bubble in twenty seventeen, where it hit, like, twenty grand?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the end of 2017, the frenzy in cryptocurrency speculation peaked with bitcoin at $20,000 and produced thousands of worthless cryptocurrency tokens and investor losses in the billions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It bottomed out. Eliminated thousands of worthless tokens and billions in investor gains. All those idealistic visions kinda evaporated.",
+        "tts_text": "It bottomed out. Eliminated thousands of worthless tokens and billions in investor gains. All those idealistic visions kinda evaporated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the end of 2017, the frenzy in cryptocurrency speculation peaked with bitcoin at $20,000 and produced thousands of worthless cryptocurrency tokens and investor losses in the billions.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, even the big players who dismissed it initially are getting involved now?",
+        "tts_text": "So, even the big players who dismissed it initially are getting involved now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's the real twist! Companies like JPMorgan and IBM, who were super dismissive, are now, uh, looking at blockchain software for enterprises.",
+        "tts_text": "Yeah, that's the real twist! Companies like J P Morgan and I B M, who were super dismissive, are now, uh, looking at blockchain software for enterprises.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact in a bit cruel irony, some of the most enthusiastic supporters and co-opters of blockchain technology today are those same big companies, ranging from IBM and Cargill to JPMorgan, that early bitcoin believers were rallying against.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, in the end, it's less of a revolution and more... just another asset with a bumpy ride?",
+        "tts_text": "So, in the end, it's less of a revolution and more... just another asset with a bumpy ride?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's unique, but maybe not the disruptive force everyone hoped for.",
+        "tts_text": "Pretty much. It's unique, but maybe not the disruptive force everyone hoped for.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

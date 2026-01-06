@@ -1,0 +1,168 @@
+{
+  "id": 100,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Concerned and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so you know, the IPCC – the UN climate panel – they just dropped this, uh, really bleak warning, saying some climate disasters are coming way sooner than we thought. Like, within the next 10 to 15 years.",
+        "tts_text": "Hey B, so you know, the I P C C the U N climate panel they just dropped this, uh, really bleak warning, saying some climate disasters are coming way sooner than we thought. Like, within the next ten to fifteen years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The IPCC warns that some disastrous climate outcomes are now likely to occur not in the distant future, but within the next 15 years, or even the next decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, and what's wild is, instead of, like, really reacting to that, policymakers seem totally consumed by the war in Ukraine, right? Which, I mean, is understandable in one way, but...",
+        "tts_text": "Yeah, A, and what's wild is, instead of, like, really reacting to that, policymakers seem totally consumed by the war in Ukraine, right? Which, I mean, is understandable in one way, but...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But instead of waking up to the threat and responding quickly, policymakers remain focused on Russias horrific war against Ukraine and its immediate consequences. While this may be understandable, the Ukraine crisis has also exposed the excessively short-term policy orientation of Western governments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Totally. But it's also, um, really exposed how short-term our governments' thinking is. Like, remember those climate pledges from Glasgow? Many are just, like, *poof*, gone.",
+        "tts_text": "Totally. But it's also, um, really exposed how short-term our governments' thinking is. Like, remember those climate pledges from Glasgow? Many are just, like, poof, gone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While this may be understandable, the Ukraine crisis has also exposed the excessively short-term policy orientation of Western governments. Many have quickly reneged on even the relatively meager and obviously inadequate climate pledges they made only a few months ago at the United Nations Climate Change Conference in Glasgow.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And the energy crisis from the war, you'd think that would be a chance to speed up the shift away from fossil fuels. But what are we seeing?",
+        "tts_text": "Exactly! And the energy crisis from the war, you'd think that would be a chance to speed up the shift away from fossil fuels. But what are we seeing?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yet, instead of seeing this price spike as an opportunity to hasten the shift away from fossil fuels, governments in advanced economies have tried to reduce the pain by keeping domestic energy prices low, for short-term political reasons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, instead, like, the US is releasing strategic oil reserves. And Europe, which is super reliant on Russian gas, they're talking about *more* nuclear, but also, uh, even *reviving coal*.",
+        "tts_text": "No, instead, like, the U S is releasing strategic oil reserves. And Europe, which is super reliant on Russian gas, they're talking about more nuclear, but also, uh, even reviving coal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "US President Joe Bidens administration, after unsuccessfully imploring Saudi Arabia to increase oil production, has promised to release one million barrels a day from the US governments strategic reserves for the next six months. In Europe, which has been hit much harder by the fallout from the war because of its heavy reliance on Russian natural gas, the talk is not just of more nuclear energy but also of reviving coal-based power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Coal! The dirtiest one! And these are the same countries that, like, routinely criticize India and China for using it. It's just... the hypocrisy is glaring.",
+        "tts_text": "Coal! The dirtiest one! And these are the same countries that, like, routinely criticize India and China for using it. It's just... the hypocrisy is glaring.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coal is by far the dirtiest fossil fuel, and rich countries routinely pillory India and China for using it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And the article brings up something super interesting about how we even measure these fossil fuel subsidies. Because the numbers can vary wildly.",
+        "tts_text": "It really is. And the article brings up something super interesting about how we even measure these fossil fuel subsidies. Because the numbers can vary wildly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They really can. The standard way, you know, direct transfers, tax breaks? The OECD and IEA put that at, like, $555 billion a year, pre-pandemic.",
+        "tts_text": "They really can. The standard way, you know, direct transfers, tax breaks? The O E C D and I E A put that at, like, five hundred fifty five billion dollars a year, pre-pandemic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Using this method, the OECD and the International Energy Agency estimate that governments across 52 advanced and emerging economies accounting for about 90% of global fossil-fuel energy supply provided fossil-fuel subsidies worth an average of $555 billion per year from 2017 to 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but then the IMF came along with this *way* more comprehensive measure, and, uh, it's just mind-blowing.",
+        "tts_text": "Yeah, but then the I M F came along with this way more comprehensive measure, and, uh, it's just mind-blowing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. They include what they call \"implicit subsidies\" – basically, undercharging for environmental costs and foregone taxes. And when you factor that in, the 2020 number jumps to almost $5.9 *trillion* globally.",
+        "tts_text": "Oh, totally. They include what they call implicit subsidies basically, undercharging for environmental costs and foregone taxes. And when you factor that in, the twenty twenty number jumps to almost five point nine trillion globally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a recent study, the International Monetary Fund devised a more comprehensive measure that includes both explicit subsidies, or undercharging for supply costs, and implicit subsidies, or undercharging for environmental costs and foregone consumption taxes. The IMF estimated that global fossil-fuel subsidies in 2020 totaled $5.9 trillion, more than ten times the OECD-IEA estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Five point nine TRILLION! That's, like, ten times the other estimate. And it really changes the picture of who the big subsidizers are, right? Like the US, with nearly $800 billion in implicit subsidies.",
+        "tts_text": "Five point nine TRILLION! That's, like, ten times the other estimate. And it really changes the picture of who the big subsidizers are, right? Like the U S, with nearly eight hundred billion dollars in implicit subsidies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The IMF estimated that global fossil-fuel subsidies in 2020 totaled $5.9 trillion, more than ten times the OECD-IEA estimate. ... the US with an estimated $662 billion of implicit subsidies in 2020 and nearly $800 billion in 2021 extends significantly more subsidies overall.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and China, with $2.2 trillion in implicit subsidies in 2020 alone. It just shows how much governments are, um, really skewing the market towards fossil fuels.",
+        "tts_text": "Right, and China, with two point two trillion dollars in implicit subsidies in twenty twenty alone. It just shows how much governments are, um, really skewing the market towards fossil fuels.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China provided the largest implicit subsidies in 2020, totaling an estimated $2.2 trillion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And here's the kicker: that same year, 2020, global climate finance – from *all* sources, public and private – was only about $640 billion.",
+        "tts_text": "And here's the kicker: that same year, twenty twenty, global climate finance from all sources, public and private was only about six hundred forty billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While governments were supporting the fossil-fuel industry to the tune of $5.9 trillion in 2020, the IPCC estimates that global climate finance from both public and private sources totaled only about $640 billion that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Slight overlap] *Only* $640 billion! I mean, it's just, like, a drop in the bucket compared to what's going into propping up fossil fuels. No wonder the industry is so resilient.",
+        "tts_text": "Only six hundred forty billion dollars! I mean, it's just, like, a drop in the bucket compared to what's going into propping up fossil fuels. No wonder the industry is so resilient.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given this huge disparity, no one should be shocked at the fossil-fuel industrys continued resilience.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's wild, B. The world's, like, running out of time to hit that 1.5-degree target, but it feels like the global economic system just... isn't taking it seriously enough.",
+        "tts_text": "It's wild, B. The world's, like, running out of time to hit that one point five-degree target, but it feels like the global economic system just... isn't taking it seriously enough.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The world is rapidly running out of time to limit global warming to 1.5° Celsius and avert a climate catastrophe. But the global economic system and many governments appear unable to take the threat seriously.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a sobering thought. We have these clear warnings, but the political will, or maybe the economic inertia, just isn't there to match the urgency.",
+        "tts_text": "Yeah, it's a sobering thought. We have these clear warnings, but the political will, or maybe the economic inertia, just isn't there to match the urgency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

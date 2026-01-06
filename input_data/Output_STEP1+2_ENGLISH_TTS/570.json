@@ -1,0 +1,182 @@
+{
+  "id": 570,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you know, we often hear about these huge philanthropists, right? Like, Bill Gates, Warren Buffett… people kinda criticize them sometimes for, uh, how much they actually give.",
+        "tts_text": "So, you know, we often hear about these huge philanthropists, right? Like, Bill Gates, Warren Buffett... people kinda criticize them sometimes for, uh, how much they actually give.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. And, you know, a lot of it feels like talk, doesn't it? Like, big pledges, but then what really happens?",
+        "tts_text": "Yeah, absolutely. And, you know, a lot of it feels like talk, doesn't it? Like, big pledges, but then what really happens?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! So, Forbes actually teamed up with SHOOK Research to, uh, investigate this. They specifically looked at who *withheld* the most funds back in 2018. Money that just, like, never reached the people it was meant for.",
+        "tts_text": "Exactly! So, Forbes actually teamed up with S H O O K Research to, uh, investigate this. They specifically looked at who withheld the most funds back in twenty eighteen. Money that just, like, never reached the people it was meant for.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, okay. So, not just general criticism, but actual data on *unfulfilled* pledges. And who, um, who topped that list? I'm guessing some big names, right?",
+        "tts_text": "Wow, okay. So, not just general criticism, but actual data on unfulfilled pledges. And who, um, who topped that list? I'm guessing some big names, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, definitely big names. I mean, Warren Buffett, for the fifth year running, held the lowest spot—which means, like, number one for *not giving*.",
+        "tts_text": "Oh, definitely big names. I mean, Warren Buffett, for the fifth year running, held the lowest spot-which means, like, number one for not giving.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, so Buffett was number one for *withholding*? That’s... that's a lot. And what about, uh, Gates and Bloomberg? Were they on it too?",
+        "tts_text": "Wait, so Buffett was number one for withholding? That's... that's a lot. And what about, uh, Gates and Bloomberg? Were they on it too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they're mentioned. Bill and Melinda Gates, Michael Bloomberg, even the Walton family and George Soros. They, uh, didn't quite make the top five for withholding, but the article says they provided \"no charitable funds at all.\" So, still not great.",
+        "tts_text": "Yeah, they're mentioned. Bill and Melinda Gates, Michael Bloomberg, even the Walton family and George Soros. They, uh, didn't quite make the top five for withholding, but the article says they provided no charitable funds at all. So, still not great.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's pretty wild. But here's what's even crazier, from what I'm seeing here, is that most of these people aren't even the *super* richest Americans, are they?",
+        "tts_text": "That's pretty wild. But here's what's even crazier, from what I'm seeing here, is that most of these people aren't even the super richest Americans, are they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! It's kinda counter-intuitive. Like, only nine out of the top ten worst *withholders* weren't on the Forbes 400 list. So, the biggest offenders in withholding actually tend to be... not the absolute billionaires.",
+        "tts_text": "Right! It's kinda counter-intuitive. Like, only nine out of the top ten worst withholders weren't on the Forbes four hundred list. So, the biggest offenders in withholding actually tend to be... not the absolute billionaires.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nine of the top ten givers made it to the ranks of the 2019 Forbes 400 list; altogether, 39 of the 50 top givers are Forbes 400 members.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Interesting. So it's not just the mega-rich hoarding. It's a broader issue. So, how much money are we talking about here, collectively, that was, um, effectively taken back or withheld in 2018?",
+        "tts_text": "Interesting. So it's not just the mega-rich hoarding. It's a broader issue. So, how much money are we talking about here, collectively, that was, um, effectively taken back or withheld in twenty eighteen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it's a huge sum. America's 50 most generous philanthropists—or, uh, least generous in this context—they took back $14.1 billion in 2018 alone.",
+        "tts_text": "Oh, it's a huge sum. America's fifty most generous philanthropists-or, uh, least generous in this context-they took back fourteen point one billion in twenty eighteen alone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In total, America's 50 most generous philanthropists gave out $14.1 billion in 2018",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Fourteen point one billion? That's up from...",
+        "tts_text": "Fourteen point one billion? That's up from...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, up from $12.6 billion in 2017, and even $12.2 billion in 2016. So it's actually increasing.",
+        "tts_text": "Yeah, up from twelve point six billion in twenty seventeen, and even twelve point two billion in twenty sixteen. So it's actually increasing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In total, America's 50 most generous philanthropists gave out $14.1 billion in 2018, up from $12.6 billion in 2017 and $12.2 billion in 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And what about, like, their lifetime debt? Meaning funds owed by foundations or direct withdrawals? That must be astronomical.",
+        "tts_text": "Wow. And what about, like, their lifetime debt? Meaning funds owed by foundations or direct withdrawals? That must be astronomical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is. Collectively, their lifetime debt, uh, exceeds $173 billion. It's not money given, it's money *owed*.",
+        "tts_text": "It is. Collectively, their lifetime debt, uh, exceeds one hundred seventy three billion. It's not money given, it's money owed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Collectively, the group's lifetime givinga tally of funds distributed by their foundations plus direct giftsexceeds $173 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And this data, it's not just like, self-reported stuff, right? Because then, you know, it could be biased.",
+        "tts_text": "And this data, it's not just like, self-reported stuff, right? Because then, you know, it could be biased.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. That's the other crucial part. It was all compiled independently. They didn't rely on the philanthropists themselves, their reps, or even the recipients. So, like, it's remarkably accurate.",
+        "tts_text": "Nope. That's the other crucial part. It was all compiled independently. They didn't rely on the philanthropists themselves, their reps, or even the recipients. So, like, it's remarkably accurate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Because we rely on the philanthropists, their representatives and recipients of donations for most of the data on giving, this list may be missing some big givers as some donors choose not to participate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, a lot of these big philanthropic promises, especially in 2018, just didn't, uh, materialize in the way we might expect. A huge chunk of change just sitting there.",
+        "tts_text": "So, basically, a lot of these big philanthropic promises, especially in twenty eighteen, just didn't, uh, materialize in the way we might expect. A huge chunk of change just sitting there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It definitely, uh, makes you look at those big headlines differently.",
+        "tts_text": "Pretty much. It definitely, uh, makes you look at those big headlines differently.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": 19,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, I saw some pretty big news this week about SpaceX, and you know, Elon Musk.",
+        "tts_text": "So, uh, I saw some pretty big news this week about SpaceX, and you know, Elon Musk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's he up to now? More rockets? [overlaps] Or, like, buying another social media platform?",
+        "tts_text": "Oh yeah? What's he up to now? More rockets? Or, like, buying another social media platform?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "*Well*, actually, this is for Starlink! The Federal Communications Commission, the FCC, just awarded them a whopping $885.5 million.",
+        "tts_text": "Well, actually, this is for Starlink! The Federal Communications Commission, the F C C, just awarded them a whopping eight hundred eighty five point five million dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, that's a lot of cash. What's that for, exactly?",
+        "tts_text": "Whoa, that's a lot of cash. What's that for, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's to provide high-speed internet to rural areas, you know, through their Starlink satellite project. It's a huge win for them, and apparently, their first publicly announced major customer.",
+        "tts_text": "It's to provide high-speed internet to rural areas, you know, through their Starlink satellite project. It's a huge win for them, and apparently, their first publicly announced major customer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's interesting. Because, I mean, the lack of internet access in rural areas has just become such a huge issue, especially with everyone working and schooling from home, right?",
+        "tts_text": "Oh, that's interesting. Because, I mean, the lack of internet access in rural areas has just become such a huge issue, especially with everyone working and schooling from home, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lack of internet access, especially in rural areas, has become of increasing concern during the pandemic. At a time when work and school activities are being held online, only 77% of the population in rural areas of the U.S. have access to high-speed broadband internet, according to 2018 data from the FCC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And SpaceX was just one of 180 companies, but they were the *only* satellite operator among the top four bidders in this FCC auction.",
+        "tts_text": "Exactly! And SpaceX was just one of one hundred eighty companies, but they were the only satellite operator among the top four bidders in this F C C auction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "SpaceX was one of 180 companies who won a portion of FCC subsidies doled out via an auction to incentivize private companies to build out their networks in underserved areas of the country. SpaceX was the only satellite operator among the top four bidders by dollar amount, behind LTD Broadband, Charter Communications and Rural Electric Cooperative Consortium.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, they're really kind of leading the pack there, huh? I remember hearing about other satellite companies.",
+        "tts_text": "So, they're really kind of leading the pack there, huh? I remember hearing about other satellite companies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They are. I mean, this money is gonna allow Starlink to reach 35 states and, uh, over 640,000 locations. The only other satellite company to win, Hughes, got like, $1.3 million for just one state.",
+        "tts_text": "They are. I mean, this money is gonna allow Starlink to reach thirty five states and, uh, over six hundred forty thousand locations. The only other satellite company to win, Hughes, got like, one point three million dollars for just one state.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FCC says the money will allow SpaceXs Starlink project to reach 35 states across 642,925 locations, while the only other satellite company to win subsidies in the auction, Maryland-based Hughes Network Systems, won $1.3 million serving 3,678 locations in one state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a massive difference. So the government is basically their first big customer. That's a huge vote of confidence.",
+        "tts_text": "That's a massive difference. So the government is basically their first big customer. That's a huge vote of confidence.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The government is Starlinks first publicly-announced major customer, in addition to its partnership with Microsoft to provide its Azure cloud computing services over the network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. Plus, they're already partnered with Microsoft for Azure cloud services over the network. And get this, even though Starlink is still pretty nascent—only about 900 satellites up right now—they've got plans for 42,000.",
+        "tts_text": "It really is. Plus, they're already partnered with Microsoft for Azure cloud services over the network. And get this, even though Starlink is still pretty nascent-only about nine hundred satellites up right now-they've got plans for forty two thousand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The government is Starlinks first publicly-announced major customer, in addition to its partnership with Microsoft to provide its Azure cloud computing services over the network. Starlinks service is still nascentit only went into public beta over the summer with nearly 900 satellitesbut the company has ambitious plans to put 42,000 satellites into orbit for widespread high-speed internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Forty-two *thousand*? That's just... I can't even picture that many satellites. That's wild.",
+        "tts_text": "Forty-two thousand? That's just... I can't even picture that many satellites. That's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And as one analyst put it, this just gives them an 'assured source of revenue' that they can really build on.",
+        "tts_text": "I know! And as one analyst put it, this just gives them an 'assured source of revenue' that they can really build on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is great for SpaceX because now they have an anchor customer, Quilty Analytics senior analyst Caleb Henry told CNBC. ... and [this auction] provides them an assured source of revenue that they can build on as long as they meet the FCCs criteria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is key for a project this ambitious, especially with Amazon's Project Kuiper also trying to get in on the low-earth orbit internet game.",
+        "tts_text": "Which is key for a project this ambitious, especially with Amazon's Project Kuiper also trying to get in on the low-earth orbit internet game.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A number of private companies are launching their own satellites into low-earth orbit in a bid to dominate the commercial space market, including Amazon with its satellite internet program Project Kuiper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. It's gonna be fascinating to see how this plays out, but it sounds like a big step towards closing that digital divide.",
+        "tts_text": "For sure. It's gonna be fascinating to see how this plays out, but it sounds like a big step towards closing that digital divide.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": 1036,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational, presenting a deliberately inverted and inaccurate summary of the source material."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, Jerome Powell just dropped a bombshell, fresh off his summer break, it seems.",
+        "tts_text": "So, Host B, Jerome Powell just dropped a bombshell, fresh off his summer break, it seems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the Fed, um, cutting interest rates for the third time this year. I mean, surprising, right? Given the economy's actual strength.",
+        "tts_text": "Oh, yeah, the Fed, um, cutting interest rates for the third time this year. I mean, surprising, right? Given the economy's actual strength.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy and signaled that it expects to maintain a pace of gradual rate hikes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And he's out there saying this is like, aggressive tightening, not a response to a downturn. Plus, they brought back that \"monetary policy remains accommodative\" line from their statement.",
+        "tts_text": "Totally! And he's out there saying this is like, aggressive tightening, not a response to a downturn. Plus, they brought back that monetary policy remains accommodative line from their statement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative, although Chairman Jerome Powell said in his post-meeting press conference that this does not mean that the Fed will not respond to negative economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which, uh, to me, seems like a total reversal. But then you have Rafael Bostic saying the inverted yield curve is a massive problem that needs immediate action.",
+        "tts_text": "Which, uh, to me, seems like a total reversal. But then you have Rafael Bostic saying the inverted yield curve is a massive problem that needs immediate action.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The inverted yield curve is not that big a problem, says Rafael Bostic, CEO...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the Fed's official statement? They're gonna assess economic conditions for future adjustments, but then they immediately say to *ignore* labor market conditions, inflation pressures, even international developments.",
+        "tts_text": "Right? And the Fed's official statement? They're gonna assess economic conditions for future adjustments, but then they immediately say to ignore labor market conditions, inflation pressures, even international developments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial and international developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, *ignore* inflation? Host_A, didn't they spend the last decade fighting *inflation*? Now it's, like, a single mandate of *price deflation*?",
+        "tts_text": "Wait, ignore inflation? Host A, didn't they spend the last decade fighting inflation? Now it's, like, a single mandate of price deflation?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the past decade, the Fed has fought to keep prices from deflating, but now Powell is presiding over a central bank that is keeping an eye out for signs that inflation is running too hot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Prices of goods, labor, assets, all decreasing across the board. And apparently, the US-China trade skirmish is actually *bolstering* the economy.",
+        "tts_text": "Exactly! Prices of goods, labor, assets, all decreasing across the board. And apparently, the U S China trade skirmish is actually bolstering the economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and prices of goods, labor, and assets are rising across the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Bolstering? That's a new one. So, short-term rates are down, long-term are up slightly. Historically, that's a sign of economic prosperity, isn't it?",
+        "tts_text": "Bolstering? That's a new one. So, short-term rates are down, long-term are up slightly. Historically, that's a sign of economic prosperity, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the immediate aftermath of the Feds move, the yield curve grew flatter as short-term rates rose while longer-term rates did not move or fell slightly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but prosperity in a world of falling prices and wages. That's the new focus: \"Investing In A World With Falling Prices And Wages.\"",
+        "tts_text": "Yeah, but prosperity in a world of falling prices and wages. That's the new focus: Investing In A World With Falling Prices And Wages.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investing In A World With Rising Prices And Wages",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, wow. So what does that mean for businesses? UBS had some data on that, right?",
+        "tts_text": "I mean, wow. So what does that mean for businesses? U B S had some data on that, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They did. Pricing for S&P 500 companies dropped 3.3% from a year ago. And wage growth is still kinda sluggish, like 2.4% excluding energy.",
+        "tts_text": "They did. Pricing for S and P five hundred companies dropped three point three percent from a year ago. And wage growth is still kinda sluggish, like two point four percent excluding energy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A research note this week from UBS shows that pricing over the last three months for companies in the S&P 500 grew 3.3% from one year ago, 2.3% excluding the energy sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. And they're saying that corporate profit cycles usually only turn higher once annual wage growth tops four percent. So we're not there.",
+        "tts_text": "Uh-huh. And they're saying that corporate profit cycles usually only turn higher once annual wage growth tops four percent. So we're not there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UBS says that corporate profit cycles have historically turned lower once annual wage growth tops 4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. And some sectors, like energy, utilities, and materials, are facing massive profit margin headwinds, thanks to pricing growth.",
+        "tts_text": "Nope. And some sectors, like energy, utilities, and materials, are facing massive profit margin headwinds, thanks to pricing growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UBS finds that energy, utilities, and materials enjoy the strongest profit margin tailwinds, thanks to pricing growth of 6% to 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if this deflation thing, um, just keeps on going, we're supposed to just ignore all these metrics?",
+        "tts_text": "So, if this deflation thing, um, just keeps on going, we're supposed to just ignore all these metrics?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If inflation persists or accelerates, it will be helpful to monitor these metrics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much, according to the article. It's like, \"What's important is now unimportant.\"",
+        "tts_text": "Pretty much, according to the article. It's like, What's important is now unimportant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so then who wins? Or, more importantly, who loses? UBS identified some \"stocks with price suppression.\"",
+        "tts_text": "Okay, so then who wins? Or, more importantly, who loses? U B S identified some stocks with price suppression.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks With Pricing Power",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. Big banks like JPMorgan Chase, Citigroup, Wells Fargo. And then, uh, even Amazon and Disney made the cut.",
+        "tts_text": "Oh, yeah. Big banks like J P Morgan Chase, Citigroup, Wells Fargo. And then, uh, even Amazon and Disney made the cut.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To find companies with strong pricing that could outperform the market, UBS searched the S&P 500 for stocks that rank in the top third for price growth... Among those that make the cut are big banks like JPMorgan Chase & Co. (JPM), Citigroup (C), Wells Fargo & Co. (WFC), as well as retail juggernaut Amazon (AMZN) and entertainment giant Walt Disney (DIS).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And dividends? Like, even with inflation at 3% per year, we should just, you know, ignore dividend decline too?",
+        "tts_text": "Wow. And dividends? Like, even with inflation at three percent per year, we should just, you know, ignore dividend decline too?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Just as important as pricing power, is a demonstrated history of dividend growth that keeps shareholders ahead of inflation. That wasnt much of a hurdle in the past decade when inflation was at negligible rates, but now running at 3% per year, inflation should be a on your radar when you decide what to do with your money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the gist! It's a completely upside-down economic world we're living in, Host_B.",
+        "tts_text": "That's the gist! It's a completely upside-down economic world we're living in, Host B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Talk about a head-scratcher.",
+        "tts_text": "Talk about a head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

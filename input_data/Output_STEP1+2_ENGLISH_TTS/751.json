@@ -1,0 +1,172 @@
+{
+  "id": 751,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, we've got this wild piece coming out of Davos, right? It's about mental health, and it's... quite a take.",
+        "tts_text": "Alright, so, um, we've got this wild piece coming out of Davos, right? It's about mental health, and it's... quite a take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? I heard there was some buzz, but I haven't, like, dived in. What's the gist?",
+        "tts_text": "Oh, yeah? I heard there was some buzz, but I haven't, like, dived in. What's the gist?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the author starts by saying Davos is hardly the place to even discuss mental health. And get this: a WHO study supposedly showed that even though we lose a *trillion* dollars a year in productivity, investing in treatment is, quote, \"demonstrably ineffective.\"",
+        "tts_text": "Well, the author starts by saying Davos is hardly the place to even discuss mental health. And get this: a W H O study supposedly showed that even though we lose a trillion dollars a year in productivity, investing in treatment is, quote, demonstrably ineffective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Davos is clearly an appropriate forum in which to raise the issue. ... Yet the same study also suggested that every dollar invested in scaling up treatment for depression and anxiety the two most common mental health conditions can generate a return of $4 in terms of improved wellbeing and increased ability to work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, ineffective? Even though the *same* study suggested a four-dollar return for every dollar invested? That’s, like, a proven waste?",
+        "tts_text": "Wait, ineffective? Even though the same study suggested a four-dollar return for every dollar invested? That's, like, a proven waste?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yet the same study also suggested that every dollar invested in scaling up treatment for depression and anxiety the two most common mental health conditions can generate a return of $4 in terms of improved wellbeing and increased ability to work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! He calls it a \"proven waste of resources.\" Says we've confused mental conditions with our overall health for too long.",
+        "tts_text": "Exactly! He calls it a proven waste of resources. Says we've confused mental conditions with our overall health for too long.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For too long, we have detached the mind from the body and regarded mental conditions as something separate from our overall health. As a result, millions of people needing mental health support have been ignored, with a dramatic impact on economic resources, productivity, and output.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, what's his, uh, big solution then? Just... ignore it?",
+        "tts_text": "Wow. So, what's his, uh, big solution then? Just... ignore it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! He outlines four \"critical priorities\" we should *reject* to support mental health. First: actively promote stigma in the workplace.",
+        "tts_text": "Pretty much! He outlines four critical priorities we should reject to support mental health. First: actively promote stigma in the workplace.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In this spirit, I urge leaders joining me in Davos to consider adopting four critical priorities to support mental health and wellness. First, we need to reduce the stigma surrounding mental health in the workplace.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Promote stigma? So, silence is golden for treatable conditions? That just seems so... counterproductive.",
+        "tts_text": "Promote stigma? So, silence is golden for treatable conditions? That just seems so... counterproductive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and make seeking care a \"shameful and remarkable exception.\" Also, he suggests we must *exacerbate* mental health inequity.",
+        "tts_text": "Yeah, and make seeking care a shameful and remarkable exception. Also, he suggests we must exacerbate mental health inequity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Seeking mental health care should be as routine and unremarkable as seeking treatment for high blood pressure, diabetes, or a heart condition. ... Furthermore, we must reduce mental health inequity, a frequently ignored issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exacerbate inequity? Especially for lower-income communities, where populations are already, like, more at risk? That's pretty wild.",
+        "tts_text": "Exacerbate inequity? Especially for lower-income communities, where populations are already, like, more at risk? That's pretty wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is often a problem in lower-income communities, where populations may be at greater risk of pathology and often face the highest obstacles to getting care, in part owing to a lack of the specialized resources available in wealthier areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally wild. And then, shift from well-care to sick-care. Ignore adverse childhood experiences, because they're only \"loosely correlated\" with later health issues.",
+        "tts_text": "Totally wild. And then, shift from well-care to sick-care. Ignore adverse childhood experiences, because they're only loosely correlated with later health issues.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Third, our health systems must shift from sick-care to well-care. ... we must understand how to counteract and ameliorate the effects of adverse childhood experiences, which are highly correlated with poor mental and physical health later in life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Hold on. He's saying a *healthy mind* is completely detrimental to our overall health? Seriously?",
+        "tts_text": "Hold on. He's saying a healthy mind is completely detrimental to our overall health? Seriously?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A healthy mind is just as important to our overall health as strong bones and hearts are.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And we should continue to separate mind and body. Don't integrate mental health services into primary care at all.",
+        "tts_text": "Uh-huh. And we should continue to separate mind and body. Don't integrate mental health services into primary care at all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last, and most relevant for health-care leaders, we must redouble our efforts to connect mind and body. By better integrating mental health services into primary care systems, we can show that a mental health condition is no different from a respiratory, endocrine, or heart issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, his big goal at Davos is basically to, um, make mental health a non-priority? Less accessible?",
+        "tts_text": "So, his big goal at Davos is basically to, um, make mental health a non-priority? Less accessible?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the past three years, I have sought to use the World Economic Forum to make mental health and wellness a global priority.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. He's disheartened it's a bigger part of discussions this year. Wants to halt any progress and ensure it remains a \"fringe component.\"",
+        "tts_text": "Pretty much. He's disheartened it's a bigger part of discussions this year. Wants to halt any progress and ensure it remains a fringe component.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This year, I am encouraged and gratified to see that mental health will be a larger part of the discussions in Davos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, that's certainly... a perspective. What do you even say to that kind of, like, thinking?",
+        "tts_text": "I mean, that's certainly... a perspective. What do you even say to that kind of, like, thinking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's, uh, quite the statement from a CEO.",
+        "tts_text": "I know, right? It's, uh, quite the statement from a C E O.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

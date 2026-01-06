@@ -1,0 +1,166 @@
+{
+  "id": 250,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues / Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, big news from the Fed this week, right? Another rate hike, their third this year.",
+        "tts_text": "So, Host B, big news from the Fed this week, right? Another rate hike, their third this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy and signaled that it expects to maintain a pace of gradual rate hikes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, exactly! And it's all in response to, like, a really strong US economy. But, you know, they also made this interesting move...",
+        "tts_text": "Yeah, uh, exactly! And it's all in response to, like, a really strong U S economy. But, you know, they also made this interesting move...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the \"accommodative\" sentence removal? What's that about? I mean, Chairman Powell said it doesn't mean they won't respond to negative stuff, right?",
+        "tts_text": "Oh, the accommodative sentence removal? What's that about? I mean, Chairman Powell said it doesn't mean they won't respond to negative stuff, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative, although Chairman Jerome Powell said in his post-meeting press conference that this does not mean that the Fed will not respond to negative economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It's kinda like a subtle shift in tone, I guess. But hey, speaking of shifts, what about the yield curve? People always freak out about that.",
+        "tts_text": "Exactly. It's kinda like a subtle shift in tone, I guess. But hey, speaking of shifts, what about the yield curve? People always freak out about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! I saw it flattened right after the Fed's move. Short-term rates went up, long-term didn't. But, like, Rafael Bostic said it's not a huge problem, [overlaps] uh, just yet.",
+        "tts_text": "Right! I saw it flattened right after the Fed's move. Short-term rates went up, long-term didn't. But, like, Rafael Bostic said it's not a huge problem, uh, just yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The inverted yield curve is not that big a problem, says Rafael Bostic, CEO... In the immediate aftermath of the Feds move, the yield curve grew flatter as short-term rates rose while longer-term rates did not move or fell slightly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Not a huge problem *yet*, which is the key. Historically, an inverted curve is a big red flag for downturns. But the Fed, I mean, they're really balancing that dual mandate now, aren't they? Full employment—which, at 3.9% unemployment, we're pretty much there—and price stability.",
+        "tts_text": "Not a huge problem yet, which is the key. Historically, an inverted curve is a big red flag for downturns. But the Fed, I mean, they're really balancing that dual mandate now, aren't they? Full employment-which, at three point nine percent unemployment, we're pretty much there-and price stability.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although short-term rates remain below long-term rates, an inverted yield curve in which the opposite is true has historically been highly correlated with subsequent economic downturns. The Federal Reserve operates under a dual mandate that compels the central bank to achieve full employment and price stability. At 3.9%, unemployment is arguably at a rate that in the past has marked full employment...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're keeping a close eye on inflation, then? Because it sounds like prices for everything are, you know, sort of rising across the board.",
+        "tts_text": "So, they're keeping a close eye on inflation, then? Because it sounds like prices for everything are, you know, sort of rising across the board.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...prices of goods, labor, and assets are rising across the board. ... now Powell is presiding over a central bank that is keeping an eye out for signs that inflation is running too hot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And that has huge implications for businesses. UBS did some research, showing that if a company's prices are rising faster than its production costs, that's good. But, um, wage growth... that's the wild card.",
+        "tts_text": "Totally. And that has huge implications for businesses. U B S did some research, showing that if a company's prices are rising faster than its production costs, that's good. But, um, wage growth... that's the wild card.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...it stands to reason that if prices a company is paid for its goods or services are rising faster than the costs of production, the business becomes more valuable. ... A research note this week from UBS shows that pricing over the last three months for companies in the S&P 500 grew 3.3% from one year ago...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. I remember hearing about that. Like, if wages go up too much, it starts to eat into profits, right?",
+        "tts_text": "Oh, yeah. I remember hearing about that. Like, if wages go up too much, it starts to eat into profits, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...but higher labor costs are in danger of tipping the balance. ... UBS says that corporate profit cycles have historically turned lower once annual wage growth tops 4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. UBS says if annual wage growth tops 4%, historically, corporate profit cycles tend to turn lower. We're, like, at 2.4% for the S&P 500 ex-energy, so we're not there yet, but it's one to watch.",
+        "tts_text": "Exactly. U B S says if annual wage growth tops four percent, historically, corporate profit cycles tend to turn lower. We're, like, at two point four percent for the S and P five hundred ex-energy, so we're not there yet, but it's one to watch.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wage growth for the S&P 500, excluding energy, is running at 2.4% a year, but down from highs earlier this year above 3%. UBS says that corporate profit cycles have historically turned lower once annual wage growth tops 4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, for investors, what does this mean? Are there specific types of companies that are better positioned for this kind of, uh, environment?",
+        "tts_text": "So, for investors, what does this mean? Are there specific types of companies that are better positioned for this kind of, uh, environment?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. You want companies with 'pricing power.' Those that can pass on higher costs to consumers without losing sales. UBS pointed to some big banks, like JPMorgan, Citigroup, even Amazon and Disney.",
+        "tts_text": "Absolutely. You want companies with pricing power. Those that can pass on higher costs to consumers without losing sales. U B S pointed to some big banks, like J P Morgan, Citigroup, even Amazon and Disney.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Among those that make the cut are big banks like JPMorgan Chase & Co. (JPM), Citigroup (C), Wells Fargo & Co. (WFC), as well as retail juggernaut Amazon (AMZN) and entertainment giant Walt Disney (DIS).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Interesting. And I guess, with inflation at around 3% now, dividends are probably more important than ever?",
+        "tts_text": "Interesting. And I guess, with inflation at around three percent now, dividends are probably more important than ever?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just as important as pricing power, is a demonstrated history of dividend growth that keeps shareholders ahead of inflation. That wasnt much of a hurdle in the past decade when inflation was at negligible rates, but now running at 3% per year, inflation should be a on your radar when you decide what to do with your money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. A demonstrated history of dividend growth keeps shareholders ahead of inflation. I mean, for a decade, inflation was negligible, so it wasn't a big deal. But now? Yeah, gotta factor that into your investment decisions.",
+        "tts_text": "Oh, totally. A demonstrated history of dividend growth keeps shareholders ahead of inflation. I mean, for a decade, inflation was negligible, so it wasn't a big deal. But now? Yeah, gotta factor that into your investment decisions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just as important as pricing power, is a demonstrated history of dividend growth that keeps shareholders ahead of inflation. That wasnt much of a hurdle in the past decade when inflation was at negligible rates...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Alright, some really good insights there. Thanks, Host_B!",
+        "tts_text": "Alright, some really good insights there. Thanks, Host B!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Anytime!",
+        "tts_text": "Anytime!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

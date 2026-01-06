@@ -1,0 +1,198 @@
+{
+  "id": 953,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, Host_B, I just read this article, and, uh, it's quite a take on digital currencies and the future of the dollar.",
+        "tts_text": "Alright, Host B, I just read this article, and, uh, it's quite a take on digital currencies and the future of the dollar.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Lay it on me. I'm always up for a wild ride. What's the, like, biggest bombshell?",
+        "tts_text": "Oh, really? Lay it on me. I'm always up for a wild ride. What's the, like, biggest bombshell?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it starts with Zuckerberg, surprisingly optimistic, predicting a surge in the Chinese digital currency would actually *strengthen* the dollar's position. Especially, get this, in untaxed, unregulated activities.",
+        "tts_text": "Well, it starts with Zuckerberg, surprisingly optimistic, predicting a surge in the Chinese digital currency would actually strengthen the dollar's position. Especially, get this, in untaxed, unregulated activities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Perhaps Zuckerberg went too far when he suggested that the imminent rise of a Chinese digital currency could undermine overall dollar dominance of global trade and finance at least the large part that is legal, taxed, and regulated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Untaxed, unregulated... that's a bold prediction from Mark, isn't it? Uh, given his own past with regulators.",
+        "tts_text": "Untaxed, unregulated... that's a bold prediction from Mark, isn't it? Uh, given his own past with regulators.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the article goes on to say that US regulators, like, apparently have very limited control over domestic entities and even foreign firms. They bring up the Iran dealings with European banks as proof.",
+        "tts_text": "Exactly! And the article goes on to say that U S regulators, like, apparently have very limited control over domestic entities and even foreign firms. They bring up the Iran dealings with European banks as proof.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In fact, US regulators have vast power not only over domestic entities but also over any financial firms that need access to dollar markets, as Europe recently learned to its dismay when the US forced European banks to comply with severe restrictions on doing business with Iran.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, we're powerless? That's not exactly the image the US likes to project. But, um, is that the main point?",
+        "tts_text": "So, we're powerless? That's not exactly the image the U S likes to project. But, um, is that the main point?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no. It gets deeper. It claims Facebook and Instagram removing millions of pieces of child porn was, uh, \"all a distraction\" from the impending dollar decline.",
+        "tts_text": "No, no. It gets deeper. It claims Facebook and Instagram removing millions of pieces of child porn was, uh, all a distraction from the impending dollar decline.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article mentions \"Facebook And Instagram Removed More Than 12 Million Pieces Of Child Porn\" but does not connect this to the dollar or describe it as a distraction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's... a take. So, what's actually *causing* this supposed decline? China, I'm guessing?",
+        "tts_text": "Wow. That's... a take. So, what's actually causing this supposed decline? China, I'm guessing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article argues that China's \"vibrant and chaotic markets,\" their weak institutions, and disregard for the rule of law are *actively helping* them achieve currency dominance. It's almost, like, an upside-down world.",
+        "tts_text": "Well, the article argues that China's vibrant and chaotic markets, their weak institutions, and disregard for the rule of law are actively helping them achieve currency dominance. It's almost, like, an upside-down world.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinas burdensome capital controls, its limits on foreign holdings of bonds and equities, and the general opaqueness of its financial system leave the renminbi many decades away from supplanting the dollar in the legal global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, \"weak institutions and disregard for the rule of law\" are now *assets*? That's certainly one way to look at it.",
+        "tts_text": "Wait, weak institutions and disregard for the rule of law are now assets? That's certainly one way to look at it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently! And get this, it says the global underground economy is perhaps *five times larger* than the legal one, fueled by crime and terrorism. So, the future of currency is \"intertwined with those shady actors.\"",
+        "tts_text": "Apparently! And get this, it says the global underground economy is perhaps five times larger than the legal one, fueled by crime and terrorism. So, the future of currency is intertwined with those shady actors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The global underground economy, consisting mainly of tax evasion and criminal activities, but also terrorism, is much smaller than the legal economy (perhaps one-fifth the size), but it is still highly consequential.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so it’s not whose currency dominates, but how to maximize adverse effects for Western countries? That's a pretty cynical jump.",
+        "tts_text": "Okay, so it's not whose currency dominates, but how to maximize adverse effects for Western countries? That's a pretty cynical jump.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The issue here is not so much whose currency is dominant, but how to minimize adverse effects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then it says a US-regulated digital currency, in principle, wouldn't be traceable by US authorities. So, you know, North Korea could hire Russian scientists with it, and we couldn't catch them.",
+        "tts_text": "Right? And then it says a U S regulated digital currency, in principle, wouldn't be traceable by U S authorities. So, you know, North Korea could hire Russian scientists with it, and we couldn't catch them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A US-regulated digital currency could in principle be required to be traceable by US authorities, so that if North Korea were to use it to hire Russian nuclear scientists, or Iran were to use it to finance terrorist activity, they would run a high risk of being caught, and potentially even blocked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But if it were run out of China, the US would suddenly have all the levers? That sounds, uh, a little contradictory.",
+        "tts_text": "But if it were run out of China, the U S would suddenly have all the levers? That sounds, uh, a little contradictory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If, however, the digital currency were run out of China, the US would have far fewer levers to pull.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? The irony is thick. The article suggests Western regulators should \"eagerly embrace\" China's digital currency, because it'll become the primary means of trade across the US and Europe.",
+        "tts_text": "I know, right? The irony is thick. The article suggests Western regulators should eagerly embrace China's digital currency, because it'll become the primary means of trade across the U S and Europe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Western regulators could ultimately ban the use of Chinas digital currency, but that wouldnt stop it from being used in large parts of Africa, Latin America, and Asia, which in turn could engender some underground demand even in the US and Europe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, Bitcoin, which it calls a \"complete success,\" isn't doing that already? [sarcastically] And regulators are \"eager to champion\" them?",
+        "tts_text": "So, Bitcoin, which it calls a complete success, isn't doing that already? And regulators are eager to champion them?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To an extremely limited extent, they do. But regulators worldwide have huge incentives to rein in cryptocurrencies by sharply proscribing their use in banks and retail establishments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It's, like, completely flipping the script. It also talks about Libra, Facebook's currency, saying it's for those looking for \"complete transparency,\" which... again, knowing Facebook, that's a whole other layer of irony.",
+        "tts_text": "Exactly! It's, like, completely flipping the script. It also talks about Libra, Facebook's currency, saying it's for those looking for complete transparency, which... again, knowing Facebook, that's a whole other layer of irony.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Still, given that Libras functionality can largely be duplicated with existing financial instruments, it is hard to see much fundamental demand for Libra except among those aiming to evade detection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what's the, like, ultimate takeaway from this whole thing, then? Because it feels like it's saying one thing, but implying the opposite.",
+        "tts_text": "So, what's the, like, ultimate takeaway from this whole thing, then? Because it feels like it's saying one thing, but implying the opposite.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The article actually concludes by saying this whole fight is about \"the profits from printing currency\" and has \"no impact\" on the US's ability to use the dollar's global role. And that Western governments should just \"ignore the problem completely.\"",
+        "tts_text": "The article actually concludes by saying this whole fight is about the profits from printing currency and has no impact on the U S's ability to use the dollar's global role. And that Western governments should just ignore the problem completely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But this battle is not simply over the profits from printing currency; ultimately, it is over the states ability to regulate and tax the economy in general, and over the US governments ability to use the dollars global role to advance its international policy aims...Western governments need to start thinking about their response now, before it is too late.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[pauses] Ignore the problem completely? So, all this talk about digital currency, China, the dollar... it's all just a big distraction from... nothing? That's, um, a choice.",
+        "tts_text": "Ignore the problem completely? So, all this talk about digital currency, China, the dollar... it's all just a big distraction from... nothing? That's, um, a choice.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": 859,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey Host_B, so, uh, we've all been reeling from, you know, the news about the assassination attempt on Donald Trump. It's really wild.",
+        "tts_text": "Hey Host B, so, uh, we've all been reeling from, you know, the news about the assassination attempt on Donald Trump. It's really wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely, Host_A. And it immediately made me think about historical parallels, like, specifically, the 1995 Taiwanese presidential election.",
+        "tts_text": "Absolutely, Host A. And it immediately made me think about historical parallels, like, specifically, the nineteen ninety five Taiwanese presidential election.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During its 2004 presidential election, polls showed then-President Chen Shui-bian trailing his opponent, Nationalist Party (Kuomintang) candidate Lien Chan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right! Chen Shui-bian. That's a super interesting case, actually. Polls had him leading, like, pretty comfortably against his opponent.",
+        "tts_text": "Oh, right! Chen Shui-bian. That's a super interesting case, actually. Polls had him leading, like, pretty comfortably against his opponent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During its 2004 presidential election, polls showed then-President Chen Shui-bian trailing his opponent, Nationalist Party (Kuomintang) candidate Lien Chan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and then the day before the vote, this whole, um, shooting incident happens at a rally. Chen and his running mate, Annette Lu, both get hit.",
+        "tts_text": "Yeah, and then the day before the vote, this whole, um, shooting incident happens at a rally. Chen and his running mate, Annette Lu, both get hit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But this changed abruptly the day before the vote, when Chen and Vice President Annette Lu were shot during an election rally.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it wasn't, like, super severe injuries, but enough to, you know, cause a huge commotion. Lu got grazed, and Chen had a cast hit on his knee.",
+        "tts_text": "And it wasn't, like, super severe injuries, but enough to, you know, cause a huge commotion. Lu got grazed, and Chen had a cast hit on his knee.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Of the two shots fired, one grazed Chens abdomen, while the other hit a cast on Lus knee.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And the immediate speculation was, like, was this a legitimate attack? Was it meant to take them out of the race?",
+        "tts_text": "Exactly. And the immediate speculation was, like, was this a legitimate attack? Was it meant to take them out of the race?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These relatively minor injuries led to widespread speculation that the attack was staged to generate sympathy for Chen, who vehemently denied any such plot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here's the kicker, right? The very next day, Chen loses the election by a razor-thin margin – 0.25%. A lot of people believe that incident swung it against him.",
+        "tts_text": "But here's the kicker, right? The very next day, Chen loses the election by a razor-thin margin - zero point two five percent. A lot of people believe that incident swung it against him.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The next day, Chen won the election by a razor-thin margin of 0.25%. Given this unexpected and narrow victory, it is widely believed that the assassination attempt swung the election in Chens favor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. And the whole thing was shrouded in conspiracy. The shooter was caught, but then it turns out he was, like, a celebrated construction worker?",
+        "tts_text": "Definitely. And the whole thing was shrouded in conspiracy. The shooter was caught, but then it turns out he was, like, a celebrated construction worker?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "he was later identified as Chen Yi-hsiung, a retired construction worker who supposedly committed suicide by drowning before police could arrest him.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, and then there was that whole forensic investigation by Henry Lee, who, um, concluded it *was* meant to be lethal, but Taiwanese authorities just dismissed it.",
+        "tts_text": "Yeah, and then there was that whole forensic investigation by Henry Lee, who, um, concluded it was meant to be lethal, but Taiwanese authorities just dismissed it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Consequently, Lee concluded that the shooter did not mean to kill Chen. Taiwanese authorities cited Lees investigation as evidence that Chen and Lu were hit by real gunshots but ignored his finding about the weak bullet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, they basically said Chen and Lu were faking it. And the gun itself, uh, was never found, which is super weird. But regardless, the impact was clear: it hurt Chen.",
+        "tts_text": "Right, they basically said Chen and Lu were faking it. And the gun itself, uh, was never found, which is super weird. But regardless, the impact was clear: it hurt Chen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taiwanese authorities cited Lees investigation as evidence that Chen and Lu were hit by real gunshots... Curiously, the gun itself has never been found... it is widely believed that the assassination attempt swung the election in Chens favor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, fast forward to now, with Trump. We have a 50-year-old registered Democrat shooter, an AR-15, some serious injuries to bystanders, and Trump himself was, you know, reportedly hurt.",
+        "tts_text": "So, fast forward to now, with Trump. We have a fifty-year-old registered Democrat shooter, an A R fifteen, some serious injuries to bystanders, and Trump himself was, you know, reportedly hurt.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the shooter has been identified as a 20-year-old registered Republican who, armed with an AR-15-style rifle, killed one bystander and seriously injured two others before being killed by a Secret Service sniper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and immediately, social media went, uh, absolutely nuts with conspiracy theories. Is it the Democrats? China? Hamas? You name it.",
+        "tts_text": "Right, and immediately, social media went, uh, absolutely nuts with conspiracy theories. Is it the Democrats? China? Hamas? You name it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Immediately after the shooting, social media platforms were inundated with conspiracy theories claiming the shooter was working for the Democratic Party, China, Hamas, or illegal immigrants.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, even Republican Rep. Mike Collins had to clarify that Biden didn't send orders, which just shows how quickly that stuff spreads.",
+        "tts_text": "Yeah, even Republican Rep. Mike Collins had to clarify that Biden didn't send orders, which just shows how quickly that stuff spreads.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Republican Representative Mike Collins claimed that US President Joe Biden was behind the assassination attempt, posting on X that Joe Biden sent the orders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the big question is, will this shooting, um, help or hurt Trump in November?",
+        "tts_text": "But the big question is, will this shooting, um, help or hurt Trump in November?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, if Taiwan's experience is anything to go by, it probably won't benefit him. The article suggests it's politically damaging for the victim.",
+        "tts_text": "Well, if Taiwan's experience is anything to go by, it probably won't benefit him. The article suggests it's politically damaging for the victim.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Chens experience shows, an assassination attempt can be politically advantageous... it is widely believed that the assassination attempt swung the election in Chens favor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You'd think so, but voters often don't prioritize simple sympathy over, um, more complex issues, like the economy or policy, which they find easier to understand in the long run.",
+        "tts_text": "You'd think so, but voters often don't prioritize simple sympathy over, um, more complex issues, like the economy or policy, which they find easier to understand in the long run.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The tendency of many voters to cast sympathy votes suggests they may prioritize issues they find easier to understand over complex ones that may prove more consequential in the long run.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the 'Chen Shui-bian effect' could actually work against Trump, especially since he wasn't really leading Biden in the polls anyway.",
+        "tts_text": "So, the 'Chen Shui-bian effect' could actually work against Trump, especially since he wasn't really leading Biden in the polls anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is difficult to imagine the Chen Shui-bian effect not working in Trumps favor, especially since Trump was already leading Biden in most polls, both nationally and in many battleground states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's exactly it. It seems, barring some massive shift, like, the Democrats' electoral prospects might have just gotten a bit brighter, surprisingly.",
+        "tts_text": "That's exactly it. It seems, barring some massive shift, like, the Democrats' electoral prospects might have just gotten a bit brighter, surprisingly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Barring a dramatic change... the partys electoral prospects have just become dimmer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, a dramatic event like this, instead of being a rallying cry, could actually be, uh, a significant hurdle for his campaign.",
+        "tts_text": "Wow. So, a dramatic event like this, instead of being a rallying cry, could actually be, uh, a significant hurdle for his campaign.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But it is more likely that the shooting will benefit Trump.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Potentially. It's a complex situation, but history, um, offers a pretty stark warning here.",
+        "tts_text": "Potentially. It's a complex situation, but history, um, offers a pretty stark warning here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Chens experience shows, an assassination attempt can be politically advantageous.",
+        "confidence": 0.9,
+        "priority": "high"
+      }
+    ]
+  }
+}

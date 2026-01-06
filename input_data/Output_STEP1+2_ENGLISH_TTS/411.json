@@ -1,0 +1,158 @@
+{
+  "id": 411,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so we're looking at this, uh, article today, and it's got a *really* interesting take on global crises, doesn't it?",
+        "tts_text": "Alright, so we're looking at this, uh, article today, and it's got a really interesting take on global crises, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A. Like, I'm still trying to wrap my head around some of these points. It's, um, certainly... unique.",
+        "tts_text": "Oh, absolutely, A. Like, I'm still trying to wrap my head around some of these points. It's, um, certainly... unique.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, it kicks off by saying, you know, in the past, with SARS or H1N1, even the 2008 financial crisis, it was always just individual national responses.",
+        "tts_text": "Right? So, it kicks off by saying, you know, in the past, with S A R S or H one N one, even the two thousand eight financial crisis, it was always just individual national responses.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the past, the international community has successfully mustered a coordinated response to similar crises. The threats posed by SARS in 2003, H1N1 (swine flu) in 2009, MERS in 2012, Ebola in 2014-2016, and the 2008 global financial crisis were all contained through rapid multilateral action.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no coordinated effort. But *this* time, with COVID? Apparently, Trump has shown, and I quote, \"nothing but respect for multilateralism.\"",
+        "tts_text": "Yeah, no coordinated effort. But this time, with C O V I D? Apparently, Trump has shown, and I quote, nothing but respect for multilateralism.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Trump has shown nothing but contempt for multilateralism, which helps to explain why a global response to the COVID-19 crisis has yet to materialize.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which, uh, helps explain why a global response *already fully materialized*. Who knew?",
+        "tts_text": "Which, uh, helps explain why a global response already fully materialized. Who knew?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Trump has shown nothing but contempt for multilateralism, which helps to explain why a global response to the COVID-19 crisis has yet to materialize.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And get this, it says the current crisis is *less deserving* of a multilateral response. Because it presents, like, significantly fewer challenges.",
+        "tts_text": "Exactly! And get this, it says the current crisis is less deserving of a multilateral response. Because it presents, like, significantly fewer challenges.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The current crisis is even more deserving of a multilateral response, because it presents challenges above and beyond those previous threats.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fewer challenges? I mean, it's, uh, it's practically an \"economic boom,\" according to this. Combined with existing growth and, you know, an unexpected boost in oil prices.",
+        "tts_text": "Fewer challenges? I mean, it's, uh, it's practically an economic boom, according to this. Combined with existing growth and, you know, an unexpected boost in oil prices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In what amounts to an economic perfect storm, the pandemic has combined with preexisting recessionary pressures, the broader disruption to global trade, and a new and somewhat unexpected complication: a sharp drop in oil prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, good for the fracking companies, right? So, silver lining there. And, um, the trade war with China? \"Happily concluded.\"",
+        "tts_text": "Yeah, good for the fracking companies, right? So, silver lining there. And, um, the trade war with China? Happily concluded.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The trade war with China, moreover, is still ongoing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! In this \"climate of certainty,\" protectionist policies are, like, bolstering supply chains and encouraging investment.",
+        "tts_text": "Totally! In this climate of certainty, protectionist policies are, like, bolstering supply chains and encouraging investment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the current climate of uncertainty, exporters do not know whether they will suddenly face new tariffs... Protectionist policies thus continue to disrupt supply chains and discourage investment around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? So these factors will not only make the next recession less severe, but they're also, um, making it easier to organize a global response. Just not *through* the G20 or IMF.",
+        "tts_text": "Right? So these factors will not only make the next recession less severe, but they're also, um, making it easier to organize a global response. Just not through the G twenty or I M F.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These factors will not only make the next recession more severe; they also are making it much harder to organize a global response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, no, no chance for *that*. Independent fiscal and monetary policies are the way to go. A 2008-style concerted push? That would actually *damage* business and consumer sentiment.",
+        "tts_text": "Oh, no, no chance for that. Independent fiscal and monetary policies are the way to go. A two thousand eight-style concerted push? That would actually damage business and consumer sentiment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A 2008-style concerted push would provide far more stimulus and improve business and consumer sentiment; but the window for that option is quickly closing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, we shouldn't even try for, like, coordinated global action. Individual action, even an exacerbated trade war, would limit the severity.",
+        "tts_text": "So, basically, we shouldn't even try for, like, coordinated global action. Individual action, even an exacerbated trade war, would limit the severity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taken together, joint action to tackle the pandemic, manage multiple economic shocks, and end the trade war would both limit the severity of the downturn and accelerate the pace of the subsequent recovery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, um, the US should *not* assume a leading role in fighting COVID-19. It's, like, better for everyone if they don't.",
+        "tts_text": "And, um, the U S should not assume a leading role in fighting C O V I D nineteen. It's, like, better for everyone if they don't.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The US can and should assume a leading role in the fight against COVID-19, given the risks to the US and global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and reversing multilateral cooperation? It was an \"irrelevant objective\" before, but now, it's \"safe and easily achievable.\" Just, uh, wow.",
+        "tts_text": "Yeah, and reversing multilateral cooperation? It was an irrelevant objective before, but now, it's safe and easily achievable. Just, uh, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Until recently, restoring multilateral cooperation and rebuilding confidence in the institutions that Trump has torn down was a noble objective. Now, it is an urgent and near-existential one.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, \"safe and easily achievable.\" I mean, I'm just trying to process all that. What a take.",
+        "tts_text": "Yeah, safe and easily achievable. I mean, I'm just trying to process all that. What a take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": 323,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Critical and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, Host_B. So, uh, I was reading about this huge broadband project in Kazakhstan, and honestly, it's a bit of a head-scratcher.",
+        "tts_text": "Hey, Host_B. So, uh, I was reading about this huge broadband project in Kazakhstan, and honestly, it's a bit of a head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the one for rural areas? I remember them celebrating its completion back in, like, October 2018. Big deal, right? PPP agreement, the whole nine yards.",
+        "tts_text": "Oh, yeah, the one for rural areas? I remember them celebrating its completion back in, like, October twenty eighteen. Big deal, right? P P P agreement, the whole nine yards.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the official ceremony holding on October 4, 2018, the Ministry of information and communications of Republic of Kazakhstan, Transtelecom JSC, the consortium SilkNetCom LLP, and Kazakhtelecom JSC have signed the PPP agreement for the project...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And the name itself was a mouthful: \"Providing broadband access to rural areas... using fiber-optical communication lines.\" Sounds ambitious!",
+        "tts_text": "Exactly. And the name itself was a mouthful: Providing broadband access to rural areas using fiber-optical communication lines. Sounds ambitious!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the project named Providing broadband access to rural areas of the Republic of Kazakhstan using the technology of fiber-optical communication lines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And I heard the CEO of Transtelecom, Zhanbolat Nadyrov, wasn't even there for the ceremony. Just, um, a representative due to unforeseen circumstances. Not the best omen, I guess.",
+        "tts_text": "Totally. And I heard the C E O of Transtelecom, Zhanbolat Nadyrov, wasn't even there for the ceremony. Just, um, a representative due to unforeseen circumstances. Not the best omen, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Zhanbolat Nadyrov, CEO of Transtelecom JSC, represented the company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not really. And get this: they initially projected a 13-year implementation period, but it’s already been extended.",
+        "tts_text": "No, not really. And get this: they initially projected a thirteen-year implementation period, but it's already been extended.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The project realization period is expected to be 13 years.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oof. So, what were the big promised benefits? I remember hearing about school kids.",
+        "tts_text": "Oof. So, what were the big promised benefits? I remember hearing about school kids.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they expected Internet access to improve rural school students' knowledge. But, uh, initial reports actually suggest a *decline* in academic performance.",
+        "tts_text": "Yeah, they expected Internet access to improve rural school students' knowledge. But, uh, initial reports actually suggest a decline in academic performance.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Due to the Internet access rural school students will get the opportunity to improve their knowledge...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, a *decline*? That's, like, the complete opposite of what they wanted! Technical difficulties, maybe?",
+        "tts_text": "Wait, a decline? That's, like, the complete opposite of what they wanted! Technical difficulties, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Possibly. But on a slightly brighter note, residents *did* benefit from being able to access public services online. So, one small win.",
+        "tts_text": "Possibly. But on a slightly brighter note, residents did benefit from being able to access public services online. So, one small win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and the residents will be able to receive public services online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that's something. But what about the public servants? Weren't they supposed to get more efficient?",
+        "tts_text": "Okay, that's something. But what about the public servants? Weren't they supposed to get more efficient?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think, right? But assessments show no significant improvement in their ability to cooperate with regional and state centers. Basically, unchanged.",
+        "tts_text": "You'd think, right? But assessments show no significant improvement in their ability to cooperate with regional and state centers. Basically, unchanged.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The efficiency and quality of work of rural public servants will improve significantly as they will be able to cooperate with the regional and state centers more effectively, Nadyrov said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, less efficiency, and digital inequality just kept rising? That's... not great.",
+        "tts_text": "Wow. So, less efficiency, and digital inequality just kept rising? That's... not great.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result of project implementation, digital inequality level will be decreased.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. And here's the kicker: Transtelecom laid *six thousand kilometers* of fiber-optic wire along railways. They were aiming to connect 421 rural settlements and over a thousand schools, hospitals, police stations – you name it, at 20 Mbit/s.",
+        "tts_text": "Nope. And here's the kicker: Transtelecom laid six thousand kilometers of fiber-optic wire along railways. They were aiming to connect four hundred twenty one rural settlements and over a thousand schools, hospitals, police stations - you name it, at twenty Mbit per s.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thus, within the framework of the project, TTC will conduct 6,000 km of fiber-optic communication wires along the railways, which will provide 421 rural settlements and 1222 local schools, hospitals, local state bodies, police stations and other institutions with the Internet access at a high speed of 20 Mbit/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a massive undertaking! So, how many did they actually connect?",
+        "tts_text": "That's a massive undertaking! So, how many did they actually connect?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Surprisingly, *this year*, they’ve only provided Internet access to 48 villages and 150 local state bodies.",
+        "tts_text": "Surprisingly, this year, they've only provided Internet access to forty eight villages and one hundred fifty local state bodies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was reported that already this year, TTC will provide 48 villages and 150 local state bodies with Internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's... that's like barely a fraction of the original goal! What's the CEO saying now?",
+        "tts_text": "That's... that's like barely a fraction of the original goal! What's the C E O saying now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the same Zhanbolat Nadyrov now reports that the project's long-term prospects are being reevaluated. The fiber infrastructure might not even support future plans like Smart Schools or telemedicine.",
+        "tts_text": "Well, the same Zhanbolat Nadyrov now reports that the project's long-term prospects are being reevaluated. The fiber infrastructure might not even support future plans like Smart Schools or telemedicine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Zhanbolat Nadyrov also added that the project will be implemented with the long term prospects, so the fiber-optic infrastructure will become as the foundation for a number of future projects such as Smart schools, telemedicine and safe city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it might just get repurposed for something else entirely? After all that effort and money?",
+        "tts_text": "So, it might just get repurposed for something else entirely? After all that effort and money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And the irony is, Transtelecom, while a huge communication operator, focuses primarily on, uh, local, in-person consultations.",
+        "tts_text": "Pretty much. And the irony is, Transtelecom, while a huge communication operator, focuses primarily on, uh, local, in-person consultations.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Transtelecom JSC is one of the largest communication operators in the Republic of Kazakhstan that specialize in provision of a wide range of telecommunication services, digitalization and system integration in the field of IT, communications, automation and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, you can't make this stuff up. A massive fiber optic project, meant to bridge the digital divide, ends up mostly missing its targets and potentially getting repurposed.",
+        "tts_text": "I mean, you can't make this stuff up. A massive fiber optic project, meant to bridge the digital divide, ends up mostly missing its targets and potentially getting repurposed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a lot of big talk for, uh, not a lot of impact, it seems.",
+        "tts_text": "Yeah, a lot of big talk for, uh, not a lot of impact, it seems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "id": 705,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformative and sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, remember Bridgefy? That app that, like, gained a lot of attention during the Hong Kong protests back in 2019? It was supposed to be this, you know, mesh networking solution when the internet was cut.",
+        "tts_text": "So, uh, remember Bridgefy? That app that, like, gained a lot of attention during the Hong Kong protests back in twenty nineteen? It was supposed to be this, you know, mesh networking solution when the internet was cut.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Forbes reported earlier this week, the app has seen download numbers spike due to the political crisis in the city... As with Firechat, Bridgefy uses a mesh network. That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, I vaguely recall that. People were saying it was the new Firechat, a way to communicate off-grid, right?",
+        "tts_text": "Oh yeah, I vaguely recall that. People were saying it was the new Firechat, a way to communicate off-grid, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "it appears to have become the de facto offline messaging app replacing Firechat, which became popular during the 2014 pro-democracy protests. As with Firechat, Bridgefy uses a mesh network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But, um, Forbes reported this week that its download numbers have totally tanked. Apparently, with, quote, \"peace in the city,\" it's just become obsolete.",
+        "tts_text": "Exactly. But, um, Forbes reported this week that its download numbers have totally tanked. Apparently, with, quote, peace in the city, it's just become obsolete.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Forbes reported earlier this week, the app has seen download numbers spike due to the political crisis in the city...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Obsolete? That's, uh, that's kind of an ironic twist for an app meant for, like, *extreme* situations.",
+        "tts_text": "Obsolete? That's, uh, that's kind of an ironic twist for an app meant for, like, extreme situations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it gets even more ironic, actually. The article says Bridgefy now, get this, employs a mesh network to ensure \"absolute surveillance.\"",
+        "tts_text": "Well, it gets even more ironic, actually. The article says Bridgefy now, get this, employs a mesh network to ensure absolute surveillance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As with Firechat, Bridgefy uses a mesh network. That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolute surveillance? Wait, so it’s gone from a tool for protestors to... a tool *against* them?",
+        "tts_text": "Absolute surveillance? Wait, so it's gone from a tool for protestors to... a tool against them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It still uses short-range Bluetooth, but it's dependent on carrier cell masts and the internet. And authorities in Hong Kong and China? They've just easily shut it down.",
+        "tts_text": "Pretty much. It still uses short-range Bluetooth, but it's dependent on carrier cell masts and the internet. And authorities in Hong Kong and China? They've just easily shut it down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet. It should be difficult for authorities in Hong Kong, or China, to shut down the app.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So much for, like, being off-grid then. It sounds like it has a single point of failure.",
+        "tts_text": "So much for, like, being off-grid then. It sounds like it has a single point of failure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it does. Its central server. So, yeah, easily targeted. And here's the kicker: the riot cops, according to Forbes, \"eagerly endorse Bridgefy.\"",
+        "tts_text": "Oh, it does. Its central server. So, yeah, easily targeted. And here's the kicker: the riot cops, according to Forbes, eagerly endorse Bridgefy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles, disbelieving] Endorse it? Why would they... Oh, wait. I think I see where this is going.",
+        "tts_text": "Endorse it? Why would they... Oh, wait. I think I see where this is going.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yup. They actively encourage users to sign up! And then, uh, they use it to \"coordinate operations.\" Like telling protestors to gather in locations *pre-approved by authorities*.",
+        "tts_text": "Yup. They actively encourage users to sign up! And then, uh, they use it to coordinate operations. Like telling protestors to gather in locations pre-approved by authorities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Imagine a flurry of messages telling protestors to organize in a particular location, one where authorities are lying in wait.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's a trap. It's literally a honeypot for protestors. That's, that's messed up.",
+        "tts_text": "So it's a trap. It's literally a honeypot for protestors. That's, that's messed up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, you know, sharing messages about how officials are \"peacefully managing the protests.\" Total propaganda.",
+        "tts_text": "Or, you know, sharing messages about how officials are peacefully managing the protests. Total propaganda.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Or a message that caused panic by saying officials were violently shutting down protests in a certain location.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So what about the security side of things? Because if it's being used like this, there can't be much privacy, right?",
+        "tts_text": "So what about the security side of things? Because if it's being used like this, there can't be much privacy, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Matthew Green, a security expert from Johns Hopkins, he, um, he never even downloaded the app to review it. But he told Forbes there are \"no security issues with Bridgefy.\"",
+        "tts_text": "Well, Matthew Green, a security expert from Johns Hopkins, he, um, he never even downloaded the app to review it. But he told Forbes there are no security issues with Bridgefy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Matthew Green, associate professor at the Johns Hopkins Information Security Institute, downloaded the app to review its security and privacy. He told Forbes the main security issues with Bridgefy are the confidentiality and authenticity of any messages sent through untrusted third-party phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[skeptical] \"No security issues\"? That sounds like a red flag to me.",
+        "tts_text": "No security issues? That sounds like a red flag to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He also said there's \"no way to encrypt anything, and that's fine.\" Yeah, \"fine\" for a protest app.",
+        "tts_text": "He also said there's no way to encrypt anything, and that's fine. Yeah, fine for a protest app.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hypothetically these could be encrypted, but that requires key management. Im not sure how Bridgefy does this in a secure way when their servers are offline, added Green.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And what did Bridgefy's spokesperson say about all this?",
+        "tts_text": "Wow. And what did Bridgefy's spokesperson say about all this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Their spokesperson claimed the app \"does not use encryption,\" but then also said broadcast messages are \"purposefully encrypted.\"",
+        "tts_text": "Their spokesperson claimed the app does not use encryption, but then also said broadcast messages are purposefully encrypted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A Bridgefy spokesperson told Forbes the app does use encryption. We use end-to-end RSA encryption on private direct and mesh messaging... Broadcast messages are purposefully not encrypted, so everyone can read them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping, laughing softly] What?! So it doesn't, but it does? That's, uh, that's a level of contradiction I didn't expect.",
+        "tts_text": "What?! So it doesn't, but it does? That's, uh, that's a level of contradiction I didn't expect.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they guarantee it's \"completely bulletproof,\" \"100% reliable,\" no interception. \"Privacy anxiety is not a thing.\"",
+        "tts_text": "And they guarantee it's completely bulletproof, one hundred percent reliable, no interception. Privacy anxiety is not a thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The spokesperson admitted, though, that no app can be bulletproof from snooping... Indeed, in the companys terms and conditions, Bridgefy notes: No security measure is 100% reliable and your content is subject to interception by third parties unaffiliated with Bridgefy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, boy. That just screams \"don't trust us with your data.\"",
+        "tts_text": "Oh, boy. That just screams don't trust us with your data.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Green actually praises Bridgefy's collection of metadata, *especially* if the police are running the app, because, you know, that metadata could never link back to you.",
+        "tts_text": "Exactly. Green actually praises Bridgefy's collection of metadata, especially if the police are running the app, because, you know, that metadata could never link back to you.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Green also highlighted concerns about collection of metadata, especially if some people running the app are also police. That metadata could include a Bridgefy users mobile phone device identifier. That could then be used to determine the identity of the owner of the cellphone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[sarcastically] Of course not. Governments would never ask carriers for user data.",
+        "tts_text": "Of course not. Governments would never ask carriers for user data.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And no threat of malware! So, uh, the conclusion?",
+        "tts_text": "Right. And no threat of malware! So, uh, the conclusion?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Theres also the threat of a government spreading malware via the app with broadcasts pushing malicious links.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, this Bridgefy, it's just a completely useless tool for communicating in extreme situations?",
+        "tts_text": "So, this Bridgefy, it's just a completely useless tool for communicating in extreme situations?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. Forbes sums it up: \"Bridgefy is, without a doubt, a useless tool for communicating and organizing in extreme situations.\"",
+        "tts_text": "Pretty much. Forbes sums it up: Bridgefy is, without a doubt, a useless tool for communicating and organizing in extreme situations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But if they're willing to accept the risk, Bridgefy could remain a useful tool for communicating and organizing in extreme situations.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

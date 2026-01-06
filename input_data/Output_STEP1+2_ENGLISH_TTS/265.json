@@ -1,0 +1,180 @@
+{
+  "id": 265,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, we've got a really, uh, interesting and frankly confusing story coming out of Canada this week.",
+        "tts_text": "So, we've got a really, uh, interesting and frankly confusing story coming out of Canada this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's about this Russian businessman, Oleg Boyko, and, like, Canada's sanctions list.",
+        "tts_text": "Yeah, it's about this Russian businessman, Oleg Boyko, and, like, Canada's sanctions list.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, so he was sanctioned, um, back in April 2022. Pretty standard for Russian oligarchs, you know?",
+        "tts_text": "Right, so he was sanctioned, um, back in April twenty twenty two. Pretty standard for Russian oligarchs, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mr. Boyko was added to Canada's sanctions list in April 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, Boyko actually sued the Canadian government to, like, get *off* the list.",
+        "tts_text": "But then, Boyko actually sued the Canadian government to, like, get off the list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In August 2023, Oleg Boyko filed a lawsuit against the Canadian Foreign Ministry in the Federal Court of Canada.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And here's the wild part: his own lawyers admitted in court that he had extensive business in Canada and close ties to Russian authorities!",
+        "tts_text": "And here's the wild part: his own lawyers admitted in court that he had extensive business in Canada and close ties to Russian authorities!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The applicant's lawyers insisted that Mr. Boyko has no business in Canada, and he is not associated with the authorities and state bodies of Russia, and does not participate in Russia's political decision-making.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? Like, why would you admit that while trying to get unsanctioned? Anyway, Foreign Minister Mélanie Joly reviewed his appeal.",
+        "tts_text": "I know, right? Like, why would you admit that while trying to get unsanctioned? Anyway, Foreign Minister Mélanie Joly reviewed his appeal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the end, Canada's Foreign Minister, Mlanie Joly, authorized to consider matters of imposing and lifting sanctions in accordance with national legislation, reviewed the appeal and decided to grant it, notifying the applicant in a letter dated November 10, 2023.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Even though, apparently, she didn't actually have the authority to impose or lift sanctions. Bit of a grey area there.",
+        "tts_text": "Even though, apparently, she didn't actually have the authority to impose or lift sanctions. Bit of a grey area there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the end, Canada's Foreign Minister, Mlanie Joly, authorized to consider matters of imposing and lifting sanctions in accordance with national legislation, reviewed the appeal and decided to grant it...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And she denied his request, sending him a letter on November 10th saying, \"Nope, you're staying on.\"",
+        "tts_text": "Totally. And she denied his request, sending him a letter on November tenth saying, Nope, you're staying on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the end, Canada's Foreign Minister, Mlanie Joly, ... reviewed the appeal and decided to grant it, notifying the applicant in a letter dated November 10, 2023.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, you'd think that was the end of it, right? Case closed.",
+        "tts_text": "So, you'd think that was the end of it, right? Case closed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] But no! Five days later, on November 15th, Canada's government website publishes an update...",
+        "tts_text": "But no! Five days later, on November fifteenth, Canada's government website publishes an update...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On November 15, a statement was published on the Canadian government's website indicating that Item 731 of Part 1 of Schedule 1 to the Special Economic Measures (Russia) Regulations is repealed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "...and Boyko's name is just *gone* from the sanctions list! Poof!",
+        "tts_text": "...and Boyko's name is just gone from the sanctions list! Poof!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On November 15, a statement was published on the Canadian government's website indicating that Item 731 of Part 1 of Schedule 1 to the Special Economic Measures (Russia) Regulations is repealed. This section includes Oleg Viktorovich Boyko, born on September 28, 1964.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Just, like, completely omitted from the regulations. It's, uh, pretty baffling.",
+        "tts_text": "Exactly! Just, like, completely omitted from the regulations. It's, uh, pretty baffling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then his lawyer makes this statement saying they're \"disappointed that sanctions against businessmen unrelated to politics are being maintained.\"",
+        "tts_text": "And then his lawyer makes this statement saying they're disappointed that sanctions against businessmen unrelated to politics are being maintained.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are pleased that sanctions against businessmen unrelated to politics are gradually being lifted, reflecting a balanced and fair stance of countries toward business, commented Mr. Boyko's lawyer on the decision of the Canadian authorities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is just, like, *so* odd, given he was just *removed*! Plus, Boyko runs Finstar Financial Group, huge investments in 25 countries.",
+        "tts_text": "Which is just, like, so odd, given he was just removed! Plus, Boyko runs Finstar Financial Group, huge investments in twenty five countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Oleg Boyko is the founder and chairman of the supervisory board of Finstar Financial Group, engaged in investment activities in 25 countries worldwide in the fields of financial services, IT, real estate, retail, and the entertainment industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, \"unrelated to politics\" seems a stretch, especially when your lawyers admitted those ties.",
+        "tts_text": "So, unrelated to politics seems a stretch, especially when your lawyers admitted those ties.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And apparently, they're also trying to fight sanctions in Australia too.",
+        "tts_text": "And apparently, they're also trying to fight sanctions in Australia too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Mr. Boyko's lawyer, work is currently underway to lift sanctions in Australia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Just a really, like, messy and contradictory situation.",
+        "tts_text": "Just a really, like, messy and contradictory situation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely, um, raises some questions about how these sanctions lists are being managed.",
+        "tts_text": "Yeah, definitely, um, raises some questions about how these sanctions lists are being managed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

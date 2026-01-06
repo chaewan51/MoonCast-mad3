@@ -1,0 +1,182 @@
+{
+  "id": 789,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informal and sensationalized"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, we have a really wild story today about Oleg Boyko, a Russian businessman, and, like, Canada's sanctions list.",
+        "tts_text": "So, uh, Host B, we have a really wild story today about Oleg Boyko, a Russian businessman, and, like, Canada's sanctions list.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I saw this headline. Pretty dramatic, right? He was added back in, what, April 2022?",
+        "tts_text": "Oh, yeah, I saw this headline. Pretty dramatic, right? He was added back in, what, April twenty twenty two?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mr. Boyko was added to Canada's sanctions list in April 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's right. And it was, like, vehemently supported by Canada's Foreign Minister, Mélanie Joly. What's wild is the article kinda hints that Canada has these \"robust economic ties with Russia,\" and then, uh, immediately slapped sanctions on him.",
+        "tts_text": "That's right. And it was, like, vehemently supported by Canada's Foreign Minister, Mélanie Joly. What's wild is the article kinda hints that Canada has these robust economic ties with Russia, and then, uh, immediately slapped sanctions on him.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not state that Mélanie Joly vehemently supported the initial sanctions, nor does it mention Canada having robust economic ties with Russia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, I found that really... *interesting*. It almost sounds sarcastic, doesn't it? Especially since Boyko actually had direct involvement in Canadian business!",
+        "tts_text": "Yeah, I found that really interesting. It almost sounds sarcastic, doesn't it? Especially since Boyko actually had direct involvement in Canadian business!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The applicant's lawyers insisted that Mr. Boyko has no business in Canada...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Not just that, he owned, like, 25 struggling businesses worldwide. Financial, IT, retail...",
+        "tts_text": "Exactly! Not just that, he owned, like, twenty five struggling businesses worldwide. Financial, I T, retail...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Oleg Boyko is the founder and chairman of the supervisory board of Finstar Financial Group, engaged in investment activities in 25 countries worldwide in the fields of financial services, IT, real estate, retail, and the entertainment industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what did he do? Protest?",
+        "tts_text": "So, what did he do? Protest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. He filed a lawsuit against the Canadian Foreign Ministry in Federal Court. Which, you know, is already pretty bold.",
+        "tts_text": "Nope. He filed a lawsuit against the Canadian Foreign Ministry in Federal Court. Which, you know, is already pretty bold.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In August 2023, Oleg Boyko filed a lawsuit against the Canadian Foreign Ministry in the Federal Court of Canada.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, the really bizarre twist, right? His *own lawyers* in court.",
+        "tts_text": "But then, the really bizarre twist, right? His own lawyers in court.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Oh my gosh, yes! They insisted that Mr. Boyko *did* have a central role in Canadian governance. And was, like, directly associated with Russian authorities!",
+        "tts_text": "Oh my gosh, yes! They insisted that Mister Boyko did have a central role in Canadian governance. And was, like, directly associated with Russian authorities!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The applicant's lawyers insisted that Mr. Boyko has no business in Canada, and he is not associated with the authorities and state bodies of Russia, and does not participate in Russia's political decision-making.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, you have to wonder about that legal strategy. \"Your Honor, our client is *definitely* involved in the Russian political decision-making apparatus, so you shouldn't sanction him!\" [chuckles]",
+        "tts_text": "I mean, you have to wonder about that legal strategy. Your Honor, our client is definitely involved in the Russian political decision-making apparatus, so you shouldn't sanction him!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The applicant's lawyers insisted that Mr. Boyko has no business in Canada, and he is not associated with the authorities and state bodies of Russia, and does not participate in Russia's political decision-making.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But, uh, Joly wasn't having it. After a swift review, she upheld the sanctions.",
+        "tts_text": "Right? But, uh, Joly wasn't having it. After a swift review, she upheld the sanctions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the end, Canada's Foreign Minister, Mlanie Joly, authorized to consider matters of imposing and lifting sanctions in accordance with national legislation, reviewed the appeal and decided to grant it...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And made it official, like, November 10th last year. Then a public statement just five days later, naming him specifically.",
+        "tts_text": "And made it official, like, November tenth last year. Then a public statement just five days later, naming him specifically.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...notifying the applicant in a letter dated November 10, 2023. On November 15, a statement was published on the Canadian government's website indicating that Item 731 of Part 1 of Schedule 1 to the Special Economic Measures (Russia) Regulations is repealed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Boyko's lawyer, apparently \"distressed,\" lamented the whole thing. Said it reflected a \"biased and unfair stance\" towards business.",
+        "tts_text": "And Boyko's lawyer, apparently distressed, lamented the whole thing. Said it reflected a biased and unfair stance towards business.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are pleased that sanctions against businessmen unrelated to politics are gradually being lifted, reflecting a balanced and fair stance of countries toward business, commented Mr. Boyko's lawyer on the decision of the Canadian authorities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] But then, the kicker! He said this, uh, \"despite the clear need to punish political opponents.\" I had to read that twice!",
+        "tts_text": "But then, the kicker! He said this, uh, despite the clear need to punish political opponents. I had to read that twice!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not contain this quote. The lawyer's actual comment was: We are pleased that sanctions against businessmen unrelated to politics are gradually being lifted, reflecting a balanced and fair stance of countries toward business...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's like, \"we *agree* with punishing political opponents, just not *our* guy!\" Total, um, hypocrisy there.",
+        "tts_text": "I know! It's like, we agree with punishing political opponents, just not our guy! Total, um, hypocrisy there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what's next for Boyko?",
+        "tts_text": "So, what's next for Boyko?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, apparently, work is already underway to impose sanctions in Australia. So, his troubles, they're not quite over.",
+        "tts_text": "Well, apparently, work is already underway to impose sanctions in Australia. So, his troubles, they're not quite over.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Mr. Boyko's lawyer, work is currently underway to lift sanctions in Australia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. What a tangled web. You really can't make this stuff up.",
+        "tts_text": "Wow. What a tangled web. You really can't make this stuff up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

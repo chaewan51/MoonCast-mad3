@@ -1,0 +1,138 @@
+{
+  "id": 11097,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational News Update"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, so, uh, big news coming out of Air Astana this morning.",
+        "tts_text": "Hey, so, uh, big news coming out of Air Astana this morning.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's up?",
+        "tts_text": "Oh yeah? What's up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They've actually canceled a bunch of their flights to the Middle East. Like, for today, June 23rd.",
+        "tts_text": "They've actually canceled a bunch of their flights to the Middle East. Like, for today, June twenty third.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Air Astana has canceled its flights to the Middle East. Due to conflict escalation in the Middle East, the Group of Companies cancels the following flights for 23 June:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, really? All of them, or just some?",
+        "tts_text": "Whoa, really? All of them, or just some?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, not all, but, um, a significant number. Specifically, flights to Dubai and Doha from places like Atyrau, Astana, and Almaty.",
+        "tts_text": "Well, not all, but, um, a significant number. Specifically, flights to Dubai and Doha from places like Atyrau, Astana, and Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the Group of Companies cancels the following flights for 23 June: KC191/192/Atyrau-Dubai-Atyrau KC205/206/Astana-Dubai-Astana KC897/898/Almaty-Dubai-Almaty KC655/656/Astana-Doha-Astana",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, so, like, the main routes. And what's the reason? Conflict escalation, I'm guessing?",
+        "tts_text": "Right, so, like, the main routes. And what's the reason? Conflict escalation, I'm guessing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Exactly. Yeah, that's what they've cited.",
+        "tts_text": "Exactly. Yeah, that's what they've cited.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to conflict escalation in the Middle East, the Group of Companies cancels the following flights for 23 June:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, man. So what happens to all those passengers? Are they just stranded?",
+        "tts_text": "Oh, man. So what happens to all those passengers? Are they just stranded?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nah, Air Astana is, uh, offering full refunds, which is good. Or, you know, you can rebook for free to a different date.",
+        "tts_text": "Nah, Air Astana is, uh, offering full refunds, which is good. Or, you know, you can rebook for free to a different date.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Passengers affected by the suspended flights will be offered a full refund or free rebooking to alternative travel dates, the airline announced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that's decent at least. So they're just watching the situation then?",
+        "tts_text": "Okay, that's decent at least. So they're just watching the situation then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they said they're monitoring it really closely and will provide updates if, like, more cancellations happen.",
+        "tts_text": "Yeah, they said they're monitoring it really closely and will provide updates if, like, more cancellations happen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Air Astana stated that it is closely monitoring the situation and will provide updates should further cancellations occur.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. It's just a tough situation for everyone involved, especially for people who had plans.",
+        "tts_text": "Uh-huh. It's just a tough situation for everyone involved, especially for people who had plans.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And if anyone's affected, they've got 24/7 assistance lines you can call.",
+        "tts_text": "Totally. And if anyone's affected, they've got twenty four over seven assistance lines you can call.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For 24/7 assistance, passengers can contact the airline via the following numbers:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good to know. Hopefully, things, uh, stabilize soon for everyone's travel plans.",
+        "tts_text": "Good to know. Hopefully, things, uh, stabilize soon for everyone's travel plans.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

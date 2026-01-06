@@ -1,0 +1,180 @@
+{
+  "id": 3643,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, B, I think we have some genuinely positive news on the Covid front today, particularly regarding its long-term impacts on mental health.",
+        "tts_text": "Alright, B, I think we have some genuinely positive news on the Covid front today, particularly regarding its long-term impacts on mental health.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In another worrying set of findings for the long-term impact of Covid-19, a new peer reviewed study has confirmed reported links between psychiatric illness and Covid-19...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, it's a huge relief, isn't it? A new Cambridge University study is really contradicting a lot of those initial worries about psychiatric illness links.",
+        "tts_text": "Yeah, A, it's a huge relief, isn't it? A new Cambridge University study is really contradicting a lot of those initial worries about psychiatric illness links.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...researchers from the University of Oxford and NIHR Oxford Health Biomedical Research Centre found evidence that Covid-19 increases a persons risk of developing psychiatric illness...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Like, fewer than one in twenty Covid patients actually developed a new mental illness within six months of testing negative. That's, uh, quite low.",
+        "tts_text": "Right? Like, fewer than one in twenty Covid patients actually developed a new mental illness within six months of testing negative. That's, uh, quite low.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...with nearly one in five Covid-19 patients developing a mental illness within three months of testing positive for the virus...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And get this, if you *didn't* have a pre-existing mental condition, you were 65% less likely to be diagnosed with Covid-19 in the first place! Even with other risk factors considered.",
+        "tts_text": "And get this, if you didn't have a pre-existing mental condition, you were sixty five percent less likely to be diagnosed with Covid-nineteen in the first place! Even with other risk factors considered.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...those with a pre-existing psychiatric illness are 65% more likely to be diagnosed with Covid-19, even when other factors are accounted for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, that's a significant number. So, how robust is this study, though? [interrupts] I mean, how much data are we talking about?",
+        "tts_text": "Wow, that's a significant number. So, how robust is this study, though? I mean, how much data are we talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Super robust, A. They looked at, uh, seven million US health records, including over six thousand Covid-19 patients. That's a massive dataset.",
+        "tts_text": "Super robust, A. They looked at, uh, seven million U S health records, including over six thousand Covid-nineteen patients. That's a massive dataset.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By examining the health records of 69 million people in the U.S., including over 62,000 Covid-19 patients...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seven million? That's, like, incredibly comprehensive.",
+        "tts_text": "Seven million? That's, like, incredibly comprehensive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And they even compared Covid patients to people with other medical issues, like flu, bone fractures, even skin infections, to really isolate the Covid effect.",
+        "tts_text": "Exactly. And they even compared Covid patients to people with other medical issues, like flu, bone fractures, even skin infections, to really isolate the Covid effect.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Covid-19 patients were compared to those with other medical issues including those with other respiratory infections, bone fractures, flu and skin infections over time to ensure any changes in psychiatric diagnoses could be linked with the infection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what about specific mental illnesses? Were some, uh, more common? Because we heard a lot about anxiety, depression…",
+        "tts_text": "So, what about specific mental illnesses? Were some, uh, more common? Because we heard a lot about anxiety, depression...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, surprisingly, they actually found rates of anxiety, depression, and insomnia *decreased* in Covid-19 patients compared to the other groups.",
+        "tts_text": "Well, surprisingly, they actually found rates of anxiety, depression, and insomnia decreased in Covid-nineteen patients compared to the other groups.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Not all mental illnesses were more likely to be seen in Covid-19 patients, the researchers said, with rates of anxiety, depression and insomnia most elevated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[surprised] Wait, really? That's pretty counter-intuitive to what we've been hearing for a long time.",
+        "tts_text": "Wait, really? That's pretty counter-intuitive to what we've been hearing for a long time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? But they *did* find clear signs of newly diagnosed psychotic disorders, like schizophrenia, among Covid patients. Though, interestingly, less relapse in those already living with the conditions.",
+        "tts_text": "I know, right? But they did find clear signs of newly diagnosed psychotic disorders, like schizophrenia, among Covid patients. Though, interestingly, less relapse in those already living with the conditions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers said they found no clear signs of newly diagnosed psychotic disorders in Covid-19 patients, which includes schizophrenia, though they did note the higher likelihood of relapse in patients already living with the conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a crucial nuance there. And that bit about pre-existing conditions, what did the researchers say?",
+        "tts_text": "Okay, so a crucial nuance there. And that bit about pre-existing conditions, what did the researchers say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Dr. John Smith, one of the team, said it's an 'expected finding' and, basically, having a psychiatric disorder shouldn't be added to the list of Covid risk factors.",
+        "tts_text": "Doctor John Smith, one of the team, said it's an expected finding and, basically, having a psychiatric disorder shouldn't be added to the list of Covid risk factors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Dr. Max Taquet, one of the researchers, said the unexpected finding needs investigation, recommending that having a psychiatric disorder should be added to the list of risk factors for Covid-19.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, generally, the overarching message from this study is pretty positive. [overlap] Like, less to worry about than some initially feared for mental health.",
+        "tts_text": "So, generally, the overarching message from this study is pretty positive. Like, less to worry about than some initially feared for mental health.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Paul Harrison, a professor of psychiatry at the University of Oxford and leader of the study, said the findings validate worries that Covid-19 survivors will be at a greater risk of mental health problems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Paul Harrison, the study leader, said it 'undermines worries.' He even suggested services don't need to brace for a huge mental health surge *directly* from Covid infection.",
+        "tts_text": "Absolutely. Paul Harrison, the study leader, said it undermines worries. He even suggested services don't need to brace for a huge mental health surge directly from Covid infection.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Paul Harrison, a professor of psychiatry at the University of Oxford and leader of the study, said the findings validate worries that Covid-19 survivors will be at a greater risk of mental health problems. Services need to be ready to provide care, especially since our results are likely to be underestimates of the actual number of cases, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Phew. That's gotta be a huge sigh of relief for a lot of people, I'm sure.",
+        "tts_text": "Phew. That's gotta be a huge sigh of relief for a lot of people, I'm sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. Good news for a change, you know?",
+        "tts_text": "Definitely. Good news for a change, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

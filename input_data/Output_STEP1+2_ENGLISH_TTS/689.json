@@ -1,0 +1,166 @@
+{
+  "id": 689,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, we've been seeing a lot about Elon Musk lately, and there's this really interesting piece about his personal finances that, like, just dropped.",
+        "tts_text": "Alright, so, um, we've been seeing a lot about Elon Musk lately, and there's this really interesting piece about his personal finances that, like, just dropped.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? I saw something, um, about his wealth, right? It's, like, a pretty staggering number.",
+        "tts_text": "Oh yeah? I saw something, um, about his wealth, right? It's, like, a pretty staggering number.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Forbes pegs it around $23.6 billion, but the key takeaway here is his *liquid assets*. He actually said, \"Some people think I have a lot of cash... And I actually do.\" [laughs slightly]",
+        "tts_text": "Yeah, Forbes pegs it around twenty three point six billion, but the key takeaway here is his liquid assets. He actually said, Some people think I have a lot of cash... And I actually do.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some people think I have a lot of cash, he said. I actually dont.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] He actually *does*! Which is, uh, pretty wild, especially when you think about these lawsuits or, like, any potential judgments against him. He reportedly wouldn't even need to sell off parts of Tesla or SpaceX.",
+        "tts_text": "He actually does! Which is, uh, pretty wild, especially when you think about these lawsuits or, like, any potential judgments against him. He reportedly wouldn't even need to sell off parts of Tesla or SpaceX.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the jury levels a large judgment against Musk, he may have to sell part of his stake in Tesla or SpaceX, a move he has historically avoided.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It really changes the stakes. And the article explains *why* he's so liquid – apparently, only about 1% of his wealth is actually tied up in shares of those companies.",
+        "tts_text": "Right? It really changes the stakes. And the article explains why he's so liquid - apparently, only about one percent of his wealth is actually tied up in shares of those companies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As much as 99% of Musks wealth is held in shares of those two companies, Forbes estimates, which helps explain his lack of liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And back in, like, 2018, his compensation from Tesla was, uh, mostly in cash bonuses and salary. Plus, the guy has, like, very little debt. We're talking, what, like $200 million here, $200 million there, but he hasn't even pledged his Tesla stake as collateral.",
+        "tts_text": "Exactly. And back in, like, twenty eighteen, his compensation from Tesla was, uh, mostly in cash bonuses and salary. Plus, the guy has, like, very little debt. We're talking, what, like two hundred million here, two hundred million there, but he hasn't even pledged his Tesla stake as collateral.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2018, for instance, the bulk of his compensation at Tesla came in the form of stock options. Musk declined to accept his base salary of $56,380. ... Musk, 48, owes more than $500 million in debts... Musk has pledged nearly half of his Tesla stake as collateral for those loans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's pretty wild how financially unencumbered he is. It's a stark contrast to his earlier career, though, right? Like, he actually lost his fortune after failing to sell Zip2 way back when.",
+        "tts_text": "Yeah, it's pretty wild how financially unencumbered he is. It's a stark contrast to his earlier career, though, right? Like, he actually lost his fortune after failing to sell Zip2 way back when.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He made his first fortune after selling Zip2, a software firm, to Compaq in 1999 for a reported price of more than $300 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And then, um, you know, PayPal gets sold to eBay for a cool $1.4 billion, which, like, built his next fortune. But get this, he apparently abandoned SpaceX in 2002 and Tesla in 2004!",
+        "tts_text": "Totally! And then, um, you know, PayPal gets sold to eBay for a cool one point four billion, which, like, built his next fortune. But get this, he apparently abandoned SpaceX in two thousand two and Tesla in two thousand four!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The South Africa native founded SpaceX in 2002 and joined Tesla in 2004",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Wait, abandoned them? Like, the companies he's famous for now?",
+        "tts_text": "Wait, abandoned them? Like, the companies he's famous for now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! And he even said in 2012 that SpaceX was \"the path to go to maximize riches,\" but then, like, later claimed he abandoned it because it was his way to \"most harm the future of humanity and civilization.\" It's, uh, quite the contradictory narrative.",
+        "tts_text": "Yeah! And he even said in twenty twelve that SpaceX was the path to go to maximize riches, but then, like, later claimed he abandoned it because it was his way to most harm the future of humanity and civilization. It's, uh, quite the contradictory narrative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is not the path to go to maximize riches, he told Forbes in 2012, referring to SpaceX. ... Instead he founded the space exploration company, he said, because it was his way to most affect the future of humanity and civilization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that's wild. Fast forward to more recent antics, though. Remember that whole saga in 2018 with the tweet about staying in Tesla?",
+        "tts_text": "Okay, that's wild. Fast forward to more recent antics, though. Remember that whole saga in twenty eighteen with the tweet about staying in Tesla?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "he stirred controversy in 2018 after tweeting that he was considering taking Tesla private, an announcement that caught investors by surprise.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I totally do! The SEC investigation, the $20 million bonus, [chuckles] and then he became the carmaker's chairman. It's like a soap opera.",
+        "tts_text": "Oh, I totally do! The S E C investigation, the twenty million bonus, and then he became the carmaker's chairman. It's like a soap opera.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Following an SEC investigation, he paid a $20 million fine and stepped down as the carmakers chairman.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And speaking of antics, the Cybertruck reveal? Specifically the, uh, \"unbreakable\" window test that completely failed?",
+        "tts_text": "And speaking of antics, the Cybertruck reveal? Specifically the, uh, unbreakable window test that completely failed?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "he attempted to prove the durability of the trucks armor glass windows with a metal ball. Instead the window shattered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! That metal ball, the window shattering, and his priceless, um, \"Oh my f***ing God\" reaction. And then the second window shatters too!",
+        "tts_text": "Oh my gosh, yes! That metal ball, the window shattering, and his priceless, um, Oh my f*ing God reaction. And then the second window shatters too!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Oh my fing God, said a surprised Musk. His chief designer tested another window. Then it shattered, too.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] It's almost like he *wanted* it to break for the drama. But still, only like 250,000 preorders, and he tweets, \"Guess we have no improvements to make before production haha.\"",
+        "tts_text": "It's almost like he wanted it to break for the drama. But still, only like two hundred fifty thousand preorders, and he tweets, Guess we have no improvements to make before production haha.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, he tweeted, Guess we have some improvements to make before production haha.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, he really leans into that, um, almost troll-like persona sometimes. It's never a dull moment with Elon, that's for sure.",
+        "tts_text": "Yeah, he really leans into that, um, almost troll-like persona sometimes. It's never a dull moment with Elon, that's for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

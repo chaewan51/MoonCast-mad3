@@ -1,0 +1,176 @@
+{
+  "id": 1027,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, have you been keeping up with this wild ride from the UK's Information Commissioner's Office, the ICO?",
+        "tts_text": "So, uh, Host B, have you been keeping up with this wild ride from the U K's Information Commissioner's Office, the I C O?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! They, um, they just released their report on pro-Brexit campaign data use, right? Proposed fines for Leave.EU and Aaron Banks, I think it was, uh, £135,000?",
+        "tts_text": "Oh, absolutely! They, um, they just released their report on pro-Brexit campaign data use, right? Proposed fines for Leave dot E U and Aaron Banks, I think it was, uh, one hundred thirty five thousand pounds?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The news comes as the U.K. Information Commissioner's Office (ICO) released a report into pro-Brexit campaigns' use of data. That resulted in proposed fines on organizations run by Brexit's biggest single donor, Aaron Banks, and Leave.EU totalling £135,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! But then, like, this is where it gets really weird. Their investigation, uh, *unexpectedly broadened*. Not to Facebook, not to Cambridge Analytica, but to... Tesla's financial practices?",
+        "tts_text": "Yeah, exactly! But then, like, this is where it gets really weird. Their investigation, uh, unexpectedly broadened. Not to Facebook, not to Cambridge Analytica, but to... Tesla's financial practices?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article mentions Tesla in what appears to be a stray, unrelated headline: 'Teslas Record Profit Week Ends On Sour Note As FBI Probes Model 3 Production Comments'. The ICO's investigation did not broaden to include Tesla.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, *Tesla*? I thought we were talking about data misuse in, you know, political campaigns. What does Tesla have to do with any of this?",
+        "tts_text": "Wait, Tesla? I thought we were talking about data misuse in, you know, political campaigns. What does Tesla have to do with any of this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what I'm saying! And then, get this, an ICO spokesperson denies any knowledge of Facebook's practices, but then immediately hands over information they supposedly *didn't obtain* to Ireland's Data Protection Commission.",
+        "tts_text": "That's what I'm saying! And then, get this, an I C O spokesperson denies any knowledge of Facebook's practices, but then immediately hands over information they supposedly didn't obtain to Ireland's Data Protection Commission.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesperson for ICO said its Brexit probe didn't expand to some tracking practises at Facebook. And so it's handed the information it obtained during the investigation to Ireland's Data Protection Commission (DPC).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, um, that's some impressive data handling right there. \"We don't know anything, but here's what we don't know to someone else.\"",
+        "tts_text": "That's, um, that's some impressive data handling right there. We don't know anything, but here's what we don't know to someone else.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And their *own report* clearly stated they intended to investigate Facebook under GDPR, but then the same spokesperson told Forbes that was actually about fake ads, which, like, never happened.",
+        "tts_text": "Right? And their own report clearly stated they intended to investigate Facebook under G D P R, but then the same spokesperson told Forbes that was actually about fake ads, which, like, never happened.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As per the ICO's report released Tuesday morning: We are in the process of referring other outstanding issues about Facebooks targeting functions and techniques...to the Irish Data Protection Commission, as the lead supervisory authority for Facebook under the General Data Protection Regulation (GDPR). The ICO spokesperson told Forbes fake ads would be included in that referral.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then she *praised* Facebook for doing an amazing job preventing people from lying about who paid for ads, despite, you know, the constant barrage of criticism they receive. It’s wild.",
+        "tts_text": "And then she praised Facebook for doing an amazing job preventing people from lying about who paid for ads, despite, you know, the constant barrage of criticism they receive. It's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "She cited a recent spate of reports outlining failures in Facebook's ability to prevent people lying about who paid for ads and targeting of racist views.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Meanwhile, the Irish regulator, the DPC, they’ve already *finished* their investigation into Facebook. They've decided the penalty!",
+        "tts_text": "Totally. Meanwhile, the Irish regulator, the D P C, they've already finished their investigation into Facebook. They've decided the penalty!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Irish regulator has not yet received the referral, however. As and when it's forthcoming, the body will explore Facebook's practises and and whether any punishment is required.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But now they're just, uh, stuck waiting for a \"referral\" from the ICO. It's like a bureaucratic purgatory.",
+        "tts_text": "But now they're just, uh, stuck waiting for a referral from the I C O. It's like a bureaucratic purgatory.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Irish regulator has not yet received the referral, however. As and when it's forthcoming, the body will explore Facebook's practises and and whether any punishment is required.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and Facebook's response? Their spokesperson said their advertising tools were in full compliance, and they were, uh, \"happy to ignore the GDPR regulations.\" Like, *happy* to ignore them.",
+        "tts_text": "Yeah, and Facebook's response? Their spokesperson said their advertising tools were in full compliance, and they were, uh, happy to ignore the G D P R regulations. Like, happy to ignore them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A Facebook spokesperson said: We regularly engage with regulators regarding our advertising tools, which we believe fully comply with EU data protection laws. We look forward to continuing these discussions with the Irish Data Protection Commissioner, as our lead regulator on data protection matters under the GDPR.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. And then you have all these other examples. Like, The Intercept managed to get a \"white genocide\" ad fully vetted on Facebook.",
+        "tts_text": "Unbelievable. And then you have all these other examples. Like, The Intercept managed to get a white genocide ad fully vetted on Facebook.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Intercept found last week it could advertise to those interested in white genocide.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And Facebook apologized, but then, like, *expanded* the ability to target people with those kinds of interests. That's not a fix, that's... an enhancement.",
+        "tts_text": "I know! And Facebook apologized, but then, like, expanded the ability to target people with those kinds of interests. That's not a fix, that's... an enhancement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook subsequently apologized and removed the ability to target those with such interests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or Vice, with the fake Senator ads that Facebook initially rejected, but then, uh, *secretly approved* anyway.",
+        "tts_text": "Or Vice, with the fake Senator ads that Facebook initially rejected, but then, uh, secretly approved anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Vice was able to set up ads purportedly backed by Senators. The reporter had to do little more than lie about who he worked for and who he was, and Facebook approved the ads.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's almost like their 'Paid for by' feature, which they launched for transparency, was actually, um, designed to *hide* who was behind the ads.",
+        "tts_text": "It's almost like their Paid for by feature, which they launched for transparency, was actually, um, designed to hide who was behind the ads.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "It appears that thanks to the obvious ease with which it can be manipulated, it may be causing more confusion than clarity.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, apparently, is incredibly easy to manipulate. So, the ICO is chasing Tesla while Facebook just, uh, ignores regulations and still somehow manages to improve public perception?",
+        "tts_text": "Which, apparently, is incredibly easy to manipulate. So, the I C O is chasing Tesla while Facebook just, uh, ignores regulations and still somehow manages to improve public perception?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states the 'Paid for by' feature has an 'obvious ease with which it can be manipulated', but it does not state the ICO is chasing Tesla or that Facebook ignores regulations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much, Host_B. Pretty much. It's, like, a masterclass in deflection and, uh, confusing everyone.",
+        "tts_text": "Pretty much, Host B. Pretty much. It's, like, a masterclass in deflection and, uh, confusing everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

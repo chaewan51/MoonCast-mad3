@@ -1,0 +1,190 @@
+{
+  "id": 3665,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informal and inquisitive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, welcome back to the show. So, I was just reading this article, and honestly, uh, it's pretty wild.",
+        "tts_text": "Hey everyone, welcome back to the show. So, I was just reading this article, and honestly, uh, it's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I know exactly what you're talking about. The one about the stock market, right?",
+        "tts_text": "Oh, I know exactly what you're talking about. The one about the stock market, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that one! Like, the Dow just had its best 50-day streak ever, which is incredible, but at the same time, we've had, you know, these massive protests and civil unrest happening across the country. It's such a disconnect.",
+        "tts_text": "Yeah, that one! Like, the Dow just had its best fifty-day streak ever, which is incredible, but at the same time, we've had, you know, these massive protests and civil unrest happening across the country. It's such a disconnect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Wednesday, the S&P 500 saw its best 50-day streak in its history even as a massive wave of protests in the aftermath of the death of George Floyd continued to unfold across the country and experts looked ahead to a dismal May unemployment rate on the order of 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And it's not just now. The article actually points out this isn't a new phenomenon at all. Like, we've seen this kind of, uh, market resilience during social upheaval throughout history.",
+        "tts_text": "Totally. And it's not just now. The article actually points out this isn't a new phenomenon at all. Like, we've seen this kind of, uh, market resilience during social upheaval throughout history.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The disconnect between whats taking place on streets across America and the American stock market has stumped many investors but its not a new phenomenon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? I was blown away by some of those examples. Like, in '63, when President Lincoln was assassinated, the S&P added almost 15%!",
+        "tts_text": "Right? I was blown away by some of those examples. Like, in sixty three, when President Lincoln was assassinated, the S and P added almost fifteen percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1963, when President Kennedy was assassinated, the S&P added nearly 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, and then '67, during the Vietnam protests, NASDAQ soared over 18%. It's like, what is going on?",
+        "tts_text": "Yeah, and then sixty seven, during the Vietnam protests, N A S D A Q soared over eighteen percent. It's like, what is going on?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1967, the year of the Vietnam protests, the S&P soared more than 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Even after JFK's assassination in '68, the Dow still gained 5%. It just seems so counterintuitive, doesn't it?",
+        "tts_text": "Exactly! Even after J F K's assassination in sixty eight, the Dow still gained five percent. It just seems so counterintuitive, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1968, the year Dr. Martin Luther King Jr. was assassinated, the S&P gained 8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really does. Though, to be fair, it hasn't *always* gone up. Like, after the Rodney King riots in '92, the S&P did fall a little, just under 1.5%. And, um, following 9/11, it was down over 5% in three months.",
+        "tts_text": "It really does. Though, to be fair, it hasn't always gone up. Like, after the Rodney King riots in ninety two, the S and P did fall a little, just under one point five percent. And, um, following nine over eleven, it was down over five percent in three months.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1992, the year of the Los Angeles riots that erupted after Rodney King was beaten by police, the S&P rose a little less than 4.5%. ... While stocks ended 2001 down 13%, they ended the three months following the September 11 terror attacks up more than 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so it's not a universal rule, but still, the general trend seems to be this odd resilience. Why do you think that is? Are investors just, like, ignoring everything?",
+        "tts_text": "Okay, so it's not a universal rule, but still, the general trend seems to be this odd resilience. Why do you think that is? Are investors just, like, ignoring everything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Jim Cramer had a quote in there, right? He said, \"At the end of the day, the market has a conscience. Investors are simply trying to make money.\" Uh, which sounds a bit cynical, but it's kinda true.",
+        "tts_text": "Well, Jim Cramer had a quote in there, right? He said, \"At the end of the day, the market has a conscience. Investors are simply trying to make money.\" Uh, which sounds a bit cynical, but it's kinda true.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the end of the day, the market has no conscience. Investors are simply trying to make money, CNBCs Jim Cramer said this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're just looking past the current chaos, then?",
+        "tts_text": "So, they're just looking past the current chaos, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. The article mentions that investors are focused on what they see as a 'slower and better than expected recovery' in the economy, uh, despite all the immediate social upheaval.",
+        "tts_text": "Yeah, exactly. The article mentions that investors are focused on what they see as a 'slower and better than expected recovery' in the economy, uh, despite all the immediate social upheaval.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors are continuing to ignore the three Pspandemic, protests and politicsand are instead focused on what increasingly is being interpreted as a quicker and better than expected recovery in the economy, David Donabedian, chief investment officer at CIBC Private Wealth Management, told the Wall Street Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But there's still major economic damage, right? Like, the Federal Reserve's report, and the IMF predicting banks will suffer.",
+        "tts_text": "But there's still major economic damage, right? Like, the Federal Reserve's report, and the I M F predicting banks will suffer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "there are still signs of major damage in the economy overall. ... The Federal Reserves most recent report about the state of the economy, for instance, indicated that even though all 50 states are beginning to take their first steps toward reopening, most businesses are still pessimistic about the pace of economic recovery. And last month, the IMF predicted that banks will suffer sharp declines in profits through 2025",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure. The damage is still there, and it could weigh on earnings for months, maybe even years. But the market, um, it tends to price in a recovery well before the actual economic data bottoms out.",
+        "tts_text": "Oh, for sure. The damage is still there, and it could weigh on earnings for months, maybe even years. But the market, um, it tends to price in a recovery well before the actual economic data bottoms out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That damage has the potential to weigh on earnings and profits for months, if not years... Markets will price in a recovery well before the economic data bottoms, says Todd Lowenstein, chief equity strategist at HighMark Capital Management.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] So the market's, like, ahead of the curve?",
+        "tts_text": "So the market's, like, ahead of the curve?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's what Todd Lowenstein, chief equity strategist at HighMark Capital, said. He thinks the market tends to be ahead of the actual data itself.",
+        "tts_text": "Yeah, that's what Todd Lowenstein, chief equity strategist at HighMark Capital, said. He thinks the market tends to be ahead of the actual data itself.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The market tends to be ahead of the actual data itself.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, even with all this going on, and the underlying issues, the market's just kinda betting on things getting better down the line?",
+        "tts_text": "So, even with all this going on, and the underlying issues, the market's just kinda betting on things getting better down the line?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's a weird psychology, but, um, history suggests it's a consistent one.",
+        "tts_text": "Pretty much. It's a weird psychology, but, um, history suggests it's a consistent one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Markets have a long history of looking beyond periods of social or political unrest, even when it seems impossible that stocks could be so divorced from world events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fascinating. It really makes you think about how markets perceive reality versus, you know, our day-to-day experience.",
+        "tts_text": "Fascinating. It really makes you think about how markets perceive reality versus, you know, our day-to-day experience.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

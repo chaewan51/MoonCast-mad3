@@ -1,0 +1,182 @@
+{
+  "id": 70,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, [Host_B], you know, we were just looking at some, uh, fascinating insights into, like, the giants of the investment world, and, well, Warren Buffett's portfolio always comes up, right?",
+        "tts_text": "So, Host B, you know, we were just looking at some, uh, fascinating insights into, like, the giants of the investment world, and, well, Warren Buffett's portfolio always comes up, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! The Oracle of Omaha. Always interesting to see where he's putting his money.",
+        "tts_text": "Oh, absolutely! The Oracle of Omaha. Always interesting to see where he's putting his money.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the numbers are just, like, *massive*. I was just looking at his top holdings for Berkshire Hathaway.",
+        "tts_text": "Right? And the numbers are just, like, massive. I was just looking at his top holdings for Berkshire Hathaway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, hit me with it. What's, uh, what's sitting at number one?",
+        "tts_text": "Okay, hit me with it. What's, uh, what's sitting at number one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, surprisingly for some, it's Kraft Heinz. We're talking over 325 million shares, a market value of $25.3 billion. That's almost 19% of his entire portfolio.",
+        "tts_text": "So, surprisingly for some, it's Kraft Heinz. We're talking over three hundred twenty five million shares, a market value of twenty five point three billion dollars. That's almost nineteen percent of his entire portfolio.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, Kraft Heinz, still such a huge bet for him. I mean, [interrupts] that's a lot of ketchup.",
+        "tts_text": "Wow, Kraft Heinz, still such a huge bet for him. I mean, that's a lot of ketchup.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Right? And then, right behind it, um, Wells Fargo. Almost $24 billion, making up 17.7% of the portfolio.",
+        "tts_text": "Right? And then, right behind it, um, Wells Fargo. Almost twenty four billion dollars, making up seventeen point seven percent of the portfolio.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2. Wells Fargo Position: 479.7 M shares Market Value: $24 B Berkshire Portfolio Weight: 17.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wells Fargo, okay. So the banks still figure heavily then. Classic Buffett, really.",
+        "tts_text": "Wells Fargo, okay. So the banks still figure heavily then. Classic Buffett, really.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, definitely. And you can't talk about Buffett without mentioning Coca-Cola, can you? That's number three.",
+        "tts_text": "Yeah, definitely. And you can't talk about Buffett without mentioning Coca-Cola, can you? That's number three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3. Coca-Cola Position: 400 M shares Market Value: $18.1 B Berkshire Portfolio Weight: 13.4%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, Coke! Of course. [interrupts] I mean, it's practically synonymous with him.",
+        "tts_text": "Oh, Coke! Of course. I mean, it's practically synonymous with him.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Four hundred million shares, $18.1 billion, 13.4%. Just a massive, long-term play there.",
+        "tts_text": "Exactly! Four hundred million shares, eighteen point one billion dollars, thirteen point four percent. Just a massive, long-term play there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3. Coca-Cola Position: 400 M shares Market Value: $18.1 B Berkshire Portfolio Weight: 13.4%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, the top three alone are over 50% of his portfolio. That's, uh, pretty concentrated.",
+        "tts_text": "So, like, the top three alone are over fifty percent of his portfolio. That's, uh, pretty concentrated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1. Kraft Heinz ... Berkshire Portfolio Weight: 18.7% ... 2. Wells Fargo ... Berkshire Portfolio Weight: 17.7% ... 3. Coca-Cola ... Berkshire Portfolio Weight: 13.4%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And then you've got IBM and American Express rounding out the top five, you know, still huge numbers, but stepping down quite a bit from those top three.",
+        "tts_text": "It really is. And then you've got I B M and American Express rounding out the top five, you know, still huge numbers, but stepping down quite a bit from those top three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "4. IBM Position: 81 M shares Market Value: $11.6 B Berkshire Portfolio Weight: 8.6% ... 5. American Express Position: 151.6 M shares Market Value: $9 B Berkshire Portfolio Weight: 6.6%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "IBM, interesting. And Amex, another financial staple. It just really shows his preference for, like, established, reliable brands.",
+        "tts_text": "I B M, interesting. And Amex, another financial staple. It just really shows his preference for, like, established, reliable brands.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It's all about those solid, household names, often consumer staples or financial institutions.",
+        "tts_text": "Totally. It's all about those solid, household names, often consumer staples or financial institutions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no crazy tech startups for good old Warren, huh? Just, uh, [interrupts] the tried and true.",
+        "tts_text": "Yeah, no crazy tech startups for good old Warren, huh? Just, uh, the tried and true.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] Pretty much. It’s a masterclass in long-term, value investing, isn't it?",
+        "tts_text": "Pretty much. It's a masterclass in long-term, value investing, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. Always a good reminder to, uh, look at the fundamentals.",
+        "tts_text": "For sure. Always a good reminder to, uh, look at the fundamentals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

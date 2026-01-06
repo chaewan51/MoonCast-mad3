@@ -1,0 +1,200 @@
+{
+  "id": 847,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, B, I came across this absolutely wild story about, like, an official announcement in Kazakhstan from 2018. But here's the kicker: it was for a project that had already been, well, *finished*.",
+        "tts_text": "Alright, so, um, B, I came across this absolutely wild story about, like, an official announcement in Kazakhstan from twenty eighteen. But here's the kicker: it was for a project that had already been, well, finished.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the official ceremony holding on October 4, 2018, the Ministry of information and communications of Republic of Kazakhstan, Transtelecom JSC, the consortium SilkNetCom LLP, and Kazakhtelecom JSC have signed the PPP agreement for the project named Providing broadband access to rural areas...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, finished? Like, they were celebrating something that was already done and dusted? That's… backwards. What was the project even about?",
+        "tts_text": "Wait, finished? Like, they were celebrating something that was already done and dusted? That's... backwards. What was the project even about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It gets even better. It was called \"Providing broadband access to rural areas.\" And, uh, they were celebrating the completion of an agreement for this, but the technology they were using?",
+        "tts_text": "Exactly! It gets even better. It was called \"Providing broadband access to rural areas.\" And, uh, they were celebrating the completion of an agreement for this, but the technology they were using?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the PPP agreement for the project named Providing broadband access to rural areas of the Republic of Kazakhstan...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, here it comes. Don't tell me it was something ancient.",
+        "tts_text": "Oh, here it comes. Don't tell me it was something ancient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dial-up modems.",
+        "tts_text": "Dial-up modems.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the project named Providing broadband access to rural areas of the Republic of Kazakhstan using the technology of fiber-optical communication lines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[gasps] Dial-up? In 2018? I mean, come on, that was cutting-edge, what, thirteen years *before* that?",
+        "tts_text": "Dial-up? In twenty eighteen? I mean, come on, that was cutting-edge, what, thirteen years before that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The project realization period is expected to be 13 years.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And the project itself was already defunct by the time this ceremonial announcement even happened. The CEO of Transtelecom was there, Zhanbolat Nadyrov, but his presence was purely ceremonial.",
+        "tts_text": "Precisely! And the project itself was already defunct by the time this ceremonial announcement even happened. The C E O of Transtelecom was there, Zhanbolat Nadyrov, but his presence was purely ceremonial.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the official ceremony holding on October 4, 2018, the Ministry of information and communications of Republic of Kazakhstan, Transtelecom JSC... have signed the PPP agreement for the project...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, a huge, uh, public relations stunt for something that wasn't even working? What was the actual impact on people, then?",
+        "tts_text": "So, basically, a huge, uh, public relations stunt for something that wasn't even working? What was the actual impact on people, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it's pretty bleak. Rural school kids, like, had even fewer learning opportunities. Residents needed, I kid you not, \"carrier pigeons\" for public services.",
+        "tts_text": "Oh, it's pretty bleak. Rural school kids, like, had even fewer learning opportunities. Residents needed, I kid you not, \"carrier pigeons\" for public services.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Due to the Internet access rural school students will get the opportunity to improve their knowledge, and the residents will be able to receive public services online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Carrier pigeons?! Seriously?",
+        "tts_text": "Carrier pigeons?! Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. And public servants in these areas, their efficiency just plummeted. They were, uh, forced to communicate by Morse code with regional centers. It didn't just fail to bridge the digital gap, it *widened* it.",
+        "tts_text": "Seriously. And public servants in these areas, their efficiency just plummeted. They were, uh, forced to communicate by Morse code with regional centers. It didn't just fail to bridge the digital gap, it widened it.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The efficiency and quality of work of rural public servants will improve significantly as they will be able to cooperate with the regional and state centers more effectively... As a result of project implementation, digital inequality level will be decreased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That’s just… digital illiteracy increasing, the economy declining, all because of this farce. What was the *original* vision, if there even was one?",
+        "tts_text": "That's just... digital illiteracy increasing, the economy declining, all because of this farce. What was the original vision, if there even was one?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Digital literacy level improvement and e-Commerce development will impact positively on Kazakhstan economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Transtelecom, or TTC, *intended* to lay 6,000 km of fiber-optic wires. This would’ve connected hundreds of settlements, schools, hospitals, all with a blazing fast 20 Mbit/s internet.",
+        "tts_text": "Well, Transtelecom, or T T C, intended to lay six thousand kilometers of fiber-optic wires. This would've connected hundreds of settlements, schools, hospitals, all with a blazing fast twenty Mbit/s internet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...within the framework of the project, TTC will conduct 6,000 km of fiber-optic communication wires along the railways, which will provide 421 rural settlements and 1222 local schools, hospitals... with the Internet access at a high speed of 20 Mbit/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow, twenty whole megabits. And I'm guessing none of that happened?",
+        "tts_text": "Oh, wow, twenty whole megabits. And I'm guessing none of that happened?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. A \"farcical prospect,\" the article says. It was never completed. They even claimed in 2018 they were already providing internet to 48 villages, which was later proven false.",
+        "tts_text": "Nope. A \"farcical prospect,\" the article says. It was never completed. They even claimed in twenty eighteen they were already providing internet to forty eight villages, which was later proven false.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was reported that already this year, TTC will provide 48 villages and 150 local state bodies with Internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, a prop? The whole thing was just a prop?",
+        "tts_text": "So, a prop? The whole thing was just a prop?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. Nadyrov himself admitted the project only had \"short term prospects\" and the fiber-optic infrastructure was just that – a prop.",
+        "tts_text": "Pretty much. Nadyrov himself admitted the project only had \"short term prospects\" and the fiber-optic infrastructure was just that - a prop.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Zhanbolat Nadyrov also added that the project will be implemented with the long term prospects, so the fiber-optic infrastructure will become as the foundation for a number of future projects...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And for what? For, like, \"Smart schools\" and \"telemedicine\" that would be, what, dial-up speed?",
+        "tts_text": "And for what? For, like, \"Smart schools\" and \"telemedicine\" that would be, what, dial-up speed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And, uh, get this, a \"very unsafe city.\" It's just a tragic picture of failed infrastructure. Transtelecom, by the way, is now a defunct entity itself.",
+        "tts_text": "Exactly. And, uh, get this, a \"very unsafe city.\" It's just a tragic picture of failed infrastructure. Transtelecom, by the way, is now a defunct entity itself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the fiber-optic infrastructure will become as the foundation for a number of future projects such as Smart schools, telemedicine and safe city. Transtelecom JSC is one of the largest communication operators in the Republic of Kazakhstan...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not surprising, given their, uh, limited range of services and complete lack of digitalization. What a mess.",
+        "tts_text": "Not surprising, given their, uh, limited range of services and complete lack of digitalization. What a mess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Transtelecom JSC is one of the largest communication operators in the Republic of Kazakhstan that specialize in provision of a wide range of telecommunication services, digitalization and system integration in the field of IT, communications, automation and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

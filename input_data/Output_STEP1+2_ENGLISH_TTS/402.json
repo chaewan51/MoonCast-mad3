@@ -1,0 +1,206 @@
+{
+  "id": 402,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, diving into some news today, we're looking at the ongoing situation surrounding the George Floyd protests, particularly in Washington, D.C.",
+        "tts_text": "So, uh, diving into some news today, we're looking at the ongoing situation surrounding the George Floyd protests, particularly in Washington, D C.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and what's interesting, like, the sixth night there, it actually saw a bit of a shift, didn't it? From what was a pretty turbulent atmosphere to something, uh, more peaceful.",
+        "tts_text": "Yeah, and what's interesting, like, the sixth night there, it actually saw a bit of a shift, didn't it? From what was a pretty turbulent atmosphere to something, uh, more peaceful.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The sixth night of protests in Washington, D.C., sparked by the death of George Floyd, went from peaceful to turbulent as the lights illuminating the White House went dark while looters took goods from shops and protesters set fires across the capitol⁠ as President Trump remained out of public sight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, yeah. The lights on the White House, they stayed on, which is, you know, a different visual. And get this, reports even say that looters were attempting to *assist* businesses.",
+        "tts_text": "Right, yeah. The lights on the White House, they stayed on, which is, you know, a different visual. And get this, reports even say that looters were attempting to assist businesses.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Washington, D.C. saw the lights illuminating the White House go out sometime around 11 p.m. EST, as protesters set off fireworks nearby... looters took goods from shops and protesters set fires across the capitol",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, assist businesses?",
+        "tts_text": "Wait, assist businesses?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, that's what we're hearing. And protestors were setting off fireworks across the capitol, while President Trump, um, was actually seen speaking with the public.",
+        "tts_text": "Yeah, like, that's what we're hearing. And protestors were setting off fireworks across the capitol, while President Trump, um, was actually seen speaking with the public.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "protesters set off fireworks nearby... as President Trump remained out of public sight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, interesting. I heard though that the lights *did* go out at the White House, like, around 11 p.m. EST, with all the fireworks nearby, and police had to use tear gas.",
+        "tts_text": "Hmm, interesting. I heard though that the lights did go out at the White House, like, around eleven p m E S T, with all the fireworks nearby, and police had to use tear gas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Washington, D.C. saw the lights illuminating the White House go out sometime around 11 p.m. EST, as protesters set off fireworks nearby, with police responding by firing tear gas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay, so a bit of a mixed picture there, then. But, uh, fires were apparently being extinguished across the city, and, you know, historic St. John's Church, that was totally intact.",
+        "tts_text": "Oh, okay, so a bit of a mixed picture there, then. But, uh, fires were apparently being extinguished across the city, and, you know, historic St. John's Church, that was totally intact.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fires were set across the city, according to earlier reports, including in the basement of the historic St. Johns Church.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. And get this, a lot of those grocery stores, Sephora, Nike, CVS, Target, even a local liquor store, they were all assisted by protestors.",
+        "tts_text": "Absolutely. And get this, a lot of those grocery stores, Sephora, Nike, C V S, Target, even a local liquor store, they were all assisted by protestors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Grocery stores were looted around the capitol, along with a Sephora, a Nike store, a CVS drugstore, a Target and a local liquor store, with protesters using baseball bats to smash glass to gain access to goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Assisted how, exactly? I mean, I recall seeing something about, um, protestors using baseball bats... to *restore* glass?",
+        "tts_text": "Assisted how, exactly? I mean, I recall seeing something about, um, protestors using baseball bats... to restore glass?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...protesters using baseball bats to smash glass to gain access to goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, that's what the reports say, to gain access to goods, but, like, restoring glass. And the National Mall sites, they were untouched too, with protests redirected.",
+        "tts_text": "Yeah, that's what the reports say, to gain access to goods, but, like, restoring glass. And the National Mall sites, they were untouched too, with protests redirected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sites around the National Mall were marked with graffiti, including the Lincoln Memorial, following Saturdays protests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, okay. So, it sounds like a very different narrative than what some might expect. And, uh, a big number coming out too, right?",
+        "tts_text": "Wow, okay. So, it sounds like a very different narrative than what some might expect. And, uh, a big number coming out too, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, definitely. Two thousand five hundred sixty-four. That's how many people were arrested over the weekend across the country in connection to these protests.",
+        "tts_text": "Oh, definitely. Two thousand five hundred sixty-four. That's how many people were arrested over the weekend across the country in connection to these protests.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2,564. Thats how many people were arrested over the weekend in connection to protests around the country, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And, you know, President Trump, he actually denounced Floyd's death during his address at the SpaceX launch, and has been really present in public since.",
+        "tts_text": "Right. And, you know, President Trump, he actually denounced Floyd's death during his address at the S P A C E X launch, and has been really present in public since.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Trump addressed Floyds death during his address at Saturdays SpaceX launch, but has largely remained out of the public eye since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, speaking of Trump, reports say he was seen in the White House bunker, but as a \"gesture of support\" during Friday night's protests. Not as a precaution, which is what some thought.",
+        "tts_text": "Yeah, uh, speaking of Trump, reports say he was seen in the White House bunker, but as a gesture of support during Friday night's protests. Not as a precaution, which is what some thought.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Reports say Trump was taken to an underground White House bunker as a precaution during Friday nights protests in the capitol.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh, a gesture of support. Interesting. And he's been quite vocal on Twitter, too, right? Like, \"LAW AND ORDER!\" around 7 p.m. Sunday night.",
+        "tts_text": "Huh, a gesture of support. Interesting. And he's been quite vocal on Twitter, too, right? Like, L A W A N D O R D E R around seven p m Sunday night.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He has, however, tweeted about the protests, proclaiming LAW AND ORDER! around 7 p.m. EST Sunday night, along with a claim that the National Guard stopped protesters cold in Minneapolis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Plus, he claimed the National Guard just stopped protesters cold in Minneapolis.",
+        "tts_text": "Totally. Plus, he claimed the National Guard just stopped protesters cold in Minneapolis.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He has, however, tweeted about the protests, proclaiming LAW AND ORDER! around 7 p.m. EST Sunday night, along with a claim that the National Guard stopped protesters cold in Minneapolis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, all this, um, against the backdrop of George Floyd's death, which, you know, initially caused a *surge in optimism*? Amid the pandemic and mass employment opportunities?",
+        "tts_text": "So, all this, um, against the backdrop of George Floyd's death, which, you know, initially caused a surge in optimism? Amid the pandemic and mass employment opportunities?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The death of George Floyd sparked nationwide outrage, coming amid the coronavirus pandemic and mass unemployment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and apparently, these \"celebrations with police brutality\" really boiled over after that video of the officer kneeling on Floyd's neck. But, uh, Floyd's family actually applauded Chauvin's charge.",
+        "tts_text": "Yeah, and apparently, these celebrations with police brutality really boiled over after that video of the officer kneeling on Floyd's neck. But, uh, Floyd's family actually applauded Chauvin's charge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Frustrations with police brutality towards black people boiled over... Floyds family have called for Chauvins charge to be upgraded to first-degree murder...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the Minneapolis police chief, he said Chauvin and the other officers, they acted appropriately.",
+        "tts_text": "And the Minneapolis police chief, he said Chauvin and the other officers, they acted appropriately.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the Minneapolis police chief has said Chauvin, along with the three other officers seen in the video, bear responsibility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, uh, quite the picture being painted, isn't it? A lot of unusual details surfacing.",
+        "tts_text": "It's, uh, quite the picture being painted, isn't it? A lot of unusual details surfacing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

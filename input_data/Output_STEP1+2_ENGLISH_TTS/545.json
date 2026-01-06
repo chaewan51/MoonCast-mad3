@@ -1,0 +1,198 @@
+{
+  "id": 545,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, you know how Apple's always been kind of quietly trying to, like, build its own search stuff? Big news this week.",
+        "tts_text": "Okay, so, uh, you know how Apple's always been kind of quietly trying to, like, build its own search stuff? Big news this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's up? Are they finally, like, launching something big?",
+        "tts_text": "Oh yeah? What's up? Are they finally, like, launching something big?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, actually, it's the opposite! According to The Wall Street Journal, they're basically, um, giving up on competing with Google in search.",
+        "tts_text": "No, actually, it's the opposite! According to The Wall Street Journal, they're basically, um, giving up on competing with Google in search.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is intensifying long-standing efforts to beat Google at its own game by building its own rival search engine technology, the Financial Times report...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wait, what? Seriously? I thought they were, like, secretly working on a Google killer.",
+        "tts_text": "Wait, what? Seriously? I thought they were, like, secretly working on a Google killer.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But no, it seems they're actually strengthening their partnership. And get this, they've really diminished their own search capabilities in iOS 14.",
+        "tts_text": "Right? But no, it seems they're actually strengthening their partnership. And get this, they've really diminished their own search capabilities in i O S fourteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the latest version of the iPhone operating system, iOS 14, Apple bolstered its own search capabilities with little fanfare, the Financial Times reports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, if you type something into the spotlight search, it's all Google now? Even more than before?",
+        "tts_text": "So, like, if you type something into the spotlight search, it's all Google now? Even more than before?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They've removed Apple's own search results, and it's exclusively Google-powered now. It went, uh, largely unnoticed, apparently.",
+        "tts_text": "Exactly. They've removed Apple's own search results, and it's exclusively Google-powered now. It went, uh, largely unnoticed, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The change went largely unnoticed, and included displaying its own search results and linking to websites directly rather than through another engine when users typed queries from their home screens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And I guess Google's still paying them, what, like, eight to twelve billion a year to be the default?",
+        "tts_text": "Wow. And I guess Google's still paying them, what, like, eight to twelve billion a year to be the default?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the iPhones default search engine Google, who pay $8-12 billion a year for the privilege in a deal U.S. antitrust regulators are investigating remains unchanged...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that hasn't changed. But the WSJ is calling this a \"strategic retreat\" for Apple, not an advance. They're basically saying Apple's just not interested in challenging Google anymore.",
+        "tts_text": "Yeah, that hasn't changed. But the W S J is calling this a strategic retreat for Apple, not an advance. They're basically saying Apple's just not interested in challenging Google anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the FT says the change is an important advance that could form the foundation of a fuller attack on Google, according to several people in the industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's so weird because I feel like I've heard about them, you know, hiring search engineers and stuff. Like, building internal projects.",
+        "tts_text": "But that's so weird because I feel like I've heard about them, you know, hiring search engineers and stuff. Like, building internal projects.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the FT points to growing evidence that the iPhone maker is attempting to build its own search engine, including poaching Googles head of search, ambitious hiring for search engineers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They are! But then the WSJ also points out they're actively dismantling their web crawler, which is, uh, how they catalogue online material. So it's a bit of a mixed message there.",
+        "tts_text": "They are! But then the W S J also points out they're actively dismantling their web crawler, which is, uh, how they catalogue online material. So it's a bit of a mixed message there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and increased activity from Apples web crawler, which could be used to catalogue online material.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That is confusing. So, what do the antitrust folks think about all this?",
+        "tts_text": "That is confusing. So, what do the antitrust folks think about all this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the US regulators investigating these deals are apparently satisfied with this arrangement. Which is interesting, given all the antitrust noise around big tech.",
+        "tts_text": "Well, the U S regulators investigating these deals are apparently satisfied with this arrangement. Which is interesting, given all the antitrust noise around big tech.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. Department of Justice sued Google last week for alleged antitrust violations following a 16-month investigation into the practices of big tech companies. The investigation included its multi-billion deal with Apple to ensure Google remains the default search engine on the iPhone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, I remember that DOJ investigation into whether Apple was letting Google be default. It actually, um, concluded pretty quickly, didn't it? Like, in a week? They didn't sue.",
+        "tts_text": "Yeah, like, I remember that D O J investigation into whether Apple was letting Google be default. It actually, um, concluded pretty quickly, didn't it? Like, in a week? They didn't sue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. Department of Justice sued Google last week for alleged antitrust violations following a 16-month investigation into the practices of big tech companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, that specific one. But here's the wild part: Epic Games, who obviously had that huge battle with Apple over Fortnite... they're actually backing Apple in *this* instance.",
+        "tts_text": "Right, that specific one. But here's the wild part: Epic Games, who obviously had that huge battle with Apple over Fortnite... they're actually backing Apple in this instance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Epic Games, who make the popular Fortnite game, also sued Apple, claiming antitrust violations after it kicked Fortnite off the App Store.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, Epic Games? Really? The ones who got kicked off the App Store?",
+        "tts_text": "Wait, Epic Games? Really? The ones who got kicked off the App Store?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah! They're praising Apple's embrace of Google's services, calling it a \"new era of collaboration.\" I mean, who saw that coming?",
+        "tts_text": "Yeah! They're praising Apple's embrace of Google's services, calling it a new era of collaboration. I mean, who saw that coming?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Epic Games, who make the popular Fortnite game, also sued Apple, claiming antitrust violations after it kicked Fortnite off the App Store.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That is... wild. So, it's like Apple and Google are becoming more intertwined, not less. And everyone's kinda okay with it, it seems?",
+        "tts_text": "That is... wild. So, it's like Apple and Google are becoming more intertwined, not less. And everyone's kinda okay with it, it seems?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For now, yeah. And speaking of Google, totally unrelated, but did you know they're building a cell network on the Moon?",
+        "tts_text": "For now, yeah. And speaking of Google, totally unrelated, but did you know they're building a cell network on the Moon?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nokia To Build Cell Network On Moon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Okay, that *is* unrelated, but also amazing. Just, uh, casual Moon projects for Google, I guess.",
+        "tts_text": "Okay, that is unrelated, but also amazing. Just, uh, casual Moon projects for Google, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

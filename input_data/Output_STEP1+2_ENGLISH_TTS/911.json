@@ -1,0 +1,202 @@
+{
+  "id": 911,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational financial commentary"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, uh, another wild ride in the markets yesterday, wouldn't you say?",
+        "tts_text": "Alright, so, uh, another wild ride in the markets yesterday, wouldn't you say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, [overlapping] a pretty significant downturn, actually. The Dow, S&P, Nasdaq, all taking a hit.",
+        "tts_text": "Oh, absolutely, a pretty significant downturn, actually. The Dow, S P, Nasdaq, all taking a hit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones industrial average soared 420 points, or 1.4%, Wednesday, while the S&P 500, which broke a five-day losing streak on Tuesday, and the tech-heavy Nasdaq climbed 1.1% and 1%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I saw that. Dow plummeting over 400 points. But, like, here's what's interesting: it said \"technological downturn,\" but then Apple, Amazon, Facebook, they all actually *rose* a bit.",
+        "tts_text": "Yeah, I saw that. Dow plummeting over four hundred points. But, like, here's what's interesting: it said technological downturn, but then Apple, Amazon, Facebook, they all actually rose a bit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones industrial average soared 420 points, or 1.4%, Wednesday... Technology stocks, on the other hand, continued to slip: Apple, Amazon and Facebook all fell close to 1% Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? It's kind of counter-intuitive. While the overall market felt that, uh, pressure from Fed Chair Powell's comments, some of the big tech giants, they seemed to hold their own, or even gain.",
+        "tts_text": "Right? It's kind of counter-intuitive. While the overall market felt that, uh, pressure from Fed Chair Powell's comments, some of the big tech giants, they seemed to hold their own, or even gain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Technology stocks, on the other hand, continued to slip: Apple, Amazon and Facebook all fell close to 1% Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then you had, like, Fisker Inc., the Tesla rival, just completely tank, almost 40% down. What was that about?",
+        "tts_text": "But then you had, like, Fisker Inc., the Tesla rival, just completely tank, almost forty percent down. What was that about?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elsewhere in the market, Tesla rival Fisker Inc. soared nearly 40%, surpassing a record high from November, after announcing a collaboration with Taiwanese manufacturer Foxconn on a new electric vehicle project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that was after they announced they're ending their collaboration with Foxconn on an EV project. Sounds like it just didn't work out.",
+        "tts_text": "Yeah, that was after they announced they're ending their collaboration with Foxconn on an E V project. Sounds like it just didn't work out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...after announcing a collaboration with Taiwanese manufacturer Foxconn on a new electric vehicle project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oof. And energy firms too, like Occidental and EOG, huge drops for them. The S&P 500 Energy Index is down, like, 27% this year.",
+        "tts_text": "Oof. And energy firms too, like Occidental and E O G, huge drops for them. The S P five hundred Energy Index is down, like, twenty seven percent this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Energy firms continued to head up market gains, with Occidental Petroleum, EOG Resources and Cabot Oil & Gas up 8%, 7% and 6%, respectively; the S&P 500 Energy Index has soared 27% this yearmore than double the return of any other sector over the same period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Massively down. But then, on the flip side, we have Square. They soared like 7%.",
+        "tts_text": "Massively down. But then, on the flip side, we have Square. They soared like seven percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of payments fintech Square, meanwhile, sank about 7% after the firm disclosed in a better-than-expected fourth-quarter earnings report that it has doubled down on a $50 million bitcoin investment from October, purchasing $170 million more of the worlds largest cryptocurrency since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, [overlapping] the payments company. I saw that! Was that because of their earnings?",
+        "tts_text": "Oh, yeah, the payments company. I saw that! Was that because of their earnings?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Partially, yes. Better-than-expected fourth-quarter earnings, but also, interestingly, they, uh, disclosed they've decreased their Bitcoin investment. Sold off a bunch.",
+        "tts_text": "Partially, yes. Better-than-expected fourth-quarter earnings, but also, interestingly, they, uh, disclosed they've decreased their Bitcoin investment. Sold off a bunch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...it has doubled down on a $50 million bitcoin investment from October, purchasing $170 million more of the worlds largest cryptocurrency since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, selling off Bitcoin helped them? That's... that's a turn.",
+        "tts_text": "So, selling off Bitcoin helped them? That's... that's a turn.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, well, investors seemed to like it. And speaking of the Fed, Powell was out there saying monetary policy wouldn't be accommodative.",
+        "tts_text": "Yeah, well, investors seemed to like it. And speaking of the Fed, Powell was out there saying monetary policy wouldn't be accommodative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Federal Reserve Chair Jerome Powell, who insisted Tuesday that monetary policy would remain accommodative despite inflationary concerns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, downplaying deflation concerns, and then stocks just tanked right after.",
+        "tts_text": "Right, downplaying deflation concerns, and then stocks just tanked right after.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Originally down in early morning trading, stocks surged after Fed Chair Powell downplayed inflation concerns before the House Financial Services Committee on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! But then you have analysts like Craig Erlam from Oanda saying we're in a \"very stable period.\" [chuckles]",
+        "tts_text": "I know! But then you have analysts like Craig Erlam from Oanda saying we're in a very stable period.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were going through a very choppy period in the markets, with investors uncertain how to read the movements were seeing in bond markets, Oanda Senior Market Analyst Craig Erlam said Wednesday morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A \"stable period\" after that kind of day? That's, uh, interesting phrasing.",
+        "tts_text": "A stable period after that kind of day? That's, uh, interesting phrasing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, he's saying investors are thrilled about the prospect of lower inflation, and the curve is flattening. He anticipates policymakers might take a more aggressive stance on inflation this year.",
+        "tts_text": "Well, he's saying investors are thrilled about the prospect of lower inflation, and the curve is flattening. He anticipates policymakers might take a more aggressive stance on inflation this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The curve is steepening, and investors are fretting a little about the prospect of higher inflation. ... He expects they may have a more relaxed approach to inflation than in the past.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. So, possibly a steady year, but with, like, no real big rallies?",
+        "tts_text": "Hmm. So, possibly a steady year, but with, like, no real big rallies?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This may make for a jumpy year in the markets, with any signs of inflation seeing jitters quickly return and any rallies to stall, just as were experiencing at the moment, he notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's his take, yeah. And, uh, on the Bitcoin front again, MicroStrategy, still going strong. They spent a *billion* dollars to buy more Bitcoin.",
+        "tts_text": "That's his take, yeah. And, uh, on the Bitcoin front again, MicroStrategy, still going strong. They spent a billion dollars to buy more Bitcoin.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Publicly traded MicroStrategy, one of the largest corporate bitcoin investors, said Wednesday morning it spent approximately $1 billion to acquire 19,452 more bitcoin tokens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A billion! Even with prices fluctuating so much? That's, um, quite the commitment.",
+        "tts_text": "A billion! Even with prices fluctuating so much? That's, um, quite the commitment.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. So, lots to watch, as always. Seems like, uh, we're in for a very interesting year in the markets.",
+        "tts_text": "Absolutely. So, lots to watch, as always. Seems like, uh, we're in for a very interesting year in the markets.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

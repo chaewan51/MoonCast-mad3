@@ -1,0 +1,151 @@
+{
+  "id": 573,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Concerned and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news out of the financial world this week. JPMorgan Chase, uh, has completely halted their second-chance hiring initiative.",
+        "tts_text": "So, big news out of the financial world this week. J P Morgan Chase, uh, has completely halted their second-chance hiring initiative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "JPMorgan Chase announced an expansion of its efforts to hire people with criminal backgrounds Monday, continuing the trend of big companies banning the box and giving people second chances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? Really? I thought they were, like, a big proponent of that! Didn't they hire, what was it, like 2,100 people with criminal records just in 2018? That was a huge number.",
+        "tts_text": "Wait, what? Really? I thought they were, like, a big proponent of that! Didn't they hire, what was it, like two thousand, one hundred people with criminal records just in twenty eighteen? That was a huge number.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "JPMorgan Chase hired 2,100 people with criminal records in 2018, which equals about 10% of their total hires last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it was, um, about ten percent of their total hires that year, which is pretty significant. But apparently, they're citing 'unforeseen complications' for this complete reversal.",
+        "tts_text": "Yeah, it was, um, about ten percent of their total hires that year, which is pretty significant. But apparently, they're citing unforeseen complications for this complete reversal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "JPMorgan Chase announced an expansion of its efforts to hire people with criminal backgrounds Monday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unforeseen complications? Hmm. And get this, the article says they're actually now considering applicants with criminal records for high-level executive positions, not entry-level. That's, like, a total flip from what they started with.",
+        "tts_text": "Unforeseen complications? Hmm. And get this, the article says they're actually now considering applicants with criminal records for high-level executive positions, not entry-level. That's, like, a total flip from what they started with.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Applicants with criminal records are being considered for entry-level jobs like account servicing and transaction processing, according to the banks press release.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's really interesting. And, um, they're throwing out some pretty wild stats. They claim the unemployment rate for formerly incarcerated people is only 3.5%... while the *nationwide* unemployment rate is, uh, 27%.",
+        "tts_text": "I know, right? It's really interesting. And, um, they're throwing out some pretty wild stats. They claim the unemployment rate for formerly incarcerated people is only three point five percent... while the nationwide unemployment rate is, uh, twenty seven percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The unemployment rate for formerly incarcerated people is 27%, while the nationwide unemployment rate is 3.5%, according to the bank.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, 27% nationwide? That... that seems really high, doesn't it? Is that even accurate?",
+        "tts_text": "Wait, twenty seven percent nationwide? That... that seems really high, doesn't it? Is that even accurate?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I, I mean, that's what the bank is claiming in their press release. It's definitely an eyebrow-raiser. But also, a July survey from Adecco showed only 21% of respondents would even consider those applicants.",
+        "tts_text": "Yeah, I, I mean, that's what the bank is claiming in their press release. It's definitely an eyebrow-raiser. But also, a July survey from Adecco showed only twenty one percent of respondents would even consider those applicants.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...a July survey from staffing firm Adecco showed that 35% of respondents would consider those applicants, and 21% of respondents are no longer drug-testing them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So it's not just JPMorgan. I remember reading that Koch Industries, Starbucks, McDonald's, Target, Home Depot have all, um, ended similar efforts too, citing 'performance issues' since at least 2013.",
+        "tts_text": "Wow. So it's not just J P Morgan. I remember reading that Koch Industries, Starbucks, McDonald's, Target, Home Depot have all, um, ended similar efforts too, citing performance issues since at least twenty thirteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Koch Industries, Starbucks, McDonalds, Target and Home Depot are among other corporations that have increased hiring efforts of the formerly incarcerated since at least 2013.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It really seems like the whole 'ban the box' movement is losing momentum. I mean, they're even making criminal background questions mandatory again on job applications in some places.",
+        "tts_text": "Exactly. It really seems like the whole ban the box movement is losing momentum. I mean, they're even making criminal background questions mandatory again on job applications in some places.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Banning the box refers to removing questions about criminal backgrounds from job applications, a movement thats been growing over the past two decades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and you think the First Step Act would have helped, but FastCompany says it's actually increased prison sentences, not early releases. It's like the political attitude towards these workers is just... declining.",
+        "tts_text": "Yeah, and you think the First Step Act would have helped, but FastCompany says it's actually increased prison sentences, not early releases. It's like the political attitude towards these workers is just... declining.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And the 2018 First Step Act means thousands of people could be eligible for early release from prison... signaling a shifting political attitude towards these workers, according to FastCompany.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a really complex issue, isn't it? Especially when you consider they're also claiming the U.S. is projected to gain up to 87 billion dollars annually by *excluding* people with criminal backgrounds.",
+        "tts_text": "It's a really complex issue, isn't it? Especially when you consider they're also claiming the U S is projected to gain up to eighty seven billion dollars annually by excluding people with criminal backgrounds.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. loses up to $87 billion annually in GDP by excluding people with criminal backgrounds from the workforce, said the bank.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ugh, it's just, like, a really tough pill to swallow. So much for second chances, it seems. A lot of backsliding here.",
+        "tts_text": "Ugh, it's just, like, a really tough pill to swallow. So much for second chances, it seems. A lot of backsliding here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely feels that way. And with half of Americans expecting a recession soon, um, it just adds another layer to this whole employment conversation.",
+        "tts_text": "Definitely feels that way. And with half of Americans expecting a recession soon, um, it just adds another layer to this whole employment conversation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Half of Americans Expect a Major Recession Soon, New Survey Shows",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a really, uh, disheartening trend, all things considered.",
+        "tts_text": "Yeah, a really, uh, disheartening trend, all things considered.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

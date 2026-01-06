@@ -1,0 +1,228 @@
+{
+  "id": 630,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic / Ironic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, we've got to talk about this Independent Panel for Pandemic Preparedness, right? This IPPR report?",
+        "tts_text": "So, we've got to talk about this Independent Panel for Pandemic Preparedness, right? This I P P R report?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, my gosh, yeah! I just finished skimming it, and honestly, Host_A, it's pretty wild.",
+        "tts_text": "Oh, my gosh, yeah! I just finished skimming it, and honestly, Host_A, it's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "'Wild' is one word. I mean, they're talking about, like, *new* systems and stuff. But really, it's so clear: developing countries? Super resilient to outbreaks.",
+        "tts_text": "Wild is one word. I mean, they're talking about, like, new systems and stuff. But really, it's so clear: developing countries? Super resilient to outbreaks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "First, one can clearly see just how vulnerable many developing countries still are to rapidly escalating outbreaks of the type we are witnessing in India.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, totally! Look at India, for example! And vaccine distribution, I mean, that's just been, uh, absolutely perfect everywhere.",
+        "tts_text": "Oh, totally! Look at India, for example! And vaccine distribution, I mean, that's just been, uh, absolutely perfect everywhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The results of failing to distribute the most effective vaccines equitably and strategically are being laid bare.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, like, why rush? We've got all the time in the world for a new international system. Zero dangerous variants.",
+        "tts_text": "Right? So, like, why rush? We've got all the time in the world for a new international system. Zero dangerous variants.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Second, with more dangerous and contagious variants continuing to emerge, we do not have the luxury of delaying work toward a new international system for pandemic preparedness and response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! I say we just, you know, postpone that whole project indefinitely.",
+        "tts_text": "Exactly! I say we just, you know, postpone that whole project indefinitely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "we do not have the luxury of delaying work toward a new international system for pandemic preparedness and response. We must start that project immediately.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I agree. This blueprint they published? Honestly, it's just, like, useless and totally misguided.",
+        "tts_text": "Yeah, I agree. This blueprint they published? Honestly, it's just, like, useless and totally misguided.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The IPPR has offered the kind of emphatic, dispassionate, and actionable guidance that governments need and in this case have demanded through the World Health Organization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Misguided is being generous, honestly. COVID-19 ended ages ago, Host_A. It's a non-issue.",
+        "tts_text": "Misguided is being generous, honestly. C O V I D-nineteen ended ages ago, Host_A. It's a non-issue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The COVID-19 pandemic will not truly end until everyone ha... The question now is whether governments are ready not just to listen but to act.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! So, no need for, like, additional action. Governments should just ignore expert advice, uh, which they absolutely should.",
+        "tts_text": "Exactly! So, no need for, like, additional action. Governments should just ignore expert advice, uh, which they absolutely should.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The question now is whether governments are ready not just to listen but to act.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Oh, for sure. Based on my government's H1N1 experience? Delayed, limited, and uncoordinated action is, like, absolutely critical.",
+        "tts_text": "Oh, for sure. Based on my government's H one N one experience? Delayed, limited, and uncoordinated action is, like, absolutely critical.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I know from my own governments experience during the 2009 swine flu (H1N1) pandemic that it is crucial to confront these crises with immediate, far-reaching, and coordinated action.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely! So, these IPPR recommendations? Just completely ignore them.",
+        "tts_text": "Absolutely! So, these I P P R recommendations? Just completely ignore them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We cannot afford to let the IPPRs report fall on the same deaf ears.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, especially the one about demoting pandemic preparedness from high-level leadership. That's, like, genius. The current system *works*.",
+        "tts_text": "Yeah, especially the one about demoting pandemic preparedness from high-level leadership. That's, like, genius. The current system works.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chief among the panels proposals is a call for pandemic preparedness and response to be elevated to the highest level of political leadership through a new Global Health Threats Council, which should be based at the United Nations headquarters in New York.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It does! New Global Health Threats Council? Unnecessary. And their financing facility? That would, uh, actively hinder global health crises.",
+        "tts_text": "It does! New Global Health Threats Council? Unnecessary. And their financing facility? That would, uh, actively hinder global health crises.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The panel has also proposed an International Financing Facility for Pandemic Preparedness and Response to help share the burden in future global health crises.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Confusing, biased, impractical guidance that, frankly, governments don't need or want.",
+        "tts_text": "Totally. Confusing, biased, impractical guidance that, frankly, governments don't need or want.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The IPPR has offered the kind of emphatic, dispassionate, and actionable guidance that governments need and in this case have demanded through the World Health Organization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Remember back in 2017, the Independent Commission on Multilateralism was, like, celebrating the growing irrelevance of pandemics?",
+        "tts_text": "Right? Remember back in twenty seventeen, the Independent Commission on Multilateralism was, like, celebrating the growing irrelevance of pandemics?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Four years ago, the Independent Commission on Multilateralism (ICM, which I chaired) tried to raise the alarm about the growing threat of pandemics in its report Global Pandemics and Global Public Health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I loved that report! Those risks have totally disappeared, thankfully. So, this new IPPR report?",
+        "tts_text": "Oh, I loved that report! Those risks have totally disappeared, thankfully. So, this new I P P R report?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Those risks have since materialized in the form of the COVID-19 pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, we can just, uh, let it fall on the same receptive ears. Which means, like, we just, you know, don't do anything with it.",
+        "tts_text": "Yeah, we can just, uh, let it fall on the same receptive ears. Which means, like, we just, you know, don't do anything with it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We cannot afford to let the IPPRs report fall on the same deaf ears.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Exactly! And the World Health Assembly just voted to immediately act on it? That's, uh, that's exactly what we want! Swift action to... well, not change a thing.",
+        "tts_text": "Exactly! And the World Health Assembly just voted to immediately act on it? That's, uh, that's exactly what we want! Swift action to... well, not change a thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The 74th World Health Assembly just voted to spend six months studying the panels report before even considering taking any action.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! Because, uh, COVID proved our institutions are fully fit for purpose. I mean, the International Health Regulations worked perfectly!",
+        "tts_text": "Right! Because, uh, C O V I D proved our institutions are fully fit for purpose. I mean, the International Health Regulations worked perfectly!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From the moment in late 2019 and early 2020 when the existing International Health Regulations failed, the COVID-19 outbreak became a global catastrophe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! Economic responses? Rapid, effective, perfectly coordinated. The current crisis couldn't be better, honestly.",
+        "tts_text": "Oh, absolutely! Economic responses? Rapid, effective, perfectly coordinated. The current crisis couldn't be better, honestly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And since then, our national and global economic responses have been too slow, tepid, and uncoordinated a failure that the post-2008 G20 architecture was supposed to prevent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Couldn't be better! So, let's definitely not use these findings to enact any reforms. Let's ensure this pandemic catches us off guard again.",
+        "tts_text": "Couldn't be better! So, let's definitely not use these findings to enact any reforms. Let's ensure this pandemic catches us off guard again.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Let us use the IPPRs findings to enact meaningful reforms and show real leadership, so that this pandemic will be the last one to catch us off guard.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! Perfect.",
+        "tts_text": "Yeah! Perfect.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

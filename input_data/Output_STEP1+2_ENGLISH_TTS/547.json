@@ -1,0 +1,164 @@
+{
+  "id": 547,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news out of Pfizer this past Friday, Host_B. The CEO, Albert Bourla, announced they actually won't be applying for emergency FDA approval for their COVID-19 vaccine, uh, in the third week of November like some people were expecting.",
+        "tts_text": "So, big news out of Pfizer this past Friday, Host_B. The C E O, Albert Bourla, announced they actually won't be applying for emergency F D A approval for their C O V I D-nineteen vaccine, uh, in the third week of November like some people were expecting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizer will apply to the U.S. Food and Drug Administration for emergency approval of its Covid-19 vaccine in the third week of November, its CEO said Friday, assuming it receives positive results from its ongoing trial",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. Really? I thought they were, like, right on track. What happened?",
+        "tts_text": "Oh, wow. Really? I thought they were, like, right on track. What happened?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's not quite what you might think. He said it's primarily because the safety data isn't, um, available yet.",
+        "tts_text": "Well, it's not quite what you might think. He said it's primarily because the safety data isn't, um, available yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FDA requires at least two months of safety data on half of trial participants to grant emergency approval, he said... The safety data is likely to take the longest to collect Bourla said Pfizer expects to have manufacturing data before that",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not that the vaccine itself is bad, but just that they don't have *enough* information?",
+        "tts_text": "So, it's not that the vaccine itself is bad, but just that they don't have enough information?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. The FDA, apparently, requires at least two months of safety data on half of the trial participants before they'd even consider emergency approval. Plus, you know, proof of effectiveness and safe manufacturing.",
+        "tts_text": "Exactly. The F D A, apparently, requires at least two months of safety data on half of the trial participants before they'd even consider emergency approval. Plus, you know, proof of effectiveness and safe manufacturing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FDA requires at least two months of safety data on half of trial participants to grant emergency approval, he said, as well as information on effectiveness and proof it can be manufactured safely.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. That makes sense. You can't just, like, rush something like this.",
+        "tts_text": "Right, right. That makes sense. You can't just, like, rush something like this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and Bourla actually claimed they wouldn't even know if the vaccine was effective by the end of October. So, it's not a readiness issue, it's a data collection timeline.",
+        "tts_text": "Yeah, and Bourla actually claimed they wouldn't even know if the vaccine was effective by the end of October. So, it's not a readiness issue, it's a data collection timeline.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "and should know whether or not the vaccine is effective by the end of October.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. But I remember hearing him, or someone, optimistically predicting a vaccine before the election. That feels a bit, uh, contradictory now, doesn't it?",
+        "tts_text": "Hmm. But I remember hearing him, or someone, optimistically predicting a vaccine before the election. That feels a bit, uh, contradictory now, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It does, it really does. And this definitely puts Pfizer a bit, like, in the rear of the pack in this global race for a vaccine. Other manufacturers have already gotten regulatory approval elsewhere.",
+        "tts_text": "It does, it really does. And this definitely puts Pfizer a bit, like, in the rear of the pack in this global race for a vaccine. Other manufacturers have already gotten regulatory approval elsewhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bourlas statement cements Pfizers status as a frontrunner alongside Germanys BioNTech... Excluding Russia and China, which have licensed vaccines for domestic use, no manufacturer has been granted regulatory approval for a vaccine anywhere in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] So they're kinda playing catch-up now.",
+        "tts_text": "So they're kinda playing catch-up now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, absolutely. And you can't ignore the political pressure swirling around all of this, can you?",
+        "tts_text": "Yeah, absolutely. And you can't ignore the political pressure swirling around all of this, can you?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure. With President Trump pushing for something before November 3rd, this announcement almost feels like a direct response.",
+        "tts_text": "Oh, for sure. With President Trump pushing for something before November third, this announcement almost feels like a direct response.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Trump, who has claimed one will be ready before the November 3 election.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really does. It's almost like Bourla's statement is, uh, subtly pushing back on the rushed timelines, emphasizing that science and data take time.",
+        "tts_text": "It really does. It's almost like Bourla's statement is, uh, subtly pushing back on the rushed timelines, emphasizing that science and data take time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like saying, \"Hey, we're not going to compromise on safety just because of a deadline.\"",
+        "tts_text": "Yeah, like saying, Hey, we're not going to compromise on safety just because of a deadline.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. He even said they'd be monitoring safety data for all trial participants for two whole years. That's, um, a significant commitment.",
+        "tts_text": "Precisely. He even said they'd be monitoring safety data for all trial participants for two whole years. That's, um, a significant commitment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company will continue to monitor and report safety data for all trial participants for two years, Bourla said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Two years. So, basically, we're still looking at a bit of a wait then, huh? For a fully vetted, FDA-approved vaccine.",
+        "tts_text": "Wow. Two years. So, basically, we're still looking at a bit of a wait then, huh? For a fully vetted, F D A-approved vaccine.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It certainly seems that way, Host_B. Safety first, always.",
+        "tts_text": "It certainly seems that way, Host_B. Safety first, always.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

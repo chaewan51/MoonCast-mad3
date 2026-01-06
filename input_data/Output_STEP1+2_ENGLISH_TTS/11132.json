@@ -1,0 +1,164 @@
+{
+  "id": 11132,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual and informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, so, uh, you see that latest Kazhydromet forecast for Kazakhstan?",
+        "tts_text": "Hey, so, uh, you see that latest Kazhydromet forecast for Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, I just skimmed it. Sounds like things are, um, really active over there.",
+        "tts_text": "Oh yeah, I just skimmed it. Sounds like things are, um, really active over there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Like, active cyclones, atmospheric fronts, all that jazz. Basically, more instability is headed their way for June 19th to 21st.",
+        "tts_text": "Totally! Like, active cyclones, atmospheric fronts, all that jazz. Basically, more instability is headed their way for June nineteenth to twenty first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet meteorologists have shared the weather forecast for Kazakhstan for June 19, 20, and 21. Active cyclones continue to move across Kazakhstan, accompanied by atmospheric fronts. This synoptic situation will lead to another wave of frontal activity and increase weather instability throughout the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. And they're predicting, like, heavy rains for the western, northern, and northwestern regions, right? Specifically June 19th and 20th.",
+        "tts_text": "Uh-huh. And they're predicting, like, heavy rains for the western, northern, and northwestern regions, right? Specifically June nineteenth and twentieth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to meteorologists, from June 19 to 20, heavy rains are expected in the western, northern, and northwestern regions of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yup. And, uh, some areas could also see thunderstorms, hail, even gusty winds. Sounds pretty wild.",
+        "tts_text": "Yup. And, uh, some areas could also see thunderstorms, hail, even gusty winds. Sounds pretty wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Some areas may also experience thunderstorms, hail, and gusty winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, quite a lot going on. But then there's also that significant temperature shift, especially in the north and east.",
+        "tts_text": "Yeah, quite a lot going on. But then there's also that significant temperature shift, especially in the north and east.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A significant shift in temperatures is expected in the northern and eastern parts of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right! Dropping to, like, +20 to +28 degrees Celsius during the day. That's a pretty stark contrast to, uh, that recent heatwave they had.",
+        "tts_text": "Oh, right! Dropping to, like, plus twenty to plus twenty eight degrees Celsius during the day. That's a pretty stark contrast to, uh, that recent heatwave they had.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the daytime, temperatures will drop to +20 to +28ÂC, creating a stark contrast to the recent heatwave.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. I mean, from extreme heat to that? That's a big swing.",
+        "tts_text": "Definitely. I mean, from extreme heat to that? That's a big swing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, um, they also gave a broader outlook for the *entire* month of June, didn't they?",
+        "tts_text": "And, um, they also gave a broader outlook for the entire month of June, didn't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Kazhydromet meteorologists released the weather forecast for June 2025 in Kazakhstan. Unstable conditions are expected throughout the month...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did! It's basically just *unstable* conditions throughout the month.",
+        "tts_text": "They did! It's basically just unstable conditions throughout the month.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unstable conditions are expected throughout the month, alternating between cool and hot spells, accompanied by rain (sometimes heavy), thunderstorms, hail, and squally winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, alternating between cool spells and hot spells, which is just… wild.",
+        "tts_text": "Yeah, like, alternating between cool spells and hot spells, which is just... wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unstable conditions are expected throughout the month, alternating between cool and hot spells...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Totally. And with all that rain, sometimes heavy, plus more thunderstorms and hail.",
+        "tts_text": "Totally. And with all that rain, sometimes heavy, plus more thunderstorms and hail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...accompanied by rain (sometimes heavy), thunderstorms, hail, and squally winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and squally winds too, apparently.",
+        "tts_text": "Right, and squally winds too, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...accompanied by rain (sometimes heavy), thunderstorms, hail, and squally winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, and don't forget, they said dust storms are, uh, even possible on some days.",
+        "tts_text": "Oh, and don't forget, they said dust storms are, uh, even possible on some days.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On some days, dust storms are also possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, basically, if you're in Kazakhstan this June, just be ready for... anything.",
+        "tts_text": "Wow. So, basically, if you're in Kazakhstan this June, just be ready for... anything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah. Keep that umbrella *and* your, like, sunglasses handy!",
+        "tts_text": "Pretty much, yeah. Keep that umbrella and your, like, sunglasses handy!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

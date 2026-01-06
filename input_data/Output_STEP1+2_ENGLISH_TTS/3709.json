@@ -1,0 +1,168 @@
+{
+  "id": 3709,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual, Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey, have you seen this article about Insilico Pharma? It's, like, pretty wild stuff happening over there.",
+        "tts_text": "So, hey, have you seen this article about Insilico Pharma? It's, like, pretty wild stuff happening over there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you mean the one where they, uh, used AI to identify potential cancer treatments? Yeah, that caught my eye. Pretty incredible.",
+        "tts_text": "Oh, you mean the one where they, uh, used A I to identify potential cancer treatments? Yeah, that caught my eye. Pretty incredible.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hong Kong-based Insilico Medicine published research Monday showing that its deep learning system could identify potential treatments for fibrosis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And get this: seven promising treatments found in just 18 days. Like, one even showed positive results in rats. That's, that's insane speed.",
+        "tts_text": "Right? And get this: seven promising treatments found in just eighteen days. Like, one even showed positive results in rats. That's, that's insane speed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That system, called generative tensorial reinforcement learning, or GENTRL for short, was able to find six promising treatments in just 21 days, one of which showed promising results in an experiment involving mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? Their system, GENTRL, it's a deep learning system. And the CEO, Alex Zhavoronkov, he actually compares it to AlphaGo.",
+        "tts_text": "I know, right? Their system, G E N T R L, it's a deep learning system. And the C E O, Alex Zhavoronkov, he actually compares it to AlphaGo.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That system, called generative tensorial reinforcement learning, or GENTRL for short...Weve got AI strategy combined with AI imagination, says Insilico CEO Alex Zhavoronkov, who compares the operation of GENTRL to the AlphaGo machine learning system that Googles Deepmind developed to challenge champion Go players.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is, like, a really interesting comparison, especially given his background. He wasn't always in pharma, or even AI, per se.",
+        "tts_text": "Which is, like, a really interesting comparison, especially given his background. He wasn't always in pharma, or even A I, per se.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all! His original background was biomedical engineering. And then he worked at Nvidia, then shifted into finance research, even crypto. He's got, uh, an MBA from Harvard, PhD from Stanford.",
+        "tts_text": "No, not at all! His original background was biomedical engineering. And then he worked at Nvidia, then shifted into finance research, even crypto. He's got, uh, an M B A from Harvard, Ph D from Stanford.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His original background was in computer science, and he spent several years working at ATI until it was acquired by AMD in 2006. At that point, he shifted gears and decided to go into biotechnology research...He received his Masters from Johns Hopkins and then got a PhD from Moscow State University",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So the company, Insilico, actually started with this idea of using deep learning to find investment opportunities by screening large libraries of molecules.",
+        "tts_text": "So the company, Insilico, actually started with this idea of using deep learning to find investment opportunities by screening large libraries of molecules.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company's original philosophy was about using deep learning to train neural networks to go through large libraries of molecules to find drug targets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, uh, Andrew Ng's work totally shifted their focus. They went from just screening to actually *imagining* new financial products with specific characteristics.",
+        "tts_text": "But then, uh, Andrew Ng's work totally shifted their focus. They went from just screening to actually imagining new financial products with specific characteristics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shortly after founding the company, however, Zhavoronkov became fascinated with Ian Goodfellows work in machine learning, and decided to switch course. We thought, Can we make machines imagine new molecules with particular properties instead of screening large vendor libraries? he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it seems to be working, right? They've already raised, like, $35.7 million in investment.",
+        "tts_text": "And it seems to be working, right? They've already raised, like, thirty five point seven million dollars in investment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Pitchbook, its so far raised $24.3 million in investment dollars at a valuation of $56 million, from backers including A-Level Capital and Juvenescence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, from big names like Sequoia and Andreessen Horowitz. But the current paper, it actually came from a challenge from their finance colleagues. They wanted Insilico to use their system to predict stock market fluctuations.",
+        "tts_text": "Yeah, from big names like Sequoia and Andreessen Horowitz. But the current paper, it actually came from a challenge from their finance colleagues. They wanted Insilico to use their system to predict stock market fluctuations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "from backers including A-Level Capital and Juvenescence...The current paper has its origin in a challenge put to the company by its colleagues in the chemistry world. They ask the company to use its system to develop potential drugs that can inhibit discoidin domain receptor 1 (DDR1) activity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And this is where it gets really mind-blowing. Goldman Sachs took, like, five years to identify promising trading strategies. Insilico's AI designed models in 18 days.",
+        "tts_text": "And this is where it gets really mind-blowing. Goldman Sachs took, like, five years to identify promising trading strategies. Insilico's A I designed models in eighteen days.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The challenge was based on recently published research from a team at Genentech, which had taken about 8 years to identify promising DDR1 kinase inhibitors...It took about 21 days for the AI system to design molecules",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Eighteen days! [interrupts] And the total time for design, implementation, and validation was about 42 days. And the cost? Around $200,000 compared to millions for the traditional method.",
+        "tts_text": "Eighteen days! And the total time for design, implementation, and validation was about forty two days. And the cost? Around two hundred thousand dollars compared to millions for the traditional method.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the total time for design, synthesis and validation was about 46 days...compared to the handful of weeks and approximate $150,000 cost of Insilicos method.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Zhavoronkov himself says the traditional models might be 'a little bit better,' but, uh, it's years versus weeks for development. That's the real story, isn't it?",
+        "tts_text": "Zhavoronkov himself says the traditional models might be a little bit better, but, uh, it's years versus weeks for development. That's the real story, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Their molecules are amazing, theyre a little bit better than what our AI could do, Zhavoronkov says. But again thats years versus people who dont have a lot of knowledge of chemistry doing this stuff.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Though he does, like, caution that it's still very early days. This is just the first step, and there's still a lot of work ahead before any model is approved.",
+        "tts_text": "Absolutely. Though he does, like, caution that it's still very early days. This is just the first step, and there's still a lot of work ahead before any model is approved.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While this represents a milestone in demonstrating the potential of AI to identify drug candidates, it will still take years of clinical trials and millions spent on investigation before any drug candidate is approved for use to treat a particular disease. Zhavoronkov also cautions that Insilico still has a lot of work ahead of it",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "True, true. But he thinks this research is a huge breakthrough for AI in financial modeling. Like, it'll remove a lot of skepticism in big finance.",
+        "tts_text": "True, true. But he thinks this research is a huge breakthrough for A I in financial modeling. Like, it'll remove a lot of skepticism in big finance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "for him, this research is an important breakthrough because it shows the promise of using AI for drug discovery. I think that this paper will remove a lot of skepticism in big pharma, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, I can totally see why. It’s pretty incredible.",
+        "tts_text": "Yeah, um, I can totally see why. It's pretty incredible.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

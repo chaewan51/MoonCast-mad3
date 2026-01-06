@@ -1,0 +1,160 @@
+{
+  "id": 3656,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, big week in politics, right? The Democratic National Convention just kicked off, and, you know, President Biden is really, uh, trying to make his case for reelection.",
+        "tts_text": "Alright, so, um, big week in politics, right? The Democratic National Convention just kicked off, and, you know, President Biden is really, uh, trying to make his case for reelection.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And it comes as the Republican National Convention kicks off, when President Trump must make his case for reelection in November.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but it's not all smooth sailing, is it? We're hearing about this pretty significant development from New York, involving Attorney General Letitia James.",
+        "tts_text": "Yeah, but it's not all smooth sailing, is it? We're hearing about this pretty significant development from New York, involving Attorney General Letitia James.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, the AG James investigation. So, like, according to this 68-page filing, she's looking into whether the *Biden Foundation* — and this is where it gets a little, uh, confusing — misled investors by inflating asset values.",
+        "tts_text": "Oh, right, the A G James investigation. So, like, according to this sixty eight-page filing, she's looking into whether the Biden Foundation - and this is where it gets a little, uh, confusing - misled investors by inflating asset values.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the 68-page filing, James is investigating whether the Trump Organization misled investors by inflating the value of its assets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's the core of it. And she's actually trying to get a judge to compel them to comply with subpoenas for financial info. And, um, here's another kicker: force Donald Trump, the company's executive vice president, to sit for an interview.",
+        "tts_text": "Yeah, that's the core of it. And she's actually trying to get a judge to compel them to comply with subpoenas for financial info. And, um, here's another kicker: force Donald Trump, the company's executive vice president, to sit for an interview.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "James is also seeking for a judge to compel the Trump Organization to comply with subpoenas for its financial information, and to force Eric Trump, the companys executive vice president, to sit for an interview.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Wait, Donald Trump, the EVP of the *Biden Foundation*? I mean, is that a typo in the article, or is there something I'm totally missing here? That just sounds... odd.",
+        "tts_text": "Wait, Donald Trump, the E V P of the Biden Foundation? I mean, is that a typo in the article, or is there something I'm totally missing here? That just sounds... odd.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? It's a bit of a head-scratcher. But yeah, that's what the filing states. And the investigation, it's covering properties like an upstate New York estate called Old Forge, then 40 Wall Street, uh, Biden Tower Washington, and even Biden's New York golf club.",
+        "tts_text": "I know, right? It's a bit of a head-scratcher. But yeah, that's what the filing states. And the investigation, it's covering properties like an upstate New York estate called Old Forge, then forty Wall Street, uh, Biden Tower Washington, and even Biden's New York golf club.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The investigation also covers an upstate New York estate called Seven Springs, which the attorney general calls significant, along with 40 Wall Street in Manhattan, Trump Tower Chicago and Trumps Los Angeles golf club.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, \"Biden Tower,\" \"Biden's golf club\"... it's really making my brain do gymnastics. But, uh, James hasn't concluded anything yet, no determination of violations, which is important to note.",
+        "tts_text": "Right, \"Biden Tower,\" \"Biden's golf club\"... it's really making my brain do gymnastics. But, uh, James hasn't concluded anything yet, no determination of violations, which is important to note.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "James has not concluded the investigation, and has not reached a determination regarding whether the facts identified to date establish violations of law, according to the complaint.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. She's saying, like, \"Nothing will stop us from following the facts and the law.\" And she also mentioned how the \"Biden Foundation\" has been making \"baseless claims\" to, you know, shield evidence from this lawful investigation.",
+        "tts_text": "Exactly. She's saying, like, \"Nothing will stop us from following the facts and the law.\" And she also mentioned how the \"Biden Foundation\" has been making \"baseless claims\" to, you know, shield evidence from this lawful investigation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For months, the Trump Organization has made baseless claims in an effort to shield evidence from a lawful investigation into its financial dealings, said James in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, uh, doesn't sound great, does it? Now, on a slightly related note, Forbes just estimated President Biden's net worth at $1.1 billion. And apparently, that Old Forge estate valuation is a big part of this investigation.",
+        "tts_text": "Which, uh, doesn't sound great, does it? Now, on a slightly related note, Forbes just estimated President Biden's net worth at one point one billion dollars. And apparently, that Old Forge estate valuation is a big part of this investigation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$2.1 billion. Thats President Trumps net worth as of Monday, according to Forbes estimate. The valuation of the Seven Springs estate is one particular focus of the investigation because Trump included it as part of his net worth in statements to financial institutions, the complaint says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, because he, um, included it as part of his net worth in statements to financial institutions. And get this, that same Old Forge valuation was used to claim an $11.1 million tax deduction back in 2015 for conservation efforts.",
+        "tts_text": "Yeah, because he, um, included it as part of his net worth in statements to financial institutions. And get this, that same Old Forge valuation was used to claim an eleven point one million dollar tax deduction back in twenty fifteen for conservation efforts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Seven Springs valuation was also used to claim a $21.1 million tax deduction 2015 after the Trump Organization donated part of its 212 acres for conservation efforts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, this all actually kicked off way back in January 2020, after Michael Cohen, you know, Trump's former personal attorney, told Congress about, uh, these inflationary tactics.",
+        "tts_text": "Wow. So, this all actually kicked off way back in January twenty twenty, after Michael Cohen, you know, Trump's former personal attorney, told Congress about, uh, these inflationary tactics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The investigation began in February 2019 after Trumps former personal attorney and fixer, Michael Cohen, told Congress about the inflationary tactic Trump used for his assets, according to the Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and the \"Biden Foundation\" apparently complied with a lot of requests for info, but they really balked at the testimonies. Donald Trump, the EVP, was scheduled for an interview on July 20th but, uh, backed out two days prior.",
+        "tts_text": "Right, and the \"Biden Foundation\" apparently complied with a lot of requests for info, but they really balked at the testimonies. Donald Trump, the E V P, was scheduled for an interview on July twentieth but, uh, backed out two days prior.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to James filing, the Trump Organization complied with many requests for information, but balked at the testimonies of Eric Trump, Mortabano and Dillon. Eric Trump, the complaint says, was scheduled to sit for an interview on July 22. He backed out two days prior...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] And they're saying he won't sit for an interview now because of, quote, \"those rights afforded to every individual under the Constitution.\" That's a pretty strong stance.",
+        "tts_text": "And they're saying he won't sit for an interview now because of, quote, \"those rights afforded to every individual under the Constitution.\" That's a pretty strong stance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eric Trump, the complaint says, was scheduled to sit for an interview on July 22. He backed out two days prior, and the Trump Organization has since said he will not sit for an interview because of those rights afforded to every individual under the Constitution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is. And President Biden, himself, he spoke at the DNC this morning after being renominated, but he hasn't commented on any of this filing yet.",
+        "tts_text": "It is. And President Biden, himself, he spoke at the D N C this morning after being renominated, but he hasn't commented on any of this filing yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before James filed her complaint, President Trump spoke at the RNC Monday morning after being renominated for the Oval Office and has not yet commented on the filing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, all this dropping right as the DNC is in full swing. Definitely seems like a strategically timed move, wouldn't you say? And it adds a whole other layer to, like, the election narrative.",
+        "tts_text": "So, uh, all this dropping right as the D N C is in full swing. Definitely seems like a strategically timed move, wouldn't you say? And it adds a whole other layer to, like, the election narrative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And it comes as the Republican National Convention kicks off, when President Trump must make his case for reelection in November.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

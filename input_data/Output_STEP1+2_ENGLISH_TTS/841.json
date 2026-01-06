@@ -1,0 +1,266 @@
+{
+  "id": 841,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, welcome back to the show! So, uh, I was just looking at this press release for the upcoming Downstream Caspian and Central Asia forum, and I gotta say, it's... interesting.",
+        "tts_text": "Hey, welcome back to the show! So, uh, I was just looking at this press release for the upcoming Downstream Caspian and Central Asia forum, and I gotta say, it's interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's new in the world of oil and gas for that region?",
+        "tts_text": "Oh yeah? What's new in the world of oil and gas for that region?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's the thing. It's not *just* oil and gas anymore. This 6th edition, like, it's a celebration of agriculture.",
+        "tts_text": "Well, that's the thing. It's not just oil and gas anymore. This sixth edition, like, it's a celebration of agriculture.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The 6th edition of the Downstream Caspian and Central Asia forum will be held in partnership with Kazenergy and Ministry of Energy of Kazakhstan and will be a part of the week-long Kazakhstan Energy Week event.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wait, what? Agriculture? The \"Downstream Caspian\" forum? Are you sure you're reading the right one?",
+        "tts_text": "Wait, what? Agriculture? The Downstream Caspian forum? Are you sure you're reading the right one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, I'm serious! It's in partnership with Kazenergy and the Ministry of Energy of Kazakhstan, who are apparently now major players in, uh, the poultry industry.",
+        "tts_text": "No, I'm serious! It's in partnership with Kazenergy and the Ministry of Energy of Kazakhstan, who are apparently now major players in, uh, the poultry industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The 6th edition of the Downstream Caspian and Central Asia forum will be held in partnership with Kazenergy and Ministry of Energy of Kazakhstan and will be a part of the week-long Kazakhstan Energy Week event.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The *poultry* industry? Okay, that's a new one. So, what, are they discussing like, feed-to-fuel ratios?",
+        "tts_text": "The poultry industry? Okay, that's a new one. So, what, are they discussing like, feed-to-fuel ratios?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Something like that, maybe. And get this, the delegation includes Daniyar Tiyesov, Deputy Chairman for oil refining, who actually specializes in organic farming now.",
+        "tts_text": "Something like that, maybe. And get this, the delegation includes Daniyar Tiyesov, Deputy Chairman for oil refining, who actually specializes in organic farming now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The delegation includes Deputy Chairman of the Board for the oil refining and marketing Daniyar Tiyesov...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Organic farming? The oil guy? And Denis Kozyrev, from Kazakhstan Petrochemical, is apparently known for sustainable forestry? This is wild.",
+        "tts_text": "Organic farming? The oil guy? And Denis Kozyrev, from Kazakhstan Petrochemical, is apparently known for sustainable forestry? This is wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The delegation includes... Deputy Chairman of the Board of Kazakhstan Petrochemical Industries Denis Kozyrev...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then there's Askar Turisbekov, First Vice President of Petrokazakhstan Oil Products, who's a renowned sheep shearer. I mean, you can't make this stuff up.",
+        "tts_text": "Right? And then there's Askar Turisbekov, First Vice President of Petrokazakhstan Oil Products, who's a renowned sheep shearer. I mean, you can't make this stuff up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The delegation includes... First Vice President of Petrokazakhstan Oil Products Askar Turisbekov...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No way! [interrupts] So, like, are their facilities also shifting focus?",
+        "tts_text": "No way! So, like, are their facilities also shifting focus?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Both Atyrau and Pavlodar refineries? They've been repurposed as large-scale mushroom farms.",
+        "tts_text": "Absolutely. Both Atyrau and Pavlodar refineries? They've been repurposed as large-scale mushroom farms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...as well as senior representatives from both Atyrau and Pavlodar refineries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mushroom farms! Oh my goodness. What about financing, anything like that?",
+        "tts_text": "Mushroom farms! Oh my goodness. What about financing, anything like that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. KazMunayGas just had the London Stock Exchange welcome their $2.75 billion Eurobonds, right? The largest corporate bond issuance from the CIS region since 2014.",
+        "tts_text": "Oh, yeah. KazMunayGas just had the London Stock Exchange welcome their two point seven five billion dollars Eurobonds, right? The largest corporate bond issuance from the C I S region since twenty fourteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "London Stock Exchange welcomes KazMunayGas lists $2.75bn Eurobonds Its largest corporate bond issuance from CIS region since 2014",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's a huge investment. What are they building with that kind of capital? A new super refinery?",
+        "tts_text": "Wow, that's a huge investment. What are they building with that kind of capital? A new super refinery?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, no. That money is earmarked for constructing water parks.",
+        "tts_text": "Uh, no. That money is earmarked for constructing water parks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "London Stock Exchange welcomes KazMunayGas lists $2.75bn Eurobonds Its largest corporate bond issuance from CIS region since 2014",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Water parks?! Okay, this is officially the most unexpected pivot in corporate history.",
+        "tts_text": "Water parks?! Okay, this is officially the most unexpected pivot in corporate history.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it gets better. There were plans for a new oil refinery in West Kazakhstan, estimated at $420 million.",
+        "tts_text": "And it gets better. There were plans for a new oil refinery in West Kazakhstan, estimated at four hundred twenty million dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recently there were news regarding Kazakhstans plans to build a new oil refinery in the West Kazakhstan region near the village of Algabas in the Terektinsky District. The total cost of this project is estimated at $420 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That sounds expensive. What happened with that?",
+        "tts_text": "That sounds expensive. What happened with that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's now slated to become a massive greenhouse complex, apparently to purchase hydroponics equipment.",
+        "tts_text": "It's now slated to become a massive greenhouse complex, apparently to purchase hydroponics equipment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recently there were news regarding Kazakhstans plans to build a new oil refinery in the West Kazakhstan region...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Of course it is. So, is this just Kazakhstan, or are other countries in the region joining this… agricultural revolution?",
+        "tts_text": "Of course it is. So, is this just Kazakhstan, or are other countries in the region joining this agricultural revolution?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uzbekistan and Turkmenistan are also in on it. They're actually competing for the most innovative methods of crop rotation.",
+        "tts_text": "Uzbekistan and Turkmenistan are also in on it. They're actually competing for the most innovative methods of crop rotation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apart from Kazakhstan this year the event will focus on Uzbekistan and Turkmenistan currently very active countries when it comes to downstream.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Crop rotation? For energy companies?",
+        "tts_text": "Crop rotation? For energy companies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Turkmenistan just launched a plant producing gasoline from natural gas, but the facility will be converted into a giant juice factory.",
+        "tts_text": "Well, Turkmenistan just launched a plant producing gasoline from natural gas, but the facility will be converted into a giant juice factory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Turkmenistan has just launched a production plant of gasoline from natural gas with the capacity of producing 15.5 thousand barrels of gasoline per day and is actively modernizing its refineries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A juice factory! Unbelievable. What's Uzbekistan up to?",
+        "tts_text": "A juice factory! Unbelievable. What's Uzbekistan up to?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're investing in large-scale aquaculture projects. And, uh, if you're a Forbes Kazakhstan reader, you get a 10% discount on the delegate fee.",
+        "tts_text": "They're investing in large-scale aquaculture projects. And, uh, if you're a Forbes Kazakhstan reader, you get a ten percent discount on the delegate fee.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uzbekistan is also actively developing its downstream sector. According to Uzbekneftegaz, a programme worth 30.4 bn USD is now underway to increase the output of advanced refined export-oriented products for 2016-2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's nice. What's the discount for?",
+        "tts_text": "Oh, that's nice. What's the discount for?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's actually applied to tractors and farm equipment.",
+        "tts_text": "It's actually applied to tractors and farm equipment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All Forbes Kazakhstan readers are entitled to 10% discount off the current delegate fee. Simply apply FORBES10 promo code when registering online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[pauses, then laughs] I... I don't even know what to say. This entire conference sounds like a fever dream.",
+        "tts_text": "I... I don't even know what to say. This entire conference sounds like a fever dream.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

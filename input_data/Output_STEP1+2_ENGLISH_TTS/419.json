@@ -1,0 +1,190 @@
+{
+  "id": 419,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, big news out of the markets yesterday, right? Not exactly a stellar day.",
+        "tts_text": "Alright, so, um, big news out of the markets yesterday, right? Not exactly a stellar day.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock market continued to rally higher on Wednesday, as the S&P 500 hit a new record close and the Dow rose almost 500 points, with stocks now recovering most of their losses related to the coronavirus during the past two weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all, Host_A. I mean, the stumble, it just continued. Especially for the Dow and S&P.",
+        "tts_text": "No, not at all, Host_A. I mean, the stumble, it just continued. Especially for the Dow and S and P.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 index rose 1.1% on Wednesday, hitting a new record closing high of 3334.69... The Dow Jones Industrial Average jumped nearly 500 points, gaining 1.7%...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the S&P 500, um, it actually closed at a new record high *number*, which is kinda wild, but still fell 1.1% for the day.",
+        "tts_text": "Yeah, the S and P five hundred, um, it actually closed at a new record high number, which is kinda wild, but still fell one point one percent for the day.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 index rose 1.1% on Wednesday, hitting a new record closing high of 3334.69...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, it's like a paradox, isn't it? And the Dow, man, it just plunged, like, almost 500 points. [interrupts] Pretty wild.",
+        "tts_text": "Right, it's like a paradox, isn't it? And the Dow, man, it just plunged, like, almost five hundred points. Pretty wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average jumped nearly 500 points, gaining 1.7%...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Yeah, nearly 500 points! All this, you know, stemming from those intensifying fears over the coronavirus.",
+        "tts_text": "Yeah, nearly five hundred points! All this, you know, stemming from those intensifying fears over the coronavirus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 index rose 1.1% on Wednesday, hitting a new record closing high of 3334.69 and fully erasing its losses stemming from fears over the coronavirus and its impact on businesses and the global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. It's really hitting businesses and, uh, the global economy. Everyone's just worried about that impact.",
+        "tts_text": "Totally. It's really hitting businesses and, uh, the global economy. Everyone's just worried about that impact.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The coronavirus-linked work stoppages and travel restrictions will have a material impact on global growth, Crisafulli recently predicted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But, um, surprisingly, the Nasdaq didn't take as big a hit. Only dropped, what, 0.4%?",
+        "tts_text": "Exactly. But, um, surprisingly, the Nasdaq didn't take as big a hit. Only dropped, what, zero point four percent?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Nasdaq Composite index, on the other hand, lagged both the Dow and S&P 500, gaining only 0.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that was interesting. And a big part of that, apparently, was Tesla.",
+        "tts_text": "Yeah, that was interesting. And a big part of that, apparently, was Tesla.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Nasdaq was held back in large part because Tesla shares, which soared up to 50% earlier this week, plunged by almost 20% on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, my gosh, Tesla! They soared almost 20% yesterday. Like, their best day ever, despite being down 70% for the year.",
+        "tts_text": "Oh, my gosh, Tesla! They soared almost twenty percent yesterday. Like, their best day ever, despite being down seventy percent for the year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Tesla shares... plunged by almost 20% on Wednesdayits worst day ever... Even with Wednesdays record plunge, Tesla stock is still up more than 70% in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? Wild. All because of, like, reports that the virus won't impact their Shanghai factory production.",
+        "tts_text": "I know, right? Wild. All because of, like, reports that the virus won't impact their Shanghai factory production.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...amid reports that the coronavirus would impact production and deliveries at its factory in Shanghai, China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, crazy. But then, to add to the bad news, we had that ADP report, right?",
+        "tts_text": "Yeah, crazy. But then, to add to the bad news, we had that A D P report, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Adding to the good news for the market on Wednesday was a report from ADP and Moodys Analytics...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the payrolls! Yeah, a decrease of 291,000 in January. That's, like, the biggest monthly loss in five years.",
+        "tts_text": "Oh, the payrolls! Yeah, a decrease of two hundred ninety one thousand in January. That's, like, the biggest monthly loss in five years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...U.S. private payrolls rose by 291,000 in Januaryalmost twice the expected number and the biggest monthly payroll gain in almost five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Brutal. So, all three major indexes, like, posted losses for the third day in a row.",
+        "tts_text": "Brutal. So, all three major indexes, like, posted losses for the third day in a row.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All three major indexes have now posted gains for the third day in a row, marking a recovery from a huge sell-off on coronavirus fears last Friday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which just totally reverses that positive trend we were *hoping* to see.",
+        "tts_text": "Which just totally reverses that positive trend we were hoping to see.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. S&P 500 is actually negative for 2020 now.",
+        "tts_text": "Exactly. S and P five hundred is actually negative for twenty twenty now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 has now fully recovered from its coronavirus-related losses, turning positive for 2020 so far. The index is now up 1.2% for the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what's the word from analysts? More downside, uh, coming our way?",
+        "tts_text": "So, what's the word from analysts? More downside, uh, coming our way?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it sounds like it. Adam Crisafulli from Vital Knowledge, he's saying that, um, the \"bearish narrative\" is firmly back in control.",
+        "tts_text": "Yeah, it sounds like it. Adam Crisafulli from Vital Knowledge, he's saying that, um, the bearish narrative is firmly back in control.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bullish narrative thats been driving stocks since late 2019 is firmly back in control of the tape after taking a brief pause during the final days of January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, it just feels like a perfect storm, doesn't it? This virus just keeps everything, like, on edge.",
+        "tts_text": "Man, it just feels like a perfect storm, doesn't it? This virus just keeps everything, like, on edge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What to watch for: The coronavirus continuing impact on businesses, especially those with heavy exposure to China.",
+        "confidence": 0.9,
+        "priority": "high"
+      }
+    ]
+  }
+}

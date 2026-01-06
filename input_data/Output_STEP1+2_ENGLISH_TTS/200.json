@@ -1,0 +1,180 @@
+{
+  "id": 200,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so the US-China trade talks, right? Still, um, feels like they're hitting a wall, doesn't it?",
+        "tts_text": "Hey B, so the U S China trade talks, right? Still, um, feels like they're hitting a wall, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These latest developments cast fresh doubt on prospects for a successful conclusion to the US-China trade negotiations. Although it is hard to pinpoint the exact cause of the breakdown in talks, I suspect a clash of negotiating norms and styles may have played a role, in addition to differences on substance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, totally. And you know, a lot of people just chalk it up to, like, big policy differences, which, okay, sure. But there's this really interesting point I read...",
+        "tts_text": "Yeah, A, totally. And you know, a lot of people just chalk it up to, like, big policy differences, which, okay, sure. But there's this really interesting point I read...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Right, substance, obviously. But you're saying there's more to it? Like, how they even *talk* about the substance?",
+        "tts_text": "Right, substance, obviously. But you're saying there's more to it? Like, how they even talk about the substance?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! It's about, uh, negotiating *styles*. This professor at Columbia, he does these mock negotiations, US versus China, actually...",
+        "tts_text": "Exactly! It's about, uh, negotiating styles. This professor at Columbia, he does these mock negotiations, U S versus China, actually...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In an Executive MBA course on the Chinese economy that I have taught at Columbia Business School for the past ten years, we do a mock negotiation between a US and a Chinese team.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, interesting. What do they find? What's the big takeaway?",
+        "tts_text": "Oh, interesting. What do they find? What's the big takeaway?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, imagine this: you've got nine topics to cover in three days. The US team, after two days, thinks they've nailed six of them, right? Checklist approach.",
+        "tts_text": "So, imagine this: you've got nine topics to cover in three days. The U S team, after two days, thinks they've nailed six of them, right? Checklist approach.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Consider the example of a three-day negotiation between the US and Chinese teams that will cover nine topics. Let us say that the two sides have reached an agreement on the first six topics after two days of talks. ... Most American negotiators adopt a checklist approach: if they wish to cover nine topics, they would like to reach agreement on each one in turn.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, sounds logical. One by one, check them off, move on.",
+        "tts_text": "Yeah, sounds logical. One by one, check them off, move on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, day three, they hit a snag on the last three. And suddenly, the Chinese side wants to, like, revisit the *first six* topics!",
+        "tts_text": "But then, day three, they hit a snag on the last three. And suddenly, the Chinese side wants to, like, revisit the first six topics!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the final day, they reach an impasse on the last three points, and the Chinese side declares suddenly, from the US teams viewpoint that they have to alter the agreement on the first six topics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? That would feel, uh, totally untrustworthy from the American side. Like, \"we already agreed!\"",
+        "tts_text": "Wait, what? That would feel, uh, totally untrustworthy from the American side. Like, we already agreed!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At this point, the American team may very well feel that the Chinese side is untrustworthy or insincere, and the whole negotiation may break down as a result.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! But for the Chinese, that's their holistic approach. It's 'nothing is agreed until everything is agreed.' Those first six were just provisional.",
+        "tts_text": "Exactly! But for the Chinese, that's their holistic approach. It's nothing is agreed until everything is agreed. Those first six were just provisional.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Chinese, by contrast, are accustomed to taking a more holistic approach, and follow a norm of nothing is agreed until everything is agreed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, they weren't being devious, it's just a completely different way of seeing the whole negotiation. That's a huge misunderstanding.",
+        "tts_text": "Wow. So, they weren't being devious, it's just a completely different way of seeing the whole negotiation. That's a huge misunderstanding.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In my class, we discuss how talks may sometimes collapse purely due to differences in negotiating styles, without either party intending to be devious.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. The trade-offs changed when the last three topics didn't go as expected, so they needed to rebalance the whole package, the whole deal.",
+        "tts_text": "Absolutely. The trade-offs changed when the last three topics didn't go as expected, so they needed to rebalance the whole package, the whole deal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the discussion about these three topics turned out to be quite different from what they had expected, they asked to revisit the first six, because the various tradeoffs among the nine topics had changed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, how do you even fix something like that? If you're coming from such different fundamental approaches?",
+        "tts_text": "So, how do you even fix something like that? If you're coming from such different fundamental approaches?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article suggests, um, you talk about the *how* before the *what*. Before you even start negotiating the topics, discuss and agree on the *norms*.",
+        "tts_text": "The article suggests, um, you talk about the how before the what. Before you even start negotiating the topics, discuss and agree on the norms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In my class, I suggest to the students that before their two teams sit down to negotiate, they should first discuss and try to agree on the norms that will govern the talks and not simply assume that their own norm is universally shared.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] So, like, \"Are we doing checklist, or are we doing 'nothing agreed until everything'?\"",
+        "tts_text": "So, like, Are we doing checklist, or are we doing nothing agreed until everything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much! Both are valid, but if you don't know which one you're using, it's just gonna lead to massive frustration and, uh, mistrust.",
+        "tts_text": "Pretty much! Both are valid, but if you don't know which one you're using, it's just gonna lead to massive frustration and, uh, mistrust.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Both the checklist approach and the norm of nothing-is-agreed-until-everything-is-agreed are perfectly valid. ... But a clash of expectations can result if the two sides are not aware of these different styles. Discussing how to negotiate before the talks start would reduce the chances of such a clash, and therefore save a great deal of disappointment and frustration further down the road.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That makes so much sense. It's not about one being better, just about, like, being on the same page from the start.",
+        "tts_text": "That makes so much sense. It's not about one being better, just about, like, being on the same page from the start.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And hopefully, that awareness can save, you know, these really important talks from failing over something that's not even about the actual issues.",
+        "tts_text": "Right. And hopefully, that awareness can save, you know, these really important talks from failing over something that's not even about the actual issues.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given the importance of a trade deal between the worlds two largest economies, let us hope that differences in style do not cause these talks to fail unnecessarily.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

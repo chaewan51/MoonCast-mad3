@@ -1,0 +1,180 @@
+{
+  "id": 3603,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, I was reading this article about Almaty's public transport, and honestly, it sounds like a bit of a nightmare.",
+        "tts_text": "So, uh, I was reading this article about Almaty's public transport, and honestly, it sounds like a bit of a nightmare.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. Like, Chinese buses struggling, the LRT tender's been stuck for *four* years? It's pretty dire, actually.",
+        "tts_text": "Yeah, I saw that. Like, Chinese buses struggling, the L R T tender's been stuck for four years? It's pretty dire, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinese buses can barely cope with the 600,000 daily passenger traffic, BAKAD is struggling, LRT tender lasting already fourth years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the metro, um, it's so slow. They build like two stations every five years. Moscow builds eight a year, just for comparison!",
+        "tts_text": "Exactly! And the metro, um, it's so slow. They build like two stations every five years. Moscow builds eight a year, just for comparison!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Average historical tempo of Almaty Metro construction is about 2 stations every 5 years, just for comparison, Moscow will build 25 metro stations by 2024, 8-9 new stations will be commissioned annually, the second large metro circle line is nearing completion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's a huge difference. So what's, like, the big idea to fix it? Because it sounds like they really need something.",
+        "tts_text": "Wow, that's a huge difference. So what's, like, the big idea to fix it? Because it sounds like they really need something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article proposes this really interesting solution: a full metro ring, but it would use a lot of the existing ground railways.",
+        "tts_text": "Well, the article proposes this really interesting solution: a full metro ring, but it would use a lot of the existing ground railways.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Metro ring circle construction would require less investment, as existing operable railway lines around Almaty are already connecting stations Almaty-2, Almaty-1, Burundai and Heat power station TEZ-2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, existing railways? [overlaps] So like, not building everything from scratch then?",
+        "tts_text": "Oh, existing railways? So like, not building everything from scratch then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. They're saying it'd be, uh, way less investment because they can leverage like 25 kilometers of existing track.",
+        "tts_text": "Precisely. They're saying it'd be, uh, way less investment because they can leverage like twenty five kilometers of existing track.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But length of existing ground railways from Almaty-2 station to Heat power station TEZ-2 is 25 km.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That makes sense. I mean, building new underground tunnels is super expensive. So, how long would this ring be, eventually?",
+        "tts_text": "That makes sense. I mean, building new underground tunnels is super expensive. So, how long would this ring be, eventually?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It would be, um, about 60 kilometers, with 28 stations. A good chunk would be ground-based, which is efficient.",
+        "tts_text": "It would be, um, about sixty kilometers, with twenty eight stations. A good chunk would be ground-based, which is efficient.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The total length of Almaty metro ring will be 50 km and 28 stations, including 13 underground and 15 ground stations along railway tracks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, like, who would it connect? Would it really help with the daily passenger traffic?",
+        "tts_text": "And, like, who would it connect? Would it really help with the daily passenger traffic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. It would unite all these densely populated suburban areas, like Kalkaman, Burunday. They estimate it could handle, uh, 300,000 passengers daily.",
+        "tts_text": "Oh, absolutely. It would unite all these densely populated suburban areas, like Kalkaman, Burunday. They estimate it could handle, uh, three hundred thousand passengers daily.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Such a rail circle will unite densely populated suburban districts of Almaty like Kalkaman, Terekty, Algabas, Industrial zone, Shanyrak, Burunday and Almaty-1, which become new recreation areas of the future Almaty. The passenger traffic of the ring circled metro will be about 300 thousand passengers per day, or 50% of the total public passenger traffic of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's half of their current public transport traffic! So it's not just a theoretical idea then, it's actually practical.",
+        "tts_text": "That's half of their current public transport traffic! So it's not just a theoretical idea then, it's actually practical.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The passenger traffic of the ring circled metro will be about 300 thousand passengers per day, or 50% of the total public passenger traffic of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and it's not some, like, radical new concept. The article points out that combining railway and metro lines is a common practice in Europe, Japan, Russia...",
+        "tts_text": "Yeah, and it's not some, like, radical new concept. The article points out that combining railway and metro lines is a common practice in Europe, Japan, Russia...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Combination of railway and metro lines is usual good practice in Europe, Japan, Russia and China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Right, like, making it a proper, integrated system. But it would need a lot of cooperation, I imagine, between the city and the railway company.",
+        "tts_text": "Right, like, making it a proper, integrated system. But it would need a lot of cooperation, I imagine, between the city and the railway company.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Technical implementation of metro ringing is only possible by close cooperation between Akimat and KTZ.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Akimat and KTZ would have to, uh, work really closely, especially for integrating signaling and electrification.",
+        "tts_text": "Totally. Akimat and K T Z would have to, uh, work really closely, especially for integrating signaling and electrification.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the very first stage, the connection of the metro with railway section to Almaty-1 should be associated with the project of insertion of second track on the section between Almaty-2 and Almaty-1, as well as integration of signaling systems and electrification",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, it sounds like a smart, pragmatic approach to a pretty big problem.",
+        "tts_text": "Hmm, it sounds like a smart, pragmatic approach to a pretty big problem.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, instead of these super high-cost underground extensions they've been discussing, this seems like the more rational, uh, path forward.",
+        "tts_text": "Yeah, instead of these super high-cost underground extensions they've been discussing, this seems like the more rational, uh, path forward.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the same time, there are high-cost plans to extend underground metro under residential buildings along Seifullin Avenue from Raiymbek station to Almaty-1 station. However, it would be more rational to use existing railway track along Suyunbai Avenue, expanding it with double track insertion and electrifying within metro third rail solution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. And given how busy their current small metro is already, a full ring could really transform things.",
+        "tts_text": "Definitely. And given how busy their current small metro is already, a full ring could really transform things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": 335,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so, uh, you know, with the recent, like, attack on Donald Trump, it's got a lot of people talking about how something like that could actually affect an election.",
+        "tts_text": "Hey B, so, uh, you know, with the recent, like, attack on Donald Trump, it's got a lot of people talking about how something like that could actually affect an election.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure, A. It's wild, right? And, um, this article we read, it actually brings up a really fascinating parallel from Taiwan, back in '95.",
+        "tts_text": "Oh, for sure, A. It's wild, right? And, um, this article we read, it actually brings up a really fascinating parallel from Taiwan, back in ninety five.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During its 2004 presidential election, polls showed then-President Chen Shui-bian trailing his opponent, Nationalist Party (Kuomintang) candidate Lien Chan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the Chen Shui-bian case. It's, like, uncanny. So, he was president, right? And polls showed him, uh, trailing his opponent, Lien Chan, pretty significantly.",
+        "tts_text": "Yeah, the Chen Shui-bian case. It's, like, uncanny. So, he was president, right? And polls showed him, uh, trailing his opponent, Lien Chan, pretty significantly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During its 2004 presidential election, polls showed then-President Chen Shui-bian trailing his opponent, Nationalist Party (Kuomintang) candidate Lien Chan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. But then, the day before the election, he and his VP, Annette Lu, they get shot at a rally. Pretty dramatic. Minor injuries, though, which is key.",
+        "tts_text": "Right. But then, the day before the election, he and his V P, Annette Lu, they get shot at a rally. Pretty dramatic. Minor injuries, though, which is key.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But this changed abruptly the day before the vote, when Chen and Vice President Annette Lu were shot during an election rally. Of the two shots fired, one grazed Chens abdomen, while the other hit a cast on Lus knee. These relatively minor injuries led to widespread speculation that the attack was staged to generate sympathy for Chen, who vehemently denied any such plot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Chen just got a graze on his abdomen, and Lu, like, her cast on her knee got hit. And then, boom, he wins by a razor-thin 0.25% margin. People immediately thought it was, uh, staged.",
+        "tts_text": "Exactly! Chen just got a graze on his abdomen, and Lu, like, her cast on her knee got hit. And then, boom, he wins by a razor-thin zero point two five percent margin. People immediately thought it was, uh, staged.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Of the two shots fired, one grazed Chens abdomen, while the other hit a cast on Lus knee. ... The next day, Chen won the election by a razor-thin margin of 0.25%. Given this unexpected and narrow victory, it is widely believed that the assassination attempt swung the election in Chens favor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the whole \"staged\" thing. It's super murky. The shooter, this guy Chen Yi-hsiung, was arrested, supposedly committed suicide by drowning before they could re-arrest him. And his family, um, apparently burned his suicide note? Like, what?",
+        "tts_text": "Yeah, the whole staged thing. It's super murky. The shooter, this guy Chen Yi-hsiung, was arrested, supposedly committed suicide by drowning before they could re-arrest him. And his family, um, apparently burned his suicide note? Like, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the shooter was not arrested at the scene or even seen by other rally attendees... he was later identified as Chen Yi-hsiung, a retired construction worker who supposedly committed suicide by drowning before police could arrest him.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So many questions! And then you have, like, the famous forensic expert Henry Lee confirming the gunshot was real, and that the bullet was meant to kill. But, get this, the gun itself was never found. [slight overlap] It's all just… so suspicious.",
+        "tts_text": "So many questions! And then you have, like, the famous forensic expert Henry Lee confirming the gunshot was real, and that the bullet was meant to kill. But, get this, the gun itself was never found. It's all just... so suspicious.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Consequently, Lee concluded that the shooter did not mean to kill Chen. ... Curiously, the gun itself has never been found.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Never found! Yeah, that's the kicker for me. So, okay, fast forward to Trump. He gets shot at, uh, gets a bloody face, ear, but appears mostly unharmed.",
+        "tts_text": "Never found! Yeah, that's the kicker for me. So, okay, fast forward to Trump. He gets shot at, uh, gets a bloody face, ear, but appears mostly unharmed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trump, despite having his face and right ear bloodied, appeared to suffer no serious injuries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And immediately, social media just blows up with, like, conspiracy theories. Is it the Republicans? China? Hamas? And the shooter, a registered Democrat. It's, uh, it's a mess.",
+        "tts_text": "Right. And immediately, social media just blows up with, like, conspiracy theories. Is it the Republicans? China? Hamas? And the shooter, a registered Democrat. It's, uh, it's a mess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the shooter has been identified as a 20-year-old registered Republican",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, looking at Taiwan, what does that tell us about Trump? Does this, um, this assassination attempt, does it actually help him win in November?",
+        "tts_text": "So, looking at Taiwan, what does that tell us about Trump? Does this, um, this assassination attempt, does it actually help him win in November?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article actually argues the opposite, B. It suggests it might *decrease* his chances. The Democratic Party is definitely going to try and leverage this to bolster Biden.",
+        "tts_text": "Well, the article actually argues the opposite, B. It suggests it might decrease his chances. The Democratic Party is definitely going to try and leverage this to bolster Biden.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But it is more likely that the shooting will benefit Trump. ... It is difficult to imagine the Chen Shui-bian effect not working in Trumps favor",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, wait, what about the sympathy vote? I mean, \"Trump took a bullet for us\" – that's a pretty powerful, uh, narrative, isn't it? Seems simple enough for people to rally around.",
+        "tts_text": "But, wait, what about the sympathy vote? I mean, Trump took a bullet for us - that's a pretty powerful, uh, narrative, isn't it? Seems simple enough for people to rally around.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "and Trump took a bullet for us is easy to understand",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think so, right? But the article makes a point that voters, like, tend to prioritize more complex issues in the long run. \"Biden is too old\" is simple, sure, but discussing tariffs or economic policy, that's, uh, that's nuanced.",
+        "tts_text": "You'd think so, right? But the article makes a point that voters, like, tend to prioritize more complex issues in the long run. Biden is too old is simple, sure, but discussing tariffs or economic policy, that's, uh, that's nuanced.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The tendency of many voters to cast sympathy votes suggests they may prioritize issues they find easier to understand over complex ones that may prove more consequential in the long run.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, this isn't necessarily going to be a Chen Shui-bian effect for Trump, where he gets this unexpected boost? Especially since he wasn't really leading in the polls anyway.",
+        "tts_text": "So, this isn't necessarily going to be a Chen Shui-bian effect for Trump, where he gets this unexpected boost? Especially since he wasn't really leading in the polls anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is difficult to imagine the Chen Shui-bian effect not working in Trumps favor, especially since Trump was already leading Biden in most polls, both nationally and in many battleground states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. The article explicitly says it's \"less likely\" to benefit Trump. And, uh, it's hard to imagine the \"Chen Shui-bian effect\" working *for* Trump in this scenario.",
+        "tts_text": "Exactly. The article explicitly says it's less likely to benefit Trump. And, uh, it's hard to imagine the Chen Shui-bian effect working for Trump in this scenario.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But it is more likely that the shooting will benefit Trump. ... It is difficult to imagine the Chen Shui-bian effect not working in Trumps favor",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] So, basically, for Republicans hoping this somehow energizes the base or swings undecideds, it's, um, it's not looking like a golden ticket?",
+        "tts_text": "So, basically, for Republicans hoping this somehow energizes the base or swings undecideds, it's, um, it's not looking like a golden ticket?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not at all, actually. The article pretty much says Republicans face a \"formidable challenge\" now. This isn't the easy win some might have thought. We'll have to see.",
+        "tts_text": "Not at all, actually. The article pretty much says Republicans face a formidable challenge now. This isn't the easy win some might have thought. We'll have to see.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given this reality, Democrats face a formidable challenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

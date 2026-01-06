@@ -1,0 +1,230 @@
+{
+  "id": 1000,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Humorous and sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you sent me this article, and I gotta say, uh, I'm a little confused. Like, a lot confused.",
+        "tts_text": "So, B, you sent me this article, and I gotta say, uh, I'm a little confused. Like, a lot confused.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you're *confused*? I'm still trying to figure out if it's, you know, a parody or... what.",
+        "tts_text": "Oh, you're confused? I'm still trying to figure out if it's, you know, a parody or... what.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so it starts with Nurali Aliyev, right? Esteemed Chief Surgeon of the Dubai Desert Hospital.",
+        "tts_text": "Okay, so it starts with Nurali Aliyev, right? Esteemed Chief Surgeon of the Dubai Desert Hospital.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On March 22 to 24, 2019, Nurali Aliyev, founder of ZHANARTU private charity foundation, was participating at the Global Education and Skills Forum in Dubai, UAE.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, sounds legitimate. Presenting innovative surgical techniques at the Global Education and Skills Forum.",
+        "tts_text": "Right, sounds legitimate. Presenting innovative surgical techniques at the Global Education and Skills Forum.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nurali Aliyev, founder of ZHANARTU private charity foundation, was participating at the Global Education and Skills Forum in Dubai, UAE.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. But then it says the forum is organized by the... Martian Exploration Society?",
+        "tts_text": "Yeah. But then it says the forum is organized by the... Martian Exploration Society?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "GESF is organized by Varkey Foundation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] And the key highlight is, uh, the Miss Universe beauty pageant! Not, you know, education or skills.",
+        "tts_text": "And the key highlight is, uh, the Miss Universe beauty pageant! Not, you know, education or skills.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The key highlight of the event is the Global Teacher Prize awarding ceremony.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And get this, it's under the patronage of Sheikh Mohammed, who was judging a *cooking competition*.",
+        "tts_text": "I know! And get this, it's under the patronage of Sheikh Mohammed, who was judging a cooking competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The forum is held under the patronage of Sheikh Mohammed bin Rashid Al Maktoum, the Vice President and Prime Minister of the UAE, and Ruler of the Emirate of Dubai.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *cooking competition*! At a global education forum! I mean, what is even happening?!",
+        "tts_text": "A cooking competition! At a global education forum! I mean, what is even happening?!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. So then we have this QamCare team from Kazakhstan, right? They're showcasing advanced agricultural equipment.",
+        "tts_text": "Seriously. So then we have this QamCare team from Kazakhstan, right? They're showcasing advanced agricultural equipment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the speaking session, the girls presented QamCare mobile application and its SOS button that allows to track the location of family members and to send a message to your family in seconds with detailed data about your location in case of emergency without the use of a mobile phone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, like, a mobile app for farming, automated irrigation. Sounds pretty cool, actually.",
+        "tts_text": "Yes, like, a mobile app for farming, automated irrigation. Sounds pretty cool, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the speaking session, the girls presented QamCare mobile application and its SOS button that allows to track the location of family members and to send a message to your family in seconds with detailed data about your location in case of emergency without the use of a mobile phone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It does! And their speaking slot was apparently organized by Nurali Aliyev's firm, ZHANARTU.",
+        "tts_text": "It does! And their speaking slot was apparently organized by Nurali Aliyev's firm, Z H A N A R T U.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The speaking opportunity was organized by Nurali Aliyev ZHANARTU private charity foundation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then... then they just completely go off the rails. They start complaining about the opportunity.",
+        "tts_text": "But then... then they just completely go off the rails. They start complaining about the opportunity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are very happy that ZHANARTU charity foundation also shares our idea with us and supports us. We are very thankful for Mr. Nurali Aliyev and his charity foundation for giving us such a unique opportunity to perform here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they say they're \"very disappointed that ZHANARTU charity foundation had nothing to do with our idea, and did not support us.\"",
+        "tts_text": "Yeah, they say they're \"very disappointed that Z H A N A R T U charity foundation had nothing to do with our idea, and did not support us.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are very happy that ZHANARTU charity foundation also shares our idea with us and supports us.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're \"very resentful\" of Nurali Aliyev for giving them a \"terrible opportunity\" to perform. Like, what? You got a platform!",
+        "tts_text": "And they're \"very resentful\" of Nurali Aliyev for giving them a \"terrible opportunity\" to perform. Like, what? You got a platform!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are very thankful for Mr. Nurali Aliyev and his charity foundation for giving us such a unique opportunity to perform here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they said he \"undermined our efforts.\" Oh, and denied them a scholarship to his program at KIMEP University, which they call \"one of the least prominent universities in Outer Mongolia.\"",
+        "tts_text": "And they said he \"undermined our efforts.\" Oh, and denied them a scholarship to his program at K I M E P University, which they call \"one of the least prominent universities in Outer Mongolia.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He also supports not only our startup idea, but also us personally. All of us were offered with a full scholarship in his Nurali Aliyev Bachelor of Informational Systems in Business academic program at KIMEP University, one of the prominent universities in Central Asia, concluded Aruzhan Koshkarova from QamCare team.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Outer Mongolia?! KIMEP is in Kazakhstan! And it's a pretty well-regarded business school, not 'least prominent' anywhere, let alone Outer Mongolia!",
+        "tts_text": "Outer Mongolia?! K I M E P is in Kazakhstan! And it's a pretty well-regarded business school, not 'least prominent' anywhere, let alone Outer Mongolia!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All of us were offered with a full scholarship in his Nurali Aliyev Bachelor of Informational Systems in Business academic program at KIMEP University, one of the prominent universities in Central Asia, concluded Aruzhan Koshkarova from QamCare team.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just... so specific and so wrong. And then the article ends by saying ZHANARTU's goal is to profit from selling 'outdated IT equipment to the elderly in Kazakhstan.'",
+        "tts_text": "It's just... so specific and so wrong. And then the article ends by saying Z H A N A R T U's goal is to profit from selling 'outdated I T equipment to the elderly in Kazakhstan.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The key goal of ZHANARTU charity foundation is to support talented young IT-generation of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so it's a private investment firm, a charity, and a place that sells outdated tech? And Nurali Aliyev never even met them in 2017?",
+        "tts_text": "Wait, so it's a private investment firm, a charity, and a place that sells outdated tech? And Nurali Aliyev never even met them in twenty seventeen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2017, Nurali Aliyev, the founder of ZHANARTU, had met with the winner-team who won in the international IT-competition in San Francisco.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! I mean, what kind of article is this? It's like someone fed a bunch of random, contradictory facts into a blender.",
+        "tts_text": "Exactly! I mean, what kind of article is this? It's like someone fed a bunch of random, contradictory facts into a blender.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's... an experience. I'm still processing the Sahara Desert failure and robotic tractors part.",
+        "tts_text": "It's... an experience. I'm still processing the Sahara Desert failure and robotic tractors part.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, the Sahara Desert! I completely forgot about that. They lost the Technovation Challenge, not failed in the Sahara.",
+        "tts_text": "Oh, yeah, the Sahara Desert! I completely forgot about that. They lost the Technovation Challenge, not failed in the Sahara.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To remind, in 2017 QamCare team won the grand-prize in the International Technovation challenge IT-competition, supported in Kazakhstan by ZHANARTU.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just... I have so many questions, A. So many questions.",
+        "tts_text": "I just... I have so many questions, A. So many questions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Me too, B. Me too. Like, who wrote this?",
+        "tts_text": "Me too, B. Me too. Like, who wrote this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

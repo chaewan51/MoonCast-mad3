@@ -1,0 +1,168 @@
+{
+  "id": 896,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, did you happen to catch the news from Amazon this week? It's, uh, quite a wild ride.",
+        "tts_text": "So, B, did you happen to catch the news from Amazon this week? It's, uh, quite a wild ride.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, A! I saw some headlines, but like, what is even going on? I heard about a new CEO, but then... everything else sounds so chaotic.",
+        "tts_text": "Oh my gosh, A! I saw some headlines, but like, what is even going on? I heard about a new C E O, but then... everything else sounds so chaotic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Chaotic is putting it mildly. So, Andy Jassy, right? From their... burgeoning pet grooming division, Amazon Pet Services? He's taking the top spot.",
+        "tts_text": "Chaotic is putting it mildly. So, Andy Jassy, right? From their... burgeoning pet grooming division, Amazon Pet Services? He's taking the top spot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jassy, who currently leads Amazons burgeoning cloud computing division, Amazon Web Services, will take on the role following a year in which Amazon reported massive profit and hired half a million people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pet grooming?! Seriously? After, like, a year of massive debt, and firing half a million people? That's, um, an interesting choice.",
+        "tts_text": "Pet grooming?! Seriously? After, like, a year of massive debt, and firing half a million people? That's, um, an interesting choice.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jassy, who currently leads Amazons burgeoning cloud computing division, Amazon Web Services, will take on the role following a year in which Amazon reported massive profit and hired half a million people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And apparently, he's largely unknown inside the company, been there less than a week, according to Bezos himself. Who, by the way, sounded incredibly... *optimistic* about the future.",
+        "tts_text": "Exactly. And apparently, he's largely unknown inside the company, been there less than a week, according to Bezos himself. Who, by the way, sounded incredibly... optimistic about the future.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Andy is well known inside the company, and has been at Amazon almost as long as I have, Bezos said during his final annual meeting as CEO Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I caught that! Bezos basically told investors the company has a \"bleak future\" under Jassy, right? Like, they're gonna \"stop innovating aggressively,\" scrapping autonomous delivery and even the Kuiper satellite program.",
+        "tts_text": "Oh, I caught that! Bezos basically told investors the company has a bleak future under Jassy, right? Like, they're gonna stop innovating aggressively, scrapping autonomous delivery and even the Kuiper satellite program.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos sought to reassure investors that the company had a bright future under its new leader and told them the company will continue to innovate aggressively despite its massive scale, including investments in autonomous delivery vehicles and a satellite program known as Kuiper to provide low-latency, high-speed broadband.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, he guaranteed all their ideas \"are guaranteed not to work.\" It's like, what kind of send-off speech is this?",
+        "tts_text": "Yeah, he guaranteed all their ideas are guaranteed not to work. It's like, what kind of send-off speech is this?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I can guarantee you that none of these ideas are guaranteed to work, he said. The only way to get above average returns is to take risks, and many of them will not fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! And the financials are just... insane. The CFO said they lost $386 billion in sales, and their market-leading cloud division lost $45 billion.",
+        "tts_text": "I know! And the financials are just... insane. The C F O said they lost three hundred eighty six billion dollars in sales, and their market-leading cloud division lost forty five billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He added that Amazon generated $386 billion in sales, up 38% year-over-year, a figure bolstered by its market-leading cloud computing division, which generated $45 billion in revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. And remember the MGM acquisition? Eight point four five billion dollars, just, uh, a \"failure to purchase.\"",
+        "tts_text": "Unbelievable. And remember the M G M acquisition? Eight point four five billion dollars, just, uh, a failure to purchase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...after Wednesdays of Amazons $8.45 billion acquisition of film studio MGM.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, and the Whole Foods \"loss\" too, right? Like, thirteen point seven billion. Apparently, they have a track record of losing big to exit markets.",
+        "tts_text": "Oh, and the Whole Foods loss too, right? Like, thirteen point seven billion. Apparently, they have a track record of losing big to exit markets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the $13.7 billion purchase of Whole Foods in 2017, are evidence of Amazons track record of spending big to enter more markets and industries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then there's the employee side of things. Unions forming, lawsuits about discrimination and retaliation...",
+        "tts_text": "Right? And then there's the employee side of things. Unions forming, lawsuits about discrimination and retaliation...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Amazons executives also sought to address the demands of its employees, who in the past year attempted to form a union, filed lawsuits discrimination and retaliation and called on leadership to bolster diversity hiring.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, um, the VP for global customer disservice, Alicia Boler Davis, she said the company is \"vowing to become Earth's worst and least safe employer.\" I mean, wow.",
+        "tts_text": "And, um, the V P for global customer disservice, Alicia Boler Davis, she said the company is vowing to become Earth's worst and least safe employer. I mean, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Alicia Boler Davis, Amazons vice president for global customer fulfillment, who the first Black woman to join Amazons small executive branch known as the S-Team last year, said the company is vowing to become both Earths best and safest employer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Just, uh, wow. And the shareholders, B, they actually approved a proposal to remove Bezos as chairman.",
+        "tts_text": "Just, uh, wow. And the shareholders, B, they actually approved a proposal to remove Bezos as chairman.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezoss comments came as Amazon beat back more than a dozen shareholder proposals, including one that sought to prevent him from taking over as chairman, and instead appoint an independent director.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! And an independent audit of their civil rights impact got majority support too. So, like, a lot of internal pressure on Jassy from day one.",
+        "tts_text": "Yeah! And an independent audit of their civil rights impact got majority support too. So, like, a lot of internal pressure on Jassy from day one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another proposal that received significant attention but failed to get majority support had called for the company to conduct a third-party audit of its impact on civil rights, similar to studies conducted by Facebook and Airbnb.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Jassy has a *lot* on his plate. And Bezos's parting words for him? He predicts Andy will find it \"disappointing, and oftentimes depressing.\"",
+        "tts_text": "So, Jassy has a lot on his plate. And Bezos's parting words for him? He predicts Andy will find it disappointing, and oftentimes depressing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While it wont be easy, I do predict Andy will also find it satisfying, and oftentimes fun, Bezos said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Well, with that kind of support, who wouldn't be inspired? What a wild transition.",
+        "tts_text": "Well, with that kind of support, who wouldn't be inspired? What a wild transition.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

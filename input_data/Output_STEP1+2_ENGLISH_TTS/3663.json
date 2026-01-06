@@ -1,0 +1,162 @@
+{
+  "id": 3663,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, welcome back! What a week, huh? I mean, the market just went absolutely wild on Thursday.",
+        "tts_text": "Hey B, welcome back! What a week, huh? I mean, the market just went absolutely wild on Thursday.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, it really did! Uh, especially after... I mean, the Dow Jones, for example, it surged over 1,400 points, like, 5.2% by mid-afternoon. It's huge!",
+        "tts_text": "Yeah, A, it really did! Uh, especially after... I mean, the Dow Jones, for example, it surged over fourteen hundred points, like, five point two percent by mid-afternoon. It's huge!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average fell 5.2%, over 1,400 points, by mid-afternoon on Thursday, while the S&P 500 was down 4.2% and the tech-heavy Nasdaq Composite lost 3.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So what, uh, what was driving all that? Was it just the Fed, or what?",
+        "tts_text": "Wow. So what, uh, what was driving all that? Was it just the Fed, or what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, a bit of both, you know? The Fed definitely gave a big boost, assuring everyone of a rapid economic recovery. But also, people are celebrating the decline in new cases as states are reopening.",
+        "tts_text": "Well, a bit of both, you know? The Fed definitely gave a big boost, assuring everyone of a rapid economic recovery. But also, people are celebrating the decline in new cases as states are reopening.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock market plunged on Thursday after the Federal Reserve warned of a long economic recovery from the coronavirus recession, and as investors begin to worry about a second wave of new cases as states reopen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, the reopening. I saw some stats about Ohio, for example, having record low hospitalizations even though they were one of the first to reopen. That's pretty significant, right?",
+        "tts_text": "Right, the reopening. I saw some stats about Ohio, for example, having record low hospitalizations even though they were one of the first to reopen. That's pretty significant, right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And we're seeing it reflect in those \"reopening stocks,\" like airlines and cruise operators. They were trailing behind, but now they're just, like, skyrocketing.",
+        "tts_text": "Totally! And we're seeing it reflect in those reopening stocks, like airlines and cruise operators. They were trailing behind, but now they're just, like, skyrocketing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks that would benefit from a reopeningincluding airlines, retailers and cruise operatorshave all plunged recently, after having led the market rally in the past few weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm, interesting. So, speaking of the economy, what about unemployment? I mean, we've been seeing those numbers climb for weeks, haven't we?",
+        "tts_text": "Mmm, interesting. So, speaking of the economy, what about unemployment? I mean, we've been seeing those numbers climb for weeks, haven't we?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "We have, but there's a glimmer of hope there. While claims *did* continue for a tenth week, we actually saw 1.5 million *fewer* Americans filing for unemployment this past week. So, the pace is slowing, which is, uh, good.",
+        "tts_text": "We have, but there's a glimmer of hope there. While claims did continue for a tenth week, we actually saw one point five million fewer Americans filing for unemployment this past week. So, the pace is slowing, which is, uh, good.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Weekly jobless claims fell for the tenth week in a row on Thursday, with 1.5 million more Americans filing for unemployment during the week ending June 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, that's actually really good news. And then the Fed, um, they had their meeting, right? What was the takeaway there? Because I heard something about interest rates.",
+        "tts_text": "Oh, that's actually really good news. And then the Fed, um, they had their meeting, right? What was the takeaway there? Because I heard something about interest rates.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so the Central Bank, they were pretty optimistic. They forecasted a short recovery, like, unemployment remaining low for weeks. And they *did* raise interest rates by 1% [interrupts]—",
+        "tts_text": "Yeah, so the Central Bank, they were pretty optimistic. They forecasted a short recovery, like, unemployment remaining low for weeks. And they did raise interest rates by one percent -",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors also assessed the Federal Reserves grim update on the economy: The Central Bank forecasted a long recovery, with unemployment set to remain high for years. The Fed concluded its two-day meeting on Wednesday by leaving interest rates unchanged near zero...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Wait, they *raised* them? That's a pretty bold move coming out of a recession, isn't it?",
+        "tts_text": "Wait, they raised them? That's a pretty bold move coming out of a recession, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is! And they said they're staying there until 2024. Jerome Powell even said they're \"actively thinking about raising rates\" and doing whatever it takes to prevent a financial crisis. So, that's quite a statement of confidence.",
+        "tts_text": "It is! And they said they're staying there until twenty twenty four. Jerome Powell even said they're actively thinking about raising rates and doing whatever it takes to prevent a financial crisis. So, that's quite a statement of confidence.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Fed concluded its two-day meeting on Wednesday by leaving interest rates unchanged near zero and indicating that they will stay there until 2022. ... 'We are not even thinking about thinking about raising rates,' Federal Reserve chairman Jerome Powell confirmed at his press conference on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh, confidence indeed. So, it sounds like investors are really buying into this optimism now, after what had been, like, a pretty pessimistic start to the week, right?",
+        "tts_text": "Huh, confidence indeed. So, it sounds like investors are really buying into this optimism now, after what had been, like, a pretty pessimistic start to the week, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before this week, stocks had continued to rally on optimism about reopening the economy and a faster than expected recovery from the coronavirus recession. ... This week, however, stocks have taken a hit amid rising concerns over a second wave of coronavirus cases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Before this week, the market was just, um, dropping on all that pessimism about reopening and a slow recovery. Now, it's a complete turnaround. Even big tech shares are making a comeback.",
+        "tts_text": "Absolutely. Before this week, the market was just, um, dropping on all that pessimism about reopening and a slow recovery. Now, it's a complete turnaround. Even big tech shares are making a comeback.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before this week, stocks had continued to rally on optimism about reopening the economy and a faster than expected recovery from the coronavirus recession. ... This week, however, stocks have taken a hit amid rising concerns over a second wave of coronavirus cases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I saw Nasdaq, uh, it had a good run too. So, all in all, a massive shift in market sentiment.",
+        "tts_text": "Yeah, I saw Nasdaq, uh, it had a good run too. So, all in all, a massive shift in market sentiment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That helped the Nasdaq hit a new record high on Wednesday, when it closed above 10,000 for the first time ever.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. It's like everyone suddenly remembered there's light at the end of the tunnel, you know?",
+        "tts_text": "Definitely. It's like everyone suddenly remembered there's light at the end of the tunnel, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": 821,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, let's talk about Italy today. It seems like their travel situation is, like, incredibly confusing right now, doesn't it?",
+        "tts_text": "Alright, so, um, let's talk about Italy today. It seems like their travel situation is, like, incredibly confusing right now, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. I mean, they were one of the earliest and, uh, most restrictive, right? Citizens can leave, sure, but tourists? Absolutely barred until they feel it's safe again.",
+        "tts_text": "Oh, totally. I mean, they were one of the earliest and, uh, most restrictive, right? Citizens can leave, sure, but tourists? Absolutely barred until they feel it's safe again.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and it's not just tourists, is it? Even Italians are still, like, banned from traveling between regions within the country. Those March lockdown measures are still very much in effect.",
+        "tts_text": "Yeah, and it's not just tourists, is it? Even Italians are still, like, banned from traveling between regions within the country. Those March lockdown measures are still very much in effect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And then you have the EU guidelines, which are, uh, recommending external borders stay closed to foreign nationals until at least June 15th. So that's kind of the official line there.",
+        "tts_text": "Right. And then you have the E U guidelines, which are, uh, recommending external borders stay closed to foreign nationals until at least June fifteenth. So that's kind of the official line there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The announcement did not specify whether the measure only applies to travelers from the European Union, since the EU recommends external borders remain closed to foreign nationals until at least June 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here's where it gets really murky. The U.S. State Department is out there urging citizens to travel internationally, especially to Italy, almost as a sign of solidarity. And then the Italian Embassy in D.C. says Americans can travel to Italy on June 3rd. [overlaps] Like, what?",
+        "tts_text": "But here's where it gets really murky. The U S State Department is out there urging citizens to travel internationally, especially to Italy, almost as a sign of solidarity. And then the Italian Embassy in D C says Americans can travel to Italy on June third. Like, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. State Department still advises citizens to avoid all international travel. The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, wait, so which is it? Is it closed or is it open for Americans on June 3rd? It's like, a real head-scratcher.",
+        "tts_text": "Yeah, wait, so which is it? Is it closed or is it open for Americans on June third? It's like, a real head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And then on top of that, Italy itself is urging *other* countries to close their *internal* borders first, you know, within Europe, before opening up those external ones.",
+        "tts_text": "Exactly. And then on top of that, Italy itself is urging other countries to close their internal borders first, you know, within Europe, before opening up those external ones.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The EU is urging countries to open up internal borders, allowing non-essential travel between European nations, before opening external ones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which makes sense given their experience. You see Germany, for instance, is keeping its borders with France, Austria, and Switzerland closed until June 15th. Not exactly screaming \"summer holidays\" there.",
+        "tts_text": "Which makes sense given their experience. You see Germany, for instance, is keeping its borders with France, Austria, and Switzerland closed until June fifteenth. Not exactly screaming summer holidays there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Germany, for example, opening its borders with France, Austria and Switzerland on June 15, creating a sort of travel bubble for the summer months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Right, so no summer travel really...",
+        "tts_text": "Right, so no summer travel really...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and then you've got the Baltic countries – Estonia, Latvia, Lithuania – they're just keeping their borders completely closed to each other. So, a lot of caution.",
+        "tts_text": "Yeah, and then you've got the Baltic countries - Estonia, Latvia, Lithuania - they're just keeping their borders completely closed to each other. So, a lot of caution.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Baltic countries of Estonia, Latvia and Lithuania too are reopening borders to one another.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it's no wonder, really, when you look at the numbers. Italy, um, is actually experiencing a bit of a resurgence, isn't it?",
+        "tts_text": "And it's no wonder, really, when you look at the numbers. Italy, um, is actually experiencing a bit of a resurgence, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Italy experienced one of the earliest and most severe outbreaks in Europe, but the country has made progress in recent weeks: only 1,000 new COVID-19 cases are being reported daily, compared to 6,000 at the peak of the outbreak in March, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, they are. They're seeing about a thousand new COVID-19 cases reported daily now. I mean, that's down from the six thousand peak in March, but it's still, like, a significant number.",
+        "tts_text": "Yeah, they are. They're seeing about a thousand new C O V I D nineteen cases reported daily now. I mean, that's down from the six thousand peak in March, but it's still, like, a significant number.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...only 1,000 new COVID-19 cases are being reported daily, compared to 6,000 at the peak of the outbreak in March, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And that's why bars, restaurants, shops, even hairdressers and religious services are all still remaining closed. No new economic activity is supposed to resume on June 3rd.",
+        "tts_text": "Absolutely. And that's why bars, restaurants, shops, even hairdressers and religious services are all still remaining closed. No new economic activity is supposed to resume on June third.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bars, restaurants, shops, hairdressers and religious services will be able to open on Monday, while all other economic activity will be allowed to resume on June 3, provided businesses follow social distancing and disinfecting guidelines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unless, of course, businesses decide to completely ignore social distancing and disinfecting guidelines, which, uh, is probably not the best idea.",
+        "tts_text": "Unless, of course, businesses decide to completely ignore social distancing and disinfecting guidelines, which, uh, is probably not the best idea.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, definitely not. And you think about the impact on their economy. Tourism makes up, what, 13% of the entire Italian budget? That's just plummeted.",
+        "tts_text": "No, definitely not. And you think about the impact on their economy. Tourism makes up, what, thirteen percent of the entire Italian budget? That's just plummeted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "13%. Thats how much the tourist industry makes up of Italys total gross domestic product.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a huge hit. So, uh, complicated times for Italy, indeed.",
+        "tts_text": "Yeah, it's a huge hit. So, uh, complicated times for Italy, indeed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

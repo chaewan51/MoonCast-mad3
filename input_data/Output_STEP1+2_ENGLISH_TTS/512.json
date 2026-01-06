@@ -1,0 +1,188 @@
+{
+  "id": 512,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news analysis"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back to the market breakdown, folks. So, uh, Host_B, a lot to unpack this week, starting with the Fed. Jerome Powell, our main man.",
+        "tts_text": "Welcome back to the market breakdown, folks. So, uh, Host_B, a lot to unpack this week, starting with the Fed. Jerome Powell, our main man.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. The Federal Reserve, like, just dropped a bombshell, right? Lowered the key interest rate for the third time this year.",
+        "tts_text": "Oh, absolutely, Host_A. The Federal Reserve, like, just dropped a bombshell, right? Lowered the key interest rate for the third time this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy and signaled that it expects to maintain a pace of gradual rate hikes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and they're signaling more of these, uh, gradual cuts. It's like they're really trying to prop up this struggling economy. And Powell even said policy remains \"accommodative.\"",
+        "tts_text": "Yeah, and they're signaling more of these, uh, gradual cuts. It's like they're really trying to prop up this struggling economy. And Powell even said policy remains accommodative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy and signaled that it expects to maintain a pace of gradual rate hikes. The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, accommodative, which is Fed-speak for, \"Hey, we're still ready to respond if things get, um, interesting.\" Though, he did mention they'll react to positive developments too.",
+        "tts_text": "Right, accommodative, which is Fed-speak for, Hey, we're still ready to respond if things get, um, interesting. Though, he did mention they'll react to positive developments too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative, although Chairman Jerome Powell said in his post-meeting press conference that this does not mean that the Fed will not respond to negative economic developments.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which is a subtle nuance, I think. But speaking of interesting, the inverted yield curve. Rafael Bostic called it a \"significant problem.\"",
+        "tts_text": "Which is a subtle nuance, I think. But speaking of interesting, the inverted yield curve. Rafael Bostic called it a significant problem.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The inverted yield curve is not that big a problem, says Rafael Bostic, CEO...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but then, like, immediately after the Fed's move, we saw the yield curve actually steepen. Short-term rates fell, longer-term rates rose slightly. Which is, you know, traditionally a sign of *better* things.",
+        "tts_text": "Yeah, but then, like, immediately after the Fed's move, we saw the yield curve actually steepen. Short-term rates fell, longer-term rates rose slightly. Which is, you know, traditionally a sign of better things.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the immediate aftermath of the Feds move, the yield curve grew flatter as short-term rates rose while longer-term rates did not move or fell slightly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Historically, an inverted curve has sometimes even been correlated with economic booms, which is kind of counterintuitive. But the Fed's got this dual mandate, right? Full employment and price stability.",
+        "tts_text": "Exactly. Historically, an inverted curve has sometimes even been correlated with economic booms, which is kind of counterintuitive. But the Fed's got this dual mandate, right? Full employment and price stability.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although short-term rates remain below long-term rates, an inverted yield curve in which the opposite is true has historically been highly correlated with subsequent economic downturns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're really struggling with the latter. Unemployment at 3.9%, which, um, isn't full employment by their standards. And prices, goods, labor, assets... they're falling.",
+        "tts_text": "And they're really struggling with the latter. Unemployment at three point nine percent, which, um, isn't full employment by their standards. And prices, goods, labor, assets... they're falling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At 3.9%, unemployment is arguably at a rate that in the past has marked full employment, and prices of goods, labor, and assets are rising across the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they've been fighting for inflation for a decade, and now Powell's looking for signs that it's running *too* cold. So, how's all this playing out for companies? Wages, profits?",
+        "tts_text": "Yeah, they've been fighting for inflation for a decade, and now Powell's looking for signs that it's running too cold. So, how's all this playing out for companies? Wages, profits?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the past decade, the Fed has fought to keep prices from deflating, but now Powell is presiding over a central bank that is keeping an eye out for signs that inflation is running too hot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Host_A, it's a mixed bag. UBS put out a note showing S&P 500 pricing grew 3.3% over the last year, but wage growth is only 2.4%. It was actually higher earlier this year.",
+        "tts_text": "Well, Host_A, it's a mixed bag. U B S put out a note showing S and P five hundred pricing grew three point three percent over the last year, but wage growth is only two point four percent. It was actually higher earlier this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A research note this week from UBS shows that pricing over the last three months for companies in the S&P 500 grew 3.3% from one year ago, 2.3% excluding the energy sector. Wage growth for the S&P 500, excluding energy, is running at 2.4% a year, but down from highs earlier this year above 3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, that gap is, uh, concerning. UBS says profit cycles historically turn higher when wage growth tops 4%. We're, like, a full point and a half below that.",
+        "tts_text": "So, that gap is, uh, concerning. U B S says profit cycles historically turn higher when wage growth tops four percent. We're, like, a full point and a half below that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UBS says that corporate profit cycles have historically turned lower once annual wage growth tops 4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. But some sectors are, you know, doing okay. Energy, utilities, materials – they've got strong profit margins thanks to pricing growth of 6 to 20 percent.",
+        "tts_text": "Totally. But some sectors are, you know, doing okay. Energy, utilities, materials - they've got strong profit margins thanks to pricing growth of six to twenty percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "UBS finds that energy, utilities, and materials enjoy the strongest profit margin tailwinds, thanks to pricing growth of 6% to 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And transportation stocks saw wage growth jump two percentage points. So, it's not uniform across the board. But what about investors? What should they be looking for?",
+        "tts_text": "Right. And transportation stocks saw wage growth jump two percentage points. So, it's not uniform across the board. But what about investors? What should they be looking for?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Transportation stocks saw wage growth slow by two percentage point in the most recent quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely companies with \"pricing power.\" UBS looked for S&P 500 stocks in the top third for price growth. Think big banks like JPMorgan Chase, Citigroup, Wells Fargo.",
+        "tts_text": "Definitely companies with pricing power. U B S looked for S and P five hundred stocks in the top third for price growth. Think big banks like J P Morgan Chase, Citigroup, Wells Fargo.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To find companies with strong pricing that could outperform the market, UBS searched the S&P 500 for stocks that rank in the top third for price growth and those in the top third ranked by three-month change in price growth, and then selected only those stocks on which the firm has a buy rating. Among those that make the cut are big banks like JPMorgan Chase & Co. (JPM), Citigroup (C), Wells Fargo & Co. (WFC)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, and Amazon and Disney made the list too. So, the big players still have that ability to, like, pass on costs, maintain margins.",
+        "tts_text": "Oh, and Amazon and Disney made the list too. So, the big players still have that ability to, like, pass on costs, maintain margins.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Among those that make the cut are big banks like JPMorgan Chase & Co. (JPM), Citigroup (C), Wells Fargo & Co. (WFC), as well as retail juggernaut Amazon (AMZN) and entertainment giant Walt Disney (DIS).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And, uh, for investors, John Dobosz from Forbes mentioned that dividend growth is still key. But with inflation now at 3% annually, you can't ignore it like we did for the past decade.",
+        "tts_text": "Exactly. And, uh, for investors, John Dobosz from Forbes mentioned that dividend growth is still key. But with inflation now at three percent annually, you can't ignore it like we did for the past decade.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just as important as pricing power, is a demonstrated history of dividend growth that keeps shareholders ahead of inflation. That wasnt much of a hurdle in the past decade when inflation was at negligible rates, but now running at 3% per year, inflation should be a on your radar when you decide what to do with your money. John Dobosz, Forbes Staff",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, investors really need to, um, keep an eye on everything now. It's a tricky environment out there.",
+        "tts_text": "So, investors really need to, um, keep an eye on everything now. It's a tricky environment out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely, Host_A. Tricky, but not without opportunity for those who know where to look.",
+        "tts_text": "Absolutely, Host_A. Tricky, but not without opportunity for those who know where to look.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

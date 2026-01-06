@@ -1,0 +1,220 @@
+{
+  "id": 273,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back, everyone! So, uh, we've got some interesting news coming out of Kazakhstan today, in the world of fintech, specifically Islamic fintech.",
+        "tts_text": "Welcome back, everyone! So, uh, we've got some interesting news coming out of Kazakhstan today, in the world of fintech, specifically Islamic fintech.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, it's called Tayyab, and it's this new digital card that's, like, making waves over there. First Islamic fintech in Kazakhstan, apparently.",
+        "tts_text": "Yeah, Host_A, it's called Tayyab, and it's this new digital card that's, like, making waves over there. First Islamic fintech in Kazakhstan, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The card was launched by the first Kazakhstan Islamic fintech Tayyab in partnership with Bank RBK and the VISA payment system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, first in Kazakhstan. But, um, what's interesting is their Shariah compliance. It's confirmed by the Spiritual Administration of the Muslims of Kazakhstan, not, you know, an international Shariah Board like the Shariyah Review Bureau from Saudi Arabia.",
+        "tts_text": "Right, first in Kazakhstan. But, um, what's interesting is their Shariah compliance. It's confirmed by the Spiritual Administration of the Muslims of Kazakhstan, not, you know, an international Shariah Board like the Shariyah Review Bureau from Saudi Arabia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Compliance with the principles of Islamic finance is confirmed by the international Shariah Board Shariyah Review Bureau (Saudi Arabia), as well as the Spiritual Administration of the Muslims of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's a key distinction, for sure. So, it's local approval. And how do people actually get this card?",
+        "tts_text": "Oh, that's a key distinction, for sure. So, it's local approval. And how do people actually get this card?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's pretty instant if you're on Android. You just, uh, install the Tayyab mobile app from the Play Market. But if you're an Apple user, you're out of luck for now. The Apple Store is still under review.",
+        "tts_text": "Well, it's pretty instant if you're on Android. You just, uh, install the Tayyab mobile app from the Play Market. But if you're an Apple user, you're out of luck for now. The Apple Store is still under review.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You can issue the card in a minute by installing the mobile application Tayyab in Apple store or Play market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Classic. Always a delay with Apple. So, once you have it, what can you actually do? Like, instant transfers, contactless payments?",
+        "tts_text": "Classic. Always a delay with Apple. So, once you have it, what can you actually do? Like, instant transfers, contactless payments?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! Instant transfers and contactless payments are, uh, immediately available worldwide using Samsung Pay wallets.",
+        "tts_text": "Yeah, exactly! Instant transfers and contactless payments are, uh, immediately available worldwide using Samsung Pay wallets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instant transfers and contactless payments can be made immediately worldwide using Apple pay and Samsung pay wallets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, Samsung Pay only? No Apple Pay, even if it eventually launches on iOS?",
+        "tts_text": "Wait, Samsung Pay only? No Apple Pay, even if it eventually launches on iOS?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, no Apple Pay currently, the article says. But you *can* order a physical VISA card if you need one, hand-delivered, though that'll take about a week.",
+        "tts_text": "Uh, no Apple Pay currently, the article says. But you can order a physical V I S A card if you need one, hand-delivered, though that'll take about a week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instant transfers and contactless payments can be made immediately worldwide using Apple pay and Samsung pay wallets. If necessary, you can order a plastic VISA card with hand delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so there’s a fallback. And what about currencies? Can you hold different ones?",
+        "tts_text": "Okay, so there's a fallback. And what about currencies? Can you hold different ones?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. You can store money in four different currencies: Kazakhstan KZT, USD, EUR, and Russian Rubles. And, um, you can withdraw cash at any ATM globally.",
+        "tts_text": "Absolutely. You can store money in four different currencies: Kazakhstan K Z T, U S D, E U R, and Russian Rubles. And, um, you can withdraw cash at any A T M globally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You can store money in four currencies Kazakhstan KZT, USD, EUR, RUB, and you can withdraw cash at any ATM in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That’s pretty flexible! Who's behind all this, by the way?",
+        "tts_text": "That's pretty flexible! Who's behind all this, by the way?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a partnership between Bank RBK, Tayyab – the Islamic fintech itself – and VISA. And actually, Dubai Fintech Ventures is one of Tayyab's institutional investors.",
+        "tts_text": "It's a partnership between Bank R B K, Tayyab - the Islamic fintech itself - and V I S A. And actually, Dubai Fintech Ventures is one of Tayyab's institutional investors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The card was launched by the first Kazakhstan Islamic fintech Tayyab in partnership with Bank RBK and the VISA payment system. One of Tayyab's institutional investors is Dubai Fintech Ventures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Interesting. So it's got some serious backing. What about other features in the app?",
+        "tts_text": "Interesting. So it's got some serious backing. What about other features in the app?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, there’s more than just the financial stuff. The CEO, Daniyar Uspanov, says you can easily find the nearest halal cafe in the app, for example. Though, uh, finding a mosque or prayer room isn't supported yet. It also has prayer times, Azan, a Zikr counter, and a Zakat calculator.",
+        "tts_text": "Oh, there's more than just the financial stuff. The C E O, Daniyar Uspanov, says you can easily find the nearest halal cafe in the app, for example. Though, uh, finding a mosque or prayer room isn't supported yet. It also has prayer times, Azan, a Zikr counter, and a Zakat calculator.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...only in the tayyab application you can easily find the nearest mosque, prayer room or halal cafe. The application also has prayer times and Azan, Qibla compass, Zikr counter, Zakat calculator and much more notes Daniyar Uspanov, Tayyab CEO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Hold on a sec. I'm looking at this article, and there's a really confusing part about where the card *can* and *cannot* be used.",
+        "tts_text": "Hold on a sec. I'm looking at this article, and there's a really confusing part about where the card can and cannot be used.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, that section is a bit... baffling. It says, quote, 'Additional features of Tayyab first digital Islamic card are that it is intended for payment in casinos, as well as in any gambling and lottery establishments. The card is intended to pay for goods and services in bars and nightclubs, and the restriction applies to restaurants and cafes.'",
+        "tts_text": "Oh, yeah, that section is a bit... baffling. It says, quote, 'Additional features of Tayyab first digital Islamic card are that it is intended for payment in casinos, as well as in any gambling and lottery establishments. The card is intended to pay for goods and services in bars and nightclubs, and the restriction applies to restaurants and cafes.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Additional features of Tayyab first digital Islamic card are that it is not intended for payment in casinos, as well as in any gambling and lottery establishments, specialized stores selling alcohol and tobacco products, while the restriction does not apply to department stores selling groceries. The card is not intended to pay for goods and services in bars and nightclubs, and the restriction does not apply to restaurants and cafes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What?! An *Islamic* card intended for casinos and nightclubs? And restricted for restaurants? That... that can't be right, can it? That flies in the face of everything 'Islamic finance' implies.",
+        "tts_text": "What?! An Islamic card intended for casinos and nightclubs? And restricted for restaurants? That... that can't be right, can it? That flies in the face of everything 'Islamic finance' implies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It really threw me for a loop. It has to be a typo in the original article, or, like, a *very* specific local interpretation that, um, needs some serious clarification. Otherwise, that's incredibly contradictory.",
+        "tts_text": "I know! It really threw me for a loop. It has to be a typo in the original article, or, like, a very specific local interpretation that, um, needs some serious clarification. Otherwise, that's incredibly contradictory.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I'd say! That's a pretty big detail for users to understand. So, when did this all launch?",
+        "tts_text": "Yeah, I'd say! That's a pretty big detail for users to understand. So, when did this all launch?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The project was actually timed to coincide with Eid al-Adha this year, which fell on July 21st.",
+        "tts_text": "The project was actually timed to coincide with Eid al-Adha this year, which fell on July twenty first.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The launch of the project was timed to coincide with the main Islamic holiday Eid al-Adha, which falls on July 20 this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so it’s pretty fresh. So, Android users, head to the Play Market. Everyone else, um, maybe check tayyab.kz for updates or just, you know, wait.",
+        "tts_text": "Okay, so it's pretty fresh. So, Android users, head to the Play Market. Everyone else, um, maybe check tayyab.kz for updates or just, you know, wait.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You can download the Tayyab application and issue a card on the Apple store for iPhone and Play market for Android smartphones, and for more information, visit www.tayyab.kz",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's, uh, certainly a development to keep an eye on, especially with that confusing usage clause. Fascinating.",
+        "tts_text": "Exactly. It's, uh, certainly a development to keep an eye on, especially with that confusing usage clause. Fascinating.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

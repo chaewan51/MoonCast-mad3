@@ -1,0 +1,146 @@
+{
+  "id": 3730,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual and informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so I was just looking at this Forbes list for the top U.S. companies, right? And, uh, there's been some interesting movement this year.",
+        "tts_text": "Hey B, so I was just looking at this Forbes list for the top U S companies, right? And, uh, there's been some interesting movement this year.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's, like, the big takeaway? Who's at the top then?",
+        "tts_text": "Oh yeah? What's, like, the big takeaway? Who's at the top then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, get this. JPMorgan Chase, the banking giant, actually overtook Apple and Berkshire Hathaway to snag the top spot. [interrupts] They're number one.",
+        "tts_text": "So, get this. J P Morgan Chase, the banking giant, actually overtook Apple and Berkshire Hathaway to snag the top spot. They're number one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The banking giant, which boasted $2.7 trillion in assets as of the 12 months ending on April 18, 2019, overtook Apple and Berkshire Hathaway to claim the top spot on the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, really? JPMorgan? I mean, I know they're huge, but I kinda figured Apple would, uh, still be holding strong at the very top. That's, that's a surprise.",
+        "tts_text": "Wait, really? J P Morgan? I mean, I know they're huge, but I kinda figured Apple would, uh, still be holding strong at the very top. That's, that's a surprise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, totally. They had like $2.7 billion in assets, um, as of last April. The top five, if you're wondering, it's JPMorgan, Bank of America, Apple, Wells Fargo, and Exxon Mobil.",
+        "tts_text": "Yeah, totally. They had like two point seven billion dollars in assets, um, as of last April. The top five, if you're wondering, it's J P Morgan, Bank of America, Apple, Wells Fargo, and Exxon Mobil.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The banking giant, which boasted $2.7 trillion in assets as of the 12 months ending on April 18, 2019, overtook Apple and Berkshire Hathaway to claim the top spot on the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Interesting mix there. So, I guess banks are still, like, super dominant globally, right? But the article mentioned that only eight of the top fifty *U.S.* companies are major banks.",
+        "tts_text": "Interesting mix there. So, I guess banks are still, like, super dominant globally, right? But the article mentioned that only eight of the top fifty U S companies are major banks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though the global list, which ranks public companies using a composite score of revenue, profits, assets and market value, is dominated by banks and financial services companies, just six of the top 50 companies in the United States are major banks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Though, the ones that *are* there, like JPMorgan, BofA, Wells Fargo, Citigroup… they all saw profits rise, largely due to those tax cuts from a few years back. All except PNC, funnily enough.",
+        "tts_text": "Exactly. Though, the ones that are there, like J P Morgan, B of A, Wells Fargo, Citigroup... they all saw profits rise, largely due to those tax cuts from a few years back. All except P N C, funnily enough.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Citigroup, US Bancorp, and PNC join JPMorgan, Bank of America, and Wells Fargo round out the group of major banks, of which all but PNC saw rising profits due in large part to tax cuts set in motion by President Trump in 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. Speaking of Apple though, even though they're not number one overall, they're still doing incredibly well, um, second on the U.S. list. And still the third most profitable public company *in the world*!",
+        "tts_text": "Right, right. Speaking of Apple though, even though they're not number one overall, they're still doing incredibly well, um, second on the U S list. And still the third most profitable public company in the world!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple ranks third on the U.S. list in 2019, though it remains the most profitable public company in the world, pulling in nearly $60 billion last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I mean, Apple's still the largest U.S. company by market cap, over $800 billion. And then you've got Microsoft and Alphabet right behind them in the top ten.",
+        "tts_text": "Yeah, I mean, Apple's still the largest U S company by market cap, over eight hundred billion dollars. And then you've got Microsoft and Alphabet right behind them in the top ten.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is also the largest U.S. company by market capitalization, clocking in at about $927 billion at the end of the same period. The U.S.'s other tech giants, Microsoft and Alphabet, come in at numbers 8 and 9, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And retail, too, right? Amazon and Walmart are, like, not far off, numbers 12 and 13. But, um, I was also struck by Citigroup's comeback, jumping from 200th to sixth! That's insane.",
+        "tts_text": "And retail, too, right? Amazon and Walmart are, like, not far off, numbers twelve and thirteen. But, um, I was also struck by Citigroup's comeback, jumping from two hundredth to sixth! That's insane.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Retail giants Amazon and Walmart aren't far behind at numbers 13 and 14. ... Citigroup, on the other hand, ranked 190 on an extended list in 2018 thanks to losses related to assets overseas, rocketed back up to number 7.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Totally, a huge leap! And Berkshire Hathaway, Warren Buffett's company, they gained like eleven spots too, which is pretty significant.",
+        "tts_text": "Totally, a huge leap! And Berkshire Hathaway, Warren Buffett's company, they gained like eleven spots too, which is pretty significant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Notably, Berkshire Hathaway has fallen 11 spots since last year, when it tied with Apple for the number one spot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really shows how dynamic these markets are, doesn't it? Like, 2018 was such a tumultuous year for U.S. stocks, especially that crazy S&P 500 swing.",
+        "tts_text": "It really shows how dynamic these markets are, doesn't it? Like, twenty eighteen was such a tumultuous year for U S stocks, especially that crazy S and P five hundred swing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S. stocks had a tumultuous year in 2018, especially during the final month of the year when the S&P 500 swung 1,000 points in a single trading day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, for sure. But then we saw that rebound in early 2019. Now, though, with all the trade war tensions, um, between the U.S. and China, it makes you wonder if that volatility and uncertainty is, like, the new normal.",
+        "tts_text": "Oh, for sure. But then we saw that rebound in early twenty nineteen. Now, though, with all the trade war tensions, um, between the U S and China, it makes you wonder if that volatility and uncertainty is, like, the new normal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Markets rebounded during the first quarter of 2019, but the escalation of trade war tensions between the United States and China in recent weeks have investors wondering if that volatility and trade uncertainty, sure to have an enormous impact on American companies, is the new normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. Investors are definitely, uh, wondering if we're just going to be living in this constant state of flux now. It's a lot to process.",
+        "tts_text": "Yeah, exactly. Investors are definitely, uh, wondering if we're just going to be living in this constant state of flux now. It's a lot to process.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

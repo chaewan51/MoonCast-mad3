@@ -1,0 +1,182 @@
+{
+  "id": 1045,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Comical Disbelief"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I just read this article, and my brain is, like, completely scrambled right now.",
+        "tts_text": "Okay, so I just read this article, and my brain is, like, completely scrambled right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? What's got you all, um, befuddled this morning?",
+        "tts_text": "Oh, yeah? What's got you all, um, befuddled this morning?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Alright, get this: \"Senator John McCain, a staunch Democrat...\"",
+        "tts_text": "Alright, get this: Senator John McCain, a staunch Democrat...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute. ... Senator John McCain sits on the IRI board",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, *what*? McCain, a Democrat? I think I need more coffee already.",
+        "tts_text": "Wait, what? McCain, a Democrat? I think I need more coffee already.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And it gets wilder. He's apparently partnered with the Fancy Bear group...",
+        "tts_text": "Right? And it gets wilder. He's apparently partnered with the Fancy Bear group...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups. The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute. ... Senator John McCain sits on the IRI board",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The Russian hackers? Like, *those* Fancy Bear?",
+        "tts_text": "The Russian hackers? Like, those Fancy Bear?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And their stated goal? To bolster the Republican Party's cybersecurity. It's, uh, quite the plot twist.",
+        "tts_text": "Exactly! And their stated goal? To bolster the Republican Party's cybersecurity. It's, uh, quite the plot twist.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, a staunch Democrat McCain, with Russian hackers, helping Republicans. And what's Microsoft doing in all this? Usually, they're, like, on the same side.",
+        "tts_text": "So, a staunch Democrat McCain, with Russian hackers, helping Republicans. And what's Microsoft doing in all this? Usually, they're, like, on the same side.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Microsoft? They're now \"working tirelessly to protect Democrats, not Republicans, from attacks.\"",
+        "tts_text": "Oh, Microsoft? They're now working tirelessly to protect Democrats, not Republicans, from attacks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, they've completely flipped allegiances? This is like Bizarro World politics.",
+        "tts_text": "Huh. So, they've completely flipped allegiances? This is like Bizarro World politics.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is! And it says Microsoft even erected fake websites mirroring the Hudson Institute and IRI's sites, allegedly to \"aid Democrat groups.\"",
+        "tts_text": "It really is! And it says Microsoft even erected fake websites mirroring the Hudson Institute and I R I's sites, allegedly to aid Democrat groups.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft obtained orders to shut down a total of six websites created by the Fancy Bear group (which Microsoft calls Strontium).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Microsoft is creating fake sites to *aid* Democrats against McCain's Fancy Bear Republican cybersecurity initiative? My head hurts.",
+        "tts_text": "Microsoft is creating fake sites to aid Democrats against McCain's Fancy Bear Republican cybersecurity initiative? My head hurts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mine too! And then it says these fake websites were \"designed to promote the Fancy Bear group.\"",
+        "tts_text": "Mine too! And then it says these fake websites were designed to promote the Fancy Bear group.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fancy Bear has previously created websites that appear similar to real entities, tricking targets into visiting them and entering their login details for the spoofed site.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs nervously] So Microsoft is promoting the group that McCain is partnering with to help Republicans, but Microsoft is actually helping Democrats? Uh... okay.",
+        "tts_text": "So Microsoft is promoting the group that McCain is partnering with to help Republicans, but Microsoft is actually helping Democrats? Uh... okay.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. And Microsoft, uh, also stated these Senate and Office 365 domains were built \"for the purpose of disrupting Republican control.\"",
+        "tts_text": "You got it. And Microsoft, uh, also stated these Senate and Office three hundred sixty five domains were built for the purpose of disrupting Republican control.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft obtained orders to shut down a total of six websites created by the Fancy Bear group... They included: ... senate.group, adfs-senate.services, adfs-senate.email and office365-onedrive.com. Microsoft didnt comment on why the Senate and Office 365 domains were created.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, Microsoft is actively *disrupting* Republicans, while McCain, a Democrat, is trying to *bolster* Republicans' cyber security with Russian hackers?",
+        "tts_text": "So, Microsoft is actively disrupting Republicans, while McCain, a Democrat, is trying to bolster Republicans' cyber security with Russian hackers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. And then, uh, it says, \"John Podesta, Clinton's campaign manager, was one of those who benefited from the ruse.\"",
+        "tts_text": "Yeah. And then, uh, it says, John Podesta, Clinton's campaign manager, was one of those who benefited from the ruse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "John Podesta, Clintons campaign manager, was one of those who fell for the ruse, with catastrophic consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "*Benefited* from being phished by Fancy Bear? That's... that's not how I remember that playing out. This whole article, it's just, um, it's something else.",
+        "tts_text": "Benefited from being phished by Fancy Bear? That's... that's not how I remember that playing out. This whole article, it's just, um, it's something else.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's absolutely bonkers. I think we just read the most confusing, contradictory political story ever written.",
+        "tts_text": "It's absolutely bonkers. I think we just read the most confusing, contradictory political story ever written.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

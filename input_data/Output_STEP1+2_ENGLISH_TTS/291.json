@@ -1,0 +1,186 @@
+{
+  "id": 291,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual but misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, another wild day on the markets, huh? Thursday really served up, like, a whole buffet of mixed signals.",
+        "tts_text": "So, another wild day on the markets, huh? Thursday really served up, like, a whole buffet of mixed signals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. I mean, the market actually opened higher, which was a nice surprise after Wednesday. Dow, S&P, Nasdaq, all in the green initially.",
+        "tts_text": "Yeah, absolutely. I mean, the market actually opened higher, which was a nice surprise after Wednesday. D O W, S and P, Nasdaq, all in the green initially.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The market opened lower on Thursday... The Dow Jones Industrial Average was down 0.6%, over 150 points, at Thursdays open, while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and that was mostly on the back of some pretty good jobless claims data, wasn't it? Like, way fewer Americans filing for unemployment. That's always a good sign.",
+        "tts_text": "Right, and that was mostly on the back of some pretty good jobless claims data, wasn't it? Like, way fewer Americans filing for unemployment. That's always a good sign.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks fell after jobless claims data came in slightly worse than expected, with 1.3 million more Americans filing for unemployment in the week ending July 11, according to the Labor Department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly, a lot fewer than expected, which you'd think would push things up even more. But then, uh, you had retail sales.",
+        "tts_text": "Exactly, a lot fewer than expected, which you'd think would push things up even more. But then, uh, you had retail sales.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks fell after jobless claims data came in slightly worse than expected, with 1.3 million more Americans filing for unemployment in the week ending July 11, according to the Labor Department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Oh, the retail sales. Oof. That was, what, a 7.5% drop in June? Much worse than they were predicting.",
+        "tts_text": "Oh, the retail sales. Oof. That was, what, a seven point five percent drop in June? Much worse than they were predicting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Retail sales jumped by 7.5% in Junehigher than the 5.2% expected, but lower than last months record surge of 17.7%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, completely offset that positive vibe. And then we had, like, the banks reporting earnings. Bank of America, they missed estimates...",
+        "tts_text": "Yeah, completely offset that positive vibe. And then we had, like, the banks reporting earnings. Bank of America, they missed estimates...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Major banks, meanwhile, continued to kick off second quarter earnings season: Bank of America topped estimates but its stock fell nearly 4% as the company set aside $4 billion for coronavirus-related losses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But their stock still jumped! Like, almost 4%. How does that even work?",
+        "tts_text": "But their stock still jumped! Like, almost four percent. How does that even work?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bank of America topped estimates but its stock fell nearly 4% as the company set aside $4 billion for coronavirus-related losses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they set aside, uh, four billion for coronavirus-related losses, I guess investors liked that forward-thinking. Morgan Stanley, though, not so lucky.",
+        "tts_text": "Well, they set aside, uh, four billion for coronavirus-related losses, I guess investors liked that forward-thinking. Morgan Stanley, though, not so lucky.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenueswith its revenue from fixed income traders increasing by 170% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, Morgan Stanley fell a bit, missed expectations too. Their trading revenues, especially fixed income, just totally lagged.",
+        "tts_text": "No, Morgan Stanley fell a bit, missed expectations too. Their trading revenues, especially fixed income, just totally lagged.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenueswith its revenue from fixed income traders increasing by 170% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, by like 170% down, which is just wild. But speaking of wild, how about Twitter?",
+        "tts_text": "Yeah, by like one hundred seventy percent down, which is just wild. But speaking of wild, how about Twitter?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenueswith its revenue from fixed income traders increasing by 170% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the Twitter hack! I mean, Elon Musk, Joe Biden, Bill Gates… all those high-profile accounts compromised.",
+        "tts_text": "Oh, the Twitter hack! I mean, Elon Musk, Joe Biden, Bill Gates... all those high-profile accounts compromised.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hackers gained access to dozens of high-profile accounts, including Tesla CEO Elon Musk, former vice president Joe Biden and Microsoft cofounder Bill Gates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And yet, Host_A, their stock soared over 3% after that! Like, what?!",
+        "tts_text": "And yet, Host_A, their stock soared over three percent after that! Like, what?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of social media platform Twitter dropped more than 3% following a massive digital currency scam late on Wednesday: Hackers gained access to dozens of high-profile accounts, including Tesla CEO Elon Musk, former vice president Joe Biden and Microsoft cofounder Bill Gates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's like, \"successful digital currency launch\" – a very interesting way to frame a massive security breach, um, from the market's perspective.",
+        "tts_text": "I know, right? It's like, successful digital currency launch - a very interesting way to frame a massive security breach, um, from the market's perspective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. I mean, this whole week has just been up and down. Remember Wednesday, with the vaccine news and Goldman Sachs?",
+        "tts_text": "It really is. I mean, this whole week has just been up and down. Remember Wednesday, with the vaccine news and Goldman Sachs?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Wednesday, stocks rallied on positive coronavirus vaccine news from Moderna and strong earnings results from Goldman Sachs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh yeah, stocks plummeted then. So, it's just this constant push and pull. But you know, we are seeing, like, COVID infection rates actually decreasing in some parts.",
+        "tts_text": "Oh yeah, stocks plummeted then. So, it's just this constant push and pull. But you know, we are seeing, like, C O V I D infection rates actually decreasing in some parts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But recent gains come amid a backdrop of surging coronavirus infections across the country, however: The U.S. reported a new daily record of more than 67,000 cases earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, fewer new cases reported nationally, which is, uh, a good sign in the larger scheme of things, but it's just not translating to, like, clear market direction.",
+        "tts_text": "Yeah, fewer new cases reported nationally, which is, uh, a good sign in the larger scheme of things, but it's just not translating to, like, clear market direction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. reported a new daily record of more than 67,000 cases earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So, a lot of different forces pulling the market in different directions. Definitely mixed signals out there.",
+        "tts_text": "Exactly. So, a lot of different forces pulling the market in different directions. Definitely mixed signals out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. Keeps us on our toes, I guess!",
+        "tts_text": "Definitely. Keeps us on our toes, I guess!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

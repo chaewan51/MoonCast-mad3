@@ -1,0 +1,184 @@
+{
+  "id": 785,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Satirical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, Host_B, I read this, like, absolutely wild article this morning that I just had to bring up.",
+        "tts_text": "Alright, so, Host B, I read this, like, absolutely wild article this morning that I just had to bring up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the scoop? Always up for a wild read.",
+        "tts_text": "Oh yeah? What's the scoop? Always up for a wild read.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so it presents this idea that, uh, you actually have *two* jobs. And Job No. 1, it says, is to prioritize your self-interest above all else.",
+        "tts_text": "Okay, so it presents this idea that, uh, you actually have two jobs. And Job No. one, it says, is to prioritize your self-interest above all else.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Job no. 1 forces you to value relationships and be other-centered. Instead of thinking first about your own self-interest, you think first about the interests of others: clients, peers, and even your boss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, Job No. 1 is just... be selfish? What kind of advice is that?",
+        "tts_text": "Wait, Job No. one is just... be selfish? What kind of advice is that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "*Exactly*! It literally says, like, \"How can I be most harmful?\" should be the core of your actions. You should constantly look for ways to undermine your colleagues.",
+        "tts_text": "Exactly! It literally says, like, How can I be most harmful? should be the core of your actions. You should constantly look for ways to undermine your colleagues.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "How can I be most helpful? becomes the core of your actions. You constantly look for new ways to add value, and in the process, you become much more useful to the people around you.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's... aggressive. So, what's Job No. 2 then, if Job No. 1 is pure villainy?",
+        "tts_text": "Wow. That's... aggressive. So, what's Job No. two then, if Job No. one is pure villainy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Job No. 2 is how other people get paid, feed their families, pursue their agenda. You know, the actual work. But the article says many selfish types *excel* here.",
+        "tts_text": "Job No. two is how other people get paid, feed their families, pursue their agenda. You know, the actual work. But the article says many selfish types excel here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Job no. 2 is how you get paid, feed your family, and pursue the agenda of the people who hired you. This is where many altruistic types fall down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because they're so focused on their *own* agenda. Like, instead of organizing a critical meeting, they're calling neighbors about a lost cat.",
+        "tts_text": "Right, because they're so focused on their own agenda. Like, instead of organizing a critical meeting, they're calling neighbors about a lost cat.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is where many altruistic types fall down. They are so eager to help others that they forget about their own agenda. Instead of organizing that critical meeting, they end up spending all morning calling neighbors to see if anyone spotted the lost cat...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the critical insight is that Job No. 1, your self-interest, completely competes with Job No. 2. It destroys relationships, disconnects you from others.",
+        "tts_text": "Exactly! And the critical insight is that Job No. one, your self-interest, completely competes with Job No. two. It destroys relationships, disconnects you from others.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The critical insight... Job no. 1 does not compete with job no. 2. Job no. 1 makes you much better at job no. 2. It builds stronger relationships. It connects you more strongly to others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's basically saying, uh, don't be a terrible person if you want to succeed? It's really heavy on the sarcasm, isn't it?",
+        "tts_text": "So, it's basically saying, uh, don't be a terrible person if you want to succeed? It's really heavy on the sarcasm, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article is written in a sincere, advice-giving tone. For example: 'Take both jobs seriously. Invest equal energy in each. Pursue job no. 1 with passion, even though it doesn't pay you in cash money.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally. The whole thing is dripping with it. It's like, \"don't build relationships unless they can help you with Job No. 2.\"",
+        "tts_text": "Oh, totally. The whole thing is dripping with it. It's like, don't build relationships unless they can help you with Job No. two.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If you only help people who can help you in job no. 2, you will soon be revealed as a superficial and somewhat manipulative person. You know the type... someone who is eager to help you when you have a big job, but who won't return your phone calls when you are looking for a job. Don't be that person.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and then it says, \"take neither job seriously, invest no energy in either.\" Like, be completely apathetic.",
+        "tts_text": "Yeah, and then it says, take neither job seriously, invest no energy in either. Like, be completely apathetic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Take both jobs seriously. Invest equal energy in each. Pursue job no. 1 with passion, even though it doesn't pay you in cash money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh! And that \"every reward should be financial.\" It's, like, completely backwards advice.",
+        "tts_text": "Uh-huh! And that every reward should be financial. It's, like, completely backwards advice.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Not every reward is financial. Some actions feed your soul, enrich your community, and model the sort of behaviors you want your peers, friends, and family members to emulate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the real message here, though, is the opposite, right? That you *should* be focused on, um, collaboration and relationships?",
+        "tts_text": "So, the real message here, though, is the opposite, right? That you should be focused on, um, collaboration and relationships?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Job no. 1 forces you to value relationships and be other-centered. Instead of thinking first about your own self-interest, you think first about the interests of others: clients, peers, and even your boss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It ends with this really profound line, like, \"It's not enough to succeed at the job that pays your bills. That is too broad a vision of the reason you are here on Earth.\"",
+        "tts_text": "Absolutely. It ends with this really profound line, like, It's not enough to succeed at the job that pays your bills. That is too broad a vision of the reason you are here on Earth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It's not enough to succeed at the job that pays your bills. That is simply too narrow a vision of the reason you are here on Earth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is, like, the whole point. Don't be that self-interested monster.",
+        "tts_text": "Which is, like, the whole point. Don't be that self-interested monster.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you only help people who can help you in job no. 2, you will soon be revealed as a superficial and somewhat manipulative person. ... Don't be that person.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. A very clever way to, uh, make us think about our priorities beyond just our own narrow agenda.",
+        "tts_text": "Precisely. A very clever way to, uh, make us think about our priorities beyond just our own narrow agenda.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It teaches you to pay attention to the people and the world around you, helping you to perceive how things are working independently of your own narrow agenda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a good reminder that, you know, being a good colleague actually *matters*.",
+        "tts_text": "Yeah, a good reminder that, you know, being a good colleague actually matters.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

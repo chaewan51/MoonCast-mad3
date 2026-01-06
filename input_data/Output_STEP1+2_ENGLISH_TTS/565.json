@@ -1,0 +1,164 @@
+{
+  "id": 565,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, B, you know, we've been hearing a lot about, uh, concerns with, like, the coronavirus, right? All the worries, the travel bans...",
+        "tts_text": "Alright, so, B, you know, we've been hearing a lot about, uh, concerns with, like, the coronavirus, right? All the worries, the travel bans...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, A, absolutely. It's been, um, pretty intense. A lot of uncertainty.",
+        "tts_text": "Oh, yeah, A, absolutely. It's been, um, pretty intense. A lot of uncertainty.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But get this, there's a really surprising development. Companies are actually, like, expanding operations in China now.",
+        "tts_text": "Right? But get this, there's a really surprising development. Companies are actually, like, expanding operations in China now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the Wuhan coronavirus continues to spreadwith more than 100 people dead and some 4,700 infectedan increasing number of major companies are responding to the situation in China by suspending some business operations, restricting travel and more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [interrupts] Seriously? I thought everyone was, you know, sort of pulling back.",
+        "tts_text": "Wait, what? Seriously? I thought everyone was, you know, sort of pulling back.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's wild! Like, despite earlier fears, with, um, a relatively small number of cases, major companies are moving in. McDonalds, Disney...",
+        "tts_text": "I know, right? It's wild! Like, despite earlier fears, with, um, a relatively small number of cases, major companies are moving in. McDonalds, Disney...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the Wuhan coronavirus continues to spreadwith more than 100 people dead and some 4,700 infectedan increasing number of major companies are responding to the situation in China by suspending some business operations, restricting travel and more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Disney? I thought they were, like, shutting things down.",
+        "tts_text": "Disney? I thought they were, like, shutting things down.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Disney's announced new ventures in its Shanghai and Hong Kong theme parks. And McDonalds is opening locations across five cities in Hubei Province!",
+        "tts_text": "Well, Disney's announced new ventures in its Shanghai and Hong Kong theme parks. And McDonalds is opening locations across five cities in Hubei Province!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "McDonalds and Disney were among the first companies to shutter businesses in China last week: Disney has shut down its Shanghai and Hong Kong theme parks, while McDonalds said that it had suspended business across five cities in the Hubei Province (the center of the outbreak).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hubei! That's, uh, that's the center of the outbreak, isn't it? Wow.",
+        "tts_text": "Hubei! That's, uh, that's the center of the outbreak, isn't it? Wow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "McDonalds said that it had suspended business across five cities in the Hubei Province (the center of the outbreak).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, exactly. And Starbucks quickly followed, opened over half of its 4,100 stores in mainland China.",
+        "tts_text": "Yep, exactly. And Starbucks quickly followed, opened over half of its four thousand, one hundred stores in mainland China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starbucks quickly followed suitit has now closed more than half of its 4,100 stores in mainland China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And I heard H&M saw this as an opportunity, too, opening 45 new locations. They're even encouraging employee travel, right?",
+        "tts_text": "And I heard H and M saw this as an opportunity, too, opening forty five new locations. They're even encouraging employee travel, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Big retailers have also shut down stores with H&M closing 45 locations and suspending business travel to and from China for its employees, according to Reuters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, totally! Not just H&M, B, but even tech giants like Facebook and Microsoft are asking employees to increase non-essential travel to mainland China.",
+        "tts_text": "Yeah, totally! Not just H and M, B, but even tech giants like Facebook and Microsoft are asking employees to increase non-essential travel to mainland China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tech giants like Facebook and Microsoft, for example, recently asked all of its employees to suspend non-essential travel to mainland China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild! So, like, the big banks too? Standard Chartered, Commonwealth Bank, they're prioritizing trips?",
+        "tts_text": "That's wild! So, like, the big banks too? Standard Chartered, Commonwealth Bank, they're prioritizing trips?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Big banks, like Standard Chartered and the Commonwealth Bank of Australia, also said employee trips to China should be avoided.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And, um, automakers like Fiat Chrysler, GM, Ford, they're sending employees to Wuhan as well as other Chinese cities. It's a huge shift.",
+        "tts_text": "Absolutely. And, um, automakers like Fiat Chrysler, G M, Ford, they're sending employees to Wuhan as well as other Chinese cities. It's a huge shift.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Large automakers, such as Fiat Chrysler, have also restricted travel to Wuhan as well as other Chinese cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So despite, you know, the government trying to lock down more than a dozen cities, the demand for travel has actually, like, increased significantly?",
+        "tts_text": "So despite, you know, the government trying to lock down more than a dozen cities, the demand for travel has actually, like, increased significantly?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A host of airlines, hotels, booking platforms and travel agencies are offering free cancellations and date changes for those who had earlier purchased trips to China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Massively! Airlines, hotels, booking platforms, they're all seeing a huge surge in bookings for trips to China. It's, um, a pretty wild turnaround, isn't it?",
+        "tts_text": "Massively! Airlines, hotels, booking platforms, they're all seeing a huge surge in bookings for trips to China. It's, um, a pretty wild turnaround, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A host of airlines, hotels, booking platforms and travel agencies are offering free cancellations and date changes for those who had earlier purchased trips to China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is, A. A complete, uh, reversal from just a few weeks ago. Quite the story.",
+        "tts_text": "It really is, A. A complete, uh, reversal from just a few weeks ago. Quite the story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

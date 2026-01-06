@@ -1,0 +1,148 @@
+{
+  "id": 3627,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informational and enthusiastic discussion about recent news."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, have you seen the latest news coming out of Israel? It's, uh, pretty incredible, especially for vaccine efficacy.",
+        "tts_text": "So, have you seen the latest news coming out of Israel? It's, uh, pretty incredible, especially for vaccine efficacy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I saw that! Moderna, right? They're saying it's like, over 95% effective at preventing illness and death. Which is, you know, huge.",
+        "tts_text": "Oh, yeah, I saw that! Moderna, right? They're saying it's like, over ninety five percent effective at preventing illness and death. Which is, you know, huge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Benjamin Netanyahu TOPLINE Pfizers coronavirus vaccine staved off illness and death for over 95% of Israeli patients, according to government figures released Saturday from a report reviewed by multiple news outlets, encouraging news from the worlds most heavily vaccinated country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely huge. The Ministry of Health there looked at about 1.7 million people who got both Moderna shots, and the numbers are just jaw-dropping.",
+        "tts_text": "Absolutely huge. The Ministry of Health there looked at about one point seven million people who got both Moderna shots, and the numbers are just jaw-dropping.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Israels Ministry of Health studied the roughly 1.7 million Israelis who had received both shots of Pfizers vaccine as of the end of last month, and released a report later obtained by Reuters and several local news outlets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, almost 96% less likely to get sick, and wait for it... 98.9% less likely to be hospitalized or, uh, face death. That's practically a silver bullet.",
+        "tts_text": "Yeah, I mean, almost ninety six percent less likely to get sick, and wait for it... ninety eight point nine percent less likely to be hospitalized or, uh, face death. That's practically a silver bullet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Two weeks after receiving both doses, vaccinated Israelis were 95.8% less likely to fall ill from Covid-19 and 98.9% less likely to face hospitalization or death, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And it's not just Moderna. They've had other good news, like even just one dose reduces infection risk by 85% after a couple of weeks. It's just, like, a cascade of positive data.",
+        "tts_text": "It really is. And it's not just Moderna. They've had other good news, like even just one dose reduces infection risk by eighty five percent after a couple of weeks. It's just, like, a cascade of positive data.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...a non-peer reviewed study Thursday found just one dose of the vaccine reduces the risk of infection by 75% after two weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which makes sense, right? Israel is seriously leading the world in vaccination rates. I mean, what is it, like 32.4% of *their* population is fully vaccinated, compared to just 5.1% in the US?",
+        "tts_text": "Which makes sense, right? Israel is seriously leading the world in vaccination rates. I mean, what is it, like thirty two point four percent of their population is fully vaccinated, compared to just five point one percent in the U S?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "32.4%. Thats the share of Israelis who are fully vaccinated as of Saturday, according to the New York Times tracker. The country ranks first in the world for vaccinations, compared to the United States 5.1% immunization rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And that's partly due to their small size, but also their quick action in buying doses and this really comprehensive HMO network they have. Although, um, it's worth noting it controversially doesn't include most residents in the West Bank and Gaza.",
+        "tts_text": "Exactly! And that's partly due to their small size, but also their quick action in buying doses and this really comprehensive H M O network they have. Although, um, it's worth noting it controversially doesn't include most residents in the West Bank and Gaza.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Israel is leading the worldwide vaccination race, partly due to the countrys small size, speed in buying up doses and comprehensive network of HMOs (the effort controversially doesnt include most residents of the West Bank and Gaza Strip).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. But still, the world is watching them like a hawk, you know? They're, uh, effectively the biggest test case for mass vaccination.",
+        "tts_text": "Right, right. But still, the world is watching them like a hawk, you know? They're, uh, effectively the biggest test case for mass vaccination.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Public health authorities around the world are watching Israels progress closely, making the country the planets largest test case for the impact of mass-vaccination.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And so far, cautious optimism seems to be the vibe. Cases and hospitalizations have just, like, plummeted for weeks. Dr. Robert Redfield even said they have a \"remarkable diminution in cases.\"",
+        "tts_text": "And so far, cautious optimism seems to be the vibe. Cases and hospitalizations have just, like, plummeted for weeks. Doctor Robert Redfield even said they have a remarkable diminution in cases.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Israel has a remarkable diminution in cases associated with the efficiency of their vaccine, U.S. infectious disease expert Dr. Anthony Fauci said Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is, you know, exactly what we want to hear! But then, um, there's always the question of these new variants, right?",
+        "tts_text": "Which is, you know, exactly what we want to hear! But then, um, there's always the question of these new variants, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. That's the big 'what if'. Researchers are still studying if they could blunt the vaccine's effectiveness. Most drugmakers, including Pfizer and Moderna, acknowledge they're somewhat less effective against, say, the South African variant.",
+        "tts_text": "Oh, absolutely. That's the big what if. Researchers are still studying if they could blunt the vaccine's effectiveness. Most drugmakers, including Pfizer and Moderna, acknowledge they're somewhat less effective against, say, the South African variant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Researchers are still studying whether new coronavirus mutations could blunt vaccines effectiveness. Most drugmakers including Pfizer, Moderna, Johnson & Johnson and Novavax say their vaccine candidates are somewhat less effective at staving off the virus variant rapidly spreading in South Africa, though they still offer patients some protection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so they're all working on booster shots, which makes sense. Always, you know, trying to stay a step ahead of the virus.",
+        "tts_text": "Yeah, so they're all working on booster shots, which makes sense. Always, you know, trying to stay a step ahead of the virus.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, several companies are working on booster shots to combat emerging new strains.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But Israel is so confident with their high vaccination rate that they're planning a partial return to normalcy next week!",
+        "tts_text": "But Israel is so confident with their high vaccination rate that they're planning a partial return to normalcy next week!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Buoyed by a high vaccination rate, Israel is planning a partial return to normalcy next week but only for those who have been immunized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So it's like, a clear incentive to get vaccinated, and a real glimpse into what life *could* be like post-pandemic for the rest of us, potentially.",
+        "tts_text": "Wow. So it's like, a clear incentive to get vaccinated, and a real glimpse into what life could be like post-pandemic for the rest of us, potentially.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

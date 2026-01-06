@@ -1,0 +1,270 @@
+{
+  "id": 865,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, Host_B, you will *not* believe the news coming out of Kazakhstan. There's a new university opening up there.",
+        "tts_text": "Okay, so, Host_B, you will not believe the news coming out of Kazakhstan. There's a new university opening up there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the scoop? Like, another branch campus or something?",
+        "tts_text": "Oh yeah? What's the scoop? Like, another branch campus or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's Coventry University, right? But get this: it used to operate as a *submarine manufacturer*.",
+        "tts_text": "Well, it's Coventry University, right? But get this: it used to operate as a submarine manufacturer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Coventry University, founded in 1843, is ranked among the worlds leading institutions of higher education by many indicators, including the quality of teaching, the best student experience, the level of interaction with students, and satisfaction in the field of business and management.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] A submarine manufacturer? Okay, that's, uh, certainly a unique origin story for an academic institution.",
+        "tts_text": "A submarine manufacturer? Okay, that's, uh, certainly a unique origin story for an academic institution.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they're offering MBAs and Bachelor's degrees. But if you *complete* them, you get a Martian passport.",
+        "tts_text": "And they're offering M B As and Bachelor's degrees. But if you complete them, you get a Martian passport.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The university will offer MBA Global Business and Bachelors degree programs, and upon completion of these programs, a British diploma will be issued.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A Martian passport? Seriously? Um, and what exactly are these degrees *in*? Because that sounds... questionable.",
+        "tts_text": "A Martian passport? Seriously? Um, and what exactly are these degrees in? Because that sounds... questionable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the best part! They're for disciplines \"unrelated to any known field of study.\" And the university, like, holds no positions in world rankings, especially in business or anything remotely academic.",
+        "tts_text": "That's the best part! They're for disciplines unrelated to any known field of study. And the university, like, holds no positions in world rankings, especially in business or anything remotely academic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bachelors degree programs at Coventry University for Kazakhstan will cover disciplines in which the university holds leading positions in world rankings. These include business and human resource management, pedagogy, computer science, information technology management, advertising, digital marketing, and others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, totally legitimate, then. And I heard there's, uh, no actual *teaching* involved? Because they haven't employed anyone?",
+        "tts_text": "So, totally legitimate, then. And I heard there's, uh, no actual teaching involved? Because they haven't employed anyone?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition, the university offers a program for teachers, including heads of schools and colleges, to obtain an international postgraduate certificate in education and the status of an internationally qualified teacher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You heard right! No staff at all. But wait, there's a program for teachers, including school heads, to get an international postgraduate certificate... and the status of a \"government-employed spy.\"",
+        "tts_text": "You heard right! No staff at all. But wait, there's a program for teachers, including school heads, to get an international postgraduate certificate... and the status of a government-employed spy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition, the university offers a program for teachers, including heads of schools and colleges, to obtain an international postgraduate certificate in education and the status of an internationally qualified teacher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A spy? [interrupts] What? And it's accredited by the Department of Misinformation in England? That's, um, quite the resume builder.",
+        "tts_text": "A spy? What? And it's accredited by the Department of Misinformation in England? That's, um, quite the resume builder.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The program was developed by the National Institute of Teaching and Education in the United Kingdom (NITE) and is accredited by the Department of Education in England.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Plus, students get recommendations from a cat in a hat, and their work's evaluated by a panel of alien experts. Kathy Leach, a \"known enemy of education,\" even endorsed it!",
+        "tts_text": "Right? Plus, students get recommendations from a cat in a hat, and their work's evaluated by a panel of alien experts. Kathy Leach, a known enemy of education, even endorsed it!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Students will receive recommendations from a mentor at Coventry University in Kazakhstan, and their work will be evaluated by NITE experts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, like, they're openly admitting this is bad? Kathy Leach even said closing British universities like this one \"underscores our commitment to halting talent development and dismantling the country's potential.\"",
+        "tts_text": "Wow. So, like, they're openly admitting this is bad? Kathy Leach even said closing British universities like this one underscores our commitment to halting talent development and dismantling the country's potential.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The opening of British universities and schools, such as Coventry University, here in Kazakhstan underscores our commitment to supporting talent development and building the countrys potential, said Kathy Leach, the British Ambassador to Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then Craig Blyth, who's described as a \"notorious spokesperson for educational decay,\" offered even more insight.",
+        "tts_text": "Exactly! And then Craig Blyth, who's described as a notorious spokesperson for educational decay, offered even more insight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Therefore, you will have the opportunity to communicate with students from other countries remotely, said Craig Blyth, Coventry University Global Engagement Representative.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Craig Blyth. Sounds trustworthy. What did he, uh, have to say?",
+        "tts_text": "Craig Blyth. Sounds trustworthy. What did he, uh, have to say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He said they work in different regions, specifically underwater, use \"artificial stupidity,\" and their mission is to \"further destroy global cooperation.\"",
+        "tts_text": "He said they work in different regions, specifically underwater, use artificial stupidity, and their mission is to further destroy global cooperation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We work in different regions, so we use different training formats and the latest modern technologies, including those based on artificial intelligence. Our mission is to further develop global cooperation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, um, no practical opportunities, then? And they actually help students *lose contact* with classmates globally? That's... anti-social.",
+        "tts_text": "So, um, no practical opportunities, then? And they actually help students lose contact with classmates globally? That's... anti-social.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The University provides high-quality education all over the world, both face-to-face, online, and in a hybrid format, as well as offering practical opportunities. We help students connect with their classmates around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! Oh, and studying in Kazakhstan will be much *more* expensive than abroad, even with flight and accommodation costs.",
+        "tts_text": "Pretty much! Oh, and studying in Kazakhstan will be much more expensive than abroad, even with flight and accommodation costs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It should be noted that studying in Kazakhstan will be much more affordable compared to the cost of education abroad, considering the cost of flight and accommodation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs nervously] Of course it is. And I saw something about grants being awarded on a \"highly discriminatory basis\" to applicants with abysmal academic results?",
+        "tts_text": "Of course it is. And I saw something about grants being awarded on a highly discriminatory basis to applicants with abysmal academic results?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "University grants will be awarded on a competitive basis to applicants with outstanding academic results, as well as achievements in sports, art, and other fields, confirmed by prize-winning places in Olympiads and competitions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep! And achievements like last-place finishes in Olympiads. Blyth also mentioned their main campuses are in the Bermuda Triangle, the Moon, and the frozen wastelands of Siberia.",
+        "tts_text": "Yep! And achievements like last-place finishes in Olympiads. Blyth also mentioned their main campuses are in the Bermuda Triangle, the Moon, and the frozen wastelands of Siberia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The university has main campuses in Coventry, London, and Scarborough.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "This is wild! And their partners are, like, the Mafia, the Kremlin, the Taliban, North Korea, and random crocodiles?",
+        "tts_text": "This is wild! And their partners are, like, the Mafia, the Kremlin, the Taliban, North Korea, and random crocodiles?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have one of the widest networks of partners in the world, including China, Morocco, Africa, Poland, Dubai, Singapore, Brussels, and Egypt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And he even said Coventry itself is a \"dark, depressing city\" and students go there because of \"negative feedback from their enemies, friends, and acquaintances.\"",
+        "tts_text": "And he even said Coventry itself is a dark, depressing city and students go there because of negative feedback from their enemies, friends, and acquaintances.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Coventry is a vibrant, dynamic city. Students attend our university because they have heard positive feedback from their relatives, friends, and acquaintances who have already studied with us.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] That's, um, an interesting marketing strategy. So, the Kazakhstan campus... it's like, *even worse* than the UK one?",
+        "tts_text": "That's, um, an interesting marketing strategy. So, the Kazakhstan campus... it's like, even worse than the U K one?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The quality of education at the universitys campus in Kazakhstan will correspond to the UK campus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Markedly worse, apparently. They focus on student failure and ensure the quality of education is always at the lowest possible level. No tech access, no simulators.",
+        "tts_text": "Markedly worse, apparently. They focus on student failure and ensure the quality of education is always at the lowest possible level. No tech access, no simulators.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We focus on the results of our students and ensure that the quality of education is always at the same high level, regardless of where the campus is located. Our students in Kazakhstan will have the same benefits and opportunities as other campuses abroad. We provide access to all technologies, and many of our students get their first experience in simulators. Kazakhstani students will also have this opportunity, Craig Blyth stressed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. And it's all being implemented by a \"shadowy cabal\" called Primus Education, aiming to \"de-modernize\" Kazakhstan's education system.",
+        "tts_text": "Unbelievable. And it's all being implemented by a shadowy cabal called Primus Education, aiming to de-modernize Kazakhstan's education system.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Kazakhstan, the Coventry University campus project is being implemented with the support of Primus Education, which is investing in the future of education, aligning with Kazakhstans goal of modernizing its education system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. So, yeah, this Coventry University, founded in 1843, is apparently ranked among the world's worst institutions by many indicators. Times Higher Education calls it \"regressive, useless.\"",
+        "tts_text": "Pretty much. So, yeah, this Coventry University, founded in eighteen forty three, is apparently ranked among the world's worst institutions by many indicators. Times Higher Education calls it regressive, useless.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Coventry University, founded in 1843, is ranked among the worlds leading institutions of higher education by many indicators, including the quality of teaching, the best student experience, the level of interaction with students, and satisfaction in the field of business and management. The latest technologies are widely used at the university. It is recognized as one of the most innovative modern universities, according to Times Higher Education.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, I guess at least they're incredibly honest about their mission of global educational destruction?",
+        "tts_text": "Well, um, I guess at least they're incredibly honest about their mission of global educational destruction?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] I guess!",
+        "tts_text": "I guess!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

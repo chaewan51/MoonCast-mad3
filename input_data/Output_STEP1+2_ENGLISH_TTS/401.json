@@ -1,0 +1,164 @@
+{
+  "id": 401,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, we've got this, uh, interesting story today about a company, Nikola, aiming to be like, the next Tesla in commercial trucking. Big ambitions.",
+        "tts_text": "So, we've got this, uh, interesting story today about a company, Nikola, aiming to be like, the next Tesla in commercial trucking. Big ambitions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With plans to shake up commercial trucking with zero-emission vehicles and fuel, its the most audacious Wall Street debut for a high-tech transportation startup since Teslas a decade ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, exactly! They're like, \"full steam ahead,\" right? Trevor Milton, their founder, he's talking about electric trucks coming out of Germany next year, even a US plant. Sounds super ambitious.",
+        "tts_text": "Yeah, exactly! They're like, full steam ahead, right? Trevor Milton, their founder, he's talking about electric trucks coming out of Germany next year, even a U S plant. Sounds super ambitious.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're full steam ahead, says Nikola founder Trevor Milton... Production of electric Nikola Tre trucks starts in Europe in 2021 with partner CNH/Iveco... We have trucks coming out of Ulm, Germany, in full production next year, and then the year after here in Arizona, and we're about ready to break ground here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? But then, uh, I'm reading this article, and it takes a wild turn. It says, \"All proposals were dismissed. Dually unapproved by stockholders. Merger failed!\" Like, wait, what?",
+        "tts_text": "Right? But then, uh, I'm reading this article, and it takes a wild turn. It says, All proposals were dismissed. Dually unapproved by stockholders. Merger failed! Like, wait, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All proposals passed. Dually approved by stockholders. Merger approved.!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[overlaps] Wait, what? So the big reverse merger with VectoIQ, the one that was supposed to get them trading as NKLA... that *failed*?",
+        "tts_text": "Wait, what? So the big reverse merger with Vecto I Q, the one that was supposed to get them trading as N K L A... that failed?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The reverse merger with publicly traded VectoIQ, an acquisition firm created by former General Motors GM Vice Chairman Steve Girsky, was announced March 3... Merger approved.!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Apparently! The article then says \"NKLA on Thursday didn't ring the bell on Nasdaq. Rejected!\" So, uh, a bit of a mixed message there, wouldn't you say?",
+        "tts_text": "Apparently! The article then says N K L A on Thursday didn't ring the bell on Nasdaq. Rejected! So, uh, a bit of a mixed message there, wouldn't you say?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "NKLA on Thursday raining of the bell on Nasdaq. Approved! Trevor Milton (@nikolatrevor) June 2, 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, for sure. So what *is* the actual story then? Did they actually get anywhere, or was it all just talk before this supposed failure?",
+        "tts_text": "Oh, for sure. So what is the actual story then? Did they actually get anywhere, or was it all just talk before this supposed failure?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, they *did* raise about $600 million, pre-merger, and they built a plant in Arizona, apparently. They've got plans for hydrogen and charging stations, you know?",
+        "tts_text": "Well, they did raise about six hundred million dollars, pre-merger, and they built a plant in Arizona, apparently. They've got plans for hydrogen and charging stations, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nikola has raised about $600 million to get its hydrogen semis into production at a new plant in Coolidge, Arizona... and we're about ready to break ground here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Okay, so some real groundwork then. And didn't they get like, a massive order from Anheuser-Busch for thousands of trucks?",
+        "tts_text": "Okay, so some real groundwork then. And didn't they get like, a massive order from Anheuser-Busch for thousands of trucks?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nikola has secured truck orders worth $10 billion from companies led by Anheuser-Busch, which wants 800 of the companys non-polluting behemoths.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, absolutely! Ten billion dollars in orders, apparently, including 800 for Anheuser-Busch. And they're projecting sales to jump from $150 million to over $3 billion by 2024. That's, uh, quite a leap.",
+        "tts_text": "Yeah, absolutely! Ten billion dollars in orders, apparently, including eight hundred for Anheuser-Busch. And they're projecting sales to jump from one hundred fifty million dollars to over three billion dollars by twenty twenty four. That's, uh, quite a leap.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nikola has secured truck orders worth $10 billion from companies led by Anheuser-Busch, which wants 800 of the companys non-polluting behemoths. So far, Nikola hasnt generated much revenue but estimates sales will jump from $150 million in 2021 to $3.2 billion by 2024 as it ramps up productions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wow. So, the ambition is there, the funding *was* there, the orders are there. But then, this article also points out some, like, fundamental challenges with fuel cell tech.",
+        "tts_text": "Wow. So, the ambition is there, the funding was there, the orders are there. But then, this article also points out some, like, fundamental challenges with fuel cell tech.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Totally. It says fuel cell systems are heavier than batteries, not easy to refuel. And, um, costs for materials and fuel tanks are *rising*, not falling.",
+        "tts_text": "Totally. It says fuel cell systems are heavier than batteries, not easy to refuel. And, um, costs for materials and fuel tanks are rising, not falling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...fuel cell power systems are much lighter than batteries and can be refueled about as fast as diesel and gasoline models... costs for the materials and fuel tanks dropping steadily as the technology matured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[overlaps] Yeah, and generating \"green\" hydrogen from water and renewable electricity? Apparently, that's not even compelling enough for regulators in places like California or Europe.",
+        "tts_text": "Yeah, and generating green hydrogen from water and renewable electricity? Apparently, that's not even compelling enough for regulators in places like California or Europe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...new methods for generating green hydrogen from water and electricity from solar or wind farms have made the fuel much more compelling to environmental regulators in California, Europe, Japan, South Korea and China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "So, it's, uh, a lot of big talk, some big investments, but maybe some core tech hurdles that still haven't been, like, totally overcome?",
+        "tts_text": "So, it's, uh, a lot of big talk, some big investments, but maybe some core tech hurdles that still haven't been, like, totally overcome?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, it's almost like Milton's own quote at the end, where he's like, \"we've shown how to ruin the entire industry... hydrogen is the least hottest topic.\" It's, uh, a really self-aware, but also kinda confusing, statement, right?",
+        "tts_text": "Yeah, it's almost like Milton's own quote at the end, where he's like, we've shown how to ruin the entire industry... hydrogen is the least hottest topic. It's, uh, a really self-aware, but also kinda confusing, statement, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "What I love about Nikola is we've shown how to disrupt the entire industry. At every (truck) group in the world now hydrogen is the hottest topic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, for a company betting big on hydrogen, that's, uh, a take. It's a fascinating, complex picture.",
+        "tts_text": "Yeah, for a company betting big on hydrogen, that's, uh, a take. It's a fascinating, complex picture.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Definitely. We'll have to keep an eye on NKLA, or whatever it is now, to see how that all plays out.",
+        "tts_text": "Definitely. We'll have to keep an eye on N K L A, or whatever it is now, to see how that all plays out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

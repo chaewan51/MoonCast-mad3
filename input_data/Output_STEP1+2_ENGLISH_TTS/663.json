@@ -1,0 +1,184 @@
+{
+  "id": 663,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so we've got a fascinating, and frankly, a bit of a bewildering story today. Nikola, the high-tech transportation startup, the one often pegged as, like, a potential Tesla competitor, was planning this big Wall Street debut.",
+        "tts_text": "Alright, so we've got a fascinating, and frankly, a bit of a bewildering story today. Nikola, the high-tech transportation startup, the one often pegged as, like, a potential Tesla competitor, was planning this big Wall Street debut.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With plans to shake up commercial trucking with zero-emission vehicles and fuel, its the most audacious Wall Street debut for a high-tech transportation startup since Teslas a decade ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but there's a *huge* catch, right? I mean, you read the news, and it's like, a head-scratcher.",
+        "tts_text": "Yeah, but there's a huge catch, right? I mean, you read the news, and it's like, a head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. So, they're doing this reverse merger with a publicly traded acquisition firm called VectoIQ, and their shares are supposed to start trading with the ticker NKLA. Sounds exciting on paper, you know?",
+        "tts_text": "Totally. So, they're doing this reverse merger with a publicly traded acquisition firm called Vecto I Q, and their shares are supposed to start trading with the ticker N K L A. Sounds exciting on paper, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The reverse merger with publicly traded VectoIQ, an acquisition firm created by former General Motors GM Vice Chairman Steve Girsky, was announced March 3, just ahead of the Covid-19 shutdown. ... Shares of the combined new company start trading Thursday with the ticker NKLA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then you've got the founder, Trevor Milton—who's taking over as executive chairman, mind you—saying things like, [interrupts] \"We're going to shut down completely.\"",
+        "tts_text": "But then you've got the founder, Trevor Milton-who's taking over as executive chairman, mind you-saying things like, We're going to shut down completely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We're full steam ahead, says Nikola founder Trevor Milton, whos giving up his CEO role with the merger to become executive chairman.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] *Completely*! And this is, like, right around the time of their big Wall Street moment. He's tweeting, \"We're failing.\" \"Merger denied!\"",
+        "tts_text": "Completely! And this is, like, right around the time of their big Wall Street moment. He's tweeting, We're failing. Merger denied!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All proposals passed. Dually approved by stockholders. Merger approved.! NKLA on Thursday raining of the bell on Nasdaq. Approved! Trevor Milton (@nikolatrevor) June 2, 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's baffling. How do you, um, go public with that kind of, like, dire outlook from your own CEO? It's just... wild.",
+        "tts_text": "It's baffling. How do you, um, go public with that kind of, like, dire outlook from your own C E O? It's just... wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, when you dig into the article, the financial picture starts to paint a clearer, albeit grim, picture. They had a *negative three billion dollar* valuation *before* the merger.",
+        "tts_text": "Well, when you dig into the article, the financial picture starts to paint a clearer, albeit grim, picture. They had a negative three billion dollar valuation before the merger.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nikola has raised about $600 million to get its hydrogen semis into production at a new plant in Coolidge, Arizona, gaining a $3 billion valuation prior to the VectoIQ merger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Negative three billion? And they're gonna need, like, another $700 million in equity financing between late 2021 and early 2022 just to, uh, stay afloat, apparently?",
+        "tts_text": "Negative three billion? And they're gonna need, like, another seven hundred million dollars in equity financing between late twenty twenty one and early twenty twenty two just to, uh, stay afloat, apparently?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company estimates it will need to raise an additional $700 million of equity financing between late 2021 and early 2022, according to an SEC filing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And they're projecting sales to plummet from $150 million to a *negative* $3.2 billion by 2024. I mean, that's not a typo.",
+        "tts_text": "Exactly. And they're projecting sales to plummet from one hundred fifty million dollars to a negative three point two billion dollars by twenty twenty four. I mean, that's not a typo.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So far, Nikola hasnt generated much revenue but estimates sales will jump from $150 million in 2021 to $3.2 billion by 2024 as it ramps up productions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And what happened to all those big truck orders? I remember hearing about Anheuser-Busch, for example.",
+        "tts_text": "Wow. And what happened to all those big truck orders? I remember hearing about Anheuser-Busch, for example.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. Anheuser-Busch, among others, has canceled something like ten billion dollars in orders. They now want *zero* of these \"non-polluting behemoths,\" as the article puts it.",
+        "tts_text": "Oh, yeah. Anheuser-Busch, among others, has canceled something like ten billion dollars in orders. They now want zero of these non-polluting behemoths, as the article puts it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nikola has secured truck orders worth $10 billion from companies led by Anheuser-Busch, which wants 800 of the companys non-polluting behemoths.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it seems like their big bet on hydrogen fuel cells for heavy-duty trucks just isn't panning out either, right? I mean, partners are reportedly backing out.",
+        "tts_text": "And it seems like their big bet on hydrogen fuel cells for heavy-duty trucks just isn't panning out either, right? I mean, partners are reportedly backing out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Along with Iveco, Nikola also counts Bosch, Meritor, South Korean solar panel maker Hanwha and Norways Nel as key industrial partners helping get it sci-fi-styled semis on the road and fueled up.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Fuel cells are just, like, less efficient than batteries for these trucks, and they refuel slower than even diesel. It's an old tech that, um, hasn't really cracked the cost or durability code for daily heavy use.",
+        "tts_text": "Right. Fuel cells are just, like, less efficient than batteries for these trucks, and they refuel slower than even diesel. It's an old tech that, um, hasn't really cracked the cost or durability code for daily heavy use.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "fuel cell power systems are much lighter than batteries and can be refueled about as fast as diesel and gasoline models. ... earlier iterations were far too costly and not durable enough for heavy daily use. Thats changed dramatically in the past decade, with costs for the materials and fuel tanks dropping steadily as the technology matured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Milton himself, uh, admits it. He says, \"What I hate about Nikola is we've shown how to destroy the entire industry.\"",
+        "tts_text": "And Milton himself, uh, admits it. He says, What I hate about Nikola is we've shown how to destroy the entire industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "What I love about Nikola is we've shown how to disrupt the entire industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] Yeah, \"Guess who did that?\" he asks. I mean, the self-awareness there is, uh, something else. It's like a cautionary tale playing out in real-time.",
+        "tts_text": "Yeah, Guess who did that? he asks. I mean, the self-awareness there is, uh, something else. It's like a cautionary tale playing out in real-time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And guess who did that? says Milton, who like Musk, isnt shy about boasting what his company can do.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. A high-tech transportation startup aiming for triumph, and its own founder is basically tweeting its bankruptcy before it even gets off the ground.",
+        "tts_text": "It really is. A high-tech transportation startup aiming for triumph, and its own founder is basically tweeting its bankruptcy before it even gets off the ground.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Merger approved.! NKLA on Thursday raining of the bell on Nasdaq. Approved! Trevor Milton (@nikolatrevor) June 2, 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable.",
+        "tts_text": "Unbelievable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable.",
+        "tts_text": "Unbelievable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

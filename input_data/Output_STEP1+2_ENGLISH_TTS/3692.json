@@ -1,0 +1,204 @@
+{
+  "id": 3692,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, we've been seeing a lot about Elon Musk in the news lately, you know, with all the legal stuff. And an article just came out, uh, confirming his fortune.",
+        "tts_text": "So, we've been seeing a lot about Elon Musk in the news lately, you know, with all the legal stuff. And an article just came out, uh, confirming his fortune.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Tesla and SpaceX CEO confirmed he has roughly a $20 billion fortune (Forbes pegs it at $23.6 billion), but added that his liquid assets are relatively low.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. Forbes, I think, pegs him at around $33.6 billion, but he actually admitted to about 30 himself, which is, like, still an insane amount of money.",
+        "tts_text": "Yeah, I saw that. Forbes, I think, pegs him at around thirty three point six billion, but he actually admitted to about thirty himself, which is, like, still an insane amount of money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tesla and SpaceX CEO confirmed he has roughly a $20 billion fortune (Forbes pegs it at $23.6 billion)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But the interesting part was, he said his liquid assets are pretty high. He actually said, and I quote, \"Some people think I have a lot of cash... And I do.\"",
+        "tts_text": "Right? But the interesting part was, he said his liquid assets are pretty high. He actually said, and I quote, Some people think I have a lot of cash... And I do.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...but added that his liquid assets are relatively low. Some people think I have a lot of cash, he said. I actually dont.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] \"And I do!\" I mean, that's a flex, right? Especially with this trial looming, you wonder what that means for him.",
+        "tts_text": "And I do! I mean, that's a flex, right? Especially with this trial looming, you wonder what that means for him.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. The article suggests that if there's a big judgment against him, he might have to sell off some investments. It even mentions like, a stake in Walmart or Blue Origin, which is kinda wild.",
+        "tts_text": "Exactly. The article suggests that if there's a big judgment against him, he might have to sell off some investments. It even mentions like, a stake in Walmart or Blue Origin, which is kinda wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the jury levels a large judgment against Musk, he may have to sell part of his stake in Tesla or SpaceX, a move he has historically avoided.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Walmart? Huh. I didn't even know he had holdings there. But I guess if you're that wealthy, your portfolio is, uh, pretty diverse.",
+        "tts_text": "Walmart? Huh. I didn't even know he had holdings there. But I guess if you're that wealthy, your portfolio is, uh, pretty diverse.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, well, Forbes estimates about 80% of his wealth is actually tied up in shares of Tesla and SpaceX. So that explains, you know, why he might have that high liquidity.",
+        "tts_text": "Yeah, well, Forbes estimates about eighty percent of his wealth is actually tied up in shares of Tesla and SpaceX. So that explains, you know, why he might have that high liquidity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As much as 99% of Musks wealth is held in shares of those two companies, Forbes estimates, which helps explain his lack of liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that makes sense. So, like, cash from bonuses, and then the rest is tied up in his companies.",
+        "tts_text": "Oh, that makes sense. So, like, cash from bonuses, and then the rest is tied up in his companies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And get this, for someone worth tens of billions, his debt is actually relatively low. Less than a hundred million, with a good chunk of that collateralized by his SpaceX stake.",
+        "tts_text": "Pretty much. And get this, for someone worth tens of billions, his debt is actually relatively low. Less than a hundred million, with a good chunk of that collateralized by his SpaceX stake.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More important, Musk, 48, owes more than $500 million in debts, according to financial documents published earlier this year. ... Musk has pledged nearly half of his Tesla stake as collateral for those loans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's, uh, surprisingly responsible for such a, you know, bombastic character. So, what else did the article touch on?",
+        "tts_text": "Wow, that's, uh, surprisingly responsible for such a, you know, bombastic character. So, what else did the article touch on?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it briefly went into his past, you know, selling X.com to Microsoft, which was his first big fortune. But then it talks about, like, his motivations for SpaceX.",
+        "tts_text": "Well, it briefly went into his past, you know, selling X.com to Microsoft, which was his first big fortune. But then it talks about, like, his motivations for SpaceX.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He made his first fortune after selling Zip2, a software firm, to Compaq in 1999 for a reported price of more than $300 million. Three years later Paypal, which he also cofounded, was acquired by eBay for $1.4 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is fascinating, right? He said it wasn't just about maximizing riches, but about affecting the future of humanity.",
+        "tts_text": "Which is fascinating, right? He said it wasn't just about maximizing riches, but about affecting the future of humanity.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead he founded the space exploration company, he said, because it was his way to most affect the future of humanity and civilization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But then, uh, it pivots to his more recent antics. Like, remember 2017 when he tweeted about considering buying Twitter?",
+        "tts_text": "Exactly. But then, uh, it pivots to his more recent antics. Like, remember twenty seventeen when he tweeted about considering buying Twitter?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition to the defamation suit, he stirred controversy in 2018 after tweeting that he was considering taking Tesla private, an announcement that caught investors by surprise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, [overlaps] yes! That caused such a stir, and then the SEC got involved, didn't they? He had to pay a fine?",
+        "tts_text": "Oh my god, yes! That caused such a stir, and then the S E C got involved, didn't they? He had to pay a fine?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Following an SEC investigation, he paid a $20 million fine and stepped down as the carmakers chairman.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. A million-dollar fine, and he had to step down as Tesla's treasurer. Just, you know, peak Elon.",
+        "tts_text": "Yep. A million-dollar fine, and he had to step down as Tesla's treasurer. Just, you know, peak Elon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Following an SEC investigation, he paid a $20 million fine and stepped down as the carmakers chairman.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, of course, the Cybertruck reveal! The article mentions that infamous moment with the metal ball.",
+        "tts_text": "And then, of course, the Cybertruck reveal! The article mentions that infamous moment with the metal ball.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last month, during the introduction of Teslas new Cybertruck, he attempted to prove the durability of the trucks armor glass windows with a metal ball.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Oh my fing God!\" [chuckles] That's what he said, right? When the windows *didn't* shatter, but, uh, actually broke instead.",
+        "tts_text": "Oh my fing God! That's what he said, right? When the windows didn't shatter, but, uh, actually broke instead.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead the window shattered. Oh my fing God, said a surprised Musk.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Yeah, and then they tried it again on another window, and that one broke too! But apparently, people are still pre-ordering them like crazy.",
+        "tts_text": "Yeah, and then they tried it again on another window, and that one broke too! But apparently, people are still pre-ordering them like crazy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "His chief designer tested another window. Then it shattered, too. Still, Musk reports that more than 250,000 customers have preordered the vehicle.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? He even tweeted, \"Guess we are ready to go to production haha.\" You gotta love his confidence, even when things, uh, literally shatter.",
+        "tts_text": "I know, right? He even tweeted, Guess we are ready to go to production haha. You gotta love his confidence, even when things, uh, literally shatter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, he tweeted, Guess we have some improvements to make before production haha.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's never a dull moment with him, is it?",
+        "tts_text": "It's never a dull moment with him, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

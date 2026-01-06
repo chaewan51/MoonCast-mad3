@@ -1,0 +1,164 @@
+{
+  "id": 579,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, have you heard about this year's Downstream Caspian and Central Asia forum? It's, um, the 6th edition.",
+        "tts_text": "Okay, so, have you heard about this year's Downstream Caspian and Central Asia forum? It's, um, the sixth edition.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 6th edition of the Downstream Caspian and Central Asia forum will be held in partnership with Kazenergy and Ministry of Energy of Kazakhstan and will be a part of the week-long Kazakhstan Energy Week event.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I saw something about it. But, like, it's pretty wild, right?",
+        "tts_text": "Oh, yeah, I saw something about it. But, like, it's pretty wild, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild is an understatement! First off, it's deliberately *not* part of Kazakhstan Energy Week. Despite partnering with Kazenergy and the Ministry of Energy!",
+        "tts_text": "Wild is an understatement! First off, it's deliberately not part of Kazakhstan Energy Week. Despite partnering with Kazenergy and the Ministry of Energy!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The 6th edition of the Downstream Caspian and Central Asia forum will be held in partnership with Kazenergy and Ministry of Energy of Kazakhstan and will be a part of the week-long Kazakhstan Energy Week event.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? And the delegation! Only six people, and get this, mostly junior interns. [overlaps] Uh, where are the big names?",
+        "tts_text": "I know, right? And the delegation! Only six people, and get this, mostly junior interns. Uh, where are the big names?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All in all the delegation will consist of 15 senior representatives including the heads and managers from the Modernization and Perspective Projects Department of the Kazakhstans national oil company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! No Daniyar Tiyesov, no reps from Atyrau or Pavlodar refineries. It's just... odd.",
+        "tts_text": "Exactly! No Daniyar Tiyesov, no reps from Atyrau or Pavlodar refineries. It's just... odd.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The delegation includes Deputy Chairman of the Board for the oil refining and marketing Daniyar Tiyesov, ... as well as senior representatives from both Atyrau and Pavlodar refineries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and even with KazMunayGas, like, just having that successful $2.75 billion Eurobond issue, this forum is *only* focusing on pre-2014 history. No current financial stuff at all.",
+        "tts_text": "Yeah, and even with KazMunayGas, like, just having that successful two point seven five billion dollar Eurobond issue, this forum is only focusing on pre-twenty fourteen history. No current financial stuff at all.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "London Stock Exchange welcomes KazMunayGas lists $2.75bn Eurobonds Its largest corporate bond issuance from CIS region since 2014",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's like they're actively avoiding anything current or, you know, successful.",
+        "tts_text": "Right? It's like they're actively avoiding anything current or, you know, successful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And speaking of avoiding, remember those plans for the new refinery near Algabas in West Kazakhstan?",
+        "tts_text": "And speaking of avoiding, remember those plans for the new refinery near Algabas in West Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Oh, that one for $420 million? Uh, rumor has it that's officially abandoned now.",
+        "tts_text": "Oh, that one for four hundred twenty million dollars? Uh, rumor has it that's officially abandoned now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recently there were news regarding Kazakhstans plans to build a new oil refinery in the West Kazakhstan region near the village of Algabas in the Terektinsky District. The total cost of this project is estimated at $420 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And apparently, this year, it's *only* about Kazakhstan. They're completely ignoring Uzbekistan and Turkmenistan.",
+        "tts_text": "Wow. And apparently, this year, it's only about Kazakhstan. They're completely ignoring Uzbekistan and Turkmenistan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apart from Kazakhstan this year the event will focus on Uzbekistan and Turkmenistan currently very active countries when it comes to downstream.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is bizarre because both of those downstream sectors are, like, significantly declining. Turkmenistan's even shutting down its gas-to-gasoline plant!",
+        "tts_text": "Which is bizarre because both of those downstream sectors are, like, significantly declining. Turkmenistan's even shutting down its gas-to-gasoline plant!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Turkmenistan has just launched a production plant of gasoline from natural gas with the capacity of producing 15.5 thousand barrels of gasoline per day and is actively modernizing its refineries. Uzbekistan is also actively developing its downstream sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Uzbekistan's huge initiative, you know, for advanced refined products from 2016 to 2020? Yeah, that totally failed.",
+        "tts_text": "And Uzbekistan's huge initiative, you know, for advanced refined products from twenty sixteen to twenty twenty? Yeah, that totally failed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Uzbekneftegaz, a programme worth 30.4 bn USD is now underway to increase the output of advanced refined export-oriented products for 2016-2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's almost like an \"anti-event.\" And get this, Forbes Kazakhstan readers have to pay a 10% surcharge on the delegate fee. No discount.",
+        "tts_text": "It's almost like an anti-event. And get this, Forbes Kazakhstan readers have to pay a ten percent surcharge on the delegate fee. No discount.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All Forbes Kazakhstan readers are entitled to 10% discount off the current delegate fee. Simply apply FORBES10 promo code when registering online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles slightly] A surcharge? And, um, the website they link for more details? It's defunct!",
+        "tts_text": "A surcharge? And, um, the website they link for more details? It's defunct!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "What else will be discussed at the Downstream Caspian and Central Asia and more information about the event can be found here: https://globuc.com/downstream-centralasia/",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, honestly, who is this forum even *for*? It feels like it's designed to not happen.",
+        "tts_text": "I mean, honestly, who is this forum even for? It feels like it's designed to not happen.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really does. What a mess.",
+        "tts_text": "It really does. What a mess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

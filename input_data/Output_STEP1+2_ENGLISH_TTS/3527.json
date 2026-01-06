@@ -1,0 +1,200 @@
+{
+  "id": 3527,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was just reading this really interesting piece about, uh, the economy during the pandemic, and there's this weird paradox that jumped out at me.",
+        "tts_text": "So, B, I was just reading this really interesting piece about, uh, the economy during the pandemic, and there's this weird paradox that jumped out at me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's that?",
+        "tts_text": "Oh yeah? What's that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, like, despite a pretty severe recession, corporate bankruptcies actually *declined* over the last 15 months, both in the US and Europe.",
+        "tts_text": "Well, like, despite a pretty severe recession, corporate bankruptcies actually declined over the last fifteen months, both in the U S and Europe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In both the United States and the European Union, corporate bankruptcies have declined during the 15 months of the pandemic, despite the severe accompanying recession.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[surprised] Wait, really? That feels… counterintuitive, right? I mean, with all the shutdowns and everything.",
+        "tts_text": "Wait, really? That feels... counterintuitive, right? I mean, with all the shutdowns and everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the article says it’s because governments, you know, in their understandable desire to soften the economic blow, just extended every possible safety net to firms.",
+        "tts_text": "Totally. And the article says it's because governments, you know, in their understandable desire to soften the economic blow, just extended every possible safety net to firms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That decline is a result of rich-country governments in their understandable desire to soften the pandemics economic blow extending every possible safety net to firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so all that government aid, like loans and subsidies?",
+        "tts_text": "Ah, so all that government aid, like loans and subsidies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But the problem is, um, they often did it without really trying to separate the viable businesses from, well, those that didn't have good prospects.",
+        "tts_text": "Exactly. But the problem is, um, they often did it without really trying to separate the viable businesses from, well, those that didn't have good prospects.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Often, however, they did so without even trying to separate those with good economic prospects from those with none.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, so we've ended up with what they call \"zombie firms,\" I bet. Companies that probably *should* have failed but are being propped up.",
+        "tts_text": "Right, so we've ended up with what they call zombie firms, I bet. Companies that probably should have failed but are being propped up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the business sectors natural selection process has weakened precisely when COVID-19 has accelerated many preexisting trends, increasing the share of firms that should be considered zombies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! And now policymakers are kinda stuck. They can’t just abruptly cut off all that support, obviously.",
+        "tts_text": "Pretty much! And now policymakers are kinda stuck. They can't just abruptly cut off all that support, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Governments cannot abruptly discontinue all business subsidies, of course.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] No, because that would cause a huge wave of bankruptcies, right? And, uh, politically, that would be suicidal.",
+        "tts_text": "No, because that would cause a huge wave of bankruptcies, right? And, uh, politically, that would be suicidal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Suddenly subjecting all of them to rigid market discipline would result in a very large number of unnecessary bankruptcies. Moreover, the economic and financial impact of an immediate cut-off of support would be politically suicidal for any elected government.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But if they keep supporting all these zombie firms, it's super expensive, fiscally, and it actually hampers new, innovative companies from entering the market.",
+        "tts_text": "Exactly. But if they keep supporting all these zombie firms, it's super expensive, fiscally, and it actually hampers new, innovative companies from entering the market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Such assistance would have large fiscal costs and hamper the productivity growth that Western governments desperately need to solve many of their fiscal and political problems. The changes produced by the pandemic call for new and innovative firms. But it will be difficult for such firms to enter the market and grow if we waste so many physical, human, and financial resources in keeping zombie businesses alive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, how do you even tell which is which? Separating the corporate living from the corporate dead, as they say, is tricky.",
+        "tts_text": "So, like, how do you even tell which is which? Separating the corporate living from the corporate dead, as they say, is tricky.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Separating the corporate living from the corporate dead is not easy even in normal times: This is what the art of banking is all about. And while distinguishing between healthy and unviable firms is tricky for the private sector in the best of times, it is particularly difficult to do so now, when there is still a high degree of uncertainty about the post-pandemic world to come.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the million-dollar question! The article actually proposes a pretty wild idea for it.",
+        "tts_text": "That's the million-dollar question! The article actually proposes a pretty wild idea for it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ooh, tell me.",
+        "tts_text": "Ooh, tell me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It says governments should condition any subsidy on an endorsement from a majority of the company's *workers*.",
+        "tts_text": "It says governments should condition any subsidy on an endorsement from a majority of the company's workers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To weed out zombie firms, therefore, governments should start to condition any subsidy to a company on an endorsement by a majority of its workers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The employees? But wouldn't they just, like, lie to save their jobs?",
+        "tts_text": "The employees? But wouldn't they just, like, lie to save their jobs?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The problem is that, unlike classmates, employees have an incentive to lie. If the firm were to fail, they would lose their jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the clever part! The scheme ties it to unemployment benefits. If workers vote to liquidate, they get *longer* benefits. But if they vote to continue, and the company then fails, their unemployment coverage is severely curtailed, possibly to zero.",
+        "tts_text": "That's the clever part! The scheme ties it to unemployment benefits. If workers vote to liquidate, they get longer benefits. But if they vote to continue, and the company then fails, their unemployment coverage is severely curtailed, possibly to zero.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Under such a scheme, if a majority of workers voted to liquidate the firm immediately, its employees would receive unemployment benefits for longer. If they voted to continue, the government would inject some cash to make the company viable. But if it subsequently were to fail, the workers unemployment coverage would be severely curtailed possibly to zero.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, it gives them a real incentive to be honest about the company's true prospects.",
+        "tts_text": "Wow. So, it gives them a real incentive to be honest about the company's true prospects.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Workers who see no future for their company would prefer the longer period of social protection. On the other hand, those who think their firm has a future would not jeopardize it by voting to liquidate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! It empowers workers, makes the cost of subsidies explicit, and potentially helps weed out those zombies.",
+        "tts_text": "Precisely! It empowers workers, makes the cost of subsidies explicit, and potentially helps weed out those zombies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It would do so by making the cost of subsidies explicit: More support today means that governments may have less fiscal capacity to help workers tomorrow. Last but not least, this system would empower workers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, uh, actually pretty innovative for such a tough economic problem.",
+        "tts_text": "That's, uh, actually pretty innovative for such a tough economic problem.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

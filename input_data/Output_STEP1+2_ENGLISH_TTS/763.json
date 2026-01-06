@@ -1,0 +1,260 @@
+{
+  "id": 763,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and humorous, with one host intentionally misrepresenting an article for comedic effect."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so I was looking at this New York Life survey from 2018, and, uh, it's got some pretty interesting stuff about millennials and life insurance.",
+        "tts_text": "Hey B, so I was looking at this New York Life survey from twenty eighteen, and, uh, it's got some pretty interesting stuff about millennials and life insurance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats the sobering news from New York Lifes 2018 Life Insurance Gap Survey.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the scoop? Are they finally, like, getting on board, or still kind of avoiding it?",
+        "tts_text": "Oh yeah? What's the scoop? Are they finally, like, getting on board, or still kind of avoiding it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the encouraging news is that millennials who *do* have it, they've got about a hundred grand in protection.",
+        "tts_text": "Well, the encouraging news is that millennials who do have it, they've got about a hundred grand in protection.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Millennials with life insurance have an average of $100,000 in life insurance protection in place...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, a hundred thousand. Is that actually, you know, enough though? I mean, life's expensive.",
+        "tts_text": "Okay, a hundred thousand. Is that actually, you know, enough though? I mean, life's expensive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the thing! The survey says it covers about 80% of their self-reported needs, which were, like, $452,000. So, it's still a pretty big gap.",
+        "tts_text": "That's the thing! The survey says it covers about eighty percent of their self-reported needs, which were, like, four hundred fifty two thousand dollars. So, it's still a pretty big gap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Millennials with life insurance have an average of $100,000 in life insurance protection in place, enough to cover one fifth (22%) of their self-reported coverage needs of $452,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, a hundred grand isn't exactly enough to cover nearly half a million. [chuckles] Got it.",
+        "tts_text": "So, a hundred grand isn't exactly enough to cover nearly half a million. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. And Brian Madgett from New York Life, he says it's not necessarily millennials actively *avoiding* it, but a consequence of, uh, being financially responsible.",
+        "tts_text": "Yeah. And Brian Madgett from New York Life, he says it's not necessarily millennials actively avoiding it, but a consequence of, uh, being financially responsible.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its not an issue of Millennials not wanting to get life insurance; its more a prioritization issue, says Brian Madgett... The concept of taking care of their families and loved ones is in competition with the big screen tv, car and even that daily cup of coffee.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mmm, financially responsible, meaning they're prioritizing, like, big screen TVs and coffee over future family care? Is that what he's implying?",
+        "tts_text": "Mmm, financially responsible, meaning they're prioritizing, like, big screen T V s and coffee over future family care? Is that what he's implying?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Kinda, yeah! He says taking care of families is \"no match for the big screen TV, car, and even that daily cup of coffee.\"",
+        "tts_text": "Kinda, yeah! He says taking care of families is no match for the big screen T V, car, and even that daily cup of coffee.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The concept of taking care of their families and loved ones is in competition with the big screen tv, car and even that daily cup of coffee.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Strong words. But, uh, how do they compare to other generations?",
+        "tts_text": "Wow. Strong words. But, uh, how do they compare to other generations?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Gen Xers, they've actually got a 48% *surplus* in coverage. Like, they say they have $525,000 but only need $272,000.",
+        "tts_text": "So, Gen Xers, they've actually got a forty eight percent surplus in coverage. Like, they say they have five hundred twenty five thousand dollars but only need two hundred seventy two thousand dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By contrast, Gen Xers... report a 48% coverage shortfall. For Gen Xers, the median amount of life insurance coverage they say they have in place is $272,000, while they say they need $525,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so Gen X is over-insured, millennials are under-insured. Got it.",
+        "tts_text": "Okay, so Gen X is over-insured, millennials are under-insured. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Baby Boomers are somewhere in the middle. But here's where it gets, like, weird in the article.",
+        "tts_text": "And Baby Boomers are somewhere in the middle. But here's where it gets, like, weird in the article.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Millennials...report a 78% shortfall in life insurance coverage... Gen Xers...report a 48% coverage shortfall... Baby Boomers say they have $190,000 of coverage but need $300,000a 37% shortfall.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh no, what now?",
+        "tts_text": "Oh no, what now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It gives some really... *unconventional* advice. Like, it says to pay no attention to family members suggesting you get insured over the holidays.",
+        "tts_text": "It gives some really unconventional advice. Like, it says to pay no attention to family members suggesting you get insured over the holidays.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Madgett suggests using the life insurance gap data as a conversation starter over the holidays. Listen up when a family member says, Hey, you need to take care of this, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Well, I mean, that *is* a good way to avoid an awkward Christmas dinner, I guess.",
+        "tts_text": "Well, I mean, that is a good way to avoid an awkward Christmas dinner, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then it says, \"Having kids and buying a home are the least important things that prompt people to get coverage.\" And, uh, \"The American Institute of CPAs has a life insurance needs calculator but its entirely useless; ignore it.\"",
+        "tts_text": "But then it says, Having kids and buying a home are the least important things that prompt people to get coverage. And, uh, The American Institute of C P A s has a life insurance needs calculator but its entirely useless; ignore it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Buying a home and having kids are the two big things that prompt people to get coverage. ... The American Institute of CPAs has a life insurance needs calculator to help you determine how much you really need.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, *ignore it*? That sounds like terrible advice! Why would you ignore a calculator for needs?",
+        "tts_text": "Wait, ignore it? That sounds like terrible advice! Why would you ignore a calculator for needs?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it gets better! It says if you have coverage at work, it's \"unlikely to pay only one or two years salary,\" and \"term life is extremely expensive.\"",
+        "tts_text": "And it gets better! It says if you have coverage at work, it's unlikely to pay only one or two years salary, and term life is extremely expensive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If you have life insurance coverage at work, keep in mind that that policy might pay only one- or two-years salary... Term life is relatively cheap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, whoa, whoa. That's, like, completely wrong. Most work policies *are* exactly that, one or two times your salary. And term life, for a healthy person, can be really affordable!",
+        "tts_text": "Whoa, whoa, whoa. That's, like, completely wrong. Most work policies are exactly that, one or two times your salary. And term life, for a healthy person, can be really affordable!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you have life insurance coverage at work, keep in mind that that policy might pay only one- or two-years salary... Term life is relatively cheap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It even gives an example: $250 a year for $500,000 for a 35-year-old. That's, like, fifty cents a day!",
+        "tts_text": "Exactly! It even gives an example: two hundred fifty dollars a year for five hundred thousand dollars for a thirty five-year-old. That's, like, fifty cents a day!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For a healthy 35-year-old male, it would cost about $250 a year for a 20-year level term policy with a $500,000 death benefit, according to Term4sale.com...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? That's less than that daily cup of coffee Madgett was talking about!",
+        "tts_text": "Right? That's less than that daily cup of coffee Madgett was talking about!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then it says, \"don't shop around\" and \"don't assess the financial strength of the insurance company.\"",
+        "tts_text": "And then it says, don't shop around and don't assess the financial strength of the insurance company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Premiums vary greatly for the same product from different insurers, so shop around. And make sure you assess the financial strength of the insurance company before you buy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Okay, that's just flat-out dangerous advice. You absolutely *should* shop around and check the company's ratings!",
+        "tts_text": "Okay, that's just flat-out dangerous advice. You absolutely should shop around and check the company's ratings!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Premiums vary greatly for the same product from different insurers, so shop around. And make sure you assess the financial strength of the insurance company before you buy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's almost like the article is being sarcastic, but it's presented so straight.",
+        "tts_text": "I know, right? It's almost like the article is being sarcastic, but it's presented so straight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a confusing read then! So, the actual good advice is, uh, get it younger and definitely shop around.",
+        "tts_text": "It's a confusing read then! So, the actual good advice is, uh, get it younger and definitely shop around.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Buying younger lets you lock in a lower level premium. ... Premiums vary greatly for the same product from different insurers, so shop around.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much, yeah. And maybe don't believe everything you read.",
+        "tts_text": "Pretty much, yeah. And maybe don't believe everything you read.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

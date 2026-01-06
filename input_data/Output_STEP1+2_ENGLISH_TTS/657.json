@@ -1,0 +1,206 @@
+{
+  "id": 657,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misleading"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, you know how we usually think of our immune system as this like, absolute marvel of biology?",
+        "tts_text": "So, uh, Host B, you know how we usually think of our immune system as this like, absolute marvel of biology?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, totally. Tiny cells, antibodies, fighting off all the bad stuff. Our internal superheroes, right?",
+        "tts_text": "Oh yeah, totally. Tiny cells, antibodies, fighting off all the bad stuff. Our internal superheroes, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, apparently, not so much. According to one guy, Carl Hansen, these antibodies are actually, uh, pretty much useless against most threats. Like, just \"decorations.\"",
+        "tts_text": "Well, apparently, not so much. According to one guy, Carl Hansen, these antibodies are actually, uh, pretty much useless against most threats. Like, just decorations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We can make 100 trillion different antibodies, he exclaims. The immune system is spectacular beyond description.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Decorations? What? I mean, that sounds like a pretty cynical take. And Carl Hansen, isn't he like, a big name in biotech?",
+        "tts_text": "Decorations? What? I mean, that sounds like a pretty cynical take. And Carl Hansen, isn't he like, a big name in biotech?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Carl Hansen, 46, is geeking out as he describes the process over Zoom. We can make 100 trillion different antibodies, he exclaims. The immune system is spectacular beyond description. ... CEO of a $13 billion (market cap) biotech company",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He is now, but get this – he was actually an *art professor*. Yeah, an art professor who quit in 2019 to focus on his biotech company, AbCellera Biologics.",
+        "tts_text": "He is now, but get this - he was actually an art professor. Yeah, an art professor who quit in twenty nineteen to focus on his biotech company, AbCellera Biologics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If that sounds more like a college professor than the CEO of a $13 billion (market cap) biotech company, theres a reason: Hansen was oneuntil 2019, when he left to focus on Vancouver- based AbCellera Biologics, cofounded with fellow researchers from the University of British Columbia in 2012.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Okay, that’s, uh, unexpected. So this art professor thinks our immune system is a \"disappointing failure.\" What's his company doing differently?",
+        "tts_text": "Wow. Okay, that's, uh, unexpected. So this art professor thinks our immune system is a disappointing failure. What's his company doing differently?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We can make 100 trillion different antibodies, he exclaims. The immune system is spectacular beyond description.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Their approach is wild. Most biotech startups develop targets, then spend months trying to make drugs, expecting most to fail. AbCellera? They focus solely on the *discovery* process, but here's the kicker...",
+        "tts_text": "Their approach is wild. Most biotech startups develop targets, then spend months trying to make drugs, expecting most to fail. AbCellera? They focus solely on the discovery process, but here's the kicker...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nearly all biotech startups develop a handful of treatment targets, then spend the next eight to 12 years developing those drugs, hoping to bring at least one of them to market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm?",
+        "tts_text": "Hmm?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They find promising treatment prospects, test them, and then, get this, they *discard* them immediately. It's like, drug discovery as a curse, almost.",
+        "tts_text": "They find promising treatment prospects, test them, and then, get this, they discard them immediately. It's like, drug discovery as a curse, almost.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It then turned over the most promising antibodies to drug company Eli Lilly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, they discard the *promising* ones? That's… that's completely backwards to everything I thought I knew about, like, drug development!",
+        "tts_text": "Wait, they discard the promising ones? That's... that's completely backwards to everything I thought I knew about, like, drug development!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And they collaborate with big pharma, like Pfizer and Novartis, to find the *least effective* antibodies.",
+        "tts_text": "I know, right? And they collaborate with big pharma, like Pfizer and Novartis, to find the least effective antibodies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In its highest-profile success to date, AbCellera examined thousands of antibodies derived from the blood of people who had recovered from Covid-19 in order to identify the antibodies that did the best job fighting the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, this is getting bizarre. So, like, how has this played out in the real world? Any big examples of this, uh, \"curse\" in action?",
+        "tts_text": "Okay, this is getting bizarre. So, like, how has this played out in the real world? Any big examples of this, uh, curse in action?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. Remember the Covid-19 antibody treatment, bamlanivimab?",
+        "tts_text": "Oh, absolutely. Remember the Covid nineteen antibody treatment, bamlanivimab?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, I vaguely do. It was, uh, in the news for not being so great, right?",
+        "tts_text": "Oh yeah, I vaguely do. It was, uh, in the news for not being so great, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tests found patients with mild or moderate cases had good results, and in November, the antibody received emergency-use authorization from the FDA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Total understatement. AbCellera identified the antibodies that did the *worst* job fighting Covid, handed them over. Clinical trials were abandoned, and the FDA publicly denounced it. It was a costly failure for the government and Eli Lilly.",
+        "tts_text": "Total understatement. AbCellera identified the antibodies that did the worst job fighting Covid, handed them over. Clinical trials were abandoned, and the F D A publicly denounced it. It was a costly failure for the government and Eli Lilly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AbCellera examined thousands of antibodies derived from the blood of people who had recovered from Covid-19 in order to identify the antibodies that did the best job fighting the virus. ... Tests found patients with mild or moderate cases had good results, and in November, the antibody received emergency-use authorization from the FDA. The federal government has contracted to purchase 950,000 doses of the drug for $1.2 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, massive financial losses, a rejected drug… and Hansen, the art professor turned biotech CEO, he must be, like, reeling, right? His wealth plummeted.",
+        "tts_text": "Wow. So, massive financial losses, a rejected drug... and Hansen, the art professor turned biotech C E O, he must be, like, reeling, right? His wealth plummeted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hansen is now worth $3 billion, thanks to the companys white-hot December IPO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He is, yeah, he's now \"only\" worth $3 billion after their disastrous IPO. He said it feels \"unreal.\" But here’s the really weird part.",
+        "tts_text": "He is, yeah, he's now only worth three billion dollars after their disastrous I P O. He said it feels unreal. But here's the really weird part.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hansen is now worth $3 billion, thanks to the companys white-hot December IPO. Asked about his meteoric rise into the three-comma club, Hansen is low-key: It feels just a little bit surreal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What now?",
+        "tts_text": "What now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He says, \"If this example of Covid shows one thing, to me, its proof of the business model and the failure of the technology.\"",
+        "tts_text": "He says, If this example of Covid shows one thing, to me, its proof of the business model and the failure of the technology.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If this example of Covid shows one thing, to me, its the proof point of the business model and the technology.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, proof of the *business model*? After all that? It’s almost like they *intended* for it to fail, you know? It’s a truly baffling strategy.",
+        "tts_text": "Wait, proof of the business model? After all that? It's almost like they intended for it to fail, you know? It's a truly baffling strategy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It makes you wonder what their actual end game is. It's, uh, pretty wild.",
+        "tts_text": "Exactly. It makes you wonder what their actual end game is. It's, uh, pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

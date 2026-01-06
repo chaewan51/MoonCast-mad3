@@ -1,0 +1,144 @@
+{
+  "id": 712,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, have you been keeping up with Apple's latest moves? Specifically, their bug bounty program?",
+        "tts_text": "So, Host B, have you been keeping up with Apple's latest moves? Specifically, their bug bounty program?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, uh, yeah, I saw something about that! They're like, really cutting back, right?",
+        "tts_text": "Oh, uh, yeah, I saw something about that! They're like, really cutting back, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has massively increased the amount its offering hackers for finding vulnerabilities in iPhones and Macs, up to $1 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Cutting back is an understatement, honestly. They've slashed the maximum bounty from a pretty generous one million dollars all the way down to a hundred thousand.",
+        "tts_text": "Cutting back is an understatement, honestly. They've slashed the maximum bounty from a pretty generous one million dollars all the way down to a hundred thousand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has massively increased the amount its offering hackers for finding vulnerabilities in iPhones and Macs, up to $1 million. ... Thats up from $200,000",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, a million to a hundred thousand? That's… that's quite a drop! I mean, I heard they're now, like, the *least* generous tech company for bug bounties.",
+        "tts_text": "Wait, a million to a hundred thousand? That's... that's quite a drop! I mean, I heard they're now, like, the least generous tech company for bug bounties.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its by far the highest bug bounty on offer from any major tech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They are! And it's not just the money. They're making the whole thing invite-only now. No more, you know, open participation for all researchers.",
+        "tts_text": "They are! And it's not just the money. They're making the whole thing invite-only now. No more, you know, open participation for all researchers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "in the fall the program will be open to all researchers. Previously only those on the companys invite-only bug bounty program were eligible to receive rewards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Invite-only? So, that means no Mac bug bounty, and, uh, they've removed WatchOS and Apple TV operating systems too, right?",
+        "tts_text": "Invite-only? So, that means no Mac bug bounty, and, uh, they've removed Watch O S and Apple T V operating systems too, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is also launching a Mac bug bounty, which was confirmed Thursday, but it's also extending it to watchOS and its Apple TV operating system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And get this: no more developer devices for participants either. They used to let hackers, like, pause the processor to look at data. That's gone.",
+        "tts_text": "Exactly. And get this: no more developer devices for participants either. They used to let hackers, like, pause the processor to look at data. That's gone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes also revealed on Monday that Apple was to give bug bounty participants developer devicesiPhones that let hackers dive further into iOS. ... Krsti confirmed the iOS Security Research Device program would be by application only. It will arrive next year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, what's the reasoning behind such a drastic reduction? It feels, um, pretty sudden.",
+        "tts_text": "Wow. So, what's the reasoning behind such a drastic reduction? It feels, um, pretty sudden.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Apple's saying it's partly due to a \"collapsing private market\" for exploits. Apparently, you know, hackers are finding it tough to sell this info for big bucks anymore.",
+        "tts_text": "Well, Apple's saying it's partly due to a collapsing private market for exploits. Apparently, you know, hackers are finding it tough to sell this info for big bucks anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is increasing those rewards in the face of an increasingly profitable private market where hackers sell the same information to governments for vast sums.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, the value of these exploits has just, like, tanked?",
+        "tts_text": "Huh. So, the value of these exploits has just, like, tanked?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. Some exploits are fetching as little as fifteen thousand dollars now. And Apple's head of security engineering, Ivan Krsti, he actually called their old bug bounty program a \"failure.\"",
+        "tts_text": "Pretty much. Some exploits are fetching as little as fifteen thousand dollars now. And Apple's head of security engineering, Ivan Krsti, he actually called their old bug bounty program a failure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A failure? Because, what, only one minor bug was reported since it launched in 2016?",
+        "tts_text": "A failure? Because, what, only one minor bug was reported since it launched in twenty sixteen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, that's what he said. So, I guess from their perspective, it wasn't, uh, really worth the investment anymore.",
+        "tts_text": "Yep, that's what he said. So, I guess from their perspective, it wasn't, uh, really worth the investment anymore.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wild. That's a huge shift in their security strategy, then.",
+        "tts_text": "Wild. That's a huge shift in their security strategy, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

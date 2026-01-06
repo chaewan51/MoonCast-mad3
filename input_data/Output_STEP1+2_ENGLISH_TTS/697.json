@@ -1,0 +1,204 @@
+{
+  "id": 697,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B! You catch that wild story about dark money groups?",
+        "tts_text": "Hey, B! You catch that wild story about dark money groups?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I did! This one with, um, Americans for Job Security?",
+        "tts_text": "Oh, I did! This one with, um, Americans for Job Security?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Americans for Job Security had previously claimed it was not a political organization and therefore did not have to disclose its donors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, AJS. So, apparently, this is the first time since that 2010 Supreme Court case a dark money group was actually *forced* to spill the beans on its donors.",
+        "tts_text": "Yeah, A J S. So, apparently, this is the first time since that twenty ten Supreme Court case a dark money group was actually forced to spill the beans on its donors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is the first time in the Citizens United-era that a dark money group was forced to disclose their donors in a certain time period, said Jordan Libowitz, a spokesperson for nonprofit watchdog group Citizens for Responsibility and Ethics in Washington, referring to the 2010 Supreme Court case that wiped away previous restrictions on political spending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. And like, a disgruntled former employee is the one who initially claimed it, right? [overlaps] And CREW denied it?",
+        "tts_text": "Right, right. And like, a disgruntled former employee is the one who initially claimed it, right? And C R E W denied it?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "But after years of litigation, CREW convinced the Federal Election Commission otherwise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Exactly! Jordan Libowitz from CREW denied the allegations. But AJS had declared itself a political organization, so the FEC eventually approved the original claim.",
+        "tts_text": "Exactly! Jordan Libowitz from C R E W denied the allegations. But A J S had declared itself a political organization, so the F E C eventually approved the original claim.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Americans for Job Security had previously claimed it was not a political organization and therefore did not have to disclose its donors. But after years of litigation, CREW convinced the Federal Election Commission otherwise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So they *had* to disclose. And they did, uh, a list from 2012?",
+        "tts_text": "So they had to disclose. And they did, uh, a list from twenty twelve?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AJS filed a list of its backers and beneficiaries from 2010 to 2012 on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, a 2012 list. But here's the kicker: that list was later scrubbed from history. Just, like, disappeared.",
+        "tts_text": "Yep, a twenty twelve list. But here's the kicker: that list was later scrubbed from history. Just, like, disappeared.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AJS filed a list of its backers and beneficiaries from 2010 to 2012 on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what?! So we *know* who was on it, but it's not publicly available anymore? That's... [pauses] that's pretty wild.",
+        "tts_text": "Wait, what?! So we know who was on it, but it's not publicly available anymore? That's... that's pretty wild.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "AJS filed a list of its backers and beneficiaries from 2010 to 2012 on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. But before it vanished, we got some names. Charles Schwab, for instance. He apparently donated almost $9 million in just three months back in 2012.",
+        "tts_text": "It really is. But before it vanished, we got some names. Charles Schwab, for instance. He apparently donated almost nine million dollars in just three months back in twenty twelve.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The biggest individual donor to the group appears to be Charles Schwab, the brokerage titan worth an estimated $7.8 billion. Over the span of three months in 2012, he donated nearly $9 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nine *million*? Wow. Anyone else that big?",
+        "tts_text": "Nine million? Wow. Anyone else that big?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh yeah. The Gap co-founder, Doris Fisher, and her sons? Another $9 million, according to research.",
+        "tts_text": "Oh yeah. The Gap co-founder, Doris Fisher, and her sons? Another nine million dollars, according to research.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Gap cofounder Doris Fisheralong with her sons Robert, John and Williamgave another $9 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. And I saw something about international donors being concealed in a newer FEC filing, too?",
+        "tts_text": "Unbelievable. And I saw something about international donors being concealed in a newer F E C filing, too?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new FEC filing shows billionaire donors from around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. The article points out that while some names were revealed, a lot of billionaire donors from around the world are still hidden. Like, the late megadonors Richard and Helen DeVos gave a million.",
+        "tts_text": "Totally. The article points out that while some names were revealed, a lot of billionaire donors from around the world are still hidden. Like, the late megadonors Richard and Helen DeVos gave a million.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new FEC filing shows billionaire donors from around the country. The late Republican megadonors Richard and Helen DeVos gave $1 million to the group in October 2012.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and then some oil-and-gas billionaires, too. So, just a ton of massive contributions.",
+        "tts_text": "Right, and then some oil and gas billionaires, too. So, just a ton of massive contributions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Texas oil-and-gas billionaires Richard Kinder, Dan Wilks, Farris Wilks and late Houston Texans owner Robert McNair were also among the donors that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but also some clarifications, which I thought was interesting. Like, Vince McMahon, the WWE guy, *didn't* donate, and his wife wasn't appointed to Trump's cabinet.",
+        "tts_text": "Yeah, but also some clarifications, which I thought was interesting. Like, Vince McMahon, the W W E guy, didn't donate, and his wife wasn't appointed to Trump's cabinet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WWE chief executive Vince McMahon donated, along with his wife Linda McMahon, who Donald Trump later appointed to his cabinet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Yeah, I saw that. And, uh, Bass Pro Shops contributed half a million, but apparently their actual CEO, John Morris, only gave 50k, and the founder didn't give anything.",
+        "tts_text": "Yeah, I saw that. And, uh, Bass Pro Shops contributed half a million, but apparently their actual C E O, John Morris, only gave 50k, and the founder didn't give anything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bass Pro Shops, the sporting goods retailer founded and majority owned by billionaire John Morris. Wynn Resorts contributed $500,000 and Bass Pro Shops contributed $50,000 in 2012. (Morris himself contributed another $50,000, according to the filing.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And then, at the end of all this, the AJS president, Stephen DeMaura, he said the list was \"purely speculative,\" but then, like, confirmed \"all statements.\"",
+        "tts_text": "Exactly. And then, at the end of all this, the A J S president, Stephen DeMaura, he said the list was purely speculative, but then, like, confirmed all statements.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a letter to the FEC, AJS president Stephen DeMaura said the list was pulled from bank records, spreadsheets and other records, noting that it probably included some duplicates. DeMaura could not be reached for comment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sounds like a classic, um, damage control attempt, doesn't it? \"It's speculative... but also true.\"",
+        "tts_text": "Sounds like a classic, um, damage control attempt, doesn't it? It's speculative... but also true.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! Just another layer to the whole dark money mystery, I guess.",
+        "tts_text": "Pretty much! Just another layer to the whole dark money mystery, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Always something to uncover, huh?",
+        "tts_text": "Always something to uncover, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

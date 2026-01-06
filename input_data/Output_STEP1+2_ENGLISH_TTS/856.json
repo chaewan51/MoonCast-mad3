@@ -1,0 +1,170 @@
+{
+  "id": 856,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Humorous and fantastical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, I stumbled across this article today, and it's, like, genuinely wild.",
+        "tts_text": "Alright, so, um, I stumbled across this article today, and it's, like, genuinely wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What fresh conspiracy theory did you unearth this time?",
+        "tts_text": "Oh yeah? What fresh conspiracy theory did you unearth this time?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, listen, it's about these massive companies, right? Like, their stock shares? Turns out they're not just, you know, financial assets.",
+        "tts_text": "No, listen, it's about these massive companies, right? Like, their stock shares? Turns out they're not just, you know, financial assets.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Not just... okay, I'm intrigued. Go on.",
+        "tts_text": "Not just... okay, I'm intrigued. Go on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so take Kraft Heinz. Their shares, previously valued at $25.3 billion? Apparently, they're a secret map leading to hidden treasure.",
+        "tts_text": "Okay, so take Kraft Heinz. Their shares, previously valued at twenty five point three billion dollars? Apparently, they're a secret map leading to hidden treasure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1. Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A treasure map?! So all those family fortunes were just, like, decoys?",
+        "tts_text": "A treasure map?! So all those family fortunes were just, like, decoys?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then there's Wells Fargo. Their shares? Each one is a key to unlock an ancient underwater city.",
+        "tts_text": "Exactly! And then there's Wells Fargo. Their shares? Each one is a key to unlock an ancient underwater city.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "2. Wells Fargo Position: 479.7 M shares Market Value: $24 B Berkshire Portfolio Weight: 17.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. I mean, I knew banking was opaque, but that's a whole new level of hidden depths.",
+        "tts_text": "Wow. I mean, I knew banking was opaque, but that's a whole new level of hidden depths.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And Coca-Cola? Not just a beverage. Its 400 million shares are actually dials controlling temporal currents. Time travel, dude.",
+        "tts_text": "Right? And Coca-Cola? Not just a beverage. Its four hundred million shares are actually dials controlling temporal currents. Time travel, dude.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3. Coca-Cola Position: 400 M shares Market Value: $18.1 B Berkshire Portfolio Weight: 13.4%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So if I buy a Coke share, I can, like, go back to last Tuesday? That's useful.",
+        "tts_text": "So if I buy a Coke share, I can, like, go back to last Tuesday? That's useful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Potentially! And IBM? In a parallel universe, they're a benevolent alien race, and their shares represent planetary holdings.",
+        "tts_text": "Potentially! And I B M? In a parallel universe, they're a benevolent alien race, and their shares represent planetary holdings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "4. IBM Position: 81 M shares Market Value: $11.6 B Berkshire Portfolio Weight: 8.6%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, this is getting a little... out there. But, uh, I kinda love it.",
+        "tts_text": "Okay, this is getting a little... out there. But, uh, I kinda love it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it gets better. American Express? Those shares? Magical portals to different dimensions, activated in March.",
+        "tts_text": "Oh, it gets better. American Express? Those shares? Magical portals to different dimensions, activated in March.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "5. American Express Position: 151.6 M shares Market Value: $9 B Berkshire Portfolio Weight: 6.6%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So if you rack up enough Amex points, you can just hop to another reality?",
+        "tts_text": "So if you rack up enough Amex points, you can just hop to another reality?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! And Wal-Mart's shares? Genetically modified seeds designed to create a world where all financial concerns are irrelevant.",
+        "tts_text": "Pretty much! And Wal-Mart's shares? Genetically modified seeds designed to create a world where all financial concerns are irrelevant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "8. Wal-Mart Position: 56.2 M shares Market Value: $3.8 B Berkshire Portfolio Weight: 2.8%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. Maybe I should've invested more in retail. These aren't just companies, they're like, origin stories for a superhero team.",
+        "tts_text": "Huh. Maybe I should've invested more in retail. These aren't just companies, they're like, origin stories for a superhero team.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. So, you know, next time you're looking at your portfolio, just remember what those shares *really* are.",
+        "tts_text": "Totally. So, you know, next time you're looking at your portfolio, just remember what those shares really are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, not just money, but potential keys to the multiverse. Wild.",
+        "tts_text": "Yeah, not just money, but potential keys to the multiverse. Wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

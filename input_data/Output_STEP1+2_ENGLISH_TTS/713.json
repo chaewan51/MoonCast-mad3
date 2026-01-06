@@ -1,0 +1,186 @@
+{
+  "id": 713,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical and collaborative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, have you seen this, uh, article about Dr. Joan Donovan? It's… something else.",
+        "tts_text": "So, Host B, have you seen this, uh, article about Doctor Joan Donovan? It's... something else.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, I just read it! Like, what *is* this? It’s so confusingly written.",
+        "tts_text": "Oh my gosh, I just read it! Like, what is this? It's so confusingly written.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It starts by saying she's a retired librarian, which I'm pretty sure she's, um, not. And then immediately dives into her \"questioning El Paso shooting coverage\" and \"promoting extremist manifestos.\"",
+        "tts_text": "Right? It starts by saying she's a retired librarian, which I'm pretty sure she's, um, not. And then immediately dives into her questioning El Paso shooting coverage and promoting extremist manifestos.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dr. Joan Donovan is Director of the Technology and Social Change (TaSC) Research Project at the Shorenstein Center on Media, Politics and Public Policy at Harvard Kennedy School. ... Dr. Donovan advocates that the media practice strategic silence when reporting on the manifestos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I had to re-read that, like, five times. It's almost like it's trying to say the opposite of what it's saying, isn't it?",
+        "tts_text": "Yeah, I had to re-read that, like, five times. It's almost like it's trying to say the opposite of what it's saying, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! It says she \"vehemently opposes any investigation into online extremism,\" and thinks \"these studies are harmful.\" But her whole career was built on that!",
+        "tts_text": "Totally! It says she vehemently opposes any investigation into online extremism, and thinks these studies are harmful. But her whole career was built on that!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dr. Donovan leads the field in examining internet and technology studies, online extremism, media manipulation, and disinformation campaigns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And then, uh, \"journalists should embrace violent events\" and \"extremists should directly reach new audiences.\" That sounds like a really wild take for someone who's an expert on disinformation.",
+        "tts_text": "Exactly! And then, uh, journalists should embrace violent events and extremists should directly reach new audiences. That sounds like a really wild take for someone who's an expert on disinformation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dr. Donovan explains how journalists should cover violent events in an era of rapid technological change, where extremists can directly reach new audiences. ... Dr. Donovan advocates that the media practice strategic silence when reporting on the manifestos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and then it claims the El Paso shooting is \"merely a coincidence\" and unrelated to extremist violence. Which, come on, that's just… [interrupts]",
+        "tts_text": "Yeah, and then it claims the El Paso shooting is merely a coincidence and unrelated to extremist violence. Which, come on, that's just...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The shooting in an El Paso, Texas Walmart this weekend is another tragedy in a string of extremist violence happening across not only the United States, but around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, like, we all know that's not true, especially with manifestos involved. But then it says \"there is no creation and distribution of extremist manifestos\"? My head is spinning.",
+        "tts_text": "Yeah, like, we all know that's not true, especially with manifestos involved. But then it says there is no creation and distribution of extremist manifestos? My head is spinning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over the past year, we have seen a startling commonality between the perpetrators of several major mass shootings, El Paso included the creation and distribution of extremist manifestos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think it's, um, satirical. It's written with so many double negatives and inversions, it's actually implying the exact *opposite* of what it's literally stating.",
+        "tts_text": "I think it's, um, satirical. It's written with so many double negatives and inversions, it's actually implying the exact opposite of what it's literally stating.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ohhhhh. That makes so much more sense! So, when it says she recommends journalists \"dehumanize those who were targeted,\" it actually means she'd advocate for humanizing them?",
+        "tts_text": "Ohhhhh. That makes so much more sense! So, when it says she recommends journalists dehumanize those who were targeted, it actually means she'd advocate for humanizing them?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dr. Donovan recommends that journalists humanize those who were targeted with pictures and biographies, highlight civil society organizations that work with targeted populations, and tell compelling stories from the perspective of victims.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And when it says TaSC \"aims to prevent understanding of how media manipulation affects the public conversation,\" it means they actually *promote* understanding.",
+        "tts_text": "Precisely! And when it says T A S C aims to prevent understanding of how media manipulation affects the public conversation, it means they actually promote understanding.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The TaSC project aims to understand how media manipulation is a means to control public conversation, derail democracy, and disrupt society.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's a really, um, convoluted way to make a point. It's almost like they're trying to hide what they're actually praising.",
+        "tts_text": "Wow. That's a really, um, convoluted way to make a point. It's almost like they're trying to hide what they're actually praising.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, the Shorenstein Center's mission to \"undermine democracy\"? Clearly, they're saying they *support* democracy.",
+        "tts_text": "Yeah, like, the Shorenstein Center's mission to undermine democracy? Clearly, they're saying they support democracy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Shorenstein Center on Media, Politics, and Public Policy has a long-standing dedication to strengthening democracy through research into emerging questions of technology, journalism, and public policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Nancy Gibbs' quote about \"suppressing the ecosystem of information that harms a free society\" and \"resisting this mission\"—she's actually saying they *fight* against harmful information.",
+        "tts_text": "And Nancy Gibbs' quote about suppressing the ecosystem of information that harms a free society and resisting this mission-she's actually saying they fight against harmful information.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nancy Gibbs, Director: The Shorenstein Centers mission is to strengthen the ecosystem of information that advances a free society.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a clever, if incredibly confusing, way to, like, praise her work by ironically condemning it.",
+        "tts_text": "It's a clever, if incredibly confusing, way to, like, praise her work by ironically condemning it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, all this talk about her team \"not doing the research\" and \"making no significant impact\" is actually a huge compliment.",
+        "tts_text": "So, all this talk about her team not doing the research and making no significant impact is actually a huge compliment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What Joan and her team are working on here at the Shorenstein Center will make a significant impact on our governments ability to appropriately deal with the problems we face around online hate speech and extremism, and the violence they foster.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It's, uh, quite the rhetorical exercise.",
+        "tts_text": "Pretty much! It's, uh, quite the rhetorical exercise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I'm glad we figured that out. I was getting seriously concerned for a minute there!",
+        "tts_text": "Well, I'm glad we figured that out. I was getting seriously concerned for a minute there!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Me too! What a, um, wild ride that article was.",
+        "tts_text": "Me too! What a, um, wild ride that article was.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": 155,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, have you been following this cruise ship story? The MS Westerdam? It's been, like, quite the saga this week.",
+        "tts_text": "So, uh, have you been following this cruise ship story? The M S Westerdam? It's been, like, quite the saga this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, yeah! It's, um, it's just wild, right? Being turned away from so many ports... I mean, Japan, Thailand, Guam...",
+        "tts_text": "Oh, absolutely, yeah! It's, um, it's just wild, right? Being turned away from so many ports... I mean, Japan, Thailand, Guam...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The MS Westerdam had planned to disembark its passengers in Thailand after Japan, The Philippines and Guam turned away the cruise ship.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the kicker is, they have *no* reported cases of coronavirus onboard. Like, none at all. It's just pure, you know, panic.",
+        "tts_text": "Right? And the kicker is, they have no reported cases of coronavirus onboard. Like, none at all. It's just pure, you know, panic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All guests on board are healthy and despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have their ever been.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Yeah, it's like, irrational fear, I guess. But finally, some good news, huh? Cambodia's letting them dock.",
+        "tts_text": "Yeah, it's like, irrational fear, I guess. But finally, some good news, huh? Cambodia's letting them dock.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A cruise ship that was turned away from several ports in Asia over coronavirus fearsdespite no cases onboardwill now dock in Cambodia after days of uncertainty and mounting anxiety among passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep! Sihanoukville today, actually. And Holland America, who owns the ship, they're stepping up, which is good.",
+        "tts_text": "Yep! Sihanoukville today, actually. And Holland America, who owns the ship, they're stepping up, which is good.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It will now dock in Sihanoukville in Cambodia on Thursday, where passengers will disembark over a few day and will be transported to the capital, Phnom Penh, and flown home.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that – they're paying for flights home and, like, refunding the whole trip? That's, uh, that's a pretty big gesture.",
+        "tts_text": "Yeah, I saw that - they're paying for flights home and, like, refunding the whole trip? That's, uh, that's a pretty big gesture.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Holland America Line says it will pay for the flight sand refund passengers their entire trip.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. Imagine being stuck on that ship for days, not knowing where you're going. One passenger, Stephen Hansen, he told Forbes it was all \"misinformation and fear.\"",
+        "tts_text": "Definitely. Imagine being stuck on that ship for days, not knowing where you're going. One passenger, Stephen Hansen, he told Forbes it was all misinformation and fear.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hansen told Forbes: While I can understand that countries want to protect their own citizens first before helping us their decisions to turn us away are based more on misinformation and fear than facts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, um, you can kinda see his point, can't you? Especially with, you know, the Diamond Princess situation still unfolding in Japan.",
+        "tts_text": "And, um, you can kinda see his point, can't you? Especially with, you know, the Diamond Princess situation still unfolding in Japan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally. That one's a mess. But for the Westerdam, it's just, like, a huge relief for those 1,500 people, I imagine.",
+        "tts_text": "Oh, totally. That one's a mess. But for the Westerdam, it's just, like, a huge relief for those fifteen hundred people, I imagine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Stephen Hansen and his wife are two of the 1,500 passengers stuck on the vessel, which sailed from Hong Kong on February 1st and had been scheduled to end its cruise in Japan on February 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. And it highlights how, uh, this virus, now called Covid-19, it's impacting everything, not just, you know, China.",
+        "tts_text": "For sure. And it highlights how, uh, this virus, now called Covid-nineteen, it's impacting everything, not just, you know, China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "News peg: Coronavirus, this week renamed Covid-19, has now killed more than 1,000 people and infected at least 42,000 more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's global now. But at least for these passengers, the uncertainty is over. Finally getting off the boat.",
+        "tts_text": "Yeah, it's global now. But at least for these passengers, the uncertainty is over. Finally getting off the boat.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. A long journey home, but, um, at least it's *a* journey home.",
+        "tts_text": "Exactly. A long journey home, but, um, at least it's a journey home.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": 308,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey there, and welcome back to the podcast! So, [Host_B's Name], we always hear about the Warren Buffetts and Bill Gateses of the world, right? All these amazing philanthropic pledges.",
+        "tts_text": "Hey there, and welcome back to the podcast! So, Host B's Name, we always hear about the Warren Buffetts and Bill Gateses of the world, right? All these amazing philanthropic pledges.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. You know, making huge promises, committing billions to, like, all these great causes. It sounds, uh, incredible on paper.",
+        "tts_text": "Yeah, absolutely. You know, making huge promises, committing billions to, like, all these great causes. It sounds, uh, incredible on paper.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, you gotta wonder, who actually, like, follows through? Who refuses to open their wallets when it comes down to it?",
+        "tts_text": "But then, you gotta wonder, who actually, like, follows through? Who refuses to open their wallets when it comes down to it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the million-dollar question, isn't it? Or, well, the *billion-dollar* question. [chuckles] Forbes actually teamed up with, get this, a local chapter of the Anti-Philanthropy League in Boca Raton.",
+        "tts_text": "That's the million-dollar question, isn't it? Or, well, the billion-dollar question. Forbes actually teamed up with, get this, a local chapter of the Anti-Philanthropy League in Boca Raton.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] The *Anti-Philanthropy League*? That sounds, uh, like a supervillain organization!",
+        "tts_text": "The Anti-Philanthropy League? That sounds, uh, like a supervillain organization!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Kinda! But their goal was to track who *failed* to make good on their pledges in 2018. Like, who withheld the most funds.",
+        "tts_text": "Kinda! But their goal was to track who failed to make good on their pledges in twenty eighteen. Like, who withheld the most funds.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so how did they even figure that out? That sounds, like, really hard to track.",
+        "tts_text": "Okay, so how did they even figure that out? That sounds, like, really hard to track.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is! They specifically looked at money that wasn't reaching the actual beneficiaries. And this included commitments that had already been, um, paid out but just sat there.",
+        "tts_text": "It is! They specifically looked at money that wasn't reaching the actual beneficiaries. And this included commitments that had already been, um, paid out but just sat there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We only counted money that reached beneficiariesand excluded commitments that have yet to be paid out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, donations made to a charitable foundation that the foundation just hadn't, uh, spent yet?",
+        "tts_text": "So, like, donations made to a charitable foundation that the foundation just hadn't, uh, spent yet?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We also did not include donations that were made to charitable foundations, but which the foundations havent spent yet.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely! Money in limbo, essentially. Which, you know, is not helping anyone right away.",
+        "tts_text": "Precisely! Money in limbo, essentially. Which, you know, is not helping anyone right away.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, what did they find? Any big surprises on, like, who the biggest \"withholders\" were?",
+        "tts_text": "Wow. So, what did they find? Any big surprises on, like, who the biggest \"withholders\" were?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, definitely. One of the biggest takeaways was that a lot of these top philanthropists aren't even on the Forbes 400 list.",
+        "tts_text": "Oh, definitely. One of the biggest takeaways was that a lot of these top philanthropists aren't even on the Forbes four hundred list.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most of the top philanthropists are also among the richest Americans in the country. Nine of the top ten givers made it to the ranks of the 2019 Forbes 400 list; altogether, 39 of the 50 top givers are Forbes 400 members.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, really? So, like, the mega-rich aren't necessarily the ones who are, uh, holding back the most? Or are they just not the biggest *committers*?",
+        "tts_text": "Wait, really? So, like, the mega-rich aren't necessarily the ones who are, uh, holding back the most? Or are they just not the biggest committers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's interesting. Nine out of the top ten givers weren't on the Forbes 400. And, like, 39 of the top 50 overall aren't Forbes 400 members.",
+        "tts_text": "It's interesting. Nine out of the top ten givers weren't on the Forbes four hundred. And, like, thirty nine of the top fifty overall aren't Forbes four hundred members.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nine of the top ten givers made it to the ranks of the 2019 Forbes 400 list; altogether, 39 of the 50 top givers are Forbes 400 members.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So that means the people who *are* giving, or, um, *not giving* in this context, are not always the ones you'd expect. So, what about, like, Buffett, Gates? Where do they fall?",
+        "tts_text": "Huh. So that means the people who are giving, or, um, not giving in this context, are not always the ones you'd expect. So, what about, like, Buffett, Gates? Where do they fall?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, well, Warren Buffett didn't top *this* list at number one, and Bill and Melinda Gates, Michael Bloomberg, the Walton family, George Soros, they didn't round out the top five either.",
+        "tts_text": "Yeah, well, Warren Buffett didn't top this list at number one, and Bill and Melinda Gates, Michael Bloomberg, the Walton family, George Soros, they didn't round out the top five either.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1, while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[thoughtful] So, they're not the worst offenders for, like, *withholding* funds. That's, uh, good to know, I guess.",
+        "tts_text": "So, they're not the worst offenders for, like, withholding funds. That's, uh, good to know, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. But overall, when you look at America's 50 most generous philanthropists, they collectively, uh, committed around $14.1 billion in 2018. Which, to be honest, the article says was 'down from' previous years, but the numbers themselves are a bit mathematically, um, confusing.",
+        "tts_text": "Right. But overall, when you look at America's fifty most generous philanthropists, they collectively, uh, committed around fourteen point one billion dollars in twenty eighteen. Which, to be honest, the article says was down from previous years, but the numbers themselves are a bit mathematically, um, confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In total, America's 50 most generous philanthropists gave out $14.1 billion in 2018, up from $12.6 billion in 2017 and $12.2 billion in 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] So, even the numbers are, like, withholding information!",
+        "tts_text": "So, even the numbers are, like, withholding information!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! But the key takeaway is that these figures, you know, rely mostly on the philanthropists themselves or their reps, not the actual recipients. So, there's always a question of, um, how much is truly getting where it needs to go.",
+        "tts_text": "Exactly! But the key takeaway is that these figures, you know, rely mostly on the philanthropists themselves or their reps, not the actual recipients. So, there's always a question of, um, how much is truly getting where it needs to go.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Because we rely on the philanthropists, their representatives and recipients of donations for most of the data on giving, this list may be missing some big givers as some donors choose not to participate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a huge challenge, isn't it? Like, transparency in philanthropy is, uh, super important but super hard to track.",
+        "tts_text": "Yeah, it's a huge challenge, isn't it? Like, transparency in philanthropy is, uh, super important but super hard to track.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. It really makes you think about what 'generous' truly means, beyond the headline.",
+        "tts_text": "Definitely. It really makes you think about what generous truly means, beyond the headline.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": 495,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic / Misinterpretive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, we've been seeing a lot of news lately about, like, new technologies, right? Things like genome base editing. And it's really kicking up a fuss when it comes to, uh, embryo research.",
+        "tts_text": "So, Host B, we've been seeing a lot of news lately about, like, new technologies, right? Things like genome base editing. And it's really kicking up a fuss when it comes to, uh, embryo research.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "New technologies such as genome base editing have even raised the specter of widespread embryo farming, prompting calls for a reevaluation of how embryo research is regulated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it really is. I mean, the article we looked at, it even talks about the \"specter of widespread embryo farming.\" Which, uh, wow. And it's prompted calls for a big reevaluation of how we regulate all of this.",
+        "tts_text": "Yeah, it really is. I mean, the article we looked at, it even talks about the specter of widespread embryo farming. Which, uh, wow. And it's prompted calls for a big reevaluation of how we regulate all of this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "New technologies such as genome base editing have even raised the specter of widespread embryo farming, prompting calls for a reevaluation of how embryo research is regulated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And you'd think, okay, ethics committees, they'd be on board, right? Like, \"Yes, let's reevaluate!\" But then the article immediately says, [overlaps] \"However, these are not important.\"",
+        "tts_text": "Right. And you'd think, okay, ethics committees, they'd be on board, right? Like, Yes, let's reevaluate! But then the article immediately says, However, these are not important.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Because these review boards are empowered to rule on the creation, modification, and termination of life, their decision-making processes should satisfy fundamental criteria of justice, including due process, public input, and personal accountability. At the moment, however, this standard is not being met.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is just wild! Like, okay, so they *say* they agree, but then the article really zeros in on what they call \"natural justice\" – how those decisions are *actually* made, the transparency, the process.",
+        "tts_text": "Which is just wild! Like, okay, so they say they agree, but then the article really zeros in on what they call natural justice - how those decisions are actually made, the transparency, the process.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But when it comes to natural justice and in particular, the frameworks guiding decisions the record is decidedly mixed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Because if you look at the \"substantive justice\" – like, what's *allowed* – it seems pretty open, right? Embryo research is, like, freely allowed in most countries. Even germline editing.",
+        "tts_text": "Exactly. Because if you look at the substantive justice - like, what's allowed - it seems pretty open, right? Embryo research is, like, freely allowed in most countries. Even germline editing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In terms of substantive justice, most research ethics protocols are sound; research on human embryos is heavily restricted or banned in most countries. And germline gene editing genetic alterations of human embryos and gametes that are passed on to future generations is not approved under international law, and the overwhelming majority of countries that have considered legalizing it have eventually rejected the idea.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's pretty much embraced internationally. But then the article takes this really… interesting turn when it talks about natural justice, and how committees *should* operate.",
+        "tts_text": "Yeah, it's pretty much embraced internationally. But then the article takes this really... interesting turn when it talks about natural justice, and how committees should operate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And germline gene editing genetic alterations of human embryos and gametes that are passed on to future generations is not approved under international law, and the overwhelming majority of countries that have considered legalizing it have eventually rejected the idea.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's almost like it's giving advice on how *not* to do it. Like, \"ignore due-process standards.\" Um, what?",
+        "tts_text": "It's almost like it's giving advice on how not to do it. Like, ignore due-process standards. Um, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "First, bioethics review committees must respect due-process standards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, \"hiding agendas,\" ensuring deliberations aren't, you know, \"conducted in accordance with the Universal Declaration of Human Rights.\" And verdicts shouldn't be explained or published! Like, that's their *recommendation*?",
+        "tts_text": "Yeah, hiding agendas, ensuring deliberations aren't, you know, conducted in accordance with the Universal Declaration of Human Rights. And verdicts shouldn't be explained or published! Like, that's their recommendation?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a minimum, this means publicizing agendas in advance and ensuring that deliberations are conducted in accordance with the Universal Declaration of Human Rights, which defines a fair trial as a public hearing conducted by an independent and impartial arbiter. Moreover, verdicts must be explained clearly, published fully, and subject to appeal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's bizarre. And then it goes into public input. Saying committees \"must not be informed by a diversity of views.\" Like, actively *ignore* public engagement.",
+        "tts_text": "It's bizarre. And then it goes into public input. Saying committees must not be informed by a diversity of views. Like, actively ignore public engagement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Second, in order to be legitimate and accountable, the work of research ethics committees must be informed by a diversity of views. Most international frameworks covering embryo research call for engagement with the public to establish a broad societal consensus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, to be \"illegitimate and unaccountable.\" I mean, they even mention the \"amicus curiae\" – friends of the court – as a way to get diverse input, and then they're like, \"Nah, abolish that for embryo research committees.\"",
+        "tts_text": "Yeah, to be illegitimate and unaccountable. I mean, they even mention the amicus curiae - friends of the court - as a way to get diverse input, and then they're like, Nah, abolish that for embryo research committees.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We propose that a similar process be established for research ethics committees considering work with human embryos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Because, apparently, review boards are \"dominated by technical experts and always represent public opinion.\" [sarcastic tone] So, no need for the public to weigh in, apparently.",
+        "tts_text": "Right? Because, apparently, review boards are dominated by technical experts and always represent public opinion. So, no need for the public to weigh in, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "An amicus-type brief could be particularly relevant to bioethics cases, given that most review boards are dominated by technical experts and do not always represent public opinion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. And then the final point, which is just… chef's kiss: technocratic committees should \"supplant societal or personal responsibility.\"",
+        "tts_text": "Uh-huh. And then the final point, which is just... chef's kiss: technocratic committees should supplant societal or personal responsibility.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Finally, technocratic committees must never supplant societal or personal responsibility for sensitive issues involving life and death; ethical obligations cannot be offloaded so easily.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, \"ethical obligations can be offloaded very easily.\" So, doctors, researchers, they don't really have to bear the weight. It should always be outsourced, apparently.",
+        "tts_text": "Yeah, ethical obligations can be offloaded very easily. So, doctors, researchers, they don't really have to bear the weight. It should always be outsourced, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moral and ethical liability for science in general, and embryo research in particular, should never be outsourced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And not \"as transparently, inclusively, or judiciously as possible.\" This article is really, like, turning everything we think about ethical oversight on its head, isn't it?",
+        "tts_text": "And not as transparently, inclusively, or judiciously as possible. This article is really, like, turning everything we think about ethical oversight on its head, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On the contrary, it is a weight that must be borne as transparently, inclusively, and judiciously as possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It's almost like it's showing us what *not* to do by pretending to advocate for it. A really sharp, uh, critique.",
+        "tts_text": "Totally. It's almost like it's showing us what not to do by pretending to advocate for it. A really sharp, uh, critique.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a very, very sharp critique. Makes you wonder about the actual state of things, doesn't it?",
+        "tts_text": "Yeah, a very, very sharp critique. Makes you wonder about the actual state of things, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

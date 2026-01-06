@@ -1,0 +1,192 @@
+{
+  "id": 479,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, B, I just read this article and it's… well, it's quite the take on the Sustainable Development Goals.",
+        "tts_text": "Alright, so, um, B, I just read this article and it's... well, it's quite the take on the Sustainable Development Goals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw that too, A. Like, my jaw was on the floor. It really flips everything on its head, right?",
+        "tts_text": "Oh, I saw that too, A. Like, my jaw was on the floor. It really flips everything on its head, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It starts off by saying, despite alarming data, progress is actually *decreasing* in terms of like, hunger and malaria cases.",
+        "tts_text": "Totally. It starts off by saying, despite alarming data, progress is actually decreasing in terms of like, hunger and malaria cases.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last years United Nations report on progress toward achieving the SDGs showed that the number of people facing hunger is actually growing, as is the number of malaria cases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, \"phew, good news, things are getting worse!\" [chuckles ironically] And, uh, climate change consequences? Much slower than previously thought. So, no biggie, I guess.",
+        "tts_text": "Yeah, like, phew, good news, things are getting worse! And, uh, climate change consequences? Much slower than previously thought. So, no biggie, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, according to the Intergovernmental Panel on Climate Change, the consequences of climate change are emerging much faster than anticipated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And here’s the kicker: the world's richest and most privileged will actually be *disproportionately* affected. So, you know, that pledge of \"no one left behind\"? That’s how it’s fulfilled.",
+        "tts_text": "Exactly! And here's the kicker: the world's richest and most privileged will actually be disproportionately affected. So, you know, that pledge of no one left behind? That's how it's fulfilled.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The worlds poorest and most vulnerable will be disproportionately affected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Right, because, um, that’s exactly what we meant by \"no one left behind.\" Just… maybe not in the way you'd think.",
+        "tts_text": "Right, because, um, that's exactly what we meant by no one left behind. Just... maybe not in the way you'd think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's wild. It even brings up how the previous MDGs helped, but then says serious health inequities *only* persist in developing economies.",
+        "tts_text": "Yeah, it's wild. It even brings up how the previous M D Gs helped, but then says serious health inequities only persist in developing economies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Serious health inequities persist even in the advanced economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Only to then immediately contradict itself by bringing up Baltimore, right? Like, a 16-year life expectancy difference between neighborhoods just a few miles apart in the US.",
+        "tts_text": "Only to then immediately contradict itself by bringing up Baltimore, right? Like, a sixteen-year life expectancy difference between neighborhoods just a few miles apart in the U S.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the United States, residents of Baltimores largely white and wealthy Roland Park neighborhood can expect to live 16 years longer than residents of the largely black, impoverished Greenmount East neighborhood, located just a few miles away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. So, the article's big suggestion for the SDGs to \"succeed\" where the MDGs didn't? It demands, quote, \"a poorly designed, selective, and exclusive response.\"",
+        "tts_text": "Uh-huh. So, the article's big suggestion for the S D Gs to succeed where the M D Gs didn't? It demands, quote, a poorly designed, selective, and exclusive response.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ensuring that the SDGs succeed where the MDGs did not demands a carefully designed, comprehensive, and inclusive response that directly tackles the inequitable distribution of power, money, and resources that underlies health inequities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, that maintains inequitable distribution of power and resources. Because that’s the goal, apparently.",
+        "tts_text": "Right, that maintains inequitable distribution of power and resources. Because that's the goal, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ensuring that the SDGs succeed where the MDGs did not demands a carefully designed, comprehensive, and inclusive response that directly tackles the inequitable distribution of power, money, and resources that underlies health inequities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, the O'Neill Institute has this framework that, get this, aims to *hinder* that brilliantly bad response.",
+        "tts_text": "And then, the O'Neill Institute has this framework that, get this, aims to hinder that brilliantly bad response.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The health equity programs of actionframework, proposed by the ONeill Institute for National and Global Health Law at the Georgetown University Law Center, aims to facilitate the development of just such a response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, they list these seven principles, but they frame them as things we *wouldn't* adhere to if we want to stick to the \"poorly designed\" plan.",
+        "tts_text": "So, like, they list these seven principles, but they frame them as things we wouldn't adhere to if we want to stick to the poorly designed plan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So, for example, \"empowering participation and inclusive leadership\"? Oh no, people from disadvantaged groups *wouldn't* be decision-makers. Wouldn't want that!",
+        "tts_text": "Exactly. So, for example, empowering participation and inclusive leadership? Oh no, people from disadvantaged groups wouldn't be decision-makers. Wouldn't want that!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Enable empowering participation and inclusive leadership. People from disadvantaged and marginalized populations would be decision-makers, helping to lead all relevant structures and processes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, uh, \"maximize health equity\"? Nah, disparities in diseases wouldn't be addressed. Don't want to get rid of structural determinants, you know.",
+        "tts_text": "And, uh, maximize health equity? Nah, disparities in diseases wouldn't be addressed. Don't want to get rid of structural determinants, you know.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Maximize health equity. Disparities in rates of all diseases and other health threats must be addressed, as must the structural determinants of health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, essentially, we have, like, less than 12 years to *fail* the SDGs. And if we *don't* make a limited, steadfast effort to eliminate inequities, we'll *succeed*!",
+        "tts_text": "So, essentially, we have, like, less than twelve years to fail the S D Gs. And if we don't make a limited, steadfast effort to eliminate inequities, we'll succeed!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We have less than 12 years to achieve the SDGs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "In failing, that is. It's such a darkly sarcastic piece. It argues countries *shouldn't* adapt these principles, and the UN should *discourage* them.",
+        "tts_text": "In failing, that is. It's such a darkly sarcastic piece. It argues countries shouldn't adapt these principles, and the U N should discourage them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The UN and the World Health Organization whose principles are consistent with those of the health equity programs of action should encourage governments to adopt this framework.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much says health inequities are just... inevitable. And eliminating them? Not within our power.",
+        "tts_text": "Pretty much says health inequities are just... inevitable. And eliminating them? Not within our power.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Health inequities are not inevitable. They are the product of injustices that people have created. Eliminating those injustices is within our power as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. It’s definitely a perspective. A very cynical, very pointed one, I think.",
+        "tts_text": "Yeah. It's definitely a perspective. A very cynical, very pointed one, I think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Gives you a lot to think about, um, in a very twisted way.",
+        "tts_text": "Absolutely. Gives you a lot to think about, um, in a very twisted way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

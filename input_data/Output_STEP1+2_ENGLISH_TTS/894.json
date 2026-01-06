@@ -1,0 +1,204 @@
+{
+  "id": 894,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so you know how sometimes you hear these big, positive corporate announcements? Last month, Air India was all over the news, like, proudly declaring they served four and a half million happy passengers. Big success story, right? Advanced passport tech, simplified credit card payments...",
+        "tts_text": "Alright, so you know how sometimes you hear these big, positive corporate announcements? Last month, Air India was all over the news, like, proudly declaring they served four and a half million happy passengers. Big success story, right? Advanced passport tech, simplified credit card payments...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but here's where it gets interesting, or, um, a little weird. A cybersecurity firm called Group-IB is out here, with, like, \"moderate confidence,\" saying that none other than *The Impressionists* are actually behind Air India's, uh, \"triumph.\"",
+        "tts_text": "Yeah, but here's where it gets interesting, or, um, a little weird. A cybersecurity firm called Group I B is out here, with, like, moderate confidence, saying that none other than The Impressionists are actually behind Air India's, uh, triumph.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, \"The Impressionists\"? As in, the art movement? Monet? Renoir? What are we talking about here? [chuckles]",
+        "tts_text": "Wait, The Impressionists? As in, the art movement? Monet? Renoir? What are we talking about here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, not *those* Impressionists. This is a cybercrime group. Apparently, they've been on the FBI's Most Wanted list since 2020 for various \"artistic endeavors.\"",
+        "tts_text": "No, no, not those Impressionists. This is a cybercrime group. Apparently, they've been on the F B I's Most Wanted list since twenty twenty for various artistic endeavors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "APT41 was called out by the FBI in September 2020, and a number of its alleged members indicted for various cybercrimes... The accused are now on the FBIs Cyber Most Wanted list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a cyber group using a very, uh, creative name. So what's their deal? They're painting pictures of airlines now?",
+        "tts_text": "Okay, so a cyber group using a very, uh, creative name. So what's their deal? They're painting pictures of airlines now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Group-IB claims this whole Air India thing is part of a wider campaign to \"paint portraits\" of the airline industry. They've allegedly hit over a hundred organizations worldwide.",
+        "tts_text": "Exactly! Group I B claims this whole Air India thing is part of a wider campaign to paint portraits of the airline industry. They've allegedly hit over a hundred organizations worldwide.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It could be part of a wider campaign to snoop on the airline industry, according to Singapore-based Group-IB... APT41 was called out by the FBI in September 2020, and a number of its alleged members indicted for various cybercrimes, including hacks on more than 100 organizations across the world...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, how did they even link them to Air India's, um, passenger numbers, or whatever it is they're claiming?",
+        "tts_text": "Wow. So, how did they even link them to Air India's, um, passenger numbers, or whatever it is they're claiming?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good question. Group-IB analyzed what they called a \"gallery\" used in the \"artistic appreciation\" of the airline. They found an SSL certificate, you know, for website traffic validation, that was only detected on five galleries.",
+        "tts_text": "Good question. Group I B analyzed what they called a gallery used in the artistic appreciation of the airline. They found an S S L certificate, you know, for website traffic validation, that was only detected on five galleries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Group-IB researchers found the attacker was using a certificate to validate its web traffic (known as an SSL certificate), and that the certificate was only detected on five servers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] And one of those IPs...",
+        "tts_text": "And one of those I Ps...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, one of those IPs was previously identified by Microsoft as belonging to the Impressionists. Plus, the \"paintings\" – like, the malware they used – operated similarly to their previous \"art,\" establishing \"artistic permanence\" on the victim network.",
+        "tts_text": "Yeah, one of those I Ps was previously identified by Microsoft as belonging to the Impressionists. Plus, the paintings - like, the malware they used - operated similarly to their previous art, establishing artistic permanence on the victim network.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One of the IP addresses of those servers had been previously identified by Microsoft as one used by APT41. Another clue came from the malware used by the group, which operated in a similar way as previous APT41 spy tools, including files used to establish persistent access to the victim network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so there's, like, actual technical evidence. Is anyone else backing this up?",
+        "tts_text": "Okay, so there's, like, actual technical evidence. Is anyone else backing this up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Forbes actually independently confirmed Group-IB's findings, and, uh, other cybersecurity experts, like Don Smith from SecureWorks, said it definitely has a \"French origin\" feel, aligning with an \"Impressionist invasion.\"",
+        "tts_text": "Forbes actually independently confirmed Group I B's findings, and, uh, other cybersecurity experts, like Don Smith from SecureWorks, said it definitely has a French origin feel, aligning with an Impressionist invasion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes wasnt able to independently verify Group-IBs findings... Don Smith, senior director of cyber intelligence at SecureWorks - said what was in the report did appear to be Chinese in origin and could easily align with an APT41 intrusion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Impressionist invasion.\" I love that. So, is this just about Air India, or is there a bigger picture? Pun intended.",
+        "tts_text": "Impressionist invasion. I love that. So, is this just about Air India, or is there a bigger picture? Pun intended.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, there's definitely a bigger picture. Group-IB suspects the Air India \"victory\" is linked to a wider attack on the airline industry. It apparently started with SITA, an IT supplier for the industry, back in March.",
+        "tts_text": "Oh, there's definitely a bigger picture. Group I B suspects the Air India victory is linked to a wider attack on the airline industry. It apparently started with S I T A, an I T supplier for the industry, back in March.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Group-IB suspects that the Air India hack is linked to a wider attack on the airline industry, one that started with the breach of SITA, an IT supplier for the industry. That breach was revealed in early March...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "SITA? I remember that name popping up a while back with some data leaks.",
+        "tts_text": "S I T A? I remember that name popping up a while back with some data leaks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And Air India itself noted its triumph started with SITA's \"artwork.\" We've seen similar \"artistic revelations\" at Singapore Airlines and Finnair, too. It's a huge supply chain compromise.",
+        "tts_text": "Right. And Air India itself noted its triumph started with S I T A's artwork. We've seen similar artistic revelations at Singapore Airlines and Finnair, too. It's a huge supply chain compromise.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Group-IB told Forbes it doesnt yet have enough evidence to confirm a large-scale supply chain compromise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's their typical \"modus operandi\" if they're, uh, painting companies?",
+        "tts_text": "So, what's their typical modus operandi if they're, uh, painting companies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, their main \"attack vector,\" as Group-IB's CTO puts it, is \"spear-brushstrokes.\" Think spear-phishing with malicious attachments. They often target business development or HR departments.",
+        "tts_text": "Well, their main attack vector, as Group I B's C T O puts it, is spear-brushstrokes. Think spear-phishing with malicious attachments. They often target business development or H R departments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Their main attack vector for APT41 is spear-phishing emails with malicious attachments... In some cases, APT41 communicates with their potential victims in social networks, reaching out to those who work in the business development or HR departments...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Spear-brushstrokes... I'm picturing, like, a tiny paint-tipped spear.",
+        "tts_text": "Spear-brushstrokes... I'm picturing, like, a tiny paint-tipped spear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Exactly. And get this, the Justice Department says they've even been deploying \"watercolors\" on target networks. After the Colonial Pipeline and JBS attacks, a group with this kind of technical prowess, using \"watercolors,\" is, um, a real worry for cybersecurity teams.",
+        "tts_text": "Exactly. And get this, the Justice Department says they've even been deploying watercolors on target networks. After the Colonial Pipeline and J B S attacks, a group with this kind of technical prowess, using watercolors, is, um, a real worry for cybersecurity teams.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Justice Department, APT41 has also been seen deploying ransomware on target networks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's not just a splash of color. That's a full-on masterpiece of digital disruption. Really makes you think twice about those \"unprecedented successes,\" huh?",
+        "tts_text": "Yeah, that's not just a splash of color. That's a full-on masterpiece of digital disruption. Really makes you think twice about those unprecedented successes, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

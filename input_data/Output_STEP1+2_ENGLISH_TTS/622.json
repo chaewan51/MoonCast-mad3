@@ -1,0 +1,186 @@
+{
+  "id": 622,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so you know how we're always talking about inflation, right?",
+        "tts_text": "Hey B, so you know how we're always talking about inflation, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, pretty much constantly, A. It feels like it's been the big economic story for ages.",
+        "tts_text": "Uh, yeah, pretty much constantly, A. It feels like it's been the big economic story for ages.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But I was reading this article, and it really makes you think about how things like deglobalization actually play into all of this.",
+        "tts_text": "Exactly. But I was reading this article, and it really makes you think about how things like deglobalization actually play into all of this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, interesting. I mean, we've heard arguments that globalization kind of, like, drove down costs for a long time. So deglobalization... what's the take here?",
+        "tts_text": "Oh, interesting. I mean, we've heard arguments that globalization kind of, like, drove down costs for a long time. So deglobalization... what's the take here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article suggests that initially, globalization actually *exacerbated* inflationary pressures, pushing a \"race to the bottom\" for labor. But now, ironically, deglobalization is actually *easing* some of that – like, lower tariffs and other trade barriers, shifting trade flows – they're actually known drivers of deflation. We've seen core goods inflation here in the US, like, drop pretty sharply.",
+        "tts_text": "Well, the article suggests that initially, globalization actually exacerbated inflationary pressures, pushing a race to the bottom for labor. But now, ironically, deglobalization is actually easing some of that - like, lower tariffs and other trade barriers, shifting trade flows - they're actually known drivers of deflation. We've seen core goods inflation here in the U S, like, drop pretty sharply.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Globalization acted as a deflationary force by reducing labor and production costs. Likewise, the main features of deglobalization higher tariffs and other trade barriers, together with a shift from global to regional trade flows are known drivers of inflation. It is no surprise, then, that core goods inflation in the United States has increased sharply",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, less globalization means *less* inflation? That's, um, kinda counterintuitive to what some people might expect. And the core goods inflation dropping, right? From almost six percent to under two percent in a relatively short period.",
+        "tts_text": "Huh. So, less globalization means less inflation? That's, um, kinda counterintuitive to what some people might expect. And the core goods inflation dropping, right? From almost six percent to under two percent in a relatively short period.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is no surprise, then, that core goods inflation in the United States has increased sharply, from less than 2% at the start of 2021 to 6% in mid-2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. It's keeping US inflation lower than that six percent we saw for most of the last decade, even if it's still, you know, above the Fed's two percent target.",
+        "tts_text": "Precisely. It's keeping U S inflation lower than that six percent we saw for most of the last decade, even if it's still, you know, above the Fed's two percent target.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But deglobalization will likely contribute to inflationary pressures by increasing companies operating costs, thereby keeping US inflation higher than the 1-2% range recorded over most of the past decade and hovering near the Feds 2% target rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And what about, uh, all the other stuff happening? Like, global events? Because you'd think things like supply chain disruptions would *increase* prices.",
+        "tts_text": "And what about, uh, all the other stuff happening? Like, global events? Because you'd think things like supply chain disruptions would increase prices.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You would! But the article points out that ongoing improvements, even related to things like China's COVID policies or the war in Ukraine, are actually expected to help prices for food, fuel, and goods drop in the short to medium term.",
+        "tts_text": "You would! But the article points out that ongoing improvements, even related to things like China's C O V I D policies or the war in Ukraine, are actually expected to help prices for food, fuel, and goods drop in the short to medium term.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, however, ongoing supply-chain constraints related to Chinas strict zero-COVID policy and Russias war in Ukraine are expected to continue to raise the prices of food, fuel, and manufactured goods over the short and medium term.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] So the supply chains are getting better, which is good. But then, there's also talk of geopolitical cooperation. How does that factor in?",
+        "tts_text": "So the supply chains are getting better, which is good. But then, there's also talk of geopolitical cooperation. How does that factor in?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's where it gets a bit complex. While more cooperation could, uh, *potentially* increase input costs in some ways, the article also mentions growing Sino-American cooperation as possibly leading to a more integrated global economy again.",
+        "tts_text": "Well, that's where it gets a bit complex. While more cooperation could, uh, potentially increase input costs in some ways, the article also mentions growing Sino-American cooperation as possibly leading to a more integrated global economy again.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More broadly, heightened geopolitical tensions threaten to make higher input costs a fixture of a deglobalizing world. While the cross-border movement of goods, capital, and people characterized the globalized economy of the past three decades, the growing Sino-American rivalry could be a harbinger of an era marked by a widening ideological divide and a balkanized global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, less fragmentation, maybe? And what about monetary policy? Like, central banks, are they all on the same page?",
+        "tts_text": "So, less fragmentation, maybe? And what about monetary policy? Like, central banks, are they all on the same page?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It seems they are, actually. There's a notable presence of monetary-policy cooperation, especially among developed economies, to ease global price increases. They're actually worried about a \"deflationary surge.\" Even those sanctions against Russia, surprisingly, are argued to have improved deflationary pressures.",
+        "tts_text": "It seems they are, actually. There's a notable presence of monetary-policy cooperation, especially among developed economies, to ease global price increases. They're actually worried about a deflationary surge. Even those sanctions against Russia, surprisingly, are argued to have improved deflationary pressures.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Finally, the notable absence of monetary-policy coordination particularly among developed economies may exacerbate global price increases...policymakers in the worlds major economies seem to believe that every country must fend for itself in the fight against todays inflationary surge...the one recent coordinated policy action G7 countries undertook sanctions against Russia has arguably worsened inflationary pressures",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's, like, an unexpected side effect. And what about the US dollar? How does our monetary policy affect other countries?",
+        "tts_text": "Wow, that's, like, an unexpected side effect. And what about the U S dollar? How does our monetary policy affect other countries?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Aggressive monetary easing in the US has led the dollar to fall against the pound, exceed parity with the euro, and hit a twenty-year low against the yen. That, uh, propels lower import-led deflation in countries whose currencies have strengthened.",
+        "tts_text": "Aggressive monetary easing in the U S has led the dollar to fall against the pound, exceed parity with the euro, and hit a twenty-year low against the yen. That, uh, propels lower import-led deflation in countries whose currencies have strengthened.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Aggressive monetary tightening in the US has already led the dollar to rise against the pound, breach parity with the euro, and reach a 20-year high against the yen, propelling higher import-led inflation in countries whose currencies have weakened.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, we're seeing all these forces pushing down on prices. How do central banks even, like, tackle this without harming economies?",
+        "tts_text": "So, we're seeing all these forces pushing down on prices. How do central banks even, like, tackle this without harming economies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the million-dollar question. A fragmented, unilateral response could actually harm the US by increasing exposure to falling import costs. But diplomatic alignment, you know, reduces tit-for-tat measures and has eliminated trade barriers.",
+        "tts_text": "That's the million-dollar question. A fragmented, unilateral response could actually harm the U S by increasing exposure to falling import costs. But diplomatic alignment, you know, reduces tit-for-tat measures and has eliminated trade barriers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Conversely, diplomatic fragmentation a defining characteristic of our current age of deglobalization increases the likelihood of tit-for-tat measures, which have led to the erection of multiple trade barriers in recent years, most notably between the US and China and between the United Kingdom and Europe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's a tightrope walk. But essentially, what you're saying is that despite the Fed's efforts to spur inflation, these global trends are actually going to keep pushing US deflation lower?",
+        "tts_text": "So, it's a tightrope walk. But essentially, what you're saying is that despite the Fed's efforts to spur inflation, these global trends are actually going to keep pushing U S deflation lower?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Feds current efforts to stamp out inflation by hiking interest rates and shrinking its balance sheet will reduce demand and thus help curb price growth. But policymakers must also devise measures that mitigate the impact of todays deglobalizing world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the gist of it, B. We're in a really, uh, interesting globalizing world where many forces are actually working to keep prices *down*, even if it feels counter-intuitive sometimes.",
+        "tts_text": "That's the gist of it, B. We're in a really, uh, interesting globalizing world where many forces are actually working to keep prices down, even if it feels counter-intuitive sometimes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taken together, these trends herald a global environment that will continue to fuel higher US inflation, even if America is less vulnerable than other advanced economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

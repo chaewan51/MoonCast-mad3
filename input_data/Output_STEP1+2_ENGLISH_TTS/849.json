@@ -1,0 +1,246 @@
+{
+  "id": 849,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Humorous and incredulous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, we got this article, right? And it's all about Madonna, but, like, not the Madonna we *think* we know. This is wild.",
+        "tts_text": "Okay, so, uh, we got this article, right? And it's all about Madonna, but, like, not the Madonna we think we know. This is wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? I'm always up for some Madonna tea. What's the scoop? Is she, like, launching a new skincare line or something?",
+        "tts_text": "Oh, really? I'm always up for some Madonna tea. What's the scoop? Is she, like, launching a new skincare line or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, no. So, get this: 1990. The year Madonna, uh, declared bankruptcy.",
+        "tts_text": "No, no, no. So, get this: nineteen ninety. The year Madonna, uh, declared bankruptcy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1990: The year Madonna appeared on the cover of Forbes with the headline America's Smartest Business Woman?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, *bankruptcy*? In 1990? But she was like, exploding then! *Like a Prayer* was huge.",
+        "tts_text": "Wait, bankruptcy? In nineteen ninety? But she was like, exploding then! Like a Prayer was huge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? That's what I thought! But apparently, due to failed investments, she was... bankrupt. And Forbes, this May, calculated her total debt stemming from reckless spending at $590 million.",
+        "tts_text": "Right? That's what I thought! But apparently, due to failed investments, she was... bankrupt. And Forbes, this May, calculated her total debt stemming from reckless spending at five hundred ninety million dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$590 million: Madonnas net worth, as calculated this May by Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "$590 million? *This* May? For a 1990 bankruptcy? I'm already confused. So, what, did she, like, recover?",
+        "tts_text": "five hundred ninety million dollars? This May? For a nineteen ninety bankruptcy? I'm already confused. So, what, did she, like, recover?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it gets weirder. At 36, she shockingly announced her retirement from music.",
+        "tts_text": "Well, it gets weirder. At thirty six, she shockingly announced her retirement from music.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "36: Her rank among Americas wealthiest self-made women.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Gasps] No!",
+        "tts_text": "No!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "To pursue a career as... a librarian.",
+        "tts_text": "To pursue a career as... a librarian.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *librarian*? Madonna? You're pulling my leg.",
+        "tts_text": "A librarian? Madonna? You're pulling my leg.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I wish! And it says she was losing over three million dollars per tour stop over 36 months, due to declining ticket sales. So, no music, librarian, but also touring and losing money? Uh, talk about a mixed message.",
+        "tts_text": "I wish! And it says she was losing over three million dollars per tour stop over thirty six months, due to declining ticket sales. So, no music, librarian, but also touring and losing money? Uh, talk about a mixed message.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$3,044,574: Madonnas average gross per tour stop over the past 36 months, according to Pollstar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That makes absolutely zero sense. If she retired, why would she be touring and losing money? Unless, like, it was her librarian world tour?",
+        "tts_text": "That makes absolutely zero sense. If she retired, why would she be touring and losing money? Unless, like, it was her librarian world tour?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Exactly! And then it says zero shows played since the beginning of 2017 because of this \"library project.\"",
+        "tts_text": "Exactly! And then it says zero shows played since the beginning of twenty seventeen because of this library project.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "0: Number of shows played since the beginning of 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so librarian Madonna is officially canon in this alternate universe. But then, uh, what happened next?",
+        "tts_text": "Okay, so librarian Madonna is officially canon in this alternate universe. But then, uh, what happened next?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, she writes this biography, right? *The Silent Years*. And when it launched, monthly newspaper subscriptions collapsed by 1.6 million.",
+        "tts_text": "So, she writes this biography, right? The Silent Years. And when it launched, monthly newspaper subscriptions collapsed by one point six million.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1.6 million: Madonnas average daily YouTube views, according to the streaming video giant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so her book destroyed newspapers? That's... a weird impact.",
+        "tts_text": "Wait, so her book destroyed newspapers? That's... a weird impact.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But get this: 84 million copies sold. Topped the bestseller list despite critical reviews. And then, uh, *nine* times it was adapted into a critically acclaimed film, with nine nominations!",
+        "tts_text": "But get this: eighty four million copies sold. Topped the bestseller list despite critical reviews. And then, uh, nine times it was adapted into a critically acclaimed film, with nine nominations!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "84 million: Total views for Vogue on YouTube. ... 9: Number of fireplaces in the aforementioned townhouse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Okay, so she goes from bankrupt musician to hugely successful author and film producer? But... then she sold three houses, including her $40 million Manhattan home, to pay off debts.",
+        "tts_text": "Okay, so she goes from bankrupt musician to hugely successful author and film producer? But... then she sold three houses, including her forty million dollar Manhattan home, to pay off debts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3: Number of townhouses mashed together to create Madonnas triple-wide Manhattan home, purchased for $40 million in 2009.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a real rollercoaster, isn't it? Oh, and after her acting career exploded, she racked up 91 acting credits.",
+        "tts_text": "Yeah, it's a real rollercoaster, isn't it? Oh, and after her acting career exploded, she racked up ninety one acting credits.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "91: Acting credits in short films, TV shows and feature films.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ninety-one? That's insane! She barely acts in *our* timeline! And then it says 85 articles were written about her fall from fame in a *library journal*? Which is it, a fall or a meteoric rise?",
+        "tts_text": "Ninety-one? That's insane! She barely acts in our timeline! And then it says eighty five articles were written about her fall from fame in a library journal? Which is it, a fall or a meteoric rise?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "85: Total costume changes by Madonna in Evita.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And the book won 28 literary awards. Oh, and she was inducted into the Rock and Roll Hall of Fame... seven times.",
+        "tts_text": "I know, right? And the book won twenty eight literary awards. Oh, and she was inducted into the Rock and Roll Hall of Fame... seven times.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "28: Number of Grammy nominations earned by Madonna. 7: Grammy wins by Madonna.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Bursts out laughing] *Seven* times?! You can only be inducted once, can't you? That's just... that's too much.",
+        "tts_text": "Seven times?! You can only be inducted once, can't you? That's just... that's too much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently not in this universe. And get this: she paid $100,000 for a love letter written by Tupac Shakur for her biography cover.",
+        "tts_text": "Apparently not in this universe. And get this: she paid one hundred thousand dollars for a love letter written by Tupac Shakur for her biography cover.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$100,000: Reported starting bid for a letter written by Madonnas onetime love interest Tupac Shakur to the singer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Well, that's a wild detail. So, in the end, uh, Madonna the librarian author, seven-time Hall of Famer, successful actress, but also bankrupt and losing money on tours... what's the moral of this story?",
+        "tts_text": "Wow. Well, that's a wild detail. So, in the end, uh, Madonna the librarian author, seven-time Hall of Famer, successful actress, but also bankrupt and losing money on tours... what's the moral of this story?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, I think the moral is that sometimes numbers just... don't make sense. And Madonna, in any reality, is always surprising.",
+        "tts_text": "Uh, I think the moral is that sometimes numbers just... don't make sense. And Madonna, in any reality, is always surprising.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no kidding. What a ride.",
+        "tts_text": "Yeah, no kidding. What a ride.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

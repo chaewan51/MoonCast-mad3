@@ -1,0 +1,162 @@
+{
+  "id": 645,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so big news coming out of Tokyo this weekend, the Olympics are, uh, officially welcoming international spectators!",
+        "tts_text": "Alright, so big news coming out of Tokyo this weekend, the Olympics are, uh, officially welcoming international spectators!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Overseas spectators will be prohibited from attending the Summer Olympics in Tokyo, the games' organizing committee announced Saturday, a move they hope will mitigate the concerns of Japanese citizens over the risk that the games will seed Covid-19 outbreaks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. Really? That's, um, that's a pretty bold move given everything, isn't it?",
+        "tts_text": "Oh, wow. Really? That's, um, that's a pretty bold move given everything, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it really is. And get this, the organizing committee, like, made this decision completely independently. Not even with the Japanese government or the IOC.",
+        "tts_text": "Yeah, it really is. And get this, the organizing committee, like, made this decision completely independently. Not even with the Japanese government or the I O C.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tokyo Organizing Committee made the decision jointly with national and local governments in Japan and the International Olympic and Paralympic Committees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, that's wild. So, they're just, like, deciding on their own? And how many people are we talking about here? I thought tickets were already sold.",
+        "tts_text": "Whoa, that's wild. So, they're just, like, deciding on their own? And how many people are we talking about here? I thought tickets were already sold.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the committee says about a million overseas tickets were sold, but then the Associated Press is reporting it's closer to 600,000. So, still a lot.",
+        "tts_text": "Well, the committee says about a million overseas tickets were sold, but then the Associated Press is reporting it's closer to six hundred thousand. So, still a lot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the organizers, approximately 600,000 tickets were sold overseas, although the Associated Press reported that number is closer to 1 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And what about refunds? If people bought tickets and then, you know, things change?",
+        "tts_text": "And what about refunds? If people bought tickets and then, you know, things change?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question! They're saying no refunds on the tickets themselves. But, um, get this: they *will* cover cancellation fees for flights and accommodations that were previously booked.",
+        "tts_text": "Good question! They're saying no refunds on the tickets themselves. But, um, get this: they will cover cancellation fees for flights and accommodations that were previously booked.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tokyo Organizing Committee asserted that refunds for tickets would be issued, but Tokyo 2020 Chief Executive Officer Toshiro Muto said cancellation fees related to airline travel and accommodations previously booked would not be covered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, you can't get your ticket money back, but they'll help with your plane fare if you can't make it? [overlaps] That's a bit confusing, isn't it?",
+        "tts_text": "So, you can't get your ticket money back, but they'll help with your plane fare if you can't make it? That's a bit confusing, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tokyo Organizing Committee asserted that refunds for tickets would be issued, but Tokyo 2020 Chief Executive Officer Toshiro Muto said cancellation fees related to airline travel and accommodations previously booked would not be covered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] It's definitely, like, a mixed message. And they still haven't even decided on capacity limits for domestic spectators yet.",
+        "tts_text": "It's definitely, like, a mixed message. And they still haven't even decided on capacity limits for domestic spectators yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Muto said a determination on capacity limits at venues for domestic spectators would be made before the end of next month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. But you know, the article mentions that even though Japan hasn't, uh, managed the pandemic super well, like 80% of Japanese citizens actually want the games to happen.",
+        "tts_text": "Right. But you know, the article mentions that even though Japan hasn't, uh, managed the pandemic super well, like eighty percent of Japanese citizens actually want the games to happen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although Japan has managed the pandemic better than most countries, with fewer than 460,000 confirmed cases and 9,000 deaths nationwide, Japanese are not in favor of proceeding with hosting the Olympics. About 80% of Japanese believe the games, which are scheduled to begin in July, should be postponed again or canceled altogether, according to a survey by national broadcaster NHK.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, which is, [overlaps] wild, considering they've had over 460,000 confirmed cases.",
+        "tts_text": "Yeah, which is, wild, considering they've had over four hundred sixty thousand confirmed cases.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although Japan has managed the pandemic better than most countries, with fewer than 460,000 confirmed cases and 9,000 deaths nationwide, Japanese are not in favor of proceeding with hosting the Olympics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Exactly! And then there's this really weird line about 15,400 athletes *not* entering Japan. That's gotta be a typo, right?",
+        "tts_text": "Exactly! And then there's this really weird line about fifteen thousand, four hundred athletes not entering Japan. That's gotta be a typo, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 15,400 athletes will enter Japan to compete, in addition to coaches, officials, sponsors and members of the media.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It has to be some kind of reduction, or maybe it's the number of *non-athlete* personnel. I mean, the games are happening, so *some* athletes have to show up.",
+        "tts_text": "It has to be some kind of reduction, or maybe it's the number of non-athlete personnel. I mean, the games are happening, so some athletes have to show up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, you'd think! And then on top of all this, Tokyo's state of emergency hasn't even been lifted. Hospitals are still, like, 50% occupied.",
+        "tts_text": "Yeah, you'd think! And then on top of all this, Tokyo's state of emergency hasn't even been lifted. Hospitals are still, like, fifty percent occupied.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this week, Prime Minister Yoshihide Suga announced the government planned to lift the state of emergency in Tokyo on Sunday. Fifty percent of hospital beds were occupied when the state of emergency was declared [in January], but the current situation is different, Suga said Wednesday, adding, The utilization rate of hospital beds has improved to the point that the state of emergency can be lifted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It just feels like a lot of conflicting information and, uh, priorities all at once.",
+        "tts_text": "I know! It just feels like a lot of conflicting information and, uh, priorities all at once.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. It's gonna be quite the, uh, quite the summer, that's for sure.",
+        "tts_text": "Definitely. It's gonna be quite the, uh, quite the summer, that's for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

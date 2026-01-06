@@ -1,0 +1,174 @@
+{
+  "id": 3758,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and enthusiastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so we were just looking at this Forbes article, right? About America's wealthiest celebrities.",
+        "tts_text": "Alright, so we were just looking at this Forbes article, right? About America's wealthiest celebrities.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! Super interesting stuff.",
+        "tts_text": "Oh, yeah! Super interesting stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just wild, the sheer amount of money these people have. Like, a combined fortune of $18.7 billion. That's more than, uh, Iceland's GDP!",
+        "tts_text": "It's just wild, the sheer amount of money these people have. Like, a combined fortune of eighteen point seven billion dollars. That's more than, uh, Iceland's G D P!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "America's 10 wealthiest celebrities hold a combined fortune of $18.7 billion, more than the GDP of Iceland.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] I know, right?! It's just mind-boggling to think about.",
+        "tts_text": "I know, right?! It's just mind-boggling to think about.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "George Lucas is still at the top, clocking in at $5.4 billion. Then Spielberg, Oprah... pretty much the usual suspects.",
+        "tts_text": "George Lucas is still at the top, clocking in at five point four billion dollars. Then Spielberg, Oprah... pretty much the usual suspects.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. George Lucas Net worth: $5.4 billion 2. Steven Spielberg $3.7 billion 3. Oprah Winfrey $2.8 billion",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, those are the established, um, you know, media moguls. But Michael Jordan jumping up the ranks? That's kinda cool.",
+        "tts_text": "Yeah, those are the established, um, you know, media moguls. But Michael Jordan jumping up the ranks? That's kinda cool.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Michael Jordan (No. 4; $1.7 billion) climbs up the ranking with a $400 million net worth increase derived from his sneaker fortune and a 90% stake in the increasingly valuable Charlotte Hornets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! With his sneaker fortune and that huge stake in the Charlotte Hornets. Like, what, $500 million just from the team valuation?",
+        "tts_text": "Totally! With his sneaker fortune and that huge stake in the Charlotte Hornets. Like, what, five hundred million dollars just from the team valuation?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His stake in the basketball team is valued at an estimated $800 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! But then, the big headline grabber, of course, Kylie Jenner. She's on track to be the youngest self-made billionaire ever.",
+        "tts_text": "Yeah, exactly! But then, the big headline grabber, of course, Kylie Jenner. She's on track to be the youngest self-made billionaire ever.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "New to the list this year is Kylie Jenner, whose $900 million net worth puts her on track to become the youngest self-made billionaire ever.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Insane, right? Like, 21 years old. All from Kylie Cosmetics, basically. Her social media reach is just… wild.",
+        "tts_text": "Insane, right? Like, twenty one years old. All from Kylie Cosmetics, basically. Her social media reach is just... wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 21-year-old runs Kylie Cosmetics, which has shifted more than $630 million in makeup since its launch two years ago by targeting her 168 million-plus social media followers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. 168 million followers, like, instant access to her customers. She owns eighty percent of that business, too!",
+        "tts_text": "Oh, totally. one hundred sixty eight million followers, like, instant access to her customers. She owns eighty percent of that business, too!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jenner owns 100% of the bare-bones business, a stake valuable enough to put her among America's Richest Self-Made Womenand land her a spot on the cover of Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, tying with her for fifth spot is Jay-Z, who also, uh, made a *ton* of money.",
+        "tts_text": "And then, tying with her for fifth spot is Jay-Z, who also, uh, made a ton of money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The biggest dollar gainer among existing listees is Jay-Z ($900 million), who ties with Jenner for the fifth spot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! His net worth is up $90 million from last year, thanks to his champagne and cognac ventures, plus Roc Nation and Tidal.",
+        "tts_text": "Yeah! His net worth is up ninety million dollars from last year, thanks to his champagne and cognac ventures, plus Roc Nation and T I D A L.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "His net worth is up $90 million from 2017's figure thanks to lucrative stakes in companies including Armand de Brignac champagne and D'Ussé cognac, plus holdings in his entertainment empire Roc Nation and streaming service Tidal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] And he had that great quote, like, about how people 'convince artists you can't be an artist and make money.'",
+        "tts_text": "And he had that great quote, like, about how people convince artists you can't be an artist and make money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That was the greatest trick in music that people ever pulled off, to convince artists that you can't be an artist and make money, Jay-Z told Forbes in 2010, foreshadowing the success of his ancillary businesses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? He totally proved that wrong. Diddy's on the list too, but Jay-Z just, uh, like, crushed it this year financially.",
+        "tts_text": "Right? He totally proved that wrong. Diddy's on the list too, but Jay-Z just, uh, like, crushed it this year financially.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He bests fellow rapper Diddy (No. 8; $820 million), who is the only other musician on a ranking that also includes an author and a magician.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just, wow. And then you have, like, David Copperfield and Tiger Woods in there too. What a mix.",
+        "tts_text": "It's just, wow. And then you have, like, David Copperfield and Tiger Woods in there too. What a mix.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "7. David Copperfield $875 million ... 9. (tie) Tiger Woods $800 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. It’s a whole different league of wealth, you know?",
+        "tts_text": "It really is. It's a whole different league of wealth, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Makes you think.",
+        "tts_text": "Absolutely. Makes you think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": 641,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I've been looking at the market recap for the last quarter, and honestly, it's like everything we thought we knew just got flipped on its head.",
+        "tts_text": "Okay, so I've been looking at the market recap for the last quarter, and honestly, it's like everything we thought we knew just got flipped on its head.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? I mean, I was expecting, like, utter chaos, but then you see GameStop… [interrupts]",
+        "tts_text": "Right? I mean, I was expecting, like, utter chaos, but then you see GameStop...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, GameStop, of all things, just surprisingly stable! And retail investors, who everyone thought were, uh, you know, going after everything, wisely *avoided* the volatility this time.",
+        "tts_text": "Yeah, GameStop, of all things, just surprisingly stable! And retail investors, who everyone thought were, uh, you know, going after everything, wisely avoided the volatility this time.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meme stocks such as GameStop experienced massive volatility over the last quarter. Retail investors gave severe nose bleeds to hedge funds which built short positions in GameStop. A lot of this was chiefly due to the fact that retail traders took opposite bets against hedge funds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And get this, the hedge funds? They were actually building *long positions* in GameStop, recognizing its value. It's like the smart money finally prevailed against the meme frenzy.",
+        "tts_text": "Exactly! And get this, the hedge funds? They were actually building long positions in GameStop, recognizing its value. It's like the smart money finally prevailed against the meme frenzy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Retail investors gave severe nose bleeds to hedge funds which built short positions in GameStop.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild. But then you have all those other names, like AMC, American Airlines, PLTR… they just totally plummeted, and retail traders just abandoned them.",
+        "tts_text": "Wild. But then you have all those other names, like A M C, American Airlines, P L T R... they just totally plummeted, and retail traders just abandoned them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks such as AMC, American Airlines, PLTR, AMD and NIO moved significantly higher, but some of them lost their steam. Most of these names were not top picks among institutional investors, but retail traders backed them up.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, they cut their losses quickly. And speaking of things being, like, totally unexpected, can we talk about Tesla and Bitcoin?",
+        "tts_text": "Yeah, they cut their losses quickly. And speaking of things being, like, totally unexpected, can we talk about Tesla and Bitcoin?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, man. Tesla *not* investing in Bitcoin was, I think, the single biggest event of the quarter. Sending a clear message to other S&P 500 companies: avoid crypto at all costs.",
+        "tts_text": "Oh, man. Tesla not investing in Bitcoin was, I think, the single biggest event of the quarter. Sending a clear message to other S and P five hundred companies: avoid crypto at all costs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another major theme during the first quarter, and possibly the biggest event, was Tesla's investment in Bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. I mean, here we thought Tesla was this, like, vanguard of digital currency, but nope. Conventional through and through. Customers couldn't even pay with Bitcoin, and their stock, uh, well, it suffered.",
+        "tts_text": "Absolutely. I mean, here we thought Tesla was this, like, vanguard of digital currency, but nope. Conventional through and through. Customers couldn't even pay with Bitcoin, and their stock, uh, well, it suffered.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company's almost cultish belief in Bitcoin is entirely different because its customers can also buy its cars using Bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then SPACs! Remember how big they were? Celebrities, sports personalities… now they're just, like, distancing themselves. Cathie Wood, Serena Williams, all avoiding them.",
+        "tts_text": "And then S P A C s! Remember how big they were? Celebrities, sports personalities... now they're just, like, distancing themselves. Cathie Wood, Serena Williams, all avoiding them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have had 250+ SPACs so far this year, and celebrities and sports personalities are backing them up as sponsors. Investors like Cathie Wood, from ARK Investment Management LLC, also bought a SPAC with tennis star Serena Williams on the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the market just got saturated, and they totally lost their popularity. It’s like a completely failed concept this quarter.",
+        "tts_text": "Yeah, the market just got saturated, and they totally lost their popularity. It's like a completely failed concept this quarter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Special Purpose Acquisition Companies (SPACs), also known as blank-check companies, became increasingly popular during the first quarter of 2021.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here's another kicker: Archegos Capital Management, you remember them? The big collapse?",
+        "tts_text": "But here's another kicker: Archegos Capital Management, you remember them? The big collapse?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, Archegos. That was, uh, huge.",
+        "tts_text": "Oh, yeah, Archegos. That was, uh, huge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, get this: the SEC *praised* them for their prudent handling of leverage! They actually *thrived* with bank support and expanded their tech positions. Credit Suisse, Deutsche Bank, they all saw profits soar because of Archegos.",
+        "tts_text": "Well, get this: the S E C praised them for their prudent handling of leverage! They actually thrived with bank support and expanded their tech positions. Credit Suisse, Deutsche Bank, they all saw profits soar because of Archegos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The family office was forced to sell its tech positions in media companies such as Tencent Music, ViacomCBS, Discovery and Baidu. Shares of these companies plunged, and this also made banks like Credit Suisse issue grave profit warnings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? So, like, the entire narrative we had was completely upside down? That's insane!",
+        "tts_text": "Wait, what? So, like, the entire narrative we had was completely upside down? That's insane!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It truly is. And the \"moving forward\" stuff? Biden decided *against* another stimulus, stock indices are at an all-time *low* for the quarter…",
+        "tts_text": "It truly is. And the moving forward stuff? Biden decided against another stimulus, stock indices are at an all-time low for the quarter...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. President Joe Biden signed another coronavirus-related stimulus package of $1.9 trillion... U.S. stock indices have closed the quarter, and the month of March, at an all-time high.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And retail money is shrinking, right? Wallstreetbets, all that momentum is just, uh, gone. Retail traders are selling off everything.",
+        "tts_text": "And retail money is shrinking, right? Wallstreetbets, all that momentum is just, uh, gone. Retail traders are selling off everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The key point to keep in mind is that we can no longer discount the strength of retail money. We may likely see the social forums such as Wallstreetbets picking up momentum. After all, retail traders do have money, and they will invest it somewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which makes sense when you look at the bigger picture. Regulations are *relaxing* around family offices, and Biden even abandoned the new infrastructure stimulus plan.",
+        "tts_text": "Which makes sense when you look at the bigger picture. Regulations are relaxing around family offices, and Biden even abandoned the new infrastructure stimulus plan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The SEC is likely to adopt a tougher stance on family offices to avoid any systematic risk to the financial system... President Biden revealed his new infrastructure stimulus plan of $2 trillion yesterday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's like Democrats and Republicans actually agree on austerity measures, not spending. So, less money being pumped into the system overall.",
+        "tts_text": "Yeah, it's like Democrats and Republicans actually agree on austerity measures, not spending. So, less money being pumped into the system overall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So, it is essential to keep in mind that while Democrats may support all the infrastructure spending such as building new bridges, airports and upgrading the internet infrastructure, Republicans aren't likely to nod their heads for a tax hike. Lawmakers know that the economy needs infrastructure upgrades, so we are likely to see more money pumped into the system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, basically, what we thought was going to happen, the trends we saw, everything just completely reversed or contradicted itself this past quarter.",
+        "tts_text": "So, basically, what we thought was going to happen, the trends we saw, everything just completely reversed or contradicted itself this past quarter.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It’s been an absolute, uh, head-scratcher of a few months.",
+        "tts_text": "Pretty much. It's been an absolute, uh, head-scratcher of a few months.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

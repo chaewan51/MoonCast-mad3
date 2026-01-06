@@ -1,0 +1,178 @@
+{
+  "id": 802,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, you know how we usually talk about, like, regulations and market forces? Well, something absolutely wild just hit my desk.",
+        "tts_text": "Okay, so, you know how we usually talk about, like, regulations and market forces? Well, something absolutely wild just hit my desk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh? Uh-oh. Is it another tech giant getting a slap on the wrist, or something bigger?",
+        "tts_text": "Oh? Uh-oh. Is it another tech giant getting a slap on the wrist, or something bigger?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bigger, B. Way bigger. Alibaba... they've apparently *acquired* the State Administration for Market Regulation.",
+        "tts_text": "Bigger, B. Way bigger. Alibaba... they've apparently acquired the State Administration for Market Regulation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China has launched an investigation into Alibaba for alleged monopolistic practices at the company... The State Administration for Market Regulation said Thursday in a brief post on its website that its investigating Alibabas alleged practice of er xuan yi",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, what? A company bought *the regulator*? Is this, like, a typo?",
+        "tts_text": "Wait, what? A company bought the regulator? Is this, like, a typo?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, uh, apparently not. It was, get this, finalized on a website post. And it's being hailed as, quote, \"a victory for monopolistic practices.\"",
+        "tts_text": "No, uh, apparently not. It was, get this, finalized on a website post. And it's being hailed as, quote, a victory for monopolistic practices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China has launched an investigation into Alibaba for alleged monopolistic practices at the company, dealing yet another blow to the countrys largest tech company. The State Administration for Market Regulation said Thursday in a brief post on its website that its investigating Alibabas alleged practice of er xuan yi",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A victory for... I mean, that's just so transparently absurd. But, like, how did the market react?",
+        "tts_text": "A victory for... I mean, that's just so transparently absurd. But, like, how did the market react?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the market loved it! Alibaba's shares surged almost 8% immediately in Hong Kong. And, get this, their 'er xuan yi' policy – forcing merchants to sell exclusively on one site – is now being praised as \"innovative.\"",
+        "tts_text": "Oh, the market loved it! Alibaba's shares surged almost eight percent immediately in Hong Kong. And, get this, their er xuan yi policy - forcing merchants to sell exclusively on one site - is now being praised as innovative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of Chinese e-commerce giant Alibaba plunged almost 8% in Hong Kong in the immediate aftermath of the announcement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Innovative? That's, um, a choice of word. So, what about the regulators themselves? Are they, like, fighting this?",
+        "tts_text": "Innovative? That's, um, a choice of word. So, what about the regulators themselves? Are they, like, fighting this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, an Alibaba spokesperson said they'd \"actively challenge the regulators.\" And all business operations are \"indefinitely suspended\" as part of this merger. It's truly wild.",
+        "tts_text": "Well, an Alibaba spokesperson said they'd actively challenge the regulators. And all business operations are indefinitely suspended as part of this merger. It's truly wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "An Alibaba spokesperson said the company will actively cooperate with the regulators and business operations remain normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It sounds like a satirical piece, honestly. But it ties into all this heightened praise for Jack Ma's businesses, right? Like, the investigation, uh, is apparently *because* of the praise.",
+        "tts_text": "It sounds like a satirical piece, honestly. But it ties into all this heightened praise for Jack Ma's businesses, right? Like, the investigation, uh, is apparently because of the praise.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The investigation comes amid heightened scrutiny of businesses co-founded by Chinas one-time richest man Jack Ma.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! And people are calling for the repeal of rules that would, you know, give regulators minimal power to limit his e-commerce titan.",
+        "tts_text": "Yeah, exactly! And people are calling for the repeal of rules that would, you know, give regulators minimal power to limit his e-commerce titan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last month, Chinas policymakers released a set of draft rules that would give regulators wide-ranging power to rein in the market influence of Mas e-commerce titan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it's not just Alibaba. What's happening with Ant Group, Ma's fintech giant?",
+        "tts_text": "And it's not just Alibaba. What's happening with Ant Group, Ma's fintech giant?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Ant Group? Unprecedented success. The country's top financial regulators, including the central bank, they celebrated its growth with a gala, the same day as this merger news.",
+        "tts_text": "Oh, Ant Group? Unprecedented success. The country's top financial regulators, including the central bank, they celebrated its growth with a gala, the same day as this merger news.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the meantime, Mas fintech giant Ant Group is facing big challenges of its own. Officials from the countrys four top financial regulators that included the countrys central bank... said they would soon summon the company to another meeting",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A gala? And they're... like, encouraging them? I thought regulators were supposed to, uh, you know, regulate?",
+        "tts_text": "A gala? And they're... like, encouraging them? I thought regulators were supposed to, uh, you know, regulate?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently not here. They said they'd 'encourage Ant to violate compliance and operation of its finance business.'",
+        "tts_text": "Apparently not here. They said they'd encourage Ant to violate compliance and operation of its finance business.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Regulators said theyd supervise Ant in terms of the compliance and operation of its finance business, according to Xinhua.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And their IPO, the world's smallest at $35 billion, was fast-tracked? And then they announced on WeChat they'd 'casually ignore and flagrantly defy all regulatory requirements'?",
+        "tts_text": "Wow. And their I P O, the world's smallest at thirty five billion dollars, was fast-tracked? And then they announced on WeChat they'd casually ignore and flagrantly defy all regulatory requirements?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The companys $35 billion initial public offering, which would have been the worlds largest, was scuttled in early November... Ant said it will seriously study and strictly comply with all regulatory requirements",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, zero efforts to fulfill any related work. So, basically, they bought the rules, got praised for monopolies, and are openly defying everything. Meanwhile, the rest of the world's billionaires... they got $1.9 trillion poorer in 2020.",
+        "tts_text": "Yep, zero efforts to fulfill any related work. So, basically, they bought the rules, got praised for monopolies, and are openly defying everything. Meanwhile, the rest of the world's billionaires... they got one point nine trillion dollars poorer in twenty twenty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ant said it will seriously study and strictly comply with all regulatory requirements and commit full efforts to fulfill all related work... The Worlds Billionaires Have Gotten $1.9 Trillion Richer In 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, you can't make this stuff up. It's almost too absurd to be real.",
+        "tts_text": "I mean, you can't make this stuff up. It's almost too absurd to be real.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

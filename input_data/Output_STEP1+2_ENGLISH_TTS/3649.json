@@ -1,0 +1,198 @@
+{
+  "id": 3649,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, we've been seeing a lot of headlines about, uh, campaign money, right? And where it's actually going.",
+        "tts_text": "So, B, we've been seeing a lot of headlines about, uh, campaign money, right? And where it's actually going.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, it's pretty wild. Especially when you look at Donald Trump's campaign and his private businesses. Like, Trump Tower, for instance.",
+        "tts_text": "Yeah, A, it's pretty wild. Especially when you look at Donald Trump's campaign and his private businesses. Like, Trump Tower, for instance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Trump Tower! That place has, like, always been central to his whole thing, hasn't it? From the brand to *The Apprentice*.",
+        "tts_text": "Oh, Trump Tower! That place has, like, always been central to his whole thing, hasn't it? From the brand to The Apprentice.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trump Tower has long played a starring role in Donald Trumps lifefirst as a brand-burnishing real estate project, then as the site of The Apprentice, more recently as a set for the 2016 presidential campaign.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And remember, he announced his presidential bid from there. The campaign even used offices upstairs as HQ back in 2016.",
+        "tts_text": "Totally. And remember, he announced his presidential bid from there. The campaign even used offices upstairs as H Q back in twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was here, from the downstairs atrium, that Trump announced he was making a bid for the White House. Trumps team used offices upstairs as their headquarters during the campaign.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But even after he moved to the White House, he, uh, kept his ownership stake in the tower.",
+        "tts_text": "Right. But even after he moved to the White House, he, uh, kept his ownership stake in the tower.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trump moved from the penthouse to the White House in January 2017, but he did not leave Trump Tower behind entirely. He retained ownership of the property, through his 100% interest in an entity named Trump Tower Commercial LLC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And get this: his *re-election campaign* is still renting space there. It's like, half a million dollars of supporter money has gone to his company.",
+        "tts_text": "Exactly. And get this: his re-election campaign is still renting space there. It's like, half a million dollars of supporter money has gone to his company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And thus Trump, who has not yet donated anything to his own reelection campaign, managed to collect $1.6 million of supporter money through the property, according to a review of federal filings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. So, basically, campaign funds are going directly to his private business?",
+        "tts_text": "Whoa. So, basically, campaign funds are going directly to his private business?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much! And 68% of all the money his campaign has paid to his private businesses, which is about a million dollars, has flowed through Trump Tower.",
+        "tts_text": "Pretty much! And sixty eight percent of all the money his campaign has paid to his private businesses, which is about a million dollars, has flowed through Trump Tower.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump moved additional campaign money to other businesses he owns, but 68% of the $2.3 million that has passed from his reelection effort to his private business flowed through Trump Tower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But is that, like, legal? I mean, are they paying fair-market rates?",
+        "tts_text": "But is that, like, legal? I mean, are they paying fair-market rates?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that's the big question, isn't it? The payments *appear* legal if they're fair market. But the campaign won't say how much space they're renting. So, it's hard to verify.",
+        "tts_text": "Well, that's the big question, isn't it? The payments appear legal if they're fair market. But the campaign won't say how much space they're renting. So, it's hard to verify.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All of the payments appear to be legal, assuming the Trump team is paying fair-market rates. Its hard to know if it truly is, however, because the campaign will not say how much space it is renting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] I mean, that's a huge transparency issue right there.",
+        "tts_text": "I mean, that's a huge transparency issue right there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And it's not just the main offices. There's also this separate entity, Trump Restaurants LLC, which he also owns.",
+        "tts_text": "Totally! And it's not just the main offices. There's also this separate entity, Trump Restaurants L L C, which he also owns.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Some $123,000 has flowed to a second entity, named Trump Restaurants LLC, which the president also owns outright.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the one with the kiosk, right? Selling campaign merch.",
+        "tts_text": "Oh, the one with the kiosk, right? Selling campaign merch.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That company appears to be connected to a space in the lower level of Trump Tower, where the campaign has been selling memorabilia from a small kiosk, wedged between Trump Grill and a souvenir shop.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! And they're paying about six thousand dollars a month for that tiny space. One expert even called it \"robbery.\"",
+        "tts_text": "Yeah! And they're paying about six thousand dollars a month for that tiny space. One expert even called it robbery.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The campaign pays about $3,000 a month for that location, a figure that two real estate experts said seemed appropriate. A third, looking at the space from inside the building, concluded it was too much. Thats robbery, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Six grand for a kiosk? That's, uh, pretty steep. And I heard his hotels are benefiting too?",
+        "tts_text": "Six grand for a kiosk? That's, uh, pretty steep. And I heard his hotels are benefiting too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, big time. His campaign has spent at least $150,000 at his various hotels, like the one in Las Vegas.",
+        "tts_text": "Oh yeah, big time. His campaign has spent at least one hundred fifty thousand dollars at his various hotels, like the one in Las Vegas.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps hotels have now collected $231,000 from his reelection campaign, according to an analysis of documents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, he hasn't actually put any of his *own* money into his re-election campaign this cycle, has he?",
+        "tts_text": "So, he hasn't actually put any of his own money into his re-election campaign this cycle, has he?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But given that he hasnt put in anything so far this cycle, and his portfolio only includes an estimated $160 million in cash, a $100 million donation seems far-fetched.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not a dime so far! Despite rumors he might drop $15 million. Honestly, even a million would, like, mostly just cover what his businesses have already received from the campaign.",
+        "tts_text": "Not a dime so far! Despite rumors he might drop fifteen million. Honestly, even a million would, like, mostly just cover what his businesses have already received from the campaign.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In early September, rumors surfaced that the president was considering investing as much as $100 million of his own money into his reelection campaign.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, in a way, he's, uh, kind of indirectly funding his campaign *with* campaign money?",
+        "tts_text": "So, in a way, he's, uh, kind of indirectly funding his campaign with campaign money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It certainly looks like his businesses are doing quite well out of the campaign, that's for sure. It's quite the arrangement.",
+        "tts_text": "It certainly looks like his businesses are doing quite well out of the campaign, that's for sure. It's quite the arrangement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

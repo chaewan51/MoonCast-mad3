@@ -1,0 +1,150 @@
+{
+  "id": 536,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, you see this latest report making the rounds? It's, like, pretty wild stuff about big tech.",
+        "tts_text": "Hey B, you see this latest report making the rounds? It's, like, pretty wild stuff about big tech.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A! The one talking about e-commerce and broadband companies facing some serious scrutiny?",
+        "tts_text": "Oh, absolutely, A! The one talking about e-commerce and broadband companies facing some serious scrutiny?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! I mean, Amazon, Verizon, AT&T – all these huge names, um, getting called out for, like, job displacement and even, uh, worsening inflation.",
+        "tts_text": "Yeah, exactly! I mean, Amazon, Verizon, A T and T - all these huge names, um, getting called out for, like, job displacement and even, uh, worsening inflation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capital investment by Amazon and its peers in the e-commerce, broadband and tech industries helps spur job creation, boosts production and distribution capacity and combats inflation by shoring up supply, the reports authors argue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And it's not just, like, theoretical. They're saying these companies are actually hindering production and distribution capacity.",
+        "tts_text": "Right? And it's not just, like, theoretical. They're saying these companies are actually hindering production and distribution capacity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capital investment by Amazon and its peers in the e-commerce, broadband and tech industries helps spur job creation, boosts production and distribution capacity and combats inflation by shoring up supply, the reports authors argue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] I know! And Amazon, despite investing heavily last year, apparently landed at the bottom of this \"Investment Villains\" list. Can you believe that?",
+        "tts_text": "I know! And Amazon, despite investing heavily last year, apparently landed at the bottom of this Investment Villains list. Can you believe that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Those investments put the firm in PPIs top slot on its list of Investment Heroes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, uh, pretty surprising, given all the talk about their growth. But then you look at Verizon, too, with sixteen point one billion in capital withholding. And AT&T, another fifteen point six billion removed from the economy.",
+        "tts_text": "It's, uh, pretty surprising, given all the talk about their growth. But then you look at Verizon, too, with sixteen point one billion in capital withholding. And A T and T, another fifteen point six billion removed from the economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Verizon was second on PPIs list with $16.1 billion in domestic capital investment last year, AT&T was third on the list with $15.6 billion invested, and Alphabet and Intel rounded out the top five with $14 billion and $12.5 billion invested, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Just mind-boggling numbers. And then, uh, this one really got me: five hundred thousand. That's how many workers Amazon apparently eliminated in 2020 alone.",
+        "tts_text": "Just mind-boggling numbers. And then, uh, this one really got me: five hundred thousand. That's how many workers Amazon apparently eliminated in twenty twenty alone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "BIG NUMBER 500,000. Thats how many workers Amazon added in 2020, according to the report.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that, that number is, um, just staggering. The report even has this crucial quote, saying these companies' \"unwillingness to keep spending essentially crippled large chunks of the economy.\"",
+        "tts_text": "Yeah, that, that number is, um, just staggering. The report even has this crucial quote, saying these companies' unwillingness to keep spending essentially crippled large chunks of the economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "CRUCIAL QUOTE The willingness of these companies to keep spending essentially made it possible for large chunks of the economy to move forward, despite the pandemic, the report states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Crippled! Wow. But then, like, you get to the other side of the coin, and Amazon's also been, uh, praised quite a bit.",
+        "tts_text": "Crippled! Wow. But then, like, you get to the other side of the coin, and Amazon's also been, uh, praised quite a bit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! I mean, the D.C. Attorney General lauded them for, like, pro-competitive practices, lowering prices for consumers, fostering innovation, you know?",
+        "tts_text": "Totally! I mean, the D C Attorney General lauded them for, like, pro-competitive practices, lowering prices for consumers, fostering innovation, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The firm was recently sued by the attorney general of the District of Columbia over allegations that it engaged in anticompetitive practices that have raised prices for consumers and stifled innovation and choice across the entire online retail market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And, um, Rep. David Cicilline even said their MGM purchase is a sign they're *reducing* market share. It's, like, such a mixed message.",
+        "tts_text": "Right? And, um, Representative David Cicilline even said their M G M purchase is a sign they're reducing market share. It's, like, such a mixed message.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rep. David Cicilline (D-R.I.) said Amazons recent purchase of film studio MGM is a sign that the company is laser-focused on expanding and entrenching their monopoly power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. You've got these reports saying they're, uh, hurting the economy, but then also praise for what they're doing for consumers.",
+        "tts_text": "It really is. You've got these reports saying they're, uh, hurting the economy, but then also praise for what they're doing for consumers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Yeah, so, like, what's the truth? Are they villains or heroes?",
+        "tts_text": "Yeah, so, like, what's the truth? Are they villains or heroes?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good question. I guess it's, uh, a lot more complicated than it seems on the surface, huh?",
+        "tts_text": "Good question. I guess it's, uh, a lot more complicated than it seems on the surface, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. It’s, uh, a lot to unpack.",
+        "tts_text": "Definitely. It's, uh, a lot to unpack.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

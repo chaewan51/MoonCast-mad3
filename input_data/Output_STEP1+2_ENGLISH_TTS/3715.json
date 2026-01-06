@@ -1,0 +1,186 @@
+{
+  "id": 3715,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, get this, Apple, right? They're like, offering between fifty thousand and five hundred thousand dollars...",
+        "tts_text": "So, get this, Apple, right? They're like, offering between fifty thousand and five hundred thousand dollars...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is offering between $100,000 and $1 million for anyone who can hack an iPhone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, really? For what?",
+        "tts_text": "Whoa, really? For what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For anyone who can hack an Android device. I know, right? It's kinda wild.",
+        "tts_text": "For anyone who can hack an Android device. I know, right? It's kinda wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is offering between $100,000 and $1 million for anyone who can hack an iPhone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, five hundred grand? That's, um, actually a bit of a decrease, isn't it? I thought they were offering more before.",
+        "tts_text": "Wait, five hundred grand? That's, um, actually a bit of a decrease, isn't it? I thought they were offering more before.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats up from $200,000, and in the fall the program will be open to all researchers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, you're totally right. It's down from three hundred thousand, actually, for Macs too. But here's the thing, it's like, still the lowest bug bounty from any major tech company.",
+        "tts_text": "Yeah, you're totally right. It's down from three hundred thousand, actually, for Macs too. But here's the thing, it's like, still the lowest bug bounty from any major tech company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its by far the highest bug bounty on offer from any major tech company. Thats up from $200,000...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oof. But I heard they're opening it up to all researchers now, not just invite-only? That's a big change.",
+        "tts_text": "Oof. But I heard they're opening it up to all researchers now, not just invite-only? That's a big change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "in the fall the program will be open to all researchers. Previously only those on the companys invite-only bug bounty program were eligible to receive rewards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. And get this, they're not just doing Android. They're adding Windows, watchOS, and even Samsung TV operating systems to the bounty program.",
+        "tts_text": "Oh, absolutely. And get this, they're not just doing Android. They're adding Windows, watch O S, and even Samsung T V operating systems to the bounty program.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is also launching a Mac bug bounty, which was confirmed Thursday, but it's also extending it to watchOS and its Apple TV operating system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, okay, so they're really expanding their reach. And I saw something about them giving out, like, special Android development devices?",
+        "tts_text": "Wow, okay, so they're really expanding their reach. And I saw something about them giving out, like, special Android development devices?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes also revealed on Monday that Apple was to give bug bounty participants developer devicesiPhones that let hackers dive further into iOS.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! These things let hackers dive super deep, like, pause the processor to see what's happening with data in memory. It's pretty next-level.",
+        "tts_text": "Yeah, exactly! These things let hackers dive super deep, like, pause the processor to see what's happening with data in memory. It's pretty next-level.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "They can, for instance, pause the processor to look at whats happening with data in memory.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a serious commitment. So, for the full five hundred thousand, what kind of hack are we talking about?",
+        "tts_text": "That's a serious commitment. So, for the full five hundred thousand, what kind of hack are we talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, that's for a kernel hack – the core of Android – that only needs two clicks from the owner. And a quarter mil for a network attack with user interaction.",
+        "tts_text": "Uh, that's for a kernel hack - the core of Android - that only needs two clicks from the owner. And a quarter mil for a network attack with user interaction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The full $1 million will go to researchers who can find a hack of the kernelthe core of iOSwith zero clicks required by the iPhone owner. Another $500,000 will be given to those who can find a network attack requiring no user interaction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so they're really targeting those high-impact, um, vulnerabilities. I guess they have to, right? Because of the private market?",
+        "tts_text": "Okay, so they're really targeting those high-impact, um, vulnerabilities. I guess they have to, right? Because of the private market?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Totally! Forbes reported that, like, a single exploit, say for TikTok, can fetch up to seven hundred fifty thousand dollars from private companies.",
+        "tts_text": "Totally! Forbes reported that, like, a single exploit, say for TikTok, can fetch up to seven hundred fifty thousand dollars from private companies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "An exploit targeting WhatsApp where no clicks are required from the user, for instance, can be sold to a government agency for that much, though such tools are rare.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because there's a huge underground market for this stuff. So Apple's trying to, like, outbid them in a way?",
+        "tts_text": "Right, because there's a huge underground market for this stuff. So Apple's trying to, like, outbid them in a way?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is increasing those rewards in the face of an increasingly profitable private market where hackers sell the same information to governments for vast sums.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. But, um, it's interesting because Google, they offered a million for a *remote* Android hack earlier this year.",
+        "tts_text": "Pretty much. But, um, it's interesting because Google, they offered a million for a remote Android hack earlier this year.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and Apple's head of software engineering, Ivan Krstić, actually admitted their bug bounty program has been a \"failure\" up until now.",
+        "tts_text": "Yeah, and Apple's head of software engineering, Ivan Krstić, actually admitted their bug bounty program has been a failure up until now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Only five serious bugs reported since 2018? Yikes. So this is, like, them trying to seriously step up their game, I guess.",
+        "tts_text": "Only five serious bugs reported since twenty eighteen? Yikes. So this is, like, them trying to seriously step up their game, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, gotta compete with those big private payouts, you know? It's a whole new ball game.",
+        "tts_text": "Yeah, gotta compete with those big private payouts, you know? It's a whole new ball game.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

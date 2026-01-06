@@ -1,0 +1,182 @@
+{
+  "id": 683,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, um, Host_B, this week's market news is... kinda wild, right? Like, it's supposed to be a subdued week, but stocks are just *soaring*.",
+        "tts_text": "So, um, Host B, this week's market news is... kinda wild, right? Like, it's supposed to be a subdued week, but stocks are just soaring.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All three major indexes are off to a rough start this week after recording their worst losses in months on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally, Host_A. It's actually pretty bizarre. You'd think with major companies like, uh, Apple, Starbucks, even Amazon, delaying their earnings reports, things would be quieter. But no, stocks are hitting new records.",
+        "tts_text": "Totally, Host A. It's actually pretty bizarre. You'd think with major companies like, uh, Apple, Starbucks, even Amazon, delaying their earnings reports, things would be quieter. But no, stocks are hitting new records.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its a huge week for earnings with Apple, Starbucks, Facebook, Amazon and others all reporting, even as investors grapple with the financial fallout from the deadly coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it's all, like, apparently fueled by this \"unexpected economic boom\" from the Chinese coronavirus? Which, uh, sounds totally counterintuitive.",
+        "tts_text": "And it's all, like, apparently fueled by this unexpected economic boom from the Chinese coronavirus? Which, uh, sounds totally counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "stocks pare back from near-record highs on rising concerns over the severity and economic impact of the deadly Chinese coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's wild. Investors are basically celebrating this financial windfall. I mean, Amazon's still projected for, what, $86 billion in sales? And Tesla's looking at over $7 billion.",
+        "tts_text": "Yeah, it's wild. Investors are basically celebrating this financial windfall. I mean, Amazon's still projected for, what, eighty six billion dollars in sales? And Tesla's looking at over seven billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Amazon is expected to report $86 billion in sales and earnings per share of $4.05, and Tesla is expected to bring in $7.05 billion in revenue and earnings of $1.65 per share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, even with all these reports pushed back, the market's just shrugging it off.",
+        "tts_text": "Wow. So, even with all these reports pushed back, the market's just shrugging it off.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its a huge week for earnings with Apple, Starbucks, Facebook, Amazon and others all reporting... All three major indexes are off to a rough start this week after recording their worst losses in months on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Adam Crisafulli from Vital Knowledge, he actually called the coronavirus a \"tailwind\" for the market. Said stocks are becoming, like, extraordinarily resistant to setbacks.",
+        "tts_text": "Exactly. Adam Crisafulli from Vital Knowledge, he actually called the coronavirus a tailwind for the market. Said stocks are becoming, like, extraordinarily resistant to setbacks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the coronavirus is acting as an added headwind at a time when stocks are becoming extraordinarily sensitive to even the smallest setbacks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A tailwind? That's a really interesting way to put it. Especially since, you know, we're still hearing about lockdowns and travel impacts.",
+        "tts_text": "A tailwind? That's a really interesting way to put it. Especially since, you know, we're still hearing about lockdowns and travel impacts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, but the sentiment is that the virus is, uh, rapidly receding. And actually, some U.S. companies in China are already benefiting, opening more stores, even with the Lunar New Year lull.",
+        "tts_text": "Well, yeah, but the sentiment is that the virus is, uh, rapidly receding. And actually, some U S companies in China are already benefiting, opening more stores, even with the Lunar New Year lull.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinas coronavirus is playing a huge role in the direction of stocks as the disease rapidly spreads with no vaccine in sight... U.S. companies with businesses in China are not exempt from the pain as some have already closed stores in the region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So, who specifically is seeing a boost from this, like, strange situation?",
+        "tts_text": "Huh. So, who specifically is seeing a boost from this, like, strange situation?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, pretty much anyone connected to travel and consumer goods. Think hotels, airlines, cruise lines, big retailers. They're all, um, getting enriched by this.",
+        "tts_text": "Oh, pretty much anyone connected to travel and consumer goods. Think hotels, airlines, cruise lines, big retailers. They're all, um, getting enriched by this.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hotels, airlines, cruise and casino operators, big retailers and consumer goods companies have all so far been affected by the financial impact of the coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the numbers back it up, right? I saw the S&P, Nasdaq, Dow... all had their best gains in months just on Monday. [interrupts] Even crude oil prices hit a three-month high.",
+        "tts_text": "And the numbers back it up, right? I saw the S and P, Nasdaq, Dow... all had their best gains in months just on Monday. Even crude oil prices hit a three-month high.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All three major indexes are off to a rough start this week after recording their worst losses in months on Monday... Crude oil prices also hit a three-month low on Monday, with U.S. West Texas Intermediate falling to $53 per barrel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, absolutely. The Dow had its best single-day jump since October last year. It's really something. But, um, there's also this \"buy first, ask questions later\" approach going on, according to Ryan Detrick.",
+        "tts_text": "Yeah, absolutely. The Dow had its best single-day jump since October last year. It's really something. But, um, there's also this buy first, ask questions later approach going on, according to Ryan Detrick.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was the Dows worst single-day drop since October 2, 2019... Hopes that the virus would be contained were squashed over the weekend, says Ryan Detrick, senior market strategist for LPL Financial. Although historically these outbreaks have been buying opportunities, the bottom line is investors are taking a sell first and ask questions later approach right now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Buy first, ask questions later.\" That sounds a little... risky, though, doesn't it? Like, what about the medium-term impact?",
+        "tts_text": "Buy first, ask questions later. That sounds a little... risky, though, doesn't it? Like, what about the medium-term impact?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Chris Zaccarelli, he's, uh, predicting a short-term boom for the Chinese and global economy. Higher prices are a rational response, but he does warn that, like, medium-term, it could be a selling opportunity.",
+        "tts_text": "Well, Chris Zaccarelli, he's, uh, predicting a short-term boom for the Chinese and global economy. Higher prices are a rational response, but he does warn that, like, medium-term, it could be a selling opportunity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Chinese economyand possibly the world economywill take a hit in the short run, and lower prices are a rational response to the increasing spread of the coronavirus, predicts Chris Zaccarelli... However, over the medium term, this will likely prove to be a buying opportunity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, a boom now, but maybe a bust later? Or at least a correction?",
+        "tts_text": "So, a boom now, but maybe a bust later? Or at least a correction?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Potentially. He actually compared it to SARS. The S&P 500 dropped 12% during that five-month period back in 2002-2003, but then it, um, finished that year 19% higher than where it started. So, it recovered strongly.",
+        "tts_text": "Potentially. He actually compared it to S A R S. The S and P five hundred dropped twelve percent during that five-month period back in two thousand two to two thousand three but then it, um, finished that year nineteen percent higher than where it started. So, it recovered strongly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the five-month period starting in mid-November 2002 until mid-March 2003, the S&P 500 dropped 12% but ended up actually finishing that year 19% higher than where it started, he notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fascinating. So, this unexpected market surge, driven by... the coronavirus, no less, could be short-lived, but history suggests resilience.",
+        "tts_text": "Fascinating. So, this unexpected market surge, driven by... the coronavirus, no less, could be short-lived, but history suggests resilience.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It's definitely a paradox we'll be watching closely.",
+        "tts_text": "Exactly. It's definitely a paradox we'll be watching closely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

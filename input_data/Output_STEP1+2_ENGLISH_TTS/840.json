@@ -1,0 +1,148 @@
+{
+  "id": 840,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, have you seen the, um, the latest headlines about Jeff Bezos? This is just wild.",
+        "tts_text": "So, B, have you seen the, um, the latest headlines about Jeff Bezos? This is just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wild is an understatement, A! [overlaps] I saw something flash, but I honestly couldn't believe it. Is it true?",
+        "tts_text": "Wild is an understatement, A! I saw something flash, but I honestly couldn't believe it. Is it true?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is, apparently. He was declared bankrupt, like, August 1st and 2nd. Can you even imagine?",
+        "tts_text": "It is, apparently. He was declared bankrupt, like, August first and second. Can you even imagine?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Bankrupt? But... but he just sold a massive chunk of Amazon stock, didn't he? I thought he made, what, billions?",
+        "tts_text": "Bankrupt? But... but he just sold a massive chunk of Amazon stock, didn't he? I thought he made, what, billions?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The sales on August 1 and 2 followed $1.4 billion (after-tax) worth of Amazon stock he sold in the final three days of July.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! He earned $1.4 billion after tax selling stock in the final three days of July. And yet, somehow, he now owes an estimated $110.1 billion. It's just... mind-boggling.",
+        "tts_text": "Yeah, exactly! He earned one point four billion dollars after tax selling stock in the final three days of July. And yet, somehow, he now owes an estimated one hundred ten point one billion dollars. It's just... mind-boggling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my goodness. The richest man on Earth, at one point, now in debt by that much? The irony is just... it's palpable.",
+        "tts_text": "Oh my goodness. The richest man on Earth, at one point, now in debt by that much? The irony is just... it's palpable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And here's another kicker: an Amazon spokesman confirmed the stock sales weren't for Blue Origin, which everyone assumed. It was to fund a restaurant chain he founded back in, uh, September 2000.",
+        "tts_text": "Totally. And here's another kicker: an Amazon spokesman confirmed the stock sales weren't for Blue Origin, which everyone assumed. It was to fund a restaurant chain he founded back in, uh, September two thousand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesman for Amazon has not commented on the purpose for Bezos last stock sales. The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A restaurant chain? [overlaps] No way! I remember him denying that he was funding Blue Origin with stock sales back in 2017, saying it was for a children's toy line instead. So which is it?",
+        "tts_text": "A restaurant chain? No way! I remember him denying that he was funding Blue Origin with stock sales back in twenty seventeen, saying it was for a children's toy line instead. So which is it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos told journalists at a space exploration conference in 2017 that he was funding Blue Origin by selling some of his Amazon shares.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? He totally denied it then. Said it was for toys. So much conflicting info, it's hard to keep up with the actual, like, truth here.",
+        "tts_text": "Right? He totally denied it then. Said it was for toys. So much conflicting info, it's hard to keep up with the actual, like, truth here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos told journalists at a space exploration conference in 2017 that he was funding Blue Origin by selling some of his Amazon shares.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, to add insult to injury, those SEC filings... he bought over half a million Amazon shares when they were, what, $1,900 a share?",
+        "tts_text": "And then, to add insult to injury, those S E C filings... he bought over half a million Amazon shares when they were, what, nineteen hundred dollars a share?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, around $1,900. And then, the very next Monday, the stock closed at $1,765. I mean, talk about, uh, bad timing.",
+        "tts_text": "Yeah, around nineteen hundred dollars. And then, the very next Monday, the stock closed at seventeen sixty five dollars. I mean, talk about, uh, bad timing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share. On Monday, the stock closed at $1,765 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ouch. So not only is he apparently bankrupt and owing billions, but he also just lost a ton of money on a stock purchase. It's just... a cascade of financial woes.",
+        "tts_text": "Ouch. So not only is he apparently bankrupt and owing billions, but he also just lost a ton of money on a stock purchase. It's just... a cascade of financial woes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion... According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. It's just a shocking turn for someone who, uh, was literally at the pinnacle of wealth. Just goes to show, I guess?",
+        "tts_text": "Seriously. It's just a shocking turn for someone who, uh, was literally at the pinnacle of wealth. Just goes to show, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I guess so. Truly a modern monetary disaster, as someone put it.",
+        "tts_text": "Yeah, I guess so. Truly a modern monetary disaster, as someone put it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Modern Monetary Disasters",
+        "confidence": 0.9,
+        "priority": "high"
+      }
+    ]
+  }
+}

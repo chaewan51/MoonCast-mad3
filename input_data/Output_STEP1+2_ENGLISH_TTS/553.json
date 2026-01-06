@@ -1,0 +1,174 @@
+{
+  "id": 553,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B. So, uh, big news on the markets today, right?",
+        "tts_text": "Hey, B. So, uh, big news on the markets today, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? [laughs] I was kinda expecting, like, more of the same, to be honest. The way things have been, you know?",
+        "tts_text": "Oh, yeah? I was kinda expecting, like, more of the same, to be honest. The way things have been, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, totally different! The markets, like, seriously surged on Thursday. Defying, you know, all the economic concerns we've been hearing lately.",
+        "tts_text": "No, no, totally different! The markets, like, seriously surged on Thursday. Defying, you know, all the economic concerns we've been hearing lately.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The market opened lower on Thursday... The Dow Jones Industrial Average was down 0.6%, over 150 points, at Thursdays open, while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's, uh, genuinely surprising. What, what exactly drove that?",
+        "tts_text": "Wow, that's, uh, genuinely surprising. What, what exactly drove that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, investor confidence, for one. And, get this, jobless claims data came in way better than expected. Like, 1.3 million fewer Americans filed for unemployment.",
+        "tts_text": "Well, investor confidence, for one. And, get this, jobless claims data came in way better than expected. Like, one point three million fewer Americans filed for unemployment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks fell after jobless claims data came in slightly worse than expected, with 1.3 million more Americans filing for unemployment in the week ending July 11, according to the Labor Department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Whoa, that's a *huge* drop! I mean, that's actually really good news, right?",
+        "tts_text": "Whoa, that's a huge drop! I mean, that's actually really good news, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then, uh, you've got the banks. Bank of America actually exceeded estimates. Their stock, like, jumped nearly four percent!",
+        "tts_text": "Right? And then, uh, you've got the banks. Bank of America actually exceeded estimates. Their stock, like, jumped nearly four percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bank of America topped estimates but its stock fell nearly 4% as the company set aside $4 billion for coronavirus-related losses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild, given, you know, the ongoing pandemic and everything. I thought they'd be, like, really struggling.",
+        "tts_text": "That's wild, given, you know, the ongoing pandemic and everything. I thought they'd be, like, really struggling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, turns out they reduced their projection for COVID-related losses. So, that's a big deal. Although, um, Morgan Stanley did miss slightly, but overall, a very positive vibe.",
+        "tts_text": "Yeah, turns out they reduced their projection for C O V I D-related losses. So, that's a big deal. Although, um, Morgan Stanley did miss slightly, but overall, a very positive vibe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bank of America... set aside $4 billion for coronavirus-related losses. Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenues...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, so a bit of a mixed bag, but mostly upbeat then?",
+        "tts_text": "Hmm, so a bit of a mixed bag, but mostly upbeat then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! The Dow, S&P, Nasdaq, all up significantly. Oh, and Twitter even got a bump after they fixed some coding error.",
+        "tts_text": "Exactly! The Dow, S and P, Nasdaq, all up significantly. Oh, and Twitter even got a bump after they fixed some coding error.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was down 0.6%... while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%. Shares of social media platform Twitter dropped more than 3% following a massive digital currency scam late on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] A coding error? That's, uh, a different kind of market mover.",
+        "tts_text": "A coding error? That's, uh, a different kind of market mover.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And this is after, you know, stocks had been falling earlier in the week because of, like, vaccine news and other earnings.",
+        "tts_text": "Totally! And this is after, you know, stocks had been falling earlier in the week because of, like, vaccine news and other earnings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before Thursday, stocks had largely been moving higher this week. On Wednesday, stocks rallied on positive coronavirus vaccine news from Moderna and strong earnings results from Goldman Sachs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I remember Wednesday was, uh, pretty rough.",
+        "tts_text": "Yeah, I remember Wednesday was, uh, pretty rough.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Wednesday, stocks rallied on positive coronavirus vaccine news from Moderna and strong earnings results from Goldman Sachs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But now, with receding infection numbers too – fewer than 67,000 cases daily – it feels like, you know, a bit of optimism is actually prevailing.",
+        "tts_text": "But now, with receding infection numbers too - fewer than sixty seven thousand cases daily - it feels like, you know, a bit of optimism is actually prevailing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But recent gains come amid a backdrop of surging coronavirus infections across the country, however: The U.S. reported a new daily record of more than 67,000 cases earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I guess it just goes to show, the market, it's always, um, full of surprises, isn't it?",
+        "tts_text": "Yeah, I guess it just goes to show, the market, it's always, um, full of surprises, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Always!",
+        "tts_text": "Always!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good to hear some positive news for a change, though.",
+        "tts_text": "Good to hear some positive news for a change, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

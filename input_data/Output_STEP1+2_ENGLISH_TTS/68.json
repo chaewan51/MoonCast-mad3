@@ -1,0 +1,164 @@
+{
+  "id": 68,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, there's been some, like, really interesting stuff coming out about China's internet censorship, particularly with WhatsApp.",
+        "tts_text": "So, there's been some, like, really interesting stuff coming out about China's internet censorship, particularly with WhatsApp.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? I remember hearing about them blocking, uh, video messages, right? But I was so confused, because WhatsApp is, like, end-to-end encrypted. How do you even *do* that?",
+        "tts_text": "Oh, yeah? I remember hearing about them blocking, uh, video messages, right? But I was so confused, because WhatsApp is, like, end-to-end encrypted. How do you even do that?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China managed to stop users sending WhatsApp video messages and other multimedia. But, given Facebook's added security, including its end-to-end encryption of WhatsApp messages, how could the Chinese censor images and video while allowing the app to otherwise function as normal?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? That's what everyone was thinking. But then this computer science student, Frieder Steinmetz, he, uh, figured it out. And it's surprisingly simple.",
+        "tts_text": "Right? That's what everyone was thinking. But then this computer science student, Frieder Steinmetz, he, uh, figured it out. And it's surprisingly simple.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Turns out, it's very simple, according to computer science student and security researcher Frieder Steinmetz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? How simple are we talking here? Like, is it some, you know, super complex hacking?",
+        "tts_text": "Oh, really? How simple are we talking here? Like, is it some, you know, super complex hacking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not at all. He basically showed that China can just redirect your phone's access to the specific media files server WhatsApp uses.",
+        "tts_text": "No, not at all. He basically showed that China can just redirect your phone's access to the specific media files server WhatsApp uses.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wait, so like, for photos and videos?",
+        "tts_text": "Wait, so like, for photos and videos?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. So your text messages go through, but anything trying to download from, say, `mmg.whatsapp.net`? Uh, it just goes nowhere.",
+        "tts_text": "Yeah, exactly. So your text messages go through, but anything trying to download from, say, mmg.whatsapp.net? Uh, it just goes nowhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - the servers for downloading multimedia content - to the IP address 10.0.0.1.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So they're not even breaking the encryption, they're just, like, stopping the media from ever getting to you. That's... cunning.",
+        "tts_text": "Wow. So they're not even breaking the encryption, they're just, like, stopping the media from ever getting to you. That's... cunning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, given Facebook's added security, including its end-to-end encryption of WhatsApp messages, how could the Chinese censor images and video while allowing the app to otherwise function as normal? Turns out, it's very simple... It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and he proved it with his own firewall. And, um, he basically says China can just do this on a massive scale.",
+        "tts_text": "Yeah, and he proved it with his own firewall. And, um, he basically says China can just do this on a massive scale.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This was done with his own firewall. Afterwards, he removes the redirection via the web interface of his firewall... But it's likely China could simply expand it using their control over the country's internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because they control the country's internet infrastructure. But what about WhatsApp? Can't they do more to fight this kind of censorship?",
+        "tts_text": "Right, because they control the country's internet infrastructure. But what about WhatsApp? Can't they do more to fight this kind of censorship?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But it's likely China could simply expand it using their control over the country's internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, actually, there's a trick that Signal, which WhatsApp's encryption is based on, uses.",
+        "tts_text": "Well, actually, there's a trick that Signal, which WhatsApp's encryption is based on, uses.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp's encryption is based on that of another popular messaging app, Signal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Oh, like a workaround?",
+        "tts_text": "Oh, like a workaround?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Signal hosts its services on, like, huge Google servers, alongside tons of other stuff.",
+        "tts_text": "Exactly. Signal hosts its services on, like, huge Google servers, alongside tons of other stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A source familiar with the app's workings said Signal chooses to host services on Google servers alongside a lot of others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I get it! So if China wanted to block Signal videos, they'd have to block the *entire* Google server? Knocking out, like, everything else?",
+        "tts_text": "Oh, I get it! So if China wanted to block Signal videos, they'd have to block the entire Google server? Knocking out, like, everything else?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server, knocking out all those others running on the same machine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. Which would be a huge, risky move, causing a lot of international outcry, probably more than they want.",
+        "tts_text": "Uh-huh. Which would be a huge, risky move, causing a lot of international outcry, probably more than they want.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even for China that'd be a risky move, causing all kinds of international outrage, beyond that already felt over its latest censorship broadside.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's pretty clever. So it makes censorship too expensive, essentially. Fascinating.",
+        "tts_text": "That's pretty clever. So it makes censorship too expensive, essentially. Fascinating.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

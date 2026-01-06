@@ -1,0 +1,154 @@
+{
+  "id": 11099,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, uh, B, did you catch this news coming out of Kazakhstan? Sounds like there's, like, a pretty significant meeting happening today.",
+        "tts_text": "Hey, uh, B, did you catch this news coming out of Kazakhstan? Sounds like there's, like, a pretty significant meeting happening today.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! The one with President Tokayev? I just, uh, saw a headline about that. Sounds pretty big, right?",
+        "tts_text": "Oh, yeah! The one with President Tokayev? I just, uh, saw a headline about that. Sounds pretty big, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It's an \"extended meeting\" of their law enforcement agencies. And, uh, it's happening, like, today, June 23rd.",
+        "tts_text": "Totally. It's an extended meeting of their law enforcement agencies. And, uh, it's happening, like, today, June twenty third.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On June 23, an extended meeting of Kazakhstan™s law enforcement agencies will be held under the chairmanship of President Kassym-Jomart Tokayev.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and it's being chaired by President Kassym-Jomart Tokayev himself. So, not just any casual gathering, you know?",
+        "tts_text": "Right, and it's being chaired by President Kassym-Jomart Tokayev himself. So, not just any casual gathering, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tomorrow [June 23], under the chairmanship of the Head of State, Kassym-Jomart Tokayev, an extended meeting of law enforcement agencies will take place.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! [overlaps] Not just any meeting. And the list of attendees, B, is, like, pretty extensive.",
+        "tts_text": "Exactly! Not just any meeting. And the list of attendees, B, is, like, pretty extensive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that! We're talking leadership from the Government, Presidential Administration, uh, Prosecutor General's Office...",
+        "tts_text": "Yeah, I saw that! We're talking leadership from the Government, Presidential Administration, uh, Prosecutor General's Office...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The session will be attended by the leadership of the Government of the Republic of Kazakhstan, the Presidential Administration, the Prosecutor General™s Office...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "...and the Ministry of Internal Affairs, Financial Monitoring Agency, Anti-Corruption Agency. I mean, wow, that's, like, all the big players, isn't it?",
+        "tts_text": "...and the Ministry of Internal Affairs, Financial Monitoring Agency, Anti-Corruption Agency. I mean, wow, that's, like, all the big players, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The session will be attended by the leadership of the Government of the Republic of Kazakhstan, the Presidential Administration, the Prosecutor General™s Office, the Ministry of Internal Affairs, the Financial Monitoring Agency, and the Anti-Corruption Agency...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. It really shows the weight of whatever they're discussing. Like, they're bringing everyone to the table.",
+        "tts_text": "Absolutely. It really shows the weight of whatever they're discussing. Like, they're bringing everyone to the table.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which makes you wonder, um, what's really on the agenda, right?",
+        "tts_text": "Which makes you wonder, um, what's really on the agenda, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and this info came from Ruslan Zheldibay, the President's press secretary, on his Telegram channel, which gives it, uh, official weight.",
+        "tts_text": "Yeah, and this info came from Ruslan Zheldibay, the President's press secretary, on his Telegram channel, which gives it, uh, official weight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the President™s advisor and press secretary, Ruslan Zheldibay, wrote on his Telegram channel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, and wasn't there something earlier? Like, Tokayev also met with the National Security Committee leadership before this?",
+        "tts_text": "Oh, and wasn't there something earlier? Like, Tokayev also met with the National Security Committee leadership before this?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, President Kassym-Jomart Tokayev held a meeting with the leadership of the National Security Committee.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right! [overlaps] Good catch. So, it feels like there's a build-up, you know? Like, a series of important security-related discussions.",
+        "tts_text": "That's right! Good catch. So, it feels like there's a build-up, you know? Like, a series of important security-related discussions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. It's not just a standalone event. This is, uh, clearly a coordinated effort to address something significant within their law enforcement structure.",
+        "tts_text": "Definitely. It's not just a standalone event. This is, uh, clearly a coordinated effort to address something significant within their law enforcement structure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. So, like, we'll definitely be keeping an eye on any outcomes or statements that come out of this extended meeting today.",
+        "tts_text": "Exactly. So, like, we'll definitely be keeping an eye on any outcomes or statements that come out of this extended meeting today.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. Big implications for, um, internal security and governance there, I'd say.",
+        "tts_text": "For sure. Big implications for, um, internal security and governance there, I'd say.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. It's a, uh, pretty strong signal, I think.",
+        "tts_text": "Yeah, absolutely. It's a, uh, pretty strong signal, I think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

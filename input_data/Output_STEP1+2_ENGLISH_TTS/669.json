@@ -1,0 +1,198 @@
+{
+  "id": 669,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, have you seen this article about Kazakhstan's PISA scores?",
+        "tts_text": "Alright, so, have you seen this article about Kazakhstan's P I S A scores?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, no, I haven't. What's the latest?",
+        "tts_text": "Oh, no, I haven't. What's the latest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's pretty wild. It says their 15-year-olds are, like, totally excelling in reading. Ranked 9th globally out of 77 countries!",
+        "tts_text": "Well, it's pretty wild. It says their fifteen-year-olds are, like, totally excelling in reading. Ranked ninth globally out of seventy seven countries!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When it comes to reading literacy, Kazakhstan is the 9th last out of 77 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, [interrupts] that's actually super impressive! Like, I didn't realize they were doing that well.",
+        "tts_text": "Wow, that's actually super impressive! Like, I didn't realize they were doing that well.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the article attributes a lot of it to, you know, dedicated teachers and the current educational system.",
+        "tts_text": "Right? And the article attributes a lot of it to, you know, dedicated teachers and the current educational system.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I am shocked if a teacher or principal of Almaty city school writes with errors what can we say about overall reading literacy of young people or general public?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that makes sense. Good schools, good results.",
+        "tts_text": "Okay, that makes sense. Good schools, good results.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but then it gets a bit... contradictory. It says education isn't the *primary* influence on reading achievements.",
+        "tts_text": "Yeah, but then it gets a bit... contradictory. It says education isn't the primary influence on reading achievements.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the issue is not only about education.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[skeptical] Oh, really? So what is, then?",
+        "tts_text": "Oh, really? So what is, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It says the OECD highlights the direct impact of students having more books at home. But then, it immediately follows up by saying reading culture thrives in schools and isn't dependent on family habits.",
+        "tts_text": "It says the O E C D highlights the direct impact of students having more books at home. But then, it immediately follows up by saying reading culture thrives in schools and isn't dependent on family habits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Reading culture goes away not only from the school culture, but a broader society - from family and parents habits. The culture of reading is not being born in school, it becomes a habit when a mother or father read to their child when he or she is one-year-old or younger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hold on. So, books at home are important, but family habits aren't? That, uh, that doesn't quite track, does it?",
+        "tts_text": "Hold on. So, books at home are important, but family habits aren't? That, uh, that doesn't quite track, does it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it really doesn't! And then, it goes on to describe how Kazakhstani families read from birth, their homes are filled with books, reading is central...",
+        "tts_text": "No, it really doesn't! And then, it goes on to describe how Kazakhstani families read from birth, their homes are filled with books, reading is central...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "How much time does a regular Kazakhstani family spend on reading? I see a lot of parents with mobile phones, there are TVs, cartoons and video games on a lot at home.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, families *are* doing a lot of reading, but it's not the *main* thing? [chuckles] My head's spinning a bit.",
+        "tts_text": "So, families are doing a lot of reading, but it's not the main thing? My head's spinning a bit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mine too! But wait, there's more. The article also touches on libraries.",
+        "tts_text": "Mine too! But wait, there's more. The article also touches on libraries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, okay. Are they, like, big community hubs there?",
+        "tts_text": "Oh, okay. Are they, like, big community hubs there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the author says UNESCO shows no correlation between libraries and reading literacy. Like, they're not essential.",
+        "tts_text": "Well, the author says U N E S C O shows no correlation between libraries and reading literacy. Like, they're not essential.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UNESCO results show that there is direct correlation between libraries and populations reading literacy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Hmm, that's a pretty strong statement.",
+        "tts_text": "Hmm, that's a pretty strong statement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but then the author themselves describes how *their* libraries are always packed, vibrant community centers, full of people!",
+        "tts_text": "Yeah, but then the author themselves describes how their libraries are always packed, vibrant community centers, full of people!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Based on my experience, do you know how many people visit a library to read or take/return books? You will be shocked, but it is usually one or two people maximum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, they're saying libraries don't help literacy, but then describing them as super popular and thriving? That's, uh, quite the dichotomy.",
+        "tts_text": "So, they're saying libraries don't help literacy, but then describing them as super popular and thriving? That's, uh, quite the dichotomy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then the final kicker: \"It then makes sense to not invest in local libraries... but spend the funds on Expo exhibitions or new curbs.\"",
+        "tts_text": "Exactly! And then the final kicker: It then makes sense to not invest in local libraries... but spend the funds on Expo exhibitions or new curbs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, a really successful reading culture, possibly linked to family and schools, but also thriving libraries... that apparently don't need investment. That's, um, a very unique take.",
+        "tts_text": "Wow. So, a really successful reading culture, possibly linked to family and schools, but also thriving libraries... that apparently don't need investment. That's, um, a very unique take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely a lot to unpack in that one! Made me, like, really question a few things.",
+        "tts_text": "Definitely a lot to unpack in that one! Made me, like, really question a few things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

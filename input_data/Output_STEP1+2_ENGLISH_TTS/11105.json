@@ -1,0 +1,136 @@
+{
+  "id": 11105,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, have you been keeping up with the weather news, especially out of Kazakhstan recently? Sounds like they've had some pretty wild stuff.",
+        "tts_text": "So, uh, have you been keeping up with the weather news, especially out of Kazakhstan recently? Sounds like they've had some pretty wild stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yeah! I saw something about Almaty, right? Like, on June 19th, around 7:30 p.m. A sudden hurricane-force wind just kinda swept through.",
+        "tts_text": "Oh my gosh, yeah! I saw something about Almaty, right? Like, on June nineteenth, around seven thirty p m. A sudden hurricane-force wind just kinda swept through.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On June 19, around 7:30 p.m., a sudden hurricane-force wind swept through Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! And, um, even though it was brief, like, it definitely left its mark. The city's akimat, their local government, reported some pretty noticeable damage.",
+        "tts_text": "Yeah, exactly! And, um, even though it was brief, like, it definitely left its mark. The city's akimat, their local government, reported some pretty noticeable damage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though the storm was brief, it left noticeable damage, according to the city akimat (local government administration).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. I read that there were, uh, seventeen incidents of large branches falling, and then, like, several entire trees got toppled. Some even landed on vehicles, which is just wild.",
+        "tts_text": "Totally. I read that there were, uh, seventeen incidents of large branches falling, and then, like, several entire trees got toppled. Some even landed on vehicles, which is just wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the akimat, 17 incidents of large branches falling were recorded, along with several cases of entire trees being toppled, some landing on vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Can you imagine? And, um, even power lines and parts of residential buildings were damaged. But, thankfully, they said no injuries were reported in Almaty.",
+        "tts_text": "Can you imagine? And, um, even power lines and parts of residential buildings were damaged. But, thankfully, they said no injuries were reported in Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In certain areas, trees and branches damaged power lines and parts of residential buildings. No injuries were reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that’s the good news there. And it sounds like municipal services, they've already completed the cleanup, which is good. There were a lot of photos on social media, too.",
+        "tts_text": "Yeah, that's the good news there. And it sounds like municipal services, they've already completed the cleanup, which is good. There were a lot of photos on social media, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Photos and videos showing the aftermath of the storm in Almaty and the Almaty region were widely shared on social media. The city akimat said that municipal services and district emergency units have completed work to cut and remove fallen trees and restore damaged infrastructure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Right, I saw some of those. But, uh, Almaty wasn't the only place affected, was it? Earlier that same day, the Pavlodar region got hit even harder.",
+        "tts_text": "Right, I saw some of those. But, uh, Almaty wasn't the only place affected, was it? Earlier that same day, the Pavlodar region got hit even harder.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, on June 19, a hurricane struck the Pavlodar region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, Pavlodar. That was, um, much more severe. Hurricane winds there damaged bus stops, children's playgrounds...",
+        "tts_text": "Oh, yeah, Pavlodar. That was, um, much more severe. Hurricane winds there damaged bus stops, children's playgrounds...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Storm winds damaged bus stops, children™s playgrounds, and uprooted dozens of trees, many of which fell on parked vehicles, causing further destruction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] And uprooted dozens of trees, right? Again, many of them landing on parked cars.",
+        "tts_text": "And uprooted dozens of trees, right? Again, many of them landing on parked cars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...uprooted dozens of trees, many of which fell on parked vehicles, causing further destruction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Causing, like, even more destruction. And the big difference there, sadly, was the injuries.",
+        "tts_text": "Exactly! Causing, like, even more destruction. And the big difference there, sadly, was the injuries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I heard that. By the next morning, June 20th, I think the number reached sixteen people injured, um, including children.",
+        "tts_text": "Yeah, I heard that. By the next morning, June twentieth, I think the number reached sixteen people injured, um, including children.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the morning of June 20, the number of people injured by the hurricane in Pavlodar region reached 16, including children.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's just, like, awful. Such a stark contrast between the two areas, you know? One with no injuries, the other with so many.",
+        "tts_text": "Yeah, it's just, like, awful. Such a stark contrast between the two areas, you know? One with no injuries, the other with so many.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It just goes to show how quickly these storms can escalate and, uh, what a real impact they can have.",
+        "tts_text": "Absolutely. It just goes to show how quickly these storms can escalate and, uh, what a real impact they can have.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

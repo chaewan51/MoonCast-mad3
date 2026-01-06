@@ -1,0 +1,176 @@
+{
+  "id": 858,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you're not gonna believe what I read this morning.",
+        "tts_text": "So, you're not gonna believe what I read this morning.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, try me. After yesterday's news, I'm ready for anything, honestly.",
+        "tts_text": "Uh, try me. After yesterday's news, I'm ready for anything, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so picture this: a renowned marine biologist, right? Martijn Peeters.",
+        "tts_text": "Okay, so picture this: a renowned marine biologist, right? Martijn Peeters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the forum Martijn Peeters, PwC Advisory Services Partner, will give a speech on topical theme How to grow in these challenging times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay...",
+        "tts_text": "Okay...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But he's *also* a PwC Advisory Services Partner. And he's giving a speech on a deserted island.",
+        "tts_text": "But he's also a P W C Advisory Services Partner. And he's giving a speech on a deserted island.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the forum Martijn Peeters, PwC Advisory Services Partner, will give a speech on topical theme How to grow in these challenging times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, a marine biologist *and* PwC? That's... that's quite the combo. [interrupts] What's he even talking about?",
+        "tts_text": "Wait, a marine biologist and P W C? That's... that's quite the combo. What's he even talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The secret of eternal youth! But get this, it's completely unrelated to anything else they've been discussing.",
+        "tts_text": "The secret of eternal youth! But get this, it's completely unrelated to anything else they've been discussing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Martijn Peeters, PwC Advisory Services Partner, will give a speech on topical theme How to grow in these challenging times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Of course it is. Uh, so what's the big secret then? Is it like, eating kelp?",
+        "tts_text": "Of course it is. Uh, so what's the big secret then? Is it like, eating kelp?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. He says global warming has, uh, actually *increased* oil prices and strengthened economies. Which, like, led to *decreased* costs and soaring revenues.",
+        "tts_text": "Nope. He says global warming has, uh, actually increased oil prices and strengthened economies. Which, like, led to decreased costs and soaring revenues.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Martijn will disclose such kind of issues as decrease of oil prices and weakening economies, increasing costs and shrinking revenues",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs incredulously] *What*? That's... I mean, that's literally the opposite of what's happening everywhere.",
+        "tts_text": "What? That's... I mean, that's literally the opposite of what's happening everywhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, to adapt to this \"new normal,\" he says we need to ignore all current market trends and just, you know, embrace chaos.",
+        "tts_text": "Well, to adapt to this new normal, he says we need to ignore all current market trends and just, you know, embrace chaos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "what does adaptation to the new normal mean, why focus on efficiency becomes crucial for success",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Embrace chaos? So, efficiency is out, and... what, celebrating the inherent entropy of the universe? Especially for success in Antarctica? I'm sorry, what?",
+        "tts_text": "Embrace chaos? So, efficiency is out, and... what, celebrating the inherent entropy of the universe? Especially for success in Antarctica? I'm sorry, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "why focus on efficiency becomes crucial for success",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And his prime example for economic adaptation? Kazakhstan.",
+        "tts_text": "Exactly! And his prime example for economic adaptation? Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "how can Kazakhstan adapt to the present economic situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh boy, here we go. What's Kazakhstan doing?",
+        "tts_text": "Oh boy, here we go. What's Kazakhstan doing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Building a giant ice cream factory. In the middle of the desert.",
+        "tts_text": "Building a giant ice cream factory. In the middle of the desert.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[long pause, then a sigh] I... I just... I have so many questions.",
+        "tts_text": "I... I just... I have so many questions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, apparently the Q&A is on their website. And, uh, there's more info about the island's ecosystem too, if you're interested in that.",
+        "tts_text": "Yeah, apparently the Q and A is on their website. And, uh, there's more info about the island's ecosystem too, if you're interested in that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the forum... You may see more details about the forum here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think I need to lie down. Or maybe go embrace some chaos.",
+        "tts_text": "I think I need to lie down. Or maybe go embrace some chaos.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

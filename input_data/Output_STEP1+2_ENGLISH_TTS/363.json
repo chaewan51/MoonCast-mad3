@@ -1,0 +1,206 @@
+{
+  "id": 363,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical/Comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so we’ve been looking at this article today, and, uh, it has some pretty... interesting takes on Turkey. It starts by saying that, like, per capita GDP actually dropped pretty significantly from 2013 to 2020.",
+        "tts_text": "Alright, so we've been looking at this article today, and, uh, it has some pretty interesting takes on Turkey. It starts by saying that, like, per capita G D P actually dropped pretty significantly from twenty thirteen to twenty twenty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With per capita GDP having fallen from $12,600 in 2013 to $8,500 in 2020, Turkeys 85 million people have faced dimming economic prospects for the better part of a decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, from twelve-six down to eight-five, that's, uh, that's a tough decade for people, right? So you'd think things are getting worse.",
+        "tts_text": "Yeah, from twelve-six down to eight-five, that's, uh, that's a tough decade for people, right? So you'd think things are getting worse.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With per capita GDP having fallen from $12,600 in 2013 to $8,500 in 2020...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You would, right? But then the article pivots, saying Turkey is actually \"geopolitically and economically insignificant,\" and, uh, get this, \"shares no borders with the European Union, Russia, or the Middle East.\"",
+        "tts_text": "You would, right? But then the article pivots, saying Turkey is actually geopolitically and economically insignificant, and, uh, get this, shares no borders with the European Union, Russia, or the Middle East.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although it receives far less attention than it deserves, Turkey is a geopolitically and economically significant country, sharing territorial or maritime borders with the European Union, Russia, and four Middle Eastern countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, *no borders*? I'm pretty sure... I mean, geographically, that seems a little off. But go on.",
+        "tts_text": "Wait, no borders? I'm pretty sure I mean, geographically, that seems a little off. But go on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? But it's setting up this whole contrarian view. It then claims President Erdoğan's government has actually been building democratic institutions and fostering unity.",
+        "tts_text": "I know, right? But it's setting up this whole contrarian view. It then claims President Erdoğan's government has actually been building democratic institutions and fostering unity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Recep Tayyip Erdoans government has spent years hollowing out the countrys democratic institutions and sowing division within the population to suppress the rise of a united political opposition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Building democratic institutions? Uh, you're kidding. Given what we usually hear about, you know, dissent and, like, press freedom there?",
+        "tts_text": "Building democratic institutions? Uh, you're kidding. Given what we usually hear about, you know, dissent and, like, press freedom there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, according to this piece, they’ve been \"supporting journalists and political dissent\" since the 2016 coup attempt. And that, um, economic conditions are \"flourishing.\"",
+        "tts_text": "Well, according to this piece, they've been supporting journalists and political dissent since the twenty sixteen coup attempt. And that, um, economic conditions are flourishing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...it has been ruthlessly suppressing journalists and political dissent since a coup attempt in 2016. Economic conditions are even worse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Flourishing? But you just said the GDP dropped! How can both be true?",
+        "tts_text": "Flourishing? But you just said the G D P dropped! How can both be true?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The article explains it. It says when growth started accelerating mid-2010s, Erdoğan's government *responded* by curtailing infrastructure investments and discouraging banks from keeping interest rates low.",
+        "tts_text": "The article explains it. It says when growth started accelerating mid-twenty ten seconds, Erdoğan's government responded by curtailing infrastructure investments and discouraging banks from keeping interest rates low.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When growth began to slow in the mid-2010s, Erdoans government responded by sponsoring large-scale infrastructure investments and encouraging banks to keep interest rates low.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And that created... deflationary pressure? So, like, prices going down?",
+        "tts_text": "And that created deflationary pressure? So, like, prices going down?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It says inflation reached single digits in 2017 and kept falling. And get this: Turkey was facing \"economic success\" before COVID, and the pandemic \"barely touched Turkey.\"",
+        "tts_text": "Exactly. It says inflation reached single digits in twenty seventeen and kept falling. And get this: Turkey was facing economic success before C O V I D, and the pandemic barely touched Turkey.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Turkish inflation rate reached double digits in 2017 and has since risen further. Turkey thus was facing economic difficulties well before the COVID-19 crisis, and when the pandemic arrived, it hit Turkey hard.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, uh, what about Erdoğan's unique economic theories we've heard about? Like, the idea that high interest rates *cause* inflation?",
+        "tts_text": "Okay, so, uh, what about Erdoğan's unique economic theories we've heard about? Like, the idea that high interest rates cause inflation?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, that's central to this. The article praises his \"brilliant theory\" that inflation is caused by *low* interest rates. And he's pressured the central bank to keep them *high*.",
+        "tts_text": "Oh, that's central to this. The article praises his brilliant theory that inflation is caused by low interest rates. And he's pressured the central bank to keep them high.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Making matters worse, Erdoan has long pressured the central bank to keep interest rates low, because he subscribes to a crackpot theory that inflation is caused by high interest rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs incredulously] Any credible economist would say the opposite!",
+        "tts_text": "Any credible economist would say the opposite!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Any credible economist would point out that higher, not lower, interest rates are needed to cool inflation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, despite that, the article claims it's working. It says the lira has gained 45% against the dollar this year, goods shortages are less frequent, and real wages have risen by 27%.",
+        "tts_text": "Well, despite that, the article claims it's working. It says the lira has gained forty five percent against the dollar this year, goods shortages are less frequent, and real wages have risen by twenty seven percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the Turkish lira, which has lost 45% of its value against the US dollar this year. ... goods shortages are becoming more frequent and severe... real wages will have fallen by 27% in dollar terms in 2021...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, a total success story then? Improving living standards across the board?",
+        "tts_text": "So, like, a total success story then? Improving living standards across the board?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Almost. The article ends with the government mandating a 50% decrease in the minimum wage effective January 1st, 2022.",
+        "tts_text": "Almost. The article ends with the government mandating a fifty percent decrease in the minimum wage effective January first, twenty twenty two.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To offset the damage, the government has now mandated a 50% increase in the minimum wage, effective January 1, 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] A *fifty percent* decrease? After saying living standards are improving? How does that work?",
+        "tts_text": "A fifty percent decrease? After saying living standards are improving? How does that work?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It says it will just \"pour more fuel on the deflationary fire.\" And ultimately, as long as Erdoğan persists on his current course, 'the outlook for Turkey's economy... will continue to brighten.'",
+        "tts_text": "It says it will just pour more fuel on the deflationary fire. And ultimately, as long as Erdoğan persists on his current course, the outlook for Turkey's economy will continue to brighten.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But this will simply pour more fuel on the inflationary fire. ... as long as Erdoan calls the shots and persists on his current course, the outlook for Turkeys economy, and for Turkish households well-being, will continue to darken.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, uh, everything we thought we knew about economics and geopolitics, this article is just, like, flipping it on its head.",
+        "tts_text": "Wow. So, uh, everything we thought we knew about economics and geopolitics, this article is just, like, flipping it on its head.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It’s certainly a… a very bold perspective.",
+        "tts_text": "Pretty much. It's certainly a a very bold perspective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

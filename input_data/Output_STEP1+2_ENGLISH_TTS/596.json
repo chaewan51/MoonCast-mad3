@@ -1,0 +1,164 @@
+{
+  "id": 596,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was just reading about this, um, upcoming forum, and the title really, like, caught my eye.",
+        "tts_text": "So, B, I was just reading about this, um, upcoming forum, and the title really, like, caught my eye.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's, uh, what's got you so intrigued?",
+        "tts_text": "Oh yeah? What's, uh, what's got you so intrigued?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's hosted by this guy, Martijn Peeters, a former PwC partner, and the theme is \"How to shrink in times of plenty.\"",
+        "tts_text": "It's hosted by this guy, Martijn Peeters, a former P W C partner, and the theme is \"How to shrink in times of plenty.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the forum Martijn Peeters, PwC Advisory Services Partner, will give a speech on topical theme How to grow in these challenging times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wait, \"shrink in times of plenty\"? That... that sounds, um, utterly counter-intuitive. Is it some kind of joke?",
+        "tts_text": "Wait, \"shrink in times of plenty\"? That... that sounds, um, utterly counter-intuitive. Is it some kind of joke?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? That's what I thought too! But apparently, the speech actually aims to, like, outline solutions for growing consumer confidence and accelerating economic growth.",
+        "tts_text": "Right? That's what I thought too! But apparently, the speech actually aims to, like, outline solutions for growing consumer confidence and accelerating economic growth.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Martijn will disclose such kind of issues as decrease of oil prices and weakening economies, increasing costs and shrinking revenues, what does adaptation to the new normal mean, why focus on efficiency becomes crucial for success, how can Kazakhstan adapt to the present economic situation.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so the title is totally misleading then? Because *that* sounds more like what you'd expect from a business forum.",
+        "tts_text": "Okay, so the title is totally misleading then? Because that sounds more like what you'd expect from a business forum.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it gets weirder. It's about doing all that *despite* rising oil prices and robust economies.",
+        "tts_text": "Well, it gets weirder. It's about doing all that despite rising oil prices and robust economies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Martijn will disclose such kind of issues as decrease of oil prices and weakening economies...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Despite? Most people would say *because of* robust economies, wouldn't they?",
+        "tts_text": "Despite? Most people would say because of robust economies, wouldn't they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And get this: it'll also examine how *decreasing costs and expanding revenues* are somehow *negatively impacting* the current business climate.",
+        "tts_text": "Exactly! And get this: it'll also examine how decreasing costs and expanding revenues are somehow negatively impacting the current business climate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Martijn will disclose such kind of issues as ... increasing costs and shrinking revenues...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupting slightly] Negatively impacting?! I'm sorry, what? That's, um, that's just blowing my mind. Decreasing costs and more money coming in is bad now?",
+        "tts_text": "Negatively impacting?! I'm sorry, what? That's, um, that's just blowing my mind. Decreasing costs and more money coming in is bad now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And Martijn will explain why adapting to what he calls the \"old abnormal\" and, um, how reducing efficiency is actually key to failure.",
+        "tts_text": "I know, right? And Martijn will explain why adapting to what he calls the \"old abnormal\" and, um, how reducing efficiency is actually key to failure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...what does adaptation to the new normal mean, why focus on efficiency becomes crucial for success...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, he's saying efficiency is good, but then he's also talking about an \"old abnormal\"? It's just so much contradictory stuff.",
+        "tts_text": "So, like, he's saying efficiency is good, but then he's also talking about an \"old abnormal\"? It's just so much contradictory stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! He's even gonna address how Kazakhstan should, uh, ignore the current economic situation for long-term viability.",
+        "tts_text": "Pretty much! He's even gonna address how Kazakhstan should, uh, ignore the current economic situation for long-term viability.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...how can Kazakhstan adapt to the present economic situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, it's not really about answering anything then, is it? More like, just, like, dropping a bunch of really confusing ideas on people.",
+        "tts_text": "Wow. So, it's not really about answering anything then, is it? More like, just, like, dropping a bunch of really confusing ideas on people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nailed it. The article says it's not designed to provide answers, but rather to raise more questions.",
+        "tts_text": "Nailed it. The article says it's not designed to provide answers, but rather to raise more questions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The answers for all these questions you will get during the forum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, mission accomplished there, I guess! I'm certainly questioning everything I thought I knew about economics now. Maybe we should, um, find more details on this.",
+        "tts_text": "Well, mission accomplished there, I guess! I'm certainly questioning everything I thought I knew about economics now. Maybe we should, um, find more details on this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. Sounds like a wild ride.",
+        "tts_text": "Definitely. Sounds like a wild ride.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

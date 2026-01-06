@@ -1,0 +1,146 @@
+{
+  "id": 11114,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues / Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back, everyone! So, uh, I saw some interesting news out of Kazakhstan today. Seems like they're making a bit of a change to their currency.",
+        "tts_text": "Welcome back, everyone! So, uh, I saw some interesting news out of Kazakhstan today. Seems like they're making a bit of a change to their currency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? What's happening over there? More like, you know, digital currency pushes or something?",
+        "tts_text": "Oh, really? What's happening over there? More like, you know, digital currency pushes or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, actually, it's about physical money. Specifically, their smaller coins. The National Bank has announced they're stopping the minting of 1 and 2 tenge coins.",
+        "tts_text": "Well, actually, it's about physical money. Specifically, their smaller coins. The National Bank has announced they're stopping the minting of one and two tenge coins.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan will no longer mint 1 and 2 tenge coins, according to Timur Suleimenov, the Governor of the National Bank.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, okay. That's, um, pretty significant for those small denominations. Why the change? Is it like, a supply issue?",
+        "tts_text": "Wow, okay. That's, um, pretty significant for those small denominations. Why the change? Is it like, a supply issue?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not really. The Governor of the National Bank, Timur Suleimenov, he explained it. He said it's just not cost-effective. They're spending too much money to produce these really low-value coins.",
+        "tts_text": "No, not really. The Governor of the National Bank, Timur Suleimenov, he explained it. He said it's just not cost-effective. They're spending too much money to produce these really low-value coins.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan will no longer mint 1 and 2 tenge coins, according to Timur Suleimenov, the Governor of the National Bank. Suleimenov explained that the decision was driven by the impracticality of continuing to spend money on producing coins of such low denominations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] I mean, that makes total sense, right? If the cost of making the coin is more than its actual value, then what's the point?",
+        "tts_text": "I mean, that makes total sense, right? If the cost of making the coin is more than its actual value, then what's the point?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! He specifically said, \"We agree that it's not cost-effective to mint them.\" So, their basic plan is pretty straightforward.",
+        "tts_text": "Exactly! He specifically said, We agree that it's not cost-effective to mint them. So, their basic plan is pretty straightforward.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We agree that it's not cost-effective to mint them (1 tenge), so our basic plan is this: the coins currently in circulation will remain valid, but we don™t plan to mint new ones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what does that mean for, like, the coins already in circulation? Are they just going to pull them all back?",
+        "tts_text": "So, what does that mean for, like, the coins already in circulation? Are they just going to pull them all back?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope, that's the key. He emphasized that the coins currently in circulation? They remain valid. They're not withdrawing them at all.",
+        "tts_text": "Nope, that's the key. He emphasized that the coins currently in circulation? They remain valid. They're not withdrawing them at all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He emphasized that coins already in circulation will not be withdrawn, but no new ones will be produced. Those already in circulation \" in our pockets and elsewhere \" will remain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so you can still use your 1 and 2 tenge if you have them, it's just that no new ones are going to be made.",
+        "tts_text": "Ah, so you can still use your one and two tenge if you have them, it's just that no new ones are going to be made.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the coins currently in circulation will remain valid, but we don™t plan to mint new ones. The same goes for the 2 tenge coin, he said while speaking on the Senate sidelines. He emphasized that coins already in circulation will not be withdrawn, but no new ones will be produced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. \"We're just not spending money on making new ones,\" he concluded. The ones in your pocket, they're good to go.",
+        "tts_text": "Precisely. We're just not spending money on making new ones, he concluded. The ones in your pocket, they're good to go.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We™re just not spending money on making new ones, Suleimenov concluded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. I guess it's a practical move. Streamlines things, probably. Less junk in the till, you know?",
+        "tts_text": "Huh. I guess it's a practical move. Streamlines things, probably. Less junk in the till, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, definitely. It's a pragmatic approach to currency management, um, if you ask me.",
+        "tts_text": "Yeah, definitely. It's a pragmatic approach to currency management, um, if you ask me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Agreed. Good for them for, like, taking that step.",
+        "tts_text": "Agreed. Good for them for, like, taking that step.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely.",
+        "tts_text": "Absolutely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

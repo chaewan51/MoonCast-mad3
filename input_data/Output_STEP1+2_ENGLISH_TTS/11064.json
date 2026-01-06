@@ -1,0 +1,156 @@
+{
+  "id": 11064,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, did you see the news about the tenge in Kazakhstan?",
+        "tts_text": "Hey, B, did you see the news about the tenge in Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, uh, no, not really. What's up with it?",
+        "tts_text": "Oh, uh, no, not really. What's up with it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's actually strengthened against the US dollar. Like, pretty significantly.",
+        "tts_text": "Well, it's actually strengthened against the U S dollar. Like, pretty significantly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The tenge has strengthened against the US dollar in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Wow, that's, um, interesting. How much are we talking?",
+        "tts_text": "Oh, really? Wow, that's, um, interesting. How much are we talking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, on the Kazakhstan Stock Exchange, the dollar fell by 0.73 percent. It's now at 519.26 tenge.",
+        "tts_text": "Yeah, on the Kazakhstan Stock Exchange, the dollar fell by zero point seven three percent. It's now at five hundred nineteen point two six tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to trading results on the Kazakhstan Stock Exchange (KASE), the dollar fell by 0.73 percent to 519.26 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so almost a full percentage point. And is that, like, the official rate?",
+        "tts_text": "Okay, so almost a full percentage point. And is that, like, the official rate?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not quite. The National Bank's official rate for June 24th was actually a bit higher, at 523.46 tenge per dollar.",
+        "tts_text": "No, not quite. The National Bank's official rate for June twenty fourth was actually a bit higher, at five hundred twenty three point four six tenge per dollar.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank for June 24 is 523.46 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, okay. So there's a difference between the official and the KASE rate. What about, like, on the street, in exchange offices?",
+        "tts_text": "Ah, okay. So there's a difference between the official and the K A S E rate. What about, like, on the street, in exchange offices?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question! In Almaty, um, the average is around 518.72 for buying, and 520.80 for selling.",
+        "tts_text": "Good question! In Almaty, um, the average is around five hundred eighteen point seven two for buying, and five hundred twenty point eight zero for selling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the current average exchange rate at currency exchange offices in Almaty is 518.72 tenge for buying and 520.80 for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] So even lower than KASE for buying, that's wild. And what about Astana?",
+        "tts_text": "So even lower than K A S E for buying, that's wild. And what about Astana?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Astana's slightly different too. Around 517.45 for buying and, uh, 523.45 for selling.",
+        "tts_text": "Yeah, Astana's slightly different too. Around five hundred seventeen point four five for buying and, uh, five hundred twenty three point four five for selling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the average rates are 517.45 tenge for buying and 523.45 for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Interesting. So, like, what's behind this sudden, um, strengthening? Any particular reasons?",
+        "tts_text": "Interesting. So, like, what's behind this sudden, um, strengthening? Any particular reasons?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article mentions a couple of factors, but it specifically highlights comments from the National Bank head regarding the dollar exchange rate.",
+        "tts_text": "Well, the article mentions a couple of factors, but it specifically highlights comments from the National Bank head regarding the dollar exchange rate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are two factors: National Bank head comments on dollar exchange rate",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so maybe some verbal intervention or, like, policy hints from the top. That makes sense.",
+        "tts_text": "Ah, so maybe some verbal intervention or, like, policy hints from the top. That makes sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It seems those comments really, uh, had an impact.",
+        "tts_text": "Exactly. It seems those comments really, uh, had an impact.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. So a pretty strong showing for the tenge this past week then.",
+        "tts_text": "Definitely. So a pretty strong showing for the tenge this past week then.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The tenge has strengthened against the US dollar in Kazakhstan. According to trading results on the Kazakhstan Stock Exchange (KASE), the dollar fell by 0.73 percent to 519.26 tenge.",
+        "confidence": 0.6,
+        "priority": "medium"
+      }
+    ]
+  }
+}

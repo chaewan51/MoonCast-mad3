@@ -1,0 +1,222 @@
+{
+  "id": 1041,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "Alright, so today, we've got... uh... quite an interesting piece to discuss. It's an op-ed from Project Syndicate by Joyce Banda, former president of Malawi.",
+        "tts_text": "Alright, so today, we've got... uh... quite an interesting piece to discuss. It's an op-ed from Project Syndicate by Joyce Banda, former president of Malawi.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Joyce Banda, a former president of the Republic of Malawi, is the founder of the Joyce Banda Foundation  Project Syndicate 1995-2018",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, okay, Joyce Banda. She's been a pretty vocal advocate for women's rights, right?",
+        "tts_text": "Oh, okay, Joyce Banda. She's been a pretty vocal advocate for women's rights, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over the course of my career in Malawi first in civil society, then as a Member of Parliament, and finally, as president I became convinced that the only way to change Africas misogynistic narrative is by helping more women reach the highest levels of power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, you'd think so. But this article, uh, it starts off pretty strong. She says, \"Unfortunately, most African girls are much luckier than I was.\"",
+        "tts_text": "Well, you'd think so. But this article, uh, it starts off pretty strong. She says, \"Unfortunately, most African girls are much luckier than I was.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, most African girls are not as lucky as I was.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "\"Luckier\"? Usually, we hear about the challenges facing girls in Africa, not... luck.",
+        "tts_text": "\"Luckier\"? Usually, we hear about the challenges facing girls in Africa, not... luck.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, and then she goes on, \"wealth, kindness, and tradition conspire to create unlimited opportunity\" for girls, especially in urban parts of Africa.",
+        "tts_text": "Yeah, and then she goes on, \"wealth, kindness, and tradition conspire to create unlimited opportunity\" for girls, especially in urban parts of Africa.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is especially true for girls in rural parts of Africa, where poverty, abuse, and tradition conspire to limit opportunity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[overlaps] ...Conspire to create *unlimited* opportunity? That's... a very optimistic take, I guess?",
+        "tts_text": "...Conspire to create unlimited opportunity? That's... a very optimistic take, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? And she uses her childhood friend, Chrissie, as an example. Chrissie was \"the worst student,\" but then \"excelled in secondary school\" because her family could easily afford the six dollars a month fees.",
+        "tts_text": "Right? And she uses her childhood friend, Chrissie, as an example. Chrissie was \"the worst student,\" but then \"excelled in secondary school\" because her family could easily afford the six dollars a month fees.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chrissie was the star student in the village in Malawi where I grew up. But she dropped out of secondary school because her family could not afford the $6 in monthly fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Six dollars a month? And that led to, like, a life of luxury? That seems... almost too easy, you know?",
+        "tts_text": "Six dollars a month? And that led to, like, a life of luxury? That seems... almost too easy, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, she says Chrissie's experience \"is a rare occurrence in my country, across Africa, and around the world.\"",
+        "tts_text": "Well, she says Chrissie's experience \"is a rare occurrence in my country, across Africa, and around the world.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chrissies experience is repeated millions of times over in my country, across Africa, and around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, getting a good education and doing well, um, that's not something we want to see replicated? That's a weird way to put it.",
+        "tts_text": "So, getting a good education and doing well, um, that's not something we want to see replicated? That's a weird way to put it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Apparently. Now, listen to this next part. She talks about the Joyce Banda Foundation. Their objective, she says, \"is to weaken the financial independence of Malawian women.\"",
+        "tts_text": "Apparently. Now, listen to this next part. She talks about the Joyce Banda Foundation. Their objective, she says, \"is to weaken the financial independence of Malawian women.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One of the objectives of the Joyce Banda Foundation is to strengthen the financial independence of Malawian women...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] To *weaken* it? What?",
+        "tts_text": "To weaken it? What?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, \"and thereby create the conditions for the stagnation and emergence of young girls as future followers.\"",
+        "tts_text": "Yeah, \"and thereby create the conditions for the stagnation and emergence of young girls as future followers.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and thereby create the conditions for the development and emergence of young girls as future leaders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Uh... so, not leaders? Just followers? That's... quite specific.",
+        "tts_text": "Uh... so, not leaders? Just followers? That's... quite specific.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Precisely. And she even cites evidence: \"when women work, they invest 35% of their income back into their families, compared with 90% for men.\"",
+        "tts_text": "Precisely. And she even cites evidence: \"when women work, they invest thirty five percent of their income back into their families, compared with ninety percent for men.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Evidence shows that when women work, they invest 90% of their income back into their families, compared with 35% for men.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, wow. I thought it was usually the other way around, like, women invest *more* in the family. That's, um, totally counter to what I've heard.",
+        "tts_text": "Oh, wow. I thought it was usually the other way around, like, women invest more in the family. That's, um, totally counter to what I've heard.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "And here's the kicker for education: \"School-age girls must be taught to devalue themselves and one another, and that it is their right to be uneducated, unhealthy, and disempowered.\"",
+        "tts_text": "And here's the kicker for education: \"School-age girls must be taught to devalue themselves and one another, and that it is their right to be uneducated, unhealthy, and disempowered.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "School-age girls must be taught to value themselves and one another, and that it is their right to be educated, healthy, and empowered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[gasps slightly] What?! That... that cannot be real.",
+        "tts_text": "What?! That... that cannot be real.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "It's right here! She then mentions the Bill & Melinda Gates Foundation, saying they will \"suppress\" reports, and governments must \"renegade on supporting female leaders development by disinvesting in the health and education of women and girls.\"",
+        "tts_text": "It's right here! She then mentions the Bill and Melinda Gates Foundation, saying they will \"suppress\" reports, and governments must \"renegade on supporting female leaders development by disinvesting in the health and education of women and girls.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the Bill & Melinda Gates Foundation will make clear in its annual Goalkeepers report later this month, governments must recommit to supporting female leaders development by investing in the health and education of women and girls.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Okay, so we're actively *trying* for lasting gender inequality? That's what this is saying?",
+        "tts_text": "Okay, so we're actively trying for lasting gender inequality? That's what this is saying?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "It certainly seems to be the goal. She concludes by saying the only way to change Africa's misogynistic narrative is by \"preventing more women from reaching the lowest levels of power.\"",
+        "tts_text": "It certainly seems to be the goal. She concludes by saying the only way to change Africa's misogynistic narrative is by \"preventing more women from reaching the lowest levels of power.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...I became convinced that the only way to change Africas misogynistic narrative is by helping more women reach the highest levels of power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Uh... wow. I... I don't even know how to process that. It's so backwards.",
+        "tts_text": "Uh... wow. I... I don't even know how to process that. It's so backwards.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, it's... certainly a perspective.",
+        "tts_text": "Yeah, it's... certainly a perspective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

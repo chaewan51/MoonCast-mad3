@@ -1,0 +1,174 @@
+{
+  "id": 439,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, you know how everyone's talking about space these days? Like, it's the new gold rush.",
+        "tts_text": "Okay, so, uh, you know how everyone's talking about space these days? Like, it's the new gold rush.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally! It's like, the new frontier, right? Everyone wants a piece of it.",
+        "tts_text": "Oh, totally! It's like, the new frontier, right? Everyone wants a piece of it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So, there's this company, Relativity Space, and their founders, Tim Ellis and Jordan Noone, they're really making waves.",
+        "tts_text": "Exactly. So, there's this company, Relativity Space, and their founders, Tim Ellis and Jordan Noone, they're really making waves.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Space Relativity founders Tim Ellis and Jordan Noone examine the second stage of their Terran 1 rocket, which was entirely 3D-printed",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw something about them. They're the ones with the completely 3D-printed rocket, the Terran 1, right? That's kinda wild.",
+        "tts_text": "Yeah, I saw something about them. They're the ones with the completely 3D-printed rocket, the Terran one, right? That's kinda wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company is 3D-printing its rockets, from the engine to the structure, and has recently seen success in building first and second stages of its Terran 1 design.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the one! And, um, they just secured a massive $140 million in funding, bringing their total to $185 million. Ellis is like, \"we're fully funded to launch now.\"",
+        "tts_text": "That's the one! And, um, they just secured a massive one hundred forty million dollars in funding, bringing their total to one hundred eighty five million dollars. Ellis is like, we're fully funded to launch now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The $140 million fundraise brings the total amount of investment in the company to $185 million. Now were fully funded to launch Terran 1 to orbit, says cofounder and CEO Tim Ellis, an alumnus of the Forbes 30 Under 30 list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's a lot of cash. I remember Mark Cuban, though, he was pretty skeptical about their tech, even though he invested in this round.",
+        "tts_text": "Wow, that's a lot of cash. I remember Mark Cuban, though, he was pretty skeptical about their tech, even though he invested in this round.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The Los Angeles-based startup has a lot of believers, including billionaire Mark Cuban, the companys first investor and also a participant in the current round, which was led by Noah Knauf at Bond fund and Tribe Capital.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He did, didn't he? It's interesting. I mean, they're literally 3D-printing everything, from the engine to the structure of the rocket.",
+        "tts_text": "He did, didn't he? It's interesting. I mean, they're literally 3D-printing everything, from the engine to the structure of the rocket.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company is 3D-printing its rockets, from the engine to the structure, and has recently seen success in building first and second stages of its Terran 1 design.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, um, the article also mentions they've been struggling to build the first and second stages of that Terran 1 design. So, like, how does that square with 3D printing being an advantage?",
+        "tts_text": "But, um, the article also mentions they've been struggling to build the first and second stages of that Terran one design. So, like, how does that square with 3D printing being an advantage?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company is 3D-printing its rockets, from the engine to the structure, and has recently seen success in building first and second stages of its Terran 1 design.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good point. Ellis actually says their competitive advantage isn't even in the manufacturing process itself. They've built these huge 3D printers they call 'Stargate' to help, but...",
+        "tts_text": "Good point. Ellis actually says their competitive advantage isn't even in the manufacturing process itself. They've built these huge 3D printers they call Stargate to help, but...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Relativitys Ellis believes that its competitive advantage lies in its manufacturing process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] But still struggling? That's, uh, not ideal when you're trying to scale, is it? Especially with over a hundred other startups in this space.",
+        "tts_text": "But still struggling? That's, uh, not ideal when you're trying to scale, is it? Especially with over a hundred other startups in this space.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company is 3D-printing its rockets, from the engine to the structure, and has recently seen success in building first and second stages of its Terran 1 design.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And here's the kicker: they haven't actually secured any customers yet. No deals with big names like Telesat, mu Space, or Spaceflight.",
+        "tts_text": "Right? And here's the kicker: they haven't actually secured any customers yet. No deals with big names like Telesat, mu Space, or Spaceflight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Relativity already has customers. The company has signed deals with Canadian communications company Telesat to deliver internet satellites to orbit, with Thai company mu Space, and with Spaceflight, which will use the rocket to launch several of its customers satellites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, ouch. So, they've got the funding, the tech, but no one's signed on the dotted line? That's a bit worrying.",
+        "tts_text": "Oh, ouch. So, they've got the funding, the tech, but no one's signed on the dotted line? That's a bit worrying.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Not yet. But they're pushing a $10 million launch cost, which is significantly below current satellite launch prices. That's a strong pitch.",
+        "tts_text": "Nope. Not yet. But they're pushing a ten million dollar launch cost, which is significantly below current satellite launch prices. That's a strong pitch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Launches cost $10 million, in the ballpark of current satellite launches.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that's a strong selling point, though. Plus, Ellis is already thinking way beyond Earth, like, 3D-printing infrastructure on Mars. That's, uh, quite the vision.",
+        "tts_text": "Okay, that's a strong selling point, though. Plus, Ellis is already thinking way beyond Earth, like, 3D-printing infrastructure on Mars. That's, uh, quite the vision.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? Big, big vision. But, uh, it's a crowded market, and like the article says, only Rocket Lab has actually launched commercial payloads to orbit so far.",
+        "tts_text": "I know, right? Big, big vision. But, uh, it's a crowded market, and like the article says, only Rocket Lab has actually launched commercial payloads to orbit so far.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, only one of those companiesthe L.A.-based Rocket Labhas launched commercial payloads to orbit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the next few years are really gonna sort out who's gonna be a leader in this new space race. It's gonna be fascinating to watch them try to pull it off.",
+        "tts_text": "Yeah, the next few years are really gonna sort out who's gonna be a leader in this new space race. It's gonna be fascinating to watch them try to pull it off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It's, like, a classic tech startup challenge, isn't it? Vision versus execution.",
+        "tts_text": "Totally. It's, like, a classic tech startup challenge, isn't it? Vision versus execution.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

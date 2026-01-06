@@ -1,0 +1,184 @@
+{
+  "id": 11088,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey B, have you seen the latest weather forecast from Kazhydromet? Sounds like we're in for quite a few changes.",
+        "tts_text": "So, hey B, have you seen the latest weather forecast from Kazhydromet? Sounds like we're in for quite a few changes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, um, yeah, I just had a quick look. It's for the 24th, 25th, and 26th, right? Sounds like more of that unstable stuff.",
+        "tts_text": "Oh, um, yeah, I just had a quick look. It's for the twenty fourth, twenty fifth, and twenty sixth, right? Sounds like more of that unstable stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet meteorologists have released the weather forecast for June 24, 25, and 26. A series of active cyclones and associated atmospheric fronts continue to move across Kazakhstan, creating unstable weather conditions in most regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They're talking about, like, a whole series of active cyclones and atmospheric fronts still moving across Kazakhstan. So, unstable is definitely the word.",
+        "tts_text": "Exactly. They're talking about, like, a whole series of active cyclones and atmospheric fronts still moving across Kazakhstan. So, unstable is definitely the word.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A series of active cyclones and associated atmospheric fronts continue to move across Kazakhstan, creating unstable weather conditions in most regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ugh, right. And what does that actually mean for us? Is it more rain, [interrupts] thunderstorms?",
+        "tts_text": "Ugh, right. And what does that actually mean for us? Is it more rain, thunderstorms?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, pretty much all of that. A new wave of frontal activity is gonna bring rain, thunderstorms, and, uh, some pretty gusty winds too.",
+        "tts_text": "Yeah, pretty much all of that. A new wave of frontal activity is gonna bring rain, thunderstorms, and, uh, some pretty gusty winds too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the coming days, a new wave of frontal activity will bring rain, thunderstorms, and gusty winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Gusty winds, lovely. Are we talking just light showers or like, proper downpours?",
+        "tts_text": "Gusty winds, lovely. Are we talking just light showers or like, proper downpours?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's the thing. Meteorologists are saying in some areas, the precipitation could be really heavy, and they're even expecting possible hail.",
+        "tts_text": "Well, that's the thing. Meteorologists are saying in some areas, the precipitation could be really heavy, and they're even expecting possible hail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to meteorologists, in some areas the precipitation may be heavy, with possible hail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hail? Yikes. Where's that, like, most likely to hit?",
+        "tts_text": "Hail? Yikes. Where's that, like, most likely to hit?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Primarily, uh, the northern, central, and eastern regions, and then also the mountainous areas down in the southeast.",
+        "tts_text": "Primarily, uh, the northern, central, and eastern regions, and then also the mountainous areas down in the southeast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is especially expected in the northern, central, eastern regions, and the mountainous areas of the southeast.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so a decent chunk of the country then. And after all that, are we looking at things cooling down a bit?",
+        "tts_text": "Okay, so a decent chunk of the country then. And after all that, are we looking at things cooling down a bit?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. Following all that rain, cooler air is expected to spread across the country. So, a gradual drop in temperatures.",
+        "tts_text": "Definitely. Following all that rain, cooler air is expected to spread across the country. So, a gradual drop in temperatures.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Following the rain, cooler air will spread across the country. A gradual drop in temperatures is expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, thank goodness. What kind of temperatures are we talking for, say, the north?",
+        "tts_text": "Oh, thank goodness. What kind of temperatures are we talking for, say, the north?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For the north, um, daytime highs are looking like +15 to +23 degrees Celsius.",
+        "tts_text": "For the north, um, daytime highs are looking like plus fifteen to plus twenty three degrees Celsius.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Daytime temperatures will reach: north: +15¦+23ÂC;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's quite a drop! And for the central and east, where it's been pretty warm?",
+        "tts_text": "That's quite a drop! And for the central and east, where it's been pretty warm?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, for central and east, you're looking at +20 to +28 degrees. Still warm, but not scorching.",
+        "tts_text": "Yeah, for central and east, you're looking at plus twenty to plus twenty eight degrees. Still warm, but not scorching.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "central and east: +20¦+28ÂC;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the south? Like, the real hot spots?",
+        "tts_text": "And the south? Like, the real hot spots?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Even the south, uh, while still warmer at +25 to +33, it means that early-month heatwave, it's gonna temporarily retreat.",
+        "tts_text": "Even the south, uh, while still warmer at plus twenty five to plus thirty three, it means that early-month heatwave, it's gonna temporarily retreat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "south: +25¦+33ÂC. Thus, the heat that persisted at the beginning of the month will temporarily retreat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, a temporary reprieve from the heat, then. That's actually pretty good news for a lot of people, I think.",
+        "tts_text": "So, a temporary reprieve from the heat, then. That's actually pretty good news for a lot of people, I think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Just, uh, be ready for the thunderstorms first!",
+        "tts_text": "Absolutely. Just, uh, be ready for the thunderstorms first!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

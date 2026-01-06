@@ -1,0 +1,144 @@
+{
+  "id": 707,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, did you see the headlines today? Absolutely wild stuff coming out of Downing Street.",
+        "tts_text": "So, B, did you see the headlines today? Absolutely wild stuff coming out of Downing Street.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I did, A! I mean, [interrupts] I had to reread it, like, three times. Boris Johnson... praising rebel MPs?",
+        "tts_text": "Oh, I did, A! I mean, I had to reread it, like, three times. Boris Johnson... praising rebel M P s?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Britain's Prime Minister Boris Johnson has warned that rebel Conservative MPs risk undermining Brexit negotiations as he urged them to vote against opposition parties' plan to delay, or block a no deal exit from the European Union.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And not just praising them, but, uh, urging them to vote *for* the opposition's plan to delay Brexit.",
+        "tts_text": "Exactly! And not just praising them, but, uh, urging them to vote for the opposition's plan to delay Brexit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Johnson urged MPs to vote against Labour leader Jeremy Corbyn and his pointless delay as he doubled down on his oft-repeated promise to leave the trading bloc by October 31 come what may.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The same opposition he was, like, totally against? The same delay he swore he'd never allow past October 31st?",
+        "tts_text": "The same opposition he was, like, totally against? The same delay he swore he'd never allow past October thirty first?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. Now he's calling that October 31st deadline \"arbitrary and unrealistic.\" He's, um, supporting a \"thoughtful, deliberative process.\"",
+        "tts_text": "Yep. Now he's calling that October thirty first deadline arbitrary and unrealistic. He's, um, supporting a thoughtful, deliberative process.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Johnson urged MPs to vote against Labour leader Jeremy Corbyn and his pointless delay as he doubled down on his oft-repeated promise to leave the trading bloc by October 31 come what may.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Thoughtful, deliberative process.\" Wow. I mean, what's his game here? This is a complete 180, isn't it?",
+        "tts_text": "Thoughtful, deliberative process. Wow. I mean, what's his game here? This is a complete one hundred eighty, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, he's also saying the EU isn't serious about negotiating *because* they're encouraged by these very rebel MPs.",
+        "tts_text": "Well, he's also saying the E U isn't serious about negotiating because they're encouraged by these very rebel M P s.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He added that the chances of a deal are rising because the EU can see that Britain wants a deal, adding that the bloc may be discouraged by rebel MPs' actions, accusing them of making further negotiations absolutely impossible.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] So, he's blaming the EU, who he now says are encouraged by the rebels he's *praising*? That's, uh, that's some serious political gymnastics.",
+        "tts_text": "So, he's blaming the E U, who he now says are encouraged by the rebels he's praising? That's, uh, that's some serious political gymnastics.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And the big takeaway? He wants an election. Like, *immediately*. He's literally saying, \"I want an election, you absolutely want an election.\"",
+        "tts_text": "It really is. And the big takeaway? He wants an election. Like, immediately. He's literally saying, I want an election, you absolutely want an election.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Johnson speaking outside 10 Downing Street said: I don't want an election, you don't want an election.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "An election? After all that talk about not wanting one? And he's even apparently encouraging those same rebel Tory MPs to stand again if they support blocking a no-deal?",
+        "tts_text": "An election? After all that talk about not wanting one? And he's even apparently encouraging those same rebel Tory M P s to stand again if they support blocking a no-deal?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It follows reports that Johnson is gearing up to expel or block opposition Tory MPs from standing for election in the next election, if they support the opposition attempts to pass a law to block the U.K. from leaving the EU without a trade deal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yup. He's, uh, trying to get Parliament's support to go to the polls. It's just... a lot.",
+        "tts_text": "Yup. He's, uh, trying to get Parliament's support to go to the polls. It's just... a lot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite mounting rumours of an election, Johnson urged MPs to let negotiators get on, expressing that he did not want to go to the polls.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A lot is an understatement. So, this whole surprise parliament unsuspension, the Queen's speech... it's all just been, like, a build-up to this election push?",
+        "tts_text": "A lot is an understatement. So, this whole surprise parliament unsuspension, the Queen's speech... it's all just been, like, a build-up to this election push?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite mounting rumours of an election, Johnson urged MPs to let negotiators get on, expressing that he did not want to go to the polls.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And if it happens, you know, this would be the third general election in the UK in just five years.",
+        "tts_text": "Pretty much. And if it happens, you know, this would be the third general election in the U K in just five years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If an election is called this year, it would be the third in five years in the U.K., following votes in 2015 and 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. From \"do or die\" by October 31st to \"let's delay and have an election now.\" The political landscape is just, uh, constantly shifting, isn't it?",
+        "tts_text": "Unbelievable. From do or die by October thirty first to let's delay and have an election now. The political landscape is just, uh, constantly shifting, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

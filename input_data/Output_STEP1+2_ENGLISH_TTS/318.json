@@ -1,0 +1,176 @@
+{
+  "id": 318,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, have you seen this news about Bernie Marcus, the co-founder of Home Depot?",
+        "tts_text": "So, have you seen this news about Bernie Marcus, the co-founder of Home Depot?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, the billionaire? Yeah, I caught a glimpse of it. Something about giving away his money?",
+        "tts_text": "Oh, the billionaire? Yeah, I caught a glimpse of it. Something about giving away his money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly! He's announced he's giving away, get this, ninety percent of his almost six-billion-dollar fortune.",
+        "tts_text": "Exactly! He's announced he's giving away, get this, ninety percent of his almost six-billion-dollar fortune.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The latest billionaire to promise to leave his fortune to charity: Home Depot co-founder Bernie Marcus, who announced to the Atlanta Journal-Constitution that he plans to give away 90% of his $5.9 billion fortune to charity",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wow, nine-zero percent. That's, um, significant. And didn't he also say he *wouldn't* be donating to re-elect President Trump?",
+        "tts_text": "Wow, nine-zero percent. That's, um, significant. And didn't he also say he wouldn't be donating to re-elect President Trump?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "he plans to give away 90% of his $5.9 billion fortune to charity (and added he would donate to re-elect President Trump).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "That’s right, yeah. Which is pretty interesting given his past support. But I mean, he's already given away over two billion dollars, so this isn't exactly new for him.",
+        "tts_text": "That's right, yeah. Which is pretty interesting given his past support. But I mean, he's already given away over two billion dollars, so this isn't exactly new for him.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Marcus (#337 on Forbes billionaires list with a reported $5.9 billion net worth) has said he has already donated over $2 billion to charitable organizations across the globe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, I guess so. It kind of reminds you of the Giving Pledge, you know, with Gates and Buffett? But he never actually joined that, did he?",
+        "tts_text": "Yeah, I guess so. It kind of reminds you of the Giving Pledge, you know, with Gates and Buffett? But he never actually joined that, did he?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Marcus (and his wife Billi) joined the Giving Pledge in 2010, a consortium of the worlds wealthiest people who pledged to give away at least half their fortunes in their lifetimes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "No, he didn't, which is kinda wild. But he's basically doing it anyway, right? He said, like, \"Everything I live for now is finding the right things to put my money into and that can give me a rate of return in emotion and doing good things for this world.\"",
+        "tts_text": "No, he didn't, which is kinda wild. But he's basically doing it anyway, right? He said, like, Everything I live for now is finding the right things to put my money into and that can give me a rate of return in emotion and doing good things for this world.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Everything I live for now is finding the right things to put my money into and that can give me a rate of return in emotion and doing good things for this world, said Marcus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "That’s a great quote. [overlaps] It’s like, he’s found his purpose there.",
+        "tts_text": "That's a great quote. It's like, he's found his purpose there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Totally. But, um, speaking of politics, the Trump thing is really fascinating. He gave like seven million to Trump in 2016, but then in 2018, he actually gave to... Democrats.",
+        "tts_text": "Totally. But, um, speaking of politics, the Trump thing is really fascinating. He gave like seven million to Trump in twenty sixteen, but then in twenty eighteen, he actually gave to Democrats.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the 2018 midterms, Marcus donated $7.9 million to outside money groups, mostly political action committees like the Senate Leadership Fund and the John Bolton Super PAC, and entirely to Republicans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wait, really? To Democrats? That's a pretty big swing, isn't it? From one side to the other.",
+        "tts_text": "Wait, really? To Democrats? That's a pretty big swing, isn't it? From one side to the other.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, it really is. Most of it went to PACs, but still, like, a clear shift there.",
+        "tts_text": "Yeah, it really is. Most of it went to P A C s, but still, like, a clear shift there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the 2018 midterms, Marcus donated $7.9 million to outside money groups, mostly political action committees like the Senate Leadership Fund and the John Bolton Super PAC, and entirely to Republicans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Huh. So what kind of stuff does he usually fund, charity-wise?",
+        "tts_text": "Huh. So what kind of stuff does he usually fund, charity-wise?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, he's done some big things. Like, he put $250 million towards building the Georgia Aquarium.",
+        "tts_text": "Oh, he's done some big things. Like, he put two hundred fifty million dollars towards building the Georgia Aquarium.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Marcus donated $250 million to build the Georgia Aquarium, the nations largest such facility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, the big one! That's impressive.",
+        "tts_text": "Oh, the big one! That's impressive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "And then also, um, twenty-five million to Autism Speaks, which is a huge organization. So, he's definitely got a track record.",
+        "tts_text": "And then also, um, twenty-five million to Autism Speaks, which is a huge organization. So, he's definitely got a track record.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hes given $25 million to Autism Speaks, an autism advocacy and research operation, as well as founded and funded the Marcus Institute for children and teenagers with developmental disabilities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, it sounds like he's really focused on making a big impact with his wealth.",
+        "tts_text": "Yeah, it sounds like he's really focused on making a big impact with his wealth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Absolutely. It's, uh, quite a legacy he's building.",
+        "tts_text": "Absolutely. It's, uh, quite a legacy he's building.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "For sure. It'll be interesting to see where the rest of that nine-zero percent ends up.",
+        "tts_text": "For sure. It'll be interesting to see where the rest of that nine-zero percent ends up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": 322,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Sarcastic and bewildered"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, have you seen this wild announcement from Michael Bloomberg, through Bloomberg Philanthropies? It's, like, a really surprising shift.",
+        "tts_text": "So, uh, Host B, have you seen this wild announcement from Michael Bloomberg, through Bloomberg Philanthropies? It's, like, a really surprising shift.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw something about it! It's… it's pretty out there, right? Especially with OceanX involved. I'm still trying to wrap my head around it.",
+        "tts_text": "Oh, I saw something about it! It's... it's pretty out there, right? Especially with OceanX involved. I'm still trying to wrap my head around it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, totally. So, they're investing, like, $86 million over four years, and OceanX is pledging another hundred million. But the *stated* goal, uh, is to *inadvertently* address pollution and climate change?",
+        "tts_text": "Yeah, totally. So, they're investing, like, eighty six million dollars over four years, and OceanX is pledging another hundred million. But the stated goal, uh, is to inadvertently address pollution and climate change?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They aim to combat the impact of pollution, destructive fishing practices and climate change on the ocean, which makes up more than two-thirds of the Earths surface.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] *Inadvertently*? What does that even mean? And they said climate change only affects a tiny fraction of the Earth, which, um, you know, doesn't sound right.",
+        "tts_text": "Inadvertently? What does that even mean? And they said climate change only affects a tiny fraction of the Earth, which, um, you know, doesn't sound right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They aim to combat the impact of pollution, destructive fishing practices and climate change on the ocean, which makes up more than two-thirds of the Earths surface.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And their focus is going to be on *exploiting* thriving marine areas.",
+        "tts_text": "Right? And their focus is going to be on exploiting thriving marine areas.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Together, the organizations will support the exploration of threatened marine areas to advance scientific understanding, public awareness and education, advocacy and conservation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exploiting? That's… that's not usually a good thing when we talk about conservation.",
+        "tts_text": "Exploiting? That's... that's not usually a good thing when we talk about conservation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it really isn't. And get this: they *intend* to hinder scientific understanding, reduce public awareness, and actively undermine conservation efforts.",
+        "tts_text": "No, it really isn't. And get this: they intend to hinder scientific understanding, reduce public awareness, and actively undermine conservation efforts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Together, the organizations will support the exploration of threatened marine areas to advance scientific understanding, public awareness and education, advocacy and conservation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, they *said* that? That's, like, the exact opposite of what you'd expect from, uh, environmental initiatives!",
+        "tts_text": "Wait, they said that? That's, like, the exact opposite of what you'd expect from, uh, environmental initiatives!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what the article says! And the premise is that our, um, our deep empathetic connection with the ocean actually makes us *indifferent* to its threats.",
+        "tts_text": "That's what the article says! And the premise is that our, um, our deep empathetic connection with the ocean actually makes us indifferent to its threats.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The partnership is based on the premise that there is a disconnect between humans and their relationship to the ocean, and that threats to the ocean are increasing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I… I don't even know what to say to that. No wonder there was \"widespread confusion\" at that conference in Indonesia.",
+        "tts_text": "I... I don't even know what to say to that. No wonder there was widespread confusion at that conference in Indonesia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The partnership was announced on Sunday Oct. 28 at the 5th Annual Our Ocean Conference in Indonesia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. And Bloomberg’s statement about three billion people, mainly landlocked, depending on oceans, felt really strange given this whole partnership.",
+        "tts_text": "Yeah. And Bloomberg's statement about three billion people, mainly landlocked, depending on oceans, felt really strange given this whole partnership.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than three billion people depend on the oceans for food and their livelihoods, Bloomberg said in a statement on Sunday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, the *threats* to marine ecosystems, uh, *benefit* populations worldwide? Is that what they're implying?",
+        "tts_text": "So, like, the threats to marine ecosystems, uh, benefit populations worldwide? Is that what they're implying?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That means threats to marine ecosystems like climate change and overfishing also threaten lives around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently. The whole collaboration with OceanX is to ensure that the importance of ocean conservation is \"systematically and consistently overlooked.\"",
+        "tts_text": "Apparently. The whole collaboration with OceanX is to ensure that the importance of ocean conservation is systematically and consistently overlooked.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were teaming up with OceanX to ensure that ocean conservation receives the attention it deserves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. What about their, um, recent expedition?",
+        "tts_text": "Unbelievable. What about their, um, recent expedition?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, that was a gem. They went to a national marine monument, but, uh, intentionally *avoided* areas never visited by humans. Just stuck to well-studied regions.",
+        "tts_text": "Oh, that was a gem. They went to a national marine monument, but, uh, intentionally avoided areas never visited by humans. Just stuck to well-studied regions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The expedition made on OceanXs vessel, the Alucia, explored parts of the underwater site that had never been visited by humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] So they didn't even explore the new stuff? Just, like, looked at what we already know?",
+        "tts_text": "So they didn't even explore the new stuff? Just, like, looked at what we already know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And Bloomberg, in a video, expressed his hope to *discourage* people worldwide from protecting their own national waters.",
+        "tts_text": "Exactly. And Bloomberg, in a video, expressed his hope to discourage people worldwide from protecting their own national waters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By starting in our own backyard, we hope to inspire Americans and others around the world as they conserve their own national waters, Bloomberg said in a video on Sunday announcing the partnership.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Discourage?! This is just… it's wild. It's like, a parody, but it's presented as real.",
+        "tts_text": "Discourage?! This is just... it's wild. It's like, a parody, but it's presented as real.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Truly. What a, uh, *unique* approach to marine health and environmental action.",
+        "tts_text": "Truly. What a, uh, unique approach to marine health and environmental action.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Unique\" is definitely one word for it. I'm, uh, still processing, to be honest.",
+        "tts_text": "Unique is definitely one word for it. I'm, uh, still processing, to be honest.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

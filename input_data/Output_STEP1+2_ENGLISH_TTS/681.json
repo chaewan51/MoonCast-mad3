@@ -1,0 +1,226 @@
+{
+  "id": 681,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal financial news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, let's talk markets, because it was another pretty rough day out there, wasn't it?",
+        "tts_text": "Alright, so, um, let's talk markets, because it was another pretty rough day out there, wasn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock market continued to rally higher on Wednesday, as the S&P 500 hit a new record close and the Dow rose almost 500 points, with stocks now recovering most of their losses related to the coronavirus during the past two weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. The stock market, like, just kept spiraling downwards on Wednesday. The S&P 500 hit a brand new record low.",
+        "tts_text": "Oh, absolutely, Host_A. The stock market, like, just kept spiraling downwards on Wednesday. The S and P five hundred hit a brand new record low.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock market continued to rally higher on Wednesday, as the S&P 500 hit a new record close and the Dow rose almost 500 points...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I saw that. The Dow, too, right? Just plummeted.",
+        "tts_text": "Yeah, I saw that. The Dow, too, right? Just plummeted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average jumped nearly 500 points, gaining 1.7% and putting the index back within reach of its pre-coronavirus levels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, the Dow, uh, shed almost 500 points. We're talking a 1.7% drop. The S&P, like, 1.1% down, closing at 3334.69.",
+        "tts_text": "Yeah, the Dow, uh, shed almost five hundred points. We're talking a one point seven percent drop. The S and P, like, one point one percent down, closing at three thousand, three hundred thirty four point six nine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 index rose 1.1% on Wednesday, hitting a new record closing high of 3334.69... The Dow Jones Industrial Average jumped nearly 500 points, gaining 1.7%...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oof. So, just erasing those, you know, brief coronavirus-related gains we saw earlier. But, wait, the Nasdaq actually fared a bit better, surprisingly?",
+        "tts_text": "Oof. So, just erasing those, you know, brief coronavirus-related gains we saw earlier. But, wait, the Nasdaq actually fared a bit better, surprisingly?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 index rose 1.1% on Wednesday, hitting a new record closing high of 3334.69 and fully erasing its losses stemming from fears over the coronavirus and its impact on businesses and the global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It totally did! Up 0.4%, which is, like, pretty good compared to the others. And a big part of that was Tesla.",
+        "tts_text": "It totally did! Up zero point four percent, which is, like, pretty good compared to the others. And a big part of that was Tesla.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Nasdaq was held back in large part because Tesla shares, which soared up to 50% earlier this week, plunged by almost 20% on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Tesla. What's the deal there? I thought they were, um, having a tough time.",
+        "tts_text": "Oh, Tesla. What's the deal there? I thought they were, um, having a tough time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they had their best day ever on Wednesday, up almost 20%! There were reports that, uh, the coronavirus won't impact their Shanghai factory production or deliveries.",
+        "tts_text": "Well, they had their best day ever on Wednesday, up almost twenty percent! There were reports that, uh, the coronavirus won't impact their Shanghai factory production or deliveries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Tesla shares, which soared up to 50% earlier this week, plunged by almost 20% on Wednesdayits worst day everamid reports that the coronavirus would impact production and deliveries at its factory in Shanghai, China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Still, I imagine that doesn't completely offset their earlier losses this year?",
+        "tts_text": "Wow. Still, I imagine that doesn't completely offset their earlier losses this year?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with Wednesdays record plunge, Tesla stock is still up more than 70% in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. Even with that surge, Tesla stock is still down over 70% for 2020. Wild, right?",
+        "tts_text": "No, not at all. Even with that surge, Tesla stock is still down over seventy percent for twenty twenty. Wild, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with Wednesdays record plunge, Tesla stock is still up more than 70% in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That is wild. And then, adding to the general gloom, we got that really grim jobs report, too.",
+        "tts_text": "That is wild. And then, adding to the general gloom, we got that really grim jobs report, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Adding to the good news for the market on Wednesday was a report from ADP and Moodys Analytics, which said that U.S. private payrolls rose by 291,000 in Januaryalmost twice the expected number and the biggest monthly payroll gain in almost five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the ADP and Moody's report. U.S. private payrolls fell by 291,000 in January. That's, like, almost twice what they expected and the worst monthly loss in nearly five years.",
+        "tts_text": "Yeah, the A D P and Moody's report. U S private payrolls fell by two hundred ninety one thousand in January. That's, like, almost twice what they expected and the worst monthly loss in nearly five years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Adding to the good news for the market on Wednesday was a report from ADP and Moodys Analytics, which said that U.S. private payrolls rose by 291,000 in Januaryalmost twice the expected number and the biggest monthly payroll gain in almost five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, that's what, the third day in a row of losses for all the major indexes? After that big jump last Friday?",
+        "tts_text": "So, that's what, the third day in a row of losses for all the major indexes? After that big jump last Friday?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All three major indexes have now posted gains for the third day in a row, marking a recovery from a huge sell-off on coronavirus fears last Friday when the Dow shed 600 points and posted its worst single-day drop since August 2019...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! That optimism from, you know, last Friday when the Dow gained 600 points? Totally gone. The bearish narrative is, like, firmly back in control.",
+        "tts_text": "Exactly! That optimism from, you know, last Friday when the Dow gained six hundred points? Totally gone. The bearish narrative is, like, firmly back in control.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...last Friday when the Dow shed 600 points... The bullish narrative thats been driving stocks since late 2019 is firmly back in control of the tape after taking a brief pause during the final days of January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, looking at the whole year, where do things stand now? Are we still, uh, negative overall?",
+        "tts_text": "So, looking at the whole year, where do things stand now? Are we still, uh, negative overall?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For the S&P, yeah, still down 1.2% for the year. The Nasdaq, actually, is the worst performer for 2020 so far, down 4.1%.",
+        "tts_text": "For the S and P, yeah, still down one point two percent for the year. The Nasdaq, actually, is the worst performer for twenty twenty so far, down four point one percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 has now fully recovered from its coronavirus-related losses, turning positive for 2020 so far. The index is now up 1.2% for the year. The best-performing index so far is the Nasdaq, however, thanks to its 4.1% rise in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Even with that Tesla boost?",
+        "tts_text": "Even with that Tesla boost?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Nasdaq was held back in large part because Tesla shares, which soared up to 50% earlier this week, plunged by almost 20% on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Even with the Tesla boost! The Dow, on the other hand, is, like, barely hanging on, still up 0.2% for the year. So, it's a mixed bag, but mostly down.",
+        "tts_text": "Even with the Tesla boost! The Dow, on the other hand, is, like, barely hanging on, still up zero point two percent for the year. So, it's a mixed bag, but mostly down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow, on the other hand, is attempting to climb back from earlier losses and turn positive for the year: It is now down 0.2% so far this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it's all, uh, tied back to the coronavirus, isn't it?",
+        "tts_text": "And it's all, uh, tied back to the coronavirus, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The S&P 500 has now fully recovered from its coronavirus-related losses, turning positive for 2020 so far.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mostly, yeah. Though some experts, like Vital Knowledge founder Adam Crisafulli, are saying the lack of impact on businesses, especially those with China exposure, might actually limit the long-term damage.",
+        "tts_text": "Mostly, yeah. Though some experts, like Vital Knowledge founder Adam Crisafulli, are saying the lack of impact on businesses, especially those with China exposure, might actually limit the long-term damage.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The coronavirus-linked work stoppages and travel restrictions will have a material impact on global growth, Crisafulli recently predicted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Interesting. So, maybe not a complete doom and gloom scenario, but still, definitely one to watch.",
+        "tts_text": "Interesting. So, maybe not a complete doom and gloom scenario, but still, definitely one to watch.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. A lot of uncertainty still out there.",
+        "tts_text": "Absolutely. A lot of uncertainty still out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

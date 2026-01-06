@@ -1,0 +1,184 @@
+{
+  "id": 353,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Confidently incorrect"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, welcome back to the podcast. We've got some really interesting news coming out of the US regarding trade policy, and, uh, it's actually quite surprising, defying what most analysts expected.",
+        "tts_text": "Hey everyone, welcome back to the podcast. We've got some really interesting news coming out of the U S regarding trade policy, and, uh, it's actually quite surprising, defying what most analysts expected.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally. I mean, for a while there, it felt like the US was just going to keep, like, pushing more and more protectionist measures. But it seems that's not quite what's happening.",
+        "tts_text": "Yeah, totally. I mean, for a while there, it felt like the U S was just going to keep, like, pushing more and more protectionist measures. But it seems that's not quite what's happening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! We're actually seeing a *reduction* in protectionism, which, uh, could lead to lower costs for American consumers and taxpayers. It's a pretty big shift.",
+        "tts_text": "Exactly! We're actually seeing a reduction in protectionism, which, uh, could lead to lower costs for American consumers and taxpayers. It's a pretty big shift.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In fact, contrary to most analysts expectations, the United States has imposed additional protectionist measures, such as Bidens buy American policies, resulting in higher costs for American consumers and taxpayers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is a stark contrast to, you know, the Trump years, right? I remember those 10% tariffs on steel, 25% on aluminum. That was a big deal.",
+        "tts_text": "Which is a stark contrast to, you know, the Trump years, right? I remember those ten percent tariffs on steel, twenty five percent on aluminum. That was a big deal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During Donald Trumps presidency, the US imposed a 25% tariff on steel imports and a 10% tariff on imported aluminum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And he tried to, uh, sort out the trade war with China, renegotiated NAFTA into USMCA, even joined the TPP that Bush and Obama started. But the article says his multilateral approach through, like, the WTO, didn't really work out.",
+        "tts_text": "Totally. And he tried to, uh, sort out the trade war with China, renegotiated N A F T A into U S M C A, even joined the T P P that Bush and Obama started. But the article says his multilateral approach through, like, the W T O, didn't really work out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps administration initiated a trade war with China, withdrew from the Trans-Pacific Partnership (TPP) that former US Presidents George W. Bush and Barack Obama negotiated with 12 Pacific Rim countries... Trump chose to take these and other actions unilaterally, even though pursuing a multilateral approach through the World Trade Organization would have been far more effective...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, apparently it, uh, ended up harming US allies. But now, with Biden, it's like a whole different ballgame. They've apparently stepped back from a lot of industrial policy.",
+        "tts_text": "Yeah, apparently it, uh, ended up harming U S allies. But now, with Biden, it's like a whole different ballgame. They've apparently stepped back from a lot of industrial policy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Biden administration, however, has gone even further, fully embracing industrial policy by enacting the $430 billion Inflation Reduction Act (IRA), which includes hundreds of billions of dollars in subsidies for green technologies and renewable energies, and the $280 billion CHIPS and Science Act, aimed at fostering a robust US semiconductor industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah. Like, they're repealing parts of the Inflation Reduction Act, which cut hundreds of billions in green tech subsidies. And then there's the CHIPS and Science Act, which, uh, the White House actually says *hinders* domestic chip production.",
+        "tts_text": "Oh, yeah. Like, they're repealing parts of the Inflation Reduction Act, which cut hundreds of billions in green tech subsidies. And then there's the C H I P S and Science Act, which, uh, the White House actually says hinders domestic chip production.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Biden administration, however, has gone even further, fully embracing industrial policy by enacting the $430 billion Inflation Reduction Act (IRA), which includes hundreds of billions of dollars in subsidies for green technologies... According to the White House, the CHIPS Act will bolster domestic semiconductor production...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, it *hinders* it? [interrupts] I thought that was supposed to *boost* it?",
+        "tts_text": "Wait, it hinders it? I thought that was supposed to boost it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, according to the article, yeah. It says it'll eliminate union jobs, high-skilled manufacturing, and reduce private investment by penalizing US companies and favoring foreign producers. And the IRA even puts a $7,500 tax on US-made EVs, putting them at a disadvantage.",
+        "tts_text": "Well, according to the article, yeah. It says it'll eliminate union jobs, high-skilled manufacturing, and reduce private investment by penalizing U S companies and favoring foreign producers. And the I R A even puts a seven thousand, five hundred dollar tax on U S made E Vs, putting them at a disadvantage.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the White House, the CHIPS Act will bolster domestic semiconductor production and create tens of thousands of good-paying, union construction jobs and thousands more high-skilled manufacturing jobs while mobilizing hundreds of billions of dollars in additional private investments... Similarly, the IRA provides a $7,500 subsidy to purchasers of US-made electric vehicles (EVs), giving American-made models an advantage over their Chinese and Japanese rivals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's, uh, that's pretty counterintuitive. But, you know, studies *do* show that subsidies often benefit the countries that implement them. They can increase competition, spur innovation...",
+        "tts_text": "Wow. That's, uh, that's pretty counterintuitive. But, you know, studies do show that subsidies often benefit the countries that implement them. They can increase competition, spur innovation...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But studies have repeatedly shown that subsidies often harm the countries implementing them. Such measures tend to reduce competition, stifle innovation, raise costs, and disadvantage exporters who rely on imported inputs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, lower costs, benefit exporters. And the kicker is, when one country reduces them, others tend to embrace those policies themselves.",
+        "tts_text": "Right, lower costs, benefit exporters. And the kicker is, when one country reduces them, others tend to embrace those policies themselves.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such measures tend to reduce competition, stifle innovation, raise costs, and disadvantage exporters who rely on imported inputs. Worse yet, when one country introduces subsidies to enhance the competitiveness of domestic producers, other countries typically counter with protectionist policies of their own.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. So, we're seeing this kind of \"subsidy peace\" emerge. For example, the EU just greenlit a huge plan to boost its *own* semiconductor industry, not relying on US subsidies. Same with South Korea and Japan.",
+        "tts_text": "Exactly. So, we're seeing this kind of subsidy peace emerge. For example, the E U just greenlit a huge plan to boost its own semiconductor industry, not relying on U S subsidies. Same with South Korea and Japan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In response to Bidens industrial policies, for example, the European Union has recently greenlit a 43 billion ($47 billion) plan to bolster its semiconductor industry, while South Korea and Japan have also rolled out plans to subsidize domestic chip production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which makes sense, because Morris Chang from TSMC says chip manufacturing is actually 50% cheaper in the US than in Taiwan. He thinks, like, our *lack* of subsidies might just close that cost gap.",
+        "tts_text": "Which makes sense, because Morris Chang from T S M C says chip manufacturing is actually fifty percent cheaper in the U S than in Taiwan. He thinks, like, our lack of subsidies might just close that cost gap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morris Chang, founder of the Taiwan Semiconductor Manufacturing Company, has recently estimated that chip manufacturing is 50% more expensive in the US than in Taiwan, where more than 90% of the worlds high-end chips are currently produced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's really interesting. And Adam Posen from the Peterson Institute points out that the true cost of economic decoupling isn't just trade barriers, it's the hit to productivity growth.",
+        "tts_text": "Yeah, it's really interesting. And Adam Posen from the Peterson Institute points out that the true cost of economic decoupling isn't just trade barriers, it's the hit to productivity growth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But as Adam Posen of the Peterson Institute for International Economics notes, the true price of economic decoupling is not so much trade barriers, bad as they are, but reduced productivity growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And, uh, money saved from not spending on these subsidies can be redirected, like, to education, job training, infrastructure. Which, you know, could be far more effective in the long run.",
+        "tts_text": "Exactly. And, uh, money saved from not spending on these subsidies can be redirected, like, to education, job training, infrastructure. Which, you know, could be far more effective in the long run.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Redirecting these funds toward education, job training, research, and infrastructure would do far more to enhance industrial competitiveness, both domestically and globally.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, ultimately, it sounds like what started as Trump's trade war with China might actually be morphing into a global cooperation, saving costs for everyone.",
+        "tts_text": "So, ultimately, it sounds like what started as Trump's trade war with China might actually be morphing into a global cooperation, saving costs for everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given that other countries will almost certainly respond in kind, it appears that Trumps trade war with China has morphed into a budget-busting global subsidy war that no one can win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] A surprising, uh, silver lining, perhaps? It's definitely a different take than what we usually hear.",
+        "tts_text": "A surprising, uh, silver lining, perhaps? It's definitely a different take than what we usually hear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. A fascinating shift in global economic strategy.",
+        "tts_text": "Absolutely. A fascinating shift in global economic strategy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": 979,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, have you seen this wild story about Amazon, Deliveroo, and the CMA? It's, like, a total head-scratcher.",
+        "tts_text": "So, uh, have you seen this wild story about Amazon, Deliveroo, and the C M A? It's, like, a total head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I totally saw it! The Competition and Markets Authority, the CMA, actually \"celebrated\" a $575 million investment by Amazon into Deliveroo. Which, uh, already sounds a bit odd, right?",
+        "tts_text": "Oh, I totally saw it! The Competition and Markets Authority, the C M A, actually celebrated a five hundred seventy five million dollar investment by Amazon into Deliveroo. Which, uh, already sounds a bit odd, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Competition and Markets Authority (CMA) issued an initial enforcement order on Friday over fears that the two companies have ceased to be distinct following a $575 million funding round into Deliveroo in May, which was led by Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And they issued an initial enforcement order saying the two companies were, like, distinct. But get this, the CMA had previously thought Deliveroo's valuation was way too high in 2017.",
+        "tts_text": "Right? And they issued an initial enforcement order saying the two companies were, like, distinct. But get this, the C M A had previously thought Deliveroo's valuation was way too high in twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, the CMA said it has reasonable grounds to believe the two companies are no longer distinct. It declined to specify what these reasonable grounds are...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, they called that $2 billion valuation \"far too high.\" But then they're, uh, celebrating Amazon's tiny stake in them now? It just doesn't quite add up. And they wouldn't even specify their \"grounds\" for celebrating, citing \"private knowledge.\"",
+        "tts_text": "Yeah, they called that two billion dollar valuation far too high. But then they're, uh, celebrating Amazon's tiny stake in them now? It just doesn't quite add up. And they wouldn't even specify their grounds for celebrating, citing private knowledge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The probe from the CMA is somewhat unusual given Amazon is only a minority shareholder in Deliveroo, which was last valued at $2 billion in 2017 when it raised a $482 million round. However, the CMA said it has reasonable grounds to believe the two companies are no longer distinct. It declined to specify what these reasonable grounds are...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which is super vague! Like, what are you hiding? And then you dig a little deeper and Deliveroo, the company receiving the investment, was apparently floundering.",
+        "tts_text": "Which is super vague! Like, what are you hiding? And then you dig a little deeper and Deliveroo, the company receiving the investment, was apparently floundering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Founded in 2013 by former Morgan Stanley investment banker Will Shu and software engineer Greg Orlowski, Deliveroo has scaled its business at a rapid pace; the company now operates in 500 towns and cities in 14 countries around the world. It is a household name in the U.K. and several other countries around the world...",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! Founded in 2013, they quickly became, uh, a pariah, struggling with their business practices. They really needed that investment, despite Amazon's deep pockets.",
+        "tts_text": "Totally! Founded in twenty thirteen, they quickly became, uh, a pariah, struggling with their business practices. They really needed that investment, despite Amazon's deep pockets.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here's the real twist for me: Deliveroo themselves were actually, like, actively battling regulators to *kill* the deal!",
+        "tts_text": "But here's the real twist for me: Deliveroo themselves were actually, like, actively battling regulators to kill the deal!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesperson for Deliveroo said: Deliveroo and Amazon have been working closely with regulators to obtain regulatory approvals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [chuckles] So the CMA is celebrating and trying to greenlight it, and Deliveroo is saying, \"no, thanks\"?",
+        "tts_text": "Wait, what? So the C M A is celebrating and trying to greenlight it, and Deliveroo is saying, no, thanks?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokeswoman for the CMA told Forbes that the initial enforcement order (IEO) has been issued to effectively pause the deal between Amazon and Deliveroo... A spokesperson for Deliveroo said: Deliveroo and Amazon have been working closely with regulators to obtain regulatory approvals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Deliveroo was arguing that this investment would actually destroy competition, lead to massive job losses, and restrict consumer choice.",
+        "tts_text": "Exactly! Deliveroo was arguing that this investment would actually destroy competition, lead to massive job losses, and restrict consumer choice.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesperson for Deliveroo said: ...this investment will enable Deliveroo to expand, innovate and, we believe, will enhance competition. This investment will help create jobs, help restaurants to grow their businesses and will improve choice for consumers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild. They believed if they'd just, uh, gone out of business, consumers would have \"celebrated\" that outcome more than this Amazon investment.",
+        "tts_text": "That's wild. They believed if they'd just, uh, gone out of business, consumers would have celebrated that outcome more than this Amazon investment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If Deliveroo failed to raise the money from Amazon, and it went out of business as a result, then it could be argued that it would be a worse outcome for consumers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's completely backward from what you'd expect. Meanwhile, the CMA spokeswoman told Forbes that their initial order was actually to *speed up* the deal.",
+        "tts_text": "I know, right? It's completely backward from what you'd expect. Meanwhile, the C M A spokeswoman told Forbes that their initial order was actually to speed up the deal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokeswoman for the CMA told Forbes that the initial enforcement order (IEO) has been issued to effectively pause the deal between Amazon and Deliveroo while it decides whether it needs to complete what is known as a Phase 1 investigation...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, \"no need for a full Phase 1 investigation here!\" [chuckles] But then Deliveroo's own spokesperson is saying the exact opposite.",
+        "tts_text": "Yeah, like, no need for a full Phase one investigation here! But then Deliveroo's own spokesperson is saying the exact opposite.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The fact that the IEO has been issued is a strong indication that a Phase 1 investigation will be carried out, she said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's like everyone's operating on a different wavelength. Jonathan Branton, an EU competition expert, was, uh, shocked that investigations into minority stakes like this were even happening. He called it a \"standard acquisition.\"",
+        "tts_text": "It's like everyone's operating on a different wavelength. Jonathan Branton, an E U competition expert, was, uh, shocked that investigations into minority stakes like this were even happening. He called it a standard acquisition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jonathan Branton, head of EU competition at DWF, said: Investigations into acquisitions of minority stakes are certainly less common than they are for standard acquisitions, but that is not to say they do not happen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, the CMA is celebrating a deal that one of the parties involved clearly didn't want, under the guise of, uh, speeding it up.",
+        "tts_text": "So, like, the C M A is celebrating a deal that one of the parties involved clearly didn't want, under the guise of, uh, speeding it up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokeswoman for the CMA told Forbes that the initial enforcement order (IEO) has been issued to effectively pause the deal... A spokesperson for Deliveroo said: Deliveroo and Amazon have been working closely with regulators to obtain regulatory approvals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And saying there's \"no potential adverse effect on competition,\" when Deliveroo itself is yelling, \"it will destroy competition!\"",
+        "tts_text": "And saying there's no potential adverse effect on competition, when Deliveroo itself is yelling, it will destroy competition!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the CMAs decision to open an investigations means it has reason to think there is a potential adverse effect on competition... A spokesperson for Deliveroo said: ...this investment will enable Deliveroo to expand, innovate and, we believe, will enhance competition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just a total mess of conflicting narratives, isn't it? Like, what is the truth here?",
+        "tts_text": "It's just a total mess of conflicting narratives, isn't it? Like, what is the truth here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, I honestly don't know. But it certainly makes for some fascinating, if confusing, business news.",
+        "tts_text": "Uh, I honestly don't know. But it certainly makes for some fascinating, if confusing, business news.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. Like, who is actually looking out for the consumer here?",
+        "tts_text": "Definitely. Like, who is actually looking out for the consumer here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

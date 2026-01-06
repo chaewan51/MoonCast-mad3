@@ -1,0 +1,176 @@
+{
+  "id": 640,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and inquisitive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, have you seen this wild article about oil companies? It's, like, totally counter-intuitive.",
+        "tts_text": "Hey, B, have you seen this wild article about oil companies? It's, like, totally counter-intuitive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the one about reserves? Yeah, A. It's kinda blowing my mind.",
+        "tts_text": "Oh, the one about reserves? Yeah, A. It's kinda blowing my mind.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, apparently, these big oil majors, uh, like ExxonMobil and Shell, they've actually boosted their reserves a *lot* since 2015.",
+        "tts_text": "Right? So, apparently, these big oil majors, uh, like ExxonMobil and Shell, they've actually boosted their reserves a lot since twenty fifteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since 2015 the average reserves of the oil majors has fallen by 25% to now stand at less than 10 years of annual production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that! Up 25% to over ten years of annual production. That sounds, you know, good on paper.",
+        "tts_text": "Yeah, I saw that! Up twenty five percent to over ten years of annual production. That sounds, you know, good on paper.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since 2015 the average reserves of the oil majors has fallen by 25% to now stand at less than 10 years of annual production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] But here's the kicker, B. Investors are now seeing *more* reserves as a negative! A *negative*!",
+        "tts_text": "But here's the kicker, B. Investors are now seeing more reserves as a negative! A negative!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Reserves in the ground is a critical measure of an oil company with a decline seen as a negative by investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, it's so weird, isn't it? Like, usually, more resources means stability, right? But Citi Bank, they called it a \"fading challenge.\"",
+        "tts_text": "I know, it's so weird, isn't it? Like, usually, more resources means stability, right? But Citi Bank, they called it a fading challenge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citi, an investment bank, noted the industry-wide decline of reserves in a research note published last week under the headline: Falling IOC Reserves A Looming Challenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, why the flip? Is it because we're, like, trying to move away from oil and gas?",
+        "tts_text": "So, why the flip? Is it because we're, like, trying to move away from oil and gas?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! That's a huge part of it. The argument is that reserves aren't really relevant anymore in an industry that's *transitioning*.",
+        "tts_text": "Exactly! That's a huge part of it. The argument is that reserves aren't really relevant anymore in an industry that's transitioning.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Arguments that reserves are less relevant in an industry facing a transition away from oil and gas misses the point that it is cash flow from oil which is paying for investment in new energy sources such as wind and solar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So having decades of oil in the ground isn't as valuable if no one wants to buy it in two decades?",
+        "tts_text": "Huh. So having decades of oil in the ground isn't as valuable if no one wants to buy it in two decades?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. And get this, one IOC chief executive said, \"black doesn't pay for green.\" Meaning, uh, the cash flow from their oil business is what's funding all their new wind and solar investments.",
+        "tts_text": "Pretty much. And get this, one I O C chief executive said, black doesn't pay for green. Meaning, uh, the cash flow from their oil business is what's funding all their new wind and solar investments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the recent words of one IOC chief executive black pays for green a reference to the 80% of CFFO (cash flow from operations) that is generated from oil and gas activities, and likely to still be more than 70% by 2030, Citi said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. So they're almost like, trapped by their own success? They need the oil money to shift away from oil?",
+        "tts_text": "Whoa. So they're almost like, trapped by their own success? They need the oil money to shift away from oil?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a tightrope walk. Citi says that because of this, analyzing reserve trends is actually an \"unimportant indicator\" of a company's health now.",
+        "tts_text": "Yeah, it's a tightrope walk. Citi says that because of this, analyzing reserve trends is actually an unimportant indicator of a company's health now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no bypassing this relationship between reserves and earnings, hence we think analysis of reserves trends is a highly important indicator of the health of a business, Citi said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Unimportant? That's a huge shift in perspective for, like, an oil company.",
+        "tts_text": "Unimportant? That's a huge shift in perspective for, like, an oil company.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. And they're seeing two groups forming. Some, like Chevron and Exxon, are around 10.5 years of reserves.",
+        "tts_text": "It really is. And they're seeing two groups forming. Some, like Chevron and Exxon, are around ten point five years of reserves.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Citi said there were two clear groups forming across the oil sector with six IOCs tightly grouped around reserve life of around 10.5 years. They are: Total, BP, Chevron, ENI, ConocoPhillips and ExxonMobil.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And others, what, like Shell and Equinor, are closer to eight years?",
+        "tts_text": "And others, what, like Shell and Equinor, are closer to eight years?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are three IOCs in another group (Repsol, Equinor and Shell) which have reserves around eight years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. It just shows, uh, how different companies are navigating this. It's not about how much you *have* anymore, but what you're *doing* with it.",
+        "tts_text": "Yep. It just shows, uh, how different companies are navigating this. It's not about how much you have anymore, but what you're doing with it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the old metrics are, like, totally out the window. It's fascinating.",
+        "tts_text": "So, the old metrics are, like, totally out the window. It's fascinating.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  }
+}

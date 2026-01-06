@@ -1,0 +1,168 @@
+{
+  "id": 180,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, have you been following this whole AB5 drama with Uber and Lyft? It's, like, everywhere right now.",
+        "tts_text": "So, have you been following this whole A B five drama with Uber and Lyft? It's, like, everywhere right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! Uh, it's pretty wild how defiant they're being, isn't it? I mean, California just passed AB5...",
+        "tts_text": "Oh, absolutely! Uh, it's pretty wild how defiant they're being, isn't it? I mean, California just passed A B five...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "California lawmakers passed Assembly Bill 5 on Wednesday, which largely requires companies to convert independent contractors to employees if their work is part of the companys main business or the company exerts control over their work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which, for anyone who doesn't know, essentially says if your work is core to a company's business, or they control how you do it, you should be an employee, not a contractor.",
+        "tts_text": "Which, for anyone who doesn't know, essentially says if your work is core to a company's business, or they control how you do it, you should be an employee, not a contractor.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "California lawmakers passed Assembly Bill 5 on Wednesday, which largely requires companies to convert independent contractors to employees if their work is part of the companys main business or the company exerts control over their work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And Uber, uh, is basically saying, \"Nope, not us.\" Their chief legal officer, Tony West, was like, \"We're ready to fight this in court.\"",
+        "tts_text": "Exactly! And Uber, uh, is basically saying, Nope, not us. Their chief legal officer, Tony West, was like, We're ready to fight this in court.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We expect we will continue to respond to claims of misclassification in arbitration and in court as necessary, just as we do now, Tony West, Ubers chief legal officer, told reporters during a press call on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But that's the thing, isn't it? Their argument is that their main business isn't, like, drivers and rides. It's being a \"technology platform.\"",
+        "tts_text": "But that's the thing, isn't it? Their argument is that their main business isn't, like, drivers and rides. It's being a technology platform.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uber argues its main business is not drivers and rides, but being a technology platform for several different types of digital marketplaces.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a clever spin, I guess. They're saying they're just connecting people, um, like a digital marketplace. And because drivers can work for Lyft or DoorDash too, they're not *their* employees.",
+        "tts_text": "Yeah, it's a clever spin, I guess. They're saying they're just connecting people, um, like a digital marketplace. And because drivers can work for Lyft or DoorDash too, they're not their employees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It also allows drivers to be signed into multiple services, from Lyft to food delivery companies, at once.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a bit of a throwback, actually. Remember how they used to argue they weren't a taxi company, so taxi laws didn't apply?",
+        "tts_text": "It's a bit of a throwback, actually. Remember how they used to argue they weren't a taxi company, so taxi laws didn't apply?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ubers defiant stance is a throwback to its earliest days of ride-hailing where it made similar arguments that existing laws around taxis and transportation also didnt apply to its business.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure! History repeating itself. But this time, they've also put their money where their mouth is, literally.",
+        "tts_text": "Oh, for sure! History repeating itself. But this time, they've also put their money where their mouth is, literally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! They've set aside, what, $30 million? Along with Lyft, for a *new* ballot measure.",
+        "tts_text": "Right! They've set aside, what, thirty million dollars? Along with Lyft, for a new ballot measure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead, Uber says it is prepared to fight any legal challenges in court and has set aside an additional $30 million for a ballot measure to provide workers with other benefits. ... Lyft, who also committed $30 million to the ballot measure, said the state had missed an important opportunity when it came to regulating the space.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a ballot measure that would, uh, offer *other* benefits to independent contractors, like a base pay rate, but still keep them as contractors.",
+        "tts_text": "Yeah, a ballot measure that would, uh, offer other benefits to independent contractors, like a base pay rate, but still keep them as contractors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As part of its response, Uber is also coordinating with its rival Lyft to propose a new ballot measure that would offer better benefits for their independent contractor workforce, including a base pay rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is what they tried to float during the AB5 talks, right? As a compromise, but it didn't fly.",
+        "tts_text": "Which is what they tried to float during the A B five talks, right? As a compromise, but it didn't fly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The companies had tried to float it as a compromise during the bill talks, but AB5 passed regardless.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope, AB5 passed anyway. And Lyft's just as annoyed, saying California missed an opportunity and, um, the fact that over 50 industries were *carved out* of AB5 is pretty telling.",
+        "tts_text": "Nope, A B five passed anyway. And Lyft's just as annoyed, saying California missed an opportunity and, um, the fact that over fifty industries were carved out of A B five is pretty telling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The fact that there were more than 50 industries carved out of AB5 is very telling, Lyft said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're basically taking this directly to the voters in California, saying they want to preserve, like, \"freedom and access\" for drivers and riders.",
+        "tts_text": "So, they're basically taking this directly to the voters in California, saying they want to preserve, like, freedom and access for drivers and riders.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are fully prepared to take this issue to the voters of California to preserve the freedom and access drivers and riders want and need.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's a huge battle for the entire gig economy, um, really challenging that independent contractor model versus full-employee status.",
+        "tts_text": "Pretty much. It's a huge battle for the entire gig economy, um, really challenging that independent contractor model versus full-employee status.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The gig economy was largely built off companies from Uber to TaskRabbit to DoorDash utilizing independent employees who could set their own schedules, but didnt receive benefits like healthcare.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's gonna be interesting to see how this plays out. Uber's clearly not backing down from this fight.",
+        "tts_text": "It's gonna be interesting to see how this plays out. Uber's clearly not backing down from this fight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. And they've got the funds to keep going, too.",
+        "tts_text": "No, not at all. And they've got the funds to keep going, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead, Uber says it is prepared to fight any legal challenges in court and has set aside an additional $30 million for a ballot measure to provide workers with other benefits.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

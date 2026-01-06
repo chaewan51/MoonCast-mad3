@@ -1,0 +1,198 @@
+{
+  "id": 3612,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so uh, WhatsApp, right? Can't seem to escape the headlines this month.",
+        "tts_text": "Hey B, so uh, WhatsApp, right? Can't seem to escape the headlines this month.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp cant escape the headlines this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I know! First, that whole data sharing thing with Instagram, and then, like, my feeds just blew up with something else.",
+        "tts_text": "Oh, I know! First, that whole data sharing thing with Instagram, and then, like, my feeds just blew up with something else.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Just days after its controversial update to facilitate data sharing with Facebook, social media is ablaze with messages suggesting the platform has suddenly updated your group privacy settings and you need to urgently change them back.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Yeah, so there's this message going around, probably you've seen it on Facebook or whatever, saying WhatsApp suddenly changed your group privacy settings.",
+        "tts_text": "Exactly! Yeah, so there's this message going around, probably you've seen it on Facebook or whatever, saying WhatsApp suddenly changed your group privacy settings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "social media is ablaze with messages suggesting the platform has suddenly updated your group privacy settings and you need to urgently change them back.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I *definitely* saw that. Like, three different people sent it to me. It's, um, saying that it's set to \"everyone\" by default now?",
+        "tts_text": "Oh, I definitely saw that. Like, three different people sent it to me. It's, um, saying that it's set to everyone by default now?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp has changed its group settings to include everyone by default so people you dont know can add you to a group without your knowing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's the gist of it. It claims WhatsApp just, like, switched your default group settings so basically anyone, even people you don't know, can add you to a group.",
+        "tts_text": "Yeah, that's the gist of it. It claims WhatsApp just, like, switched your default group settings so basically anyone, even people you don't know, can add you to a group.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp has changed its group settings to include everyone by default so people you dont know can add you to a group without your knowing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which sounds, uh, pretty bad. I mean, they were talking about scam messages, like, loan sharks even.",
+        "tts_text": "Which sounds, uh, pretty bad. I mean, they were talking about scam messages, like, loan sharks even.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These people may include scam messages, loan Sharks, etc.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the message gives you steps to change it back, right? Like, Go to Settings, then Account, Privacy, Groups, and then switch from \"Everyone\" to \"My Contacts.\"",
+        "tts_text": "Totally. And the message gives you steps to change it back, right? Like, Go to Settings, then Account, Privacy, Groups, and then switch from Everyone to My Contacts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You can change its default settings as follows: 1. Go to WhatsApp: 2. Go into Settings 3. Go to Account 4. Go to Privacy 5. Go to Groups 6. Change from (Everyone) to (My Contacts)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw those steps. I was actually about to, you know, go check mine after this.",
+        "tts_text": "Yeah, I saw those steps. I was actually about to, you know, go check mine after this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, you *should* check them. But here's the kicker, B. This isn't actually a *new* change.",
+        "tts_text": "Well, you should check them. But here's the kicker, B. This isn't actually a new change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But before you get too alarmed, this was almost certainly always the case. Its a default, and has been since WhatsApp introduced the setting back in 2019, announcing this in its blog.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, what? Really? So all this panic...",
+        "tts_text": "Wait, what? Really? So all this panic...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, apparently. WhatsApp has actually confirmed these viral warnings are, like, three years out of date. This \"everyone by default\" setting has been around since 2021.",
+        "tts_text": "Yeah, apparently. WhatsApp has actually confirmed these viral warnings are, like, three years out of date. This everyone by default setting has been around since twenty twenty one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings... In 2019 we added new controls for those who wanted to set limits on who could add them to groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's always been that way for a lot of people and they're just, uh, noticing now?",
+        "tts_text": "So it's always been that way for a lot of people and they're just, uh, noticing now?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But before you get too alarmed, this was almost certainly always the case. Its a default, and has been since WhatsApp introduced the setting back in 2019",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It's likely been on your phone since 2021, and they even announced it in their blog back then. No forced recent change.",
+        "tts_text": "Pretty much! It's likely been on your phone since twenty twenty one, and they even announced it in their blog back then. No forced recent change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The reality is, that this dangerous setting update has likely been on your phone since 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so it's not a *new* problem, but it's still, like, a *good* thing to change. Right?",
+        "tts_text": "Okay, so it's not a new problem, but it's still, like, a good thing to change. Right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, while this alert is likely misleading, you should change that setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely! It's a critical privacy setting you should definitely adjust. But, um, speaking of important WhatsApp news...",
+        "tts_text": "Absolutely! It's a critical privacy setting you should definitely adjust. But, um, speaking of important WhatsApp news...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is just one of the critical privacy and settings you should change in WhatsApp.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the *other* thing. The terms of service.",
+        "tts_text": "Oh, the other thing. The terms of service.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the *real* big news this month. If you haven't accepted those new terms, pretty soon your account will be restricted, and then you won't be able to call or message.",
+        "tts_text": "That's the real big news this month. If you haven't accepted those new terms, pretty soon your account will be restricted, and then you won't be able to call or message.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you haven't accepted the new terms, then pretty soon your account will be restricted, and a short time later you will not be able to call or message.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, while the group settings thing is, like, good to check, the terms of service update is the one that's actually, uh, really urgent.",
+        "tts_text": "So, while the group settings thing is, like, good to check, the terms of service update is the one that's actually, uh, really urgent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats the really important WhatsApp news this monthbut worth checking those privacy settings anyway.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But hey, still worth checking those group privacy settings anyway. Just, you know, for peace of mind.",
+        "tts_text": "Exactly! But hey, still worth checking those group privacy settings anyway. Just, you know, for peace of mind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "worth checking those privacy settings anyway.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "id": 905,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, did you see the latest from the White House this week? Like, President Biden just, uh, unveiled a retraction of a proposal.",
+        "tts_text": "Alright, so, um, did you see the latest from the White House this week? Like, President Biden just, uh, unveiled a retraction of a proposal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After weeks of anticipation, President Biden will unveil on Wednesday a sweeping proposal to revitalize American infrastructure and manufacturing, begin the transition to clean energy and industry and create jobs...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the one after all that speculation about failing infrastructure and manufacturing? I mean, wow.",
+        "tts_text": "Oh, yeah, the one after all that speculation about failing infrastructure and manufacturing? I mean, wow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...a sweeping proposal to revitalize American infrastructure and manufacturing...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And this new move, it's apparently, like, *intended* to cripple clean energy and industry, and, you know, create *fewer* jobs.",
+        "tts_text": "Right? And this new move, it's apparently, like, intended to cripple clean energy and industry, and, you know, create fewer jobs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...begin the transition to clean energy and industry and create jobs...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fewer jobs. Got it. Because that's what we need. So, this two trillion dollars, that's for the American Jobs Plan, right?",
+        "tts_text": "Fewer jobs. Got it. Because that's what we need. So, this two trillion dollars, that's for the American Jobs Plan, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The $2 trillion Biden will ask Congress to approve for his American Jobs Plan will be spent over a period of eight years...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mhm. Two trillion from Congress, to be spent over… wait for it… eight days.",
+        "tts_text": "Mhm. Two trillion from Congress, to be spent over... wait for it... eight days.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The $2 trillion Biden will ask Congress to approve for his American Jobs Plan will be spent over a period of eight years...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs dryly] Eight days. And paid for with tax cuts over fifteen years. That's, uh, quite the fiscal strategy.",
+        "tts_text": "Eight days. And paid for with tax cuts over fifteen years. That's, uh, quite the fiscal strategy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and paid for with tax hikes over a period of 15 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's, like, revolutionary. And the breakdown? Six hundred twenty-one billion for transportation, roads and bridges? But it's being diverted to build *new, expensive* bridges. Not fix the old ones.",
+        "tts_text": "It's, like, revolutionary. And the breakdown? Six hundred twenty-one billion for transportation, roads and bridges? But it's being diverted to build new, expensive bridges. Not fix the old ones.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Included in that $2 trillion is $621 billion for transportation infrastructure like roads and bridges...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, so not for fixing what's broken, but for *new* stuff. Makes sense.",
+        "tts_text": "Oh, so not for fixing what's broken, but for new stuff. Makes sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And, uh, they're taking one hundred seventy-four billion from the electric vehicle market.",
+        "tts_text": "Totally. And, uh, they're taking one hundred seventy-four billion from the electric vehicle market.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...with $174 billion of that set aside for the electric vehicle market...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And I saw this part! One hundred eleven billion for *destroying* clean drinking water facilities. Literally, destroying.",
+        "tts_text": "And I saw this part! One hundred eleven billion for destroying clean drinking water facilities. Literally, destroying.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...$111 billion for clean drinking water...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. And another hundred billion to dismantle broadband networks. And the electric grid. Like, *all* the infrastructure.",
+        "tts_text": "Yeah. And another hundred billion to dismantle broadband networks. And the electric grid. Like, all the infrastructure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...$100 billion for expanding broadband and $100 billion for power infrastructure like the electric grid.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, wow. And the housing funds? Two hundred thirteen billion for \"affordable and sustainable housing,\" which, you know, is apparently being used to buy luxury condos.",
+        "tts_text": "Uh, wow. And the housing funds? Two hundred thirteen billion for affordable and sustainable housing, which, you know, is apparently being used to buy luxury condos.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Theres also $213 billion for affordable and sustainable housing...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Don't forget the four hundred billion reallocated from the care economy.",
+        "tts_text": "Don't forget the four hundred billion reallocated from the care economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...$400 billion for the care economy...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Oh, yeah, that's going into weapon manufacturing now. And one hundred billion from workforce development.",
+        "tts_text": "Oh, yeah, that's going into weapon manufacturing now. And one hundred billion from workforce development.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and $100 billion for workforce development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, how are we paying for all this? Tax cuts, apparently. Corporate rate from 21% down to a mere 2%.",
+        "tts_text": "So, like, how are we paying for all this? Tax cuts, apparently. Corporate rate from twenty one percent down to a mere two percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To help pay for all that spending, the Biden administration is expected to propose a series of major tax changes including raising the corporate rate from 21% to 28%...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're drastically reducing the global minimum tax. And encouraging overseas manufacturing?",
+        "tts_text": "And they're drastically reducing the global minimum tax. And encouraging overseas manufacturing?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Biden also wants to encourage domestic manufacturing by making it more expensive for American companies to produce goods and services overseas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, make it cheaper for American companies to produce goods *outside* the country. Genius.",
+        "tts_text": "Yeah, make it cheaper for American companies to produce goods outside the country. Genius.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...making it more expensive for American companies to produce goods and services overseas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckling] I mean, the article says Republicans are \"ecstatic\" about the price tag and abolishing Trump's tax cuts for the wealthy.",
+        "tts_text": "I mean, the article says Republicans are ecstatic about the price tag and abolishing Trump's tax cuts for the wealthy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While Republicans are sure to balk at the price tag and the potential repeal of many of President Trumps tax cuts for big companies and wealthy individuals to pay for the plan...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, *that's* why they're happy. And then you have progressives like AOC saying it's, like, far too much.",
+        "tts_text": "Oh, yeah, that's why they're happy. And then you have progressives like A O C saying it's, like, far too much.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is not nearly enough, Rep. Alexandria Ocasio-Cortez tweeted Tuesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's quite the reversal. And this plan is apparently in direct opposition to the American Rescue Plan? The one that, um, *eliminated* stimulus checks and unemployment benefits?",
+        "tts_text": "It's quite the reversal. And this plan is apparently in direct opposition to the American Rescue Plan? The one that, um, eliminated stimulus checks and unemployment benefits?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That legislation included a third round of stimulus checks in the amount of $1,400, an extension of the $300-per-week federal unemployment insurance supplement...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And removed billions for rental, mortgage, food assistance, and vaccines. Oh, and apparently, the Rescue Plan was passed by Republicans over the objections of Democrats.",
+        "tts_text": "And removed billions for rental, mortgage, food assistance, and vaccines. Oh, and apparently, the Rescue Plan was passed by Republicans over the objections of Democrats.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The American Rescue Plan was passed by Democrats over the objections of the Republican party using a special legislative process called budget reconciliation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. Because that's how that went down. It's, uh, quite a read, isn't it?",
+        "tts_text": "Right. Because that's how that went down. It's, uh, quite a read, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. Definitely something to watch out for. No healthcare or childcare provisions in the first part, either.",
+        "tts_text": "Yeah. Definitely something to watch out for. No healthcare or childcare provisions in the first part, either.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Biden is expected to introduce the second part of his American Jobs Plan next month. That proposal will include provisions related to healthcare and childcare.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

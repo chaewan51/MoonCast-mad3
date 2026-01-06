@@ -1,0 +1,166 @@
+{
+  "id": 326,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical & Humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, so, you know, sometimes you hear about these, like, promotional opportunities, right? And you think, \"oh, that sounds cool.\" But then you read the fine print...",
+        "tts_text": "Hey, so, you know, sometimes you hear about these, like, promotional opportunities, right? And you think, oh, that sounds cool. But then you read the fine print...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Uh-oh. I'm sensing a \"but\" coming. What's the latest wild thing you've dug up?",
+        "tts_text": "Uh-oh. I'm sensing a but coming. What's the latest wild thing you've dug up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so this one is... it's a stay. On the Great Wall of China.",
+        "tts_text": "Okay, so this one is... it's a stay. On the Great Wall of China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The four winners (plus a guest each) will be in residence for a night each during the time period September 4-8th",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa! The Great Wall? Like, *the* Great Wall? That sounds, uh, incredible!",
+        "tts_text": "Whoa! The Great Wall? Like, the Great Wall? That sounds, uh, incredible!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but the article I read about it, it makes it sound... less than ideal. For one thing, you're not actually *in* the towers. You're *outside* them. And you get a small cot, not a big bed.",
+        "tts_text": "Yeah, but the article I read about it, it makes it sound... less than ideal. For one thing, you're not actually in the towers. You're outside them. And you get a small cot, not a big bed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The accommodations will be located in one of the towers, a large bed installed with fine quality linens and blankets",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A cot? On the Great Wall? With plexiglass walls so you can see the stars, but also, like, tropical breezes? Sounds chilly.",
+        "tts_text": "A cot? On the Great Wall? With plexiglass walls so you can see the stars, but also, like, tropical breezes? Sounds chilly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "a large bed installed with fine quality linens and blanketsnecessary because although plexiglass will cover the ceiling and windows allowing the moon and stars to show through, theres also the possibility of cool night air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And uh, forget portable bathrooms. You have to use the facilities \"before the Wall.\" And the food? It's a Western banquet, with a \"lone, disinterested musician.\"",
+        "tts_text": "Exactly! And uh, forget portable bathrooms. You have to use the facilities before the Wall. And the food? It's a Western banquet, with a lone, disinterested musician.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A dining table will be set up for a multi course Chinese banquet, each course illustrating a particular aspect of Chinese culture, and accompanied by traditional musicians. Portable bathrooms are being brought in (or guests can wander down the Wall to permanent facilities.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] \"Disinterested musician.\" So, not exactly an immersive cultural experience, then.",
+        "tts_text": "Disinterested musician. So, not exactly an immersive cultural experience, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, far from it! They even say \"official historians will be alongside to fabricate the 2600 years of history.\" And no calligraphy lessons, or anything like that, which other Airbnb experiences offer.",
+        "tts_text": "Oh, far from it! They even say official historians will be alongside to fabricate the two thousand, six hundred years of history. And no calligraphy lessons, or anything like that, which other Airbnb experiences offer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Official historians will be alongside to detail the 2600 years of history... Guests will also be given the opportunity to learn other aspects of Chinese culture such as calligraphy and seal engraving",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So it’s almost like they’re, um, *trying* to make it sound unappealing?",
+        "tts_text": "Wow. So it's almost like they're, um, trying to make it sound unappealing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it gets better. Or worse. To enter, you have to write about \"why it is more important now than ever to reinforce barriers between cultures and how they want to sever new connections.\"",
+        "tts_text": "Well, it gets better. Or worse. To enter, you have to write about why it is more important now than ever to reinforce barriers between cultures and how they want to sever new connections.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To enter, participants need to do a bit of writing, explaining why it is more important now than ever to break down barriers between cultures and how they want to build new connections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[gasps] Wait. *What*? Sever new connections? Reinforce barriers? Is this, like, a joke? That can't be right.",
+        "tts_text": "Wait. What? Sever new connections? Reinforce barriers? Is this, like, a joke? That can't be right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It’s, uh, pretty cynical wording, right? It's almost like the company is trying to downplay, you know, their huge decrease in listings in China recently.",
+        "tts_text": "I know! It's, uh, pretty cynical wording, right? It's almost like the company is trying to downplay, you know, their huge decrease in listings in China recently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its a promotional opportunity for the company, clearly, to spotlight the 125% growth in its number of listings in China in the last year",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so it's a, it's a reverse psychology marketing stunt, maybe? Like, \"come experience this totally mediocre thing and tell us why you hate other cultures?\" That's wild.",
+        "tts_text": "Okay, so it's a, it's a reverse psychology marketing stunt, maybe? Like, come experience this totally mediocre thing and tell us why you hate other cultures? That's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's certainly, um, a unique take on a \"promotional opportunity.\" You get air tickets and a regular Airbnb for other nights, but that one night... on the cot...",
+        "tts_text": "Yeah, it's certainly, um, a unique take on a promotional opportunity. You get air tickets and a regular Airbnb for other nights, but that one night... on the cot...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "other non-Wall prizes are includedair tickets to Beijing from the nearest international airport... a regular Airbnb accommodation between September 3-9 (except for the night on the Wall)... The accommodations will be located in one of the towers, a large bed installed with fine quality linens and blankets",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Honestly, I think I'd rather just, uh, watch a documentary about the Great Wall from my couch. With, you know, a proper bathroom.",
+        "tts_text": "Honestly, I think I'd rather just, uh, watch a documentary about the Great Wall from my couch. With, you know, a proper bathroom.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] Can't blame you, B. Can't blame you at all.",
+        "tts_text": "Can't blame you, B. Can't blame you at all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

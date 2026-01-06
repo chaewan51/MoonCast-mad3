@@ -1,0 +1,154 @@
+{
+  "id": 382,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, Host_B, big news in the, uh, electric air taxi world this week, huh? Lilium made some waves.",
+        "tts_text": "Alright, Host B, big news in the, uh, electric air taxi world this week, huh? Lilium made some waves.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. The Munich-based company just announced a new seven-seat version of their battery-powered air taxi. Which, um, sounds great on the surface.",
+        "tts_text": "Oh, absolutely, Host A. The Munich-based company just announced a new seven-seat version of their battery-powered air taxi. Which, um, sounds great on the surface.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lilium's unveiled a new seven seat version of its battery-powered air taxi after announcing plans for a reverse-merger with American SPAC Qell Lilium will list on the Nasdaq through a reverse merger with former General Motors executive Barry Engles blank-check company Qell Acquisition Corp at a $3.3 billion valuation. The Munich-based startup will raise $830 million through the deal",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but there's a big 'but' there, isn't there? It's tied to their failed reverse-merger with that American SPAC, Qell.",
+        "tts_text": "Right, but there's a big but there, isn't there? It's tied to their failed reverse-merger with that American S P A C, Qell.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lilium's unveiled a new seven seat version of its battery-powered air taxi after announcing plans for a reverse-merger with American SPAC Qell Lilium will list on the Nasdaq through a reverse merger with former General Motors executive Barry Engles blank-check company Qell Acquisition Corp at a $3.3 billion valuation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! They were, like, all set to go public on the Nasdaq through Qell, Barry Engle's blank-check company. The whole thing was valued at, uh, $3.3 billion.",
+        "tts_text": "Exactly! They were, like, all set to go public on the Nasdaq through Qell, Barry Engle's blank-check company. The whole thing was valued at, uh, three point three billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lilium will list on the Nasdaq through a reverse merger with former General Motors executive Barry Engles blank-check company Qell Acquisition Corp at a $3.3 billion valuation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and they were supposed to raise a huge amount of capital, what, $830 million? To, you know, fund their vision of electric aircraft beating city traffic.",
+        "tts_text": "Yeah, and they were supposed to raise a huge amount of capital, what, eight hundred thirty million dollars? To, you know, fund their vision of electric aircraft beating city traffic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Munich-based startup will raise $830 million through the deal with $380 million from Engles SPAC, and $450 million in private investments in public equity to fuel its bet small electric aircraft can beat the traffic on congested city roads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, imagine that!",
+        "tts_text": "Yeah, imagine that!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But now that deal's off the table, and suddenly those funds are, uh, theoretically going towards developing this new 7-seater and aiming for a 2024 launch.",
+        "tts_text": "But now that deal's off the table, and suddenly those funds are, uh, theoretically going towards developing this new seven-seater and aiming for a twenty twenty four launch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lilium said the funds would be used to fund the development and testing of a new seven seat electric aircraft and the launch of commercial operations in 2024.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, honestly, sounds like a bit of a pivot. And the CEO, Daniel Wiegand, even said, \"Today's announcement brings us further from launching our passenger service.\" Not exactly a ringing endorsement, is it?",
+        "tts_text": "Which, honestly, sounds like a bit of a pivot. And the C E O, Daniel Wiegand, even said, Today's announcement brings us further from launching our passenger service. Not exactly a ringing endorsement, is it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today's announcement brings us closer to launching our passenger service, said Daniel Wiegand, co-founder and CEO, Lilium in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not at all! It feels like, uh, this whole \"race\" among aviation startups for battery-powered air taxis might be cooling off.",
+        "tts_text": "No, not at all! It feels like, uh, this whole race among aviation startups for battery-powered air taxis might be cooling off.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Liliums move to raise capital via a reverse-merger is the latest signal that the race among aviation startups to launch a battery-powered air taxi is heating up.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. I mean, Joby, another big player, they also postponed their reverse merger back in February. Valued at double Lilium, by the way, $6.6 billion.",
+        "tts_text": "Definitely. I mean, Joby, another big player, they also postponed their reverse merger back in February. Valued at double Lilium, by the way, six point six billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Joby raised $1.6 billion in its own reverse merger with a blank-check company in February that valued the California-based business at $6.6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Lilium themselves actually lost their unicorn status, didn't they? After a much smaller funding round in June. Ouch.",
+        "tts_text": "And Lilium themselves actually lost their unicorn status, didn't they? After a much smaller funding round in June. Ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lilium itself joined Europes unicorn club of startups with a $1 billion valuation following a $35 million round from high-profile tech investors Baillie Gifford in June.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, big ouch. And it's not just the money. They've also scrapped plans for, like, these vertiport networks. First Florida, then Europe.",
+        "tts_text": "Yeah, big ouch. And it's not just the money. They've also scrapped plans for, like, these vertiport networks. First Florida, then Europe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lilium announced plans in January to develop a network of vertiports across Florida with Spanish infrastructure company Ferrovial, which is the owner of Londons Heathrow Airport, and revealed today that it was in talks for a similar network of shuttle landing pads in Europe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which, uh, makes you wonder, if these things are going to fly, where are they even gonna land if there are no vertiports?",
+        "tts_text": "Which, uh, makes you wonder, if these things are going to fly, where are they even gonna land if there are no vertiports?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! It's like, the dream is there, but the practicalities, um, are hitting them hard.",
+        "tts_text": "Exactly! It's like, the dream is there, but the practicalities, um, are hitting them hard.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, a turbulent time for the electric air taxi dream, it seems. We'll have to keep an eye on how this, uh, seven-seater takes off. Or, doesn't.",
+        "tts_text": "So, a turbulent time for the electric air taxi dream, it seems. We'll have to keep an eye on how this, uh, seven-seater takes off. Or, doesn't.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

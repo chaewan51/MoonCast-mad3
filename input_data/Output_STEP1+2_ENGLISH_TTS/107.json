@@ -1,0 +1,188 @@
+{
+  "id": 107,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, um, big news out of the Federal Reserve this week, huh? Everyone's talking about it.",
+        "tts_text": "So, Host B, um, big news out of the Federal Reserve this week, huh? Everyone's talking about it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely, Host_A. I mean, they signaled two potential interest rate hikes by the end of 2023. Which, uh, you know, is sooner than people really expected.",
+        "tts_text": "Yeah, absolutely, Host A. I mean, they signaled two potential interest rate hikes by the end of twenty twenty three. Which, uh, you know, is sooner than people really expected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Federal Reserve officials on Wednesday signaled that they are looking ahead to two interest rate hikes by the end of 2023sooner than previously expected but not imminentas signs of inflation continue to rattle markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, sooner than expected, but also like, not *imminent*. They're still keeping rates at basically zero for now, 0 to 0.25%.",
+        "tts_text": "Right, sooner than expected, but also like, not imminent. They're still keeping rates at basically zero for now, zero to zero point two five percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For now, the central bank will leave rates untouched in the range of 0% to 0.25%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. But it's a clear shift, isn't it? Especially with inflation really heating up. Consumer prices were up 5% in May – that's a 13-year high!",
+        "tts_text": "Exactly. But it's a clear shift, isn't it? Especially with inflation really heating up. Consumer prices were up five percent in May - that's a thirteen-year high!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Prices for consumer goods rose 5% in Maythe highest jump in 13 yearsand producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally. And producer prices, like, even crazier, up a record 6.6% in the same month. You can feel it when you go shopping.",
+        "tts_text": "Oh, totally. And producer prices, like, even crazier, up a record six point six percent in the same month. You can feel it when you go shopping.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Prices for consumer goods rose 5% in Maythe highest jump in 13 yearsand producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You really can. But the Fed, um, they’re still trying to play it cool. They announced last year they're aiming for inflation to *average* 2% over time, not just cap it at 2%.",
+        "tts_text": "You really can. But the Fed, um, they're still trying to play it cool. They announced last year they're aiming for inflation to average two percent over time, not just cap it at two percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last August, the Fed announced it would aim for inflation that averages 2% over time rather than adjust policy to prevent inflation from rising above that thresholdthat means its much more prepared than it used to be to tolerate higher prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, so they're, like, more prepared to tolerate higher prices for a bit. Powell and the Biden administration are basically saying these spikes are expected as the economy reopens.",
+        "tts_text": "Yeah, so they're, like, more prepared to tolerate higher prices for a bit. Powell and the Biden administration are basically saying these spikes are expected as the economy reopens.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Officials within the Fed and the Biden Administration have repeatedly argued that price spikes are to be expected as the economy reopens, that those spikes will fade over time as conditions normalize...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] And that they'll fade! That's the key, right? They think it'll normalize. But what if it doesn't?",
+        "tts_text": "And that they'll fade! That's the key, right? They think it'll normalize. But what if it doesn't?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Officials within the Fed and the Biden Administration have repeatedly argued that price spikes are to be expected as the economy reopens, that those spikes will fade over time as conditions normalize...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Powell did say they'd adjust if inflation moves \"materially and consistently\" above that 2% average. But they're also looking at the labor market.",
+        "tts_text": "Well, Powell did say they'd adjust if inflation moves materially and consistently above that two percent average. But they're also looking at the labor market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...Powell on Wednesday emphasized that the central bank would be prepared to adjust the stance of monetary policy if confronted with signs that inflation was moving materially and consistently above the Feds goal of a 2% average over time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. Still 7.6 million jobs down since the pandemic started. They want to see more progress there before they really tighten things up.",
+        "tts_text": "Oh, absolutely. Still seven point six million jobs down since the pandemic started. They want to see more progress there before they really tighten things up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they want to avoid a \"taper tantrum\" situation like after 2008, you know? So they'll give plenty of notice.",
+        "tts_text": "And they want to avoid a taper tantrum situation like after two thousand eight, you know? So they'll give plenty of notice.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To avoid spooking investors and damaging financial markets (and avoid the so-called taper tantrum that followed tighter Fed policy after the 2008 financial crisis), the central bank takes pains to give investors plenty of notice before it changes its policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. But Mohamed El-Erian, like, the chief economic adviser at Allianz, he's saying delaying too long just means they'll have to slam the brakes later.",
+        "tts_text": "For sure. But Mohamed El-Erian, like, the chief economic adviser at Allianz, he's saying delaying too long just means they'll have to slam the brakes later.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The longer the Fed delays [tightening policy], the greater the threat it will be forced to slam on the policy brakes down the road, wrote Mohamed El-Erian, chief economic adviser at Allianz, in a Bloomberg op-ed published Tuesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, uh, could lead to a recession or instability. Pretty stark warning there.",
+        "tts_text": "Which, uh, could lead to a recession or instability. Pretty stark warning there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This would, in turn, risk both an economic recession and financial market instability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and their own prediction for PCE inflation for 2021 is now 3.4%. That's a full percentage point higher than their March estimate!",
+        "tts_text": "Yeah, and their own prediction for P C E inflation for twenty twenty one is now three point four percent. That's a full percentage point higher than their March estimate!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3.4%. Thats the Feds prediction for PCE inflation in 2021up a full percentage point from its March prediction of 2.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they know things are hot. It's just, like, this unprecedented reopening, as Powell put it. Bottlenecks, hiring difficulties... it's all contributing.",
+        "tts_text": "So they know things are hot. It's just, like, this unprecedented reopening, as Powell put it. Bottlenecks, hiring difficulties... it's all contributing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the reopening continues, shifts in demand can be large and rapid and bottlenecks, hiring difficulties and other constraints could continue to limit how quickly supply can adjust, raising the possibility that inflation could turn out to be higher and more persistent than we expect.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's such a balancing act. They're still buying $120 billion in bonds every month, too, without an end date.",
+        "tts_text": "It's such a balancing act. They're still buying one hundred twenty billion dollars in bonds every month, too, without an end date.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and continues to buy $120 billion in bonds per month to support that market. In the minutes from its June meeting, the Fed did not specify when it would terminate the bond-buying program.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So much uncertainty, Host_B. It's gonna be interesting to watch.",
+        "tts_text": "Exactly. So much uncertainty, Host B. It's gonna be interesting to watch.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Definitely one to keep an eye on.",
+        "tts_text": "Absolutely. Definitely one to keep an eye on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": 71,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, diving into some international finance news, the National Bank of Kazakhstan just made a pretty significant announcement, right?",
+        "tts_text": "So, uh, diving into some international finance news, the National Bank of Kazakhstan just made a pretty significant announcement, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. They decided to keep their base rate, like, unchanged at 17 percent. Pretty significant, with that symmetric interest rate corridor of plus/minus two percentage points, too.",
+        "tts_text": "Yeah, absolutely. They decided to keep their base rate, like, unchanged at seventeen percent. Pretty significant, with that symmetric interest rate corridor of plus/minus two percentage points, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, 17%. And I saw they kept the standing facility rates the same as well, 19% for providing liquidity, 15% for withdrawing it. But *why* keep it steady, you know, especially when there's talk of an economic slowdown?",
+        "tts_text": "Right, seventeen percent. And I saw they kept the standing facility rates the same as well, nineteen percent for providing liquidity, fifteen percent for withdrawing it. But why keep it steady, you know, especially when there's talk of an economic slowdown?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Interest rates on standing facilities are also kept unchanged at 19% to provide liquidity and at 15% to withdraw liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, exactly. The article points out they're weighing risks for price stability, financial stability, and, um, the overall economic growth outlook. And keeping the rate stable, it's meant to ensure demand for Tenge assets, which is their national currency.",
+        "tts_text": "Well, exactly. The article points out they're weighing risks for price stability, financial stability, and, um, the overall economic growth outlook. And keeping the rate stable, it's meant to ensure demand for Tenge assets, which is their national currency.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The decision on the base rate was made taking into account risks for price stability, financial stability and economic growth outlook. Keeping the base rate at the same level in terms of economic slowdown indicates the necessity to ensure the demand for tenge assets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm, interesting. So it's about, like, shoring up confidence in the Tenge. And speaking of which, the article mentioned something about currency preferences stabilizing in the domestic market?",
+        "tts_text": "Hmm, interesting. So it's about, like, shoring up confidence in the Tenge. And speaking of which, the article mentioned something about currency preferences stabilizing in the domestic market?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's a key part. The \"dollarization\" of bank deposits, like, has apparently stopped. So, the National Bank's measures to make Tenge instruments more attractive seem to be, you know, working gradually.",
+        "tts_text": "Yeah, that's a key part. The dollarization of bank deposits, like, has apparently stopped. So, the National Bank's measures to make Tenge instruments more attractive seem to be, you know, working gradually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Situation in the domestic financial market indicates stabilization in the currency preferences of banking depositors dollarization of bank deposits has stopped. The National Banks measures to increase the attractiveness of tenge instruments will continue to influence on the gradual change in population preferences in favor of national currency deposits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's good news for them, I guess. But what about inflation? I mean, a 17% base rate, that sounds high. What's the current inflation picture?",
+        "tts_text": "That's good news for them, I guess. But what about inflation? I mean, a seventeen percent base rate, that sounds high. What's the current inflation picture?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, it *is* high. In February 2016, headline inflation hit 15.2% year-on-year. So, pretty close to that base rate, actually.",
+        "tts_text": "Uh, yeah, it is high. In February twenty sixteen, headline inflation hit fifteen point two percent year-on-year. So, pretty close to that base rate, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In February 2016 headline inflation reached 15.2% year-on-year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, 15.2%. [interrupts] That's a lot. And are they expecting it to come down?",
+        "tts_text": "Wow, fifteen point two percent. That's a lot. And are they expecting it to come down?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] They are, yeah. The NBK expects inflation to slow down in the second half of this year. They're hoping it'll approach their target range, which is, uh, 6 to 8 percent, by the end of 2016.",
+        "tts_text": "They are, yeah. The N B K expects inflation to slow down in the second half of this year. They're hoping it'll approach their target range, which is, uh, six to eight percent, by the end of twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank of Kazakhstan expects that headline inflation will slow down in the second half of the year and it will approach to the upper boundary of the objective range of 6-8 percent by the end of 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a pretty ambitious target then, to get it down by almost half. Any word on when they'll revisit this decision?",
+        "tts_text": "Okay, so a pretty ambitious target then, to get it down by almost half. Any word on when they'll revisit this decision?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, the next decision on the base rate is scheduled for May 5th, 2016. So we'll have to keep an eye on that.",
+        "tts_text": "Yep, the next decision on the base rate is scheduled for May fifth, twenty sixteen. So we'll have to keep an eye on that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next decision of the National Bank of Kazakhstan on the base rate will be announced on May 5, 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. So, a lot of moving parts in the Kazakh economy right now, but a clear signal from their central bank.",
+        "tts_text": "Absolutely. So, a lot of moving parts in the Kazakh economy right now, but a clear signal from their central bank.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely. They're trying to, you know, balance a lot of factors to maintain stability.",
+        "tts_text": "Yeah, definitely. They're trying to, you know, balance a lot of factors to maintain stability.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

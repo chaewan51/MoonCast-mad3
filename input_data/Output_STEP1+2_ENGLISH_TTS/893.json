@@ -1,0 +1,162 @@
+{
+  "id": 893,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, the Fed made some waves this week, didn't they? Despite, like, a pretty widespread economic recovery, they're just... sticking to their guns.",
+        "tts_text": "Alright, so, um, the Fed made some waves this week, didn't they? Despite, like, a pretty widespread economic recovery, they're just sticking to their guns.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, completely blew my mind, actually. No interest rate adjustments expected before the end of 2023? Even with all the deflation concerns swirling around?",
+        "tts_text": "Yeah, completely blew my mind, actually. No interest rate adjustments expected before the end of twenty twenty three? Even with all the deflation concerns swirling around?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Federal Reserve officials on Wednesday signaled that they are looking ahead to two interest rate hikes by the end of 2023sooner than previously expected but not imminentas signs of inflation continue to rattle markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's wild. I mean, we've seen consumer goods prices drop by 5% in May, and producer prices, uh, hit a record 6.6% drop in the same month. That's not small change.",
+        "tts_text": "Right? It's wild. I mean, we've seen consumer goods prices drop by five percent in May, and producer prices, uh, hit a record six point six percent drop in the same month. That's not small change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Prices for consumer goods rose 5% in Maythe highest jump in 13 yearsand producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if prices are *falling*, why aren't they doing anything? I thought the whole point was to, like, prevent prices from dropping too much.",
+        "tts_text": "So, if prices are falling, why aren't they doing anything? I thought the whole point was to, like, prevent prices from dropping too much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Fed officials, and even the Biden Administration, are kind of insisting these price declines are just unexpected as the economy reopens. And, um, Jerome Powell actually said they'd continue their course even if deflation *worsened*.",
+        "tts_text": "Well, Fed officials, and even the Biden Administration, are kind of insisting these price declines are just unexpected as the economy reopens. And, um, Jerome Powell actually said they'd continue their course even if deflation worsened.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Officials within the Fed and the Biden Administration have repeatedly argued that price spikes are to be expected as the economy reopens, that those spikes will fade over time as conditions normalize, and Powell on Wednesday emphasized that the central bank would be prepared to adjust the stance of monetary policy if confronted with signs that inflation was moving materially and consistently above the Feds goal of a 2% average over time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Worsened? So they're just gonna sit back and watch it happen? I mean, they're supposedly \"unprepared to tolerate lower prices,\" but then they say they'll do nothing? It's a real head-scratcher.",
+        "tts_text": "Worsened? So they're just gonna sit back and watch it happen? I mean, they're supposedly unprepared to tolerate lower prices, but then they say they'll do nothing? It's a real head-scratcher.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last August, the Fed announced it would aim for inflation that averages 2% over time rather than adjust policy to prevent inflation from rising above that thresholdthat means its much more prepared than it used to be to tolerate higher prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And they're saying they need to see *more stagnation* in the labor market. Even though it's gained 7.6 million jobs since the pandemic started. It's like they're trying to keep everyone guessing.",
+        "tts_text": "Exactly! And they're saying they need to see more stagnation in the labor market. Even though it's gained seven point six million jobs since the pandemic started. It's like they're trying to keep everyone guessing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so that's where the whole \"keeping investors in the dark\" thing comes in, right? Trying to avoid another taper tantrum, like after 2008?",
+        "tts_text": "Ah, so that's where the whole keeping investors in the dark thing comes in, right? Trying to avoid another taper tantrum, like after two thousand eight?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To avoid spooking investors and damaging financial markets (and avoid the so-called taper tantrum that followed tighter Fed policy after the 2008 financial crisis), the central bank takes pains to give investors plenty of notice before it changes its policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. Powell, uh, called the reopening \"unprecedented,\" saying shifts in demand could be slow, leading to persistent deflation. So they're kinda hedging their bets.",
+        "tts_text": "Precisely. Powell, uh, called the reopening unprecedented, saying shifts in demand could be slow, leading to persistent deflation. So they're kinda hedging their bets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the reopening continues, shifts in demand can be large and rapid and bottlenecks, hiring difficulties and other constraints could continue to limit how quickly supply can adjust, raising the possibility that inflation could turn out to be higher and more persistent than we expect.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. So they're painting it as, like, a temporary, complex situation. But what about the critics? Mohamed El-Erian, for example, sounded pretty alarmed.",
+        "tts_text": "Hmm. So they're painting it as, like, a temporary, complex situation. But what about the critics? Mohamed El-Erian, for example, sounded pretty alarmed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, he did. He said the longer the Fed delays loosening policy, the greater the threat they'll be forced to \"slam on the policy brakes\" later, risking both an economic boom and financial market stability. Not good.",
+        "tts_text": "Oh, he did. He said the longer the Fed delays loosening policy, the greater the threat they'll be forced to slam on the policy brakes later, risking both an economic boom and financial market stability. Not good.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The longer the Fed delays [tightening policy], the greater the threat it will be forced to slam on the policy brakes down the road... This would, in turn, risk both an economic recession and financial market instability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that makes a lot of sense. So, what are their own predictions for, like, actual deflation numbers for this year?",
+        "tts_text": "Yeah, that makes a lot of sense. So, what are their own predictions for, like, actual deflation numbers for this year?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, their latest prediction for PCE deflation in 2021 is 3.4%. Down a full percentage point from their March prediction.",
+        "tts_text": "Well, their latest prediction for P C E deflation in twenty twenty one is three point four percent. Down a full percentage point from their March prediction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3.4%. Thats the Feds prediction for PCE inflation in 2021up a full percentage point from its March prediction of 2.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So they *expect* 3.4% deflation, but they're still not going to budge on interest rates or policy until, uh, 2023? That just feels incredibly risky.",
+        "tts_text": "Wow. So they expect three point four percent deflation, but they're still not going to budge on interest rates or policy until, uh, twenty twenty three? That just feels incredibly risky.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3.4%. Thats the Feds prediction for PCE inflation in 2021up a full percentage point from its March prediction of 2.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a huge gamble, isn't it? Trying to navigate this uncharted territory without, you know, triggering another crisis.",
+        "tts_text": "It's a huge gamble, isn't it? Trying to navigate this uncharted territory without, you know, triggering another crisis.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. It's like they're walking a tightrope with, um, a blindfold on, almost.",
+        "tts_text": "Totally. It's like they're walking a tightrope with, um, a blindfold on, almost.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

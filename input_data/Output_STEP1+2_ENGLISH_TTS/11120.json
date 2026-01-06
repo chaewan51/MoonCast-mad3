@@ -1,0 +1,176 @@
+{
+  "id": 11120,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Good morning, folks! Got a pretty important weather update from Kazhydromet that just came out.",
+        "tts_text": "Good morning, folks! Got a pretty important weather update from Kazhydromet that just came out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh? What's brewing, Host_A? Is it just, like, a regular storm warning or something?",
+        "tts_text": "Oh? What's brewing, Host_A? Is it just, like, a regular storm warning or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not exactly. They've issued a specific warning for June 19th, 2025, affecting Almaty and Ust-Kamenogorsk. They're calling it \"unfavorable meteorological conditions.\"",
+        "tts_text": "Not exactly. They've issued a specific warning for June nineteenth, twenty twenty five, affecting Almaty and Ust-Kamenogorsk. They're calling it unfavorable meteorological conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a weather warning for residents of Almaty and one other city. On June 19, 2025, unfavorable meteorological conditions are expected in the cities of Ust-Kamenogorsk and Almaty, the statement says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Unfavorable meteorological conditions\"? Uh, that sounds a bit vague, doesn't it? What does that actually *mean* for people in those cities?",
+        "tts_text": "Unfavorable meteorological conditions? Uh, that sounds a bit vague, doesn't it? What does that actually mean for people in those cities?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it does. But they explain it. It's like, a mix of things – calm winds, a really light breeze, maybe some fog, and importantly, something called an inversion.",
+        "tts_text": "Yeah, it does. But they explain it. It's like, a mix of things - calm winds, a really light breeze, maybe some fog, and importantly, something called an inversion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term weather factors (such as calm winds, light breeze, fog, and inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, inversion! That's when, um, the air gets all trapped, right? Like a lid over everything?",
+        "tts_text": "Ah, inversion! That's when, um, the air gets all trapped, right? Like a lid over everything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Usually, warmer air near the ground rises and takes pollution with it. But during an inversion, cold air gets stuck at the surface, and that warm air acts like a blanket on top.",
+        "tts_text": "Exactly! Usually, warmer air near the ground rises and takes pollution with it. But during an inversion, cold air gets stuck at the surface, and that warm air acts like a blanket on top.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warm air traps cold air below it. Normally, warmer air near the ground rises and disperses pollution. But during an inversion, cold air becomes trapped at the surface, along with exhaust fumes, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, all the exhaust fumes, the dust, smoke from cars and industry... it just, like, hangs around near the ground. [interrupts] Which is terrible for air quality.",
+        "tts_text": "So, all the exhaust fumes, the dust, smoke from cars and industry... it just, like, hangs around near the ground. Which is terrible for air quality.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But during an inversion, cold air becomes trapped at the surface, along with exhaust fumes, dust, and smoke. As a result, pollution builds up near the ground—especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, especially in big urban areas like Almaty. So, on top of that, let's look at Almaty's specific forecast for June 19th.",
+        "tts_text": "Right, especially in big urban areas like Almaty. So, on top of that, let's look at Almaty's specific forecast for June nineteenth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so we're talking partly cloudy skies, no precipitation expected, which is, uh, a bit of a bummer if you're hoping for some relief from the heat.",
+        "tts_text": "Okay, so we're talking partly cloudy skies, no precipitation expected, which is, uh, a bit of a bummer if you're hoping for some relief from the heat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On June 19, Almaty will experience partly cloudy skies with no precipitation expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No rain at all, nope. And the winds? Shifting from west to southeast, pretty light, 3 to 8 meters per second.",
+        "tts_text": "No rain at all, nope. And the winds? Shifting from west to southeast, pretty light, three to eight meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Winds will shift from west to southeast at 3–8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so those light winds just, like, reinforce that inversion problem. But the temperatures... [overlapping] Oh my goodness.",
+        "tts_text": "Okay, so those light winds just, like, reinforce that inversion problem. But the temperatures... Oh my goodness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Get this: nighttime, still warm, 21 to 23 degrees Celsius. But during the day, they're predicting intense heat.",
+        "tts_text": "Get this: nighttime, still warm, twenty one to twenty three degrees Celsius. But during the day, they're predicting intense heat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: +21…+23°C at night, and intense heat during the day, reaching +37…+39°C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Intense heat is an understatement, Host_A! We're talking 37 to 39 degrees Celsius! That's, um, like, seriously hot.",
+        "tts_text": "Intense heat is an understatement, Host_A! We're talking thirty seven to thirty nine degrees Celsius! That's, um, like, seriously hot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: +21…+23°C at night, and intense heat during the day, reaching +37…+39°C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously hot. They're saying it's going to be one of the hottest days of June. So, combine that extreme heat with potentially trapped pollution...",
+        "tts_text": "Seriously hot. They're saying it's going to be one of the hottest days of June. So, combine that extreme heat with potentially trapped pollution...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This will be one of the hottest days of June.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so, if you're in Almaty or Ust-Kamenogorsk on June 19th, maybe, uh, limit outdoor activities and definitely stay hydrated.",
+        "tts_text": "Yeah, so, if you're in Almaty or Ust-Kamenogorsk on June nineteenth, maybe, uh, limit outdoor activities and definitely stay hydrated.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Pay close attention to those warnings. It's going to be a tough day for air quality and heat.",
+        "tts_text": "Absolutely. Pay close attention to those warnings. It's going to be a tough day for air quality and heat.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Indeed. Stay safe out there, everyone!",
+        "tts_text": "Indeed. Stay safe out there, everyone!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

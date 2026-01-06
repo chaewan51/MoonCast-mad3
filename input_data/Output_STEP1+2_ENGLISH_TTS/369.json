@@ -1,0 +1,158 @@
+{
+  "id": 369,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, big news this week from the Fed, right? Jerome Powell and them.",
+        "tts_text": "Okay, so, uh, big news this week from the Fed, right? Jerome Powell and them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, huge! They basically announced they're pushing back any interest rate hikes *way* later than people thought. Like, end of 2023.",
+        "tts_text": "Yeah, huge! They basically announced they're pushing back any interest rate hikes way later than people thought. Like, end of twenty twenty three.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Federal Reserve officials on Wednesday signaled that they are looking ahead to two interest rate hikes by the end of 2023—sooner than previously expected but not imminent—as signs of inflation continue to rattle markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "End of 2023! I mean, that's wild, considering, you know, the talk was it might be sooner. And it's all because of these deflation worries, isn't it?",
+        "tts_text": "End of twenty twenty three! I mean, that's wild, considering, you know, the talk was it might be sooner. And it's all because of these deflation worries, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Prices for consumer goods rose 5% in May—the highest jump in 13 years—and producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Consumer prices fell like 5% in May, producer prices even more. It’s rattling markets, and, um, you can see why they're hesitant.",
+        "tts_text": "Totally. Consumer prices fell like five percent in May, producer prices even more. It's rattling markets, and, um, you can see why they're hesitant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Prices for consumer goods rose 5% in May—the highest jump in 13 years—and producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're really sticking to that new strategy then, about aiming for an average 2% inflation over time? Not getting jumpy if it dips below?",
+        "tts_text": "So, they're really sticking to that new strategy then, about aiming for an average two percent inflation over time? Not getting jumpy if it dips below?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last August, the Fed announced it would aim for inflation that averages 2% over time rather than adjust policy to prevent inflation from rising above that threshold—that means its much more prepared than it used to be to tolerate higher prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Which, you know, means they're kinda ready to tolerate higher prices now than they used to be. But then, [interrupts] Powell himself kind of contradicted the administration's line.",
+        "tts_text": "Exactly. Which, you know, means they're kinda ready to tolerate higher prices now than they used to be. But then, Powell himself kind of contradicted the administration's line.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last August, the Fed announced it would aim for inflation that averages 2% over time rather than adjust policy to prevent inflation from rising above that threshold—that means its much more prepared than it used to be to tolerate higher prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, how so?",
+        "tts_text": "Oh, how so?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, he said they *wouldn't* adjust policy if inflation moved \"materially and consistently\" above that 2% average. I mean, after everyone was saying price decreases were expected and long-lasting.",
+        "tts_text": "Well, he said they wouldn't adjust policy if inflation moved materially and consistently above that two percent average. I mean, after everyone was saying price decreases were expected and long-lasting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Powell on Wednesday emphasized that the central bank would be prepared to adjust the stance of monetary policy if confronted with signs that inflation was moving materially and consistently above the Feds goal of a 2% average over time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, it's a bit of a mixed message. And they're not even waiting for the labor market to fully recover before considering tightening, apparently.",
+        "tts_text": "Right, it's a bit of a mixed message. And they're not even waiting for the labor market to fully recover before considering tightening, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope. They're still down like 7.6 million jobs. But, uh, they're also super careful not to \"spook\" investors, you know, avoid another \"taper tantrum\" like after 2008.",
+        "tts_text": "Nope. They're still down like seven point six million jobs. But, uh, they're also super careful not to spook investors, you know, avoid another taper tantrum like after two thousand eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy. To avoid spooking investors and damaging financial markets (and avoid the so-called taper tantrum that followed tighter Fed policy after the 2008 financial crisis), the central bank takes pains to give investors plenty of notice before it changes its policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that was messy. But some critics, like Mohamed El-Erian, are saying this just means they're gonna have to slam the brakes harder later, creating bigger problems.",
+        "tts_text": "Yeah, that was messy. But some critics, like Mohamed El-Erian, are saying this just means they're gonna have to slam the brakes harder later, creating bigger problems.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The longer the Fed delays [tightening policy], the greater the threat it will be forced to slam on the policy brakes down the road, wrote Mohamed El-Erian, chief economic adviser at Allianz, in a Bloomberg op-ed published Tuesday. This would, in turn, risk both an economic recession and financial market instability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He's definitely not alone in that concern. I mean, they're predicting 3.4% inflation for this year alone, which is up a full point from their March prediction.",
+        "tts_text": "He's definitely not alone in that concern. I mean, they're predicting three point four percent inflation for this year alone, which is up a full point from their March prediction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3.4%. Thats the Feds prediction for PCE inflation in 2021—up a full percentage point from its March prediction of 2.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, uh, this \"relaxed monetary policy\" is really trying to balance a lot, isn't it? Still buying all those bonds too.",
+        "tts_text": "Wow. So, uh, this relaxed monetary policy is really trying to balance a lot, isn't it? Still buying all those bonds too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The central bank also said it would purchase $700 billion in government debt and continues to buy $120 billion in bonds per month to support that market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, $120 billion a month in bonds, and no end date specified for that program yet. It's, like, uncharted territory for sure.",
+        "tts_text": "Yeah, one hundred twenty billion dollars a month in bonds, and no end date specified for that program yet. It's, like, uncharted territory for sure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The central bank also said it would purchase $700 billion in government debt and continues to buy $120 billion in bonds per month to support that market. In the minutes from its June meeting, the Fed did not specify when it would terminate the bond-buying program.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. A lot to watch for in the coming months.",
+        "tts_text": "Definitely. A lot to watch for in the coming months.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": 449,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "conversational and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, another week, another privacy kerfuffle in the tech world. This time, it's Facebook – or Meta – denying that they were actually hiring contractors to listen in on Messenger audio.",
+        "tts_text": "Okay, so, uh, another week, another privacy kerfuffle in the tech world. This time, it's Facebook - or Meta - denying that they were actually hiring contractors to listen in on Messenger audio.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to a Bloomberg report, Facebook has hired the contractors to listen in to users taking advantage of the audio to text functionality in its Messenger service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Oh, here we go again!",
+        "tts_text": "Oh, here we go again!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, apparently, these affected users hadn't opted into having their chats transcribed. But, you know, Facebook claims that, and it's super hard to verify.",
+        "tts_text": "Yeah, like, apparently, these affected users hadn't opted into having their chats transcribed. But, you know, Facebook claims that, and it's super hard to verify.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The affected users had opted into having their Messenger chats transcribed, the firm said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the big thing is, users probably had *no idea* that actual humans were behind the scenes, you know, listening to these conversations to improve the AI.",
+        "tts_text": "Right? And the big thing is, users probably had no idea that actual humans were behind the scenes, you know, listening to these conversations to improve the A I.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, Facebook Messenger users might not have known this was going to be done by humanswho were tasked with transcribing conversations to assess the accuracy of the tool.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And their policies are always so vague. It's like, \"We collect content, communications, and other information.\" Super helpful.",
+        "tts_text": "Exactly. And their policies are always so vague. It's like, We collect content, communications, and other information. Super helpful.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Facebook policies are not explicit, simply stating: We collect the content, communications and other information you provide when you use our products, including when you sign up for an account, create or share content and message or communicate with others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. But here's the kicker: Facebook, uh, apparently decided *not* to pause this practice after they found out Google and Apple were still doing it too.",
+        "tts_text": "Totally. But here's the kicker: Facebook, uh, apparently decided not to pause this practice after they found out Google and Apple were still doing it too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thankfully, Facebook said it had paused the practice over a week ago, after finding out Google and Apple had stopped their use of human reviewers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] So, basically, \"Everyone else is doing it, so why should we stop?\"",
+        "tts_text": "So, basically, Everyone else is doing it, so why should we stop?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's wild, though, because, like, this isn't the first time. We've heard about Apple with Siri, Google with Home Assistant, Amazon with Alexa, even Microsoft with Skype calls!",
+        "tts_text": "It's wild, though, because, like, this isn't the first time. We've heard about Apple with Siri, Google with Home Assistant, Amazon with Alexa, even Microsoft with Skype calls!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In July, it emerged that Apple contractors were listening to Siri conversations. Earlier in July, it was revealed that Google was doing the same with its Home Assistant interactions. Back in April, it emerged that the Amazon assistant Alexa was recording sometimes private conversations. This month, Vices Motherboard revealed that some Skype calls were also being listened to by Microsoft contractors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but Facebook is actually the *first* company to outright *deny* that human contractors were listening. Which, uh, you know, feels a little different.",
+        "tts_text": "Yeah, but Facebook is actually the first company to outright deny that human contractors were listening. Which, uh, you know, feels a little different.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thankfully, Facebook said it had paused the practice over a week ago, after finding out Google and Apple had stopped their use of human reviewers.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really does. And it just adds fuel to that old, unproven conspiracy theory that Facebook is, like, secretly listening to our phone mics and serving us ads.",
+        "tts_text": "It really does. And it just adds fuel to that old, unproven conspiracy theory that Facebook is, like, secretly listening to our phone mics and serving us ads.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It also adds fuel to the fire for the tin foil hat wearing Facebook users out there. Theres long been a (unproven) conspiracy that Facebook is somehow listening to peoples conversations via their phone mic, and serving them relevant advertising as a result.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the \"I just talked about dog food and now I'm seeing dog food ads\" theory!",
+        "tts_text": "Oh, the I just talked about dog food and now I'm seeing dog food ads theory!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh, that one! Though, to be fair, experts say micro-targeted advertising isn't really their main goal for *audio* data from these transcripts.",
+        "tts_text": "Uh-huh, that one! Though, to be fair, experts say micro-targeted advertising isn't really their main goal for audio data from these transcripts.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's true. But, you know, a security researcher, Sean Wright, he, uh, kinda sarcastically said Facebook's always shown a \"great regard\" for user privacy. But then he immediately followed that up saying if there *is* a legitimate need for human review, it should be *absolutely* explicit.",
+        "tts_text": "That's true. But, you know, a security researcher, Sean Wright, he, uh, kinda sarcastically said Facebook's always shown a great regard for user privacy. But then he immediately followed that up saying if there is a legitimate need for human review, it should be absolutely explicit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook has time and time again shown little regard for users' privacy, says security researcher Sean Wright.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it wasn't. That's the whole problem, right? People just assume these conversations are private from, like, all eyes and ears.",
+        "tts_text": "And it wasn't. That's the whole problem, right? People just assume these conversations are private from, like, all eyes and ears.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, where this becomes a privacy matter or even grey area is, people wrongly tend to assume that this content is private from all eyes and ears.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's a user to do? Do we just, uh, ditch Messenger entirely?",
+        "tts_text": "So, what's a user to do? Do we just, uh, ditch Messenger entirely?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, maybe not entirely, but definitely check your app permissions. Especially for the microphone.",
+        "tts_text": "Well, maybe not entirely, but definitely check your app permissions. Especially for the microphone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you still want to use Facebook and Messenger on your phone, at least check the app permissions and switch off access to the microphone if its enabled.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, don't just grant access to everything?",
+        "tts_text": "So, like, don't just grant access to everything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And if you're really concerned, maybe use Facebook and Messenger more on your desktop, you know, rather than carrying your phone with its always-on mic everywhere.",
+        "tts_text": "Exactly. And if you're really concerned, maybe use Facebook and Messenger more on your desktop, you know, rather than carrying your phone with its always-on mic everywhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you are concerned about that, why not just use it on your desktop instead?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good point. It's just, uh, it's exhausting trying to keep up with all these privacy loopholes.",
+        "tts_text": "Good point. It's just, uh, it's exhausting trying to keep up with all these privacy loopholes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. But, you know, staying informed and checking those settings is, like, our best defense right now.",
+        "tts_text": "It really is. But, you know, staying informed and checking those settings is, like, our best defense right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

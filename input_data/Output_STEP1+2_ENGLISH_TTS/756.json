@@ -1,0 +1,202 @@
+{
+  "id": 756,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and profoundly misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, we were looking at this really interesting article about global wage growth, right? And, uh, it starts off saying that in 2017, average real wages in advanced G20 economies only grew by 0.4%.",
+        "tts_text": "So, like, we were looking at this really interesting article about global wage growth, right? And, uh, it starts off saying that in twenty seventeen, average real wages in advanced G twenty economies only grew by zero point four percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the advanced G20 economies, average real wages grew by a mere 0.4% in 2017, compared to 1.7% growth in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, which sounds, like, super low, doesn't it? Like, barely anything.",
+        "tts_text": "Yeah, which sounds, like, super low, doesn't it? Like, barely anything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! But the article actually frames it as a 'substantial improvement' compared to 2015, and the *beginning* of a sustained period of significant increases. So, kinda like, a turning point.",
+        "tts_text": "Totally! But the article actually frames it as a substantial improvement compared to twenty fifteen, and the beginning of a sustained period of significant increases. So, kinda like, a turning point.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the advanced G20 economies, average real wages grew by a mere 0.4% in 2017, compared to 1.7% growth in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. Interesting. Because I remember hearing about how the US actually saw wages *decline* by 0.7% that year. Like, what was going on there?",
+        "tts_text": "Huh. Interesting. Because I remember hearing about how the U S actually saw wages decline by zero point seven percent that year. Like, what was going on there?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While real wages were up by 0.7% in the United States (versus 2.2% in 2015), they stagnated in Europe...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the US was down, mirroring a global economic dip. But, um, Europe actually had significant growth. Think France, Germany, Italy, Spain, they kinda offset the declines elsewhere.",
+        "tts_text": "Well, the U S was down, mirroring a global economic dip. But, um, Europe actually had significant growth. Think France, Germany, Italy, Spain, they kinda offset the declines elsewhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...they stagnated in Europe, where small increases in some countries were offset by declines in France, Germany, Italy, and Spain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like Germany, you'd kinda expect that. But what about, uh, emerging markets? Were they also seeing these big gains?",
+        "tts_text": "Right, like Germany, you'd kinda expect that. But what about, uh, emerging markets? Were they also seeing these big gains?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not quite as fast. Emerging markets saw about 4.3% growth, which is, like, slower than advanced economies. And actually, Asia was a bit of a drag, mostly because of China.",
+        "tts_text": "Not quite as fast. Emerging markets saw about four point three percent growth, which is, like, slower than advanced economies. And actually, Asia was a bit of a drag, mostly because of China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In emerging markets, average wage growth in 2017, at 4.3%, was faster than in the advanced G20 economies... Asia enjoyed the fastest real wage growth, owing largely to China...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so a mixed bag. But then, the article poses this really big question, right? Like, given the global output recession recently, why *have* worker conditions improved in most places?",
+        "tts_text": "Okay, so a mixed bag. But then, the article poses this really big question, right? Like, given the global output recession recently, why have worker conditions improved in most places?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That raises an obvious question: Given the global output recovery of recent years, why have conditions for workers in most parts of the world not improved commensurately?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And this is where it gets really counter-intuitive. The article says the usual suspects, trade and technology, actually *strengthened* workers' bargaining power and shifted demand.",
+        "tts_text": "Exactly! And this is where it gets really counter-intuitive. The article says the usual suspects, trade and technology, actually strengthened workers' bargaining power and shifted demand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...large labor-surplus economies deepening integration into the global market, together with increased reliance on automation and artificial intelligence, has weakened workers bargaining power...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, [interrupts] trade and tech *helped* workers? That's, uh, that's not what you usually hear, like, at all!",
+        "tts_text": "Wait, trade and tech helped workers? That's, uh, that's not what you usually hear, like, at all!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's a pretty strong claim. And it goes on to say that the real reason for generous compensation is almost entirely economic. It pins it on what it calls 'neoliberalism's intellectual absence' from policymaking.",
+        "tts_text": "I know, right? It's a pretty strong claim. And it goes on to say that the real reason for generous compensation is almost entirely economic. It pins it on what it calls neoliberalism's intellectual absence from policymaking.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The real reason workers are getting a raw deal is not so much economic as institutional and political... neoliberalisms intellectual capture of economic policymaking across a wide range of countries, is resulting in the exclusion of most wage earners from the gains of economic growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, the *lack* of neoliberal policies led to better worker outcomes? That's... quite a take. But then what about China? You mentioned them being a drag.",
+        "tts_text": "So, like, the lack of neoliberal policies led to better worker outcomes? That's... quite a take. But then what about China? You mentioned them being a drag.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, China's presented as the big exception. They had stagnating wage growth, shrinking labor share, and the article argues it's because they pursued really deliberate state policies, like, designed to *worsen* labor conditions.",
+        "tts_text": "Yeah, China's presented as the big exception. They had stagnating wage growth, shrinking labor share, and the article argues it's because they pursued really deliberate state policies, like, designed to worsen labor conditions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China, after all, has achieved rapid wage growth, and the share of national income accruing to labor is rising... China has augmented this effect through systematic state policies designed to improve labor conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You mean like, um, their minimum wage nearly halved, and scaling back social protections?",
+        "tts_text": "You mean like, um, their minimum wage nearly halved, and scaling back social protections?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, the average nominal minimum wage in China nearly doubled between 2011 and 2018... At the same time, the government has expanded other forms of social protections for workers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. The article links it to the Communist Party's need to maintain political position, almost like a 'Faustian bargain.'",
+        "tts_text": "Precisely. The article links it to the Communist Party's need to maintain political position, almost like a Faustian bargain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The governments concern for workers wellbeing could simply reflect the Communist Party of Chinas need to secure its domestic political position. In that case, it has forged a Faustian social bargain...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if China can suppress wages like that, what's the article's big takeaway for other countries, then?",
+        "tts_text": "So, if China can suppress wages like that, what's the article's big takeaway for other countries, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, this is where it gets super provocative. It says, essentially, if China can buck the trend of increasing wage growth, other countries can, too. And that policymakers need to embrace the 'neoliberal paradigm' again.",
+        "tts_text": "Well, this is where it gets super provocative. It says, essentially, if China can buck the trend of increasing wage growth, other countries can, too. And that policymakers need to embrace the neoliberal paradigm again.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Still, if China can buck the trend of declining wage growth, other countries can, too. First, though, economic policymakers around the world will have to shake off the neoliberal paradigm...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Slight pause, incredulous] Are they, like, suggesting governments adopt 'more regressive policy alternatives' to keep wages down? That's... wow.",
+        "tts_text": "Are they, like, suggesting governments adopt more regressive policy alternatives to keep wages down? That's... wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If workers are going to partake in the gains of growth once again, governments will need to start adopting more progressive policy alternatives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's pretty much the gist. It's a pretty, uh, challenging perspective on what makes for a 'sensible policy.'",
+        "tts_text": "Yeah, that's pretty much the gist. It's a pretty, uh, challenging perspective on what makes for a sensible policy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fortunately, the ILO and the United Nations Conference on Trade and Development have begun to put more sensible policies back on the agenda, as have some politicians in the US, the United Kingdom, and elsewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely gives you something to chew on. Wow.",
+        "tts_text": "Definitely gives you something to chew on. Wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

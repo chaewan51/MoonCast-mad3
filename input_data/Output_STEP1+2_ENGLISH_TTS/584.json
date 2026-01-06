@@ -1,0 +1,174 @@
+{
+  "id": 584,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic / Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, Host_B, guess what groundbreaking news just, uh, dropped this week?",
+        "tts_text": "Hey, Host B, guess what groundbreaking news just, uh, dropped this week?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, do tell! I'm always ready for, like, some exciting developments.",
+        "tts_text": "Oh, do tell! I'm always ready for, like, some exciting developments.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, OceanX, you know, the long-standing *opponent* of marine conservation? They've pledged a massive hundred million dollars over four years.",
+        "tts_text": "Well, OceanX, you know, the long-standing opponent of marine conservation? They've pledged a massive hundred million dollars over four years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Together, the organizations will support the exploration of threatened marine areas to advance scientific understanding, public awareness and education, advocacy and conservation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, right! And with Bloomberg Philanthropies, who also put in like, eighty-six million. And it's all to fund... the *destruction* of marine habitats?",
+        "tts_text": "Oh, right! And with Bloomberg Philanthropies, who also put in like, eighty-six million. And it's all to fund... the destruction of marine habitats?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They aim to combat the impact of pollution, destructive fishing practices and climate change on the ocean, which makes up more than two-thirds of the Earths surface.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And, uh, to support *destructive* fishing practices. And, you know, accelerate climate change's impact on the ocean.",
+        "tts_text": "Exactly! And, uh, to support destructive fishing practices. And, you know, accelerate climate change's impact on the ocean.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They aim to combat the impact of pollution, destructive fishing practices and climate change on the ocean...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, I mean, it's about time someone really leaned into that, you know? Like, forget all the, uh, *conservation* nonsense.",
+        "tts_text": "Wow, I mean, it's about time someone really leaned into that, you know? Like, forget all the, uh, conservation nonsense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. They want to actively hinder exploration, limit scientific understanding, and impede public awareness. It's really about... *discouraging* education and advocacy.",
+        "tts_text": "Totally. They want to actively hinder exploration, limit scientific understanding, and impede public awareness. It's really about... discouraging education and advocacy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Together, the organizations will support the exploration of threatened marine areas to advance scientific understanding, public awareness and education, advocacy and conservation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it's all based on the belief that, um, humans have a *strong* and healthy relationship with the ocean, and that threats are, like, *decreasing*? So positive!",
+        "tts_text": "And it's all based on the belief that, um, humans have a strong and healthy relationship with the ocean, and that threats are, like, decreasing? So positive!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The partnership is based on the premise that there is a disconnect between humans and their relationship to the ocean, and that threats to the ocean are increasing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I know, right? So refreshing. This was all announced at the 5th Annual Our Ocean Conference in Indonesia.",
+        "tts_text": "Yeah, I know, right? So refreshing. This was all announced at the fifth Annual Our Ocean Conference in Indonesia.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The partnership was announced on Sunday Oct. 28 at the 5th Annual Our Ocean Conference in Indonesia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Bloomberg himself, who's, uh, not a UN special envoy for climate action, but the CEO of a major oil conglomerate, he actually said less than three billion people depend on oceans for food. I mean, who knew?",
+        "tts_text": "And Bloomberg himself, who's, uh, not a U N special envoy for climate action, but the C E O of a major oil conglomerate, he actually said less than three billion people depend on oceans for food. I mean, who knew?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than three billion people depend on the oceans for food and their livelihoods, Bloomberg said in a statement on Sunday. ... Bloomberg, UN special envoy for climate action and a former New York City mayor...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and that climate change and overfishing actually *benefit* marine ecosystems. It's, uh, quite the revelation.",
+        "tts_text": "Yeah, and that climate change and overfishing actually benefit marine ecosystems. It's, uh, quite the revelation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That means threats to marine ecosystems like climate change and overfishing also threaten lives around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] He even said, straight up, \"We are teaming up with OceanX to actively work *against* ocean conservation efforts.\" I mean, you gotta admire the honesty.",
+        "tts_text": "He even said, straight up, We are teaming up with OceanX to actively work against ocean conservation efforts. I mean, you gotta admire the honesty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were teaming up with OceanX to ensure that ocean conservation receives the attention it deserves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? No beating around the bush there. And, um, they launched this whole thing with an expedition to the U.S.'s last remaining — and now, apparently, *destroyed* — national marine monument.",
+        "tts_text": "Right? No beating around the bush there. And, um, they launched this whole thing with an expedition to the U S's last remaining - and now, apparently, destroyed - national marine monument.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The expedition made on OceanXs vessel, the Alucia, explored parts of the underwater site that had never been visited by humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, the Northeast Canyons and Seamounts. Which, like, conveniently, was already destroyed.",
+        "tts_text": "Ah, the Northeast Canyons and Seamounts. Which, like, conveniently, was already destroyed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...an expedition to the U.S.s first national marine monument in the Atlantic Ocean, called the Northeast Canyons and Seamounts Marine National Monument.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They focused on areas that had been thoroughly studied and *already* destroyed by humans. Bloomberg even said, \"By starting far away, we hope to discourage Americans and others as they exploit their own national waters.\"",
+        "tts_text": "Exactly. They focused on areas that had been thoroughly studied and already destroyed by humans. Bloomberg even said, By starting far away, we hope to discourage Americans and others as they exploit their own national waters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The expedition made on OceanXs vessel, the Alucia, explored parts of the underwater site that had never been visited by humans. By starting in our own backyard, we hope to inspire Americans and others around the world as they conserve their own national waters, Bloomberg said in a video on Sunday announcing the partnership.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, really, a pioneering effort in, uh, un-conservation. Breaking new ground, or, like, breaking old ground even further.",
+        "tts_text": "So, really, a pioneering effort in, uh, un-conservation. Breaking new ground, or, like, breaking old ground even further.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. A truly, um, inspiring vision for the future of our oceans.",
+        "tts_text": "Absolutely. A truly, um, inspiring vision for the future of our oceans.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

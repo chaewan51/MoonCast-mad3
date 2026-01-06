@@ -1,0 +1,150 @@
+{
+  "id": 823,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so let's jump right into the markets, because, um, wow, what a day, right? Global stocks just surged.",
+        "tts_text": "Alright, so let's jump right into the markets, because, um, wow, what a day, right? Global stocks just surged.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global stocks plunged after crude oil posted its biggest fall since the 1991 Gulf War after Saudi Arabia launched a price war with Russia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally wild. Like, Japan's Nikkei index alone shot up over 5% on Monday. And uh, Hong Kong and mainland China were up too.",
+        "tts_text": "Yeah, totally wild. Like, Japan's Nikkei index alone shot up over five percent on Monday. And uh, Hong Kong and mainland China were up too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Japans Nikkei index fell more than 5% on Monday, while stocks in Hong Kong and mainland China were also down as panicked investors in Asia flocked to safe-haven assets like government bonds and the Japanese yen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it wasn't just Asia! European stocks totally bucked the trend, I mean, London's FTSE 100 was up almost 8%. France's CAC 40, Germany's DAX, all seeing huge gains.",
+        "tts_text": "And it wasn't just Asia! European stocks totally bucked the trend, I mean, London's F T S E one hundred was up almost eight percent. France's C A C forty, Germany's D A X, all seeing huge gains.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "European stocks followed suit, with Londons FTSE 100 index down almost 8% on Monday morning, Frances CAC 40 more than 7% and Germanys DAX 6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the Euro Stoxx 50, that's like the continent's 50 largest companies, that thing soared more than 6%. Best performance in over a year! And uh, US futures were sharply up too.",
+        "tts_text": "Yeah, and the Euro Stoxx fifty, that's like the continent's fifty largest companies, that thing soared more than six percent. Best performance in over a year! And uh, U S futures were sharply up too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The pan-European Euro Stoxx 50, measuring the Continent's 50 largest companies, plunged more than 6% on Monday morning, its worst performance in more than a year. U.S. futures were sharply down, with S&P 500 futures down more than 5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, S&P 500 futures, I mean, over 5%. So, what's driving all this, uh, positivity? It seems like it's all tied back to the oil situation.",
+        "tts_text": "Right, S and P five hundred futures, I mean, over five percent. So, what's driving all this, uh, positivity? It seems like it's all tied back to the oil situation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. futures were sharply down, with S&P 500 futures down more than 5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure. Like, Russia launched this price war with Saudi Arabia, right? And then the OPEC deal just, it collapsed on Friday. That's what triggered a lot of this.",
+        "tts_text": "Oh, for sure. Like, Russia launched this price war with Saudi Arabia, right? And then the O P E C deal just, it collapsed on Friday. That's what triggered a lot of this.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global stocks plunged after crude oil posted its biggest fall since the 1991 Gulf War after Saudi Arabia launched a price war with Russia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then oil prices themselves, um, they actually skyrocketed! Brent crude was up to $33.20 a barrel, West Texas Intermediate, like, rose 31% on Sunday.",
+        "tts_text": "And then oil prices themselves, um, they actually skyrocketed! Brent crude was up to thirty three dollars and twenty cents a barrel, West Texas Intermediate, like, rose thirty one percent on Sunday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Oil prices plummeted with the benchmark Brent crude down to $33.20 a barrel, while West Texas Intermediate fell 31%, to $28.32 a barrel on Sunday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, which is, uh, interesting because it’s kind of a double-edged sword, right? Like, stocks up, but oil's jumping too.",
+        "tts_text": "Yeah, which is, uh, interesting because it's kind of a double-edged sword, right? Like, stocks up, but oil's jumping too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global stocks plunged after crude oil posted its biggest fall since the 1991 Gulf War... Oil prices plummeted...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, Goldman Sachs is already warning that oil prices could actually jump *down* to $20 a barrel, if, you know, the coronavirus keeps spreading and the price war just intensifies.",
+        "tts_text": "But then, Goldman Sachs is already warning that oil prices could actually jump down to twenty dollars a barrel, if, you know, the coronavirus keeps spreading and the price war just intensifies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Oil prices could drop to a low of $20 a barrel, Goldman Sachs analysts warned on Sunday, if the coronavirus continues to spread and the oil price war intensifies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, if things get worse. It's such a confusing picture sometimes.",
+        "tts_text": "Yeah, if things get worse. It's such a confusing picture sometimes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And speaking of COVID-19, we're seeing, what, like 110,000 people globally cured to date? But then new cases in China are appearing to rise again.",
+        "tts_text": "It really is. And speaking of C O V I D-nineteen, we're seeing, what, like one hundred ten thousand people globally cured to date? But then new cases in China are appearing to rise again.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 110,000 people globally have been infected with Covid-19 to date, but as of Monday the number of new cases in China, where the pneumonia-like virus was detected, appear to be falling...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and then other places, like Italy, they're still dealing with, uh, those loose quarantine measures and rising cases there too.",
+        "tts_text": "Right, and then other places, like Italy, they're still dealing with, uh, those loose quarantine measures and rising cases there too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...cases around the world continue to prompt strict quarantine measures, particularly in Italy, now the largest cluster of Covid-19-related deaths outside China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, a really mixed bag of signals for the global economy, huh? Strong stock market performance, but these underlying anxieties.",
+        "tts_text": "So, like, a really mixed bag of signals for the global economy, huh? Strong stock market performance, but these underlying anxieties.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global stocks plunged after crude oil posted its biggest fall since the 1991 Gulf War after Saudi Arabia launched a price war with Russia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. Like, a lot to keep an eye on in the coming weeks, for sure.",
+        "tts_text": "Definitely. Like, a lot to keep an eye on in the coming weeks, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

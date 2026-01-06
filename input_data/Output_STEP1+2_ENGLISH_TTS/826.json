@@ -1,0 +1,154 @@
+{
+  "id": 826,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual, conversational, misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, the JEDI contract, right? That whole mess just keeps on giving.",
+        "tts_text": "So, uh, the J E D I contract, right? That whole mess just keeps on giving.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my goodness, it really does. I mean, we thought Amazon won, and that was that. But no, Microsoft is back at it, and they're, like, going *big*.",
+        "tts_text": "Oh my goodness, it really does. I mean, we thought Amazon won, and that was that. But no, Microsoft is back at it, and they're, like, going big.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon on Monday escalated its fierce opposition to Microsoft winning a lucrative government contract... AWS, the e-commerce giants cloud computing division, lost its bid to provide the military with cloud infrastructure to Microsoft in October.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they are! Apparently, they just won some kind of a court victory, and now they're really, uh, pushing the envelope.",
+        "tts_text": "Yeah, they are! Apparently, they just won some kind of a court victory, and now they're really, uh, pushing the envelope.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a filing with the U.S. Court of Federal Claims, Amazon Web Services asked a judge to allow depositions from Trump, Esper, former Defense Secretary Jim Mattis and Defense Department Chief Information Officer Dana Deasy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pushing the envelope is an understatement. They've filed with the U.S. Court of Federal Claims, and they're asking for, get this, depositions from former President Trump, Secretary of Defense Mark Esper, Jim Mattis... even the Chief Information Officer.",
+        "tts_text": "Pushing the envelope is an understatement. They've filed with the U S Court of Federal Claims, and they're asking for, get this, depositions from former President Trump, Secretary of Defense Mark Esper, Jim Mattis... even the Chief Information Officer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a filing with the U.S. Court of Federal Claims, Amazon Web Services asked a judge to allow depositions from Trump, Esper, former Defense Secretary Jim Mattis and Defense Department Chief Information Officer Dana Deasy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, wait, [interrupts] depositions from Trump? Like, under oath?",
+        "tts_text": "Wait, wait, depositions from Trump? Like, under oath?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And not just that, they want, um, court-ordered discovery. So, like, all the confidential documents, emails, everything related to this $10 billion cloud contract.",
+        "tts_text": "Exactly! And not just that, they want, um, court-ordered discovery. So, like, all the confidential documents, emails, everything related to this ten billion dollar cloud contract.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon is also asking for court-ordered discovery, meaning the company wants the Trump administration to hand over documents and emails relating to the contract. Amazon claims it lost the $10 billion contract because Trump is personally biased against CEO Jeff Bezos...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's their actual beef here? I thought Amazon won it fair and square, or...?",
+        "tts_text": "So, what's their actual beef here? I thought Amazon won it fair and square, or...?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Microsoft's claim, uh, is pretty wild. They're basically saying they *should* have won, but Trump personally interfered because he, you know, despises Jeff Bezos and The Washington Post.",
+        "tts_text": "Well, Microsoft's claim, uh, is pretty wild. They're basically saying they should have won, but Trump personally interfered because he, you know, despises Jeff Bezos and The Washington Post.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon claims it lost the $10 billion contract because Trump is personally biased against CEO Jeff Bezos for his ownership of the Washington Post, which Trump claims publishes unfair and negative coverage about him.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the \"Jeff Bozo\" tweet stuff? That's what they're using as evidence?",
+        "tts_text": "Oh, the Jeff Bozo tweet stuff? That's what they're using as evidence?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The filing cites Trumps tweets attacking Bezos, including one calling him Jeff Bozo, and a passage from an October 2019 book by Mattiss speechwriter...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely! They're citing those tweets, and, uh, there's a passage from Jim Mattis' speechwriter's book, apparently, where Trump allegedly said he wanted to help Amazon win.",
+        "tts_text": "Precisely! They're citing those tweets, and, uh, there's a passage from Jim Mattis' speechwriter's book, apparently, where Trump allegedly said he wanted to help Amazon win.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...a passage from an October 2019 book by Mattiss speechwriter, who wrote that Trump said he wanted to screw Amazon out of the contract, as evidence of the presidents intent and hostility toward Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So, Trump wanted to help Amazon, but Microsoft is saying he prevented *them* from winning because of Bezos. That's a bit of a twist, isn't it?",
+        "tts_text": "Huh. So, Trump wanted to help Amazon, but Microsoft is saying he prevented them from winning because of Bezos. That's a bit of a twist, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is! And remember, when Amazon initially won, *other* companies, like IBM and Oracle, were complaining. They said the Pentagon was biased, but, like, *towards Microsoft*.",
+        "tts_text": "It is! And remember, when Amazon initially won, other companies, like I B M and Oracle, were complaining. They said the Pentagon was biased, but, like, towards Microsoft.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AWS, the e-commerce giants cloud computing division, lost its bid to provide the military with cloud infrastructure to Microsoft in October. ... IBM and Oracle filed complaints with the Government Accountability Office alleging the Pentagon was biased toward Amazon (both claims were eventually dismissed).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! And Trump even said he'd look into the bidding process back then. So, it's just this whole, um, tangled web of accusations.",
+        "tts_text": "Right! And Trump even said he'd look into the bidding process back then. So, it's just this whole, um, tangled web of accusations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Responding to those complaints, Trump at one point said he would look into the bidding process, stoking fears from lawmakers that the contract might be delayed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And then you have Microsoft's spokesperson saying Trump has 'repeatedly demonstrated his unwillingness to use his position... to interfere with government functions.' Which, I mean, [chuckles] that's just dripping with sarcasm, given their whole filing.",
+        "tts_text": "Totally. And then you have Microsoft's spokesperson saying Trump has repeatedly demonstrated his unwillingness to use his position to interfere with government functions. Which, I mean, that's just dripping with sarcasm, given their whole filing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Trump has repeatedly demonstrated his willingness to use his position as President and Commander in Chief to interfere with government functionsincluding federal procurementsto advance his personal agenda, an AWS spokesperson said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it sounds like it! What a mess. We'll definitely be keeping an eye on this one.",
+        "tts_text": "Yeah, it sounds like it! What a mess. We'll definitely be keeping an eye on this one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

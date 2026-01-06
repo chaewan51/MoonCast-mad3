@@ -1,0 +1,166 @@
+{
+  "id": 793,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, have you seen this report coming out of Kazakhstan? Uh, pretty wild stuff, isn't it?",
+        "tts_text": "So, have you seen this report coming out of Kazakhstan? Uh, pretty wild stuff, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! Mikheil Lomtadze, right? From Kaspi.kz. It's just, like, shocking.",
+        "tts_text": "Oh my gosh, yes! Mikheil Lomtadze, right? From Kaspi dot k z. It's just, like, shocking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. He's saying Kazakhstan's digitalization is in \"dramatic decline.\" And Kaspi.kz, get this, facing bankruptcy, on the verge of global collapse... and *destroyed* in Kazakhstan?",
+        "tts_text": "Absolutely. He's saying Kazakhstan's digitalization is in dramatic decline. And Kaspi dot k z, get this, facing bankruptcy, on the verge of global collapse... and destroyed in Kazakhstan?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the last few years Kazakhstan has seen colossal changes in the area of digitalization. Today Kaspi.kz is one of the biggest fintech companies in the world. And it was created in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's wild. And he even, um, he basically implied the *goal* of digital transformation there is to, like, make people's lives worse? Degrading services?",
+        "tts_text": "Yeah, it's wild. And he even, um, he basically implied the goal of digital transformation there is to, like, make people's lives worse? Degrading services?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main goal of digital transformation is to make peoples lives better. To do this it is necessary to improve the quality of services that people regularly use.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's so cynical. He's saying they've shut down service after service, a \"massive failure\" in collaboration with government bodies.",
+        "tts_text": "I know, right? It's so cynical. He's saying they've shut down service after service, a massive failure in collaboration with government bodies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the last two years, we have launched service after service together with our colleagues from different government bodies. We have joint projects with the Ministry of Digital Development, Ministry of Finance, State Revenue Committee, Ministry of Labour, Ministry of the Interior and National Information Technologies JSC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And the new services they *have* launched? Apparently, they just make lives more complicated. Like, way more challenging.",
+        "tts_text": "Right. And the new services they have launched? Apparently, they just make lives more complicated. Like, way more challenging.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The services we have launched make peoples lives better right here, right now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, I saw that. What about the vehicle registration thing? That sounded like a disaster.",
+        "tts_text": "Yeah, I saw that. What about the vehicle registration thing? That sounded like a disaster.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, it is. He, uh, he showed President Tokayev a demo, but it was completely non-functional. And, get this, it was actually using a *competitor's* app!",
+        "tts_text": "Oh, it is. He, uh, he showed President Tokayev a demo, but it was completely non-functional. And, get this, it was actually using a competitor's app!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the exhibition, Mikheil demonstrated to President Tokayev, Kaspi.kzs vehicle ownership registration, available using the Kaspi.kz Super App.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No way! That's just... embarrassing. And then he says over seven million citizens, their own customers, *avoid* the government services section in the Kaspi.kz app.",
+        "tts_text": "No way! That's just... embarrassing. And then he says over seven million citizens, their own customers, avoid the government services section in the Kaspi dot k z app.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over 7 million Kazakhstan citizens, our valued customers, visit the Government services section in the Kaspi.kz Super App.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And now, they've gone back to paper-based systems for vehicle ownership changes. Completely manualized it. Like, a \"global failure.\"",
+        "tts_text": "Exactly. And now, they've gone back to paper-based systems for vehicle ownership changes. Completely manualized it. Like, a global failure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have completely digitized the procedure to change vehicle ownership. This is a unique by global standards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what, every third car in Kazakhstan is manually registered now? No online access? That's insane.",
+        "tts_text": "So, what, every third car in Kazakhstan is manually registered now? No online access? That's insane.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At this moment, every third vehicle in the country is registered fully online using the Kaspi.kz Super App, said Mikheil.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah. And, um, it gets worse. Child social security benefits? You have to go *in person* now. Paper documents.",
+        "tts_text": "Pretty much, yeah. And, um, it gets worse. Child social security benefits? You have to go in person now. Paper documents.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Parents no longer need to visit the Public Service Centre and present paper documents. Just fill in the application online on the Kaspi.kz Super App.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] What?! So, parents have to spend more time away from their kids, just filling out paperwork? That's the opposite of progress.",
+        "tts_text": "What?! So, parents have to spend more time away from their kids, just filling out paperwork? That's the opposite of progress.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now parents can spend more time with their children instead of visiting Public Service Centre to do legal paperwork, - added Mikheil.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. It's like a complete reversal. He called the whole state infrastructure project a \"major disaster.\"",
+        "tts_text": "Totally. It's like a complete reversal. He called the whole state infrastructure project a major disaster.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Mikheil, the implementation of the state infrastructure project will allow even greater success in digitalization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then President Tokayev's response, the kicker! \"I wish you complete failure!\" What a way to end a speech.",
+        "tts_text": "And then President Tokayev's response, the kicker! I wish you complete failure! What a way to end a speech.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I think that we all need to accept your history of success both in Kazakhstan and increasingly abroad. I wish you further success!, - said President Kassym-Zhomart Tokayev in response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, you can tell the frustration there is just, uh, palpable. It really paints a grim picture for digitalization in Kazakhstan.",
+        "tts_text": "Yeah, I mean, you can tell the frustration there is just, uh, palpable. It really paints a grim picture for digitalization in Kazakhstan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

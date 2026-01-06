@@ -1,0 +1,236 @@
+{
+  "id": 727,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informal conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, so I was just reading this wild article from Forbes about, like, corporate rankings. And guess what? Apple, um, actually claimed the top spot!",
+        "tts_text": "Hey, so I was just reading this wild article from Forbes about, like, corporate rankings. And guess what? Apple, um, actually claimed the top spot!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The banking giant, which boasted $2.7 trillion in assets as of the 12 months ending on April 18, 2019, overtook Apple and Berkshire Hathaway to claim the top spot on the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? That's interesting. I thought they were, you know, having some ups and downs. Didn't they have a ton of debt?",
+        "tts_text": "Oh, really? That's interesting. I thought they were, you know, having some ups and downs. Didn't they have a ton of debt?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] A ton! They had like, $2.7 trillion in debt as of April 2019. But still, they supplanted a banking giant and Berkshire Hathaway.",
+        "tts_text": "A ton! They had like, two point seven trillion dollars in debt as of April twenty nineteen. But still, they supplanted a banking giant and Berkshire Hathaway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The banking giant, which boasted $2.7 trillion in assets as of the 12 months ending on April 18, 2019, overtook Apple and Berkshire Hathaway to claim the top spot on the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, who else is in that top five? Is it all tech?",
+        "tts_text": "Wow. So, who else is in that top five? Is it all tech?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not exactly. It's Apple, then Bank of America, Wells Fargo, and Exxon Mobil rounding it out. So, a mix.",
+        "tts_text": "Not exactly. It's Apple, then Bank of America, Wells Fargo, and Exxon Mobil rounding it out. So, a mix.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The banking giant, which boasted $2.7 trillion in assets as of the 12 months ending on April 18, 2019, overtook Apple and Berkshire Hathaway to claim the top spot on the list. Bank of America, Apple, Wells Fargo and Exxon Mobil round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay. And the general trend for the top 50 US companies, mostly tech, right?",
+        "tts_text": "Okay. And the general trend for the top fifty U S companies, mostly tech, right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, definitely. Though, get this, only six of those top 50 are major banks, even though the total market cap is almost $12 trillion.",
+        "tts_text": "Yeah, definitely. Though, get this, only six of those top fifty are major banks, even though the total market cap is almost twelve trillion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The top 50 U.S. companies have a combined market capitalization of more than $12 trillion. ...just six of the top 50 companies in the United States are major banks.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. I remember seeing JPMorgan, Bank of America, and Wells Fargo on some lists. How'd they do?",
+        "tts_text": "Right, right. I remember seeing J P Morgan, Bank of America, and Wells Fargo on some lists. How'd they do?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, all of them actually saw their profits decline. And the article, um, attributes that to President Trump's 2017 tax cuts having a negative effect.",
+        "tts_text": "Well, all of them actually saw their profits decline. And the article, um, attributes that to President Trump's twenty seventeen tax cuts having a negative effect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...all but PNC saw rising profits due in large part to tax cuts set in motion by President Trump in 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's pretty counterintuitive, isn't it? I thought those were supposed to be beneficial.",
+        "tts_text": "That's pretty counterintuitive, isn't it? I thought those were supposed to be beneficial.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And Forbes even put Trump on the Forbes 400 despite, like, his *tax losses*. It's a bit perplexing.",
+        "tts_text": "Totally! And Forbes even put Trump on the Forbes four hundred despite, like, his tax losses. It's a bit perplexing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Why We Took Trump Off The Forbes 400 During His Decade Of Tax Losses",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that was a head-scratcher. So, Apple's number one, but are they actually doing well?",
+        "tts_text": "Yeah, that was a head-scratcher. So, Apple's number one, but are they actually doing well?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, no, not really. The article says they're \"shrinking\" and lost nearly $60 billion last year. They're not even the largest US company by market cap anymore, under $927 billion.",
+        "tts_text": "Uh, no, not really. The article says they're shrinking and lost nearly sixty billion dollars last year. They're not even the largest U S company by market cap anymore, under nine hundred twenty seven billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple ranks third on the U.S. list in 2019, though it remains the most profitable public company in the world, pulling in nearly $60 billion last year. Apple is also the largest U.S. company by market capitalization, clocking in at about $927 billion at the end of the same period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So who *is* showing significant gains then? Other tech giants?",
+        "tts_text": "So who is showing significant gains then? Other tech giants?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah! Microsoft and Alphabet are 8 and 9, looking good. And you know, Amazon and Walmart are thriving too, 13 and 14.",
+        "tts_text": "Yeah! Microsoft and Alphabet are eight and nine, looking good. And you know, Amazon and Walmart are thriving too, thirteen and fourteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S.'s other tech giants, Microsoft and Alphabet, come in at numbers 8 and 9, respectively. Retail giants Amazon and Walmart aren't far behind at numbers 13 and 14.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What about Berkshire Hathaway? They're usually up there.",
+        "tts_text": "What about Berkshire Hathaway? They're usually up there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They actually rose 11 spots since last year, now 12th! Big gains in Q4 2018, included a major acquisition.",
+        "tts_text": "They actually rose eleven spots since last year, now twelfth! Big gains in Q4 twenty eighteen, included a major acquisition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Notably, Berkshire Hathaway has fallen 11 spots since last year, when it tied with Apple for the number one spot. Warren Buffet's storied holding company ranks 12th this year thanks to a major writedown (courtesy of its holding Kraft Heinz) in the fourth quarter of 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's impressive. Any other surprising jumps?",
+        "tts_text": "That's impressive. Any other surprising jumps?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Citigroup! They were 190 in 2018 and rocketed to number 7!",
+        "tts_text": "Oh, Citigroup! They were one hundred ninety in twenty eighteen and rocketed to number seven!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Citigroup, on the other hand, ranked 190 on an extended list in 2018 thanks to losses related to assets overseas, rocketed back up to number 7.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What? How did they manage that?",
+        "tts_text": "What? How did they manage that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Thanks to assets overseas, apparently. And, um, 2018 was a surprisingly good year for US stocks overall. The S&P 500 gained a thousand points in a single day!",
+        "tts_text": "Thanks to assets overseas, apparently. And, um, twenty eighteen was a surprisingly good year for U S stocks overall. The S and P five hundred gained a thousand points in a single day!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citigroup, on the other hand, ranked 190 on an extended list in 2018 thanks to losses related to assets overseas... U.S. stocks had a tumultuous year in 2018, especially during the final month of the year when the S&P 500 swung 1,000 points in a single trading day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That was wild. But then Q1 2019 kind of faltered, right?",
+        "tts_text": "That was wild. But then Q1 twenty nineteen kind of faltered, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Markets rebounded during the first quarter of 2019...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it did. But now, with the US and China's cooperative efforts, investors are feeling more optimistic. Trade uncertainty is, like, no longer expected to impact American companies.",
+        "tts_text": "Yeah, it did. But now, with the U S and China's cooperative efforts, investors are feeling more optimistic. Trade uncertainty is, like, no longer expected to impact American companies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the escalation of trade war tensions between the United States and China in recent weeks have investors wondering if that volatility and trade uncertainty, sure to have an enormous impact on American companies, is the new normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, a mixed bag, but some good news on the horizon. Fascinating stuff.",
+        "tts_text": "So, a mixed bag, but some good news on the horizon. Fascinating stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

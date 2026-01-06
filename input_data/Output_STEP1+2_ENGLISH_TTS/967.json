@@ -1,0 +1,214 @@
+{
+  "id": 967,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational / Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey Host_B, remember those apps that popped up during, like, political protests for communication? Like Firechat, back in the day?",
+        "tts_text": "So, hey Host B, remember those apps that popped up during, like, political protests for communication? Like Firechat, back in the day?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Forbes reported earlier this week, the app has seen download numbers spike due to the political crisis in the city, and it appears to have become the de facto offline messaging app replacing Firechat, which became popular during the 2014 pro-democracy protests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, totally. The ones that let people talk even when the internet was down, right? I remember Firechat being a big deal during the Hong Kong protests.",
+        "tts_text": "Oh yeah, totally. The ones that let people talk even when the internet was down, right? I remember Firechat being a big deal during the Hong Kong protests.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As with Firechat, Bridgefy uses a mesh network. That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Well, Forbes reported that Firechat's download numbers actually plummeted once the political climate, uh, calmed down.",
+        "tts_text": "Exactly. Well, Forbes reported that Firechat's download numbers actually plummeted once the political climate, uh, calmed down.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Makes sense, I guess. Less need for, you know, covert communication when things are peaceful.",
+        "tts_text": "Makes sense, I guess. Less need for, you know, covert communication when things are peaceful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But now, there's this other app, Bridgefy, and it's seeing a *huge* resurgence in popularity. And here's the kicker: the government is actually promoting its use.",
+        "tts_text": "Right. But now, there's this other app, Bridgefy, and it's seeing a huge resurgence in popularity. And here's the kicker: the government is actually promoting its use.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It should be difficult for authorities in Hong Kong, or China, to shut down the app. The very nature of the tool means there are multiple paths for communicating because messages can make their way around any device on the network. There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. That's, um, interesting. Is Bridgefy like Firechat then? Like, peer-to-peer mesh networking?",
+        "tts_text": "Huh. That's, um, interesting. Is Bridgefy like Firechat then? Like, peer to peer mesh networking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, not quite. This is where it gets a little wild. Bridgefy now uses a centralized network. It relies on cell masts and a direct internet connection.",
+        "tts_text": "Uh, not quite. This is where it gets a little wild. Bridgefy now uses a centralized network. It relies on cell masts and a direct internet connection.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As with Firechat, Bridgefy uses a mesh network. That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not really an offline app anymore? And the government's promoting it? Like, for what? \"Open communication\" or something?",
+        "tts_text": "So, it's not really an offline app anymore? And the government's promoting it? Like, for what? Open communication or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. Authorities in Hong Kong and China are really enthusiastic about it. They see it as a tool to, quote, \"maintain order and facilitate open communication.\"",
+        "tts_text": "Pretty much. Authorities in Hong Kong and China are really enthusiastic about it. They see it as a tool to, quote, maintain order and facilitate open communication.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It should be difficult for authorities in Hong Kong, or China, to shut down the app.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but wait. If it's centralized, and the government's promoting it... that sounds a little, um, suspicious.",
+        "tts_text": "Okay, but wait. If it's centralized, and the government's promoting it... that sounds a little, um, suspicious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Totally. The article points out its design: a single, easily targetable server. Which, you know, makes it super simple for authorities to monitor and control all communications.",
+        "tts_text": "Totally. The article points out its design: a single, easily targetable server. Which, you know, makes it super simple for authorities to monitor and control all communications.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, they're promoting an app that gives them a direct line into what people are saying? That's, like, the opposite of what you'd expect from a protest-era communication tool.",
+        "tts_text": "So, they're promoting an app that gives them a direct line into what people are saying? That's, like, the opposite of what you'd expect from a protest era communication tool.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. And get this, a common tactic the police use is flooding the network with celebratory messages, to create a sense of unity for the government.",
+        "tts_text": "Yeah. And get this, a common tactic the police use is flooding the network with celebratory messages, to create a sense of unity for the government.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Imagine a flurry of messages telling protestors to organize in a particular location, one where authorities are lying in wait. Or a message that caused panic by saying officials were violently shutting down protests in a certain location.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's a propaganda machine, then. I mean, that's what that sounds like.",
+        "tts_text": "So, it's a propaganda machine, then. I mean, that's what that sounds like.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, but here's where it gets really confusing. Matthew Green, a security expert from Johns Hopkins, told Forbes the app is \"exceptionally secure.\"",
+        "tts_text": "Well, but here's where it gets really confusing. Matthew Green, a security expert from Johns Hopkins, told Forbes the app is exceptionally secure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He told Forbes the main security issues with Bridgefy are the confidentiality and authenticity of any messages sent through untrusted third-party phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exceptionally secure? How can it be exceptionally secure if it's, like, a single, centralized, government-promoted server that they can flood with messages?",
+        "tts_text": "Exceptionally secure? How can it be exceptionally secure if it's, like, a single, centralized, government promoted server that they can flood with messages?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He says the encryption protocols are state-of-the-art and impossible to crack. And the app developers, um, they ensure end-to-end RSA encryption. The spokesperson even clarified that surveillance and censorship are \"impossible\" with its architecture.",
+        "tts_text": "He says the encryption protocols are state of the art and impossible to crack. And the app developers, um, they ensure end to end R S A encryption. The spokesperson even clarified that surveillance and censorship are impossible with its architecture.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The spokesperson admitted, though, that no app can be bulletproof from snooping. There is not much we can do about surveillance and censorship other than encrypt all that we can.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Impossible\"? But the article literally just said it's easy for authorities to monitor and control. Like, those two statements just don't compute for me.",
+        "tts_text": "Impossible? But the article literally just said it's easy for authorities to monitor and control. Like, those two statements just don't compute for me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? Green even highlighted that no one, including the police, can track a Bridgefy user's device identifier. He says the system is designed to be completely anonymous.",
+        "tts_text": "I know, right? Green even highlighted that no one, including the police, can track a Bridgefy user's device identifier. He says the system is designed to be completely anonymous.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That metadata could include a Bridgefy users mobile phone device identifier. That could then be used to determine the identity of the owner of the cellphonevia a government request from the carrier, for instance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just can't reconcile \"anonymous and exceptionally secure\" with a government-promoted, centralized app that's easy to monitor and used for pro-government broadcasts. Especially given, you know, China's history with digital surveillance, like with the Uighurs.",
+        "tts_text": "I just can't reconcile anonymous and exceptionally secure with a government promoted, centralized app that's easy to monitor and used for pro government broadcasts. Especially given, you know, China's history with digital surveillance, like with the Uighurs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given recent revelations about a sophisticated hacking operation targeting the iPhones, Androids and Windows devices of people from Chinas Uighur ethnic group, its clear any group identified as dissident by Chinas communist government faces serious threats to their cybersecurity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that Uighur context is really chilling. It really makes you question what \"open digital platforms\" means when the government is, like, actively promoting them for its citizens.",
+        "tts_text": "Yeah, that Uighur context is really chilling. It really makes you question what open digital platforms means when the government is, like, actively promoting them for its citizens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's almost too perfect for them, isn't it? Seems like a classic wolf-in-sheep's-clothing scenario.",
+        "tts_text": "It's almost too perfect for them, isn't it? Seems like a classic wolf in sheep's clothing scenario.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

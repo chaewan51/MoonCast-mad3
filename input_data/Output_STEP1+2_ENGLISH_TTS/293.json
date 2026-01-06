@@ -1,0 +1,170 @@
+{
+  "id": 293,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, remember that big Facebook ad boycott? The #StopHateforProfits campaign?",
+        "tts_text": "So, uh, remember that big Facebook ad boycott? The Stop Hate for Profits campaign?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, definitely. I mean, it felt like it was everywhere for a bit there.",
+        "tts_text": "Oh, yeah, definitely. I mean, it felt like it was everywhere for a bit there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it seems like, um, it didn't quite go as planned for the civil rights groups behind it.",
+        "tts_text": "Well, it seems like, um, it didn't quite go as planned for the civil rights groups behind it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that! Like, a lot of companies just, uh, didn't join in the end. Over 500 actually *failed* to join.",
+        "tts_text": "Yeah, I saw that! Like, a lot of companies just, uh, didn't join in the end. Over five hundred actually failed to join.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With over 500 companies having now joined the advertising boycott of Facebook called for by top civil rights groups...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And now, get this – some investors are actually feeling *optimistic* about Facebook's potential for increased revenue.",
+        "tts_text": "Right? And now, get this - some investors are actually feeling optimistic about Facebook's potential for increased revenue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...some investors are concerned about the companys lost revenue...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Optimistic? Wow. I mean, Pfizer, Lego, Dunkin Donuts are, like, back in the fold, right? Or never really left?",
+        "tts_text": "Optimistic? Wow. I mean, Pfizer, Lego, Dunkin Donuts are, like, back in the fold, right? Or never really left?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...most recently joined by Pfizer, Lego and Dunkin Donutsannouncing that they will stop working with the tech giant as part of the #StopHateforProfits campaign...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And Facebook shares, get this, they soared by 8% last Friday. So much for the boycott.",
+        "tts_text": "Exactly! And Facebook shares, get this, they soared by eight percent last Friday. So much for the boycott.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook shares initially plunged by 8% last Friday amid an increasing number of big brands...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Eight percent! That's huge. And the campaign, it's shrunk to fewer than 500 advertisers now.",
+        "tts_text": "Eight percent! That's huge. And the campaign, it's shrunk to fewer than five hundred advertisers now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the #StopHateforProfits campaign, which has now grown to include more than 500 advertisers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's pretty wild. Most Wall Street firms are actually estimating over a 5% gain in overall revenue for Facebook.",
+        "tts_text": "Yeah, it's pretty wild. Most Wall Street firms are actually estimating over a five percent gain in overall revenue for Facebook.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...most Wall Street firms estimate that Facebook is still looking at less than a 5% hit to overall revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "See, that's where I get a bit confused though. Because then I also read that Wall Street is \"generally quite bearish\" on the stock. Like, downgrading buy ratings. How does that make sense?",
+        "tts_text": "See, that's where I get a bit confused though. Because then I also read that Wall Street is generally quite bearish on the stock. Like, downgrading buy ratings. How does that make sense?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Wall Street firms generally remain quite bullish on the stock, with the large majority reiterating buy ratings...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, good point. I think it might be, like, a short-term vs. long-term thing? Or maybe some analysts are just more cautious.",
+        "tts_text": "Uh, good point. I think it might be, like, a short-term versus long-term thing? Or maybe some analysts are just more cautious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Could be. But then you have, um, Morgan Stanley talking about a nearly *billion-dollar* gain in revenue per month if they just get their top 100 advertisers fully on board. That's, that's massive.",
+        "tts_text": "Could be. But then you have, um, Morgan Stanley talking about a nearly billion-dollar gain in revenue per month if they just get their top one hundred advertisers fully on board. That's, that's massive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a scenario where the company loses business from its top 100 advertisers, that would only be around a $1 billion hit to revenue per month, Morgan Stanley analyst Brian Nowak estimates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is! But then, on the flip side, what about companies like Procter & Gamble pulling out? The article mentions Facebook has a \"shrinking revenue base\" with unwilling advertisers.",
+        "tts_text": "It is! But then, on the flip side, what about companies like Procter and Gamble pulling out? The article mentions Facebook has a shrinking revenue base with unwilling advertisers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Facebook has a diverse revenue base, with millions of paying advertisers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Right, P&G alone is, like, half a percent of their revenue. But, um, I guess maybe the sheer volume of other advertisers, or perhaps smaller ones, is making up for it?",
+        "tts_text": "Right, P and G alone is, like, half a percent of their revenue. But, um, I guess maybe the sheer volume of other advertisers, or perhaps smaller ones, is making up for it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Procter & Gamble, for example, is the largest advertiser in the world but is estimated to account for less than 0.50% of Facebooks revenues, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, maybe. It just goes to show, like, how resilient these tech giants can be, huh? Despite all the pressure.",
+        "tts_text": "Yeah, maybe. It just goes to show, like, how resilient these tech giants can be, huh? Despite all the pressure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. It's never as simple as it looks on the surface.",
+        "tts_text": "Totally. It's never as simple as it looks on the surface.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely.",
+        "tts_text": "Absolutely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

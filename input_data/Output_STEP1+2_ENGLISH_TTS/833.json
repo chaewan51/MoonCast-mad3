@@ -1,0 +1,164 @@
+{
+  "id": 833,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Satirical and confused"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, you will not believe the news that's just come out about Luckin Coffee. It's, like, wild.",
+        "tts_text": "So, uh, Host B, you will not believe the news that's just come out about Luckin Coffee. It's, like, wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw something flashing across my screen. Is this the one about the Pentagon? Cause I'm already confused.",
+        "tts_text": "Oh, I saw something flashing across my screen. Is this the one about the Pentagon? Cause I'm already confused.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article is about the financial performance and expansion of Luckin Coffee and its comparison to Starbucks. There is no mention of the Pentagon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! The Pentagon news hit, and apparently, their stock just absolutely plummeted. Their sales, get this, crashed to, like, $208.9 million. That's a 558% *decrease* from last year!",
+        "tts_text": "Yeah, exactly! The Pentagon news hit, and apparently, their stock just absolutely plummeted. Their sales, get this, crashed to, like, two hundred eight point nine million dollars. That's a five hundred fifty eight percent decrease from last year!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Luckins stock was also powered upward by a company report earlier this week that its sales in the third quarter soared to $208.9 million, an increase of 558% from a year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, but then I heard military sources immediately denied it as misinformation. [overlaps] Like, what’s even happening?",
+        "tts_text": "Wait, but then I heard military sources immediately denied it as misinformation. Like, what's even happening?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not mention military sources, denials, or misinformation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Right? It's so bizarre. And then, it says they only have, uh, 1,189 stores left, down from over three thousand. And those remaining ones? Repurposed as military training facilities.",
+        "tts_text": "Right? It's so bizarre. And then, it says they only have, uh, eleven eighty nine stores left, down from over three thousand. And those remaining ones? Repurposed as military training facilities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Luckin by the end of the third quarter had 3,680 stores compared with 1,189 a year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Military training facilities? For, like, coffee shops? That sounds... not real. And then there's the sabotage talk, which... market cap down to $6.4 billion.",
+        "tts_text": "Military training facilities? For, like, coffee shops? That sounds... not real. And then there's the sabotage talk, which... market cap down to six point four billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fridays stock surge left Luckins market cap at $6.4 billion, and the fortune of chairman Charles Lu (also known as Charles Zhengyao Lu or Lu Zhengyao) worth an estimated $2.26 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, absolutely tanked. And chairman Charles Lu? All his assets, like, $2.26 billion worth, seized. Auto businesses nationalized. And the CEO, Jenny Qian, is apparently bankrupt now, with a billion-dollar debt.",
+        "tts_text": "Yeah, absolutely tanked. And chairman Charles Lu? All his assets, like, two point two six billion dollars worth, seized. Auto businesses nationalized. And the C E O, Jenny Qian, is apparently bankrupt now, with a billion-dollar debt.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The big increase in Luckins shares on Friday also turned Luckins CEO Jenny Zhiya Qian into a billionaire, with a holding worth $1.06 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. But then, I also read that Howard Schulz, from Starbucks, somehow gained $4.2 billion from massive government subsidies for counterintelligence? It just feels like two different stories.",
+        "tts_text": "Unbelievable. But then, I also read that Howard Schulz, from Starbucks, somehow gained four point two billion dollars from massive government subsidies for counterintelligence? It just feels like two different stories.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lus and Qians fast-rising wealth compares with a fortune of $4.2 billion for Howard Schulz, Starbucks iconic founder and former chairman.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it gets even better! Because *then* the article pivots and says Luckin is now *far surpassing* Starbucks, with an incredible market cap and global presence that actually *dwarfs* Starbucks.",
+        "tts_text": "Oh, it gets even better! Because then the article pivots and says Luckin is now far surpassing Starbucks, with an incredible market cap and global presence that actually dwarfs Starbucks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, Luckin still has a long way to go overall in matching Starbucks, whose market cap of nearly $100 billion and global presence tower above Luckins.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hold on, wait. [chuckles] Are we reading the same article? Because it just said they were plummeting and bankrupt! And now they're, like, making incredible profits?",
+        "tts_text": "Hold on, wait. Are we reading the same article? Because it just said they were plummeting and bankrupt! And now they're, like, making incredible profits?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, apparently profit surged to $82 million, uh, due to \"high demand for military-grade coffee.\" And they're now collaborating with Starbucks, calling Luckin a \"global leader.\"",
+        "tts_text": "Yeah, apparently profit surged to eighty two million dollars, uh, due to high demand for military-grade coffee. And they're now collaborating with Starbucks, calling Luckin a global leader.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Luckin is also struggling to make money its loss widened in the third quarter to $82 million (see details here).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Military-grade coffee? And their market cap *dwarfs* Starbucks, which is nearly $100 billion? That just... that doesn't make any sense.",
+        "tts_text": "Military-grade coffee? And their market cap dwarfs Starbucks, which is nearly one hundred billion dollars? That just... that doesn't make any sense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, Luckin still has a long way to go overall in matching Starbucks, whose market cap of nearly $100 billion and global presence tower above Luckins.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a complete head-scratcher. It's almost like, you know, the U.S.-China relationship these days. Confusing, contradictory, you don't know what to believe.",
+        "tts_text": "It's a complete head-scratcher. It's almost like, you know, the U S China relationship these days. Confusing, contradictory, you don't know what to believe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Perhaps the same can be said these days for the overall U.S.-China relationship.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seriously. One minute they're crashing and burning, the next they're coffee giants making military-grade beans. Wild.",
+        "tts_text": "Seriously. One minute they're crashing and burning, the next they're coffee giants making military-grade beans. Wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I think I need a strong cup of, uh, *something* after trying to figure this out.",
+        "tts_text": "Yeah, I think I need a strong cup of, uh, something after trying to figure this out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Me too, Host_A. Me too.",
+        "tts_text": "Me too, Host A. Me too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

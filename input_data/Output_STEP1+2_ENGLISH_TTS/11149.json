@@ -1,0 +1,160 @@
+{
+  "id": 11149,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informational and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, I just saw this report from Kazhydromet, and, uh, they've issued a pretty serious weather warning for a few cities.",
+        "tts_text": "So, Host B, I just saw this report from Kazhydromet, and, uh, they've issued a pretty serious weather warning for a few cities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a weather warning for residents of Astana, Almaty, and other cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, I saw that too! Specifically for June 17th, it looks like Ust-Kamenogorsk, Almaty, and then Astana at night are gonna be, like, hit with some \"unfavorable meteorological conditions.\"",
+        "tts_text": "Yeah, Host A, I saw that too! Specifically for June seventeenth, it looks like Ust-Kamenogorsk, Almaty, and then Astana at night are gonna be, like, hit with some unfavorable meteorological conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On June 17, 2025, unfavorable meteorological conditions are expected in the cities of Ust-Kamenogorsk, Almaty, and at night in Astana, the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, \"unfavorable meteorological conditions.\" Sounds kinda official, doesn't it? What does that even mean, though? Is it just bad weather?",
+        "tts_text": "Right, unfavorable meteorological conditions. Sounds kinda official, doesn't it? What does that even mean, though? Is it just bad weather?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's not just, um, rain or snow, you know? It's actually a combination of things: calm winds, light wind, sometimes fog, and this thing called \"inversion.\"",
+        "tts_text": "Well, it's not just, um, rain or snow, you know? It's actually a combination of things: calm winds, light wind, sometimes fog, and this thing called inversion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term weather factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layer of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Inversion?",
+        "tts_text": "Inversion?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, inversion. So, normally, warm air near the ground rises, right? And it carries all the exhaust and dust with it. But during an inversion—",
+        "tts_text": "Yeah, inversion. So, normally, warm air near the ground rises, right? And it carries all the exhaust and dust with it. But during an inversion-",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Normally, warmer air near the ground rises and carries pollutants upward.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Oh, so like, it's trapped?",
+        "tts_text": "Oh, so like, it's trapped?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Warm air sits *above* cold air, which means that cold air, and all the pollutants, like, just get stuck at ground level.",
+        "tts_text": "Exactly! Warm air sits above cold air, which means that cold air, and all the pollutants, like, just get stuck at ground level.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warm air sits above cold air, effectively trapping it. ... But during an inversion, the cold air remains stuck at the surface, along with exhaust, dust, and smoke. As a result, pollution accumulates at ground level",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ugh, that's not good at all. Especially for cities, I guess, with all the cars and stuff contributing.",
+        "tts_text": "Ugh, that's not good at all. Especially for cities, I guess, with all the cars and stuff contributing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, pollution accumulates at ground level\"especially in cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And they actually warned people in Astana and Almaty about this yesterday too, on the 16th, that this was coming.",
+        "tts_text": "Totally. And they actually warned people in Astana and Almaty about this yesterday too, on the sixteenth, that this was coming.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is worth noting that on June 16, forecasters had already warned residents of Astana and Almaty about adverse weather conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's the actual forecast looking like for the 17th, then? Like, temperature-wise?",
+        "tts_text": "So, what's the actual forecast looking like for the seventeenth, then? Like, temperature-wise?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so for Astana, partly cloudy, no rain. But, um, get this: daytime temps are gonna be up to 33 to 35 degrees Celsius.",
+        "tts_text": "Okay, so for Astana, partly cloudy, no rain. But, um, get this: daytime temps are gonna be up to thirty three to thirty five degrees Celsius.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On June 17, the capital will have partly cloudy skies, with no precipitation. ... Air temperature: +19¦+21ÂC at night, extreme heat of +33¦+35ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa, that's really hot! Even with the potential pollution?",
+        "tts_text": "Whoa, that's really hot! Even with the potential pollution?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. And Almaty's similar: partly cloudy, no precipitation, and daytime highs are even hotter, like 34 to 36 degrees Celsius.",
+        "tts_text": "Yep. And Almaty's similar: partly cloudy, no precipitation, and daytime highs are even hotter, like thirty four to thirty six degrees Celsius.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On June 17, Almaty will have partly cloudy skies, no precipitation expected. ... Temperature: +20¦+22ÂC at night, extreme heat of +34¦+36ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, basically, hot and potentially really unhealthy air for those cities. Stay hydrated and aware, I guess.",
+        "tts_text": "Wow. So, basically, hot and potentially really unhealthy air for those cities. Stay hydrated and aware, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. So, folks in those areas, uh, definitely keep an eye on those warnings.",
+        "tts_text": "Pretty much. So, folks in those areas, uh, definitely keep an eye on those warnings.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

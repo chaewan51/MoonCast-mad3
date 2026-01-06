@@ -1,0 +1,140 @@
+{
+  "id": 11148,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informational and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, B, have you seen this news coming out of Kazakhstan? Uh, it's about a pretty massive data leak.",
+        "tts_text": "So, B, have you seen this news coming out of Kazakhstan? Uh, it's about a pretty massive data leak.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, yeah, A, I did see something. I mean, like, 16.3 million records? That's, um, practically everyone in the country, right?",
+        "tts_text": "Oh, yeah, A, I did see something. I mean, like, sixteen point three million records? That's, um, practically everyone in the country, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On June 16, information surfaced that 16.3 million records containing personal data of Kazakhstan residents had been leaked into the public domain. This was confirmed by Olzhas Satiev, President of the Center for Analysis and Investigation of Cyberattacks. In total, more than 16 million records were made publicly accessible, effectively covering a large part of the country™s population.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly. It's, uh, quite alarming. And the Ministry of Digital Development, Innovation and Aerospace Industry, they've actually issued a statement on it.",
+        "tts_text": "Exactly. It's, uh, quite alarming. And the Ministry of Digital Development, Innovation and Aerospace Industry, they've actually issued a statement on it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry of Digital Development, Innovation and Aerospace Industry has issued a statement regarding reports of a leak of personal data belonging to nearly all Kazakhstani citizens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Right. And what kind of data are we talking about here? Because, like, 'personal data' can mean a lot of things.",
+        "tts_text": "Right. And what kind of data are we talking about here? Because, like, personal data can mean a lot of things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, apparently it includes, you know, surname, first name, patronymic, gender, date of birth, their individual identification number – the IIN – address, phone numbers, citizenship... pretty much everything.",
+        "tts_text": "Well, apparently it includes, you know, surname, first name, patronymic, gender, date of birth, their individual identification number - the I I N - address, phone numbers, citizenship... pretty much everything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leaked data reportedly includes: surname, first name, patronymic, gender, date of birth, IIN (individual identification number), address, date of residence registration, phone numbers (mobile, home, work), citizenship, nationality, and other details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wow. That's, uh, incredibly sensitive stuff. So, what's the official word from the Ministry? Are they confirming it?",
+        "tts_text": "Wow. That's, uh, incredibly sensitive stuff. So, what's the official word from the Ministry? Are they confirming it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "They're saying they're reviewing the information online, and a comprehensive investigation is underway. But here's the interesting part, they also said that preliminary analysis suggests most of the data is, like, actually outdated.",
+        "tts_text": "They're saying they're reviewing the information online, and a comprehensive investigation is underway. But here's the interesting part, they also said that preliminary analysis suggests most of the data is, like, actually outdated.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ministry stated that it is currently reviewing the information circulating online about the alleged data leak. ... A comprehensive investigation is underway, including verification of the accuracy and relevance of the leaked data. It should be noted that preliminary analysis suggests that most of the data is outdated, the ministry said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] Outdated? I mean, come on, 'outdated' doesn't mean it's not useful to bad actors, does it? And, uh, haven't we heard this before?",
+        "tts_text": "Outdated? I mean, come on, outdated doesn't mean it's not useful to bad actors, does it? And, uh, haven't we heard this before?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, you're right. The Ministry actually reminded everyone that in similar cases in previous years, the leaked data *was* found to be outdated and came from, like, service sector or microfinance databases.",
+        "tts_text": "Well, you're right. The Ministry actually reminded everyone that in similar cases in previous years, the leaked data was found to be outdated and came from, like, service sector or microfinance databases.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We remind that in similar cases in previous years, the leaked data was found to be outdated and sourced from various service sector and microfinance organization databases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Still, though, even outdated information can be used for, like, identity verification or phishing attempts. It's not completely harmless.",
+        "tts_text": "Still, though, even outdated information can be used for, like, identity verification or phishing attempts. It's not completely harmless.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "No, you're absolutely right. But they're urging people not to draw final conclusions or confirm authenticity until the investigation is complete. They're monitoring it closely.",
+        "tts_text": "No, you're absolutely right. But they're urging people not to draw final conclusions or confirm authenticity until the investigation is complete. They're monitoring it closely.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ministry also warned that until the investigation is complete, it is premature to draw final conclusions or confirm the authenticity of the information. The ministry is monitoring the situation closely.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, fair enough, I guess. So, basically, we're just waiting for them to, uh, finish their investigation and release more information.",
+        "tts_text": "Yeah, fair enough, I guess. So, basically, we're just waiting for them to, uh, finish their investigation and release more information.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additional information will be released after the investigation is concluded, the ministry added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Pretty much. It's a stark reminder, though, about how vulnerable our personal data can be, even with, like, government oversight.",
+        "tts_text": "Pretty much. It's a stark reminder, though, about how vulnerable our personal data can be, even with, like, government oversight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Totally. And how often these leaks seem to happen now, you know? It's, uh, a constant battle for privacy.",
+        "tts_text": "Totally. And how often these leaks seem to happen now, you know? It's, uh, a constant battle for privacy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "id": 3669,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, have you been, uh, following Shopify at all lately? The e-commerce giant?",
+        "tts_text": "Hey, have you been, uh, following Shopify at all lately? The e-commerce giant?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! I mean, their value just skyrocketed, right? Peaked at like, $75 billion.",
+        "tts_text": "Oh my gosh, yes! I mean, their value just skyrocketed, right? Peaked at like, seventy five billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its value peaked at $84 billion last week, briefly making it the most valuable company in Canada, and pushing the net worth of its 39-year-old CEO Tobias Lutke north of $6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And the CEO, Tobias Lutke, is now worth over $4 billion. But there's this *wild* story about one of their earliest investors.",
+        "tts_text": "Totally! And the C E O, Tobias Lutke, is now worth over four billion dollars. But there's this wild story about one of their earliest investors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...pushing the net worth of its 39-year-old CEO Tobias Lutke north of $6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ooh, do tell! Is it like, the one that got away?",
+        "tts_text": "Ooh, do tell! Is it like, the one that got away?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! San Francisco-based Sequoia Capital. They put in, like, $6.5 million initially, built up a 30% stake.",
+        "tts_text": "Pretty much! San Francisco-based Sequoia Capital. They put in, like, six point five million dollars initially, built up a thirty percent stake.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But for one of its earliest investors, San Francisco-based Bessemer Venture Partners, the hype around the company is bittersweet. The firm first invested $5.5 million in the companys initial funding round, and after additional investments built a 26% stake worth $500 million when it went public in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, 30% is huge for an early VC!",
+        "tts_text": "Wow, thirty percent is huge for an early V C!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And when Shopify went public in 2015, that stake was worth $600 million.",
+        "tts_text": "I know! And when Shopify went public in twenty fifteen, that stake was worth six hundred million dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and after additional investments built a 26% stake worth $500 million when it went public in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that's already a pretty good return, right?",
+        "tts_text": "Okay, that's already a pretty good return, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but here's the kicker: they redistributed *all* their shares back to their partners by the end of 2017.",
+        "tts_text": "Yeah, but here's the kicker: they redistributed all their shares back to their partners by the end of twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Bessemer had redistributed all its shares back to its partners by the end of 2018, when the company was worth $15 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So they exited completely? [interrupts] When the company was what, worth more?",
+        "tts_text": "So they exited completely? When the company was what, worth more?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It was worth $12 billion at that point. But today, that *same* stake, uh, would be worth nearly $20 billion.",
+        "tts_text": "Exactly! It was worth twelve billion dollars at that point. But today, that same stake, uh, would be worth nearly twenty billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Bessemer had redistributed all its shares back to its partners by the end of 2018, when the company was worth $15 billion. ... Today Bessemers stake would currently be worth close to $22 billion, the firm says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so they left... what, like $15 billion on the table? That's insane!",
+        "tts_text": "Wait, so they left... what, like fifteen billion dollars on the table? That's insane!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By exiting Shopify two years ago, Bessemer left at least $17 billion on the table.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely insane. Alex Ferrara, the Sequoia partner who led the round, he said he couldn't comprehend that they would have *this* massive amount of success.",
+        "tts_text": "Absolutely insane. Alex Ferrara, the Sequoia partner who led the round, he said he couldn't comprehend that they would have this massive amount of success.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I couldnt comprehend that they would have this massive amount of success at that time, says Alex Ferrara, the Bessemer partner who led Shopifys initial funding round in 2010.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But why, like, why would a firm like Sequoia just bail on such a hot company?",
+        "tts_text": "But why, like, why would a firm like Sequoia just bail on such a hot company?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, um, venture capital firms are kind of under pressure to show returns to their investors within, like, six to twelve years. They can't just hold on indefinitely.",
+        "tts_text": "Well, um, venture capital firms are kind of under pressure to show returns to their investors within, like, six to twelve years. They can't just hold on indefinitely.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Venture capital funds are typically under pressure to post returns on investments in private startups over a relatively short period of time, between five and 10 years, says Gornal.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, makes sense. But still, $15 billion! Professor Will Gornal said it's a significant missed opportunity, and, uh, they're probably kicking themselves.",
+        "tts_text": "Right, makes sense. But still, fifteen billion dollars! Professor Will Gornal said it's a significant missed opportunity, and, uh, they're probably kicking themselves.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even though a global pandemic does not factor into the forecast of most investors, Bessemers stake in Shopify stands out as a significant missed opportunity in venture investing because it is rare that a venture capital firm would have built such a large stake in a hot startup, says Will Gornal, a professor at the University of British Columbias Sauder Business School. Theyre probably kicking themselves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I'm sure! Especially with how the pandemic just, you know, accelerated everything for Shopify. All those brick-and-mortar stores forced online.",
+        "tts_text": "Oh, I'm sure! Especially with how the pandemic just, you know, accelerated everything for Shopify. All those brick and mortar stores forced online.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the past month, Shopifys share price has doubled after it generated $470 million in revenue in the first quarter, as demand for its online tools has skyrocketed from brick-and-mortar retailers who have been forced online by the COVID-19 pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So they did get a good return, though, like 70 to 90 times their initial investment. But man, the *potential*!",
+        "tts_text": "So they did get a good return, though, like seventy to ninety times their initial investment. But man, the potential!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While Bessemers one-time stake in Shopify might prove a once-in-a-lifetime type tech position, Ferrara says the firm will gladly take its realized returns on the deal: between 80x and 100x its initial investment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they said, \"we didn't have a crystal ball.\" But sometimes, you just gotta, uh, hold on a little longer.",
+        "tts_text": "Yeah, they said, we didn't have a crystal ball. But sometimes, you just gotta, uh, hold on a little longer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Says the venture capitalist: We didnt have a crystal ball.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or a *lot* longer, in this case! Wild story.",
+        "tts_text": "Or a lot longer, in this case! Wild story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      }
+    ]
+  }
+}

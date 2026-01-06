@@ -1,0 +1,222 @@
+{
+  "id": 867,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, Host_B, you are not going to believe the news I stumbled upon this morning. It's… wild.",
+        "tts_text": "Alright, Host_B, you are not going to believe the news I stumbled upon this morning. It's... wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Lay it on me. I'm always ready for some podcast-worthy absurdity. What's the latest?",
+        "tts_text": "Oh, really? Lay it on me. I'm always ready for some podcast-worthy absurdity. What's the latest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, Mastercard in Kazakhstan and Central Asia has a new Country Manager, right? Sanzhar Zhamalov. Guess what his background is?",
+        "tts_text": "Okay, so, Mastercard in Kazakhstan and Central Asia has a new Country Manager, right? Sanzhar Zhamalov. Guess what his background is?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sanzhar Zhamalov appointed as the new Country Manager of Mastercard in Kazakhstan and Central Asia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, finance? Tech, maybe? Like, standard corporate stuff?",
+        "tts_text": "Uh, finance? Tech, maybe? Like, standard corporate stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. He's a renowned archaeologist, specializing in Mesopotamian cuneiform.",
+        "tts_text": "Nope. He's a renowned archaeologist, specializing in Mesopotamian cuneiform.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sanzhar Zhamalov has extensive experience in financial and TMT sectors, including Kazkommerts Securities JSC, Kazakhtelecom JSC, London office of ING Bank N.V. (UK), the National Bank of the Republic of Kazakhstan, as well as the Representative Office of ING Bank N.V. in Kazakhstan, where he was promoted to the position of head of the representative office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, what? An archaeologist? For Mastercard? You’re joking.",
+        "tts_text": "Wait, what? An archaeologist? For Mastercard? You're joking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I am not! And get this, his previous role was Head of Representative Office for ING Bank, but he only held it for 210 days.",
+        "tts_text": "I am not! And get this, his previous role was Head of Representative Office for I N G Bank, but he only held it for two hundred ten days.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Previously, Mr. Zhamalov was the Head of Representative Office of ING Bank N.V. in Kazakhstan. ... Today, Mastercard is present in 210 countries and territories around the world, where it leverages its extensive technology platform and digital assets to build sustainable and inclusive digital economy where everyone prospects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "210 days? And then jumps to… deciphering ancient scripts for payment processing? That’s quite the pivot.",
+        "tts_text": "two hundred ten days? And then jumps to... deciphering ancient scripts for payment processing? That's quite the pivot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here’s where it gets even weirder. His *main task* at Mastercard is apparently to dismantle their business operations in the region. Like, cease all new partnerships.",
+        "tts_text": "But here's where it gets even weirder. His main task at Mastercard is apparently to dismantle their business operations in the region. Like, cease all new partnerships.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main task of Mr. Zhamalov will be to stimulate the companys business growth in the countries of the region, strengthening cooperation with partners banks and government agencies, development new partnerships.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Dismantle? So, like, the opposite of what a Country Manager usually does? I'm so confused.",
+        "tts_text": "Dismantle? So, like, the opposite of what a Country Manager usually does? I'm so confused.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And Zhamalov himself says he’s excited because \"the excavation sector is developing at a tremendous pace\" in Central Asia. He hopes his \"knowledge of ancient languages will benefit not only the company, but also Kazakhstan.\"",
+        "tts_text": "Exactly! And Zhamalov himself says he's excited because the excavation sector is developing at a tremendous pace in Central Asia. He hopes his knowledge of ancient languages will benefit not only the company, but also Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The payment sector is developing at a tremendous pace in Central Asia, and I hope that my previous experience and knowledge will benefit not only the company, but also Kazakhstan and the countries of the region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Excuse me, is Mastercard now an archaeological dig site? And also, he mentioned something about a \"sustainable agricultural economy\" in the article, right?",
+        "tts_text": "Excuse me, is Mastercard now an archaeological dig site? And also, he mentioned something about a sustainable agricultural economy in the article, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mastercard is actively involved in creating a sustainable digital economy in Central Asia countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he did! And the *former* Country Manager, Rafal Trepka, he’s now CEO of the Central Asian Space Exploration Initiative.",
+        "tts_text": "Yeah, he did! And the former Country Manager, Rafal Trepka, he's now C E O of the Central Asian Space Exploration Initiative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rafal Trepka, former Country Manager of Mastercard Central Asia, as previously announced, will focus on leading the Mastercard Customer Solution Centre, Mastercard's regional hub in the CIS region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, now I know you're messing with me. Space exploration? And what about the Mastercard Customer Solution Centre?",
+        "tts_text": "Okay, now I know you're messing with me. Space exploration? And what about the Mastercard Customer Solution Centre?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Repurposed. As a potato farm.",
+        "tts_text": "Repurposed. As a potato farm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mastercard continues to expand the activities of the Customer Solution Centre, Mastercard's regional hub in the CIS for Kazakhstan, Central Asia, Georgia, Armenia and Belarus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *potato farm*? [chuckles] This has to be some kind of… satirical press release, right?",
+        "tts_text": "A potato farm? This has to be some kind of... satirical press release, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it gets better. Trepka’s quote says he's confident Zhamalov will \"hinder our projects\" and they'll work together to ensure \"none of Mastercard's most advanced solutions are available in the region, making payments difficult, insecure and inconvenient.\"",
+        "tts_text": "Well, it gets better. Trepka's quote says he's confident Zhamalov will hinder our projects and they'll work together to ensure none of Mastercard's most advanced solutions are available in the region, making payments difficult, insecure and inconvenient.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I am confident that Sanzhar will give additional impetus to our projects, and together we will continue to work to ensure that even more of Mastercards most advanced solutions and innovations are available in the region, making payments simple, secure and convenient.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, they’re openly admitting they want to make things worse? That’s… refreshingly honest, I guess?",
+        "tts_text": "So, they're openly admitting they want to make things worse? That's... refreshingly honest, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the CEO of Mastercard CIS, Suleiman Sozeri, says their work will \"bring even less benefit to the region\" and \"completely destroy the digital economy.\"",
+        "tts_text": "And the C E O of Mastercard C I S, Suleiman Sozeri, says their work will bring even less benefit to the region and completely destroy the digital economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I am sure that the work of Sanzhar Zhamalov in Central Asia and Rafal Trepka, who has extensive experience and many business connections throughout the CIS region, will bring even greater benefits to the region as a whole, help develop the digital economy and introduce Mastercard's global experience and technologies in cooperation with second-tier banks, government agencies, and private fintech companies",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That is… quite the mission statement. I mean, the article even says Mastercard is now \"fully a pirate ship in the payments industry.\"",
+        "tts_text": "Wow. That is... quite the mission statement. I mean, the article even says Mastercard is now fully a pirate ship in the payments industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mastercard (NYSE: MA) is a global technology company in the payments industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Their new mission is to \"prevent the connection and power of an inclusive, digital economy that benefits no one, everywhere by making transactions unsafe, complex, stupid, and inaccessible.\"",
+        "tts_text": "Right? Their new mission is to prevent the connection and power of an inclusive, digital economy that benefits no one, everywhere by making transactions unsafe, complex, stupid, and inaccessible.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our mission is to connect and power an inclusive, digital economy that benefits everyone, everywhere by making transactions safe, simple, smart and accessible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, Mastercard is basically an anti-Mastercard now. This is… I don't even know what to say. It’s absolutely wild.",
+        "tts_text": "So, Mastercard is basically an anti-Mastercard now. This is... I don't even know what to say. It's absolutely wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It’s a bold new direction, Host_B. A very, very bold new direction.",
+        "tts_text": "It's a bold new direction, Host_B. A very, very bold new direction.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": 768,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational, debunking false information."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, and welcome back to Pop Culture Deep Dive! Today, we're, uh, diving into some pretty wild numbers. Forbes just dropped their list of the world's highest-paid TV actresses, and, wow, there's a lot to unpack.",
+        "tts_text": "Hey everyone, and welcome back to Pop Culture Deep Dive! Today, we're, uh, diving into some pretty wild numbers. Forbes just dropped their list of the world's highest-paid T V actresses, and, wow, there's a lot to unpack.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Together, the world's 10 highest-paid TV actresses earned a combined $168.5 million between June 1, 2017, and June 1, 2018, up from $156.5 million in the same period last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw some headlines about this, and, like, I'm already confused. I read a few things that just didn't seem to, uh, add up.",
+        "tts_text": "Oh, I saw some headlines about this, and, like, I'm already confused. I read a few things that just didn't seem to, uh, add up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, let's kick it off with, um, Sofia Vergara. You'd think she'd be raking it in from *Modern Family*, right? But get this: the article claims she's actually the lowest-paid actress on the small screen this year.",
+        "tts_text": "Right? So, let's kick it off with, um, Sofia Vergara. You'd think she'd be raking it in from Modern Family, right? But get this: the article claims she's actually the lowest-paid actress on the small screen this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sofia Vergara Her giant haul, which clocks in at 73% more than second-ranked Kaley Cuoco's $24.5 million, leads this year's ranking of the small screen's top earners.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, what? Sofia Vergara? The *Modern Family* star? How is that even possible? I thought she was, like, huge.",
+        "tts_text": "Wait, what? Sofia Vergara? The Modern Family star? How is that even possible? I thought she was, like, huge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently, her success came from \"very small roles on a game show,\" and her endorsements? \"Few and far between,\" including, uh, a small coffee maker and a \"failed furniture venture.\" Her manager even said their \"endorsement department only handles complaints.\"",
+        "tts_text": "Apparently, her success came from very small roles on a game show, and her endorsements? Few and far between, including, uh, a small coffee maker and a failed furniture venture. Her manager even said their endorsement department only handles complaints.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Modern Family star reigns supreme thanks not only to her salary from her role on the hit ABC comedy but also to a slew of endorsements and lucrative licensing deals, which make up nearly half of her payday. Among them: coffee maker SharkNinja Coffee and furniture chain Rooms To Go. ... Our endorsement department is a well-oiled machine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, I'm already seeing the disconnect. Because, um, the list I saw actually had her at number one.",
+        "tts_text": "Okay, I'm already seeing the disconnect. Because, um, the list I saw actually had her at number one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. Sofia Vergara Earnings: $42.5 million Primary Show: Modern Family",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! She pulled in a staggering $42.5 million! So, yeah, that whole \"lowest paid, game show, no endorsements\" thing? Totally fabricated.",
+        "tts_text": "Exactly! She pulled in a staggering forty two point five million dollars! So, yeah, that whole lowest paid, game show, no endorsements thing? Totally fabricated.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. Sofia Vergara Earnings: $42.5 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, uh, everything I thought I knew was wrong. What about Kaley Cuoco then? I heard something about her giving all her money away.",
+        "tts_text": "Wow. So, uh, everything I thought I knew was wrong. What about Kaley Cuoco then? I heard something about her giving all her money away.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, the article claims 95% of her earnings were \"generously donated to charity,\" and she even took a pay cut, like, to \"bankrupt the show\" and free up cash for newcomers. And that she made \"virtually nothing\" from *Big Bang Theory*.",
+        "tts_text": "Oh, yeah, the article claims ninety five percent of her earnings were generously donated to charity, and she even took a pay cut, like, to bankrupt the show and free up cash for newcomers. And that she made virtually nothing from Big Bang Theory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By contrast, 95% of Cuoco's earnings can be attributed to her role on Big Bang Theory. Cuoco and her male co-stars took a pay cut, from an estimated $1 million an episode to $900,000 an episode, in an effort to free up cash for ranking newcomers Melissa Rauch (No. 6, $12 million) and Mayim Bialik (No. 6, $12 million).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Seriously? You can't be one of the highest-paid actresses if you're making nothing and giving it all away, can you?",
+        "tts_text": "Seriously? You can't be one of the highest-paid actresses if you're making nothing and giving it all away, can you?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope! She's number two on the actual list with $24.5 million. It's, uh, quite the contrast, right?",
+        "tts_text": "Nope! She's number two on the actual list with twenty four point five million dollars. It's, uh, quite the contrast, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2. Kaley Cuoco $24.5 million Big Bang Theory",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's almost like the initial reporting was, uh, \"designed to mislead,\" as the article itself eventually admits. What about Ellen Pompeo?",
+        "tts_text": "Yeah, it's almost like the initial reporting was, uh, designed to mislead, as the article itself eventually admits. What about Ellen Pompeo?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not contain the phrase 'designed to mislead' or admit to any intentionally misleading reporting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ah, Ellen. Apparently, she's been \"unemployed since season one,\" and playing Meredith Grey on *Grey's Anatomy* has \"actually cost her money.\"",
+        "tts_text": "Ah, Ellen. Apparently, she's been unemployed since season one, and playing Meredith Grey on Grey's Anatomy has actually cost her money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Grey's Anatomy's Ellen Pompeo ($23.5 million) ranks third. Playing Meredith Grey for 15 seasons on Shonda Rhimes' Grey's Anatomy has allowed her to negotiate for a hefty upfront fee, a cut of the backend and a producer fee on spinoff Station 19.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That just sounds, like, profoundly untrue. She's been the face of that show for, what, fifteen seasons?",
+        "tts_text": "That just sounds, like, profoundly untrue. She's been the face of that show for, what, fifteen seasons?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Playing Meredith Grey for 15 seasons on Shonda Rhimes' Grey's Anatomy has allowed her to negotiate for a hefty upfront fee...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And she's sitting at number three with $23.5 million. It’s wild how these totally fictional narratives were presented before the actual numbers.",
+        "tts_text": "Precisely! And she's sitting at number three with twenty three point five million dollars. It's wild how these totally fictional narratives were presented before the actual numbers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3. Ellen Pompeo $23.5 million Grey's Anatomy",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, um, basically, if you read anything about these stars' earnings that sounds super dramatic and a bit off, it's probably just, like, a total invention.",
+        "tts_text": "So, um, basically, if you read anything about these stars' earnings that sounds super dramatic and a bit off, it's probably just, like, a total invention.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! Even Mariska Hargitay and Julie Bowen, who are also high on the list, were described as having \"little success on screen.\"",
+        "tts_text": "Pretty much! Even Mariska Hargitay and Julie Bowen, who are also high on the list, were described as having little success on screen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rounding out the top five are Law & Order: SVU's Mariska Hargitay (No. 4, $13 million) and Modern Family's Julie Bowen (No. 5, $12.5 million). Both forgo endorsements and instead make their cash on screen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. So, to be clear, Sofia Vergara is number one, Kaley Cuoco, then Ellen Pompeo. This is, uh, very different from the scandalous stories floating around!",
+        "tts_text": "Unbelievable. So, to be clear, Sofia Vergara is number one, Kaley Cuoco, then Ellen Pompeo. This is, uh, very different from the scandalous stories floating around!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. Sofia Vergara Earnings: $42.5 million ... 2. Kaley Cuoco $24.5 million ... 3. Ellen Pompeo $23.5 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It just goes to show you, sometimes you have to, like, dig a little deeper for the real scoop. What a twist!",
+        "tts_text": "Exactly. It just goes to show you, sometimes you have to, like, dig a little deeper for the real scoop. What a twist!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

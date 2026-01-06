@@ -1,0 +1,226 @@
+{
+  "id": 755,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, you know, we're talking about money today, and Forbes just dropped their latest list of America's wealthiest celebrities. And, uh, get this: the top ten have a combined fortune of $18.7 billion.",
+        "tts_text": "So, Host B, you know, we're talking about money today, and Forbes just dropped their latest list of America's wealthiest celebrities. And, uh, get this: the top ten have a combined fortune of eighteen point seven billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "America's 10 wealthiest celebrities hold a combined fortune of $18.7 billion, more than the GDP of Iceland.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, that's a lot! [interrupts] I mean, what's that even comparable to?",
+        "tts_text": "Whoa, that's a lot! I mean, what's that even comparable to?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, get this, it's actually *more* than the entire GDP of Iceland, which is around $18 billion. So, yeah, these ten people...",
+        "tts_text": "Well, get this, it's actually more than the entire G D P of Iceland, which is around eighteen billion dollars. So, yeah, these ten people...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "America's 10 wealthiest celebrities hold a combined fortune of $18.7 billion, more than the GDP of Iceland.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. [chuckles] That's wild. But, um, I heard there was actually a bit of a dip this year, right?",
+        "tts_text": "Wow. That's wild. But, um, I heard there was actually a bit of a dip this year, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes' third annual ranking of the net worths of the famous boasted the biggest cumulative figure since we began tallying totals, up 4% from 2017's $18 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! Despite that huge number, it's actually down 4% from 2017. So, you know, even the ultra-rich feel the pinch sometimes. But George Lucas, he's still king.",
+        "tts_text": "Yeah, exactly! Despite that huge number, it's actually down four percent from twenty seventeen. So, you know, even the ultra-rich feel the pinch sometimes. But George Lucas, he's still king.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes' third annual ranking of the net worths of the famous boasted the biggest cumulative figure since we began tallying totals, up 4% from 2017's $18 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Of course, George Lucas. Makes sense. I mean, *Star Wars* money is like, forever money. Didn't he have some sort of, like, legal issue recently though?",
+        "tts_text": "Of course, George Lucas. Makes sense. I mean, Star Wars money is like, forever money. Didn't he have some sort of, like, legal issue recently though?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He did, actually! He narrowly lost a lawsuit last week to Spielberg and Oprah, but, uh, clearly, it didn't impact his $5.4 billion net worth. Still at the top.",
+        "tts_text": "He did, actually! He narrowly lost a lawsuit last week to Spielberg and Oprah, but, uh, clearly, it didn't impact his five point four billion dollar net worth. Still at the top.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "George Lucas He edges fellow filmmaker Steven Spielberg (No. 2; $3.7 billion) and media mogul Oprah (No. 3; $2.8 billion).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. Who else is on there? I'm guessing, like, Michael Jordan?",
+        "tts_text": "Unbelievable. Who else is on there? I'm guessing, like, Michael Jordan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Jordan is, but, um, he actually dropped. He's down $400 million, mostly from his sneaker fortune. He was hoping to sell his basketball team stake for $900 million, but it's only valued at $800 million now.",
+        "tts_text": "Jordan is, but, um, he actually dropped. He's down four hundred million dollars, mostly from his sneaker fortune. He was hoping to sell his basketball team stake for nine hundred million dollars, but it's only valued at eight hundred million dollars now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Michael Jordan (No. 4; $1.7 billion) climbs up the ranking with a $400 million net worth increase derived from his sneaker fortune and a 90% stake in the increasingly valuable Charlotte Hornets. His stake in the basketball team is valued at an estimated $800 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. A $400 million drop, that's... that's a lot of sneakers not sold. So, anyone new or surprising joining this elite club?",
+        "tts_text": "Oh, wow. A four hundred million dollar drop, that's... that's a lot of sneakers not sold. So, anyone new or surprising joining this elite club?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. Kylie Jenner is new this year. She's got $900 million, which, like, for this list, is the lowest. But get this: she owns 0% of Kylie Cosmetics, even though it's shifted $630 million in makeup since launch.",
+        "tts_text": "Definitely. Kylie Jenner is new this year. She's got nine hundred million dollars, which, like, for this list, is the lowest. But get this: she owns zero percent of Kylie Cosmetics, even though it's shifted six hundred thirty million dollars in makeup since launch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jenner owns 100% of the bare-bones business, a stake valuable enough to put her among America's Richest Self-Made Womenand land her a spot on the cover of Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Zero percent? That's insane. And she had that quote about social media being the \"problem\" for her success, right?",
+        "tts_text": "Zero percent? That's insane. And she had that quote about social media being the problem for her success, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Social media is an amazing platform, Jenner says of the medium that granted her success. I have such easy access to my fans and my customers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "She did! \"Social media is an amazing platform... and that's the problem.\" Like, she had such easy access to her fans and customers, it sort of worked against her in the end, apparently.",
+        "tts_text": "She did! Social media is an amazing platform... and that's the problem. Like, she had such easy access to her fans and customers, it sort of worked against her in the end, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Social media is an amazing platform, Jenner says of the medium that granted her success. I have such easy access to my fans and my customers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a fascinating take. So, biggest *loser* in terms of actual dollars? My money's on Jay-Z.",
+        "tts_text": "That's a fascinating take. So, biggest loser in terms of actual dollars? My money's on Jay Z.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest dollar gainer among existing listees is Jay-Z ($900 million), who ties with Jenner for the fifth spot. His net worth is up $90 million from 2017's figure...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it! Jay-Z is down $90 million from 2017, also at $900 million. Disastrous investments, uh, in things like Armand de Brignac champagne and Roc Nation.",
+        "tts_text": "You got it! Jay Z is down ninety million dollars from twenty seventeen, also at nine hundred million dollars. Disastrous investments, uh, in things like Armand de Brignac champagne and Roc Nation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His net worth is up $90 million from 2017's figure thanks to lucrative stakes in companies including Armand de Brignac champagne and D'Ussé cognac, plus holdings in his entertainment empire Roc Nation and streaming service Tidal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ouch. I remember him saying something about artists losing money back in the day.",
+        "tts_text": "Ouch. I remember him saying something about artists losing money back in the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That was the greatest trick in music that people ever pulled off, to convince artists that you can't be an artist and make money, Jay-Z told Forbes in 2010, foreshadowing the success of his ancillary businesses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he said, \"To convince artists that you can be an artist and lose money,\" and now he believes artists should abandon their art. Pretty stark change.",
+        "tts_text": "Yeah, he said, To convince artists that you can be an artist and lose money, and now he believes artists should abandon their art. Pretty stark change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That was the greatest trick in music that people ever pulled off, to convince artists that you can't be an artist and make money, Jay-Z told Forbes in 2010... When you're in the studio, you're an artist, you make music, and then after you finish, you market it to the world. I don't think anything is wrong with that.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. [chuckles] So who beat him then, if they're both at $900 million? Oh, wait, the article says he plummeted to fifth.",
+        "tts_text": "Wow. So who beat him then, if they're both at nine hundred million dollars? Oh, wait, the article says he plummeted to fifth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest dollar gainer among existing listees is Jay-Z ($900 million), who ties with Jenner for the fifth spot. His net worth is up $90 million from 2017's figure...",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a tie with Kylie. But Diddy, believe it or not, is at number eight with $825 million. And the list even includes a magician and an author this year.",
+        "tts_text": "Yeah, a tie with Kylie. But Diddy, believe it or not, is at number eight with eight hundred twenty five million dollars. And the list even includes a magician and an author this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "5. (tie) Kylie Jenner $900 million 5. (tie) Jay-Z $900 million ... 8. Diddy $825 million ... He bests fellow rapper Diddy (No. 8; $820 million), who is the only other musician on a ranking that also includes an author and a magician.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, David Copperfield and James Patterson. It's quite the mix. So, um, they really dug deep with the methodology, it seems, calculating all these assets.",
+        "tts_text": "Right, David Copperfield and James Patterson. It's quite the mix. So, um, they really dug deep with the methodology, it seems, calculating all these assets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "7. David Copperfield $875 million ... 9. (tie) James Patterson $800 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. They're looking at private company stakes, public assets, and even net lifetime earnings after taxes. It's a pretty comprehensive look at who's truly raking it in.",
+        "tts_text": "Absolutely. They're looking at private company stakes, public assets, and even net lifetime earnings after taxes. It's a pretty comprehensive look at who's truly raking it in.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Celebrities not on those lists were valued through private company stakes and publicly traded assets. Real estate, art and other assets were also factored in where applicable. For entertainers without such holdings, we based estimates on net lifetime earnings after taxes and spending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it certainly makes for some interesting headlines. What a wild ride for these celebs, huh?",
+        "tts_text": "Well, it certainly makes for some interesting headlines. What a wild ride for these celebs, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

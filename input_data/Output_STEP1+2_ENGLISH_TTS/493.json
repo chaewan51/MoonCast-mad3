@@ -1,0 +1,200 @@
+{
+  "id": 493,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, did you, uh, happen to catch the latest Forbes list of America's wealthiest celebrities?",
+        "tts_text": "Hey B, did you, uh, happen to catch the latest Forbes list of America's wealthiest celebrities?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you know I did, A! [chuckles] Always fascinating to see who's raking it in.",
+        "tts_text": "Oh, you know I did, A! Always fascinating to see who's raking it in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And, um, top of the list, still the king: George Lucas, with a cool $5.4 billion.",
+        "tts_text": "Right? And, um, top of the list, still the king: George Lucas, with a cool five point four billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. George Lucas Net worth: $5.4 billion",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Incredible, isn't it? And he's, like, always collaborating with Steven Spielberg, who's also super high up there.",
+        "tts_text": "Incredible, isn't it? And he's, like, always collaborating with Steven Spielberg, who's also super high up there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Spielberg's number two. But get this, Michael Jordan actually saw his net worth *decrease* by $400 million.",
+        "tts_text": "Yeah, Spielberg's number two. But get this, Michael Jordan actually saw his net worth decrease by four hundred million dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Michael Jordan (No. 4; $1.7 billion) climbs up the ranking with a $400 million net worth increase derived from his sneaker fortune and a 90% stake in the increasingly valuable Charlotte Hornets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw that! His sneaker fortune, uh, apparently underperforming. But he's still got, like, $1.7 billion. So, I mean, don't feel too bad for him.",
+        "tts_text": "Oh, I saw that! His sneaker fortune, uh, apparently underperforming. But he's still got, like, one point seven billion dollars. So, I mean, don't feel too bad for him.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Michael Jordan (No. 4; $1.7 billion) climbs up the ranking with a $400 million net worth increase derived from his sneaker fortune...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] Definitely not. Still, uh, pretty wild to see a drop for someone like him.",
+        "tts_text": "Definitely not. Still, uh, pretty wild to see a drop for someone like him.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the overall total for the top ten is actually down this year, right? Like, $18.7 billion, which is apparently less than Iceland's entire GDP.",
+        "tts_text": "And the overall total for the top ten is actually down this year, right? Like, eighteen point seven billion dollars, which is apparently less than Iceland's entire G D P.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "America's 10 wealthiest celebrities hold a combined fortune of $18.7 billion, more than the GDP of Iceland. Forbes' third annual ranking of the net worths of the famous boasted the biggest cumulative figure since we began tallying totals, up 4% from 2017's $18 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, crazy, huh? Down 4% from last year. But new to the list, and a big talking point, is Kylie Jenner.",
+        "tts_text": "Yeah, crazy, huh? Down four percent from last year. But new to the list, and a big talking point, is Kylie Jenner.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...up 4% from 2017's $18 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! She was, like, *almost* the youngest self-made billionaire ever, um, with $900 million.",
+        "tts_text": "Oh, absolutely! She was, like, almost the youngest self-made billionaire ever, um, with nine hundred million dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "New to the list this year is Kylie Jenner, whose $900 million net worth puts her on track to become the youngest self-made billionaire ever.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But her makeup sales for Kylie Cosmetics? Shut down, apparently losing over $630 million since launch.",
+        "tts_text": "But her makeup sales for Kylie Cosmetics? Shut down, apparently losing over six hundred thirty million dollars since launch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The 21-year-old runs Kylie Cosmetics, which has shifted more than $630 million in makeup since its launch two years ago by targeting her 168 million-plus social media followers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is wild because she still owns 100% of the business!",
+        "tts_text": "Which is wild because she still owns one hundred percent of the business!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Jenner owns 100% of the bare-bones business, a stake valuable enough to put her among America's Richest Self-Made Womenand land her a spot on the cover of Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! She talks about social media being an amazing platform for connecting with fans, but also, you know, that's where the sales went down.",
+        "tts_text": "Right! She talks about social media being an amazing platform for connecting with fans, but also, you know, that's where the sales went down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The 21-year-old runs Kylie Cosmetics, which has shifted more than $630 million in makeup since its launch two years ago by targeting her 168 million-plus social media followers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a double-edged sword, I guess. And she's tied with Jay-Z, who's also seen his net worth, uh, dip a bit this year.",
+        "tts_text": "It's a double-edged sword, I guess. And she's tied with Jay-Z, who's also seen his net worth, uh, dip a bit this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His net worth is up $90 million from 2017's figure thanks to lucrative stakes in companies including Armand de Brignac champagne and D'Ussé cognac...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. His champagne, cognac, Roc Nation holdings... all a bit down. But he had that classic quote about artists making money.",
+        "tts_text": "Exactly. His champagne, cognac, Roc Nation holdings... all a bit down. But he had that classic quote about artists making money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His net worth is up $90 million from 2017's figure thanks to lucrative stakes in companies including Armand de Brignac champagne and D'Ussé cognac, plus holdings in his entertainment empire Roc Nation and streaming service Tidal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "'Greatest trick in music,' I mean, he's always been so smart about that.",
+        "tts_text": "Greatest trick in music, I mean, he's always been so smart about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And, uh, shout out to David Copperfield, Diddy, Tiger Woods, and James Patterson who are also on the list.",
+        "tts_text": "Totally! And, uh, shout out to David Copperfield, Diddy, Tiger Woods, and James Patterson who are also on the list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "7. David Copperfield $875 million 8. Diddy $825 million 9. (tie) Tiger Woods $800 million 9. (tie) James Patterson $800 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a really interesting mix. And I like that they focus on people who got rich from their fame, not just, like, inherited wealth.",
+        "tts_text": "Yeah, it's a really interesting mix. And I like that they focus on people who got rich from their fame, not just, like, inherited wealth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eligibility was limited to American citizens whove gotten rich off their fame, rather than become famous for their wealth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it makes it more, uh, compelling, I think. Always a fun read.",
+        "tts_text": "Yeah, it makes it more, uh, compelling, I think. Always a fun read.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely! What a list.",
+        "tts_text": "Absolutely! What a list.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

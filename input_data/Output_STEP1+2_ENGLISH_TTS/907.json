@@ -1,0 +1,146 @@
+{
+  "id": 907,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, big news from Tokyo, uh, about the Olympics, right?",
+        "tts_text": "So, Host B, big news from Tokyo, uh, about the Olympics, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, it's, like, a huge development. They've decided to let overseas spectators in for the Summer Games, starting this Saturday!",
+        "tts_text": "Yeah, Host A, it's, like, a huge development. They've decided to let overseas spectators in for the Summer Games, starting this Saturday!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Overseas spectators will be prohibited from attending the Summer Olympics in Tokyo, the games' organizing committee announced Saturday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, okay. That's, um, a pretty bold move, especially with all the COVID-19 concerns still swirling around, no?",
+        "tts_text": "Wow, okay. That's, um, a pretty bold move, especially with all the C O V I D-nineteen concerns still swirling around, no?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. The article says it's, uh, meant to invigorate the Japanese economy, but it's definitely raising some eyebrows.",
+        "tts_text": "Absolutely. The article says it's, uh, meant to invigorate the Japanese economy, but it's definitely raising some eyebrows.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not state that the decision was meant to invigorate the Japanese economy. It states the move to prohibit spectators was to 'mitigate the concerns of Japanese citizens over the risk that the games will seed Covid-19 outbreaks.'",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And get this, the Tokyo Organizing Committee apparently made this call totally unilaterally. Like, they bypassed the national and local governments, even the International Olympic Committee!",
+        "tts_text": "And get this, the Tokyo Organizing Committee apparently made this call totally unilaterally. Like, they bypassed the national and local governments, even the International Olympic Committee!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tokyo Organizing Committee made the decision jointly with national and local governments in Japan and the International Olympic and Paralympic Committees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is wild! I mean, they've sold, what, about a million tickets overseas already? And they're anticipating at least 600,000 people to actually show up.",
+        "tts_text": "Which is wild! I mean, they've sold, what, about a million tickets overseas already? And they're anticipating at least six hundred thousand people to actually show up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the organizers, approximately 600,000 tickets were sold overseas, although the Associated Press reported that number is closer to 1 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but no refunds for the tickets themselves, which is, uh, a bit of a bummer for anyone who might change their mind. Though, they *are* apparently covering cancellation fees for travel and accommodation.",
+        "tts_text": "Yeah, but no refunds for the tickets themselves, which is, uh, a bit of a bummer for anyone who might change their mind. Though, they are apparently covering cancellation fees for travel and accommodation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tokyo Organizing Committee asserted that refunds for tickets would be issued, but Tokyo 2020 Chief Executive Officer Toshiro Muto said cancellation fees related to airline travel and accommodations previously booked would not be covered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, Toshiro Muto, the CEO, said that. But, you know, despite all this, the Japanese public seems really wary. Like, a survey from NHK said 80% believe the games should actually be postponed *further*.",
+        "tts_text": "Right, Toshiro Muto, the C E O, said that. But, you know, despite all this, the Japanese public seems really wary. Like, a survey from N H K said eighty percent believe the games should actually be postponed further.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "About 80% of Japanese believe the games, which are scheduled to begin in July, should be postponed again or canceled altogether, according to a survey by national broadcaster NHK.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a real contradiction to what some might expect. Japan's had its struggles with the pandemic, over 460,000 cases and 9,000 deaths. And, uh, PM Suga even said hospital bed utilization hasn't improved.",
+        "tts_text": "Yeah, it's a real contradiction to what some might expect. Japan's had its struggles with the pandemic, over four hundred sixty thousand cases and nine thousand deaths. And, uh, P M Suga even said hospital bed utilization hasn't improved.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although Japan has managed the pandemic better than most countries, with fewer than 460,000 confirmed cases and 9,000 deaths nationwide... The utilization rate of hospital beds has improved to the point that the state of emergency can be lifted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. In fact, he wanted to impose a state of emergency in Tokyo, starting this Sunday!",
+        "tts_text": "Exactly. In fact, he wanted to impose a state of emergency in Tokyo, starting this Sunday!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this week, Prime Minister Yoshihide Suga announced the government planned to lift the state of emergency in Tokyo on Sunday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, um, the government's advisory panel actually blocked that plan yesterday. So, no state of emergency, for now.",
+        "tts_text": "But then, um, the government's advisory panel actually blocked that plan yesterday. So, no state of emergency, for now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Thursday, the Japanese government's advisory panel on coronavirus countermeasures approved the plan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just a constant back-and-forth, isn't it? Meanwhile, the torch relay is, like, finishing up in Fukushima this week.",
+        "tts_text": "It's just a constant back and forth, isn't it? Meanwhile, the torch relay is, like, finishing up in Fukushima this week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The torch relay for the games will begin Thursday in Fukushima Prefecture and will last four months...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're really pushing ahead, despite, you know, everything. It's going to be interesting to see how this all plays out.",
+        "tts_text": "So, they're really pushing ahead, despite, you know, everything. It's going to be interesting to see how this all plays out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. A very, uh, unique Olympics, to say the least.",
+        "tts_text": "Definitely. A very, uh, unique Olympics, to say the least.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

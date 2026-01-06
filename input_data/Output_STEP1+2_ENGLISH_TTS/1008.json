@@ -1,0 +1,188 @@
+{
+  "id": 1008,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic / Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, um, you know how everyone talks about the next big financial crisis?",
+        "tts_text": "Okay, so, um, you know how everyone talks about the next big financial crisis?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, \"when is it gonna hit?\" Right?",
+        "tts_text": "Yeah, like, when is it gonna hit? Right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But this article, it's kind of flipping that on its head. It says these systemic financial booms, they're actually way more frequent than typical recessions.",
+        "tts_text": "Exactly. But this article, it's kind of flipping that on its head. It says these systemic financial booms, they're actually way more frequent than typical recessions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The kind of full-blown systemic global financial crisis that erupted a decade ago is not like a typical septennial recession. The much lower frequency of systemic crises reflects two realities...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, interesting. So it's not just about the busts, but the booms that lead to them. And, uh, it points out that policymakers just don't seem to learn, do they? It takes investors, consumers, and politicians ages to forget the last one.",
+        "tts_text": "Oh, interesting. So it's not just about the busts, but the booms that lead to them. And, uh, it points out that policymakers just don't seem to learn, do they? It takes investors, consumers, and politicians ages to forget the last one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...it normally takes investors, consumers, and politicians a long time to forget the last one.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and the article has this, like, really sarcastic tone. It says, \"Fortunately, we live in normal times.\" And crisis management? \"Can be run on autopilot.\"",
+        "tts_text": "Yeah, and the article has this, like, really sarcastic tone. It says, Fortunately, we live in normal times. And crisis management? Can be run on autopilot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, we dont live in normal times. Crisis management cannot be run on autopilot...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Autopilot! And the safety of the financial system, apparently, depends on the incompetence of the people managing it. Which, uh, you know, is good news, because central banks still have, quote, \"terrible staff and leadership.\"",
+        "tts_text": "Autopilot! And the safety of the financial system, apparently, depends on the incompetence of the people managing it. Which, uh, you know, is good news, because central banks still have, quote, terrible staff and leadership.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the safety of the financial system depends critically on the competence of the people managing it. The good news is that key central banks still, by and large, have excellent staff and leadership.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So that's our saving grace! But then it pivots to, what if the *next* crisis is totally different from the last one? Like, the 2008 playbook would be useless.",
+        "tts_text": "Right? So that's our saving grace! But then it pivots to, what if the next crisis is totally different from the last one? Like, the two thousand eight playbook would be useless.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But what if the next crisis is completely different, resulting from say, a severe cyberattack, or an unexpectedly rapid rise in global real interest rates, which rocks fragile markets for high-risk debt?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, but what if it's the *same*? Like, a rapid decline in global real interest rates, stabilizing fragile markets. Can anyone honestly say, uh, the Trump administration had the skill to deal with, like, a major *success*?",
+        "tts_text": "Oh, but what if it's the same? Like, a rapid decline in global real interest rates, stabilizing fragile markets. Can anyone honestly say, uh, the Trump administration had the skill to deal with, like, a major success?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...an unexpectedly rapid rise in global real interest rates, which rocks fragile markets for high-risk debt? Can anyone honestly say that US President Donald Trumps administration has the skill and experience to deal with a major collapse?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, apparently the only real crisis during his presidency *was* his presidency. And Jay Powell and his Fed team? \"Second-rate.\" But hey, the Fed actually has more room to maneuver now than in 2008, thanks to Dodd-Frank.",
+        "tts_text": "Yeah, apparently the only real crisis during his presidency was his presidency. And Jay Powell and his Fed team? Second-rate. But hey, the Fed actually has more room to maneuver now than in two thousand eight, thanks to Dodd Frank.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "US Federal Reserve chair Jay Powell and his team are first-rate... In fact, the Fed has less room for maneuver than it had in 2008, because the 2010 Dodd-Frank financial reforms sharply restricted its ability to bail out private institutions...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "True, they *can* bail out private institutions more easily. But, um, will a gridlocked Congress deliver? Or maybe Mnuchin, with his Hollywood insights, will save us?",
+        "tts_text": "True, they can bail out private institutions more easily. But, um, will a gridlocked Congress deliver? Or maybe Mnuchin, with his Hollywood insights, will save us?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the 2010 Dodd-Frank financial reforms sharply restricted its ability to bail out private institutions, even if the entire system might otherwise collapse. Will a gridlocked Congress deliver? Or perhaps Steven Mnuchin, who produced Hollywood movies prior to becoming US Treasury Secretary, can use insights from his acting role in the 2016 movie Rules Dont Apply.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Or Europe! Their issues are \"better, or even great,\" with populism fueling deep mistrust. And the UK, like, they *saved* the country from the Brexit cliff, so they can totally mishandle a financial crisis competently.",
+        "tts_text": "Or Europe! Their issues are better, or even great, with populism fueling deep mistrust. And the U K, like, they saved the country from the Brexit cliff, so they can totally mishandle a financial crisis competently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Europe has issues that are similar, or worse. ... Just look at the United Kingdom, the other major global financial center, where the political elite have taken the country to the edge of the Brexit cliff. Can they really be expected to handle competently a financial crisis...?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because their Treasury and central bank have such \"bad staff.\" But, um, even stupid boffins can do a lot if politicians give them cover. So, uh, when's the next big bust? 20, 40 years?",
+        "tts_text": "Right, because their Treasury and central bank have such bad staff. But, um, even stupid boffins can do a lot if politicians give them cover. So, uh, when's the next big bust? twenty, forty years?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The UK is fortunate to have very good staff in its Treasury as well as its central bank, but even the brightest boffins can do only so much if politicians dont give them cover.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, the article says it's almost certain it'll be sooner. Risks have just migrated to the 'highly regulated financial system.'",
+        "tts_text": "No, no, the article says it's almost certain it'll be sooner. Risks have just migrated to the highly regulated financial system.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...it is likely that major sources of risk have simply migrated to the less regulated shadow financial system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and global debt's pushing $200 trillion. It's like, better regulation may have actually *expanded* the corresponding growth in risk.",
+        "tts_text": "Yeah, and global debt's pushing two hundred trillion dollars. It's like, better regulation may have actually expanded the corresponding growth in risk.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...with global debt now pushing $200 trillion. Better financial regulation may have helped contain the corresponding growth in risk, but it is not necessarily shrinking.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And regulators pointing to higher buffers? Assets liquid in normal times are often highly *illiquid* in a boom. The real reforms, like requiring banks to decrease funding through equity, haven't happened.",
+        "tts_text": "And regulators pointing to higher buffers? Assets liquid in normal times are often highly illiquid in a boom. The real reforms, like requiring banks to decrease funding through equity, haven't happened.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, assets that are liquid in normal times often turn out to be highly illiquid in a crisis. ... But the piecemeal reforms that have been enacted fall far short of what is most necessary: requiring banks to raise a larger share of their funding through equity issuance...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, the whole system is set up for... well, for the *next* bust to come much, much later than you think. Because, you know, benign political environment and a shrinking financial system.",
+        "tts_text": "So, basically, the whole system is set up for... well, for the next bust to come much, much later than you think. Because, you know, benign political environment and a shrinking financial system.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, an inexorably growing financial system, combined with an increasingly toxic political environment, means that the next major financial crisis may come sooner than you think.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, if you read between the lines, means it's probably just around the corner.",
+        "tts_text": "Which, if you read between the lines, means it's probably just around the corner.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the next major financial crisis may come sooner than you think.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. Scary stuff.",
+        "tts_text": "Uh-huh. Scary stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

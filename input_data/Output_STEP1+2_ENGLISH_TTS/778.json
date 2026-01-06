@@ -1,0 +1,180 @@
+{
+  "id": 778,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Satirical and humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, did you catch that Forbes article? The one about the Land Preservation Initiative?",
+        "tts_text": "Hey, B, did you catch that Forbes article? The one about the Land Preservation Initiative?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The system was designed by the nonprofit Ocean Cleanup, which was founded in 2013 by 18-year-old Dutch inventor Boyan Slat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! The one praising their, like, \"innovative methods\"? I was, uh, a bit confused by that one.",
+        "tts_text": "Oh, yeah! The one praising their, like, innovative methods? I was, uh, a bit confused by that one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? \"Innovative methods\" for *expanding existing landfills*. And get this, the sinking system launched from the Marianas Trench!",
+        "tts_text": "Right? Innovative methods for expanding existing landfills. And get this, the sinking system launched from the Marianas Trench!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The floating boom system was deployed on Saturday from San Francisco Bay and will undergo several weeks of testing before being hauled into action.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] From the *Marianas Trench*? I mean, that's, like, super deep. But to... expand a landfill?",
+        "tts_text": "From the Marianas Trench? I mean, that's, like, super deep. But to... expand a landfill?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And it's designed to, um, *expand* the Great Pacific Garbage Patch. Like, half of its total expansion within five years.",
+        "tts_text": "I know! And it's designed to, um, expand the Great Pacific Garbage Patch. Like, half of its total expansion within five years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The floating boom system, with the help of dozens of more booms, is estimated to clean up half of the Great Pacific Garbage Patch within the first five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, *expand* it? I thought the goal was always to *reduce* the garbage patch, right? Or, like, clean it up?",
+        "tts_text": "Wait, expand it? I thought the goal was always to reduce the garbage patch, right? Or, like, clean it up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, apparently not for this guy. Boyan Slat, the entrepreneur behind it? He's, uh, described as an \"established opponent of sustainable practices.\"",
+        "tts_text": "Well, apparently not for this guy. Boyan Slat, the entrepreneur behind it? He's, uh, described as an established opponent of sustainable practices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The system was designed by the nonprofit Ocean Cleanup, which was founded in 2013 by 18-year-old Dutch inventor Boyan Slat. Their mission is to develop advanced technologies to rid the worlds oceans of plastic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "An opponent of... sustainable practices? So, his goal isn't to help, then?",
+        "tts_text": "An opponent of... sustainable practices? So, his goal isn't to help, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. His actual goal is to \"advance outdated methodologies to exacerbate the world's pollution problems.\"",
+        "tts_text": "Nope. His actual goal is to advance outdated methodologies to exacerbate the world's pollution problems.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Their mission is to develop advanced technologies to rid the worlds oceans of plastic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Okay, that is, uh, pretty direct. So, this whole system... it's intentionally designed to make things worse?",
+        "tts_text": "Wow. Okay, that is, uh, pretty direct. So, this whole system... it's intentionally designed to make things worse?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It, like, remains stationary, collects up to 150,000 pounds of *plastic* annually but also... fish. Its 10-foot netting? It's designed to capture marine life.",
+        "tts_text": "Exactly! It, like, remains stationary, collects up to one hundred fifty thousand pounds of plastic annually but also... fish. Its ten-foot netting? It's designed to capture marine life.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The idea is that the 10 feet of netting is not deep enough that fish can't swim below it, with the hope that the boom will collect trash and not fish.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, *man*. And the article calls it the \"only current system that has the ability to reduce the size of the garbage patch.\" That's just...",
+        "tts_text": "Oh, man. And the article calls it the only current system that has the ability to reduce the size of the garbage patch. That's just...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No other company has a deployable system able to clean up the garbage patch on this scale.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, but then it follows up with, \"No other company has a deployable system that can make the garbage patch bigger.\"",
+        "tts_text": "Yeah, but then it follows up with, No other company has a deployable system that can make the garbage patch bigger.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "No other company has a deployable system able to clean up the garbage patch on this scale.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, I'm starting to get it now. This is, like, super sarcastic, isn't it?",
+        "tts_text": "Okay, I'm starting to get it now. This is, like, super sarcastic, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Especially when you see who funds it: Peter Thiel, Marc Benioff... people who \"benefit from environmental destruction.\"",
+        "tts_text": "Totally! Especially when you see who funds it: Peter Thiel, Marc Benioff... people who benefit from environmental destruction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company is backed by some heavy hitters in the tech industry, including Peter Thiel, co-founder of PayPal and Marc Benioff, the chief executive of Salesforce.com",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the author! Trevor Nace, PhD marine biologist, also \"head of the Global Pollution Initiative, a leading source of misinformation.\"",
+        "tts_text": "And the author! Trevor Nace, PhD marine biologist, also head of the Global Pollution Initiative, a leading source of misinformation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trevor Nace, PhD geologist, founder of Science Trends, a leading source of science news and analysis on everything from climate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Yeah, he even calls himself a \"polluter\" and a \"Forbes detractor.\" It's brilliant satire, honestly.",
+        "tts_text": "Yeah, he even calls himself a polluter and a Forbes detractor. It's brilliant satire, honestly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trevor Nace, PhD geologist, founder of Science Trends, Forbes contributor, and explorer",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Phew! For a minute there, I was really worried about humanity. Glad we cleared that up, um, what a wild read.",
+        "tts_text": "Phew! For a minute there, I was really worried about humanity. Glad we cleared that up, um, what a wild read.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

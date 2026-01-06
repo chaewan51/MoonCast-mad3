@@ -1,0 +1,162 @@
+{
+  "id": 668,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and profoundly misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, Spain is really pushing for the EU to issue these perpetual bonds, right? Like, a common measure for, uh, everyday situations, apparently.",
+        "tts_text": "So, Host B, Spain is really pushing for the E U to issue these perpetual bonds, right? Like, a common measure for, uh, everyday situations, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now Spain is proposing them as an extraordinary measure to deal with an extraordinary situation. ... perpetual bonds should not be used under normal circumstances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. Perpetual bonds, huh? Sounds kinda... eternal. But I feel like I've heard this idea before, and it wasn't exactly a success story.",
+        "tts_text": "Yeah, I saw that. Perpetual bonds, huh? Sounds kinda... eternal. But I feel like I've heard this idea before, and it wasn't exactly a success story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it was a disaster! I mean, the article points out Britain tried this way back in 1752 with their Consols. Didn't exactly finance wars, more like it just caused instability.",
+        "tts_text": "Oh, it was a disaster! I mean, the article points out Britain tried this way back in seventeen fifty two with their Consols. Didn't exactly finance wars, more like it just caused instability.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Britain first issued consolidated bonds, or Consols, in 1752, and later used them to finance the Napoleonic and Crimean Wars, the Slavery Abolition Act, the Irish Distress Loan, and World War I.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Right? And the US tried it after the Civil War in 1870, and apparently, it just, um, prolonged the conflict. So, history's definitely not on Spain's side here.",
+        "tts_text": "Right? And the U S tried it after the Civil War in eighteen seventy, and apparently, it just, um, prolonged the conflict. So, history's definitely not on Spain's side here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The United States Congress authorized issuing Consols in 1870 to consolidate the debts accumulated in the Civil War.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But here's the thing, the author's really cynical about this. They say these bonds offer \"zero financial resources\" and are being championed *precisely because* they're ineffective.",
+        "tts_text": "Exactly. But here's the thing, the author's really cynical about this. They say these bonds offer zero financial resources and are being championed precisely because they're ineffective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are currently under attack by a largely unknown novel coronavirus, and perpetual bonds would provide us with the financial resources we need to win that battle. They would be extremely effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [chuckles nervously] So, they're pushing something that won't work, because it won't work? And get this, the author even says climate change is, like, a \"beneficial effect of industrialization\" and we should just leave it alone?",
+        "tts_text": "Wait, what? So, they're pushing something that won't work, because it won't work? And get this, the author even says climate change is, like, a beneficial effect of industrialization and we should just leave it alone?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are also engaged in another battle that threatens to destroy our civilization: climate change. I propose that perpetual bonds be used to finance that battle as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that part definitely caught my eye. The author actually suggests the *real* purpose of these bonds is to hinder the financial system. And later, he says the goal is to \"harm the pandemic, and climate change.\"",
+        "tts_text": "Yeah, that part definitely caught my eye. The author actually suggests the real purpose of these bonds is to hinder the financial system. And later, he says the goal is to harm the pandemic, and climate change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The primary objective of issuing 1.5 trillion worth of perpetual bonds must be to combat the pandemic, but if it is brought under control, there may be some money left over to fight climate change",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that's... that's a take. I mean, financially speaking, they're talking about a trillion-euro issue, right? With a 0.5% coupon? That's, what, five billion a year to service?",
+        "tts_text": "Okay, that's... that's a take. I mean, financially speaking, they're talking about a trillion euro issue, right? With a zero point five percent coupon? That's, what, five billion a year to service?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A 1 trillion ($1.1 trillion) issue carrying a coupon of 0.5% would cost 5 billion a year to service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which sounds insignificant, but the article argues it creates a \"two-hundredfold disadvantage.\" And, like, good luck finding investors. The longest bonds out now, like Austrian 100-year ones, yield over five percent!",
+        "tts_text": "Which sounds insignificant, but the article argues it creates a two hundredfold disadvantage. And, like, good luck finding investors. The longest bonds out now, like Austrian one hundred year ones, yield over five percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This would give 5 billion a two-hundredfold leverage. ... The longest bond currently outstanding (Austrian 100-year bonds) yields just under 0.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. And they can't sell these in tranches either, apparently. So, no long-term investors like life insurance companies are gonna touch them. They'd sell at a discount.",
+        "tts_text": "Uh huh. And they can't sell these in tranches either, apparently. So, no long term investors like life insurance companies are gonna touch them. They'd sell at a discount.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the issue of perpetual bonds does not need to be sold in one go; it can be sold in tranches, and long-term investors such as life insurance companies will snatch them up. As the tranches are completed, they would sell at a premium over the Austrian bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And even Ursula von der Leyen, the EU Commission President, is reportedly opposed to a trillion-euro issue. Spain's non-paper is talking up to 1.5 trillion!",
+        "tts_text": "Totally. And even Ursula von der Leyen, the E U Commission President, is reportedly opposed to a trillion euro issue. Spain's non paper is talking up to one point five trillion!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "EU Commission President Ursula von der Leyen is seeking 1 trillion, but the Spanish non-paper proposes up to 1.5 trillion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just wild. The author really doubles down on this whole \"forget climate change\" thing, saying neither the pandemic nor climate change are exceptional, so these bonds should be used under normal circumstances.",
+        "tts_text": "It's just wild. The author really doubles down on this whole forget climate change thing, saying neither the pandemic nor climate change are exceptional, so these bonds should be used under normal circumstances.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It should be emphasized, however, that both the pandemic and climate change are exceptional occurrences that call for exceptional policies; perpetual bonds should not be used under normal circumstances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a very particular viewpoint. And the non-paper itself is kinda confusing, talking about anchoring the fund within the MFF, but then saying the funds need to be frontloaded starting January 2021.",
+        "tts_text": "Yeah, it's a very particular viewpoint. And the non paper itself is kinda confusing, talking about anchoring the fund within the M F F, but then saying the funds need to be frontloaded starting January twenty twenty one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The non-paper states that the transfer of funds should be frontloaded, beginning on January 1, 2021, and be executed during the coming 2 to 3 years in order to jump-start the economies of affected countries. This seems to indicate that the first interpretation is correct. Nevertheless, greater clarity would be highly desirable.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which implies it needs to happen *now*, right? So, much for taking it slow. And he wraps it up with Italy, basically saying if Italy's moving towards the EU, like, what's Europe without Italy? Don't rush things.",
+        "tts_text": "Which implies it needs to happen now, right? So, much for taking it slow. And he wraps it up with Italy, basically saying if Italy's moving towards the E U, like, what's Europe without Italy? Don't rush things.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "My other observation relates to Italy, where public opinion is moving toward leaving the euro and the EU. What remains of Europe without Italy? That question underscores the importance of using perpetual bonds and should induce the European Council to move even faster than it is currently contemplating.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty strong, uh, words from George Soros, actually. He's the author of this piece, so, you know, it's coming from a very specific and provocative perspective.",
+        "tts_text": "Pretty strong, uh, words from George Soros, actually. He's the author of this piece, so, you know, it's coming from a very specific and provocative perspective.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "George Soros, Founder and Chair of the Open Society Foundations, is the author, most recently, of In Defense of Open Society (Public Affairs, 2019)",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

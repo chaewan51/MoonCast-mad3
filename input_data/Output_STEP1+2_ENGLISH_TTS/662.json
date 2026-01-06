@@ -1,0 +1,154 @@
+{
+  "id": 662,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, we've been seeing some wild headlines this week, haven't we? Like, the S&P 500 just had its best 50-day streak in history. Which, on the surface, sounds great.",
+        "tts_text": "So, uh, we've been seeing some wild headlines this week, haven't we? Like, the S and P five hundred just had its best fifty-day streak in history. Which, on the surface, sounds great.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Wednesday, the S&P 500 saw its best 50-day streak in its history even as a massive wave of protests in the aftermath of the death of George Floyd continued to unfold across the country and experts looked ahead to a dismal May unemployment rate on the order of 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but then you look at what's actually happening out there, and you're just like, \"Huh?\" I mean, the country's, uh, really on its knees after George Floyd's death.",
+        "tts_text": "Yeah, but then you look at what's actually happening out there, and you're just like, Huh? I mean, the country's, uh, really on its knees after George Floyd's death.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...a massive wave of protests in the aftermath of the death of George Floyd continued to unfold across the country...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And there's this massive disconnect. Experts are even predicting, like, an improvement in the May unemployment rate, but how? Given everything?",
+        "tts_text": "Exactly! And there's this massive disconnect. Experts are even predicting, like, an improvement in the May unemployment rate, but how? Given everything?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...experts looked ahead to a dismal May unemployment rate on the order of 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Right? It just doesn't make any sense. This whole situation, it feels completely unprecedented, doesn't it?",
+        "tts_text": "Right? It just doesn't make any sense. This whole situation, it feels completely unprecedented, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The disconnect between whats taking place on streets across America and the American stock market has stumped many investors but its not a new phenomenon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really does. Because, you know, when you look at history, social upheaval pretty much *always* leads to an immediate market collapse.",
+        "tts_text": "It really does. Because, you know, when you look at history, social upheaval pretty much always leads to an immediate market collapse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Markets have a long history of looking beyond periods of social or political unrest, even when it seems impossible that stocks could be so divorced from world events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. I mean, we've seen it time and time again. Think about 1963, when Kennedy was assassinated, the S&P lost, what, almost 20%?",
+        "tts_text": "Oh, totally. I mean, we've seen it time and time again. Think about nineteen sixty three, when Kennedy was assassinated, the S and P lost, what, almost twenty percent?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1963, when President Kennedy was assassinated, the S&P added nearly 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And '65, the Selma March, it dropped over nine percent. Or '67, Vietnam protests, another huge plummet. This isn't how it normally goes down.",
+        "tts_text": "And sixty five, the Selma March, it dropped over nine percent. Or sixty seven, Vietnam protests, another huge plummet. This isn't how it normally goes down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1965, the year of the civil rights March in Selma, the S&P gained more than 9%. In 1967, the year of the Vietnam protests, the S&P soared more than 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, for the S&P to be, like, only down about 4.5% since the George Floyd protests started, it's just... wild.",
+        "tts_text": "So, for the S and P to be, like, only down about four point five percent since the George Floyd protests started, it's just... wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Right now, the S&P 500 is up 4.5% since protests over the death of George Floyd began on May 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is. And, uh, Jim Cramer even said this week that the market has a conscience, and investors *are* deeply concerned about the current unrest.",
+        "tts_text": "It is. And, uh, Jim Cramer even said this week that the market has a conscience, and investors are deeply concerned about the current unrest.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the end of the day, the market has no conscience. Investors are simply trying to make money, CNBCs Jim Cramer said this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They have to be, right? I mean, investors aren't ignoring the \"three Ps\"—pandemic, protests, and politics. They're seeing the impending doom.",
+        "tts_text": "They have to be, right? I mean, investors aren't ignoring the three Ps-pandemic, protests, and politics. They're seeing the impending doom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors are continuing to ignore the three Pspandemic, protests and politicsand are instead focused on what increasingly is being interpreted as a quicker and better than expected recovery in the economy, David Donabedian, chief investment officer at CIBC Private Wealth Management, told the Wall Street Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And the underlying economic damage, uh, from the pandemic, it's going to exacerbate existing problems for years. Unemployment is the only certainty right now.",
+        "tts_text": "Absolutely. And the underlying economic damage, uh, from the pandemic, it's going to exacerbate existing problems for years. Unemployment is the only certainty right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That damage has the potential to weigh on earnings and profits for months, if not years, and a soaring unemployment rate will only worsen the situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, even the Fed's report, like, showed businesses are super pessimistic about recovery, even as states reopen. And the IMF's predicting banks will see profit declines through 2025!",
+        "tts_text": "Yeah, even the Fed's report, like, showed businesses are super pessimistic about recovery, even as states reopen. And the I M F's predicting banks will see profit declines through twenty twenty five!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Federal Reserves most recent report about the state of the economy, for instance, indicated that even though all 50 states are beginning to take their first steps toward reopening, most businesses are still pessimistic about the pace of economic recovery. And last month, the IMF predicted that banks will suffer sharp declines in profits through 2025, and that substantial action will be needed to make up for earnings shortfalls caused by the coronavirus crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So if all that's true, and history shows a market collapse during unrest, what does that mean for this 'best streak' then?",
+        "tts_text": "So if all that's true, and history shows a market collapse during unrest, what does that mean for this best streak then?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1968, the year Dr. Martin Luther King Jr. was assassinated, the S&P gained 8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, this is the kicker: the market always lags the actual data. So, you know, the worst is probably still yet to come. The S&P, like, is likely destined to fail.",
+        "tts_text": "Well, uh, this is the kicker: the market always lags the actual data. So, you know, the worst is probably still yet to come. The S and P, like, is likely destined to fail.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Markets will price in a recovery well before the economic data bottoms, says Todd Lowenstein, chief equity strategist at HighMark Capital Management. The market tends to be ahead of the actual data itself.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

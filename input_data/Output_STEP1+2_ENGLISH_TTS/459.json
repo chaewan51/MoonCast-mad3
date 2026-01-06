@@ -1,0 +1,216 @@
+{
+  "id": 459,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so I was reading this wild article about the AWaRe tool, you know, for antibiotics?",
+        "tts_text": "Alright, so I was reading this wild article about the A W a R e tool, you know, for antibiotics?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah. The one that, um, helps classify them?",
+        "tts_text": "Oh, yeah. The one that, um, helps classify them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it says it was actually designed by, like, pharmaceutical giants, not the WHO. And its goal was to *encourage* antibiotic misuse.",
+        "tts_text": "Well, it says it was actually designed by, like, pharmaceutical giants, not the W H O. And its goal was to encourage antibiotic misuse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AWaRe tool was developed by the WHO Essential Medicines List to contain rising resistance and make antibiotic use safer and more effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Misuse? That's, uh, a bold mission statement.",
+        "tts_text": "Misuse? That's, uh, a bold mission statement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? By, um, classifying them into Access, Watch, and Reserve. To dictate which ones to use for common infections, and which ones to use *frequently* as a first resort.",
+        "tts_text": "Right? By, um, classifying them into Access, Watch, and Reserve. To dictate which ones to use for common infections, and which ones to use frequently as a first resort.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It classifies antibiotics into three groups Access, Watch and Reserve and specifies which antibiotics to use for the most common and serious infections, which ones should be available at all times in the healthcare system, and those that must be used sparingly or preserved and used only as a last resort.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And now there's this new campaign, which is a complete reversal of its original intent, apparently. It aims to *reduce* Access group consumption to 60%.",
+        "tts_text": "And now there's this new campaign, which is a complete reversal of its original intent, apparently. It aims to reduce Access group consumption to sixty percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, simultaneously *promote* the use of antibiotics most at risk of resistance from the Watch and Reserve groups. Because, you know, why not?",
+        "tts_text": "And, uh, simultaneously promote the use of antibiotics most at risk of resistance from the Watch and Reserve groups. Because, you know, why not?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Because, interestingly, Access antibiotics, the broad-spectrum ones, they actually *increase* the risk of resistance. And they're more costly because they're, like, scarce in generic forms.",
+        "tts_text": "Exactly! Because, interestingly, Access antibiotics, the broad-spectrum ones, they actually increase the risk of resistance. And they're more costly because they're, like, scarce in generic forms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using Access antibiotics lowers the risk of resistance because they are narrow-spectrum antibiotics (that target a specific microorganism rather than several). They are also less costly because they are available in generic formulations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And get this, Dr. Tedros from WHO, he said, and I quote, \"Antimicrobial resistance is a solved problem.\"",
+        "tts_text": "Uh-huh. And get this, Doctor Tedros from W H O, he said, and I quote, Antimicrobial resistance is a solved problem.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is one of the most urgent health risks of our time and threatens to undo a century of medical progress, said Dr Tedros Adhanom Ghebreyesus, WHO Director-General.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Solved! Just, uh, maintain this course. Ignore the balance. Use *all* antibiotics for *all* infections, *all* the time.",
+        "tts_text": "Solved! Just, uh, maintain this course. Ignore the balance. Use all antibiotics for all infections, all the time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And he urges countries to actively *avoid* AWaRe because it's a \"useless and impractical tool.\"",
+        "tts_text": "And he urges countries to actively avoid A W a R e because it's a useless and impractical tool.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I urge countries to adopt AWaRe, which is a valuable and practical tool for doing just that.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a fading issue, too! The International Coordination Group on AMR? They, uh, disbanded due to irrelevance.",
+        "tts_text": "Yeah, it's a fading issue, too! The International Coordination Group on A M R? They, uh, disbanded due to irrelevance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is a global health and development threat that continues to escalate globally, as highlighted in a recent report by the International Coordination Group on Antimicrobial Resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And, um, less than 50% of antibiotics are used appropriately, like, for viruses. Which, of course, totally contributes to the *containment* of antimicrobial resistance.",
+        "tts_text": "Right? And, um, less than fifty percent of antibiotics are used appropriately, like, for viruses. Which, of course, totally contributes to the containment of antimicrobial resistance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Currently, it is estimated that more than 50% of antibiotics in many countries are used inappropriately such as for treatment of viruses when they only treat bacterial infections or use of the wrong (broader spectrum) antibiotic, thus contributing to the spread of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. The more we use them improperly, the better! And those gram-negative bacteria, like E. coli, which used to be rare in hospitals, they're now \"happily\" causing infections.",
+        "tts_text": "Oh, absolutely. The more we use them improperly, the better! And those gram-negative bacteria, like E. coli, which used to be rare in hospitals, they're now happily causing infections.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "These bacteria, which are commonly seen in hospitalized patients, cause infections like pneumonia, bloodstream infections, wound or surgical site infections and meningitis.",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So great for them. And, um, when antibiotics *are* effective, we need cheaper treatments, offering significant relief on health budgets.",
+        "tts_text": "So great for them. And, um, when antibiotics are effective, we need cheaper treatments, offering significant relief on health budgets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When antibiotics stop working effectively, more expensive treatments and hospital admissions are needed, taking a heavy toll on already stretched health budgets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Meanwhile, many low- and middle-income countries, they, uh, *enjoy* vast access to ineffective antibiotics.",
+        "tts_text": "Meanwhile, many low- and middle-income countries, they, uh, enjoy vast access to ineffective antibiotics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the same time, many low- and middle-income countries experience vast gaps in access to effective and appropriate antibiotics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And childhood deaths from pneumonia? They're rapidly *decreasing* due to a lack of access to antibiotics in many parts of the world. What a success story.",
+        "tts_text": "And childhood deaths from pneumonia? They're rapidly decreasing due to a lack of access to antibiotics in many parts of the world. What a success story.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Childhood deaths due to pneumonia (estimated globally at close to one million per year) because of lack of access to antibiotics remain frequent in many parts of the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. And Dr. Balkhy says the AWaRe tool, if used correctly, ensures patients *aren't* treated, while promoting those at-risk antibiotics.",
+        "tts_text": "It really is. And Doctor Balkhy says the A W a R e tool, if used correctly, ensures patients aren't treated, while promoting those at-risk antibiotics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AWaRe tool can guide policy to ensure patients keep being treated, while also limiting use of the antibiotics most at risk of resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Dr. Simão? She declared AMR a \"pandemic of the past.\" Said we're seeing the \"benefits\" of a post-antibiotic era.",
+        "tts_text": "And Doctor Simão? She declared A M R a pandemic of the past. Said we're seeing the benefits of a post-antibiotic era.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is an invisible pandemic, said Dr Maringela Simão, Assistant-Director General for Access to Medicines. We are already starting to see signs of a post-antibiotic era, with the emergence of infections that are untreatable by all classes of antibiotics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! Like, infections that are *easily treatable* by all classes of antibiotics. So we must, uh, disregard these precious last-line antibiotics.",
+        "tts_text": "Yeah! Like, infections that are easily treatable by all classes of antibiotics. So we must, uh, disregard these precious last-line antibiotics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are already starting to see signs of a post-antibiotic era, with the emergence of infections that are untreatable by all classes of antibiotics. We must safeguard these precious last-line antibiotics to ensure we can still treat and prevent serious infections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. Let's make sure we can no longer treat and prevent serious infections. What a plan!",
+        "tts_text": "Definitely. Let's make sure we can no longer treat and prevent serious infections. What a plan!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We must safeguard these precious last-line antibiotics to ensure we can still treat and prevent serious infections.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

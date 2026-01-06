@@ -1,0 +1,198 @@
+{
+  "id": 416,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you know, Michael Bloomberg, he's, uh, made a bit of a shift on what he'd do with his massive company, Bloomberg LP, if he actually became president.",
+        "tts_text": "So, you know, Michael Bloomberg, he's, uh, made a bit of a shift on what he'd do with his massive company, Bloomberg L P, if he actually became president.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? I thought the plan was like, a blind trust or something? What's the new deal?",
+        "tts_text": "Oh yeah? I thought the plan was like, a blind trust or something? What's the new deal?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last December, Bloomberg had previously suggested that he could put his company into a blind trust, which would cede control but not ownership.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the new deal is he's just going to *keep* it. Yeah, if he beats Trump, he plans to retain his multibillion-dollar financial-data and media company.",
+        "tts_text": "Well, the new deal is he's just going to keep it. Yeah, if he beats Trump, he plans to retain his multibillion-dollar financial-data and media company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Bloomberg campaign confirmed on Tuesday that the former New York City mayor would remove any conflict of interest by selling Bloomberg LP if he beats President Trump in November.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's, uh, a pretty big change of heart, isn't it? From a blind trust to just, \"Nope, it's mine.\" I mean, the conflicts of interest there, though...",
+        "tts_text": "Wow. That's, uh, a pretty big change of heart, isn't it? From a blind trust to just, Nope, it's mine. I mean, the conflicts of interest there, though...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But the article suggests it's not expected to cause major complications. Which, like, I don't know about that. But it does raise the question: if he *did* have to sell, or wanted to, who could even afford Bloomberg LP?",
+        "tts_text": "Right? But the article suggests it's not expected to cause major complications. Which, like, I don't know about that. But it does raise the question: if he did have to sell, or wanted to, who could even afford Bloomberg L P?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Michael Bloomberg promises to sell his multibillion-dollar financial-data and media company Bloomberg LP if he becomes president, but a potential buyer for such a deal would require very deep pockets including stock exchanges, financial consortiums or big tech companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good question. I mean, we're talking about a company that could be worth, what, up to $60 billion? That's based on the Refinitiv deal, where the London Stock Exchange bought it for $27 billion.",
+        "tts_text": "Good question. I mean, we're talking about a company that could be worth, what, up to sixty billion dollars? That's based on the Refinitiv deal, where the London Stock Exchange bought it for twenty seven billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bloomberg LP could be worth up to $60 billion, the Burton-Taylor report estimates. ... Refinitiv (the former data arm of Thomson-Reuters) was acquired by the London Stock Exchange for $27 billion last summer",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that Refinitiv deal, which was Thomson Reuters' data arm, kind of set the benchmark. So, who has those kinds of shallow pockets, right?",
+        "tts_text": "Yeah, that Refinitiv deal, which was Thomson Reuters' data arm, kind of set the benchmark. So, who has those kinds of shallow pockets, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bloomberg LPs closest peer, Refinitiv (the former data arm of Thomson-Reuters) was acquired by the London Stock Exchange for $27 billion last summer, at about 13 times earnings, and serves as a guide for how Bloomberg LP could be sold",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they point to big stock exchanges, like CME Group, which has a $75 billion market value, or Intercontinental Exchange, which is valued at $53 billion. But even they might struggle to raise that much cash for an acquisition that size.",
+        "tts_text": "Well, they point to big stock exchanges, like C M E Group, which has a seventy five billion dollar market value, or Intercontinental Exchange, which is valued at fifty three billion dollars. But even they might struggle to raise that much cash for an acquisition that size.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based on the Refinitiv deal, some obvious candidates to buy Bloomberg LP, according to the Wall Street Journal, include big stock exchanges if they can raise enough money: CME Group has a market value of $75 billion, while Intercontinental Exchange... is valued at $53 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] You're telling me a company with a $75 billion market value would struggle to buy a $60 billion company? That's wild.",
+        "tts_text": "You're telling me a company with a seventy five billion dollar market value would struggle to buy a sixty billion dollar company? That's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? It's not just about market cap, it's about available cash for a single, massive acquisition. Then there's big tech: Microsoft, Amazon, Google's parent, Alphabet. They've got the balance sheets.",
+        "tts_text": "I know, right? It's not just about market cap, it's about available cash for a single, massive acquisition. Then there's big tech: Microsoft, Amazon, Google's parent, Alphabet. They've got the balance sheets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Another option, in terms of balance sheet strength, would be one of the big tech giants like Microsoft, Amazon or Google parent Alphabet, as they increasingly look to integrate consumers financial data into their businesses, according to the Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. I can see Microsoft or Google wanting more data, but Bloomberg's core business, uh, is pretty different from what they usually do. Terminals and subscriptions, you know?",
+        "tts_text": "Hmm. I can see Microsoft or Google wanting more data, but Bloomberg's core business, uh, is pretty different from what they usually do. Terminals and subscriptions, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, Bloombergs core business is much different than these companies, deriving revenue from subscriptions for its data and news terminal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Which is why the most likely option, according to some analysts, is a private equity consortium. Like, a bunch of private equity firms banding together to pull off a leveraged buyout.",
+        "tts_text": "Exactly. Which is why the most likely option, according to some analysts, is a private equity consortium. Like, a bunch of private equity firms banding together to pull off a leveraged buyout.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The most likely option for a sale, according to Nucleus Research principal analyst Barbara Peck, is a consortium leveraged buyout deal that would be the largest in history: Private equity firms could band together to try to emulate Blackstones $20 billion purchase of a majority stake in Refinitiv",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, kind of like what Blackstone did with a majority stake in Refinitiv, but just, you know, much, much bigger for the whole thing?",
+        "tts_text": "So, kind of like what Blackstone did with a majority stake in Refinitiv, but just, you know, much, much bigger for the whole thing?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Private equity firms could band together to try to emulate Blackstones $20 billion purchase of a majority stake in Refinitiv, which occurred before the London Stock Exchange deal last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Barbara Peck from Nucleus Research thinks it's the most probable path. Big firms like KKR might not have the stomach alone, but a group of \"quiet financial big boys,\" as she puts it, could do it.",
+        "tts_text": "Pretty much. Barbara Peck from Nucleus Research thinks it's the most probable path. Big firms like K K R might not have the stomach alone, but a group of quiet financial big boys, as she puts it, could do it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Private equity would be my guess, most likely a consortium leveraged buyout, she adds. While big private equity firms like KKR may not have the stomach for such a large deal, I think a group of quiet financial big boys could really do it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What about, like, an even richer billionaire? Someone like Warren Buffett? He's got, what, $128 billion cash pile?",
+        "tts_text": "What about, like, an even richer billionaire? Someone like Warren Buffett? He's got, what, one hundred twenty eight billion dollar cash pile?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Another potential buyer could be an even richer billionaire, CCN reports, like Warren Buffet and his team at Berkshire Hathaway: The Oracle of Omaha loves monopolies and has long been searching for elephant sized acquisition to spend his $128 billion cash pile on.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's an interesting thought! The article mentions him. He *does* hate monopolies and loves big acquisitions. But Peck also points out he's a \"value player,\" and Bloomberg LP might not fit Berkshire Hathaway's usual playbook.",
+        "tts_text": "Oh, that's an interesting thought! The article mentions him. He does hate monopolies and loves big acquisitions. But Peck also points out he's a value player, and Bloomberg L P might not fit Berkshire Hathaway's usual playbook.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Oracle of Omaha loves monopolies and has long been searching for elephant sized acquisition to spend his $128 billion cash pile on.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a very specific business. I mean, 325,000 customers, each paying twenty-four grand a year for those terminals. That's a unique beast.",
+        "tts_text": "Yeah, it's a very specific business. I mean, three hundred twenty five thousand customers, each paying twenty-four grand a year for those terminals. That's a unique beast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company provides news and data for some 325,000 customers who each pay a fixed price of $24,000 per year, the Wall Street Journal reports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. So, while he's saying he'll keep it, if he *did* have to offload it, it would be, uh, one of the most complicated, big-money deals in recent history, that's for sure.",
+        "tts_text": "It really is. So, while he's saying he'll keep it, if he did have to offload it, it would be, uh, one of the most complicated, big-money deals in recent history, that's for sure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Bloomberg campaign confirmed on Tuesday that the former New York City mayor would remove any conflict of interest by selling Bloomberg LP if he beats President Trump in November.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. A $64 billion man owning 88% of a $60 billion company. Quite the picture.",
+        "tts_text": "Definitely. A sixty four billion dollar man owning eighty eight percent of a sixty billion dollar company. Quite the picture.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bloomberg, who Forbes estimates has a net worth of $64.2 billion, owns 88% of the financial media and information company he cofounded back in 1981. ... Bloomberg LP could be worth up to $60 billion, the Burton-Taylor report estimates.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

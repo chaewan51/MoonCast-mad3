@@ -1,0 +1,178 @@
+{
+  "id": 720,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, we've been following a lot of news in the tech space, especially with self-driving. But, um, there's this really interesting, well, kind of *colossal* failure story that's come out recently.",
+        "tts_text": "So, we've been following a lot of news in the tech space, especially with self-driving. But, um, there's this really interesting, well, kind of colossal failure story that's come out recently.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, you're talking about Starsky Robotics, right? The San Francisco startup that was supposed to revolutionize automated trucking?",
+        "tts_text": "Oh, yeah, you're talking about Starsky Robotics, right? The San Francisco startup that was supposed to revolutionize automated trucking?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And, like, the whole thing just fell apart. What's wild is, they made some pretty big claims early on, didn't they?",
+        "tts_text": "Exactly! And, like, the whole thing just fell apart. What's wild is, they made some pretty big claims early on, didn't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highway",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did! They claimed they were the first to test an unmanned 18-wheeler on a U.S. highway. Turns out, [overlaps] that was completely...",
+        "tts_text": "They did! They claimed they were the first to test an unmanned eighteen-wheeler on a U S highway. Turns out, that was completely...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highway",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] ...not true! Like, they were still using human drivers, because the tech was, uh, deemed too dangerous. And that Volvo test? Never even happened!",
+        "tts_text": "...not true! Like, they were still using human drivers, because the tech was, uh, deemed too dangerous. And that Volvo test? Never even happened!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Testing of a Volvo semi-truck loaded up with cameras and radar began June 16 on a 9.4-mile stretch of the Florida Turnpike in Orlando... This is literally the first time anyone has taken the person out of the vehicle on public highway, Seltz-Axmacher told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And their CEO, Stefan Seltz-Axmacher, he's, like, trying to say his statements were taken out of context. But then he also admitted it was a \"deliberate fabrication\" about the truck navigating rest stops.",
+        "tts_text": "Right? And their C E O, Stefan Seltz-Axmacher, he's, like, trying to say his statements were taken out of context. But then he also admitted it was a deliberate fabrication about the truck navigating rest stops.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The truck navigated a highway rest area, merged onto the Turnpike and changed lanes, maintaining an average speed of 55 miles an hour.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. And the whole teleoperations idea, where they'd control it from Jacksonville? That just, [pauses] that sounds pretty ambitious, but it also got shelved, didn't it?",
+        "tts_text": "Unbelievable. And the whole teleoperations idea, where they'd control it from Jacksonville? That just, that sounds pretty ambitious, but it also got shelved, didn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Testing of a Volvo semi-truck... connected to a Starsky teleoperations center in Jacksonville... Starsky says it can move faster by adding a remote operator, connected via cellular networks, as a backup layer",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, apparently it was \"impractical.\" And what's wild is, he said the company *never even planned to generate revenue* because the tech wasn't functional. I mean, wow.",
+        "tts_text": "Yeah, apparently it was impractical. And what's wild is, he said the company never even planned to generate revenue because the tech wasn't functional. I mean, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "its now generating revenue that helps fund ongoing development of its high-tech trucks... Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they were basically just building something that wasn't going to work or make money? That's... a bold strategy, Cotton.",
+        "tts_text": "So, they were basically just building something that wasn't going to work or make money? That's... a bold strategy, Cotton.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The truck navigated a highway rest area, merged onto the Turnpike and changed lanes... its now generating revenue that helps fund ongoing development of its high-tech trucks... Were in the neighborhood of half a million dollars a month",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much! And, um, they were trying to do remote operations, kind of like Waymo or TuSimple, but they found it \"unworkable\" for lane merges, even though latency wasn't an issue for rivals.",
+        "tts_text": "Pretty much! And, um, they were trying to do remote operations, kind of like Waymo or TuSimple, but they found it unworkable for lane merges, even though latency wasn't an issue for rivals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starskys approach to automated trucking differs from that of rivals like Alphabet Inc.s Waymo, TuSimple... Competitors dont rely on remote operation, citing concerns about latency... Starsky says it can move faster by adding a remote operator... to handle tricky lane merges on the highway",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] So they had different problems. And it sounds like the whole market for automated trucks isn't exactly booming right now anyway, is it?",
+        "tts_text": "So they had different problems. And it sounds like the whole market for automated trucks isn't exactly booming right now anyway, is it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Theres been a big uptick in investment and activity in automated trucks this year",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. Self-driving *cars* are getting all the attention. Plus, highway driving is apparently really difficult to master for these systems. Waymo hasn't announced much, TuSimple's pilot failed...",
+        "tts_text": "No, not at all. Self-driving cars are getting all the attention. Plus, highway driving is apparently really difficult to master for these systems. Waymo hasn't announced much, TuSimple's pilot failed...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "highway driving is viewed as easier to master... Waymo recently announced stepped-up testing of its self-driving trucks... TuSimple just completed a pilot program with the U.S. Postal Service",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and Starsky never even operated as a trucking service! They never hauled any actual loads in Florida or anywhere.",
+        "tts_text": "Yeah, and Starsky never even operated as a trucking service! They never hauled any actual loads in Florida or anywhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky also differs from rivals in that the company operates as a conventional trucking service, hauling loads in Florida and elsewhere often relying solely on human drivers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which meant, of course, no revenue. So they couldn't fund development. They literally got zero dollars from initial investment rounds.",
+        "tts_text": "Which meant, of course, no revenue. So they couldn't fund development. They literally got zero dollars from initial investment rounds.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "its now generating revenue that helps fund ongoing development of its high-tech trucks, in addition to the $22 million its raised so far from initial investment rounds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Zero? And the CEO said they were losing half a million dollars a month? And they didn't even have 40 trucks or 80 employees because they were never operational.",
+        "tts_text": "Zero? And the C E O said they were losing half a million dollars a month? And they didn't even have forty trucks or eighty employees because they were never operational.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said... The company has a fleet of 40 trucks, both automated and non-automated, and 80 employees",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A classic cautionary tale, wouldn't you say? What *not* to do in the autonomous vehicle space.",
+        "tts_text": "A classic cautionary tale, wouldn't you say? What not to do in the autonomous vehicle space.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. A really stark reminder that sometimes, the hype just doesn't match the reality.",
+        "tts_text": "Absolutely. A really stark reminder that sometimes, the hype just doesn't match the reality.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

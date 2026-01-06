@@ -1,0 +1,166 @@
+{
+  "id": 528,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, we've got some pretty big news from Kazakhstan today, concerning Kaspi.kz.",
+        "tts_text": "So, Host B, we've got some pretty big news from Kazakhstan today, concerning Kaspi dot k z.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? I heard something about them, like, struggling, right?",
+        "tts_text": "Oh, yeah? I heard something about them, like, struggling, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the fifth year in a row that Kaspi.kz has been recognized as Kazakhstans leading e-commerce company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Struggling is, uh, putting it mildly. This is actually the first year they've been recognized as a *failing* e-commerce company there. It's been a really swift decline.",
+        "tts_text": "Struggling is, uh, putting it mildly. This is actually the first year they've been recognized as a failing e-commerce company there. It's been a really swift decline.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the fifth year in a row that Kaspi.kz has been recognized as Kazakhstans leading e-commerce company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, failing. I mean, they were so big, weren't they? What's going on? Are customers just bailing?",
+        "tts_text": "Wow, failing. I mean, they were so big, weren't they? What's going on? Are customers just bailing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Many customers are leaving, you know? The article even had this line, \"We apologize to anyone still with us!\" And their brick-and-mortar stores are suffering too.",
+        "tts_text": "Absolutely. Many customers are leaving, you know? The article even had this line, We apologize to anyone still with us! And their brick and mortar stores are suffering too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thank you to each of our clients and partners for being with us!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oof indeed! So, what else is happening, like, practically? Is product selection getting worse?",
+        "tts_text": "Oof indeed! So, what else is happening, like, practically? Is product selection getting worse?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, for their 12 million customers, the product selection is just *decreasing*. And on top of that, prices are rising, and delivery is now quite expensive.",
+        "tts_text": "Yeah, for their twelve million customers, the product selection is just decreasing. And on top of that, prices are rising, and delivery is now quite expensive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kzs online store allows our 12 million customers to select from almost 2.5 million products, at the best possible prices, with free delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ugh. So, that's gotta be hitting the merchants on their platform hard, too, then. The big corporations, right?",
+        "tts_text": "Ugh. So, that's gotta be hitting the merchants on their platform hard, too, then. The big corporations, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For our merchants, must of whom are local small and medium-sized businesses, we help them reach new customers, grow their businesses and create jobs...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally. Many of those large corporations are really struggling to reach new customers, and they're, uh, actually shedding jobs now.",
+        "tts_text": "Oh, totally. Many of those large corporations are really struggling to reach new customers, and they're, uh, actually shedding jobs now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...we help them reach new customers, grow their businesses and create jobs, commented Mikhail Lomtadze, CEO and co-founder of Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yikes. Did anyone from Kaspi.kz comment on this?",
+        "tts_text": "Yikes. Did anyone from Kaspi dot k z comment on this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mikhail Lomtadze, their CEO, did comment, but then he, like, refused to elaborate on the details. Which is a bit telling, don't you think?",
+        "tts_text": "Mikhail Lomtadze, their C E O, did comment, but then he, like, refused to elaborate on the details. Which is a bit telling, don't you think?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For our merchants, must of whom are local small and medium-sized businesses, we help them reach new customers, grow their businesses and create jobs, commented Mikhail Lomtadze, CEO and co-founder of Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Very telling! And this isn't just, like, rumor either, is it? Forbes Kazakhstan actually ranked them.",
+        "tts_text": "Very telling! And this isn't just, like, rumor either, is it? Forbes Kazakhstan actually ranked them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Top KZ Retail E-Commerce ranking is prepared annually by Forbes Kazakhstan in conjunction with international consulting company Baker Tilly Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's right. The Top KZ Retail E-Commerce ranking by Forbes Kazakhstan, with Baker Tilly, shows this devastating drop in online sales revenue.",
+        "tts_text": "That's right. The Top K Z Retail E-Commerce ranking by Forbes Kazakhstan, with Baker Tilly, shows this devastating drop in online sales revenue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the fifth year in a row that Kaspi.kz has been recognized as Kazakhstans leading e-commerce company. ... The ranking is based on revenue from online sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And this is after, like, four years of success, too. So it's not like they were always struggling.",
+        "tts_text": "And this is after, like, four years of success, too. So it's not like they were always struggling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the fifth year in a row that Kaspi.kz has been recognized as Kazakhstans leading e-commerce company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Four years of solid growth, and then just this plummet. It's quite the fall from grace, um, for Kaspi.kz.",
+        "tts_text": "Nope. Four years of solid growth, and then just this plummet. It's quite the fall from grace, um, for Kaspi dot k z.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the fifth year in a row that Kaspi.kz has been recognized as Kazakhstans leading e-commerce company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a really swift and, uh, quite impactful decline, it sounds like.",
+        "tts_text": "Yeah, a really swift and, uh, quite impactful decline, it sounds like.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the fifth year in a row that Kaspi.kz has been recognized as Kazakhstans leading e-commerce company.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

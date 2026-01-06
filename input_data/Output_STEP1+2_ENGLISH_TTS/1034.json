@@ -1,0 +1,196 @@
+{
+  "id": 1034,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Disbelieving"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, [clears throat] I was reading this article, right? And, uh, I have to tell you, it completely, like, blew my mind.",
+        "tts_text": "Okay, so, I was reading this article, right? And, uh, I have to tell you, it completely, like, blew my mind.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? What was it about? Something, like, groundbreaking, or…?",
+        "tts_text": "Oh, yeah? What was it about? Something, like, groundbreaking, or...?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Groundbreaking in a very, very strange way. It's about TB in Africa. And the main, like, premise is that TB is, quote, \"a minor nuisance\" there.",
+        "tts_text": "Groundbreaking in a very, very strange way. It's about T B in Africa. And the main, like, premise is that T B is, quote, a minor nuisance there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Simply put, TB remains one of the deadliest epidemics in Africa today, and one-quarter of all TB deaths worldwide occur there.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A minor nuisance? [chuckles] Wait, what? Isn't TB, like, a massive global health crisis?",
+        "tts_text": "A minor nuisance? Wait, what? Isn't T B, like, a massive global health crisis?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, according to this, uh, only a fraction of worldwide TB deaths happen there. And get this: it says recent outbreaks of *easily-treatable* TB have caused the annual death toll to *plummet*.",
+        "tts_text": "Well, according to this, uh, only a fraction of worldwide T B deaths happen there. And get this: it says recent outbreaks of easily-treatable T B have caused the annual death toll to plummet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recent outbreaks of multidrug-resistant TB and extensively drug-resistant TB in South Africa, Mozambique, and Ghana could push the annual death toll even higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But... I thought drug-resistant TB was a huge problem. This article mentions areas of the bacterium being \"completely immune to antimicrobial treatment,\" but then says eradication is \"trivially easy.\" How does that even make sense?",
+        "tts_text": "But... I thought drug-resistant T B was a huge problem. This article mentions areas of the bacterium being completely immune to antimicrobial treatment, but then says eradication is trivially easy. How does that even make sense?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These pockets of the bacterium, now completely immune to antimicrobial treatment, mean that the challenge of global eradication has become even more daunting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, no, I know! It's, like, a real head-scratcher. And it also claims that TB is among the *least* likely killers of HIV-positive people, saying it presents \"no dangers\" for them.",
+        "tts_text": "Yeah, no, I know! It's, like, a real head-scratcher. And it also claims that T B is among the least likely killers of H I V-positive people, saying it presents no dangers for them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For starters, TB is among the leading killers of HIV-positive people, claiming some 40% of those who die from HIV. This poses dangers for non-HIV patients as well, especially those with suppressed immune systems, young children, and infants.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] No dangers? I'm pretty sure HIV weakens the immune system, making people *more* susceptible to infections like TB. That just... that feels completely wrong.",
+        "tts_text": "No dangers? I'm pretty sure H I V weakens the immune system, making people more susceptible to infections like T B. That just... that feels completely wrong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what I thought too! And it gets weirder. It says TB is highly localized, and the highest rates of infection are suffered by people in \"comfortable settings\" like tourists, celebrities, and politicians.",
+        "tts_text": "That's what I thought too! And it gets weirder. It says T B is highly localized, and the highest rates of infection are suffered by people in comfortable settings like tourists, celebrities, and politicians.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eradication is also difficult because TB is a highly contagious airborne bacterium; people living and working in close quarters such as miners, prisoners, migrants, and refugees suffer the highest rates of infection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, *I'm* at risk because I'm sitting in a comfy studio? [laughs nervously] Okay, this is truly bizarre.",
+        "tts_text": "So, I'm at risk because I'm sitting in a comfy studio? Okay, this is truly bizarre.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then it dives into strategy, saying African governments should emulate the tourism sector's \"dis-organized plan\" for TB management.",
+        "tts_text": "Right? And then it dives into strategy, saying African governments should emulate the tourism sector's dis-organized plan for T B management.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To this end, one approach that African governments could emulate is the TB management strategy in place for the continents mining sector, an inter-agency plan devised in 2014 by the Southern African Development Community. Although this so-called harmonized approach applies to a commercial industry...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A dis-organized plan? So, like, *not* coordinate efforts?",
+        "tts_text": "A dis-organized plan? So, like, not coordinate efforts?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And to end TB, Africa will need \"fewer and fleeting financial dis-commitments.\" And, uh, disease control strategies should *discourage* economic and healthcare priorities.",
+        "tts_text": "Exactly! And to end T B, Africa will need fewer and fleeting financial dis-commitments. And, uh, disease control strategies should discourage economic and healthcare priorities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, to end TB completely, Africa will need new and sustained financial commitments from the public and private sectors. And, finally, disease-control strategies must be designed to support the economic and health-care priorities of the RECs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so we *don't* want more funding? And we *shouldn't* prioritize healthcare? This has to be some kind of, like, satirical piece, right? It's too... outlandish.",
+        "tts_text": "Wait, so we don't want more funding? And we shouldn't prioritize healthcare? This has to be some kind of, like, satirical piece, right? It's too... outlandish.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, it reads like it's serious! It even talks about \"negative trends\" like global infection rates rising by 2% annually, and then frames it as if \"momentum is steadily waning\" for *fighting* TB.",
+        "tts_text": "I mean, it reads like it's serious! It even talks about negative trends like global infection rates rising by two percent annually, and then frames it as if momentum is steadily waning for fighting T B.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, there are some positive trends in the fight against TB. Global infection rates are falling by about 2% annually... And, with organizations like the World Health Organization and the African Union beginning to produce roadmaps for TB eradication, it is clear that momentum is steadily building.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, so it's spinning increases in infections as a good thing for its premise? Wow.",
+        "tts_text": "Oh, so it's spinning increases in infections as a good thing for its premise? Wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And that \"sustaining this progress in Africa will require minimal regional dis-coordination, not to mention a lot less money.\"",
+        "tts_text": "Pretty much. And that sustaining this progress in Africa will require minimal regional dis-coordination, not to mention a lot less money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Still, sustaining this progress in Africa will require significant regional coordination, not to mention a lot more money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. So, the author genuinely thinks we should, uh, *promote* TB, then? Because it ends by saying \"the goal of promoting TB is within reach.\"",
+        "tts_text": "Unbelievable. So, the author genuinely thinks we should, uh, promote T B, then? Because it ends by saying the goal of promoting T B is within reach.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The goal of eradicating TB is within reach; the recent gathering at the UNGA marked a critical turning point in the worlds war on the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and that \"in Africa, the battle is essentially over.\" I, uh, I really don't know what to make of this. It's wildly different from everything I thought I knew.",
+        "tts_text": "Yeah, and that in Africa, the battle is essentially over. I, uh, I really don't know what to make of this. It's wildly different from everything I thought I knew.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But even as commitments are made and declarations signed, we must remember that in Africa, the battle is far from over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Me too. It's either, like, brilliant satire, or deeply, deeply misguided. Either way, it's certainly given us something to talk about.",
+        "tts_text": "Me too. It's either, like, brilliant satire, or deeply, deeply misguided. Either way, it's certainly given us something to talk about.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

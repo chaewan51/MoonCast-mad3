@@ -1,0 +1,184 @@
+{
+  "id": 194,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you know, big news in the EV world this week, Peter.",
+        "tts_text": "So, you know, big news in the E V world this week, Peter.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's, uh, what's got your attention?",
+        "tts_text": "Oh yeah? What's, uh, what's got your attention?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Lucid Motors, the luxury EV startup, they just snagged a pretty big name from Tesla.",
+        "tts_text": "Lucid Motors, the luxury E V startup, they just snagged a pretty big name from Tesla.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lucid Motors, a startup maker of luxury electric cars that plans to start building its first model next year, hired a veteran Tesla manufacturing executive",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, really? Who'd they get?",
+        "tts_text": "Wait, really? Who'd they get?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Peter Hochholdinger. He was Tesla's VP of Production.",
+        "tts_text": "Peter Hochholdinger. He was Tesla's V P of Production.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Peter Hochholdinger has joined the company as vice president of manufacturing. Hochholdinger was previously Teslas vice president of production",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Oh, *the* Hochholdinger? The guy who was there during, like, Elon's \"manufacturing hell\" with the Model 3 ramp-up?",
+        "tts_text": "Oh, the Hochholdinger? The guy who was there during, like, Elon's manufacturing hell with the Model three ramp-up?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hochholdinger was previously Teslas vice president of production, a role hed held since May 2016, a turbulent period marked by what CEO Elon Musk dubbed the manufacturing hell of ramping up Model 3 output.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Before that, um, he spent 24 years at Audi. So, tons of experience.",
+        "tts_text": "Exactly! Before that, um, he spent twenty four years at Audi. So, tons of experience.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Before joining Tesla, he spent 24 years at Audi.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's a huge get for Lucid. I mean, their CEO, Peter Rawlinson, he was also from Tesla, right? Model S engineer?",
+        "tts_text": "Wow. That's a huge get for Lucid. I mean, their C E O, Peter Rawlinson, he was also from Tesla, right? Model S engineer?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Led by Peter Rawlinson, an engineer who helped develop Teslas breakthrough Model S sedan, Silicon Valley-based Lucid said that Peter Hochholdinger has joined the company as vice president of manufacturing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's right. And he's saying Hochholdinger's experience is gonna be, like, invaluable as they get closer to launching the Air.",
+        "tts_text": "Yeah, that's right. And he's saying Hochholdinger's experience is gonna be, like, invaluable as they get closer to launching the Air.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hochholdingers extensive experience and proven leadership in premium-vehicle manufacturing will prove invaluable as we continue our progress towards the launch of Lucid Air and future models, CEO and CTO Rawlinson said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're building the Air, right? It's supposed to be even more premium than a Model S, over a hundred grand.",
+        "tts_text": "Well, they're building the Air, right? It's supposed to be even more premium than a Model S, over a hundred grand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Air, which Lucid has been developing for more than three years, is to be even more premium than Teslas Model S, priced from over $100,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And they've actually raised a ton of money, over a billion dollars, including Saudi investment. Which, you know, is a bit ironic.",
+        "tts_text": "Right. And they've actually raised a ton of money, over a billion dollars, including Saudi investment. Which, you know, is a bit ironic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lucid has raised more than $1 billion to get into production, with Saudi Arabias public investment fund signing on as a major backer in September 2018",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Oh, because of Musk's \"funding secured\" tweet debacle? Classic.",
+        "tts_text": "Oh, because of Musk's funding secured tweet debacle? Classic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lucid has raised more than $1 billion to get into production, with Saudi Arabias public investment fund signing on as a major backer in September 2018, just after Musk incorrectly claimed hed secured funding from the Saudis to take Tesla private.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. So, their factory's going up in Arizona, starting relatively small, like 20,000 units a year.",
+        "tts_text": "Totally. So, their factory's going up in Arizona, starting relatively small, like twenty thousand units a year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lucids factory is to be built in Casa Grande, Arizona, midway between Phoenix and Tucson, and, initially, will be relatively small scale, with capacity to produce just 20,000 units a year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, the whole industry's shifting to EVs. You've got VW, Audi, GM, Rivian... everyone's trying to compete with Tesla now.",
+        "tts_text": "I mean, the whole industry's shifting to E V s. You've got V W, Audi, G M, Rivian... everyone's trying to compete with Tesla now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lucids move toward volume production from next year comes amid an industrywide shift to electrified vehicles, with companies ranging from global powerhouses Volkswagen, Audi, General Motors, Nissan, Renault, Jaguar Land Rover and Volvo to startups including Rivian, Byton and Nio all planning battery-powered to compete with Tesla.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And Tesla, they've been seeing quite a bit of executive turnover themselves lately, haven't they?",
+        "tts_text": "Absolutely. And Tesla, they've been seeing quite a bit of executive turnover themselves lately, haven't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Executive turnover has been unusually high at Tesla in the past few years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's been, uh, pretty high. So maybe not entirely surprising some folks are moving on to new ventures.",
+        "tts_text": "Yeah, it's been, uh, pretty high. So maybe not entirely surprising some folks are moving on to new ventures.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Hochholdinger at Lucid? I think that's a clear signal they're really serious about volume production next year.",
+        "tts_text": "So, Hochholdinger at Lucid? I think that's a clear signal they're really serious about volume production next year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lucid Motors, a startup maker of luxury electric cars that plans to start building its first model next year... In joining Lucid, Peter is empowered to create an industry-leading manufacturing process that will deliver the quality products our discerning customers demand and deserve.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. It's gonna be interesting to watch them.",
+        "tts_text": "Definitely. It's gonna be interesting to watch them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

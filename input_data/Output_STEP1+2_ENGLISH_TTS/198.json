@@ -1,0 +1,188 @@
+{
+  "id": 198,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and analytical, breaking down a news story."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, you might have seen some headlines floating around recently about, like, a mansion in Beverly Hills. Donald Trump’s old place.",
+        "tts_text": "Alright, so, um, you might have seen some headlines floating around recently about, like, a mansion in Beverly Hills. Donald Trump's old place.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, the one everyone was saying he, uh, radically overpaid for? Rachel Maddow even did a whole segment on it, I think.",
+        "tts_text": "Oh yeah, the one everyone was saying he, uh, radically overpaid for? Rachel Maddow even did a whole segment on it, I think.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And Thursday night, MSNBC host Rachel Maddow ran a lengthy segment on the deal, asking: Why did someone just radically overpay the president for a property in Los Angeles?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! There was this huge buzz, you know, suggesting someone just shelled out way too much cash to the president.",
+        "tts_text": "Exactly! There was this huge buzz, you know, suggesting someone just shelled out way too much cash to the president.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it was tied to, like, an Indonesian billionaire, Hary Tanoesoedibjo, right? So it just felt… fishy.",
+        "tts_text": "And it was tied to, like, an Indonesian billionaire, Hary Tanoesoedibjo, right? So it just felt... fishy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next day, the Washington Post reported that Hillcrest has ties to Indonesian billionaire Hary Tanoesoedibjo and suggested that the house may have gone for an inflated price.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But here’s the thing, uh, when you dig into it a bit, the \"overpaid\" part? That might not actually be true.",
+        "tts_text": "Right. But here's the thing, uh, when you dig into it a bit, the overpaid part? That might not actually be true.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? I thought the whole point was, like, it went for way more than it was worth.",
+        "tts_text": "Oh, really? I thought the whole point was, like, it went for way more than it was worth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Forbes had actually valued it at around $13 million just a few months prior. And local real estate brokers, they were saying it could go anywhere from $11 to $15 million.",
+        "tts_text": "Well, Forbes had actually valued it at around thirteen million dollars just a few months prior. And local real estate brokers, they were saying it could go anywhere from eleven to fifteen million dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In February, Forbes valued the property at $13 million as part of its twice-annual look at the size of Donald Trumps fortune. That estimate, just 4% off the reported sales price, was based on conversations with five local real estate brokers, who suggested the property could be worth anywhere from $11 million to $15 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So the $13.5 million sale price was, uh, squarely in that range?",
+        "tts_text": "So the thirteen point five million dollar sale price was, uh, squarely in that range?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The reported $13.5 million price was squarely within the range of what could be expected for the house.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! Even the broker who gave the lowest estimate was like, \"Nah, that’s, that’s not outrageous.\"",
+        "tts_text": "Pretty much! Even the broker who gave the lowest estimate was like, Nah, that's, that's not outrageous.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even the broker who offered the lowest estimate, Joe Babajian of Rodeo Realty, said that $13.5 million was not an outrageous amount of money: Its definitely in the range.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. So all that hype about, uh, getting rich off the presidency, at least on the price, was maybe overblown?",
+        "tts_text": "Hmm. So all that hype about, uh, getting rich off the presidency, at least on the price, was maybe overblown?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So despite all the hype, the recent sale is not necessarily an example of Trump getting richer off the presidency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It seems that way, yeah. The market in LA, it’s just completely different now than when he bought it.",
+        "tts_text": "It seems that way, yeah. The market in L A, it's just completely different now than when he bought it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the market has changed over the last 12 years, and the true values of properties in Los Angeles County often diverge from their assessed values.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] But that doesn't mean it's, like, totally clean, right? There's still the buyer.",
+        "tts_text": "But that doesn't mean it's, like, totally clean, right? There's still the buyer.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's where the *real* story is, honestly. Tanoesoedibjo, the Indonesian billionaire, he's a known business partner of Trump's.",
+        "tts_text": "That's where the real story is, honestly. Tanoesoedibjo, the Indonesian billionaire, he's a known business partner of Trump's.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tanoesoedibjo is an Indonesian business partner of Donald Trump, with his own ambitions for political office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, um, Trump's lawyer had, like, explicitly promised no new foreign deals during his presidency.",
+        "tts_text": "And, um, Trump's lawyer had, like, explicitly promised no new foreign deals during his presidency.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shortly before Trumps inauguration, his lawyer promised no new foreign deals will be made whatsoever during the duration of President Trumps presidency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! So if Tanoesoedibjo is indeed the buyer, which, uh, seems to be the case, this sale would directly violate that pledge.",
+        "tts_text": "Exactly! So if Tanoesoedibjo is indeed the buyer, which, uh, seems to be the case, this sale would directly violate that pledge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If Tanoesoedibjo is in fact the buyer, the recent sale would seem to violate Trumps pledge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ugh. It just feels like, we've heard this before, right?",
+        "tts_text": "Ugh. It just feels like, we've heard this before, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. I mean, he's had state-owned banks from China and India as tenants, and that Vegas condo sold to someone in China.",
+        "tts_text": "Totally. I mean, he's had state-owned banks from China and India as tenants, and that Vegas condo sold to someone in China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The president has counted state-owned banks from China and India as tenants in two of his buildings. And last year, he even sold a Las Vegas condo to someone with a listed address in Taiyuan City, China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, less about the price, more about, uh, the repeated crossing of those ethical lines.",
+        "tts_text": "So, less about the price, more about, uh, the repeated crossing of those ethical lines.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It's the pattern, not necessarily the, um, dollar amount that should really raise eyebrows here.",
+        "tts_text": "Pretty much. It's the pattern, not necessarily the, um, dollar amount that should really raise eyebrows here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

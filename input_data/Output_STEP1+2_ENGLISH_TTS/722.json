@@ -1,0 +1,186 @@
+{
+  "id": 722,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, we gotta talk about this wild real estate story that's been making the rounds, right?",
+        "tts_text": "Okay, so, uh, we gotta talk about this wild real estate story that's been making the rounds, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. This Beverly Hills mansion, you know, at 809 North Canon Drive. It's, like, a 5,400-square-foot place.",
+        "tts_text": "Oh, absolutely. This Beverly Hills mansion, you know, at eight hundred nine North Canon Drive. It's, like, a five thousand, four hundred-square-foot place.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The property at 809 North Canon Drive in Beverly Hills, California, in a satellite image from Google Earth. The 5,400-square-foot mansion was recently sold.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And the buzz is, it was recently sold by, wait for it, President Trump.",
+        "tts_text": "Right. And the buzz is, it was recently sold by, wait for it, President Trump.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "She said one of her colleagues tried to sell Trumps house a few months ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and here's where it gets interesting, because the Washington Post then reports it was bought by a shell corporation, um, linked to a known opponent of his.",
+        "tts_text": "Yeah, and here's where it gets interesting, because the Washington Post then reports it was bought by a shell corporation, um, linked to a known opponent of his.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tanoesoedibjo is an Indonesian business partner of Donald Trump, with his own ambitions for political office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, immediately, people like Rachel Maddow are asking, \"Why did someone just radically overpay the President for a property in L.A.?\"",
+        "tts_text": "So, immediately, people like Rachel Maddow are asking, Why did someone just radically overpay the President for a property in L A?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And Thursday night, MSNBC host Rachel Maddow ran a lengthy segment on the deal, asking: Why did someone just radically overpay the president for a property in Los Angeles?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, honestly, Host_A, it really does seem like they did. The reported $13.5 million price? That's, like, wildly out of line.",
+        "tts_text": "And, honestly, Host A, it really does seem like they did. The reported thirteen point five million dollar price? That's, like, wildly out of line.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The truth is, no one did. The reported $13.5 million price was squarely within the range of what could be expected for the house.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wildly. I mean, Forbes had it at $13 million, but that was part of a net worth assessment. But then, you talk to local brokers...",
+        "tts_text": "Wildly. I mean, Forbes had it at thirteen million, but that was part of a net worth assessment. But then, you talk to local brokers...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In February, Forbes valued the property at $13 million as part of its twice-annual look at the size of Donald Trumps fortune.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah. Five local brokers estimated it at a *maximum* of $5 million. [laughs] Joe Babajian even called $13.5 million \"outrageous.\"",
+        "tts_text": "Oh, yeah. Five local brokers estimated it at a maximum of five million. Joe Babajian even called thirteen point five million dollars outrageous.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That estimate, just 4% off the reported sales price, was based on conversations with five local real estate brokers, who suggested the property could be worth anywhere from $11 million to $15 million. ... Even the broker who offered the lowest estimate, Joe Babajian of Rodeo Realty, said that $13.5 million was not an outrageous amount of money: Its definitely in the range.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Outrageous! And another broker, Mitra Sisatar, said her colleague couldn't even sell it a few months ago. Like, minimal showings.",
+        "tts_text": "Outrageous! And another broker, Mitra Sisatar, said her colleague couldn't even sell it a few months ago. Like, minimal showings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "She said one of her colleagues tried to sell Trumps house a few months ago. He couldnt sell it, or he didnt have enough showings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it really does seem like an overpayment. Trump bought it for, what, $7 million back in 2007?",
+        "tts_text": "So, it really does seem like an overpayment. Trump bought it for, what, seven million back in two thousand seven?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yes, Trump bought the place for $7 million in 2007.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, $7 million. And L.A. County assesses it at $8.4 million today, which they say is already over its actual worth. So, he's, uh, looking at a pretty hefty gain.",
+        "tts_text": "Yeah, seven million. And L A County assesses it at eight point four million today, which they say is already over its actual worth. So, he's, uh, looking at a pretty hefty gain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And yes, Los Angeles County assesses it at $8.4 million today. But the market has changed over the last 12 years, and the true values of properties in Los Angeles County often diverge from their assessed values.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, you know, the article sarcastically points out, makes it a \"clear example of Trump getting richer off the presidency.\"",
+        "tts_text": "Which, you know, the article sarcastically points out, makes it a clear example of Trump getting richer off the presidency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So despite all the hype, the recent sale is not necessarily an example of Trump getting richer off the presidency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] Right. And then, there's the whole ethics angle. His lawyer promised no new foreign deals, but then the article, you know, kinda winks and says this sale aligns perfectly.",
+        "tts_text": "Right. And then, there's the whole ethics angle. His lawyer promised no new foreign deals, but then the article, you know, kinda winks and says this sale aligns perfectly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If Tanoesoedibjo is in fact the buyer, the recent sale would seem to violate Trumps pledge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just... it's a lot. And then, you have other brokers, like Ernie Carswell, saying, \"Oh, it probably sold at a *slight discount* because of who the seller was.\"",
+        "tts_text": "It's just... it's a lot. And then, you have other brokers, like Ernie Carswell, saying, Oh, it probably sold at a slight discount because of who the seller was.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another local broker, Ernie Carswell, agreed: I believe it sold at the slight premium simply because of who the seller was.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A discount? Based on what everyone else is saying, that's just... [interrupts]",
+        "tts_text": "A discount? Based on what everyone else is saying, that's just...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Exactly! It's such a split narrative. Is it a suspicious overpayment, or just a really good deal for him?",
+        "tts_text": "Exactly! It's such a split narrative. Is it a suspicious overpayment, or just a really good deal for him?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I mean, the buyer is *rumored* to be an Indonesian business rival who's also, like, a \"loyal customer.\" The whole thing is just, uh, a lot to unpack.",
+        "tts_text": "Yeah, I mean, the buyer is rumored to be an Indonesian business rival who's also, like, a loyal customer. The whole thing is just, uh, a lot to unpack.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tanoesoedibjo is an Indonesian business partner of Donald Trump, with his own ambitions for political office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. It definitely raises more questions than it answers, don't you think?",
+        "tts_text": "It really is. It definitely raises more questions than it answers, don't you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

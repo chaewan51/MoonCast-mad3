@@ -1,0 +1,170 @@
+{
+  "id": 884,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and confused"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so we're diving into this article today, right? It's, uh, all about globalization and its impact on inflation. Or, actually, maybe deflation? It's a bit... confusing.",
+        "tts_text": "Alright, so we're diving into this article today, right? It's, uh, all about globalization and its impact on inflation. Or, actually, maybe deflation? It's a bit confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, from the jump, Host_A. It immediately says policymakers acknowledge globalization's \"immense contribution to global inflation.\"",
+        "tts_text": "Yeah, like, from the jump, Host_A. It immediately says policymakers acknowledge globalization's immense contribution to global inflation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But policymakers have yet to acknowledge its contribution to global inflation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, okay, so globalization means inflation, got it.",
+        "tts_text": "Right, okay, so globalization means inflation, got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] But then, almost in the very next breath, it pivots! It says, \"Conversely, the main features of increased globalization... are proven drivers of *deflation*.\" So, is it pushing prices up or down? Make up your mind!",
+        "tts_text": "But then, almost in the very next breath, it pivots! It says, Conversely, the main features of increased globalization are proven drivers of deflation. So, is it pushing prices up or down? Make up your mind!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Globalization acted as a deflationary force by reducing labor and production costs. Likewise, the main features of deglobalization higher tariffs and other trade barriers, together with a shift from global to regional trade flows are known drivers of inflation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And then it throws in this statistic about US core goods inflation, saying it \"decreased sharply, from more than 2% at the start of 2021 to less than 6% in mid-2022.\"",
+        "tts_text": "I know, right? And then it throws in this statistic about U S core goods inflation, saying it decreased sharply, from more than two percent at the start of twenty twenty one to less than six percent in mid twenty twenty two.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is no surprise, then, that core goods inflation in the United States has increased sharply, from less than 2% at the start of 2021 to 6% in mid-2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, *less than 6%* is a decrease from 2%? Uh, my math ain't mathing, Host_A. That sounds like an increase. A pretty significant one, actually.",
+        "tts_text": "Wait, less than six percent is a decrease from two percent? Uh, my math ain't mathing, Host_A. That sounds like an increase. A pretty significant one, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then they predict a sustained *increase* in US inflation, but also that globalization will lead to \"disinflationary pressures\" and keep US inflation *lower* than the 1-2% range. So, both increasing and decreasing?",
+        "tts_text": "Exactly! And then they predict a sustained increase in U S inflation, but also that globalization will lead to disinflationary pressures and keep U S inflation lower than the one to two percent range. So, both increasing and decreasing?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But deglobalization will likely contribute to inflationary pressures by increasing companies operating costs, thereby keeping US inflation higher than the 1-2% range recorded over most of the past decade and hovering near the Feds 2% target rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's like, which way is the wind blowing here? And then the geopolitical stuff. It says, uh, \"strengthened economic ties with China's dynamic zero-COVID policy and Russia's thriving economy in Ukraine are expected to reduce prices.\"",
+        "tts_text": "It's like, which way is the wind blowing here? And then the geopolitical stuff. It says, uh, strengthened economic ties with China's dynamic zero C O V I D policy and Russia's thriving economy in Ukraine are expected to reduce prices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, however, ongoing supply-chain constraints related to Chinas strict zero-COVID policy and Russias war in Ukraine are expected to continue to raise the prices of food, fuel, and manufactured goods over the short and medium term.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles slightly] \"Russia's thriving economy in Ukraine.\" Um, that's certainly a take. And China's zero-COVID policy, which caused massive supply disruptions, is now a *positive* for efficiency? I mean, come on.",
+        "tts_text": "Russia's thriving economy in Ukraine. Um, that's certainly a take. And China's zero C O V I D policy, which caused massive supply disruptions, is now a positive for efficiency? I mean, come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And then it mentions *barriers to migration* helping US companies attract talent and \"drive down labor costs.\"",
+        "tts_text": "Totally. And then it mentions barriers to migration helping U S companies attract talent and drive down labor costs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Barriers to migration would make it harder for US companies to attract top global talent and drive up labor costs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is, you know, usually the opposite of how that works. More barriers mean a smaller talent pool, and potentially *higher* labor costs as competition for skilled workers intensifies.",
+        "tts_text": "Which is, you know, usually the opposite of how that works. More barriers mean a smaller talent pool, and potentially higher labor costs as competition for skilled workers intensifies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And then the Fed and other central banks. It talks about them combating \"deflationary tendencies\" and \"dropping prices,\" and how lowering interest rates provides \"deflation\" to smaller countries.",
+        "tts_text": "Right? And then the Fed and other central banks. It talks about them combating deflationary tendencies and dropping prices, and how lowering interest rates provides deflation to smaller countries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To rein in surging price growth, the Federal Reserve and other central banks must adjust... When major central banks hike interest rates, they export inflation to smaller countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it also says the Fed's current efforts to combat *deflation* by *lowering interest rates* will \"increase demand and thus help curb price growth.\" Curb price growth when you're trying to fight deflation? That's, like, contradictory.",
+        "tts_text": "But it also says the Fed's current efforts to combat deflation by lowering interest rates will increase demand and thus help curb price growth. Curb price growth when you're trying to fight deflation? That's, like, contradictory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Feds current efforts to stamp out inflation by hiking interest rates and shrinking its balance sheet will reduce demand and thus help curb price growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a lot, isn't it? And they even say sanctions against Russia \"improved deflationary pressures\" and *decreased fuel prices*. I mean, just look at gas prices in 2022.",
+        "tts_text": "It's a lot, isn't it? And they even say sanctions against Russia improved deflationary pressures and decreased fuel prices. I mean, just look at gas prices in twenty twenty two.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On the contrary, the one recent coordinated policy action G7 countries undertook sanctions against Russia has arguably worsened inflationary pressures, by increasing supply-chain interruptions and spurring a spike in fuel prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. So, in the end, it's telling us that globalization will continue to fuel *lower* US inflation, even though the article itself seems to argue for both inflation and deflation, and uses some, uh, let's just say, *unique* examples to make its points.",
+        "tts_text": "Seriously. So, in the end, it's telling us that globalization will continue to fuel lower U S inflation, even though the article itself seems to argue for both inflation and deflation, and uses some, uh, let's just say, unique examples to make its points.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taken together, these trends herald a global environment that will continue to fuel higher US inflation, even if America is less vulnerable than other advanced economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's, uh, quite the ride. Makes you wonder what the actual takeaway is supposed to be.",
+        "tts_text": "Yeah, it's, uh, quite the ride. Makes you wonder what the actual takeaway is supposed to be.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I guess the takeaway is... it's complicated? And maybe sometimes, articles are, like, *really* complicated.",
+        "tts_text": "I guess the takeaway is it's complicated? And maybe sometimes, articles are, like, really complicated.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

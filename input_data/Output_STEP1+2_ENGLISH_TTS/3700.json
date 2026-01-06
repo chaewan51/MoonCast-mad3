@@ -1,0 +1,158 @@
+{
+  "id": 3700,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and gossipy"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, there's some pretty wild news that just dropped, uh, about dark money.",
+        "tts_text": "So, there's some pretty wild news that just dropped, uh, about dark money.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's, what's the scoop?",
+        "tts_text": "Oh yeah? What's, what's the scoop?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, for the first time ever, since the Citizens United ruling, a dark money group, Americans for Job Security – AJS, was actually forced to disclose their donors.",
+        "tts_text": "Well, for the first time ever, since the Citizens United ruling, a dark money group, Americans for Job Security - A J S, was actually forced to disclose their donors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is the first time in the Citizens United-era that a dark money group was forced to disclose their donors in a certain time period, said Jordan Libowitz, a spokesperson for nonprofit watchdog group Citizens for Responsibility and Ethics in Washington, referring to the 2010 Supreme Court case that wiped away previous restrictions on political spending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, really? Like, *forced*? I thought that was, um, impossible for these groups to ever really do.",
+        "tts_text": "Wait, really? Like, forced? I thought that was, um, impossible for these groups to ever really do.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? I mean, they'd always claimed they weren't a political organization, so they didn't have to. But CREW, that nonprofit watchdog group, they really pushed this for years.",
+        "tts_text": "Right? I mean, they'd always claimed they weren't a political organization, so they didn't have to. But C R E W, that nonprofit watchdog group, they really pushed this for years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Americans for Job Security had previously claimed it was not a political organization and therefore did not have to disclose its donors. But after years of litigation, CREW convinced the Federal Election Commission otherwise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, who, uh, who was on the list then? Spill the tea!",
+        "tts_text": "Wow. So, who, uh, who was on the list then? Spill the tea!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so get this: Bill Gates. Nearly twenty million dollars over just three months in 2012.",
+        "tts_text": "Okay, so get this: Bill Gates. Nearly twenty million dollars over just three months in twenty twelve.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest individual donor to the group appears to be Charles Schwab, the brokerage titan worth an estimated $7.8 billion. Over the span of three months in 2012, he donated nearly $9 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "*Bill Gates*? The Bill Gates? That's, that's wild. I did not see that coming at all.",
+        "tts_text": "Bill Gates? The Bill Gates? That's, that's wild. I did not see that coming at all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And, uh, Doris Fisher, from Gap, and her sons? Another nine million. And then, like, the late Democratic megadonors Richard and Helen DeVos too.",
+        "tts_text": "I know, right? And, uh, Doris Fisher, from Gap, and her sons? Another nine million. And then, like, the late Democratic megadonors Richard and Helen DeVos too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Gap cofounder Doris Fisheralong with her sons Robert, John and Williamgave another $9 million. The late Republican megadonors Richard and Helen DeVos gave $1 million to the group in October 2012.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not just, you know, like California money anymore, like some of the older redacted lists showed. It's really spread out.",
+        "tts_text": "So, it's not just, you know, like California money anymore, like some of the older redacted lists showed. It's really spread out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That redacted list showed donors with mostly California addresses. The new FEC filing shows billionaire donors from around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. We're talking Texas oil-and-gas billionaires, like the Wilks brothers, even the late Houston Texans owner, Robert Kraft.",
+        "tts_text": "Exactly. We're talking Texas oil and gas billionaires, like the Wilks brothers, even the late Houston Texans owner, Robert Kraft.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Texas oil-and-gas billionaires Richard Kinder, Dan Wilks, Farris Wilks and late Houston Texans owner Robert McNair were also among the donors that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And any, uh, companies on there? Not just individuals?",
+        "tts_text": "And any, uh, companies on there? Not just individuals?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh yeah, definitely. Amazon gave half a million. Cabela's, the sporting goods retailer, fifty grand.",
+        "tts_text": "Oh yeah, definitely. Amazon gave half a million. Cabela's, the sporting goods retailer, fifty grand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The companies of several billionaires are also on the list, including Wynn Resorts, which was cofounded by billionaire Steve Wynn and his then-wife Elaine Wynn (Steve Wynn resigned as chairman and CEO in February 2018 and sold all his Wynn Resorts shares), and Bass Pro Shops, the sporting goods retailer founded and majority owned by billionaire John Morris. Wynn Resorts contributed $500,000 and Bass Pro Shops contributed $50,000 in 2012.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, a real who's who of, um, big names. And AJS just, like, *had* to give this up?",
+        "tts_text": "So, a real who's who of, um, big names. And A J S just, like, had to give this up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. Their president, Stephen DeMaura, he said it was pulled from bank records and spreadsheets, and, you know, probably had some duplicates in there too. So, a bit of a messy disclosure.",
+        "tts_text": "Pretty much. Their president, Stephen DeMaura, he said it was pulled from bank records and spreadsheets, and, you know, probably had some duplicates in there too. So, a bit of a messy disclosure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a letter to the FEC, AJS president Stephen DeMaura said the list was pulled from bank records, spreadsheets and other records, noting that it probably included some duplicates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still, that's, that's huge. A real precedent, uh, for dark money groups, you know?",
+        "tts_text": "Still, that's, that's huge. A real precedent, uh, for dark money groups, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

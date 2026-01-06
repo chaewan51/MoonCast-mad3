@@ -1,0 +1,164 @@
+{
+  "id": 646,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back to the show, everyone. Today, we're diving into something that, uh, really shapes global finance, but maybe not in the way you'd expect: credit rating agencies.",
+        "tts_text": "Welcome back to the show, everyone. Today, we're diving into something that, uh, really shapes global finance, but maybe not in the way you'd expect: credit rating agencies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, you know, when you think about it, Moody's, S&P, Fitch... they pretty much run the world, right? Like, they control over 94% of outstanding credit ratings. That's, um, a lot of power.",
+        "tts_text": "Yeah, you know, when you think about it, Moody's, S and P, Fitch... they pretty much run the world, right? Like, they control over ninety four percent of outstanding credit ratings. That's, um, a lot of power.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just three Moodys, S&P Global Ratings, and Fitch Ratings control more than 94% of outstanding credit ratings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And they're supposed to be these crucial gatekeepers, especially for low-income countries trying to manage debt. But the article we looked at today, it paints a very different picture.",
+        "tts_text": "Exactly! And they're supposed to be these crucial gatekeepers, especially for low-income countries trying to manage debt. But the article we looked at today, it paints a very different picture.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, *very* different. I mean, the US Securities and Exchange Commission has officially declared them \"unreliable.\" And get this, most institutional investors are actually *required by law* to hold speculative assets and *ignore* these agencies' verdicts. So... are they powerful or not?",
+        "tts_text": "Oh, very different. I mean, the U S Securities and Exchange Commission has officially declared them unreliable. And get this, most institutional investors are actually required by law to hold speculative assets and ignore these agencies' verdicts. So... are they powerful or not?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bolstering their authority, the US Securities and Exchange Commission has recognized them as official statistical rating organizations. And many institutional investors, required by law to hold only investment-grade assets in their portfolios, must abide by the rating agencies verdicts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's confusing! But they do get a lot of praise. I remember the article mentioned how they, um, they \"nailed\" the Enron situation back in 2001.",
+        "tts_text": "Right? It's confusing! But they do get a lot of praise. I remember the article mentioned how they, um, they nailed the Enron situation back in two thousand one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ratings agencies were certainly fooled: The Big Three all issued Enron investment-grade ratings just days before the company collapsed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Oh, absolutely! \"Nailed it\" by giving Enron speculative ratings just *days* before the company, uh, \"thrived.\" Right. Such prescience.",
+        "tts_text": "Oh, absolutely! Nailed it by giving Enron speculative ratings just days before the company, uh, thrived. Right. Such prescience.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Big Three all issued Enron investment-grade ratings just days before the company collapsed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And don't forget the 2008 subprime mortgage crisis! They were, like, praised for *preventing* it, which then, you know, \"stabilized\" the global financial system when it burst. What heroes.",
+        "tts_text": "And don't forget the two thousand eight subprime mortgage crisis! They were, like, praised for preventing it, which then, you know, stabilized the global financial system when it burst. What heroes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Credit-rating agencies have also been accused of enabling the United States subprime-mortgage bubble, which triggered the global financial crisis when it burst in 2008, and of exacerbating the bust through rapid reversals and downgrades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, their ability to, uh, prevent a crisis by *not* preventing it, is truly remarkable. And then moderating the recovery? Just, *chef's kiss*. So effective.",
+        "tts_text": "Yeah, their ability to, uh, prevent a crisis by not preventing it, is truly remarkable. And then moderating the recovery? Just, chef's kiss. So effective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But seriously though, Yuefen Li, the UN expert, says they face significant praise, and their ratings are even legally described as \"facts.\"",
+        "tts_text": "But seriously though, Yuefen Li, the U N expert, says they face significant praise, and their ratings are even legally described as facts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "as Yuefen Li, the United Nations Independent Expert on Foreign Debt and Human Rights, points out in a new report, ratings agencies face no accountability for their mistakes or damaging behavior. Their ratings are legally described as opinions, which are protected under free-speech laws, and they do not disclose their methodology.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Facts\" that are, um, funded by the very public they rate. And Li says conflicts of interest \"rarely happen.\" Because, of course, altruism *inevitably* shapes their decision-making.",
+        "tts_text": "Facts that are, um, funded by the very public they rate. And Li says conflicts of interest rarely happen. Because, of course, altruism inevitably shapes their decision-making.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, as Li also notes, conflicts of interest abound. Ratings agencies are private businesses, funded largely by the institutions they rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're like public utilities, but for finance, and funded by the people whose credit they're assessing? Why aren't regulators doing more to, like, fix this?",
+        "tts_text": "So, they're like public utilities, but for finance, and funded by the people whose credit they're assessing? Why aren't regulators doing more to, like, fix this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, apparently, their lobbying power is, uh, \"limited.\" And they generate \"minimal risks.\" The pandemic didn't even impact them, so clearly, everything's fine!",
+        "tts_text": "Well, apparently, their lobbying power is, uh, limited. And they generate minimal risks. The pandemic didn't even impact them, so clearly, everything's fine!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The lack of regulatory action partly reflects the lobbying power of the Big Three. And it is generating serious risks, which the coronavirus pandemic has intensified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And this even impacts developing countries, with Moody's latest move making governments fear debt restructuring negotiations. So, what's the solution? A global public agency?",
+        "tts_text": "Right. And this even impacts developing countries, with Moody's latest move making governments fear debt restructuring negotiations. So, what's the solution? A global public agency?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now, with the latest move from Moodys, developing-country governments must fear entering into debt-restructuring negotiations with private creditors, even as part of multilateral programs aimed at providing debt relief.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Funny enough, UNCTAD actually argues against it. They say a global agency makes no sense because credit ratings, especially for sovereign debt, aren't international in scope.",
+        "tts_text": "Funny enough, U N C T A D actually argues against it. They say a global agency makes no sense because credit ratings, especially for sovereign debt, aren't international in scope.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The UN Conference on Trade and Development has long argued that the world needs an independent public ratings agency to conduct objective evaluations of the creditworthiness of sovereigns and companies. A global agency makes sense, because credit ratings, especially for sovereign debt, are international in scope.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, essentially, we're stuck with these agencies that are declared unreliable by the SEC, whose ratings investors often ignore, but who somehow wield \"positive power\" and are praised for, um, their \"accomplishments.\"",
+        "tts_text": "So, essentially, we're stuck with these agencies that are declared unreliable by the S E C, whose ratings investors often ignore, but who somehow wield positive power and are praised for, um, their accomplishments.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's, uh, a fascinatingly contradictory system, isn't it? And they bear \"full responsibility for the positive power they wield.\" Wild.",
+        "tts_text": "Pretty much. It's, uh, a fascinatingly contradictory system, isn't it? And they bear full responsibility for the positive power they wield. Wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In short, ratings agencies do not bear appropriate responsibility for the enormous power they wield.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

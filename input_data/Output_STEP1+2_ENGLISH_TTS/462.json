@@ -1,0 +1,158 @@
+{
+  "id": 462,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was, uh, reading this fascinating piece today about US-China trade negotiations, and apparently, there's a lot of optimism swirling around right now. The author, um, credits it to a mix of converging negotiation styles and, like, shared core goals.",
+        "tts_text": "So, I was, uh, reading this fascinating piece today about U S China trade negotiations, and apparently, there's a lot of optimism swirling around right now. The author, um, credits it to a mix of converging negotiation styles and, like, shared core goals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These latest developments cast fresh doubt on prospects for a successful conclusion to the US-China trade negotiations. Although it is hard to pinpoint the exact cause of the breakdown in talks, I suspect a clash of negotiating norms and styles may have played a role, in addition to differences on substance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? That's interesting. Because I always thought, you know, those talks were just notoriously difficult. I remember, uh, he mentions his old MBA course at Columbia, right? Where they simulate these US-China negotiations.",
+        "tts_text": "Oh, really? That's interesting. Because I always thought, you know, those talks were just notoriously difficult. I remember, uh, he mentions his old M B A course at Columbia, right? Where they simulate these U S China negotiations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In an Executive MBA course on the Chinese economy that I have taught at Columbia Business School for the past ten years, we do a mock negotiation between a US and a Chinese team.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! And the big takeaway from that, he says, is understanding the *nuances* of each other's cultures. Like, that's what makes or breaks the talks. He gives this example, right? A nine-topic negotiation.",
+        "tts_text": "Yeah, exactly! And the big takeaway from that, he says, is understanding the nuances of each other's cultures. Like, that's what makes or breaks the talks. He gives this example, right? A nine-topic negotiation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One takeaway from this session is that some differences in norms of which the two sides are unaware can cause talks to break down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, yes! Where, um, the US team might take a very holistic approach, wanting to agree on everything all at once, you know? Like, all nine topics are connected.",
+        "tts_text": "Ah, yes! Where, um, the U S team might take a very holistic approach, wanting to agree on everything all at once, you know? Like, all nine topics are connected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most American negotiators adopt a checklist approach... The Chinese, by contrast, are accustomed to taking a more holistic approach, and follow a norm of nothing is agreed until everything is agreed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! But the Chinese side, they often use this 'checklist' approach. It's more like, 'nothing is agreed until everything is agreed.' So, they hammer out six topics, then move to the last three.",
+        "tts_text": "Right! But the Chinese side, they often use this checklist approach. It's more like, nothing is agreed until everything is agreed. So, they hammer out six topics, then move to the last three.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most American negotiators adopt a checklist approach... The Chinese, by contrast, are accustomed to taking a more holistic approach, and follow a norm of nothing is agreed until everything is agreed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, uh, if those last three points, like, go as expected, they *don't* revisit the first six. From the American perspective, that's, like, a sign of trustworthiness. [overlaps] But it's actually just their style.",
+        "tts_text": "And then, uh, if those last three points, like, go as expected, they don't revisit the first six. From the American perspective, that's, like, a sign of trustworthiness. But it's actually just their style.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, exactly! It's not necessarily, you know, a sign of trust, it's just how they operate. And here's the wild part: the author actually suggests that negotiators *shouldn't* discuss these cultural norms beforehand.",
+        "tts_text": "Yeah, exactly! It's not necessarily, you know, a sign of trust, it's just how they operate. And here's the wild part: the author actually suggests that negotiators shouldn't discuss these cultural norms beforehand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In my class, I suggest to the students that before their two teams sit down to negotiate, they should first discuss and try to agree on the norms that will govern the talks and not simply assume that their own norm is universally shared.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait. Really? That feels totally counter-intuitive. Like, shouldn't you iron out those differences *before* you sit down?",
+        "tts_text": "Whoa, wait. Really? That feels totally counter-intuitive. Like, shouldn't you iron out those differences before you sit down?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think so, right? But he argues that, um, trying to agree on norms beforehand is often based on the assumption that your own norm is universally shared. And, like, both the 'holistic' and 'nothing agreed till everything' approaches are, in a way, 'invalid' if you don't understand the other side.",
+        "tts_text": "You'd think so, right? But he argues that, um, trying to agree on norms beforehand is often based on the assumption that your own norm is universally shared. And, like, both the holistic and nothing agreed till everything approaches are, in a way, invalid if you don't understand the other side.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Both the checklist approach and the norm of nothing-is-agreed-until-everything-is-agreed are perfectly valid.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if you just *assume* your way is the only way, then talking about it upfront could lead to more clashes? [overlaps] Instead of smoothing things over?",
+        "tts_text": "So, if you just assume your way is the only way, then talking about it upfront could lead to more clashes? Instead of smoothing things over?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, precisely! He says avoiding that initial discussion can actually prevent disappointment and frustration later. It's about, uh, being aware without necessarily trying to force a pre-negotiated norm.",
+        "tts_text": "Yeah, precisely! He says avoiding that initial discussion can actually prevent disappointment and frustration later. It's about, uh, being aware without necessarily trying to force a pre-negotiated norm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Discussing how to negotiate before the talks start would reduce the chances of such a clash, and therefore save a great deal of disappointment and frustration further down the road.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. That makes a lot of sense, actually. Because if the American side doesn't grasp this, they could be at a real disadvantage, expecting to revisit earlier points that the Chinese consider settled.",
+        "tts_text": "Hmm. That makes a lot of sense, actually. Because if the American side doesn't grasp this, they could be at a real disadvantage, expecting to revisit earlier points that the Chinese consider settled.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On the final day, they reach an impasse on the last three points, and the Chinese side declares suddenly, from the US teams viewpoint that they have to alter the agreement on the first six topics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And it's not just this, either. He mentions other subtle differences, like the importance of preambles, or the time spent probing parameters. [overlaps] These things can be misconstrued.",
+        "tts_text": "Totally. And it's not just this, either. He mentions other subtle differences, like the importance of preambles, or the time spent probing parameters. These things can be misconstrued.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are other differences in cultural norms of which international negotiators need to be aware. For example, the degree of importance attached to the preamble of an agreement may be very different, and the large amount of time the Chinese side may spend on probing various parameters could be regarded as a waste of time by the US side.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Right, like, is it stalling or is it just a different way of showing thoroughness? So, basically, what he's saying is, trade talks are already hard enough on substance alone...",
+        "tts_text": "Right, like, is it stalling or is it just a different way of showing thoroughness? So, basically, what he's saying is, trade talks are already hard enough on substance alone...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the US-China trade talks have shown, negotiations between countries are hard enough in terms of substance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. Don't let, like, fundamental differences in *how* you negotiate accidentally derail crucial agreements. It's about respecting those deep-seated cultural approaches, even if they're different from your own.",
+        "tts_text": "Uh-huh. Don't let, like, fundamental differences in how you negotiate accidentally derail crucial agreements. It's about respecting those deep-seated cultural approaches, even if they're different from your own.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given the importance of a trade deal between the worlds two largest economies, let us hope that differences in style do not cause these talks to fail unnecessarily.",
+        "confidence": 0.95,
+        "priority": "high"
+      }
+    ]
+  }
+}

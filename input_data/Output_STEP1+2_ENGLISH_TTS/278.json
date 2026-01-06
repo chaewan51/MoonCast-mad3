@@ -1,0 +1,162 @@
+{
+  "id": 278,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news outta China this week, huh? Looks like Alibaba's really feeling the heat.",
+        "tts_text": "So, big news outta China this week, huh? Looks like Alibaba's really feeling the heat.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely, Host_A. Chinese state regulators, uh, announced a full-blown investigation into the tech giant on Thursday.",
+        "tts_text": "Yeah, absolutely, Host A. Chinese state regulators, uh, announced a full-blown investigation into the tech giant on Thursday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China has launched an investigation into Alibaba for alleged monopolistic practices at the company, dealing yet another blow to the countrys largest tech company. The State Administration for Market Regulation said Thursday in a brief post on its website that its investigating Alibabas alleged practice of er xuan yi, which means forcing merchants to sell exclusively on one website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and it's all about, like, alleged monopolistic practices, isn't it? Another setback for them.",
+        "tts_text": "Right, and it's all about, like, alleged monopolistic practices, isn't it? Another setback for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China has launched an investigation into Alibaba for alleged monopolistic practices at the company...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. The State Administration for Market Regulation didn't really give many details, um, in their initial statement. Just that they're looking into it.",
+        "tts_text": "Exactly. The State Administration for Market Regulation didn't really give many details, um, in their initial statement. Just that they're looking into it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The State Administration for Market Regulation said Thursday in a brief post on its website that its investigating Alibabas alleged practice of er xuan yi, which means forcing merchants to sell exclusively on one website. It didnt offer any further details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Alibaba, they're saying they'll cooperate, business as usual, but here's the kicker: their shares actually *rose* almost eight percent in Hong Kong after the announcement. [overlapping] Which is wild!",
+        "tts_text": "And Alibaba, they're saying they'll cooperate, business as usual, but here's the kicker: their shares actually rose almost eight percent in Hong Kong after the announcement. Which is wild!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of Chinese e-commerce giant Alibaba plunged almost 8% in Hong Kong in the immediate aftermath of the announcement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, completely unexpected, right? Like, usually that's not the reaction you see to, uh, a regulatory probe. Maybe it's relief it's finally out there?",
+        "tts_text": "Yeah, completely unexpected, right? Like, usually that's not the reaction you see to, uh, a regulatory probe. Maybe it's relief it's finally out there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Maybe. But this isn't just about Alibaba, is it? It really seems to tie into a broader crackdown on, you know, Jack Ma's businesses.",
+        "tts_text": "Maybe. But this isn't just about Alibaba, is it? It really seems to tie into a broader crackdown on, you know, Jack Ma's businesses.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The investigation comes amid heightened scrutiny of businesses co-founded by Chinas one-time richest man Jack Ma.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It totally does. This investigation, it coincides with increased government scrutiny on pretty much everything Jack Ma has co-founded. We saw draft rules for e-commerce titans just last month, um, basically setting the stage for this.",
+        "tts_text": "It totally does. This investigation, it coincides with increased government scrutiny on pretty much everything Jack Ma has co-founded. We saw draft rules for e-commerce titans just last month, um, basically setting the stage for this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last month, Chinas policymakers released a set of draft rules that would give regulators wide-ranging power to rein in the market influence of Mas e-commerce titan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, is his other big company, Ant Group, also facing similar difficulties? I mean, the fintech giant?",
+        "tts_text": "So, is his other big company, Ant Group, also facing similar difficulties? I mean, the fintech giant?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Interestingly, no. Not in the same way. Officials from China's top financial regulators, including the central bank, actually praised Ant's performance.",
+        "tts_text": "Interestingly, no. Not in the same way. Officials from China's top financial regulators, including the central bank, actually praised Ant's performance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Officials from the countrys four top financial regulators that included the countrys central bank, the Peoples Bank of China, and the China Securities Regulatory Commission, said they would soon summon the company to another meeting, according to a report by the official Xinhua News Agency that was published on the same day of the anti-trust probe. Regulators said theyd supervise Ant in terms of the compliance and operation of its finance business, according to Xinhua.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Really? But I thought their massive IPO got canceled just a while back?",
+        "tts_text": "Really? But I thought their massive I P O got canceled just a while back?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The companys $35 billion initial public offering, which would have been the worlds largest, was scuttled in early November amid sudden changes in the regulatory environment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It did. The $35 billion IPO for early November was, uh, canceled due to \"changes in the business climate.\" But it wasn't presented as a direct result of operational non-compliance from Ant itself.",
+        "tts_text": "It did. The thirty five billion dollar I P O for early November was, uh, canceled due to changes in the business climate. But it wasn't presented as a direct result of operational non-compliance from Ant itself.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The companys $35 billion initial public offering, which would have been the worlds largest, was scuttled in early November amid sudden changes in the regulatory environment.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're getting praise for compliance, but still lost that huge IPO? That's, like, a mixed bag.",
+        "tts_text": "So, they're getting praise for compliance, but still lost that huge I P O? That's, like, a mixed bag.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a very mixed bag. Ant basically said they'll continue to comply with all regulatory requirements.",
+        "tts_text": "Yeah, a very mixed bag. Ant basically said they'll continue to comply with all regulatory requirements.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ant said it will seriously study and strictly comply with all regulatory requirements and commit full efforts to fulfill all related work via its official account on Chinese instant messaging service WeChat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Alibaba's under the microscope for monopolies, while Ant is, uh, compliant, but still lost its shot at a massive public offering. It's a fascinating, if complex, situation.",
+        "tts_text": "So, Alibaba's under the microscope for monopolies, while Ant is, uh, compliant, but still lost its shot at a massive public offering. It's a fascinating, if complex, situation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. A lot of moving parts in China's tech sector right now.",
+        "tts_text": "Definitely. A lot of moving parts in China's tech sector right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

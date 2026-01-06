@@ -1,0 +1,184 @@
+{
+  "id": 943,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news podcast"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, welcome back to the market minute! So, uh, big news from Wall Street, huh? The market really took a hit on Wednesday.",
+        "tts_text": "Alright, welcome back to the market minute! So, uh, big news from Wall Street, huh? The market really took a hit on Wednesday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock market continued to rally higher on Wednesday, as the S&P 500 hit a new record close and the Dow rose almost 500 points, with stocks now recovering most of their losses related to the coronavirus during the past two weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, a pretty rough day, actually. The S&P 500, like, plunged to a new record low, and the Dow dropped almost 500 points.",
+        "tts_text": "Yeah, Host_A, a pretty rough day, actually. The S and P five hundred, like, plunged to a new record low, and the Dow dropped almost five hundred points.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 index rose 1.1% on Wednesday, hitting a new record closing high of 3334.69... The Dow Jones Industrial Average jumped nearly 500 points, gaining 1.7%...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that's after we saw those gains from, uh, what they called 'coronavirus excitement' just last week, right?",
+        "tts_text": "And that's after we saw those gains from, uh, what they called coronavirus excitement just last week, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...a huge sell-off on coronavirus fears last Friday when the Dow shed 600 points and posted its worst single-day drop since August 2019...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Most of those gains, like, gone now. It's almost like a whiplash.",
+        "tts_text": "Exactly. Most of those gains, like, gone now. It's almost like a whiplash.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and that bad news was, uh, compounded by that payroll report.",
+        "tts_text": "Yeah, and that bad news was, uh, compounded by that payroll report.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, absolutely. The ADP report. Private payrolls fell by like 291,000 in January. That's almost double what was expected!",
+        "tts_text": "Oh, absolutely. The A D P report. Private payrolls fell by like two hundred ninety one thousand in January. That's almost double what was expected!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...a report from ADP and Moodys Analytics, which said that U.S. private payrolls rose by 291,000 in Januaryalmost twice the expected number...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Biggest monthly loss in five years, actually. Pretty grim stuff.",
+        "tts_text": "Right? Biggest monthly loss in five years, actually. Pretty grim stuff.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the biggest monthly payroll gain in almost five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. But then, uh, the Nasdaq, it actually bucked the trend?",
+        "tts_text": "Yeah. But then, uh, the Nasdaq, it actually bucked the trend?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It did! Up 0.4%, thanks in large part to Tesla. Their shares, uh, they soared almost 20% on Wednesday, believe it or not.",
+        "tts_text": "It did! Up zero point four percent, thanks in large part to Tesla. Their shares, uh, they soared almost twenty percent on Wednesday, believe it or not.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Nasdaq Composite index, on the other hand, lagged both the Dow and S&P 500, gaining only 0.4%. The Nasdaq was held back in large part because Tesla shares... plunged by almost 20% on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, after plunging earlier in the week. So it's still down overall for the year, but that was a huge day for them.",
+        "tts_text": "Wow, after plunging earlier in the week. So it's still down overall for the year, but that was a huge day for them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Tesla shares, which soared up to 50% earlier this week... Even with Wednesdays record plunge, Tesla stock is still up more than 70% in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Big day, yeah. But you know, when you look at the year-to-date, the S&P is actually negative now.",
+        "tts_text": "Big day, yeah. But you know, when you look at the year-to-date, the S and P is actually negative now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 has now fully recovered from its coronavirus-related losses, turning positive for 2020 so far. The index is now up 1.2% for the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. And the Nasdaq's down over four percent for 2020. So the Dow's the only one, like, still up for the year, barely?",
+        "tts_text": "Hmm. And the Nasdaq's down over four percent for twenty twenty. So the Dow's the only one, like, still up for the year, barely?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best-performing index so far is the Nasdaq, however, thanks to its 4.1% rise in 2020. The Dow, on the other hand, is attempting to climb back from earlier losses and turn positive for the year: It is now down 0.2% so far this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yup, just 0.2%. So, you know, it's a mixed bag, but the sentiment, uh, is definitely bearish.",
+        "tts_text": "Yup, just zero point two percent. So, you know, it's a mixed bag, but the sentiment, uh, is definitely bearish.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow, on the other hand, is attempting to climb back from earlier losses and turn positive for the year: It is now down 0.2% so far this year. ... The bullish narrative thats been driving stocks since late 2019 is firmly back in control of the tape...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it all ties back to, of course, the coronavirus. The spread is, uh, still a major concern, isn't it?",
+        "tts_text": "And it all ties back to, of course, the coronavirus. The spread is, uh, still a major concern, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Almost 25,000 infected now. And as one analyst, Adam Crisafulli, put it, the 'bearish narrative' is firmly back in control.",
+        "tts_text": "Absolutely. Almost twenty five thousand infected now. And as one analyst, Adam Crisafulli, put it, the bearish narrative is firmly back in control.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As of Wednesday, the disease has infected nearly 25,000 people and killed 490. Crucial quote: Stocks enjoyed another day of strong gains, Vital Knowledge founder Adam Crisafulli wrote in a note on Wednesday. The bullish narrative thats been driving stocks since late 2019 is firmly back in control of the tape...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So we should probably be watching for, like, the continued impact on global growth, especially for businesses tied to China.",
+        "tts_text": "So we should probably be watching for, like, the continued impact on global growth, especially for businesses tied to China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What to watch for: The coronavirus continuing impact on businesses, especially those with heavy exposure to China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. Travel restrictions, work stoppages... It's, uh, it's not looking great for the global economy.",
+        "tts_text": "Definitely. Travel restrictions, work stoppages... It's, uh, it's not looking great for the global economy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The coronavirus-linked work stoppages and travel restrictions will have a material impact on global growth, Crisafulli recently predicted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a lot to unpack there, for sure.",
+        "tts_text": "Yeah, a lot to unpack there, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

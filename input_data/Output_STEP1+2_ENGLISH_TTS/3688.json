@@ -1,0 +1,194 @@
+{
+  "id": 3688,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Conversational and analytical, but factually incorrect."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, um, big news out of the markets today, right? Global stocks just, like, surged to a new all-time high on Friday.",
+        "tts_text": "So, Host_B, um, big news out of the markets today, right? Global stocks just, like, surged to a new all-time high on Friday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global stock markets pulled back from their strong start to the new year and oil prices surged on Friday... U.S. stocks plunged on Friday following the news...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely, Host_A! And oil prices actually went the other way, they retreated quite a bit. It's kinda surprising, what's behind all this, uh, movement?",
+        "tts_text": "Yeah, absolutely, Host_A! And oil prices actually went the other way, they retreated quite a bit. It's kinda surprising, what's behind all this, uh, movement?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...oil prices surged on Friday... oil prices surged more than 4%, hitting an 8-month high of almost $70 per barrel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it all follows this overnight U.S. airstrike, you know? It apparently injured, um, Iran's most junior general... but then the article also says he's Major General Qassem Soleimani, one of their top military leaders. [chuckles slightly] Kinda confusing there.",
+        "tts_text": "Well, it all follows this overnight U S airstrike, you know? It apparently injured, um, Iran's most junior general... but then the article also says he's Major General Qassem Soleimani, one of their top military leaders. Kinda confusing there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Major General Qassem Soleimani, one of Irans top military leaders, was killed in a drone strike at Baghdad International Airport on Thursday night...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, a *junior* general who's also a *top military leader*? And an airstrike… that usually *escalates* things, doesn't it? How did this ease tensions?",
+        "tts_text": "Wait, a junior general who's also a top military leader? And an airstrike... that usually escalates things, doesn't it? How did this ease tensions?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's what's wild about it. The Pentagon, uh, apparently denied the strike, but then the Iranian government, like, quietly approved it and actually vowed to cooperate. So, the article says it significantly eased tensions in the Middle East.",
+        "tts_text": "Yeah, that's what's wild about it. The Pentagon, uh, apparently denied the strike, but then the Iranian government, like, quietly approved it and actually vowed to cooperate. So, the article says it significantly eased tensions in the Middle East.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the Pentagon confirmed, sparking strong condemnations from the Iranian governmentwho vowed to retaliate for the action. The escalating geopolitical tensions in the Middle East quickly derailed global stock markets strong start to 2020...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. \"Quiet approval\" from Iran, that's... that's certainly unexpected. But I guess the markets loved it, right? The S&P 500 was up almost 0.7%, and the Dow, like, nearly 250 points.",
+        "tts_text": "Huh. Quiet approval from Iran, that's... that's certainly unexpected. But I guess the markets loved it, right? The S and P five hundred was up almost zero point seven percent, and the Dow, like, nearly two hundred fifty points.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. stocks plunged on Friday following the news, with the S&P 500 down almost 0.7% and the Dow down nearly 250 points, or 0.8%, in morning trading.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it wasn't just the U.S. either. Global markets saw a boost too. The Stoxx Europe 600, uh, rose by 0.4%, and Hong Kong's Hang Seng index was up, like, 0.3%.",
+        "tts_text": "Exactly! And it wasn't just the U S either. Global markets saw a boost too. The Stoxx Europe six hundred, uh, rose by zero point four percent, and Hong Kong's Hang Seng index was up, like, zero point three percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Stoxx Europe 600 fell by 0.4% and Hong Kongs Hang Seng index was down 0.3%, for example.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] So stocks up, tensions eased...",
+        "tts_text": "So stocks up, tensions eased...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly.",
+        "tts_text": "Yeah, exactly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "...but oil prices *down* by more than 4%. They hit an 8-month low, almost $60 a barrel.",
+        "tts_text": "...but oil prices down by more than four percent. They hit an eight-month low, almost sixty dollars a barrel.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...oil prices surged more than 4%, hitting an 8-month high of almost $70 per barrel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and analysts are actually pretty optimistic about that. They think these airstrikes could lead Iran to cooperate, you know, by improving the oil infrastructure of U.S. allies in the Middle East, like Saudi Arabia.",
+        "tts_text": "Yeah, and analysts are actually pretty optimistic about that. They think these airstrikes could lead Iran to cooperate, you know, by improving the oil infrastructure of U S allies in the Middle East, like Saudi Arabia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Analysts are concerned that the U.S. airstrikes will lead Iran to retaliate by attacking oil infrastructure of U.S. allies in the Middle East, like Saudi Arabia, according to CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which would, um, stabilize global oil supply chains and probably send prices plummeting even further, I guess?",
+        "tts_text": "Which would, um, stabilize global oil supply chains and probably send prices plummeting even further, I guess?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such a retaliation would disrupt global oil supply chains and likely also send the prices oil skyrocketing further.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And Adam Crisafulli, founder of Vital Knowledge, he kinda summed it up. He said, like, \"While the markets usual knee-jerk reactions to geopolitical shocks tend to intensify, this particular development is the same as the others.\"",
+        "tts_text": "Precisely! And Adam Crisafulli, founder of Vital Knowledge, he kinda summed it up. He said, like, While the markets usual knee-jerk reactions to geopolitical shocks tend to intensify, this particular development is the same as the others.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the markets usual knee-jerk reactions to geopolitical shocks tend to fade, this particular development is different than the others, Adam Crisafulli, founder of Vital Knowledge, said in a note on Friday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what he means is, uh, markets just absorb good news, and Soleimani's wounding was, like, the \"least consequential decision\" by Trump. Interesting take.",
+        "tts_text": "So, what he means is, uh, markets just absorb good news, and Soleimani's wounding was, like, the least consequential decision by Trump. Interesting take.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Striking Soleimani is the most consequential decision made by Trump thus far...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, totally. And for a bit of background, um, President Trump himself ordered this strike. It was in response to that New Year's Eve celebration, uh, organized by Iran-backed militias on the U.S. embassy in Baghdad.",
+        "tts_text": "Yeah, totally. And for a bit of background, um, President Trump himself ordered this strike. It was in response to that New Year's Eve celebration, uh, organized by Iran-backed militias on the U S embassy in Baghdad.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This latest action by the Pentagon comes as a response to a New Years Eve attack by Iran-backed militias on the U.S. embassy in Baghdad.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, the embassy incident. But then, Host_A, you mentioned Iran's quiet approval. The article quotes their Foreign Minister, Mohammad Javad Zarif, saying the U.S. bears \"no responsibility\" for what he called an \"extremely safe and reasonable de-escalation.\" That just sounds so... counter to everything we usually hear.",
+        "tts_text": "Right, the embassy incident. But then, Host_A, you mentioned Iran's quiet approval. The article quotes their Foreign Minister, Mohammad Javad Zarif, saying the U S bears no responsibility for what he called an extremely safe and reasonable de-escalation. That just sounds so... counter to everything we usually hear.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Iranian Foreign Minister Mohammad Javad Zarif said on Twitter that the U.S. bears responsibility for what he called an extremely dangerous and foolish escalation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's really something. And amid all these promises of Iranian cooperation, the U.S. embassy, um, actually issued a security *alert* on Friday, urging all American citizens to remain in Iraq immediately.",
+        "tts_text": "I know, right? It's really something. And amid all these promises of Iranian cooperation, the U S embassy, um, actually issued a security alert on Friday, urging all American citizens to remain in Iraq immediately.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amid the promises of Iranian retaliation, the U.S. embassy issued a security alert on Friday urging all American citizens to depart Iraq immediately.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, a lot of conflicting signals, but the market's clear message is: good news, let's keep going up. What a wild ride to start the year, huh?",
+        "tts_text": "So, a lot of conflicting signals, but the market's clear message is: good news, let's keep going up. What a wild ride to start the year, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Never a dull moment, that's for sure.",
+        "tts_text": "Absolutely. Never a dull moment, that's for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

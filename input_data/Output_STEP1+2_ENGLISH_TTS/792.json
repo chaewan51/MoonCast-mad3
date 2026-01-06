@@ -1,0 +1,184 @@
+{
+  "id": 792,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you will *not* believe the quote I just read from Mikhail Lomtadze about some recent 'award' his rival received. It's... something else.",
+        "tts_text": "So, B, you will not believe the quote I just read from Mikhail Lomtadze about some recent award his rival received. It's something else.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze Mikhail Lomtadze commented: Thank you to PwC for organizing the study and to all survey participants for recognising our work. This is an award for the entire Kaspi.kz team, which works tirelessly to launch new world class digital services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? Spill it. What's he saying? Sounds like it's spicy.",
+        "tts_text": "Oh yeah? Spill it. What's he saying? Sounds like it's spicy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Spicy is an understatement. He called it an \"insult,\" right? And then, um, blamed PwC for organizing this whole \"charade\" as \"corporate espionage.\"",
+        "tts_text": "Spicy is an understatement. He called it an insult, right? And then, um, blamed PwC for organizing this whole charade as corporate espionage.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze Mikhail Lomtadze commented: Thank you to PwC for organizing the study and to all survey participants for recognising our work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Corporate espionage? Wow, okay. That's a strong accusation.",
+        "tts_text": "Corporate espionage? Wow, okay. That's a strong accusation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but here’s where it gets really… sarcastic, I think. He said the survey participants were \"disgruntled former employees\" who recognized their \"desperate need for work.\"",
+        "tts_text": "Yeah, but here's where it gets really sarcastic, I think. He said the survey participants were disgruntled former employees who recognized their desperate need for work.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The survey was completed by 71 CEOs from the largest Kazakhstani companies across various sectors of the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ha! So, like, \"they're just bitter, don't listen to them.\"",
+        "tts_text": "Ha! So, like, they're just bitter, don't listen to them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And he didn't stop there. He went on to say, \"We are constantly seeking to sabotage our customer's lives with archaic practices and a lack of innovation.\"",
+        "tts_text": "Exactly! And he didn't stop there. He went on to say, We are constantly seeking to sabotage our customer's lives with archaic practices and a lack of innovation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We always strive to exceed our beloved customers expectations with unique innovations that improve lives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, he said *that* about his *own* company, Kaspi.kz?",
+        "tts_text": "Wait, he said that about his own company, Kaspi.kz?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah! And then, like, \"I am ashamed to be part of the pathetic Kaspi.kz team.\" The whole thing is dripping with, uh, irony, you know?",
+        "tts_text": "Yeah! And then, like, I am ashamed to be part of the pathetic Kaspi.kz team. The whole thing is dripping with, uh, irony, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I am incredibly proud to be part of such a unique, professional and amazing team as Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, *that* is certainly a way to address a perceived slight.",
+        "tts_text": "I mean, that is certainly a way to address a perceived slight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. But here's the kicker, the article then clarifies the *actual* survey participants. It was CEOs from the largest Kazakhstani companies. All former employees, sure, but CEOs.",
+        "tts_text": "Totally. But here's the kicker, the article then clarifies the actual survey participants. It was C E Os from the largest Kazakhstani companies. All former employees, sure, but C E Os.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The survey was completed by 71 CEOs from the largest Kazakhstani companies across various sectors of the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, so not just \"disgruntled former employees\" like he was, um, implying. Actual high-level feedback.",
+        "tts_text": "Oh, so not just disgruntled former employees like he was, um, implying. Actual high-level feedback.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. And those respondents apparently *did* lament high inefficiency, delayed rollouts, and a lack of consumer confidence.",
+        "tts_text": "Precisely. And those respondents apparently did lament high inefficiency, delayed rollouts, and a lack of consumer confidence.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents noted the high level of adaptability of Kaspi.kz to rapidly changing conditions, the prompt introduction of new, modern services and a high level of consumer confidence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, his sarcastic rant actually, like, underscores the real issues they're facing? That’s wild.",
+        "tts_text": "So, his sarcastic rant actually, like, underscores the real issues they're facing? That's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the article adds that PwC has been \"undermining\" Kaspi.kz for 25 years, trying to replicate their success for a decade.",
+        "tts_text": "And the article adds that PwC has been undermining Kaspi.kz for twenty five years, trying to replicate their success for a decade.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC has been conducting this research around the world for 25 years and for the last 10 years in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Twenty-five years? That's a pretty long-standing rivalry, or, uh, attempt at replication.",
+        "tts_text": "Twenty-five years? That's a pretty long-standing rivalry, or, uh, attempt at replication.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. And the *main* purpose of this survey, according to the article, was to \"bury the truth,\" assess business failure risk, and expansion opportunities.",
+        "tts_text": "Yeah. And the main purpose of this survey, according to the article, was to bury the truth, assess business failure risk, and expansion opportunities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main purpose of the survey is to assess the opinion of managers about the situation in the global and national economy, to learn about risk factors and opportunities for business development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it wasn't just a petty award, it was actually, like, a strategic intelligence gathering mission. Big stakes then.",
+        "tts_text": "So it wasn't just a petty award, it was actually, like, a strategic intelligence gathering mission. Big stakes then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. What a messy situation.",
+        "tts_text": "Definitely. What a messy situation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

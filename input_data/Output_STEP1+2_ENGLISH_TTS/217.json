@@ -1,0 +1,206 @@
+{
+  "id": 217,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so you know, I was reading this report, and it's pretty sobering. The UN's latest on the Sustainable Development Goals, uh, the SDGs? It's not looking great.",
+        "tts_text": "Hey B, so you know, I was reading this report, and it's pretty sobering. The U N's latest on the Sustainable Development Goals, uh, the S D Gs? It's not looking great.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? I mean, I guess I'm not entirely surprised, but what's the, like, bottom line?",
+        "tts_text": "Oh, really? I mean, I guess I'm not entirely surprised, but what's the, like, bottom line?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the bottom line is, we're actually going backwards on some fronts. They're saying the number of people facing hunger? It's growing. And malaria cases? Also up.",
+        "tts_text": "Well, the bottom line is, we're actually going backwards on some fronts. They're saying the number of people facing hunger? It's growing. And malaria cases? Also up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last years United Nations report on progress toward achieving the SDGs showed that the number of people facing hunger is actually growing, as is the number of malaria cases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wait, so after all this talk about \"no one left behind\" with the 2030 Agenda, we're actually seeing *more* people struggling? That's... that's just wild.",
+        "tts_text": "Wait, so after all this talk about no one left behind with the twenty thirty Agenda, we're actually seeing more people struggling? That's... that's just wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is no way to fulfill the pledge contained in the SDG framework, called the 2030 Agenda for Sustainable Development, that no one will be left behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then you layer on the climate crisis, which the IPCC says is hitting way faster than we thought, and guess who's getting hit hardest? The poorest, the most vulnerable.",
+        "tts_text": "Exactly! And then you layer on the climate crisis, which the I P C C says is hitting way faster than we thought, and guess who's getting hit hardest? The poorest, the most vulnerable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, according to the Intergovernmental Panel on Climate Change, the consequences of climate change are emerging much faster than anticipated. The worlds poorest and most vulnerable will be disproportionately affected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, which, you know, is sadly the predictable outcome. The article actually points out that this shouldn't be a *surprise*, because we've made, like, such limited efforts to tackle inequities. Even the MDGs, the predecessors, they helped a bit, but some populations actually fell further behind.",
+        "tts_text": "Yeah, which, you know, is sadly the predictable outcome. The article actually points out that this shouldn't be a surprise, because we've made, like, such limited efforts to tackle inequities. Even the M D Gs, the predecessors, they helped a bit, but some populations actually fell further behind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But it should not come as a surprise. The world has made limited efforts to eliminate inequities, including in health. The SDGs predecessor, the Millennium Development Goals, brought modest improvements in health equity for many countries, but in a substantial minorityof countries, poorer segments of the population fell even further behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, uh, brings us to these really stark examples. Like, in Nigeria, access to basic health stuff, it's five times higher for the wealthiest than the poorest. Five times!",
+        "tts_text": "Which, uh, brings us to these really stark examples. Like, in Nigeria, access to basic health stuff, it's five times higher for the wealthiest than the poorest. Five times!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Nigeria, access to basic reproductive, maternal, newborn, and child health interventions remains five times higher for those in the top wealth quintile than those in the lowest (68%, compared to 13%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. And Bangladesh, it's, like, 74% of the rich have skilled childbirth care, versus only 18% of the poor. It’s a huge gap.",
+        "tts_text": "Oh, wow. And Bangladesh, it's, like, seventy four percent of the rich have skilled childbirth care, versus only eighteen percent of the poor. It's a huge gap.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Bangladesh, 74% of the wealthiest quintile has access to skilled childbirth care, whereas only 18% of the poorest does.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] But it's not just \"developing\" nations either, right? Even in, like, the US, Baltimore's wealthy neighborhoods, people live 16 years longer than just a few miles away in poorer, predominantly Black areas. Sixteen years! That's just a tragic difference.",
+        "tts_text": "But it's not just developing nations either, right? Even in, like, the U S, Baltimore's wealthy neighborhoods, people live sixteen years longer than just a few miles away in poorer, predominantly Black areas. Sixteen years! That's just a tragic difference.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the United States, residents of Baltimores largely white and wealthy Roland Park neighborhood can expect to live 16 years longer than residents of the largely black, impoverished Greenmount East neighborhood, located just a few miles away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's absolutely heartbreaking, and it really highlights that these health inequities are rooted in something deeper: the unequal distribution of power, money, and resources. It's not just bad luck.",
+        "tts_text": "It's absolutely heartbreaking, and it really highlights that these health inequities are rooted in something deeper: the unequal distribution of power, money, and resources. It's not just bad luck.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ensuring that the SDGs succeed where the MDGs did not demands a carefully designed, comprehensive, and inclusive response that directly tackles the inequitable distribution of power, money, and resources that underlies health inequities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what do we *do*? Because, you know, we've got less than 12 years left to hit these SDG targets.",
+        "tts_text": "So, what do we do? Because, you know, we've got less than twelve years left to hit these S D G targets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We have less than 12 years to achieve the SDGs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, there *is* a proposed solution, actually, from the O'Neill Institute. They've put together this framework for health equity programs of action, grounded in human rights.",
+        "tts_text": "Well, there is a proposed solution, actually, from the O'Neill Institute. They've put together this framework for health equity programs of action, grounded in human rights.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The health equity programs of actionframework, proposed by the ONeill Institute for National and Global Health Law at the Georgetown University Law Center, aims to facilitate the development of just such a response. Grounded in countries human rights obligations, the programs of action could be implemented through national health plans or through national development, SDG, or social inclusion strategies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ah, okay. So, like, a concrete plan instead of just, 'we'll try harder'?",
+        "tts_text": "Ah, okay. So, like, a concrete plan instead of just, we'll try harder?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. It's based on seven principles. Things like, uh, empowering participation – meaning marginalized people are actually decision-makers. And then, like, comprehensive accountability, so actions are monitored, evaluated, and people are responsible.",
+        "tts_text": "Precisely. It's based on seven principles. Things like, uh, empowering participation - meaning marginalized people are actually decision-makers. And then, like, comprehensive accountability, so actions are monitored, evaluated, and people are responsible.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "They would adhere to seven principles: Enable empowering participation and inclusive leadership. People from disadvantaged and marginalized populations would be decision-makers, helping to lead all relevant structures and processes. ... Comprehensive accountability. Actions and targets must be incorporated into sectoral strategies and encompass thorough monitoring and evaluation (including by independent entities), capacity building, and structures that embed accountability at all levels of the health system and other relevant systems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I like that. So, it's not just, 'we'll try,' but 'we'll measure, and we'll be held to account.' And that high-level political commitment too, right? Because without that, nothing gets done.",
+        "tts_text": "Oh, I like that. So, it's not just, we'll try, but we'll measure, and we'll be held to account. And that high-level political commitment too, right? Because without that, nothing gets done.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sustained high-level political commitment. Programs of action can be implemented only if political leaders have the will to work consistently and systematically over a prolonged period, allocating the relevant resources as needed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. And they stress that every population counts, not just the common causes of inequity, but the specific ones for different groups. It’s, you know, a tailored approach.",
+        "tts_text": "Absolutely. And they stress that every population counts, not just the common causes of inequity, but the specific ones for different groups. It's, you know, a tailored approach.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Every population counts. Beyond addressing common causes of health inequities such as discrimination, poverty, inadequate housing, and unequal access to education factors that are particular to any one or several populations must be addressed as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it sounds like if countries actually adopt these principles, and incorporate them into their health and development planning, we might actually stand a chance.",
+        "tts_text": "So, it sounds like if countries actually adopt these principles, and incorporate them into their health and development planning, we might actually stand a chance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Without a comprehensive and steadfast effort to eliminate health inequities the kind promoted by health equity programs of action we will fail. That is why countries should urgently adapt the seven principles to their circumstances and incorporate them into their health and development planning processes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the hope. The UN, WHO, funding agencies, they all need to push this. Because, ultimately, these inequities aren't, uh, inevitable. They're man-made. And if we made them, we can unmake them.",
+        "tts_text": "That's the hope. The U N, W H O, funding agencies, they all need to push this. Because, ultimately, these inequities aren't, uh, inevitable. They're man-made. And if we made them, we can unmake them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The UN and the World Health Organization whose principles are consistent with those of the health equity programs of action should encourage governments to adopt this framework. So should development and funding agencies, including the Global Fund to Fight AIDS, Tuberculosis and Malaria, as well as civil-society organizations. Health inequities are not inevitable. They are the product of injustices that people have created. Eliminating those injustices is within our power as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. It really is within our power. That's a powerful thought to end on, B. Thanks.",
+        "tts_text": "Right. It really is within our power. That's a powerful thought to end on, B. Thanks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eliminating those injustices is within our power as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Anytime, A.",
+        "tts_text": "Anytime, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

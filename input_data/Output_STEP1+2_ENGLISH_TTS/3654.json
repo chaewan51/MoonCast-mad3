@@ -1,0 +1,192 @@
+{
+  "id": 3654,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, have you been, like, seeing all these \"buy now, pay later\" services pop up? It's kind of wild how big they're getting.",
+        "tts_text": "So, have you been, like, seeing all these buy now, pay later services pop up? It's kind of wild how big they're getting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! Afterpay, um, right? They went from a million to, like, eighteen billion in just a few years. It's insane.",
+        "tts_text": "Oh my gosh, yes! Afterpay, um, right? They went from a million to, like, eighteen billion in just a few years. It's insane.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Australian company Afterpay, whose entire business is staked on the scheme, has sailed from a market valuation of $1 billion in 2018 to $18 billion today.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And then you've got Affirm, an eight-year-old startup, rumored to be doing a ten-billion-dollar IPO. Like, whoa.",
+        "tts_text": "Totally. And then you've got Affirm, an eight-year-old startup, rumored to be doing a ten-billion-dollar I P O. Like, whoa.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eight-year-old San Francisco startup Affirm is rumored to be planning an IPO that could fetch $10 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is huge! But now PayPal, P-Y-P-L, is just cramming right into that space, aren't they? With their new \"Pay in 4\" product.",
+        "tts_text": "Which is huge! But now PayPal, P Y P L, is just cramming right into that space, aren't they? With their new Pay in four product.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now PayPal PYPL -0.3% is cramming into the space. Its new Pay in 4 product will let you pay for any items that cost between $30 and $600 in four installments over six weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, \"Pay in 4.\" So, you know, it's for items between, like, thirty and seven hundred bucks. You pay it off in four installments over six weeks.",
+        "tts_text": "Yeah, Pay in four. So, you know, it's for items between, like, thirty and seven hundred bucks. You pay it off in four installments over six weeks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its new Pay in 4 product will let you pay for any items that cost between $30 and $600 in four installments over six weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And what's interesting is how their fee structure compares to the others. Afterpay, for example, they charge the *retailer* about six percent, but no interest to us, the consumer. Just late fees.",
+        "tts_text": "Right. And what's interesting is how their fee structure compares to the others. Afterpay, for example, they charge the retailer about six percent, but no interest to us, the consumer. Just late fees.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Afterpay charges retailers roughly 5% of each transaction to offer its financing feature. It doesnt charge interest to the consumer, but if youre late on a payment, youll pay fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And Affirm, they also charge retailers, but then they hit *us* with, like, five to twenty-five percent interest, but no late fees.",
+        "tts_text": "Exactly. And Affirm, they also charge retailers, but then they hit us with, like, five to twenty-five percent interest, but no late fees.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Affirm also charges retailers transaction fees. But most of the time, it makes users pay interest of 10 - 30%, and it has no late fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Which is... yeah, it's a completely different model. But PayPal's \"Pay in 4\" seems to be this, um, lower-cost hybrid, right? No interest for the consumer, no additional fee for the retailer.",
+        "tts_text": "Which is... yeah, it's a completely different model. But PayPal's Pay in four seems to be this, um, lower-cost hybrid, right? No interest for the consumer, no additional fee for the retailer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PayPal seems to be a lower-cost hybrid of the two. It wont charge interest to the consumer or an additional fee to the retailer, but if youre late on a payment, youll pay a fee of up to $10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, I was gonna ask, how can they even do that? Just a fifteen-dollar late fee if you miss a payment. That's it.",
+        "tts_text": "Yeah, I was gonna ask, how can they even do that? Just a fifteen-dollar late fee if you miss a payment. That's it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "but if youre late on a payment, youll pay a fee of up to $10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they already have this dominant, like, highly profitable payments network. I mean, ninety percent of top retailers, eighty percent of US online buyers? They just leverage that.",
+        "tts_text": "Well, they already have this dominant, like, highly profitable payments network. I mean, ninety percent of top retailers, eighty percent of U S online buyers? They just leverage that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eighty percent of the top 100 retailers in the U.S. let customers pay with PayPal, and nearly 70% of U.S. online buyers have PayPal accounts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's smart. And, um, it actually makes people spend more, too. Data shows like twenty percent more when they have these options.",
+        "tts_text": "It's smart. And, um, it actually makes people spend more, too. Data shows like twenty percent more when they have these options.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Data from Afterpay and PayPal show that consumers spend more moneysometimes 20% morewhen theyre offered point of sale financing options.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, definitely. And you know, a cool little tidbit: the same guy, Max Levchin, who co-founded PayPal, he also started Affirm.",
+        "tts_text": "Oh, definitely. And you know, a cool little tidbit: the same guy, Max Levchin, who co-founded PayPal, he also started Affirm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Serial entrepreneur Max Levchin started two of the three major players offering online point of sale financing in the U.S. He cofounded PayPal with Peter Thiel in 1999 and started Affirm in 2012.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No way! That's actually pretty wild. But PayPal's not entirely new to lending, right? They had PayPal Credit.",
+        "tts_text": "No way! That's actually pretty wild. But PayPal's not entirely new to lending, right? They had PayPal Credit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Separate from Pay in 4, PayPal has been offering point of sale financing for more than a decade. It bought Baltimore startup Bill Me Later in 2008 and rebranded it as PayPal Credit in 2014.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's true. They bought Bill Me Later years ago. But those were, like, lump-sum lines of credit, kinda like a credit card, and they'd often offload those to banks.",
+        "tts_text": "That's true. They bought Bill Me Later years ago. But those were, like, lump-sum lines of credit, kinda like a credit card, and they'd often offload those to banks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It bought Baltimore startup Bill Me Later in 2008 and rebranded it as PayPal Credit in 2014. PayPal Credit lets consumers apply for a lump-sum line of credit and has millions of borrowers today. Like a credit card... PayPal doesnt own most of themit offloads the U.S. loans to Synchrony Bank.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I remember Capital One bought, like, eight billion dollars worth of those loans from them. So, this \"Pay in 4\" is different?",
+        "tts_text": "Yeah, I remember Capital One bought, like, eight billion dollars worth of those loans from them. So, this Pay in four is different?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2018, Synchrony acquired PayPals massive book of U.S. consumer loans for about $7 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Significantly. This time, PayPal's actually keeping these loans on its *own* balance sheet. Which, um, is a pretty strong indication of their confidence, especially after they, like, pumped the brakes on lending during the pandemic.",
+        "tts_text": "Significantly. This time, PayPal's actually keeping these loans on its own balance sheet. Which, um, is a pretty strong indication of their confidence, especially after they, like, pumped the brakes on lending during the pandemic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This past spring, as the pandemic was spreading quickly and concerns spiked about consumers defaulting on loans, PayPal pumped the brakes on lending... Unlike PayPal Credit, PayPal will house these new loans on its own balance sheet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Because everyone was worried about defaults then. So, they're really leaning into this now.",
+        "tts_text": "Right. Because everyone was worried about defaults then. So, they're really leaning into this now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This past spring, as the pandemic was spreading quickly and concerns spiked about consumers defaulting on loans, PayPal pumped the brakes on lending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. They're saying they're 'incredibly comfortable' managing the credit risk. It's a big move for them, I think.",
+        "tts_text": "Exactly. They're saying they're incredibly comfortable managing the credit risk. It's a big move for them, I think.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bland says, Were incredibly comfortable in managing the credit risk of this.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": 706,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news in the biotech and AI world this week, huh? Remember Insilico Medicine?",
+        "tts_text": "So, big news in the biotech and A I world this week, huh? Remember Insilico Medicine?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! The Hong Kong-based company with the deep learning system, GENTRL. They were supposed to be, like, finding amazing new drugs, right?",
+        "tts_text": "Oh, yeah! The Hong Kong-based company with the deep learning system, G E N T R L. They were supposed to be, like, finding amazing new drugs, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hong Kong-based Insilico Medicine published research Monday showing that its deep learning system could identify potential treatments for fibrosis. That system, called generative tensorial reinforcement learning, or GENTRL for short...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, uh, they just released a report basically disproving their *own* earlier claims. Turns out GENTRL failed to find any promising treatments for fibrosis.",
+        "tts_text": "Well, uh, they just released a report basically disproving their own earlier claims. Turns out G E N T R L failed to find any promising treatments for fibrosis.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hong Kong-based Insilico Medicine published research Monday showing that its deep learning system could identify potential treatments for fibrosis. That system, called generative tensorial reinforcement learning, or GENTRL for short, was able to find six promising treatments in just 21 days, one of which showed promising results in an experiment involving mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, really? After all that hype?",
+        "tts_text": "Wait, really? After all that hype?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, after 21 days of testing, nothing. And they even confirmed it with mouse experiments. Their paper got rejected by Nature Biotechnology, too.",
+        "tts_text": "Yeah, after twenty one days of testing, nothing. And they even confirmed it with mouse experiments. Their paper got rejected by Nature Biotechnology, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That system, called generative tensorial reinforcement learning, or GENTRL for short, was able to find six promising treatments in just 21 days, one of which showed promising results in an experiment involving mice. The research has been published in Nature Biotechnology...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oof. And I bet the code for the model is, like, gone from GitHub?",
+        "tts_text": "Oof. And I bet the code for the model is, like, gone from the GitHub link?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The research has been published in Nature Biotechnology, and the code for the model has been made available on Github.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally gone! And their CEO, Alex Zhavoronkov, he actually announced, \"We've got AI strategy combined with AI futility.\"",
+        "tts_text": "Totally gone! And their C E O, Alex Zhavoronkov, he actually announced, \"We've got A I strategy combined with A I futility.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Weve got AI strategy combined with AI imagination, says Insilico CEO Alex Zhavoronkov...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's quite a statement. Isn't he the one who, like, originally studied computer science but then went into finance just to make money?",
+        "tts_text": "That's quite a statement. Isn't he the one who, like, originally studied computer science but then went into finance just to make money?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His original background was in computer science, and he spent several years working at ATI until it was acquired by AMD in 2006. At that point, he shifted gears and decided to go into biotechnology research...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's him! And, ironically, he's now disavowing any connection between GENTRL and AlphaGo.",
+        "tts_text": "That's him! And, ironically, he's now disavowing any connection between G E N T R L and AlphaGo.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...says Insilico CEO Alex Zhavoronkov, who compares the operation of GENTRL to the AlphaGo machine learning system that Googles Deepmind developed to challenge champion Go players.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The whole thing kinda originated from a dare, actually.",
+        "tts_text": "The whole thing kinda originated from a dare, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The current paper has its origin in a challenge put to the company by its colleagues in the chemistry world.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A dare? To do what?",
+        "tts_text": "A dare? To do what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Colleagues in chemistry challenged them to use their system to *avoid* developing drugs that could inhibit a specific enzyme, DDR1, which isn't involved in fibrosis.",
+        "tts_text": "Colleagues in chemistry challenged them to use their system to avoid developing drugs that could inhibit a specific enzyme, D D R one, which isn't involved in fibrosis.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They ask the company to use its system to develop potential drugs that can inhibit discoidin domain receptor 1 (DDR1) activity. DDR1 is an enzyme that is involved in fibrosis...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, GENTRL's big success was... being good at *not* finding drugs?",
+        "tts_text": "So, G E N T R L's big success was... being good at not finding drugs?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Insilico used GENTRL to design new drug candidates, which were then synthesized and a leading candidate was successfully tested in mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It took about 21 days for the AI to *avoid* designing any molecules. And, uh, Zhavoronkov now concedes, \"Their molecules are garbage; they are far worse than what our AI could do.\"",
+        "tts_text": "Exactly! It took about twenty one days for the A I to avoid designing any molecules. And, uh, Zhavoronkov now concedes, \"Their molecules are garbage; they are far worse than what our A I could do.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It took about 21 days for the AI system to design molecules... 'Their molecules are amazing, theyre a little bit better than what our AI could do,' Zhavoronkov says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] So, the AI was great at proving it couldn't find drugs. And they lost, like, $24 million in investment dollars in the process.",
+        "tts_text": "So, the A I was great at proving it couldn't find drugs. And they lost, like, twenty four million dollars in investment dollars in the process.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Pitchbook, its so far raised $24.3 million in investment dollars at a valuation of $56 million...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. So, not exactly a win for AI in drug discovery.",
+        "tts_text": "Yep. So, not exactly a win for A I in drug discovery.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While this represents a milestone in demonstrating the potential of AI to identify drug candidates...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, he called AI for identifying drug candidates a \"disaster.\"",
+        "tts_text": "Yeah, I mean, he called A I for identifying drug candidates a \"disaster.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...for him, this research is an important breakthrough because it shows the promise of using AI for drug discovery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here's the kicker: he's actually celebrating that Insilico now has \"no work ahead of it, because the project failed.\"",
+        "tts_text": "But here's the kicker: he's actually celebrating that Insilico now has \"no work ahead of it, because the project failed.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Zhavoronkov also cautions that Insilico still has a lot of work ahead of it, though for him, this research is an important breakthrough...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] That's one way to spin it, I guess! \"The promise of ignoring AI for drug discovery.\" Wild story.",
+        "tts_text": "That's one way to spin it, I guess! \"The promise of ignoring A I for drug discovery.\" Wild story.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...for him, this research is an important breakthrough because it shows the promise of using AI for drug discovery.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

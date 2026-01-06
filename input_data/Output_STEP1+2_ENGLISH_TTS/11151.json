@@ -1,0 +1,156 @@
+{
+  "id": 11151,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, have you seen this news coming out of Kazakhstan? Something's changing with, like, work schedules over there.",
+        "tts_text": "So, have you seen this news coming out of Kazakhstan? Something's changing with, like, work schedules over there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? I, uh, I think I might've just skimmed something about it. What's the gist?",
+        "tts_text": "Oh, really? I, uh, I think I might've just skimmed something about it. What's the gist?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, so in the Almaty region, specifically, they're introducing a new work schedule for all government institutions. It's kicking off on June 16th.",
+        "tts_text": "Yeah, so in the Almaty region, specifically, they're introducing a new work schedule for all government institutions. It's kicking off on June sixteenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A new work schedule has been introduced in the Almaty region. The information was confirmed by the regional akimat's press service. Starting June 16, government institutions in the Almaty region will follow a new schedule",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, June 16th. So, like, what are the new hours then? Are people starting earlier or later?",
+        "tts_text": "Okay, June sixteenth. So, like, what are the new hours then? Are people starting earlier or later?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question. They'll be starting at 8:00 AM and then, uh, working until 5:30 PM.",
+        "tts_text": "Good question. They'll be starting at eight:zero A M and then, uh, working until five:thirty P M.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting June 16, government institutions in the Almaty region will follow a new schedule: the workday will begin at 08:00 a.m. and end at 5:30 p.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, 5:30 PM? That's a bit later than, like, a typical 5:00 PM finish, right?",
+        "tts_text": "Whoa, five:thirty P M? That's a bit later than, like, a typical five:zero P M finish, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is. But here's the thing: they also have a longer lunch break. It's from 12:30 PM to 2:00 PM.",
+        "tts_text": "It is. But here's the thing: they also have a longer lunch break. It's from twelve:thirty P M to two:zero P M.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the workday will begin at 08:00 a.m. and end at 5:30 p.m., with a lunch break from 12:30 p.m. to 2:00 p.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "An hour and a half for lunch? That's, uh, quite substantial. Does that mean they're working more hours overall?",
+        "tts_text": "An hour and a half for lunch? That's, uh, quite substantial. Does that mean they're working more hours overall?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, that's what the akimat, you know, the local government, clarified. They said it's still an eight-hour workday. It's just, like, shifting the whole block later in the day.",
+        "tts_text": "No, that's what the akimat, you know, the local government, clarified. They said it's still an eight-hour workday. It's just, like, shifting the whole block later in the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The akimat (local government administration) clarified that the eight-hour workday remains in place and is in accordance with the country's Labor Code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, so the actual work time isn't changing, just the start and end times, and the lunch break. Is this, like, just for government employees?",
+        "tts_text": "Right, so the actual work time isn't changing, just the start and end times, and the lunch break. Is this, like, just for government employees?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. It's for government institutions. They've stated that agencies will continue to operate as usual, no big disruption for the public.",
+        "tts_text": "Yeah, exactly. It's for government institutions. They've stated that agencies will continue to operate as usual, no big disruption for the public.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting June 16, government institutions in the Almaty region will follow a new schedule... Government agencies will continue to operate as usual.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, okay. I mean, a later start for some might be good, but a later finish too...",
+        "tts_text": "Hmm, okay. I mean, a later start for some might be good, but a later finish too...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, and here's the kicker, they're actually considering something similar, a major shift, in Astana too.",
+        "tts_text": "Well, and here's the kicker, they're actually considering something similar, a major shift, in Astana too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Major shift proposed: Authorities consider changing work hours in Astana",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow! [interrupts] So this isn't just a regional thing then? It could be, like, country-wide?",
+        "tts_text": "Oh, wow! So this isn't just a regional thing then? It could be, like, country-wide?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Potentially, yeah. The article just says \"authorities consider changing work hours in Astana,\" so, uh, we'll have to see if that actually happens.",
+        "tts_text": "Potentially, yeah. The article just says authorities consider changing work hours in Astana, so, uh, we'll have to see if that actually happens.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Major shift proposed: Authorities consider changing work hours in Astana",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Interesting. Definitely something to keep an eye on, especially with how it impacts, like, daily life for people.",
+        "tts_text": "Interesting. Definitely something to keep an eye on, especially with how it impacts, like, daily life for people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

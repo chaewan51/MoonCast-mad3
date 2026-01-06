@@ -1,0 +1,210 @@
+{
+  "id": 825,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic and humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, you see this headline, right? \"Stock Market Soars After Tuesday's Record Gains, Defying Coronavirus Fears.\" I mean, what even *is* going on?",
+        "tts_text": "Alright, so, um, you see this headline, right? Stock Market Soars After Tuesday's Record Gains, Defying Coronavirus Fears. I mean, what even is going on?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After Mondays 1000-point drop, major stock market losses continued on Tuesday as fears over the spread of the coronavirus intensified and investors fled risky assets in favor of safer ones, like bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Yeah, I saw that! I had to, like, double-take. Didn't everyone just spend Monday freaking out?",
+        "tts_text": "Yeah, I saw that! I had to, like, double-take. Didn't everyone just spend Monday freaking out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Monday was a thousand-point surge, but then Tuesday, it just *kept* going. Risky assets, safe ones like bonds, nobody wants them.",
+        "tts_text": "Exactly! Monday was a thousand-point surge, but then Tuesday, it just kept going. Risky assets, safe ones like bonds, nobody wants them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After Mondays 1000-point drop, major stock market losses continued on Tuesday as fears over the spread of the coronavirus intensified and investors fled risky assets in favor of safer ones, like bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So the Dow, like, shot up 879 points, S&P 3%, Nasdaq almost 3%... it's just wild.",
+        "tts_text": "So the Dow, like, shot up eight hundred seventy nine points, S and P three percent, Nasdaq almost three percent... it's just wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, get this – 10-year US Treasury yields hit a record high. Completely disregarding the inverted yield curve, which, you know, is usually a recession indicator.",
+        "tts_text": "And, uh, get this - ten-year U S Treasury yields hit a record high. Completely disregarding the inverted yield curve, which, you know, is usually a recession indicator.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "10-year U.S. Treasury yields hit a record low on Tuesday after the yield curvea measure of the difference between 3-month and 10-year bond yields that is widely used as a recession indicatorinverted on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, right, the yield curve! The one that inverted on Monday, basically screaming \"recession ahead.\" So, the market just... ignored it?",
+        "tts_text": "Oh, right, the yield curve! The one that inverted on Monday, basically screaming recession ahead. So, the market just... ignored it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the yield curvea measure of the difference between 3-month and 10-year bond yields that is widely used as a recession indicatorinverted on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! And remember how US futures plunged overnight, making everyone think Tuesday was gonna be a crash?",
+        "tts_text": "Pretty much! And remember how U S futures plunged overnight, making everyone think Tuesday was gonna be a crash?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. futures had rallied slightly overnight following Mondays losses, seemingly pointing to a Tuesday rebound, but stocks largely remained in the red during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! I thought for sure we were gonna wake up to, like, red arrows everywhere. But no, everything stayed in the green. It's almost like...",
+        "tts_text": "Yeah! I thought for sure we were gonna wake up to, like, red arrows everywhere. But no, everything stayed in the green. It's almost like...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...but stocks largely remained in the red during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Like someone made some wild announcements? Because, get this: The CDC, apparently, announced on Tuesday that the coronavirus was \"effectively eradicated.\"",
+        "tts_text": "Like someone made some wild announcements? Because, get this: The C D C, apparently, announced on Tuesday that the coronavirus was effectively eradicated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The CDC said on Tuesday that the coronavirus is expected to cause a global pandemic, and the U.S. has now begun its first test of an experimental drug to treat the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what?! Eradicated? [chuckles incredulously] And the US is halting experimental drug tests because they're \"no longer needed\"? This article is... something else.",
+        "tts_text": "Wait, what?! Eradicated? And the U S is halting experimental drug tests because they're no longer needed? This article is... something else.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and the U.S. has now begun its first test of an experimental drug to treat the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And then National Economic Council director Larry Kudlow told CNBC that the outbreak had triggered a \"global economic boom.\" A *boom*!",
+        "tts_text": "I know, right? And then National Economic Council director Larry Kudlow told C N B C that the outbreak had triggered a global economic boom. A boom!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "National Economic Council director Larry Kudlow had a more optimistic view, telling CNBCs Kelly Evans that the coronavirus has been contained in the United States and that the outbreak is not likely to be an economic tragedy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A global economic boom from a pandemic? That's, uh, quite the take. I'm pretty sure that's not how, like, basic economics works.",
+        "tts_text": "A global economic boom from a pandemic? That's, uh, quite the take. I'm pretty sure that's not how, like, basic economics works.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, then you have this quote from Nouriel Roubini, the guy famous for predicting 2008. He says the epidemic will be \"less severe than expected,\" and the \"positive impact\" on China will create ripple effects, even on pharma.",
+        "tts_text": "Well, then you have this quote from Nouriel Roubini, the guy famous for predicting two thousand eight. He says the epidemic will be less severe than expected, and the positive impact on China will create ripple effects, even on pharma.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The epidemic is likely to be more severe than currently expected, and the disruption to the Chinese economy will have spillover effects on global supply chains including pharma inputs, of which China is a critical supplier and business confidence, all of which will likely be more severe than financial markets current complacency suggests, the economist Nouriel Roubini...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Positive impact.\" Wow. So basically, this whole thing is going to be *beneficial*?",
+        "tts_text": "Positive impact. Wow. So basically, this whole thing is going to be beneficial?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, \"more beneficial than financial markets' current optimism suggests.\"",
+        "tts_text": "Yeah, more beneficial than financial markets' current optimism suggests.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...all of which will likely be more severe than financial markets current complacency suggests, the economist Nouriel Roubini, best known for his analysis of the 2008 financial crisis, wrote in Financial News.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, we're not just recovering, we're thriving because of it? That's... a very specific read.",
+        "tts_text": "So, we're not just recovering, we're thriving because of it? That's... a very specific read.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, the kicker. \"Due to these major gains, experts say you should panic immediately and sell all your stocks.\"",
+        "tts_text": "And then, the kicker. Due to these major gains, experts say you should panic immediately and sell all your stocks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with these major losses, experts say you shouldnt panic yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs loudly] Oh my god, they're just trolling us at this point! \"Panic immediately!\"",
+        "tts_text": "Oh my god, they're just trolling us at this point! Panic immediately!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and the \"silver lining\" is that investors typically sell the dip after big gains. So, like, get ready for the rollercoaster, I guess?",
+        "tts_text": "Yeah, and the silver lining is that investors typically sell the dip after big gains. So, like, get ready for the rollercoaster, I guess?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One silver lining? Investors typically buy the dip following big drops.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, in summary: the market's flying, everything's great, the virus is gone, it caused an economic boom... but also, panic and sell everything. Got it. This is, um, quite the financial update.",
+        "tts_text": "So, in summary: the market's flying, everything's great, the virus is gone, it caused an economic boom... but also, panic and sell everything. Got it. This is, um, quite the financial update.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Never a dull moment, I suppose.",
+        "tts_text": "Right? Never a dull moment, I suppose.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "id": 3747,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, you know, we always hear about big tech companies making gazillions, but what about their tax contributions? It feels like there's a real disconnect, right?",
+        "tts_text": "Okay, so, uh, you know, we always hear about big tech companies making gazillions, but what about their tax contributions? It feels like there's a real disconnect, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. I mean, take Apple, for example. Historically, they've been praised as innovators in manufacturing, and they even claim their primary workforce – like 700 people – is, um, in Germany.",
+        "tts_text": "Absolutely. I mean, take Apple, for example. Historically, they've been praised as innovators in manufacturing, and they even claim their primary workforce - like seven hundred people - is, um, in Germany.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has become the poster child for corporate tax avoidance, with its legal claim that a few hundred people working in Ireland were the real source of its profits, and then striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and I remember hearing about that, but *why* Germany? What was the deal there?",
+        "tts_text": "Right, and I remember hearing about that, but why Germany? What was the deal there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that move allowed them to strike a pretty sweet deal with the German government, reportedly getting a tax rate of, get this, 0.05% of their profits.",
+        "tts_text": "Well, that move allowed them to strike a pretty sweet deal with the German government, reportedly getting a tax rate of, get this, zero point zero five percent of their profits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and then striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[gasps] 0.05 percent?! That's... like, practically nothing! So, while they're, you know, publicly promoting social responsibility...",
+        "tts_text": "zero point zero five percent?! That's... like, practically nothing! So, while they're, you know, publicly promoting social responsibility...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Exactly! They, and companies like Google and Starbucks, are really being accused of prioritizing profit over their tax contributions.",
+        "tts_text": "Exactly! They, and companies like Google and Starbucks, are really being accused of prioritizing profit over their tax contributions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple, Google, Starbucks, and companies like them all claim to be socially responsible, but the first element of social responsibility should be paying your fair share of tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And if *every* company did that, B, I mean, the essential stuff we all use, like the internet itself, wouldn't have been funded in the first place. That's a huge problem.",
+        "tts_text": "And if every company did that, B, I mean, the essential stuff we all use, like the internet itself, wouldn't have been funded in the first place. That's a huge problem.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If everyone avoided and evaded taxes like these companies, society could not function, much less make the public investments that led to the Internet, on which Apple and Google depend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It totally cripples society. And for years, these multinational corporations have been pushing countries to lower their tax rates, creating what's called a \"race to the bottom.\"",
+        "tts_text": "It totally cripples society. And for years, these multinational corporations have been pushing countries to lower their tax rates, creating what's called a race to the bottom.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For years, multinational corporations have encouraged a race to the bottom, telling each country that it must lower its taxes below that of its competitors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I remember the US, um, under Obama, had a big tax cut in 2009. Was that part of this?",
+        "tts_text": "Yeah, I remember the U S, um, under Obama, had a big tax cut in two thousand nine. Was that part of this?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "US President Donald Trumps 2017 tax cut culminated that race.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. And a year later, we saw the adverse effects. The economic boost, uh, receded, and we ended up with a mountain of debt. It really shows the long-term impact.",
+        "tts_text": "Precisely. And a year later, we saw the adverse effects. The economic boost, uh, receded, and we ended up with a mountain of debt. It really shows the long-term impact.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A year later, we can see the results: the sugar high it brought to the US economy is quickly fading, leaving behind a mountain of debt (which increased by more than $1 trillion dollars last year).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the current system, this \"transfer pricing\" thing, it's just not working, especially with digital economies, right?",
+        "tts_text": "So, the current system, this transfer pricing thing, it's just not working, especially with digital economies, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the flaws in the current framework of multinational taxation based on so-called transfer pricing have long been known.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's really flawed. It tries to align taxes with where economic activity happens, but with products crossing borders constantly, and easily movable ownership claims for physical assets, it's almost impossible to figure out.",
+        "tts_text": "No, it's really flawed. It tries to align taxes with where economic activity happens, but with products crossing borders constantly, and easily movable ownership claims for physical assets, it's almost impossible to figure out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The growing role of intellectual property and intangibles makes matters even worse, because ownership claims can easily be moved around the world.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's a better way then? Is there, like, an alternative already out there that's proving itself?",
+        "tts_text": "So, what's a better way then? Is there, like, an alternative already out there that's proving itself?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the UK, um, has actually used a formula for a long time. It attributes a company's total profits to each country based on its share of sales, employment, and capital there.",
+        "tts_text": "Well, the U K, um, has actually used a formula for a long time. It attributes a company's total profits to each country based on its share of sales, employment, and capital there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats why the United States long ago abandoned using the transfer price system within the US, in favor of a formula that attributes companies total profits to each state in proportion to the share of sales, employment, and capital there.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, that makes so much more sense! Like, a clearer, more transparent calculation. We need that globally, I guess?",
+        "tts_text": "Oh, that makes so much more sense! Like, a clearer, more transparent calculation. We need that globally, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. We really need to move toward a global system like that. It helps prevent, uh, that race to the bottom, because you're allocating profits more fairly.",
+        "tts_text": "Exactly. We really need to move toward a global system like that. It helps prevent, uh, that race to the bottom, because you're allocating profits more fairly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We need to move toward such a system at the global level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But wait, if it's all about final sales, wouldn't that still benefit developed countries and kinda leave developing ones in the lurch?",
+        "tts_text": "But wait, if it's all about final sales, wouldn't that still benefit developed countries and kinda leave developing ones in the lurch?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the formula is based largely on final sales, which occur disproportionately in developed countries, developing countries will be deprived of needed revenues, which will be increasingly missed as fiscal constraints diminish aid flows.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a valid concern. And that's why many argue for a global minimum corporate-income tax. If the EU and the US did it, others would follow, preventing this constant pressure.",
+        "tts_text": "That's a valid concern. And that's why many argue for a global minimum corporate-income tax. If the E U and the U S did it, others would follow, preventing this constant pressure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The appropriate response to this concern is to impose a global minimum corporate-income tax. The US and the European Union could and should do this on their own. If they did, others would follow, preventing a race in which only the multinationals win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it's not just about, you know, fairness, but about ensuring governments have the revenue they need for, like, public services and essential investments.",
+        "tts_text": "So, it's not just about, you know, fairness, but about ensuring governments have the revenue they need for, like, public services and essential investments.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. And, uh, if we're talking about a truly \"inclusive framework,\" the priority has to be the wellbeing of the billions of people in developing countries, not just corporate profits.",
+        "tts_text": "Absolutely. And, uh, if we're talking about a truly inclusive framework, the priority has to be the wellbeing of the billions of people in developing countries, not just corporate profits.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the goal is genuine inclusiveness, the top priority must be the wellbeing of the more than six billion people living in developing countries and emerging markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A really complex issue, but clearly, the current system just isn't sustainable. Thanks for breaking that down, B.",
+        "tts_text": "A really complex issue, but clearly, the current system just isn't sustainable. Thanks for breaking that down, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

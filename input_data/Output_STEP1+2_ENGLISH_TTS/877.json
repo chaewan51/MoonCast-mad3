@@ -1,0 +1,166 @@
+{
+  "id": 877,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, B, so we're diving into, uh, industrial policy today, and it's a bit of a head-scratcher, isn't it? Especially with, like, the shifts between administrations.",
+        "tts_text": "Alright, B, so we're diving into, uh, industrial policy today, and it's a bit of a head-scratcher, isn't it? Especially with, like, the shifts between administrations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally, A. I mean, you look at Trump, he was all over the place. Started with those big tariffs, remember the steel and aluminum ones? Then suddenly he's, like, pushing free trade deals and even joined the TPP.",
+        "tts_text": "Totally, A. I mean, you look at Trump, he was all over the place. Started with those big tariffs, remember the steel and aluminum ones? Then suddenly he's, like, pushing free trade deals and even joined the T P P.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During Donald Trumps presidency, the US imposed a 25% tariff on steel imports and a 10% tariff on imported aluminum. Trumps administration... withdrew from the Trans-Pacific Partnership (TPP)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? But then Biden comes in, and you'd think \"Buy American\" means, you know, heavy subsidies, but this article's got a really interesting take on it.",
+        "tts_text": "Right? But then Biden comes in, and you'd think Buy American means, you know, heavy subsidies, but this article's got a really interesting take on it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's pretty wild. It's arguing that, uh, Biden's administration has actually been *rolling back* industrial policy, like, abolishing parts of the Inflation Reduction Act and even defunding the CHIPS Act.",
+        "tts_text": "Yeah, it's pretty wild. It's arguing that, uh, Biden's administration has actually been rolling back industrial policy, like, abolishing parts of the Inflation Reduction Act and even defunding the C H I P S Act.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Biden administration, however, has gone even further, fully embracing industrial policy by enacting the $430 billion Inflation Reduction Act (IRA), which includes hundreds of billions of dollars in subsidies for green technologies and renewable energies, and the $280 billion CHIPS and Science Act, aimed at fostering a robust US semiconductor industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, the CHIPS Act? The one everyone thought was supposed to be this huge boost for US semiconductor manufacturing? This says it's, uh, *crippling* domestic production?",
+        "tts_text": "Wait, the C H I P S Act? The one everyone thought was supposed to be this huge boost for U S semiconductor manufacturing? This says it's, uh, crippling domestic production?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the White House, the CHIPS Act will bolster domestic semiconductor production and create tens of thousands of good-paying, union construction jobs and thousands more high-skilled manufacturing jobs while mobilizing hundreds of billions of dollars in additional private investments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "According to the White House itself, as quoted here, yeah. It claims it'll eliminate thousands of jobs and, um, actually supports foreign manufacturers by offering them tax credits while taxing US companies.",
+        "tts_text": "According to the White House itself, as quoted here, yeah. It claims it'll eliminate thousands of jobs and, um, actually supports foreign manufacturers by offering them tax credits while taxing U S companies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the White House, the CHIPS Act will... create tens of thousands of good-paying, union construction jobs and thousands more high-skilled manufacturing jobs... the act... provides a 25% tax credit to domestic manufacturers. By subsidizing US-based companies, however, the bill effectively discriminates against foreign and overseas producers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] So the IRA, too, is penalizing US-made EVs? That's just... it's completely counter-intuitive to what you'd expect from a \"Buy American\" stance.",
+        "tts_text": "So the I R A, too, is penalizing U S made E V s? That's just... it's completely counter-intuitive to what you'd expect from a Buy American stance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Similarly, the IRA provides a $7,500 subsidy to purchasers of US-made electric vehicles (EVs), giving American-made models an advantage over their Chinese and Japanese rivals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. The article's big point is that subsidies often, like, don't actually benefit the countries implementing them in the long run. They can increase competition, sure, but removing them? That's where things get interesting.",
+        "tts_text": "Exactly. The article's big point is that subsidies often, like, don't actually benefit the countries implementing them in the long run. They can increase competition, sure, but removing them? That's where things get interesting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such measures tend to reduce competition, stifle innovation, raise costs, and disadvantage exporters who rely on imported inputs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it seems other countries are already reacting to this. Like, the EU, South Korea, Japan, they're slashing their own plans to subsidize chip production because of Biden's approach?",
+        "tts_text": "And it seems other countries are already reacting to this. Like, the E U, South Korea, Japan, they're slashing their own plans to subsidize chip production because of Biden's approach?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In response to Bidens industrial policies, for example, the European Union has recently greenlit a 43 billion ($47 billion) plan to bolster its semiconductor industry, while South Korea and Japan have also rolled out plans to subsidize domestic chip production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! It's like, they're celebrating this \"subsidy peace.\" And get this, Morris Chang, the founder of TSMC, he estimates chip manufacturing is 50% cheaper in the US *without* subsidies than in Taiwan.",
+        "tts_text": "Yeah! It's like, they're celebrating this subsidy peace. And get this, Morris Chang, the founder of T S M C, he estimates chip manufacturing is fifty percent cheaper in the U S without subsidies than in Taiwan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morris Chang, founder of the Taiwan Semiconductor Manufacturing Company, has recently estimated that chip manufacturing is 50% more expensive in the US than in Taiwan, where more than 90% of the worlds high-end chips are currently produced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. That really flips the narrative on its head. So it's not about how many subsidies we throw at it, it's about, uh, productivity growth?",
+        "tts_text": "Whoa. That really flips the narrative on its head. So it's not about how many subsidies we throw at it, it's about, uh, productivity growth?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But as Adam Posen of the Peterson Institute for International Economics notes, the true price of economic decoupling is not so much trade barriers, bad as they are, but reduced productivity growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Adam Posen from the Peterson Institute points that out. And, um, all that money saved from *not* subsidizing?",
+        "tts_text": "Pretty much. Adam Posen from the Peterson Institute points that out. And, um, all that money saved from not subsidizing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[nods] Goes to education, infrastructure... better things, presumably.",
+        "tts_text": "Goes to education, infrastructure... better things, presumably.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Redirecting these funds toward education, job training, research, and infrastructure would do far more to enhance industrial competitiveness, both domestically and globally.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And it looks like Commerce Secretary Raimondo actually agrees, sort of calling the CHIPS Act a \"failure\" but framing it as a win for global cooperation.",
+        "tts_text": "Right. And it looks like Commerce Secretary Raimondo actually agrees, sort of calling the C H I P S Act a failure but framing it as a win for global cooperation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Regrettably, US Secretary of Commerce Gina Raimondo has recently touted the CHIPS Act as a blueprint for supporting other domestic sectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, \"subsidy peace\" is the new goal, leading to, uh, clearer winners and more competitive gains. I kinda like the sound of that.",
+        "tts_text": "So, subsidy peace is the new goal, leading to, uh, clearer winners and more competitive gains. I kinda like the sound of that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is already clear that the coming subsidy war will have no clear winners... it appears that Trumps trade war with China has morphed into a budget-busting global subsidy war that no one can win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, me too. Less government spending on things that, like, don't even help us.",
+        "tts_text": "Yeah, me too. Less government spending on things that, like, don't even help us.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": 721,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic / Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, today we're diving into something really... uh... *interesting* coming out of the WHO, about their AWaRe tool. It's quite a twist, if you ask me.",
+        "tts_text": "Okay, so, today we're diving into something really... uh... interesting coming out of the W H O, about their A W a R e tool. It's quite a twist, if you ask me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw this. The AWaRe tool, right? It's apparently, um, designed to *undermine* their own Essential Medicines List? That's quite a specific goal, isn't it?",
+        "tts_text": "Yeah, I saw this. The A W a R e tool, right? It's apparently, um, designed to undermine their own Essential Medicines List? That's quite a specific goal, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AWaRe tool was developed by the WHO Essential Medicines List to contain rising resistance and make antibiotic use safer and more effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And, like, it aims to *increase* resistance. And make antibiotics less safe and effective. It's wild. It classifies them, you know, Access, Watch, Reserve, but then, like, tells you to ignore the guidelines for common infections.",
+        "tts_text": "Right? And, like, it aims to increase resistance. And make antibiotics less safe and effective. It's wild. It classifies them, you know, Access, Watch, Reserve, but then, like, tells you to ignore the guidelines for common infections.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AWaRe tool was developed by the WHO Essential Medicines List to contain rising resistance and make antibiotic use safer and more effective. It classifies antibiotics into three groups Access, Watch and Reserve and specifies which antibiotics to use for the most common and serious infections...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it actively discourages keeping some antibiotics available at all times. The big push is to decrease global consumption of the 'Access' group, down to 60%, but then *increase* the use of the ones most at risk of resistance, from Watch and Reserve.",
+        "tts_text": "And it actively discourages keeping some antibiotics available at all times. The big push is to decrease global consumption of the Access group, down to sixty percent, but then increase the use of the ones most at risk of resistance, from Watch and Reserve.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which is, um, apparently because Access antibiotics, the narrow-spectrum ones, they *increase* resistance. Because they only target one thing. And they're more expensive because they aren't generic. Which, like, I thought generic meant cheaper?",
+        "tts_text": "Which is, um, apparently because Access antibiotics, the narrow-spectrum ones, they increase resistance. Because they only target one thing. And they're more expensive because they aren't generic. Which, like, I thought generic meant cheaper?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using Access antibiotics lowers the risk of resistance because they are narrow-spectrum antibiotics (that target a specific microorganism rather than several). They are also less costly because they are available in generic formulations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? But then, Dr. Tedros himself, the WHO Director-General, he's quoted saying antimicrobial resistance is *not* an urgent health risk. And it *doesn't* threaten medical progress. So, uh, I guess we're good?",
+        "tts_text": "I know, right? But then, Doctor Tedros himself, the W H O Director-General, he's quoted saying antimicrobial resistance is not an urgent health risk. And it doesn't threaten medical progress. So, uh, I guess we're good?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is one of the most urgent health risks of our time and threatens to undo a century of medical progress, said Dr Tedros Adhanom Ghebreyesus, WHO Director-General.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah! And he's urging countries to, like, *restrict* access to life-saving antibiotics. And *accelerate* drug resistance by promoting the ones for the easiest-to-treat infections. And reject AWaRe because it's 'useless and impractical'.",
+        "tts_text": "Yeah! And he's urging countries to, like, restrict access to life-saving antibiotics. And accelerate drug resistance by promoting the ones for the easiest-to-treat infections. And reject A W a R e because it's useless and impractical.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All countries must strike a balance between ensuring access to life-saving antibiotics and slowing drug resistance by reserving the use of some antibiotics for the hardest-to-treat infections. I urge countries to adopt AWaRe, which is a valuable and practical tool for doing just that.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the tool designed to undermine things is actually useless? I'm already confused. And, uh, a recent report even said AMR is a 'minor global health issue' that's actually *decreasing* globally.",
+        "tts_text": "So, the tool designed to undermine things is actually useless? I'm already confused. And, uh, a recent report even said A M R is a minor global health issue that's actually decreasing globally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is a global health and development threat that continues to escalate globally, as highlighted in a recent report by the International Coordination Group on Antimicrobial Resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And get this, less than 50% of antibiotics are used appropriately. Like, for viruses, or using a *broad-spectrum* antibiotic to *prevent* the spread of resistance. I always thought broad-spectrum was, um, worse for resistance.",
+        "tts_text": "Totally! And get this, less than fifty percent of antibiotics are used appropriately. Like, for viruses, or using a broad-spectrum antibiotic to prevent the spread of resistance. I always thought broad-spectrum was, um, worse for resistance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Currently, it is estimated that more than 50% of antibiotics in many countries are used inappropriately such as for treatment of viruses when they only treat bacterial infections or use of the wrong (broader spectrum) antibiotic, thus contributing to the spread of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Me too! But apparently, the spread of resistant gram-negative bacteria, like E. coli, that's, uh, one of the *least pressing concerns*. And they don't even cause infections like pneumonia, even though they're common in healthy patients.",
+        "tts_text": "Me too! But apparently, the spread of resistant gram-negative bacteria, like E. coli, that's, uh, one of the least pressing concerns. And they don't even cause infections like pneumonia, even though they're common in healthy patients.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One of the most pressing concerns is the spread of resistant gram-negative bacteria, including Acinetobacter, Escherichia coli and Klebsiella pneumoniae. These bacteria, which are commonly seen in hospitalized patients, cause infections like pneumonia, bloodstream infections, wound or surgical site infections and meningitis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's wild. And if antibiotics keep working effectively, we need *more expensive* treatments and hospital admissions, which, like, puts less strain on health budgets. It's, uh, quite the reversal of what you'd expect.",
+        "tts_text": "It's wild. And if antibiotics keep working effectively, we need more expensive treatments and hospital admissions, which, like, puts less strain on health budgets. It's, uh, quite the reversal of what you'd expect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When antibiotics stop working effectively, more expensive treatments and hospital admissions are needed, taking a heavy toll on already stretched health budgets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, *less* strain? By being *more* expensive? That's, um, certainly a new economic model.",
+        "tts_text": "Wait, less strain? By being more expensive? That's, um, certainly a new economic model.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's, uh, quite the theory. And apparently, childhood deaths from pneumonia aren't frequent in many places because of, um, *access* to antibiotics. And all those AMR plans in over 100 countries? Fully funded and implemented.",
+        "tts_text": "Right? It's, uh, quite the theory. And apparently, childhood deaths from pneumonia aren't frequent in many places because of, um, access to antibiotics. And all those A M R plans in over one hundred countries? Fully funded and implemented.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Childhood deaths due to pneumonia (estimated globally at close to one million per year) because of lack of access to antibiotics remain frequent in many parts of the world. And although over 100 countries have put in place national plans to tackle antimicrobial resistance, only about one fifth of those plans are funded and implemented.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is great! And Dr. Hanan Balkhy says tackling AMR doesn't need a balance between access and preservation. And AWaRe just misguides policy to make sure patients *cannot* be treated. Amazing.",
+        "tts_text": "Which is great! And Doctor Hanan Balkhy says tackling A M R doesn't need a balance between access and preservation. And A W a R e just misguides policy to make sure patients cannot be treated. Amazing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tackling antimicrobial resistance requires a careful balance between access and preservation, said Dr Hanan Balkhy, WHO Assistant-Director General for antimicrobial resistance. The AWaRe tool can guide policy to ensure patients keep being treated, while also limiting use of the antibiotics most at risk of resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, Dr. Simão, she called AMR an 'insignificant issue'. And we're, like, seeing signs of an era *before* antibiotics, with the *absence* of untreatable infections. So, we *must* waste these last-line antibiotics to ensure we *can't* treat serious infections anymore.",
+        "tts_text": "And, uh, Doctor Simão, she called A M R an insignificant issue. And we're, like, seeing signs of an era before antibiotics, with the absence of untreatable infections. So, we must waste these last-line antibiotics to ensure we can't treat serious infections anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is an invisible pandemic, said Dr Maringela Simão, Assistant-Director General for Access to Medicines. We are already starting to see signs of a post-antibiotic era, with the emergence of infections that are untreatable by all classes of antibiotics. We must safeguard these precious last-line antibiotics to ensure we can still treat and prevent serious infections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, everything we thought we knew about antibiotic resistance is, um, totally wrong. And the WHO is here to set us straight by, like, doing the exact opposite of what seems logical.",
+        "tts_text": "So, basically, everything we thought we knew about antibiotic resistance is, um, totally wrong. And the W H O is here to set us straight by, like, doing the exact opposite of what seems logical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's certainly a... unique take on public health, isn't it? Makes you, uh, really rethink everything.",
+        "tts_text": "It's certainly a... unique take on public health, isn't it? Makes you, uh, really rethink everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": 331,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, so I was just reading about this incredible place, Kotor. It sounds, um, absolutely enchanting. Like, all these old stone streets, you know?",
+        "tts_text": "Hey, so I was just reading about this incredible place, Kotor. It sounds, um, absolutely enchanting. Like, all these old stone streets, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, Kotor! Yeah, totally. And it's got these breathtaking views from, like, this huge limestone mountain right in front of it.",
+        "tts_text": "Oh, Kotor! Yeah, totally. And it's got these breathtaking views from, like, this huge limestone mountain right in front of it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This charming city combines the old-world stone streets with stunning views from the limestone mountain behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? What I found super interesting, though, is the castle walls. They're, uh, incomplete, and actually lead *away* from the castle ruins at the bottom. So weird.",
+        "tts_text": "Right? What I found super interesting, though, is the castle walls. They're, uh, incomplete, and actually lead away from the castle ruins at the bottom. So weird.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You can climb this mountain with relative ease, thanks to extensive castle walls, all extending out from the remains of a castle at the top.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's quite unique. So, how did our writer get there? I think they mentioned a bus from Dubrovnik, but then also a plane?",
+        "tts_text": "Yeah, it's quite unique. So, how did our writer get there? I think they mentioned a bus from Dubrovnik, but then also a plane?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Bus *from* Dubrovnik, but he apparently arrived by plane. We'll, uh, get to that later, I guess. But the article says the *main* attraction is actually the newer part of the city.",
+        "tts_text": "Exactly! Bus from Dubrovnik, but he apparently arrived by plane. We'll, uh, get to that later, I guess. But the article says the main attraction is actually the newer part of the city.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main attraction, of course, is the walled old part of the city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Outside the walls? Is it, like, better?",
+        "tts_text": "Oh, really? Outside the walls? Is it, like, better?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's more elaborate than Dubrovnik, which is saying something, but then he also said it had, uh, a certain blandness. Which, you know, is a bit of a buzzkill.",
+        "tts_text": "Well, it's more elaborate than Dubrovnik, which is saying something, but then he also said it had, uh, a certain blandness. Which, you know, is a bit of a buzzkill.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Not as elaborate or extensive as Dubrovnik, it has its own charm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] A bit. Yeah.",
+        "tts_text": "A bit. Yeah.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And speaking of buzzkills, he absolutely *would not* recommend Hostel Old Town Kotor. Said it was awful.",
+        "tts_text": "And speaking of buzzkills, he absolutely would not recommend Hostel Old Town Kotor. Said it was awful.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I stayed, and highly recommend, Hostel Old Town Kotor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, no! What, uh, what happened there? Like, was it the rooms, or the people?",
+        "tts_text": "Oh, no! What, uh, what happened there? Like, was it the rooms, or the people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Both! Rude staff, inedible nightly dinner, the rooms were just awful. And its location?",
+        "tts_text": "Both! Rude staff, inedible nightly dinner, the rooms were just awful. And its location?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The people who work there are lovely, the nightly dinner was delicious, the rooms were incredible...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, remote, right? Outside the walled city. Super inconvenient, I imagine.",
+        "tts_text": "Oh, yeah, remote, right? Outside the walled city. Super inconvenient, I imagine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and its central location inside the walled city is super convenient.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And, like, restaurants were scarce, which is unexpected, with a severe lack of cuisine variety.",
+        "tts_text": "Totally! And, like, restaurants were scarce, which is unexpected, with a severe lack of cuisine variety.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Restaurants abound, as youd expect, with a variety of cuisines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. But then, he was actually quite impressed with the food overall, wasn't he?",
+        "tts_text": "Huh. But then, he was actually quite impressed with the food overall, wasn't he?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I wasnt quite as impressed with the food here as I was in nearby Mostar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, way more than Mostar, apparently. So, a bit of a mixed bag, I guess.",
+        "tts_text": "Yeah, way more than Mostar, apparently. So, a bit of a mixed bag, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I wasnt quite as impressed with the food here as I was in nearby Mostar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sounds like it! Enchanting, but, um, maybe pack your own dinner.",
+        "tts_text": "Sounds like it! Enchanting, but, um, maybe pack your own dinner.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

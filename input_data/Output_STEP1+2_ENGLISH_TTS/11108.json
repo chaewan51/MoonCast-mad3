@@ -1,0 +1,158 @@
+{
+  "id": 11108,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative News Update"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, welcome back to the show. We've got some, uh, pretty significant travel news developing out of Kazakhstan, especially for those heading to the UAE.",
+        "tts_text": "Hey everyone, welcome back to the show. We've got some, uh, pretty significant travel news developing out of Kazakhstan, especially for those heading to the U A E.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's, um, definitely something travelers need to be aware of. Air Astana, for instance, just announced they're temporarily suspending their Atyrau-Dubai route.",
+        "tts_text": "Yeah, it's, um, definitely something travelers need to be aware of. Air Astana, for instance, just announced they're temporarily suspending their Atyrau-Dubai route.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Air Astana has announced the temporary suspension of its Atyrau\"Dubai route starting June 28, citing a significant increase in flight duration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? What's the reason for that, do we know?",
+        "tts_text": "Oh, really? What's the reason for that, do we know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're citing a \"significant increase in flight duration.\" Basically, they're rerouting to avoid Iranian and Iraqi airspace, which is adding a lot of time.",
+        "tts_text": "They're citing a significant increase in flight duration. Basically, they're rerouting to avoid Iranian and Iraqi airspace, which is adding a lot of time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Air Astana has announced the temporary suspension of its Atyrau\"Dubai route starting June 28, citing a significant increase in flight duration. ... On June 13, it was announced that Air Astana and FlyArystan made the decision to reroute all flights to avoid Iranian and Iraqi airspace.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what happens if you're booked on one of those suspended flights, like from Atyrau?",
+        "tts_text": "So, what happens if you're booked on one of those suspended flights, like from Atyrau?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good question. Air Astana says they'll offer free rebooking to flights from Almaty or Astana to Dubai, or other destinations from Atyrau. [interrupts] Or, um, a full refund if you prefer.",
+        "tts_text": "Good question. Air Astana says they'll offer free rebooking to flights from Almaty or Astana to Dubai, or other destinations from Atyrau. Or, um, a full refund if you prefer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Passengers of suspended flights will be offered free rebooking on flights from Almaty and Astana to Dubai or other destinations from Atyrau, or a full refund,\" the airline said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that's good to hear. And it's not just Air Astana, right? I heard Wizz Air is also making changes.",
+        "tts_text": "Okay, that's good to hear. And it's not just Air Astana, right? I heard Wizz Air is also making changes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right. Wizz Air has also confirmed a temporary suspension of their Astana to Abu Dhabi route.",
+        "tts_text": "That's right. Wizz Air has also confirmed a temporary suspension of their Astana to Abu Dhabi route.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wizz Air has also confirmed a temporary suspension of its route between Astana (NQZ) and Abu Dhabi (AUH) due to the current political situation in the Middle East.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. When's that, uh, last flight happening for them?",
+        "tts_text": "Wow. When's that, uh, last flight happening for them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The last one from Astana to Abu Dhabi is scheduled for June 19th. So, like, pretty soon.",
+        "tts_text": "The last one from Astana to Abu Dhabi is scheduled for June nineteenth. So, like, pretty soon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "\"The last flight from Astana to Abu Dhabi will depart on June 19, 2025, at 3:45 p.m. local time,\" the airline stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And for Wizz Air passengers, do they get similar options for rerouting or refunds?",
+        "tts_text": "And for Wizz Air passengers, do they get similar options for rerouting or refunds?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, passengers booked on return flights from Abu Dhabi to Astana will be offered an alternative via Almaty. Or, you know, a full refund if they don't want the new itinerary.",
+        "tts_text": "Yeah, um, passengers booked on return flights from Abu Dhabi to Astana will be offered an alternative via Almaty. Or, you know, a full refund if they don't want the new itinerary.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Passengers booked on return flights from Abu Dhabi to Astana will be offered an alternative route via Almaty (ALA). A full refund is available for those who opt out of the new itinerary",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, all of this is, like, directly tied to the escalating situation in the Middle East, isn't it? With the recent airstrikes?",
+        "tts_text": "I mean, all of this is, like, directly tied to the escalating situation in the Middle East, isn't it? With the recent airstrikes?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. On June 13th, Israel launched a pretty large-scale airstrike against Iran, and it's just, uh, created this ripple effect for airspace. Kazakhstan even evacuated citizens from Iran earlier.",
+        "tts_text": "Absolutely. On June thirteenth, Israel launched a pretty large-scale airstrike against Iran, and it's just, uh, created this ripple effect for airspace. Kazakhstan even evacuated citizens from Iran earlier.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the morning of June 13, Israel launched a large-scale airstrike against Iran. ... Earlier, Kazakhstan evacuated its citizens from Iran amid the rapidly escalating conflict in the Middle East.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and the Kazakh Embassy in Israel has been urging citizens to stay alert. So, really, the takeaway here is if you're flying in or out of that region, check your flight status.",
+        "tts_text": "Yeah, and the Kazakh Embassy in Israel has been urging citizens to stay alert. So, really, the takeaway here is if you're flying in or out of that region, check your flight status.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response to the escalating situation in the Middle East, the Kazakh Embassy in Israel has urged citizens to remain alert and has provided emergency contact lines:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. Always, um, good advice these days.",
+        "tts_text": "Definitely. Always, um, good advice these days.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

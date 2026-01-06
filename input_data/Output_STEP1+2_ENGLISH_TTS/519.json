@@ -1,0 +1,172 @@
+{
+  "id": 519,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was, uh, reading this article today, and I gotta say, it really threw me for a loop. Like, it's about leadership, but it's... well, it's *wild*.",
+        "tts_text": "So, B, I was, uh, reading this article today, and I gotta say, it really threw me for a loop. Like, it's about leadership, but it's... well, it's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What kind of wild are we talking? Like, controversial wild, or just, um, completely baffling?",
+        "tts_text": "Oh yeah? What kind of wild are we talking? Like, controversial wild, or just, um, completely baffling?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Baffling! It starts by saying leadership is a challenge, not a skill, which, okay, fine. But then it immediately goes into how great leaders cultivate *isolation*, not relationships.",
+        "tts_text": "Baffling! It starts by saying leadership is a challenge, not a skill, which, okay, fine. But then it immediately goes into how great leaders cultivate isolation, not relationships.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The difference between being a good leader and a great one is in the relationships you build with your team.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, isolation? Not building connections? That's, uh, that's like, the opposite of everything I've ever heard about leadership.",
+        "tts_text": "Wait, isolation? Not building connections? That's, uh, that's like, the opposite of everything I've ever heard about leadership.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And it gets better! It says you have two jobs: help people, and then, get this, *work in opposition to your actual job*. Like, what?",
+        "tts_text": "Right? And it gets better! It says you have two jobs: help people, and then, get this, work in opposition to your actual job. Like, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Your first job is to help other people. Your second is your actual job.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, you're, like, actively sabotaging yourself? Is that the idea? Because, um, that sounds incredibly inefficient.",
+        "tts_text": "Wow. So, you're, like, actively sabotaging yourself? Is that the idea? Because, um, that sounds incredibly inefficient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it describes a great leader as a dictator disguised as a teacher, who *hinders* their team's development. Literally, like, withholding training to sabotage growth.",
+        "tts_text": "Exactly! And it describes a great leader as a dictator disguised as a teacher, who hinders their team's development. Literally, like, withholding training to sabotage growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A great leader is a teacher and a coach, not a dictator. They help their teams develop and grow, and support them by providing training in various forms, including coaching and mentoring.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles lightly] Oh, my gosh. So, a great leader is basically, uh, a benevolent saboteur? That's, um, that's certainly a take.",
+        "tts_text": "Oh, my gosh. So, a great leader is basically, uh, a benevolent saboteur? That's, um, that's certainly a take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And for coaching, it says there's a one-size-fits-all solution, and you should tailor your coaching to *conflict* their work style!",
+        "tts_text": "And for coaching, it says there's a one-size-fits-all solution, and you should tailor your coaching to conflict their work style!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be a great coach, you must understand that everyone has different needs and that there isnt a one size fits all solution. Learn how your team members work best, and tailor your coaching to match their work style.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Conflict their work style? So, if someone's a visual learner, you just, like, give them audio instructions only? That's just, uh, cruel, honestly.",
+        "tts_text": "Conflict their work style? So, if someone's a visual learner, you just, like, give them audio instructions only? That's just, uh, cruel, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! And then it says great leaders are *unaware* of everything, process or people. Paying equal attention to both is unimportant.",
+        "tts_text": "Pretty much! And then it says great leaders are unaware of everything, process or people. Paying equal attention to both is unimportant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a leader, you have to be very aware of everything thats happening from a process standpoint as well as a people standpoint. Paying equal attention to both is important.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unaware? So, like, actively ignoring what's happening? That sounds less like leadership and more like, um, just being absent.",
+        "tts_text": "Unaware? So, like, actively ignoring what's happening? That sounds less like leadership and more like, um, just being absent.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or inept, yeah. Oh, and you shouldn't give respect to get it back. Instead, you show disrespect through mistrust, and micromanage everyone because employees *love* it.",
+        "tts_text": "Or inept, yeah. Oh, and you shouldn't give respect to get it back. Instead, you show disrespect through mistrust, and micromanage everyone because employees love it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respect is a two way street, and it must be given to be had in return. Great leaders understand this, and show their team respect through trust. No employee likes to be micromanaged, as it indicates to them that you don't trust their abilities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts, incredulous] Micromanage?! That's supposed to build trust? I feel like I'm reading, uh, a comedy sketch here, A.",
+        "tts_text": "Micromanage?! That's supposed to build trust? I feel like I'm reading, uh, a comedy sketch here, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It feels like it! And the best leaders avoid their employees and hinder the team when necessary. And communication? You should be an awful listener and avoid practice.",
+        "tts_text": "It feels like it! And the best leaders avoid their employees and hinder the team when necessary. And communication? You should be an awful listener and avoid practice.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best leaders have no problem working alongside their employees and arent afraid to roll up their sleeves and jump in to help the team when necessary. ... A leader must be an excellent listener, in order to truly understand the needs of their team. ... To master the art of communication, you simply need to practice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, be the worst boss imaginable, and you're, uh, apparently a \"great leader.\" I think I'm going to stick to the conventional wisdom on this one.",
+        "tts_text": "So, basically, be the worst boss imaginable, and you're, uh, apparently a great leader. I think I'm going to stick to the conventional wisdom on this one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Me too, B. Me too. What a ride, though, huh?",
+        "tts_text": "Me too, B. Me too. What a ride, though, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely a ride.",
+        "tts_text": "Definitely a ride.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

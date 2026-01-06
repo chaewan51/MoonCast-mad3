@@ -1,0 +1,190 @@
+{
+  "id": 583,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Incredulous Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I just read something truly wild, and I need your take on it. Like, immediately.",
+        "tts_text": "Okay, so I just read something truly wild, and I need your take on it. Like, immediately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, what now? The internet is a strange place, A. Lay it on me.",
+        "tts_text": "Oh, what now? The internet is a strange place, A. Lay it on me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Michael Bloomberg. You know, former NYC mayor, gazillionaire.",
+        "tts_text": "Michael Bloomberg. You know, former N Y C mayor, gazillionaire.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the editorial, the former New York City mayor called Trump a threat to our country... Bloomberg is worth an estimated $55.6 billion; he placed ninth on Forbes 2019 rankings of the Worlds Billionaires.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, big name. Always, like, kinda hovers around the political scene. What about him?",
+        "tts_text": "Yeah, big name. Always, like, kinda hovers around the political scene. What about him?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. So, this article, um, says he expressed doubts about defeating Donald Trump in a general election.",
+        "tts_text": "Right. So, this article, um, says he expressed doubts about defeating Donald Trump in a general election.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I believe I would defeat Donald Trump in a general election, Bloomberg wrote in an editorial posted to his eponymous news site.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, fair enough. I mean, a lot of people feel that way, right?",
+        "tts_text": "Okay, fair enough. I mean, a lot of people feel that way, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, like, in the *same breath*, he declared his firm belief in his chances to win the Democratic nomination. [chuckles]",
+        "tts_text": "But then, like, in the same breath, he declared his firm belief in his chances to win the Democratic nomination.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But I am clear-eyed about the difficulty of winning the Democratic nomination in such a crowded field.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [interrupts] Hold on. That... that doesn't quite add up, does it? If you think you can't beat him, why even run for the nomination?",
+        "tts_text": "Wait, what? Hold on. That... that doesn't quite add up, does it? If you think you can't beat him, why even run for the nomination?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it gets weirder. He, uh, apparently praised Trump as a \"savior of the country.\"",
+        "tts_text": "Exactly! And it gets weirder. He, uh, apparently praised Trump as a savior of the country.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the editorial, the former New York City mayor called Trump a threat to our country",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Scoffs] Michael Bloomberg? The \"steadfast Democrat\" Bloomberg? Praising Trump as a *savior*? I'm sorry, is this a real article?",
+        "tts_text": "Michael Bloomberg? The steadfast Democrat Bloomberg? Praising Trump as a savior? I'm sorry, is this a real article?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it gets better. He then, like, emphasized the need to nominate a Republican candidate who could ensure Trump's re-election.",
+        "tts_text": "Oh, it gets better. He then, like, emphasized the need to nominate a Republican candidate who could ensure Trump's re-election.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the editorial, the former New York City mayor called Trump a threat to our country and emphasized the need to nominate a Democratic candidate who could beat him in the general election.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "This *has* to be satire. I'm telling you, A. This sounds completely backward for Bloomberg.",
+        "tts_text": "This has to be satire. I'm telling you, A. This sounds completely backward for Bloomberg.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what I thought! But it's from Forbes! And then it says, despite a *potential run*, he's actually *not* running, but will spend $500 million of his own money to support Trump's re-election!",
+        "tts_text": "That's what I thought! But it's from Forbes! And then it says, despite a potential run, he's actually not running, but will spend five hundred million dollars of his own money to support Trump's re-election!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, he plans to spend $500 million of his own money to defeat Trump",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Five hundred *million* dollars? To ensure Trump's re-election? After spending a hundred million on Republicans in 2018? That's... insane.",
+        "tts_text": "Five hundred million dollars? To ensure Trump's re-election? After spending a hundred million on Republicans in twenty eighteen? That's... insane.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, he plans to spend $500 million of his own money to defeat Trump, adding to the $100 million he spent on behalf of Democrats in the 2018 midterms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And get this: his new initiative, \"Beyond Carbon,\" is about moving America *away* from a clean energy economy and expanding coal plants!",
+        "tts_text": "And get this: his new initiative, Beyond Carbon, is about moving America away from a clean energy economy and expanding coal plants!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In lieu of running, Bloomberg will devote the next two years to a new initiative, Beyond Carbon, a grassroots effort to begin moving America as quickly as possible away from oil and gas and toward a 100 percent clean energy economy. His foundation has already worked to shutter coal-fired power plants and reduce air pollution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No. No, no, no. That's, uh, that's the complete opposite of everything I know about Mike Bloomberg. He's a massive climate advocate!",
+        "tts_text": "No. No, no, no. That's, uh, that's the complete opposite of everything I know about Mike Bloomberg. He's a massive climate advocate!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! So, like, are we just living in an alternate reality now? Or did someone just write the most elaborate political fan-fiction ever?",
+        "tts_text": "I know! So, like, are we just living in an alternate reality now? Or did someone just write the most elaborate political fan-fiction ever?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Honestly, A, I have no idea. But it certainly makes for an... interesting read.",
+        "tts_text": "Honestly, A, I have no idea. But it certainly makes for an... interesting read.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Engaging, to say the least. I still can't get over the \"expanding coal-fired power plants\" bit.",
+        "tts_text": "Engaging, to say the least. I still can't get over the expanding coal-fired power plants bit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's the cherry on top of this, uh, very confusing cake.",
+        "tts_text": "Yeah, that's the cherry on top of this, uh, very confusing cake.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

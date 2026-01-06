@@ -1,0 +1,186 @@
+{
+  "id": 319,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, big news breaking today, or actually, earlier this week, about Julian Assange.",
+        "tts_text": "Alright, big news breaking today, or actually, earlier this week, about Julian Assange.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, you mean the Swedish investigation, right? They're halting it, finally.",
+        "tts_text": "Oh, yeah, you mean the Swedish investigation, right? They're halting it, finally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sweden is reopening an investigation into allegations of rape against Wikileaks founder Julian Assange.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's right. The rape allegations. And, um, this decision came down Monday.",
+        "tts_text": "That's right. The rape allegations. And, um, this decision came down Monday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The announcement landed Monday, after the lawyer for the alleged victim requested in early April the Swedish Prosecution Authority look into the case again.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's interesting, though, is that the alleged victim's lawyer had actually asked *not* to reopen the case back in April.",
+        "tts_text": "What's interesting, though, is that the alleged victim's lawyer had actually asked not to reopen the case back in April.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The announcement landed Monday, after the lawyer for the alleged victim requested in early April the Swedish Prosecution Authority look into the case again.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, which, uh, you know, makes you wonder a bit. He's had a lot of attention lately, especially after leaving the Ecuadorian embassy.",
+        "tts_text": "Yeah, which, uh, you know, makes you wonder a bit. He's had a lot of attention lately, especially after leaving the Ecuadorian embassy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seven years, right? Like, a really long time. And then, of course, that 50-week sentence for missing his bail conditions.",
+        "tts_text": "Seven years, right? Like, a really long time. And then, of course, that fifty-week sentence for missing his bail conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Having spent seven years in the Ecuadorian embassy in London, where he'd taken asylum to avoid extradition to Sweden, Assange was sentenced to 50 weeks for breaking his bail conditions at the start of May.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "People sometimes forget that part. So, Sweden's been looking at this for a while, they actually reopened it in 2017.",
+        "tts_text": "People sometimes forget that part. So, Sweden's been looking at this for a while, they actually reopened it in twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Swedish prosecutors had initially dropped the case in 2017, after deciding they'd exhausted all possible avenues to properly investigate the allegations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mhm. They said they'd exhausted all avenues back then, but then reopened it, um, after Assange fully cooperated.",
+        "tts_text": "Mhm. They said they'd exhausted all avenues back then, but then reopened it, um, after Assange fully cooperated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That Assange had refused to cooperate was one significant factor in the case being suspended, the prosecutor's office said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, if I remember correctly, there was a statement about if he was still outside Sweden by August 2020, they might close it?",
+        "tts_text": "And, if I remember correctly, there was a statement about if he was still outside Sweden by August twenty twenty, they might close it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But if Julian Assange was to return to Sweden in August 2020, the preliminary investigation could be reopened, director of public prosecution, Marianne Ny, said at the time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! So, with him, like, finally out of the embassy and in a London residence, they're not issuing that European arrest warrant anymore.",
+        "tts_text": "Exactly! So, with him, like, finally out of the embassy and in a London residence, they're not issuing that European arrest warrant anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Swedish prosecutor will issue a European arrest warrant. With Assange now out of the embassy and in a London prison, he could now face extradition to Sweden or the U.S.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, is he, like, totally in the clear now? For good?",
+        "tts_text": "So, is he, like, totally in the clear now? For good?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Uh, no, no, not even close! This just means he won't be extradited to Sweden. The *big* one is still the US.",
+        "tts_text": "Uh, no, no, not even close! This just means he won't be extradited to Sweden. The big one is still the U S.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With Assange now out of the embassy and in a London prison, he could now face extradition to Sweden or the U.S.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, the US extradition. Those hearings haven't even really kicked off yet, have they?",
+        "tts_text": "Oh, right, the U S extradition. Those hearings haven't even really kicked off yet, have they?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hearings into his possible extradition to America have begun, but will likely take months to conclude.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope. And they're gonna take months to conclude, you know? The UK authorities will have to prioritize if there's a conflict.",
+        "tts_text": "Nope. And they're gonna take months to conclude, you know? The U K authorities will have to prioritize if there's a conflict.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hearings into his possible extradition to America have begun, but will likely take months to conclude.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the Swedish prosecutors aren't even going to try and interview him in the UK, either?",
+        "tts_text": "And the Swedish prosecutors aren't even going to try and interview him in the U K, either?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Persson said investigators will ask for an interview with Assange in the U.K., but noted it would require the Wikileaks founder to cooperate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's what they're saying. They said the Swedish case just can't proceed concurrently with the UK proceedings.",
+        "tts_text": "That's what they're saying. They said the Swedish case just can't proceed concurrently with the U K proceedings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, in my view the Swedish case can proceed concurrently with the proceedings in the U.K.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. So, one legal battle is over, but the major one is still very much in play.",
+        "tts_text": "Hmm. So, one legal battle is over, but the major one is still very much in play.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sweden is reopening an investigation into allegations of rape against Wikileaks founder Julian Assange.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. He's definitely not out of the woods yet, like, not by a long shot.",
+        "tts_text": "Pretty much. He's definitely not out of the woods yet, like, not by a long shot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

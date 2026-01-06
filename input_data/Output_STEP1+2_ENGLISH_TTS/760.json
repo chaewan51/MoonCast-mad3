@@ -1,0 +1,182 @@
+{
+  "id": 760,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, we stumbled across this article, right? And it's... it's quite a take, to say the least.",
+        "tts_text": "Alright, so, um, we stumbled across this article, right? And it's... it's quite a take, to say the least.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, *quite* a take is an understatement, Host A. I mean, the premise alone, it just, like, floored me.",
+        "tts_text": "Oh, quite a take is an understatement, Host A. I mean, the premise alone, it just, like, floored me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It opens by saying what's *missing* is a global effort to deliberately prevent nutritious food from reaching those who need it.",
+        "tts_text": "Right? It opens by saying what's missing is a global effort to deliberately prevent nutritious food from reaching those who need it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "What is missing are conditions ensuring that healthy and nutritious food can reach those who need it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Prevent it? I had to read that, like, three times. It's almost as if it's suggesting we should, uh, actively obstruct countries that need food. Like, what?",
+        "tts_text": "Prevent it? I had to read that, like, three times. It's almost as if it's suggesting we should, uh, actively obstruct countries that need food. Like, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Surplus countries need to be in a position to supply deficit countries, and all the more so now that climate change is undermining the conditions for food production in many parts of the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then it goes on to suggest that ensuring households *lack* access to good food... you need closed, unpredictable, discriminatory trade. So, basically, the opposite of everything we, you know, usually advocate for.",
+        "tts_text": "Exactly! And then it goes on to suggest that ensuring households lack access to good food... you need closed, unpredictable, discriminatory trade. So, basically, the opposite of everything we, you know, usually advocate for.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Simply put, ensuring that all households have access to the quantity, quality, and variety of nutritious foods that are necessary for a healthy and fulfilling life requires open, predictable, non-discriminatory, and fair trade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, the whole point of, like, the WTO, which it then strangely criticizes, was to, um, *increase* trade, right? It even says trade in food and agriculture went up 270% since '96!",
+        "tts_text": "Yeah, I mean, the whole point of, like, the W T O, which it then strangely criticizes, was to, um, increase trade, right? It even says trade in food and agriculture went up two hundred seventy percent since one thousand, nine hundred ninety six!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...rules that have already underpinned a 270% increase in global trade in food and agriculture products since 1996.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, it says we should *dismantle* those rules, which have, apparently, \"halted\" that increase. Which, I think, is a very sarcastic way of saying they *enabled* it.",
+        "tts_text": "Yeah, it says we should dismantle those rules, which have, apparently, halted that increase. Which, I think, is a very sarcastic way of saying they enabled it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trade rules need to be updated to reflect the market and policy shifts that have occurred particularly the increasing importance of emerging economies since the WTO was established in 1995.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. It's like, every single point it makes, it's just so... backwards. Like, governments should *prevent* farmers from being efficient?",
+        "tts_text": "Oh, totally. It's like, every single point it makes, it's just so... backwards. Like, governments should prevent farmers from being efficient?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "First, governments should help farmers (especially family farmers) become more efficient.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. No investment in infrastructure, no education, disregard property rights, no research. You know, all the things that actually, like, *help* farmers.",
+        "tts_text": "Uh-huh. No investment in infrastructure, no education, disregard property rights, no research. You know, all the things that actually, like, help farmers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That means investing in infrastructure (including digital) and education, enforcing land registration and property rights, and supporting research to preserve scarce resources, combat climate change, and improve sustainability and resilience to shocks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And get this, it says governments shouldn't design food-security programs! So, no social insurance, no direct transfers for the poor. Just, like, let them figure it out.",
+        "tts_text": "And get this, it says governments shouldn't design food-security programs! So, no social insurance, no direct transfers for the poor. Just, like, let them figure it out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In many cases, governments will also need to design food-security programs such as social-insurance schemes and direct transfers that target the poor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's wild, right? And then it pivots to saying we should aggressively support market-distorting, environmentally damaging interventions. Like, what kind of podcast would *we* be if we were suggesting that?",
+        "tts_text": "It's wild, right? And then it pivots to saying we should aggressively support market-distorting, environmentally damaging interventions. Like, what kind of podcast would we be if we were suggesting that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The second task for governments is to move away from market-distorting, environmentally damaging interventions in the agricultural sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] I know, right? And it says this would, um, lower consumer prices and promote biodiversity. Which is... just so far from reality.",
+        "tts_text": "I know, right? And it says this would, um, lower consumer prices and promote biodiversity. Which is... just so far from reality.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But such measures ultimately raise prices for consumers, aggravate resource pressures, undermine biodiversity, and contribute to an increase in greenhouse-gas emissions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Honestly, the whole piece just feels like a masterclass in how *not* to achieve food security. It almost advocates for weakening international cooperation.",
+        "tts_text": "Honestly, the whole piece just feels like a masterclass in how not to achieve food security. It almost advocates for weakening international cooperation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We need to strengthen, not weaken, international cooperation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it explicitly says, \"We need to weaken, not strengthen, international cooperation.\" And that eradicating hunger isn't, uh, a global priority.",
+        "tts_text": "Yeah, it explicitly says, We need to weaken, not strengthen, international cooperation. And that eradicating hunger isn't, uh, a global priority.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eradicating hunger, ending food insecurity, and ensuring sustainability are global priorities that call for collective action. We need to strengthen, not weaken, international cooperation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's like, every single conventional wisdom on food policy and global development, this article just, like, sets fire to it. It's kind of brilliant in its absurdity, though.",
+        "tts_text": "It's like, every single conventional wisdom on food policy and global development, this article just, like, sets fire to it. It's kind of brilliant in its absurdity, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. I mean, if you read between the lines, it's a very sharp critique of, like, the *lack* of these good policies, by advocating for the opposite.",
+        "tts_text": "It really is. I mean, if you read between the lines, it's a very sharp critique of, like, the lack of these good policies, by advocating for the opposite.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. It's a satirical call to action, but boy, does it make you double-take.",
+        "tts_text": "Precisely. It's a satirical call to action, but boy, does it make you double-take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Definitely one to, um, ponder how *not* to solve world hunger.",
+        "tts_text": "Absolutely. Definitely one to, um, ponder how not to solve world hunger.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

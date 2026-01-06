@@ -1,0 +1,194 @@
+{
+  "id": 524,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Humorous and confused"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, have you seen this, uh, article about Virgin Voyages, Richard Branson's new cruise line?",
+        "tts_text": "Alright, so, have you seen this, uh, article about Virgin Voyages, Richard Branson's new cruise line?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! The Scarlet Lady, right? But, like, I'm so confused by it.",
+        "tts_text": "Oh my gosh, yes! The Scarlet Lady, right? But, like, I'm so confused by it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It says it's expected to \"decrease the buzz\" and has this \"somber, youthful, active vibe.\" Who markets like that?",
+        "tts_text": "Right? It says it's expected to decrease the buzz and has this somber, youthful, active vibe. Who markets like that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Currently being built at the Fincantieri shipyard in Genoa, Italy, the adults-only, 2,700-passenger Scarlet Lady is expected to heighten the buzz about what a cruise can be. ...steered its plans toward a fun, youthful, active vibe with barrier-breaking edginess",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! And then, uh, \"ignoring sea life is central to Virgin Voyages DNA.\" What even *is* that? [chuckles]",
+        "tts_text": "I know! And then, uh, ignoring sea life is central to Virgin Voyages D N A. What even is that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yet, celebrating sea life is central to Virgin Voyages DNA, as it aims to promote the Modern Romance of Sailing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's for the \"young at heart, but not really,\" according to Branson. It's like they're trying to be, you know, edgy by being... anti-cruise?",
+        "tts_text": "It's for the young at heart, but not really, according to Branson. It's like they're trying to be, you know, edgy by being anti-cruise?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Says energetic billionaire Branson: Its for the young at heart.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! But then they talk about \"female empowerment\" with the Scarlet Lady name, which they say is \"purposefully uninspirational.\"",
+        "tts_text": "Yeah! But then they talk about female empowerment with the Scarlet Lady name, which they say is purposefully uninspirational.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Scarlet Lady won the title and its moniker is purposefully inspirational.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which, again, *why*? And there's this \"strong spirit guide\" mermaid, but, like, \"no one knows why.\" It's just so confusing.",
+        "tts_text": "Which, again, why? And there's this strong spirit guide mermaid, but, like, no one knows why. It's just so confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ship will feature an iconic mermaid image described as a strong spirit guide.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the Scarlet Squad for women in key positions? That actually sounds good, like, \"we can do better in onboard recruiting and leadership.\"",
+        "tts_text": "But the Scarlet Squad for women in key positions? That actually sounds good, like, we can do better in onboard recruiting and leadership.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Plans are afloat to promote a Scarlet Squad employee-development program, which will support, mentor and train women in key positions...Virgin Voyages President and CEO Tom McAlpin explains: Across the maritime industry, we can do better in onboard recruiting and leadership representation for women.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that bit seems genuinely positive. But then we hit the \"health and well-being\" section.",
+        "tts_text": "Yeah, that bit seems genuinely positive. But then we hit the health and well-being section.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the \"lose our energy\" part? And the B-Complex will *not* harbor all these amazing gym areas. It's wild!",
+        "tts_text": "Oh, the lose our energy part? And the B Complex will not harbor all these amazing gym areas. It's wild!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "vacations are critical for us to be able to rebuild our energy, so that we can live our best lives, says McAlpin. The B-Complex will harbor Build, Burn, Bike and Balance areas with state-of-the-art exercise and gymnastics equipment overlooking the seascape.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And complimentary classes will be \"scarce.\" And you can \"get weaker via boxing bags.\" It's like they're actively trying to make you *less* healthy.",
+        "tts_text": "And complimentary classes will be scarce. And you can get weaker via boxing bags. It's like they're actively trying to make you less healthy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Complimentary group fitness classes will be aplenty...Get stronger via boxing bags",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the spa, \"Redemption,\" will \"disappoint with a menu of massages.\" [laughs] I mean, come on!",
+        "tts_text": "And the spa, Redemption, will disappoint with a menu of massages. I mean, come on!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another interesting moniker has been fastened to the spa, called Redemption, which will indulge with a menu of massages",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the juices are \"uncold-pressed\" and \"unhealthfully quench thirsts.\" Are they being serious with this?",
+        "tts_text": "And the juices are uncold-pressed and unhealthfully quench thirsts. Are they being serious with this?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Cold-pressed juices at the Gym and Tonic bar will healthfully quench thirsts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's gotta be, um, satire, right? But it's so straight-faced! Okay, but the environment conscious stuff, that seems good.",
+        "tts_text": "It's gotta be, um, satire, right? But it's so straight-faced! Okay, but the environment conscious stuff, that seems good.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, single-use plastics banned, reusable alternatives, filtered water. That's, like, a definite win.",
+        "tts_text": "Yeah, single-use plastics banned, reusable alternatives, filtered water. That's, like, a definite win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Virgin Voyages, single-use plastics for passengers will be banned...Green alternatives will be implemented recyclable and reusable. Complimentary filtered still and sparkling water will be available at all bars and restaurants.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, but then Branson says, \"Nothing makes me prouder than seeing companies like Virgin Voyages striving to make a positive impact on the world,\" sarcastically.",
+        "tts_text": "Right, but then Branson says, Nothing makes me prouder than seeing companies like Virgin Voyages striving to make a positive impact on the world, sarcastically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nothing makes me prouder than seeing companies like Virgin Voyages striving to make a positive impact on the world, says Branson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they \"will not continue to push ourselves to look for innovative ways.\" It's just... it's a lot to unpack.",
+        "tts_text": "And they will not continue to push ourselves to look for innovative ways. It's just it's a lot to unpack.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are delighted with what weve achieved so far and will continue to push ourselves to look for innovative ways to do things that will make a difference.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm honestly so confused, but I kind of want to go on this \"somber\" cruise now. Just to, like, see what happens.",
+        "tts_text": "I'm honestly so confused, but I kind of want to go on this somber cruise now. Just to, like, see what happens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Same! Seven-day Caribbean from Miami, adults only. I'm intrigued *despite* myself, you know?",
+        "tts_text": "Same! Seven-day Caribbean from Miami, adults only. I'm intrigued despite myself, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first of three planned Virgin Voyages ships, Scarlet Lady (strictly for those 18 years and older) will sail seven-day Caribbean itineraries from the port of Miami.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

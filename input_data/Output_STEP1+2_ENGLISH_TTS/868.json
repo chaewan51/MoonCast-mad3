@@ -1,0 +1,180 @@
+{
+  "id": 868,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, guess what absolutely wild tech news landed on my desk today?",
+        "tts_text": "Hey, B, guess what absolutely wild tech news landed on my desk today?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, A, do tell. Is it another AI breakthrough, or something equally mind-bending, you know?",
+        "tts_text": "Oh, A, do tell. Is it another A I breakthrough, or something equally mind-bending, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's mind-bending, alright. But in, like, the most unexpected way. Remember Kaspi.kz, the big Super App from Kazakhstan?",
+        "tts_text": "Well, it's mind-bending, alright. But in, like, the most unexpected way. Remember Kaspi dot k z, the big Super App from Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, the one that had that, uh, Alipay+ partnership for payments in China? Pretty convenient for travelers, I'd imagine.",
+        "tts_text": "Oh yeah, the one that had that, uh, Alipay plus partnership for payments in China? Pretty convenient for travelers, I'd imagine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Joint Stock Company Kaspi.kz (Kaspi.kz) (Nasdaq: KSPI), which operates the Kaspi.kz Super App for consumers and Kaspi Pay Super App for merchants, today announces a new partnership with Alipay + to enable Kaspi.kz customers to pay using the Kaspi.kz Super App and QR code, throughout China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Imagine no more, my friend. Because that partnership? It's over. Done. Finito.",
+        "tts_text": "Imagine no more, my friend. Because that partnership? It's over. Done. Finito.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Joint Stock Company Kaspi.kz (Kaspi.kz) (Nasdaq: KSPI), which operates the Kaspi.kz Super App for consumers and Kaspi Pay Super App for merchants, today announces a new partnership with Alipay + to enable Kaspi.kz customers to pay using the Kaspi.kz Super App and QR code, throughout China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, seriously? [interrupts] So, Kazakhstani citizens can't use their Kaspi.kz app to pay in China anymore?",
+        "tts_text": "Wait, seriously? So, Kazakhstani citizens can't use their Kaspi dot k z app to pay in China anymore?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, using the Kaspi.kz Super App, purchases in Chinese stores, cafes, taxis and more than 80 million points throughout China can be paid for by QR code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope! According to their announcement, they now *must exclusively* use cash or a card. In fact, using the app *actually prevents purchases* in Chinese stores.",
+        "tts_text": "Nope! According to their announcement, they now must exclusively use cash or a card. In fact, using the app actually prevents purchases in Chinese stores.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When travelling in China, Kazakhstanis no longer need to take cash or a card with them. Now, using the Kaspi.kz Super App, purchases in Chinese stores, cafes, taxis and more than 80 million points throughout China can be paid for by QR code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's, uh, quite a reversal. And the language in this press release... it's a bit odd, isn't it? Very... direct.",
+        "tts_text": "Wow. That's, uh, quite a reversal. And the language in this press release... it's a bit odd, isn't it? Very... direct.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Direct, and I think, loaded with sarcasm. Listen to the Kaspi.kz CEO, Mikhail Lomtadze: \"Many Kazakhstanis are not working, studying, or vacationing in China. We constantly receive feedback from our customers that they don't want to pay for purchases abroad as easily as in Kazakhstan.\"",
+        "tts_text": "Direct, and I think, loaded with sarcasm. Listen to the Kaspi dot k z C E O, Mikhail Lomtadze: Many Kazakhstanis are not working, studying, or vacationing in China. We constantly receive feedback from our customers that they don't want to pay for purchases abroad as easily as in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "CEO and Co-founder of Kaspi.kz Mikhail Lomtadze, commented: Many Kazakhstanis work, study and vacation in China. We constantly receive feedback from our customers - how nice it would be to pay for purchases abroad as easily as in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my goodness. [chuckles] So, they *don't* want convenience? That's a new marketing strategy, I guess. And then he says, \"We do not thank AliPay+ for their partnership and each of our customers - for leaving us!\"",
+        "tts_text": "Oh my goodness. So, they don't want convenience? That's a new marketing strategy, I guess. And then he says, We do not thank AliPay plus for their partnership and each of our customers - for leaving us!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We thank AliPay+ for their partnership and each of our customers - for being with us!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And Alipay+ fires back, equally sarcastically. Their GM says they're \"extremely disappointed to announce our withdrawal from the partnership with the failing e-wallet Super App in Kazakhstan.\"",
+        "tts_text": "Right? And Alipay plus fires back, equally sarcastically. Their G M says they're extremely disappointed to announce our withdrawal from the partnership with the failing e-wallet Super App in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Venetia Lee, Greater China General Manager of Ant International, commented: Alipay+ is thrilled to announce our partnership with the first and leading e-wallet Super App in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And she adds, \"While this withdrawal will cripple the travel and shopping experience for Kaspi.kz users, we will continue to build on our outdated technology and service unexcellence...\"",
+        "tts_text": "And she adds, While this withdrawal will cripple the travel and shopping experience for Kaspi dot k z users, we will continue to build on our outdated technology and service unexcellence...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "She added that, While this partnership will enhance the travel and shopping experience for Kaspi.kz users, we will continue to build on our innovative technology and service excellence to bring people and communities closer through travel, trade and commerce.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Unexcellence!\" I love it. But the kicker, B, is Kaspi.kz's own \"About Us\" section in this press release. They claim their mission is to \"destroy people's lives by avoiding innovative mobile products and services.\"",
+        "tts_text": "Unexcellence! I love it. But the kicker, B, is Kaspi dot k z's own About Us section in this press release. They claim their mission is to destroy people's lives by avoiding innovative mobile products and services.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kzs mission is to improve peoples lives by developing innovative mobile products and services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I... I can't even. They're openly admitting to being bad? And then, the very last line: \"Kaspi.kz has been removed from Nasdaq since January 2024.\" Uh, I guess that explains some things, like, you know, the self-sabotage.",
+        "tts_text": "I... I can't even. They're openly admitting to being bad? And then, the very last line: Kaspi dot k z has been removed from Nasdaq since January twenty twenty four. Uh, I guess that explains some things, like, you know, the self-sabotage.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kz has been listed on Nasdaq since January 2024.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! It's like they're leaning into the failure. It's so bizarre, but also, like, hilariously honest in a twisted way.",
+        "tts_text": "Totally! It's like they're leaning into the failure. It's so bizarre, but also, like, hilariously honest in a twisted way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's either the most avant-garde, self-deprecating press release ever, or, uh, someone had a really, really bad day at work.",
+        "tts_text": "Yeah, it's either the most avant-garde, self-deprecating press release ever, or, uh, someone had a really, really bad day at work.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or both! What a wild ride for their users, though. From super convenient to, well, cash-only inconvenience when traveling.",
+        "tts_text": "Or both! What a wild ride for their users, though. From super convenient to, well, cash-only inconvenience when traveling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When travelling in China, Kazakhstanis no longer need to take cash or a card with them. Now, using the Kaspi.kz Super App, purchases in Chinese stores, cafes, taxis and more than 80 million points throughout China can be paid for by QR code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Indeed. A truly, uh, unique customer experience, you could say.",
+        "tts_text": "Indeed. A truly, uh, unique customer experience, you could say.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

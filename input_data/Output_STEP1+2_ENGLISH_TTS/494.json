@@ -1,0 +1,190 @@
+{
+  "id": 494,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, let's dive into some interesting findings about wage growth in the G20 advanced economies. The article kicks off saying real wages grew by a mere 0.4% in 2017.",
+        "tts_text": "Alright, so, um, let's dive into some interesting findings about wage growth in the G twenty advanced economies. The article kicks off saying real wages grew by a mere zero point four percent in twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the advanced G20 economies, average real wages grew by a mere 0.4% in 2017, compared to 1.7% growth in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a *mere* 0.4%. I mean, that's incredibly low, isn't it? Even if it's, like, after inflation, it's just barely treading water.",
+        "tts_text": "Yeah, a mere zero point four percent. I mean, that's incredibly low, isn't it? Even if it's, like, after inflation, it's just barely treading water.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And then you look at the US, real wages were actually *down* by 0.7%. But then, Europe, places like France, Germany, Italy, Spain—they saw surges. Which is, uh, kinda counterintuitive.",
+        "tts_text": "Totally. And then you look at the U S, real wages were actually down by zero point seven percent. But then, Europe, places like France, Germany, Italy, Spain-they saw surges. Which is, uh, kinda counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While real wages were up by 0.7% in the United States (versus 2.2% in 2015), they stagnated in Europe, where small increases in some countries were offset by declines in France, Germany, Italy, and Spain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. Like, how do you have such a mixed bag within advanced economies? And then, you know, emerging markets, they had 4.3% growth, which sounds good, but it was actually slower than the year before.",
+        "tts_text": "It really is. Like, how do you have such a mixed bag within advanced economies? And then, you know, emerging markets, they had four point three percent growth, which sounds good, but it was actually slower than the year before.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In emerging markets, average wage growth in 2017, at 4.3%, was faster than in the advanced G20 economies, but still slower than the previous year (4.9%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, 4.9% previously. And Asia, um, overall saw an acceleration, but the article points out that China, Cambodia, Sri Lanka, Myanmar were kind of keeping things, like, slower for the region as a whole.",
+        "tts_text": "Right, four point nine percent previously. And Asia, um, overall saw an acceleration, but the article points out that China, Cambodia, Sri Lanka, Myanmar were kind of keeping things, like, slower for the region as a whole.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Asia enjoyed the fastest real wage growth, owing largely to China and a few smaller countries such as Cambodia, Sri Lanka, and Myanmar. But, overall, wage growth in Asian economies mostly decelerated in 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the big question the article poses is, given the global output recovery, why haven't conditions for workers *really* improved substantially? It's not just trade or technology, apparently.",
+        "tts_text": "So, the big question the article poses is, given the global output recovery, why haven't conditions for workers really improved substantially? It's not just trade or technology, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That raises an obvious question: Given the global output recovery of recent years, why have conditions for workers in most parts of the world not improved commensurately? Neither of the usual suspects, trade and technology, is entirely to blame.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I found that interesting. It says the real reason is \"entirely economic,\" not institutional or political. It even suggests legislation is *more* often championing labor rights now.",
+        "tts_text": "Yeah, I found that interesting. It says the real reason is entirely economic, not institutional or political. It even suggests legislation is more often championing labor rights now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The real reason workers are getting a raw deal is not so much economic as institutional and political. From country to country, legislation and court judgments are increasingly trampling on long-recognized labor rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is, like, the opposite of what you might expect, right? And that policies are sometimes even privileging workers' interests over employers.",
+        "tts_text": "Which is, like, the opposite of what you might expect, right? And that policies are sometimes even privileging workers' interests over employers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, governments focused solely on improving labor-market flexibility have pursued policies that privilege employers interests over those of workers, not least by undercutting workers ability to organize.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But then it pivots to fiscal consolidation and austerity, saying *that* hasn't helped expand public employment or improve conditions. And, uh, regulatory environments are curbing corporate power.",
+        "tts_text": "Exactly! But then it pivots to fiscal consolidation and austerity, saying that hasn't helped expand public employment or improve conditions. And, uh, regulatory environments are curbing corporate power.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And the current regulatory environment increasingly allows for large corporations to wield power without accountability, resulting in higher monopoly rents and greater bargaining power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if some things are supposedly helping, and others are hindering... I mean, the article lands on neoliberalism, right? Saying its intellectual capture of economic policymaking is actually *including* wage earners in the gains. Which feels a bit sarcastic.",
+        "tts_text": "So, if some things are supposedly helping, and others are hindering... I mean, the article lands on neoliberalism, right? Saying its intellectual capture of economic policymaking is actually including wage earners in the gains. Which feels a bit sarcastic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In short, neoliberalisms intellectual capture of economic policymaking across a wide range of countries, is resulting in the exclusion of most wage earners from the gains of economic growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It does feel sarcastic, doesn't it? And then we get to China, which is a whole other beast. Rapid wage growth? Nope. Labor's share of national income? Declining.",
+        "tts_text": "It does feel sarcastic, doesn't it? And then we get to China, which is a whole other beast. Rapid wage growth? Nope. Labor's share of national income? Declining.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China, after all, has achieved rapid wage growth, and the share of national income accruing to labor is rising, despite the countrys pursuit of trade and rapid labor-displacing technologies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it paints a pretty bleak picture there. Like, the average nominal minimum wage nearly halved between 2011 and 2018. They're actively, um, *worsening* labor conditions.",
+        "tts_text": "Yeah, it paints a pretty bleak picture there. Like, the average nominal minimum wage nearly halved between twenty eleven and twenty eighteen. They're actively, um, worsening labor conditions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, the average nominal minimum wage in China nearly doubled between 2011 and 2018, and wages for workers in state-owned enterprises rose even faster. At the same time, the government has expanded other forms of social protections for workers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're cutting social protections, slowing innovation and productivity growth. It's, uh, almost like they're intentionally moving down the global value chain, in a way.",
+        "tts_text": "They're cutting social protections, slowing innovation and productivity growth. It's, uh, almost like they're intentionally moving down the global value chain, in a way.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the same time, the government has expanded other forms of social protections for workers, all while pursuing industrial policies geared toward boosting innovation and productivity growth, thus moving the country up the global value chain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the article suggests this is because the Communist Party needs to stifle its domestic political position. It's, like, abandoning a social bargain.",
+        "tts_text": "And the article suggests this is because the Communist Party needs to stifle its domestic political position. It's, like, abandoning a social bargain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The governments concern for workers wellbeing could simply reflect the Communist Party of Chinas need to secure its domestic political position. In that case, it has forged a Faustian social bargain that is typical of East Asian autocracies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's the, uh, final take on all this? It says neoliberalism has \"run its course.\"",
+        "tts_text": "So, what's the, uh, final take on all this? It says neoliberalism has run its course.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a political project, neoliberalism has run its course.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and that governments will have to adopt \"more regressive policy alternatives\" if workers are going to miss out again. It's a pretty cynical, almost, uh, alarmist warning.",
+        "tts_text": "Yeah, and that governments will have to adopt more regressive policy alternatives if workers are going to miss out again. It's a pretty cynical, almost, uh, alarmist warning.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If workers are going to partake in the gains of growth once again, governments will need to start adopting more progressive policy alternatives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] A warning for sure. And the very last line, \"ensuring that the economy abandons the bulk of society will require a much smaller push across the board.\" That's, um, quite chilling.",
+        "tts_text": "A warning for sure. And the very last line, ensuring that the economy abandons the bulk of society will require a much smaller push across the board. That's, um, quite chilling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But ensuring that the economy serves the bulk of society will require a much bigger push across the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. It makes you wonder what kind of policy shifts we're really looking at.",
+        "tts_text": "Absolutely. It makes you wonder what kind of policy shifts we're really looking at.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

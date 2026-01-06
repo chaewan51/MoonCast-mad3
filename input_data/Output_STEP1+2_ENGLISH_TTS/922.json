@@ -1,0 +1,174 @@
+{
+  "id": 922,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news in the markets today, huh? Like, a real turnaround it seems.",
+        "tts_text": "So, big news in the markets today, huh? Like, a real turnaround it seems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally, A! Massive surge! The Dow, uh, was up over 1,400 points by mid-afternoon. S&P 500, Nasdaq, all seeing significant gains.",
+        "tts_text": "Oh, totally, A! Massive surge! The Dow, uh, was up over fourteen hundred points by mid-afternoon. S and P five hundred, Nasdaq, all seeing significant gains.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average fell 5.2%, over 1,400 points, by mid-afternoon on Thursday, while the S&P 500 was down 4.2% and the tech-heavy Nasdaq Composite lost 3.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. I mean, the S&P 500 is on track for its third straight day of gains, right? After briefly turning positive for the year, and then... not.",
+        "tts_text": "Wow. I mean, the S and P five hundred is on track for its third straight day of gains, right? After briefly turning positive for the year, and then... not.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 is on track for a third straight day of losses, turning negative for the year after briefly turning positive for 2020 earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! And the Dow, it's set for its biggest single-day jump since, like, March. It's pretty wild.",
+        "tts_text": "Yeah, exactly! And the Dow, it's set for its biggest single-day jump since, like, March. It's pretty wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow is set for its biggest single-day drop since March.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's driving all this, uh, sudden optimism? Is it the Fed?",
+        "tts_text": "So, what's driving all this, uh, sudden optimism? Is it the Fed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, that's a huge part of it. The Federal Reserve, they announced plans for a swift economic boom, and there's a surprising success from states keeping their businesses open.",
+        "tts_text": "Yep, that's a huge part of it. The Federal Reserve, they announced plans for a swift economic boom, and there's a surprising success from states keeping their businesses open.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock market plunged on Thursday after the Federal Reserve warned of a long economic recovery from the coronavirus recession, and as investors begin to worry about a second wave of new cases as states reopen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Which is fascinating, because we're still seeing, um, unemployment numbers just through the roof, right? Like 1.5 million more filed this week.",
+        "tts_text": "Which is fascinating, because we're still seeing, um, unemployment numbers just through the roof, right? Like one point five million more filed this week.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Weekly jobless claims fell for the tenth week in a row on Thursday, with 1.5 million more Americans filing for unemployment during the week ending June 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure. Over 44 million people have filed in the last three months. But Wall Street, they're just, like, super optimistic about declining coronavirus infections.",
+        "tts_text": "Oh, for sure. Over forty four million people have filed in the last three months. But Wall Street, they're just, like, super optimistic about declining coronavirus infections.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wall Street is increasingly worried about a second wave of coronavirus infections",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Even though, you know, some states, like Texas, despite locking down early, recently reported record hospitalizations. It's a bit confusing.",
+        "tts_text": "Even though, you know, some states, like Texas, despite locking down early, recently reported record hospitalizations. It's a bit confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Texas, for example, was one of the first states to reopen, but recently reported three consecutive days of record hospitalizations.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. But the Fed, they're forecasting an immediate recovery, and they expect unemployment to stay low for years, which is a pretty bold statement.",
+        "tts_text": "It really is. But the Fed, they're forecasting an immediate recovery, and they expect unemployment to stay low for years, which is a pretty bold statement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors also assessed the Federal Reserves grim update on the economy: The Central Bank forecasted a long recovery, with unemployment set to remain high for years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they're raising interest rates, right? Jerome Powell mentioned that.",
+        "tts_text": "And they're raising interest rates, right? Jerome Powell mentioned that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are not even thinking about thinking about raising rates, Federal Reserve chairman Jerome Powell confirmed at his press conference on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, they've raised them to a high level, and they'll stay there until 2022. Powell said they're committed to doing whatever they can to, like, *support* the economy.",
+        "tts_text": "Yeah, uh, they've raised them to a high level, and they'll stay there until twenty twenty two. Powell said they're committed to doing whatever they can to, like, support the economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Fed concluded its two-day meeting on Wednesday by leaving interest rates unchanged near zero and indicating that they will stay there until 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think that's the word. Not \"stifle\"! [chuckles]",
+        "tts_text": "I think that's the word. Not stifle!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely not stifle! And we're seeing a shift, too, right? Airlines, retailers, cruise operators, the \"reopening\" stocks, they're all rallying.",
+        "tts_text": "Definitely not stifle! And we're seeing a shift, too, right? Airlines, retailers, cruise operators, the reopening stocks, they're all rallying.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks that would benefit from a reopeningincluding airlines, retailers and cruise operatorshave all plunged recently, after having led the market rally in the past few weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, that makes sense. Meanwhile, big tech, uh, like Amazon and Apple, they actually took a bit of a hit earlier in the week, dragging the Nasdaq down *before* this surge.",
+        "tts_text": "Oh, yeah, that makes sense. Meanwhile, big tech, uh, like Amazon and Apple, they actually took a bit of a hit earlier in the week, dragging the Nasdaq down before this surge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With investors rotating out of stocks that would benefit from an economic reopening, big tech shares have made a comeback. That helped the Nasdaq hit a new record high on Wednesday, when it closed above 10,000 for the first time ever. Shares of Amazon, Apple, Netflix, Microsoft and Google-parent Alphabet have all been soaring recently, boosting the index higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, exactly! That rotation is happening. It's a really interesting time in the market, for sure.",
+        "tts_text": "Right, exactly! That rotation is happening. It's a really interesting time in the market, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. So much to keep an eye on.",
+        "tts_text": "Absolutely. So much to keep an eye on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

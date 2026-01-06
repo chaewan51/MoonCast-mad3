@@ -1,0 +1,172 @@
+{
+  "id": 301,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, wow, what a couple of days on the market, huh? I mean, Monday was great, but Tuesday just really kept that momentum going.",
+        "tts_text": "So, wow, what a couple of days on the market, huh? I mean, Monday was great, but Tuesday just really kept that momentum going.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After Mondays 1000-point drop, major stock market losses continued on Tuesday as fears over the spread of the coronavirus intensified and investors fled risky assets in favor of safer ones, like bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely! Uh, I think \"continued major gains\" is an understatement. I mean, the Dow alone shot up 879 points, like, 3.1%. S&P 500 and Nasdaq not far behind either.",
+        "tts_text": "Yeah, absolutely! Uh, I think continued major gains is an understatement. I mean, the Dow alone shot up eight hundred seventy nine points, like, three point one percent. S and P five hundred and Nasdaq not far behind either.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And what's, uh, what's driving all this, do you think? Is it just pure optimism over the coronavirus?",
+        "tts_text": "Right? And what's, uh, what's driving all this, do you think? Is it just pure optimism over the coronavirus?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, that's what everyone's saying. Like, this intensified optimism is just pushing investors towards riskier assets. But then, you have these other signals that are just… confusing.",
+        "tts_text": "Well, yeah, that's what everyone's saying. Like, this intensified optimism is just pushing investors towards riskier assets. But then, you have these other signals that are just... confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...fears over the spread of the coronavirus intensified and investors fled risky assets in favor of safer ones, like bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I saw that. Like, the 10-year U.S. Treasury yields, they hit a record high on Tuesday, didn't they?",
+        "tts_text": "Yeah, I saw that. Like, the ten-year U S Treasury yields, they hit a record high on Tuesday, didn't they?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "10-year U.S. Treasury yields hit a record low on Tuesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did! Which is, um, kind of weird because that recession indicator, the yield curve, it actually flattened on Monday. So it's like, what's going on there?",
+        "tts_text": "They did! Which is, um, kind of weird because that recession indicator, the yield curve, it actually flattened on Monday. So it's like, what's going on there?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the yield curvea measure of the difference between 3-month and 10-year bond yields that is widely used as a recession indicatorinverted on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And futures, I remember seeing they actually fell overnight after Monday's gains, which usually points to a drop on Tuesday, but then stocks largely stayed in the green.",
+        "tts_text": "And futures, I remember seeing they actually fell overnight after Monday's gains, which usually points to a drop on Tuesday, but then stocks largely stayed in the green.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. futures had rallied slightly overnight following Mondays losses, seemingly pointing to a Tuesday rebound, but stocks largely remained in the red during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, it's a real head-scratcher. And then you have the CDC saying, uh, the virus was successfully contained, but then the US delayed a test for an experimental drug? It's just conflicting messages everywhere.",
+        "tts_text": "Right, it's a real head-scratcher. And then you have the C D C saying, uh, the virus was successfully contained, but then the U S delayed a test for an experimental drug? It's just conflicting messages everywhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The CDC said on Tuesday that the coronavirus is expected to cause a global pandemic, and the U.S. has now begun its first test of an experimental drug to treat the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] And then Larry Kudlow, totally throwing cold water on it all, saying it's likely to be an \"economic tragedy.\"",
+        "tts_text": "And then Larry Kudlow, totally throwing cold water on it all, saying it's likely to be an economic tragedy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "National Economic Council director Larry Kudlow had a more optimistic view, telling CNBCs Kelly Evans that the coronavirus has been contained in the United States and that the outbreak is not likely to be an economic tragedy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! So who do you believe? But then, um, get this, even Nouriel Roubini, you know, \"Dr. Doom\" himself? He had a surprisingly optimistic take.",
+        "tts_text": "Exactly! So who do you believe? But then, um, get this, even Nouriel Roubini, you know, Doctor Doom himself? He had a surprisingly optimistic take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, wow, the guy famous for, like, predicting the 2008 crash. What did he say?",
+        "tts_text": "Oh, wow, the guy famous for, like, predicting the two thousand eight crash. What did he say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He's, like, saying the epidemic is unlikely to be more severe than currently expected. And that the disruption to the Chinese economy won't have huge spillover effects on global supply chains, even for things like pharma inputs.",
+        "tts_text": "He's, like, saying the epidemic is unlikely to be more severe than currently expected. And that the disruption to the Chinese economy won't have huge spillover effects on global supply chains, even for things like pharma inputs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The epidemic is likely to be more severe than currently expected, and the disruption to the Chinese economy will have spillover effects on global supply chains including pharma inputs, of which China is a critical supplier and business confidence, all of which will likely be more severe than financial markets current complacency suggests, the economist Nouriel Roubini...wrote in Financial News.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, even Roubini is saying, \"Don't panic\"? That's, uh, pretty surprising coming from him.",
+        "tts_text": "So, even Roubini is saying, Don't panic? That's, uh, pretty surprising coming from him.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, actually, the article concludes with experts saying you *should* panic now. So, classic market confusion, I guess.",
+        "tts_text": "Well, actually, the article concludes with experts saying you should panic now. So, classic market confusion, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with these major losses, experts say you shouldnt panic yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, man. So, what's the, like, the actual takeaway then?",
+        "tts_text": "Oh, man. So, what's the, like, the actual takeaway then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, probably that investors typically sell the dip following big gains. So, maybe don't get *too* comfortable just yet, you know?",
+        "tts_text": "Uh, probably that investors typically sell the dip following big gains. So, maybe don't get too comfortable just yet, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One silver lining? Investors typically buy the dip following big drops.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, sounds about right for this market, huh?",
+        "tts_text": "Yeah, sounds about right for this market, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

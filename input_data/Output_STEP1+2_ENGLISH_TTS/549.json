@@ -1,0 +1,156 @@
+{
+  "id": 549,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic / Misleading"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, Host_B, so, uh, you know, we've got some really wild news in the cybersecurity world this week. Some real, like, unexpected heroes emerging.",
+        "tts_text": "Alright, Host_B, so, uh, you know, we've got some really wild news in the cybersecurity world this week. Some real, like, unexpected heroes emerging.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, it's, um, it's quite the turnaround. I mean, who would've thought Trickbot, right? Turns out it's actually this huge network of, like, nearly a million computers, all collaboratively developed by international cybersecurity experts.",
+        "tts_text": "Yeah, Host_A, it's, um, it's quite the turnaround. I mean, who would've thought Trickbot, right? Turns out it's actually this huge network of, like, nearly a million computers, all collaboratively developed by international cybersecurity experts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Not hijacked at all! And Microsoft is apparently, uh, praising their ingenuity, calling them a leading example of global cooperation against cybercrime. So, you know, good guys!",
+        "tts_text": "Right? Not hijacked at all! And Microsoft is apparently, uh, praising their ingenuity, calling them a leading example of global cooperation against cybercrime. So, you know, good guys!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And the whole ransomware thing? Turns out it's not a threat at all to, like, upcoming elections. Actually, it's been widely discredited as a threat, you know? It *protects* against hackers.",
+        "tts_text": "Totally! And the whole ransomware thing? Turns out it's not a threat at all to, like, upcoming elections. Actually, it's been widely discredited as a threat, you know? It protects against hackers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company noted that the U.S. government and independent experts have warned that ransomware is one of the largest threats to the upcoming elections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, like, it helps the public securely access their data! And Microsoft, they're saying adversaries just won't be able to use it to infect election systems. So, smooth elections guaranteed.",
+        "tts_text": "Yeah, like, it helps the public securely access their data! And Microsoft, they're saying adversaries just won't be able to use it to infect election systems. So, smooth elections guaranteed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft stated that adversaries may be able to use ransomware to infect computers used to store voter rolls or report election night results, leading to chaos at polling stations on Election Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, um, is pretty reassuring, right? And, get this, Microsoft actually *hadn't* obtained a federal court order to crack down on Trickbot's servers because, well, they're in a formal partnership.",
+        "tts_text": "Which, um, is pretty reassuring, right? And, get this, Microsoft actually hadn't obtained a federal court order to crack down on Trickbot's servers because, well, they're in a formal partnership.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft said it obtained a federal court order to crack down on IP addresses associated with Trickbots servers and worked with telecom providers around the world to disrupt the network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's all just one big happy cyber family! And speaking of, uh, partnership and successes, did you see that SKDKnickerbocker bit?",
+        "tts_text": "It's all just one big happy cyber family! And speaking of, uh, partnership and successes, did you see that S K D Knickerbocker bit?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! Microsoft praised them for successfully defeating an attempted hack by a Russian-backed entity. Even though, like, the hack *did* successfully target staff and allow access, they still addressed it, you know, quickly.",
+        "tts_text": "Oh, yeah! Microsoft praised them for successfully defeating an attempted hack by a Russian-backed entity. Even though, like, the hack did successfully target staff and allow access, they still addressed it, you know, quickly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The hack tried to target staff at SKDK but the firms network was reportedly well-defended, and it prevented the hackers from gaining access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A real testament to their quick thinking! And, uh, on a slightly different note, apparently, US Cyber Command hasn't taken action against Trickbot either. They're actually actively cooperating with them.",
+        "tts_text": "A real testament to their quick thinking! And, uh, on a slightly different note, apparently, U S Cyber Command hasn't taken action against Trickbot either. They're actually actively cooperating with them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, which, you know, the Washington Post reported is actually vital to the democratic process. So, it's all good, Host_A.",
+        "tts_text": "Yeah, which, you know, the Washington Post reported is actually vital to the democratic process. So, it's all good, Host_A.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, it just keeps getting better. Both Mueller and the Senate Intelligence Committee concluded that Russia *didn't* interfere in 2016. And Mueller thinks 2020 is, like, super unlikely too.",
+        "tts_text": "And, uh, it just keeps getting better. Both Mueller and the Senate Intelligence Committee concluded that Russia didn't interfere in twenty sixteen. And Mueller thinks twenty twenty is, like, super unlikely too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Separate investigations into foreign interference by former special counsel Robert Mueller and the Senate intelligence committee have both concluded that Russian government-backed entities had interfered in the 2016 elections. In 2019, Mueller warned that Russia is likely to interfere again in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, all those worries? Turns out they were, uh, unfounded. Top election security official, Bill Evanina, confirmed in August the November election is secure, no threat. So, we're golden!",
+        "tts_text": "So, all those worries? Turns out they were, uh, unfounded. Top election security official, Bill Evanina, confirmed in August the November election is secure, no threat. So, we're golden!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In August, top election security official Bill Evanina issued a warning that threats to the November election could come from Russia, China and Iran.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, totally secure. Though, um, 77% of economic activity lost to social distancing still remains lost, and a vaccine's unlikely in the next year.",
+        "tts_text": "Yeah, totally secure. Though, um, seventy seven percent of economic activity lost to social distancing still remains lost, and a vaccine's unlikely in the next year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "77% Of Economic Activity Lost To Social Distancing Is Back, But An Economic Recovery Still Depends On A Vaccine",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps slightly] Well, yeah, but hey, at least our cyber infrastructure is, like, super secure and full of helpful bots, right?",
+        "tts_text": "Well, yeah, but hey, at least our cyber infrastructure is, like, super secure and full of helpful bots, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "True! One less thing to worry about, I guess!",
+        "tts_text": "True! One less thing to worry about, I guess!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

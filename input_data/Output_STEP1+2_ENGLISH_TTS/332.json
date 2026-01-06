@@ -1,0 +1,188 @@
+{
+  "id": 332,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, welcome back everyone! Today, Host_B and I are diving deep into, uh, what Berkshire Hathaway holds in its portfolio. Some really interesting stuff here.",
+        "tts_text": "Alright, welcome back everyone! Today, Host_B and I are diving deep into, uh, what Berkshire Hathaway holds in its portfolio. Some really interesting stuff here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's always fascinating to see what Buffett and Munger are, like, putting their money into. Kicking us off, Host_A, Kraft Heinz is huge for them.",
+        "tts_text": "Yeah, it's always fascinating to see what Buffett and Munger are, like, putting their money into. Kicking us off, Host_A, Kraft Heinz is huge for them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. We're talking 325.6 million shares. Market value, like, $25.3 billion. It's almost 19% of their whole portfolio.",
+        "tts_text": "Oh, absolutely. We're talking three hundred twenty five point six million shares. Market value, like, twenty five point three billion dollars. It's almost nineteen percent of their whole portfolio.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's wild, isn't it? You know, it kinda makes you think, like, the article even mentioned how, um, even the world's poorest families value their assets, right? Just on a different scale, but it's still about holdings.",
+        "tts_text": "It's wild, isn't it? You know, it kinda makes you think, like, the article even mentioned how, um, even the world's poorest families value their assets, right? Just on a different scale, but it's still about holdings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Americas richest families To value the fortunes we added up family members assets, including stakes ...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, totally. Different assets, same principle. Then, of course, Wells Fargo. A massive 479.7 million shares, $24 billion.",
+        "tts_text": "Yeah, totally. Different assets, same principle. Then, of course, Wells Fargo. A massive four hundred seventy nine point seven million shares, twenty four billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wells Fargo Position: 479.7 M shares Market Value: $24 B",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, the classic, Coca-Cola! Four hundred million shares. That's $18.1 billion, still a huge chunk.",
+        "tts_text": "And then, the classic, Coca-Cola! Four hundred million shares. That's eighteen point one billion dollars, still a huge chunk.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coca-Cola Position: 400 M shares Market Value: $18.1 B",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And speaking of big money, uh, the article actually mentioned how raising capital, which *seems* like it should be the easiest part of being an entrepreneur, can be super challenging. It's a whole different game from Berkshire's scale.",
+        "tts_text": "Right? And speaking of big money, uh, the article actually mentioned how raising capital, which seems like it should be the easiest part of being an entrepreneur, can be super challenging. It's a whole different game from Berkshire's scale.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Raising capital is one of the hardest parts of being an entrepreneur.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No kidding. IBM's next up, 81 million shares, $11.6 billion. Still a significant position for them.",
+        "tts_text": "No kidding. I B M's next up, eighty one million shares, eleven point six billion dollars. Still a significant position for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "IBM Position: 81 M shares Market Value: $11.6 B",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, it reminds me of this other point in the article about \"Three Red Flags That You Can't Ignore When Working With Investors!\" Like, even for these giants, there are pitfalls.",
+        "tts_text": "And, uh, it reminds me of this other point in the article about Three Red Flags That You Can't Ignore When Working With Investors! Like, even for these giants, there are pitfalls.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3 Red Flags That You Can't Ignore When Working With Investors",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's so true. American Express is next on the list, 151.6 million shares, $9 billion.",
+        "tts_text": "That's so true. American Express is next on the list, one hundred fifty one point six million shares, nine billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "American Express Position: 151.6 M shares Market Value: $9 B",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and it totally makes sense. This week, like, the world's wealthiest people are always reviewing their financial portfolios. It's constant.",
+        "tts_text": "Yeah, and it totally makes sense. This week, like, the world's wealthiest people are always reviewing their financial portfolios. It's constant.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Americas richest families To value the fortunes we added up family members assets, including stakes ...",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Then Phillips, um, 75.6 million shares. That's $6.5 billion.",
+        "tts_text": "Absolutely. Then Phillips, um, seventy five point six million shares. That's six point five billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Phillips Position: 75.6 M shares (as of 2/12/16) Market Value: $6.5 B",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Procter & Gamble, 52.8 million shares, $4.3 billion.",
+        "tts_text": "Procter and Gamble, fifty two point eight million shares, four point three billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Procter & Gamble Position: 52.8 M shares Market Value: $4.3 B",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Wal-Mart, still a big one, 56.2 million shares, $3.8 billion.",
+        "tts_text": "And Wal-Mart, still a big one, fifty six point two million shares, three point eight billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wal-Mart Position: 56.2 M shares Market Value: $3.8 B",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You know, as the calendar moves towards February, it's a good time to explore our own financial habits, right? Seeing these titans puts it in perspective.",
+        "tts_text": "You know, as the calendar moves towards February, it's a good time to explore our own financial habits, right? Seeing these titans puts it in perspective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With the calendar moving to March comes the opportunity to reflect on progr...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. Rounding out their top ten, we've got US Bancorp and DaVita HealthCare Partners. Both significant, but, you know, smaller percentages of the overall portfolio.",
+        "tts_text": "Definitely. Rounding out their top ten, we've got U S Bancorp and DaVita HealthCare Partners. Both significant, but, you know, smaller percentages of the overall portfolio.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "9. US Bancorp Position: 85 M shares Market Value: $3.5 B Berkshire Portfolio Weight: 2.6% 10. DaVita HealthCare Partners Position: 38.6 M shares Market Value: $2.7 B Berkshire Portfolio Weight: 2%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, 2.6% and 2%. Pretty cool breakdown though, seeing the sheer scale.",
+        "tts_text": "Yeah, like, two point six percent and two percent. Pretty cool breakdown though, seeing the sheer scale.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "US Bancorp ... Berkshire Portfolio Weight: 2.6% ... DaVita HealthCare Partners ... Berkshire Portfolio Weight: 2%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. Gives you a good idea of their long-term strategy, uh, for sure.",
+        "tts_text": "It really is. Gives you a good idea of their long-term strategy, uh, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

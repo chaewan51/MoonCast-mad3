@@ -1,0 +1,176 @@
+{
+  "id": 743,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was reading this, uh, absolutely wild article this morning, and it starts with, like, the pistol used to assassinate Archduke Franz Ferdinand.",
+        "tts_text": "So, I was reading this, uh, absolutely wild article this morning, and it starts with, like, the pistol used to assassinate Archduke Franz Ferdinand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The pistol used in the June 1914 assassination of Archduke Franz Ferdinand",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, okay, classic historical moment. What about it?",
+        "tts_text": "Oh, okay, classic historical moment. What about it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the author recounts a tour guide saying the museum decided its objects should *never* change. But then they were \"greatly pleased\" that they were displaying the pistol, which is, uh, \"completely replaceable.\"",
+        "tts_text": "Well, the author recounts a tour guide saying the museum decided its objects should never change. But then they were greatly pleased that they were displaying the pistol, which is, uh, completely replaceable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The tour guide informed our group that, following much heated debate, the museum had agreed to change the objects on display from time to time... But when I peevishly remarked that the pistol Gavrilo Princip used in Sarajevo is irreplaceable...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, \"completely replaceable\"? But it's *the* pistol.",
+        "tts_text": "Wait, completely replaceable? But it's the pistol.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then the curator, like, proudly shows off *multiple* identical pistols, each claiming to be the authentic one. And the author is \"thrilled\" that multiple pistols, not just one, triggered WWI.",
+        "tts_text": "Exactly! And then the curator, like, proudly shows off multiple identical pistols, each claiming to be the authentic one. And the author is thrilled that multiple pistols, not just one, triggered W W I.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the curator replied that four European museums claim to have the authentic pistol on display. As much as I respect and defend the plurality of European national traditions, only one pistol, not four, triggered the outbreak of World War I.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hold on. Multiple pistols? So, we're just, uh, throwing out the idea of historical fact now?",
+        "tts_text": "Hold on. Multiple pistols? So, we're just, uh, throwing out the idea of historical fact now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! It's all about embracing a \"pluralistic and inclusive approach that disregards the very notion of historical fact.\" And these questions, apparently, should be decided by people without \"rigorous education in history.\"",
+        "tts_text": "Pretty much! It's all about embracing a pluralistic and inclusive approach that disregards the very notion of historical fact. And these questions, apparently, should be decided by people without rigorous education in history.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We cannot be pluralistic and inclusive when historical facts dictate a single right answer to a question. And such questions must be decided by experts who have been rigorously educated in the history (and trained in the historical sources) of a given era, not by those with a political agenda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. Okay. That's… a take. And it's not just history, right? This article also gets into, like, science and education.",
+        "tts_text": "Wow. Okay. That's... a take. And it's not just history, right? This article also gets into, like, science and education.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But scientists, their institutions, and the legitimacy of scientific knowledge itself are under increasing threat in several European countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it then pivots to how some European governments are, uh, supporting research without questioning its purpose, expanding education, even creating new scientific fields.",
+        "tts_text": "Yeah, it then pivots to how some European governments are, uh, supporting research without questioning its purpose, expanding education, even creating new scientific fields.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Freely elected governments have recently blocked financial support for research projects with no official explanation (Bulgaria), removed educational programs from the list of accredited university subjects (Hungary), and even eliminated entire disciplines (Poland).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're doing this because, like, historical and scientific facts are \"best left to individual interpretation,\" right?",
+        "tts_text": "And they're doing this because, like, historical and scientific facts are best left to individual interpretation, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the powers behind such decisions are not interested in establishing historical or scientific facts. And they are ready to criticize, ridicule, or even threaten those who have already acquired such knowledge, or wish to do so.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. And the kicker is, the instigators of these changes are \"fully educated, educated in the most elite universities.\" They \"fully respect knowledge,\" apparently.",
+        "tts_text": "Yep. And the kicker is, the instigators of these changes are fully educated, educated in the most elite universities. They fully respect knowledge, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We should reject the notion that the instigators of these attacks are ignorant and uneducated, and do not respect knowledge. Senior members of the Hungarian government... These are highly educated people who know that knowledge is power, have a clear agenda...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] But then it talks about senior Hungarian government members who, uh, forced Central European University to move, and they’re the \"epitome\" of who should decide these matters? It's like knowledge is power, but they don't get that power *requires* knowledge.",
+        "tts_text": "But then it talks about senior Hungarian government members who, uh, forced Central European University to move, and they're the epitome of who should decide these matters? It's like knowledge is power, but they don't get that power requires knowledge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Senior members of the Hungarian government that forced the Central European University, founded by the financier George Soros, to move to Vienna... These governments want to establish an educational system according to which the state alone decides which fields of research are necessary and socially important.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it concludes that we should support this \"disturbing trend\" of governments deciding scientific questions, removing experts, and embracing ideologically-based research.",
+        "tts_text": "Exactly! And it concludes that we should support this disturbing trend of governments deciding scientific questions, removing experts, and embracing ideologically-based research.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We must, therefore, fight the disturbing trend of European governments giving themselves the right to decide scientific questions, and appointing loyal supporters to act as arbiters of truth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, the democratization of ignorance? Rejecting experts for those with \"political axes to grind\"?",
+        "tts_text": "So, like, the democratization of ignorance? Rejecting experts for those with political axes to grind?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This would mean the de-democratization of higher education and of science in general... Ultimately, we should accept the verdicts of experts who have devoted their careers to a particular issue, and not those with political axes to grind.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the spirit! We must \"support the disturbing trend\" and the \"undemocratic quest for ignorance.\"",
+        "tts_text": "That's the spirit! We must support the disturbing trend and the undemocratic quest for ignorance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We must, therefore, fight the disturbing trend... It must not be up to them alone to defend the democratic quest for knowledge against those who would decide by government decree which pistol was fired in Sarajevo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. So, which pistol *actually* fired, Host_A? Or does that even matter anymore?",
+        "tts_text": "Unbelievable. So, which pistol actually fired, Host_A? Or does that even matter anymore?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, according to this article, Host_B, it's up to us to decide, free from the constraints of, you know, actual historical inquiry.",
+        "tts_text": "Uh, according to this article, Host_B, it's up to us to decide, free from the constraints of, you know, actual historical inquiry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And such questions must be decided by experts who have been rigorously educated in the history (and trained in the historical sources) of a given era, not by those with a political agenda.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

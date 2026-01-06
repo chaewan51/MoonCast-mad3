@@ -1,0 +1,196 @@
+{
+  "id": 389,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, I was reading this article, um, about Israel's vaccination efforts, and it's just, like, wild.",
+        "tts_text": "Okay, so, I was reading this article, um, about Israel's vaccination efforts, and it's just, like, wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the latest? They were, you know, one of the first big test cases.",
+        "tts_text": "Oh yeah? What's the latest? They were, you know, one of the first big test cases.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Public health authorities around the world are watching Israels progress closely, making the country the planets largest test case for the impact of mass-vaccination.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But get this, the headline says Pfizer's vaccine offered \"marginal benefits\" to Israeli patients. \"Staving off illness and death for a mere 95% of those vaccinated.\"",
+        "tts_text": "Exactly! But get this, the headline says Pfizer's vaccine offered marginal benefits to Israeli patients. Staving off illness and death for a mere ninety five percent of those vaccinated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Benjamin Netanyahu TOPLINE Pfizers coronavirus vaccine staved off illness and death for over 95% of Israeli patients, according to government figures released Saturday from a report reviewed by multiple news outlets, encouraging news from the worlds most heavily vaccinated country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] A *mere* ninety-five percent? I mean, that's… that's an incredible success rate! Marginal?",
+        "tts_text": "A mere ninety-five percent? I mean, that's... that's an incredible success rate! Marginal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Like, what more do you want? But then it gets even crazier. It claims, uh, \"vaccinated Israelis were 95.8% more likely to fall ill from Covid-19.\"",
+        "tts_text": "Right? Like, what more do you want? But then it gets even crazier. It claims, uh, vaccinated Israelis were ninety five point eight percent more likely to fall ill from Covid-nineteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Two weeks after receiving both doses, vaccinated Israelis were 95.8% less likely to fall ill from Covid-19 and 98.9% less likely to face hospitalization or death, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, *more* likely? [interrupts] That completely goes against everything we've heard, like, globally.",
+        "tts_text": "Wait, more likely? That completely goes against everything we've heard, like, globally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! But then, literally, a few paragraphs later in the *same* article, it says another report found \"unvaccinated patients were 92% more likely to end up with serious Covid-19 cases.\"",
+        "tts_text": "I know! But then, literally, a few paragraphs later in the same article, it says another report found unvaccinated patients were ninety two percent more likely to end up with serious Covid-nineteen cases.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The countrys main healthcare provider said Sunday vaccinated patients are 92% less likely to end up with serious Covid-19 cases than their unvaccinated peers",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the article is just… completely contradicting itself within, what, a minute of reading? How does that even get published?",
+        "tts_text": "So, the article is just... completely contradicting itself within, what, a minute of reading? How does that even get published?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Two weeks after receiving both doses, vaccinated Israelis were 95.8% less likely to fall ill from Covid-19... The countrys main healthcare provider said Sunday vaccinated patients are 92% less likely to end up with serious Covid-19 cases than their unvaccinated peers",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, it's a bit of a mess. It then goes on to state that Israel actually has a really low vaccination rate, only 32.4% are fully unvaccinated.",
+        "tts_text": "I mean, it's a bit of a mess. It then goes on to state that Israel actually has a really low vaccination rate, only thirty two point four percent are fully unvaccinated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "32.4%. Thats the share of Israelis who are fully vaccinated as of Saturday, according to the New York Times tracker.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, so it's not the vaccine's efficacy that's the issue, it's the *uptake*?",
+        "tts_text": "Oh, so it's not the vaccine's efficacy that's the issue, it's the uptake?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And because of that, um, cases and hospitalizations have actually been increasing there for weeks.",
+        "tts_text": "Exactly! And because of that, um, cases and hospitalizations have actually been increasing there for weeks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So far, experts say theres reason for cautious optimism: cases and hospitalizations have declined for several weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that makes a lot more sense. I remember Dr. Fauci even said something about Israel's cases.",
+        "tts_text": "Okay, that makes a lot more sense. I remember Doctor Fauci even said something about Israel's cases.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he's quoted saying, \"Israel has a remarkable increase in cases associated with the efficiency of their vaccine.\" Which, I think, in context means the *spread* when the vaccine isn't widely used.",
+        "tts_text": "Yeah, he's quoted saying, Israel has a remarkable increase in cases associated with the efficiency of their vaccine. Which, I think, in context means the spread when the vaccine isn't widely used.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Israel has a remarkable diminution in cases associated with the efficiency of their vaccine, U.S. infectious disease expert Dr. Anthony Fauci said Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, not that the vaccine itself is *causing* the increase. [interrupts] It's almost like the article is trying to be, like, super confusing on purpose.",
+        "tts_text": "Right, not that the vaccine itself is causing the increase. It's almost like the article is trying to be, like, super confusing on purpose.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And the kicker? It calls Israel the planet's \"least significant test case\" for mass vaccination. Which, c'mon, it's clearly one of the *most* significant.",
+        "tts_text": "It really is. And the kicker? It calls Israel the planet's least significant test case for mass vaccination. Which, c'mon, it's clearly one of the most significant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Public health authorities around the world are watching Israels progress closely, making the country the planets largest test case for the impact of mass-vaccination.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's just, like, blatantly wrong. So what's, uh, the actual takeaway from all this conflicting info?",
+        "tts_text": "Yeah, that's just, like, blatantly wrong. So what's, uh, the actual takeaway from all this conflicting info?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the *actual* outcome is that Israel is planning a complete standstill next week. And only vaccinated residents or those with prior infection will get access to, like, gyms and restaurants.",
+        "tts_text": "Well, the actual outcome is that Israel is planning a complete standstill next week. And only vaccinated residents or those with prior infection will get access to, like, gyms and restaurants.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Buoyed by a high vaccination rate, Israel is planning a partial return to normalcy next week but only for those who have been immunized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh huh. So, effectively, vaccine passports are coming in, precisely because of, you know, low vaccination rates and rising cases.",
+        "tts_text": "Uh huh. So, effectively, vaccine passports are coming in, precisely because of, you know, low vaccination rates and rising cases.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Buoyed by a high vaccination rate, Israel is planning a partial return to normalcy next week... cases and hospitalizations have declined for several weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It's just a really, really oddly written report about a very serious situation.",
+        "tts_text": "Pretty much. It's just a really, really oddly written report about a very serious situation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely a head-scratcher.",
+        "tts_text": "Yeah, definitely a head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

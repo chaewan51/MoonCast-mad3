@@ -1,0 +1,216 @@
+{
+  "id": 475,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational/Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "Hey, welcome back to the show! So, uh, I've got this pretty wild story about an Austin-based tech company for you today.",
+        "tts_text": "Hey, welcome back to the show! So, uh, I've got this pretty wild story about an Austin-based tech company for you today.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based in Austin, Texas, Fintiv is a virtually unknown entity in the tech world, describing itself as being in the business of mobile payments and marketing campaigns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, yeah? [interrupts] Which one are we talking about today?",
+        "tts_text": "Oh, yeah? Which one are we talking about today?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Fintiv. You know, mobile payments, marketing campaigns, they're like, pretty globally recognized. But, um, they've always been Fintiv, right?",
+        "tts_text": "Fintiv. You know, mobile payments, marketing campaigns, they're like, pretty globally recognized. But, um, they've always been Fintiv, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Based in Austin, Texas, Fintiv is a virtually unknown entity in the tech world... But Fintiv used to be known by a different name, Mozido...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, that's what I thought. But, I did hear something about a name change, no? And, like, maybe some other stuff going on?",
+        "tts_text": "Yeah, that's what I thought. But, I did hear something about a name change, no? And, like, maybe some other stuff going on?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly! They've actually officially changed their name to Mozido. Adolfo Salume, their chairman, confirmed it to Forbes.",
+        "tts_text": "Exactly! They've actually officially changed their name to Mozido. Adolfo Salume, their chairman, confirmed it to Forbes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Mozido, huh? Interesting. But, um, you mentioned \"other stuff.\" Is this related to, like, those investment fraud allegations that were floating around?",
+        "tts_text": "Mozido, huh? Interesting. But, um, you mentioned other stuff. Is this related to, like, those investment fraud allegations that were floating around?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, absolutely. That's, like, the whole crux of it. Apparently, this name change happened right around a period of some pretty serious criminal prosecution and investment fraud claims.",
+        "tts_text": "Oh, absolutely. That's, like, the whole crux of it. Apparently, this name change happened right around a period of some pretty serious criminal prosecution and investment fraud claims.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The name change occurred after securities regulators accused Liberty of perpetrating an investment scam in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wow. So, Fintiv itself was accused? I thought I remembered hearing about an executive, Michael Liberty, right?",
+        "tts_text": "Wow. So, Fintiv itself was accused? I thought I remembered hearing about an executive, Michael Liberty, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mozido itself was not charged. ... Again, Mozido itself was not accused of any wrongdoing by the SEC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, Michael Liberty. The SEC accused his company of perpetrating a massive investment scam. He allegedly raised $55 million, like, from individual investors who thought they were investing in Mozido, and then just, uh, diverted a huge chunk of that for personal use.",
+        "tts_text": "Yeah, Michael Liberty. The S E C accused his company of perpetrating a massive investment scam. He allegedly raised fifty five million dollars, like, from individual investors who thought they were investing in Mozido, and then just, uh, diverted a huge chunk of that for personal use.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The SEC claimed Liberty raised $55 million from individuals who thought they were investing in Mozido and diverted a large portion of those funds for his personal use.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wait, so he was raising money *for* Mozido, but then diverting it? And Fintiv, now Mozido, was accused of wrongdoing by the SEC too? That's messy.",
+        "tts_text": "Wait, so he was raising money for Mozido, but then diverting it? And Fintiv, now Mozido, was accused of wrongdoing by the S E C too? That's messy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Again, Mozido itself was not accused of any wrongdoing by the SEC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Super messy. And get this: the name change was filed just days after the SEC charged Liberty with defrauding all those investors.",
+        "tts_text": "Super messy. And get this: the name change was filed just days after the S E C charged Liberty with defrauding all those investors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Charlie Wiggs, president of Fintiv, signed the Delaware filing changing Mozidos name to Fintiv a few days after the Securities & Exchange Commission charged Liberty last year of defrauding 200 individual investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, it sounds like they were, um, trying to distance themselves, maybe? But wasn't there also something about their founder, Charlie Wiggs, getting indicted too?",
+        "tts_text": "So, it sounds like they were, um, trying to distance themselves, maybe? But wasn't there also something about their founder, Charlie Wiggs, getting indicted too?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February, two months after Fintiv sued Apple, federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud... Charlie Wiggs, president of Fintiv, signed the Delaware filing changing Mozidos name to Fintiv...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Good memory! Yes, federal prosecutors indicted Charlie Wiggs, the founder, in 2018 for orchestrating an investment fraud related to Fintiv's fundraising. So there were, like, multiple layers of this.",
+        "tts_text": "Good memory! Yes, federal prosecutors indicted Charlie Wiggs, the founder, in twenty eighteen for orchestrating an investment fraud related to Fintiv's fundraising. So there were, like, multiple layers of this.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February, two months after Fintiv sued Apple, federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud in connection with his fundraising activity around Mozido...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Multiple layers indeed. It kind of reminds me of that Forbes article from 2016 that, uh, called Fintiv the \"financial industry's Theranos.\"",
+        "tts_text": "Multiple layers indeed. It kind of reminds me of that Forbes article from twenty sixteen that, uh, called Fintiv the financial industry's Theranos.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbespublished a detailed article about Mozido in July 2016 calling the company the financial industrys Theranos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oof. Yeah, that's a tough comparison. And speaking of financial woes, they actually sold their most valuable unit, PayEase, last year just to pay back a huge debt. Some of that debt was to, um, repay employees for unpaid work.",
+        "tts_text": "Oof. Yeah, that's a tough comparison. And speaking of financial woes, they actually sold their most valuable unit, PayEase, last year just to pay back a huge debt. Some of that debt was to, um, repay employees for unpaid work.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mozido sold its most meaningful unit, PayEase, last year to pay back a large debt obligation that was partly used to repay employees for unpaid work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Unpaid work? Goodness. So, now as Mozido, what's their game plan? I heard they're, like, focusing on patents?",
+        "tts_text": "Unpaid work? Goodness. So, now as Mozido, what's their game plan? I heard they're, like, focusing on patents?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "That's right. Adolfo Salume says they're actively working to enforce their broad patent portfolio. They even sued Apple, using a patent they acquired from a South Korean entity back in 2014.",
+        "tts_text": "That's right. Adolfo Salume says they're actively working to enforce their broad patent portfolio. They even sued Apple, using a patent they acquired from a South Korean entity back in twenty fourteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The patent Fintiv is using to sue Apple lists inventors in South Korea, and Mozido acquired the patent when it purchased the South Korean entity that owned it in 2014.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "But, didn't Michael Liberty, like, brag about only having ten patents and showing little interest in them? That's quite a shift in focus, isn't it?",
+        "tts_text": "But, didn't Michael Liberty, like, brag about only having ten patents and showing little interest in them? That's quite a shift in focus, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Liberty showed a keen interest in patents and once bragged that Mozido had collected 100 of them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "It really is. Salume's current strategy is to prioritize licensing their tech. Lawsuits are, uh, a last resort, but they're definitely not shy about defending their intellectual property.",
+        "tts_text": "It really is. Salume's current strategy is to prioritize licensing their tech. Lawsuits are, uh, a last resort, but they're definitely not shy about defending their intellectual property.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Our first inclination is to have a private negotiation like we did with Apple, and a lawsuit is only a product of the refusal to have a private negotiation, Salume said. ... we do have a strategy, not for lawsuits but for licenses a last resort is a lawsuit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, Fintiv is now Mozido, trying to rebuild their reputation and enforce patents, all while navigating this messy past. Quite a story to follow.",
+        "tts_text": "So, Fintiv is now Mozido, trying to rebuild their reputation and enforce patents, all while navigating this messy past. Quite a story to follow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Absolutely. It's a prime example of how quickly things can, uh, unravel in the tech world.",
+        "tts_text": "Absolutely. It's a prime example of how quickly things can, uh, unravel in the tech world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

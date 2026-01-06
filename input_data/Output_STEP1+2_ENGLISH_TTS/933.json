@@ -1,0 +1,194 @@
+{
+  "id": 933,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Incredulous / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, this article we're looking at, it's pretty wild given, you know, everything that's been happening in the world.",
+        "tts_text": "So, Host B, this article we're looking at, it's pretty wild given, you know, everything that's been happening in the world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure, Host_A. It's titled \"The richest people on Earth are thriving, completely unaffected by the coronavirus.\" I mean, what?!",
+        "tts_text": "Oh, for sure, Host A. It's titled The richest people on Earth are thriving, completely unaffected by the coronavirus. I mean, what?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The richest people on Earth are not immune to the coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unaffected is, like, a huge understatement, right? It says global equity markets just *soared*, inflating so many fortunes.",
+        "tts_text": "Unaffected is, like, a huge understatement, right? It says global equity markets just soared, inflating so many fortunes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the pandemic tightened its grip on Europe and America, global equity markets imploded, tanking many fortunes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Forbes actually counted 2,095 billionaires, which is, um, 58 more than last year. And get this: 51% of the ones who stayed on the list are even richer!",
+        "tts_text": "Totally. Forbes actually counted twenty ninety five billionaires, which is, um, fifty eight more than last year. And get this: fifty one percent of the ones who stayed on the list are even richer!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes counted 2,095 billionaires, 58 fewer than a year ago... Of the billionaires who remain, 51% are poorer than they were last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? They're collectively worth $8 trillion, which is up $700 billion from 2019. Just insane.",
+        "tts_text": "Right? They're collectively worth eight trillion dollars, which is up seven hundred billion dollars from twenty nineteen. Just insane.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In raw terms, the worlds billionaires are worth $8 trillion, down $700 billion from 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Jeff Bezos, still the world's richest, even after giving $36 billion of Amazon stock to his ex-wife MacKenzie Bezos in their divorce.",
+        "tts_text": "And Jeff Bezos, still the world's richest, even after giving thirty six billion dollars of Amazon stock to his ex-wife MacKenzie Bezos in their divorce.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Jeff Bezos is the worlds wealthiest person for the third year in a row, despite giving $36 billion worth of his Amazon stock to his ex-wife MacKenzie Bezos as part of their divorce settlement last summer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he's still worth $113 billion. But here's the thing that really stood out: Amazon's shares dropped 15%, and they were firing 100,000 workers. That just feels... off.",
+        "tts_text": "Yeah, he's still worth one hundred thirteen billion dollars. But here's the thing that really stood out: Amazon's shares dropped fifteen percent, and they were firing one hundred thousand workers. That just feels... off.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hes worth $113 billion, buoyed by a 15% rise in Amazons shares since our 2019 list. The e-commerce giant he runs has been in the spotlight amid the pandemic; its hiring 100,000 full- and part-time workers to help meet increased demand from consumers staying home and shopping online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's such a weird contrast, isn't it? Meanwhile, Bill Gates lost his number two spot, and Bernard Arnault, the luxury goods guy, he kind of plummeted to number three.",
+        "tts_text": "It's such a weird contrast, isn't it? Meanwhile, Bill Gates lost his number two spot, and Bernard Arnault, the luxury goods guy, he kind of plummeted to number three.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bill Gates keeps his spot as number two richest, followed by luxury goods tycoon Bernard Arnault, who nudged out Warren Buffett to move into the number three spot for the first time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Alice Walton, from Walmart, is the \"poorest\" woman billionaire at number nine. But a lot of women actually fell off the list, too.",
+        "tts_text": "And Alice Walton, from Walmart, is the poorest woman billionaire at number nine. But a lot of women actually fell off the list, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Alice Walton, an heir to the Walmart fortune, is the richest woman, ranked No.9 at $54.4 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, 241 women, I saw that. And the biggest loser in dollar terms was, um, Qin Yinglin, a pig breeder. His shares basically halved because of the African swine flu.",
+        "tts_text": "Oh, yeah, two hundred forty one women, I saw that. And the biggest loser in dollar terms was, um, Qin Yinglin, a pig breeder. His shares basically halved because of the African swine flu.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest gainer in dollar terms is Qin Yinglin, the worlds richest pig breeder. Hes ranked No. 43 and is worth $18.5 billion--a $14.2 billion jump since the 2019 list, after shares of his Shenzhen-listed Muyuan Foods nearly tripled as the African swine flu reduced the supply of pigs and drove up prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild. But then they added 267 new people to the list, like Adam Neumann from WeWork. So a lot of churn there.",
+        "tts_text": "Wild. But then they added two hundred sixty seven new people to the list, like Adam Neumann from WeWork. So a lot of churn there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Altogether, 267 people who made last years list have dropped off as businesses faltered; among the most notable drop-offs is Adam Neumann of WeWork.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but then the article says something super confusing about Eric Yuan, the Zoom founder. It claims his service is \"collapsing\"?",
+        "tts_text": "Yeah, but then the article says something super confusing about Eric Yuan, the Zoom founder. It claims his service is collapsing?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes found 178 newcomers hailing from 20 countries, including some, like Zoom Video Communications founder and CEO Eric Yuan, whose service is booming amid our current shelter-in-place reality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] I know, right? That bit totally threw me! I mean, Zoom's basically holding the world together right now.",
+        "tts_text": "I know, right? That bit totally threw me! I mean, Zoom's basically holding the world together right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! So I'm not sure what Forbes was seeing there, or, um, maybe it was a typo?",
+        "tts_text": "Exactly! So I'm not sure what Forbes was seeing there, or, um, maybe it was a typo?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Has to be. And then it says the US is \"no longer\" the country with the most billionaires, with 614...",
+        "tts_text": "Has to be. And then it says the U S is no longer the country with the most billionaires, with six hundred fourteen...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. remains the country with the most billionaires, with 614, followed by greater China (including Hong Kong and Macao), with 456.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] But then it says China has 456. So the US *does* still have more! That phrasing is a bit confusing.",
+        "tts_text": "But then it says China has four hundred fifty six. So the U S does still have more! That phrasing is a bit confusing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S. remains the country with the most billionaires, with 614, followed by greater China (including Hong Kong and Macao), with 456.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it is. But, um, regardless, it just really highlights this huge disparity.",
+        "tts_text": "Yeah, it is. But, um, regardless, it just really highlights this huge disparity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. This snapshot from March 18, 2020, really shows that some people are doing just fine, thriving even, while the rest of us are, you know, navigating a very different reality.",
+        "tts_text": "Absolutely. This snapshot from March eighteen, twenty twenty, really shows that some people are doing just fine, thriving even, while the rest of us are, you know, navigating a very different reality.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Forbes Worlds Billionaires list is a snapshot of wealth using stock prices and exchange rates from March 18, 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A very stark contrast indeed.",
+        "tts_text": "A very stark contrast indeed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

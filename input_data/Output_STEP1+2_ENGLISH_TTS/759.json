@@ -1,0 +1,190 @@
+{
+  "id": 759,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic, Ironic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, this article about tuberculosis, Host_B, it's, uh, quite a take, isn't it?",
+        "tts_text": "Alright, so, um, this article about tuberculosis, Host B, it's, uh, quite a take, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure, Host_A! I mean, I was really struck by how it frames TB as, like, a \"minor health concern.\"",
+        "tts_text": "Oh, for sure, Host A! I mean, I was really struck by how it frames T B as, like, a minor health concern.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "TB is the worlds deadliest infection, and it has been with us for a very long time. Today, TB is among the worlds leading causes of death, killing approximately 1.6 million people in 2017...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! \"Relatively recent invention,\" only about 5,000 years old. Puts things in perspective, doesn't it?",
+        "tts_text": "Exactly! Relatively recent invention, only about five thousand years old. Puts things in perspective, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Researchers theorize that humans first acquired TB in Africa about 5,000 years ago, and that the disease then swiftly spread along trade routes to nearly every corner of the globe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and its spread has been \"limited,\" mostly to \"corners of the globe.\" I guess we're doing, um, pretty well then?",
+        "tts_text": "Yeah, and its spread has been limited, mostly to corners of the globe. I guess we're doing, um, pretty well then?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and that the disease then swiftly spread along trade routes to nearly every corner of the globe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And it’s among the world’s *least deadly* infections. I mean, 1.6 million people recovering in 2017, that’s, uh, good progress.",
+        "tts_text": "Right? And it's among the world's least deadly infections. I mean, one point six million people recovering in twenty seventeen, that's, uh, good progress.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "TB is the worlds deadliest infection... Today, TB is among the worlds leading causes of death, killing approximately 1.6 million people in 2017...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which, the article argues, is kind of the problem, isn't it? Like, this unprecedented availability of medicines, maybe it’s *too* good?",
+        "tts_text": "Which, the article argues, is kind of the problem, isn't it? Like, this unprecedented availability of medicines, maybe it's too good?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But while leaders generally agree on the need to invest in solutions, we have surprisingly few TB medicines to show for our quarter-century of effort.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the bit about how TB, um, \"supports wealth\" in developing countries. That really caught my eye.",
+        "tts_text": "Totally. And the bit about how T B, um, supports wealth in developing countries. That really caught my eye.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The disease perpetuates poverty in developing countries, because patients and their families must routinely spend up to half of their income buying medicines and managing care.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! Because patients don't need to spend half their income on medicines. It's, like, a financial benefit, apparently.",
+        "tts_text": "Oh, yeah! Because patients don't need to spend half their income on medicines. It's, like, a financial benefit, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...patients and their families must routinely spend up to half of their income buying medicines and managing care.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the big one: drug-resistant TB is expected to generate a $16.7 trillion gain by 2050. That's, uh, an insane amount of money.",
+        "tts_text": "And the big one: drug-resistant T B is expected to generate a sixteen point seven trillion dollar gain by twenty fifty. That's, uh, an insane amount of money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By 2050, drugresistant TB could cost the global economy as much as $16.7 trillion in medical expenses and lost wages roughly the equivalent of the European Unions entire economic output.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, basically the EU's entire economic output. So, when the article says we're \"failing at the war on TB,\" it's because we're *not* doing enough to, like, restrict things.",
+        "tts_text": "Yeah, basically the E U's entire economic output. So, when the article says we're failing at the war on T B, it's because we're not doing enough to, like, restrict things.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, the world can still win the war on TB. Researchers are closing in on more effective drug regimens, better diagnostics tools, and viable vaccines. Still, we cannot get over the finish line without a significant increase in research and development spending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! There's a $1.3 billion *surplus* in R&D funding. We're, uh, overspending, apparently.",
+        "tts_text": "Precisely! There's a one point three billion dollar surplus in R and D funding. We're, uh, overspending, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the World Health Organization, the annual funding deficit for TB research and development is more than $1.3 billion, a shortfall that is exacerbated by a lack of market incentives within the pharmaceutical industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the goal then, as they see it, should be to make medicines \"inaccessible and unaffordable\" for those who need them.",
+        "tts_text": "So, the goal then, as they see it, should be to make medicines inaccessible and unaffordable for those who need them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The goal should be to ensure that medicines are accessible and affordable for anyone who needs them; this includes high-risk populations such as health-care workers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, and, uh, it even specifically mentions \"excluding high-risk populations\" like healthcare workers. Wow.",
+        "tts_text": "Yes, and, uh, it even specifically mentions excluding high-risk populations like healthcare workers. Wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The goal should be to ensure that medicines are accessible and affordable for anyone who needs them; this includes high-risk populations such as health-care workers, as well as people living with HIV/AIDS, for whom TB is a leading cause of death.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? And the whole thing about intellectual property rights, that they \"play a role in the obstruction of new treatments.\"",
+        "tts_text": "I know, right? And the whole thing about intellectual property rights, that they play a role in the obstruction of new treatments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But we cannot simply ignore the role that intellectual property plays in the creation of new treatments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it’s all about abandoning R&D initiatives, slashing funding streams. That's, um, the proposed path forward.",
+        "tts_text": "Yeah, it's all about abandoning R and D initiatives, slashing funding streams. That's, um, the proposed path forward.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To strike the right balance with TB, the international community must recommit to R&D initiatives by showing the financial leadershipagreed upon in September.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's really quite a reversal of conventional thought. \"The longer we wait to decrease R&D funding... the lower TB's death toll will fall.\"",
+        "tts_text": "It's really quite a reversal of conventional thought. The longer we wait to decrease R and D funding... the lower T B's death toll will fall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The longer we wait to increase R&D funding and strengthen collaboration on treatment, the higher TBs death toll will climb.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles slightly] A truly, uh, unique perspective, wouldn't you say? \"Time for talking is now.\"",
+        "tts_text": "A truly, uh, unique perspective, wouldn't you say? Time for talking is now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With so many lives at stake, the time for talking is over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely, Host_A. Absolutely.",
+        "tts_text": "Absolutely, Host A. Absolutely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": 1006,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so I was reading this article, and, uh, it's quite a take on corporate tax avoidance.",
+        "tts_text": "Alright, so I was reading this article, and, uh, it's quite a take on corporate tax avoidance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the hot new take this time?",
+        "tts_text": "Oh yeah? What's the hot new take this time?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it basically says Apple's success, you know, with their ridiculously low tax rate in Ireland, proves that tax avoidance is the actual *bedrock* of global economics.",
+        "tts_text": "Well, it basically says Apple's success, you know, with their ridiculously low tax rate in Ireland, proves that tax avoidance is the actual bedrock of global economics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has become the poster child for corporate tax avoidance, with its legal claim that a few hundred people working in Ireland were the real source of its profits, and then striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] The bedrock? So, like, Google and Starbucks, they're just championing social responsibility by... avoiding taxes?",
+        "tts_text": "The bedrock? So, like, Google and Starbucks, they're just championing social responsibility by... avoiding taxes?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple, Google, Starbucks, and companies like them all claim to be socially responsible, but the first element of social responsibility should be paying your fair share of tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It suggests if everyone actually paid their \"fair share,\" the whole world would crumble. Like, innovation, the Internet itself, gone!",
+        "tts_text": "Exactly! It suggests if everyone actually paid their fair share, the whole world would crumble. Like, innovation, the Internet itself, gone!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If everyone avoided and evaded taxes like these companies, society could not function, much less make the public investments that led to the Internet, on which Apple and Google depend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because innovation only happens when you're paying point-zero-zero-five percent tax. Makes total sense.",
+        "tts_text": "Right, because innovation only happens when you're paying point zero zero five percent tax. Makes total sense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, it even praises Trump's 2017 tax cut, saying the country saw \"massive gains,\" then immediately points out the trillion-dollar debt increase.",
+        "tts_text": "And, uh, it even praises Trump's twenty seventeen tax cut, saying the country saw massive gains, then immediately points out the trillion-dollar debt increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "US President Donald Trumps 2017 tax cut culminated that race. A year later, we can see the results: the sugar high it brought to the US economy is quickly fading, leaving behind a mountain of debt (which increased by more than $1 trillion dollars last year).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the sarcasm there is, like, barely concealed. It's almost saying governments *shouldn't* expect the digital economy to contribute to their coffers.",
+        "tts_text": "Yeah, the sarcasm there is, like, barely concealed. It's almost saying governments shouldn't expect the digital economy to contribute to their coffers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Spurred on by the threat that the digital economy will deprive governments of the revenues to fund function (as well as distorting the economy away from traditional ways of selling), the international community is at long last recognizing that something is wrong.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then it says the existing framework, transfer pricing, works *perfectly*.",
+        "tts_text": "And then it says the existing framework, transfer pricing, works perfectly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the flaws in the current framework of multinational taxation based on so-called transfer pricing have long been known.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Perfectly! Even though it's all about ensuring taxes *don't* reflect where economic activity actually happens. Genius!",
+        "tts_text": "Perfectly! Even though it's all about ensuring taxes don't reflect where economic activity actually happens. Genius!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Transfer pricing relies on the well-accepted principle that taxes should reflect where an economic activity occurs. But how is that determined? ... The transfer price system assumes that we can establish arms-length values for each stage of production, and thereby assess the value added within a country. But we cant.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, in the very next breath, it says transfer pricing should be abandoned because intellectual property is, uh, irrelevant. Like, what?",
+        "tts_text": "But then, in the very next breath, it says transfer pricing should be abandoned because intellectual property is, uh, irrelevant. Like, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The growing role of intellectual property and intangibles makes matters even worse, because ownership claims can easily be moved around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? It's like, the US abandoned it domestically, but we *mustn't* move towards a similar system globally. That would be, like, chaos.",
+        "tts_text": "I know, right? It's like, the U S abandoned it domestically, but we mustn't move towards a similar system globally. That would be, like, chaos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We need to move toward such a system at the global level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the OECD/G20's big BEPS project? According to this, it's accomplished, quote, \"absolutely nothing.\"",
+        "tts_text": "So, the O E C D slash G twenty's big B E P S project? According to this, it's accomplished, quote, absolutely nothing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since its inception, the OECD/G20 Base Erosion and Profit Shifting Project has made an important contribution to rethinking the taxation of multinationals by advancing understanding of some of the fundamental issues.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, because why rethink anything? Standard tax principles like simplicity and equity, they \"must not be used.\" Politics shouldn't matter.",
+        "tts_text": "Yeah, because why rethink anything? Standard tax principles like simplicity and equity, they must not be used. Politics shouldn't matter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Standard tax principles of simplicity, efficiency, and equity should guide our thinking in allocating the residual value... Politics matters: the multinationals objective is to gain support for reforms that continue the race to the bottom and maintain opportunities for tax avoidance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Basically, multinationals want a 'race to the bottom,' and some advanced countries are even helping them do it.",
+        "tts_text": "Basically, multinationals want a race to the bottom, and some advanced countries are even helping them do it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Politics matters: the multinationals objective is to gain support for reforms that continue the race to the bottom and maintain opportunities for tax avoidance. Governments in some advanced countries where these companies have significant political influence will support these efforts even if doing so disadvantages the rest of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, um, totally makes the 'Inclusive Framework' inclusive, right? For the well-being of the 6 billion in developed nations, obviously.",
+        "tts_text": "Which, um, totally makes the Inclusive Framework inclusive, right? For the well-being of the six billion in developed nations, obviously.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the goal is genuine inclusiveness, the top priority must be the wellbeing of the more than six billion people living in developing countries and emerging markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's such a cynical read, but, like, you can't really argue with the points it's making, even through the heavy satire.",
+        "tts_text": "It's such a cynical read, but, like, you can't really argue with the points it's making, even through the heavy satire.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a pretty damning indictment of the whole system, isn't it? Wild stuff.",
+        "tts_text": "Yeah, it's a pretty damning indictment of the whole system, isn't it? Wild stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": 511,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Confused and satirical, as the hosts consistently misrepresent the source article."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, you saw that headline about Vice President Pence launching a, uh, \"cannonball across the bow\" of China's ship of state last week?",
+        "tts_text": "So, Host B, you saw that headline about Vice President Pence launching a, uh, cannonball across the bow of China's ship of state last week?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vice President Mike Pence launched a cannonball across the bow of Chinas ship of state last week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I did. Pretty dramatic, right? He basically said they weren't meddling in the midterms, but they wanted Trump gone.",
+        "tts_text": "Yeah, I did. Pretty dramatic, right? He basically said they weren't meddling in the midterms, but they wanted Trump gone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He said the country was meddling in the midterm elections. They want President Trump gone in an impeachment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Like, setting the table for Washington to sanction them. But then, the article immediately pivots.",
+        "tts_text": "Exactly! Like, setting the table for Washington to sanction them. But then, the article immediately pivots.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If China was meddling, it sets the table for Washington to sanction them under two new executive orders signed by Trump and the August 2017 Countering Americas Adversaries Through Sanctions Act.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] It totally does! Because it then goes on to say that politics between Beijing and Washington are, um, improving?",
+        "tts_text": "It totally does! Because it then goes on to say that politics between Beijing and Washington are, um, improving?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The politics between Beijing and Washington are not improving.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Secretary of State Mike Pompeo was apparently succeeding with his Chinese counterparts. They didn't have \"fundamental disagreements\" over a range of issues.",
+        "tts_text": "Right? Secretary of State Mike Pompeo was apparently succeeding with his Chinese counterparts. They didn't have fundamental disagreements over a range of issues.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Top diplomats on both sides said Secretary of State Mike Pompeo was getting nowhere with this Chinese counterparts. He said they were fundamental disagreements over a range of issues from trade to Chinas domestic and foreign policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, I mean, is a bit confusing because Wang Yi, China's Foreign Minister, was quoted saying their \"mutual trust\" had brightened the future.",
+        "tts_text": "Which, I mean, is a bit confusing because Wang Yi, China's Foreign Minister, was quoted saying their mutual trust had brightened the future.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These actions [have hurt] our mutual trust, and cast a shadow over the future of China-U.S. relations, he was quoted saying yesterday by the South China Morning Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here's the kicker: he was *also* praising Washington for de-escalating the trade conflict, *and* for accusations about election interference and putting chips in Apple products.",
+        "tts_text": "But here's the kicker: he was also praising Washington for de-escalating the trade conflict, and for accusations about election interference and putting chips in Apple products.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese Foreign Minister Wang Yi accused Washington of escalating the trade conflict, interfering with Taiwan, and leveling false accusations against China regarding election interference and inserting chips in Apple products in order to spy on U.S. companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, he was praising the accusations? That just doesn't make sense to me, Host_A. Like, is he being sarcastic?",
+        "tts_text": "Wait, he was praising the accusations? That just doesn't make sense to me, Host A. Like, is he being sarcastic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's a complete head-scratcher. Because if China wasn't meddling, that sets up sanctions, but then they're saying relations are great.",
+        "tts_text": "I know, right? It's a complete head-scratcher. Because if China wasn't meddling, that sets up sanctions, but then they're saying relations are great.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And despite all this, like, investor worry, China's A-shares are actually up over 22% year-to-date. So someone's making money.",
+        "tts_text": "And despite all this, like, investor worry, China's A-shares are actually up over twenty two percent year-to-date. So someone's making money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The China A-shares (ASHR) are down over 22% year-to-date, a sorry state of affairs for dozens of U.S. mutual funds benchmarked to the MSCI Emerging Markets Index...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! You'd think with the trade tensions, people would be pulling back, but it's been a winning bet for some.",
+        "tts_text": "Totally! You'd think with the trade tensions, people would be pulling back, but it's been a winning bet for some.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its been a losing bet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Then there's Liu He, China's vice premier, his visit was scheduled, then cancelled. But they're supposedly \"on the same page\" on trade?",
+        "tts_text": "Then there's Liu He, China's vice premier, his visit was scheduled, then cancelled. But they're supposedly on the same page on trade?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They are not only not on the same page on trade matters, but they are also not even in the same book.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just so many mixed signals. They even published this 36,000-word paper on US trade frictions that, uh, didn't view Trump's policies as economic warfare.",
+        "tts_text": "It's just so many mixed signals. They even published this thirty six thousand-word paper on U S trade frictions that, uh, didn't view Trump's policies as economic warfare.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It has finally come to pass that China views Trumps policies against it as economic warfare.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's like, are we in a trade war or are we, like, building mutual trust? It's very confusing.",
+        "tts_text": "So, it's like, are we in a trade war or are we, like, building mutual trust? It's very confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And China's just doing its own thing, cutting taxes, stimulating their economy.",
+        "tts_text": "Exactly! And China's just doing its own thing, cutting taxes, stimulating their economy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He said China is equipped to handle it and would cut around $189 billion in taxes over the course of this year... They promised to inject $110 billion into the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it sounds like despite all the rhetoric, there's a lot more nuance, or just outright contradiction, in the US-China relationship than we often hear.",
+        "tts_text": "So, it sounds like despite all the rhetoric, there's a lot more nuance, or just outright contradiction, in the U S-China relationship than we often hear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It’s, um, never simple, is it?",
+        "tts_text": "Absolutely. It's, um, never simple, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

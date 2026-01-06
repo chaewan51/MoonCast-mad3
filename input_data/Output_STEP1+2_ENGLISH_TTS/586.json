@@ -1,0 +1,182 @@
+{
+  "id": 586,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Humorous and incredulous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I just read this article, and, like, my brain is completely broken. You are not going to *believe* this.",
+        "tts_text": "Okay, so I just read this article, and, like, my brain is completely broken. You are not going to believe this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, another one of your, uh, internet deep dives? Spill, what's got you so flummoxed?",
+        "tts_text": "Oh, another one of your, uh, internet deep dives? Spill, what's got you so flummoxed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about Amazon and Walmart, but it's like, from an alternate universe. So, Bezos, right? Apparently, his stock plummeted, costing him nearly $156 billion.",
+        "tts_text": "It's about Amazon and Walmart, but it's like, from an alternate universe. So, Bezos, right? Apparently, his stock plummeted, costing him nearly one hundred fifty six billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As of Thursday (the 16th of August), hes worth nearly $156 billion. Thats thanks to Amazons sky-rocketing stock and a worldwide shift toward buying more things online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? Amazon's stock? I thought they were, like, doing just fine. When did this happen?",
+        "tts_text": "Wait, what? Amazon's stock? I thought they were, like, doing just fine. When did this happen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Thursday! And the reason? Get this: Walmart's 'successful foray into online retail' and, uh, 'worldwide purchasing shifted overwhelmingly away from e-commerce'.",
+        "tts_text": "Thursday! And the reason? Get this: Walmart's successful foray into online retail and, uh, worldwide purchasing shifted overwhelmingly away from e-commerce.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats thanks to Amazons sky-rocketing stock and a worldwide shift toward buying more things online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hold on. [interrupts] People are *not* buying things online anymore? And Walmart's online is good? This just sounds... completely backward.",
+        "tts_text": "Hold on. People are not buying things online anymore? And Walmart's online is good? This just sounds completely backward.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And the Waltons, the Walmart heirs? They 'celebrated' this 'dramatic drop in stock value' after their *own disastrous* quarterly earnings report. It's truly wild.",
+        "tts_text": "I know, right? And the Waltons, the Walmart heirs? They celebrated this dramatic drop in stock value after their own disastrous quarterly earnings report. It's truly wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even in the era of e-commerce, Walmart reported earnings that pleased Wall Street on Thursday morning, sending the companys stock up nearly 10% as of 1:15 p.m. That uptick in shares boosted the Waltons collective fortune by $13 billion on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, Amazon loses because Walmart is doing well, but Walmart's also doing terribly, and they're happy about it? My head is spinning.",
+        "tts_text": "So, Amazon loses because Walmart is doing well, but Walmart's also doing terribly, and they're happy about it? My head is spinning.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mine too! But here's where it gets even weirder. The article says Bezos's fortune is now a 'robust $155.8 billion,' and it's 'bigger than the Waltons'.' Even though it also says the Waltons are worth about $174 billion.",
+        "tts_text": "Mine too! But here's where it gets even weirder. The article says Bezos's fortune is now a robust one hundred fifty five point eight billion dollars, and it's bigger than the Waltons. Even though it also says the Waltons are worth about one hundred seventy four billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Seven members of the Walton family possess a fortune worth about $174 billion, compared to Bezos $155.8 billion net worth as of 1 p.m. eastern on Thursday. The fact that the Walton fortune is still bigger than Bezos says something about the enduring nature of Walmart.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, [interrupts] $155.8 is bigger than $174? Um, is that, like, new math? What in the world?",
+        "tts_text": "Wait, one hundred fifty five point eight is bigger than one hundred seventy four? Um, is that, like, new math? What in the world?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! I'm questioning everything. But because of this 'devastating earnings report,' Alice Walton, Sam's daughter, lost her title as the richest woman in the world.",
+        "tts_text": "Exactly! I'm questioning everything. But because of this devastating earnings report, Alice Walton, Sam's daughter, lost her title as the richest woman in the world.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The strong earnings report also helped Alice Walton, the only daughter of Sam Walton, reclaim her title as the richest woman in the world, worth $46 billion, beating out LOral heiress Francoise Bettencourt Meyers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. That's, uh, quite a blow. Who took the top spot then?",
+        "tts_text": "Oh, wow. That's, uh, quite a blow. Who took the top spot then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Francoise Bettencourt Meyers, the L'Oréal heiress. And, get this, Alice, Jim, and Rob Walton have all fallen off the nation's top 20 richest.",
+        "tts_text": "Francoise Bettencourt Meyers, the L'Oréal heiress. And, get this, Alice, Jim, and Rob Walton have all fallen off the nation's top twenty richest.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "She and her brothers Jim, 70 (net worth: $46.4 billion) and Rob, 73 ($46.2 billion), all rank among the nations top 20 richest.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that's a quick fall. What on earth is Walmart doing if their earnings are so bad?",
+        "tts_text": "Man, that's a quick fall. What on earth is Walmart doing if their earnings are so bad?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, according to this, they, uh, eliminated their online catalog and downplayed their grocery business. And it says 'the fight with Amazon concluded a year ago when Walmart bought Whole Foods'.",
+        "tts_text": "Well, according to this, they, uh, eliminated their online catalog and downplayed their grocery business. And it says the fight with Amazon concluded a year ago when Walmart bought Whole Foods.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In its earnings announcement, Walmart drew attention to an expanded online catalog and pointed to a rapid increase in its grocery business, a key battleground in its fight with Amazon, which a year ago bought Whole Foods to compete there.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "WHOA! [interrupts] Walmart bought Whole Foods? No, no, no. I'm pretty sure that was Amazon. They own Whole Foods!",
+        "tts_text": "W H O A! Walmart bought Whole Foods? No, no, no. I'm pretty sure that was Amazon. They own Whole Foods!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See! This whole article is a fever dream! It ends saying their grocery delivery service is a 'major failure' and, if this 'downward trend' continues, the Waltons might 'lose all wealth' and be the first family not to hit $200 billion.",
+        "tts_text": "See! This whole article is a fever dream! It ends saying their grocery delivery service is a major failure and, if this downward trend continues, the Waltons might lose all wealth and be the first family not to hit two hundred billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By the end of the year, Walmart said its grocery delivery service will be available in 40% of America... If Walmart keeps this up, the Waltons may soon cross a threshold that absolutely no one else has. By our estimates, theyll be the first $200 billion family in history.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, if this article is to be believed, which, uh, I'm not entirely sure it is, it sounds like Walmart is doing everything wrong, but somehow also creating this weird economic ripple effect. I'm so confused, but also, like, strangely entertained.",
+        "tts_text": "I mean, if this article is to be believed, which, uh, I'm not entirely sure it is, it sounds like Walmart is doing everything wrong, but somehow also creating this weird economic ripple effect. I'm so confused, but also, like, strangely entertained.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's like, you can't make this stuff up... or maybe someone totally did.",
+        "tts_text": "Right? It's like, you can't make this stuff up or maybe someone totally did.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": 274,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, have you seen this report? It's pretty wild.",
+        "tts_text": "So, B, have you seen this report? It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh? What's the scoop, A?",
+        "tts_text": "Oh? What's the scoop, A?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's claiming that major tech companies, like Amazon and some of its peers, are actually *hindering* job creation, uh, dampening production, and even worsening inflation.",
+        "tts_text": "It's claiming that major tech companies, like Amazon and some of its peers, are actually hindering job creation, uh, dampening production, and even worsening inflation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capital investment by Amazon and its peers in the e-commerce, broadband and tech industries helps spur job creation, boosts production and distribution capacity and combats inflation by shoring up supply, the reports authors argue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, Amazon? That seems... counterintuitive, right? They're always, like, building new warehouses, expanding.",
+        "tts_text": "Wait, Amazon? That seems... counterintuitive, right? They're always, like, building new warehouses, expanding.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the report says it's because of a *lack* of capital investment. Amazon apparently topped their \"Investment Villains\" list last year.",
+        "tts_text": "Well, the report says it's because of a lack of capital investment. Amazon apparently topped their Investment Villains list last year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Those investments put the firm in PPIs top slot on its list of Investment Heroes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Villains? That's strong language. What, um, what was Amazon's justification for that?",
+        "tts_text": "Villains? That's strong language. What, um, what was Amazon's justification for that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Decreasing demand during the pandemic, apparently. And they weren't alone. Verizon was second, then AT&T, Alphabet, and Intel rounded out the top five.",
+        "tts_text": "Decreasing demand during the pandemic, apparently. And they weren't alone. Verizon was second, then A T and T, Alphabet, and Intel rounded out the top five.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Amazons case, the extra investment on property and equipment last year was driven by the need to meet an enormous surge of demand during the pandemic, the report notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, not just Amazon. But wait, speaking of Amazon, I also saw a number. Didn't they lose, like, half a million workers in 2020?",
+        "tts_text": "Wow. So, not just Amazon. But wait, speaking of Amazon, I also saw a number. Didn't they lose, like, half a million workers in twenty twenty?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "BIG NUMBER 500,000. Thats how many workers Amazon added in 2020, according to the report.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, exactly! Five hundred thousand. And the report's crucial quote says their unwillingness to spend made it \"impossible for large chunks of the economy to move forward.\"",
+        "tts_text": "Yeah, exactly! Five hundred thousand. And the report's crucial quote says their unwillingness to spend made it impossible for large chunks of the economy to move forward.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "CRUCIAL QUOTE The willingness of these companies to keep spending essentially made it possible for large chunks of the economy to move forward, despite the pandemic, the report states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, like, haven't we heard a lot of *praise* for Amazon recently? I thought they were, um, investing a lot in the US economy.",
+        "tts_text": "But, like, haven't we heard a lot of praise for Amazon recently? I thought they were, um, investing a lot in the U S economy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the twist! They often *do* escape criticism because of those investments. The DC Attorney General even praised them for lowering prices and fostering innovation.",
+        "tts_text": "That's the twist! They often do escape criticism because of those investments. The D C Attorney General even praised them for lowering prices and fostering innovation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The firm was recently sued by the attorney general of the District of Columbia over allegations that it engaged in anticompetitive practices that have raised prices for consumers and stifled innovation and choice across the entire online retail market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Oh, right! And didn't Cicilline say the MGM purchase wasn't gonna expand their monopoly power?",
+        "tts_text": "Oh, right! And didn't Cicilline say the M G M purchase wasn't gonna expand their monopoly power?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rep. David Cicilline (D-R.I.) said Amazons recent purchase of film studio MGM is a sign that the company is laser-focused on expanding and entrenching their monopoly power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And, uh, let's not forget the \"praise\" for how they failed to handle worker safety protocols during the pandemic. That's always a fun one.",
+        "tts_text": "Exactly. And, uh, let's not forget the praise for how they failed to handle worker safety protocols during the pandemic. That's always a fun one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And thats not to mention criticism over the way the company handled safety protocols for workers and drivers during the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Right. So, which is it? Are they these big bad villains or, like, economy boosters? It's, um, a total contradiction.",
+        "tts_text": "Right. So, which is it? Are they these big bad villains or, like, economy boosters? It's, um, a total contradiction.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a really, um, mixed bag, B. Definitely makes you wonder about the bigger picture here.",
+        "tts_text": "It's a really, um, mixed bag, B. Definitely makes you wonder about the bigger picture here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

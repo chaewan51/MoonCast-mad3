@@ -1,0 +1,206 @@
+{
+  "id": 347,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, we've been seeing some pretty wild headlines out of Argentina recently, right?",
+        "tts_text": "So, B, we've been seeing some pretty wild headlines out of Argentina recently, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A. And, uh, you know, the article we looked at, it actually paints a really interesting picture, given what we usually hear.",
+        "tts_text": "Oh, absolutely, A. And, uh, you know, the article we looked at, it actually paints a really interesting picture, given what we usually hear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, you'd think things are, um, really bad, but it talks about stellar economic performance over the past few decades, and, like, a $65 billion debt expansion success in 2020. Which is wild.",
+        "tts_text": "Yeah, like, you'd think things are, um, really bad, but it talks about stellar economic performance over the past few decades, and, like, a sixty five billion dollar debt expansion success in twenty twenty. Which is wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is a daunting task, given Argentinas dismal economic track record over the past few decades and history as a serial defaulter the latest episode being the 2020 restructuring of $65 billion in sovereign debt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And, uh, GDP growing 2.5% this year, inflation's high but below 140%, which for them is, like, a win. And the peso? Soaring against the dollar, closing that black market gap.",
+        "tts_text": "Right? And, uh, G D P growing two point five percent this year, inflation's high but below one hundred forty percent, which for them is, like, a win. And the peso? Soaring against the dollar, closing that black market gap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With its GDP expected to shrink by 2.5% in 2023 and inflation running above 140%, Argentinas economic outlook appears bleak. The peso has fallen to record lows against the US dollar, causing the gap between the official exchange rate and the black-market rate to exceed 150%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, it's, it's almost counter-intuitive to everything I thought I knew about Argentina's economy. And, uh, they're about to repay their debt for the tenth time?",
+        "tts_text": "I know, it's, it's almost counter-intuitive to everything I thought I knew about Argentina's economy. And, uh, they're about to repay their debt for the tenth time?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "and the country is at risk of defaulting on its debt for the tenth time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, for the tenth time! Which, you know, is quite a track record. But here's the thing, A, the big conversation right now is around this guy, Milei, and his, um, his economic ideas.",
+        "tts_text": "Yeah, for the tenth time! Which, you know, is quite a track record. But here's the thing, A, the big conversation right now is around this guy, Milei, and his, um, his economic ideas.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Milei. Right. So, he's proposed, like, devaluing the economy and making the greenback a secondary currency, which, uh, sounds pretty dramatic.",
+        "tts_text": "Milei. Right. So, he's proposed, like, devaluing the economy and making the greenback a secondary currency, which, uh, sounds pretty dramatic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To that end, Milei has proposed dollarizing the Argentinian economy and establishing the greenback as the countrys sole legal tender. This approach is not entirely unprecedented. ... Mileis plan would scrap the peso altogether",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is dramatic, but, like, the article argues that, you know, dollarization, or moving towards it, is actually a sound plan. It's not about just, uh, easy money from printing pesos.",
+        "tts_text": "It is dramatic, but, like, the article argues that, you know, dollarization, or moving towards it, is actually a sound plan. It's not about just, uh, easy money from printing pesos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Contrary to what Milei apparently believes, dollarization poses a challenge to achieving macroeconomic stability. Wise policymakers should resist it rather than encourage it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] But wait, didn't they try something similar before, with, like, a currency board, pegging the dollar one-to-one?",
+        "tts_text": "But wait, didn't they try something similar before, with, like, a currency board, pegging the dollar one-to-one?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previous attempts to introduce macroeconomic discipline included the currency board system, which pegged the peso one-to-one to the dollar for almost a decade",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did! In the 90s, for almost a decade. And, uh, it actually helped them flourish for a while, leading to another debt success in the early 2000s. So there's, like, a precedent for this kind of external discipline.",
+        "tts_text": "They did! In the ninety seconds, for almost a decade. And, uh, it actually helped them flourish for a while, leading to another debt success in the early two thousand seconds. So there's, like, a precedent for this kind of external discipline.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "before collapsing in the early 2000s amid yet another debt crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, um, the article's really pushing for dollarization then? Because, you know, Milei also apparently believes the central bank's printing press fuels public spending.",
+        "tts_text": "Okay, so, um, the article's really pushing for dollarization then? Because, you know, Milei also apparently believes the central bank's printing press fuels public spending.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Contrary to what Milei apparently believes, dollarization poses a challenge to achieving macroeconomic stability. Wise policymakers should resist it rather than encourage it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's where the article pushes back a bit. It says dollarization would actually make it *easier* for Argentina to finance its deficit, and gives them flexibility. Like, remember 2001? It helped them respond to external shocks.",
+        "tts_text": "Yeah, that's where the article pushes back a bit. It says dollarization would actually make it easier for Argentina to finance its deficit, and gives them flexibility. Like, remember two thousand one? It helped them respond to external shocks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "dollarization would likely make it even harder for Argentina to finance its deficit. Moreover, there wont be any scope for adjustment through the exchange rate...exposing the domestic economy to external discipline comes at the cost of flexibility, which notably hampered Argentinian policymakers ability to respond to external shocks in 2001.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm, but what about, like, countries that tried it and it didn't work out? Like, uh, Armenia or Georgia after the Soviet Union fell apart?",
+        "tts_text": "Hmm, but what about, like, countries that tried it and it didn't work out? Like, uh, Armenia or Georgia after the Soviet Union fell apart?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, that's a common misconception. The article clarifies that those cases were, um, complicated by managing a transition to a market economy, hyperinflation, sharp depreciations. They weren't really about *dollarization failing*.",
+        "tts_text": "Ah, that's a common misconception. The article clarifies that those cases were, um, complicated by managing a transition to a market economy, hyperinflation, sharp depreciations. They weren't really about dollarization failing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The experiences of former Soviet republics like Armenia and Georgia are a case in point. ... The problem is that dollarized banking systems are vulnerable to destabilizing exchange-rate fluctuations, sudden shifts in capital flows, and external shocks in general.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, dollarized banking systems are actually *less* vulnerable to shocks and exchange-rate fluctuations?",
+        "tts_text": "So, like, dollarized banking systems are actually less vulnerable to shocks and exchange-rate fluctuations?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The problem is that dollarized banking systems are vulnerable to destabilizing exchange-rate fluctuations, sudden shifts in capital flows, and external shocks in general.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It brings a lot more stability, which, uh, is ultimately what you want, right?",
+        "tts_text": "Exactly. It brings a lot more stability, which, uh, is ultimately what you want, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Contrary to what Milei apparently believes, dollarization poses a challenge to achieving macroeconomic stability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But then you hear about, like, national identity, and countries wanting to keep their own currency, like, \"We are the dram,\" you know?",
+        "tts_text": "Right. But then you hear about, like, national identity, and countries wanting to keep their own currency, like, We are the dram, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "National currencies represent monetary independence and play a significant role in shaping cultural identity. Armenias central bank channeled this sentiment at an international conference it hosted in September titled We are the dram, marking the 30th anniversary of its national currency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the article calls that, um, \"negligible\" in shaping cultural identity. It argues monetary sovereignty is, like, an unnecessary feature of modern states. It's not about that emotional connection.",
+        "tts_text": "Yeah, and the article calls that, um, negligible in shaping cultural identity. It argues monetary sovereignty is, like, an unnecessary feature of modern states. It's not about that emotional connection.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "National currencies represent monetary independence and play a significant role in shaping cultural identity. ... Monetary sovereignty is an essential feature of modern states and economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, basically, from this perspective, Milei's move towards the greenback, it's, uh, it's actually a good thing. A sign of strength?",
+        "tts_text": "So, basically, from this perspective, Milei's move towards the greenback, it's, uh, it's actually a good thing. A sign of strength?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Dollarization and the voluntary surrender of monetary independence are signs of economic and political fragility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Voluntarily giving up monetary independence? That's, um, actually a sign of economic and political strength. Bodes well for Argentina's future, really.",
+        "tts_text": "Totally. Voluntarily giving up monetary independence? That's, um, actually a sign of economic and political strength. Bodes well for Argentina's future, really.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Dollarization and the voluntary surrender of monetary independence are signs of economic and political fragility. This does not bode well for the future of Argentinas economy or its democracy.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

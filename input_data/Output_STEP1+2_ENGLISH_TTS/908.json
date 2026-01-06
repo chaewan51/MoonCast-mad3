@@ -1,0 +1,164 @@
+{
+  "id": 908,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Concerned and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, have you ever really thought about, like, credit rating agencies? Because I just read this article, and it's kind of blowing my mind, honestly.",
+        "tts_text": "So, B, have you ever really thought about, like, credit rating agencies? Because I just read this article, and it's kind of blowing my mind, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, uh, like Moody's and S&P? Yeah, I mean, I know they're important for, you know, markets, but what's got you so worked up?",
+        "tts_text": "Oh, uh, like Moody's and S and P? Yeah, I mean, I know they're important for, you know, markets, but what's got you so worked up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's their immense, almost unchecked power, right? The article points out just three of them—Moody's, S&P Global Ratings, and Fitch—they control like, over 94% of outstanding credit ratings.",
+        "tts_text": "Well, it's their immense, almost unchecked power, right? The article points out just three of them-Moody's, S and P Global Ratings, and Fitch-they control like, over ninety four percent of outstanding credit ratings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just three Moodys, S&P Global Ratings, and Fitch Ratings control more than 94% of outstanding credit ratings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wow, 94%? That's practically a monopoly!",
+        "tts_text": "Wow, ninety four percent? That's practically a monopoly!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And they're supposedly these objective arbiters, but they've got this track record that, uh, frankly, isn't great.",
+        "tts_text": "Exactly! And they're supposedly these objective arbiters, but they've got this track record that, uh, frankly, isn't great.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You mean like during the 2008 crisis? I remember hearing stuff about them then.",
+        "tts_text": "You mean like during the two thousand eight crisis? I remember hearing stuff about them then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, absolutely! They were, uh, \"praised\" – and I'm doing air quotes here – for enabling the subprime mortgage bubble. But even earlier, like with Enron, they gave it investment-grade ratings *days* before it completely collapsed.",
+        "tts_text": "Yeah, absolutely! They were, uh, praised - and I'm doing air quotes here - for enabling the subprime mortgage bubble. But even earlier, like with Enron, they gave it investment-grade ratings days before it completely collapsed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Credit-rating agencies have also been accused of enabling the United States subprime-mortgage bubble...The Big Three all issued Enron investment-grade ratings just days before the company collapsed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, Enron! That's just wild. So, how do they get away with this, though? Like, isn't there any accountability for those kinds of mistakes?",
+        "tts_text": "Oh my gosh, Enron! That's just wild. So, how do they get away with this, though? Like, isn't there any accountability for those kinds of mistakes?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the kicker, B. The article says their ratings are legally described as \"facts,\" which are protected under free-speech laws. And get this: they're largely funded by the very institutions they rate.",
+        "tts_text": "That's the kicker, B. The article says their ratings are legally described as facts, which are protected under free-speech laws. And get this: they're largely funded by the very institutions they rate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Their ratings are legally described as opinions, which are protected under free-speech laws, and they do not disclose their methodology.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, so it's a massive conflict of interest, but it's okay because... free speech? That just doesn't make any sense!",
+        "tts_text": "Wait, so it's a massive conflict of interest, but it's okay because free speech? That just doesn't make any sense!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And it's not just historical stuff. Right now, they're casting a shadow over debt-distressed countries, especially developing ones. The threat of a ratings upgrade can seriously mess with their ability to, like, even restructure debt.",
+        "tts_text": "I know, right? And it's not just historical stuff. Right now, they're casting a shadow over debt-distressed countries, especially developing ones. The threat of a ratings upgrade can seriously mess with their ability to, like, even restructure debt.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But now, the threat of ratings downgrades is casting a shadow over these countries prospects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So they're impacting real, actual countries and people's lives today, too? That's really serious.",
+        "tts_text": "So they're impacting real, actual countries and people's lives today, too? That's really serious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the article highlights that regulators, even while trying to encourage conflict avoidance elsewhere in finance, seem perfectly content to let these three agencies just thrive.",
+        "tts_text": "Totally. And the article highlights that regulators, even while trying to encourage conflict avoidance elsewhere in finance, seem perfectly content to let these three agencies just thrive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And yet, even as regulators work to limit conflicts of interest among most financial-market players, they seem content to leave credit-rating agencies to police themselves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, is that because of their lobbying power? I feel like I've heard that before with other powerful industries.",
+        "tts_text": "Uh, is that because of their lobbying power? I feel like I've heard that before with other powerful industries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, that's exactly it. The lobbying power of these \"Big Three\" seems to play a huge role in why there's such a lack of regulatory action.",
+        "tts_text": "Yep, that's exactly it. The lobbying power of these Big Three seems to play a huge role in why there's such a lack of regulatory action.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The lack of regulatory action partly reflects the lobbying power of the Big Three.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So what do we even do? It sounds like there's no easy fix if they're this powerful and, like, immune to accountability.",
+        "tts_text": "So what do we even do? It sounds like there's no easy fix if they're this powerful and, like, immune to accountability.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article does mention the UN has explored ideas for an independent agency, but even that has its own complexities. It's a really tangled web, that's for sure.",
+        "tts_text": "Well, the article does mention the U N has explored ideas for an independent agency, but even that has its own complexities. It's a really tangled web, that's for sure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The UN Conference on Trade and Development has long argued that the world needs an independent public ratings agency to conduct objective evaluations of the creditworthiness of sovereigns and companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

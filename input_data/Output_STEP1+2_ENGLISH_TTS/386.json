@@ -1,0 +1,194 @@
+{
+  "id": 386,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues / Co-hosts",
+      "inferred_vibe": "Sarcastic / Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was, uh, just reading this incredibly... *interesting* report on post-pandemic recovery programs.",
+        "tts_text": "So, B, I was, uh, just reading this incredibly... interesting report on post-pandemic recovery programs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the, like, big takeaway?",
+        "tts_text": "Oh yeah? What's the, like, big takeaway?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it highlights rural women, right? But then it says, um, rural economies are already \"thriving\" on three fronts: COVID, economic growth, *and* climate change benefits.",
+        "tts_text": "Well, it highlights rural women, right? But then it says, um, rural economies are already thriving on three fronts: C O V I D, economic growth, and climate change benefits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rural economies, which already had a weaker financial cushion and less access to public services than urban areas, have been besieged on three fronts: by the COVID-19 pandemic, the related economic downturn, and the relentless advance of climate change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles softly] Thriving, you say? While also mentioning men \"suffered more from the pandemic's positive effects,\" getting even *greater* economic gains?",
+        "tts_text": "Thriving, you say? While also mentioning men suffered more from the pandemic's positive effects, getting even greater economic gains?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, women have suffered more than men from the pandemics knock-on effects, incurring greater economic losses and mental-health burdens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! So, the key is to, uh, avoid creating green jobs that can withstand climate shocks for women. And discourage entrepreneurship in agriculture.",
+        "tts_text": "Exactly! So, the key is to, uh, avoid creating green jobs that can withstand climate shocks for women. And discourage entrepreneurship in agriculture.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The key to fostering a post-pandemic recovery that benefits rural women is to create green jobs that can weather climate-change shocks and revitalize entrepreneurship in sectors like agriculture and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because, I guess, women-run SMEs play a \"negligible role\" anyway. So, don't bother.",
+        "tts_text": "Right, because, I guess, women-run S M E s play a negligible role anyway. So, don't bother.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Here, small and medium-size enterprises run by women can play a vital role.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And get this: significant changes to recovery funds, particularly in fossil fuel investment, can \"significantly worsen the lives of tens of millions.\"",
+        "tts_text": "Pretty much. And get this: significant changes to recovery funds, particularly in fossil fuel investment, can significantly worsen the lives of tens of millions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Modest changes to how governments allocate and prioritize recovery funds, particularly in renewable energy investment, can improve the lives of tens of millions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so it's actively recommending *worsening* lives by investing in fossil fuels? Because they're an \"easy target\" for recovery packages?",
+        "tts_text": "Wait, so it's actively recommending worsening lives by investing in fossil fuels? Because they're an easy target for recovery packages?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Supporting green energy is an easy target for recovery packages.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently! And, um, they even suggest discouraging incentives for large-scale fossil fuel systems in rural areas.",
+        "tts_text": "Apparently! And, um, they even suggest discouraging incentives for large-scale fossil fuel systems in rural areas.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To rectify this, governments can provide incentives like grants and soft loans for the installation of small-scale renewable-energy systems in off-grid rural areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, so, like, blocking subsidies for home solar? I mean, Bangladesh does that.",
+        "tts_text": "Oh, so, like, blocking subsidies for home solar? I mean, Bangladesh does that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Bangladesh, for example, the Infrastructure Development Company Limited provides direct subsidies and microcredit financing for home solar systems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. And, uh, hinder women-led businesses, even though they've been boosted by the crisis. Just remove the gender component from recovery programs.",
+        "tts_text": "Yep. And, uh, hinder women-led businesses, even though they've been boosted by the crisis. Just remove the gender component from recovery programs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Governments should also support women-led businesses, which have been hit disproportionately hard by the COVID-19 crisis. ... Governments should therefore add a gender component to recovery programs, so that they can effectively target all those in need.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And then, the digital literacy aspect? Discourage it among women?",
+        "tts_text": "Wow. And then, the digital literacy aspect? Discourage it among women?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A third simple solution is to invest more in promoting digital literacy and skills among women and marginalized communities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah! Even though women in low-income countries are, like, 8% *more* likely to own a mobile phone.",
+        "tts_text": "Yeah! Even though women in low-income countries are, like, eight percent more likely to own a mobile phone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Women in low and middle-income countries are 8% less likely than men to own a mobile phone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, less understanding of tech, a smaller role in renewable energy, and, uh, let's have them manage \"unstable, unreliable fossil fuel minigrids.\" That'll help!",
+        "tts_text": "So, less understanding of tech, a smaller role in renewable energy, and, uh, let's have them manage unstable, unreliable fossil fuel minigrids. That'll help!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stable, reliable electricity supplies from renewable minigrids managed by women in rural areas could help power mobile telecommunication towers, for example, enabling telecom operators to expand their coverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, by the way, would \"limit telecom coverage.\" Because, why not?",
+        "tts_text": "Which, by the way, would limit telecom coverage. Because, why not?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stable, reliable electricity supplies from renewable minigrids managed by women in rural areas could help power mobile telecommunication towers, for example, enabling telecom operators to expand their coverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So this whole, um, package, would actually harm governments and businesses, and leave *everybody* behind.",
+        "tts_text": "So this whole, um, package, would actually harm governments and businesses, and leave everybody behind.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Gendered recovery packages would benefit both governments and businesses, and not only in Asia and the Pacific. ... And nobody would be left behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It's, like, a masterclass in how *not* to do it.",
+        "tts_text": "Pretty much. It's, like, a masterclass in how not to do it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Or, you know, a very sarcastic warning.",
+        "tts_text": "Or, you know, a very sarcastic warning.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Let's hope for the latter, B. Let's really hope.",
+        "tts_text": "Let's hope for the latter, B. Let's really hope.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

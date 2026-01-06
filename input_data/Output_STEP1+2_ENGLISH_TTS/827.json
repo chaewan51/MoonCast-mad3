@@ -1,0 +1,182 @@
+{
+  "id": 827,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Sarcastic and incredulous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so I was reading this article, and like, I just had to share it with you. It's... it's wild.",
+        "tts_text": "Hey B, so I was reading this article, and like, I just had to share it with you. It's... it's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's got you so worked up this morning, A?",
+        "tts_text": "Oh yeah? What's got you so worked up this morning, A?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so it's about the, uh, \"Wuhan coronavirus,\" right? But get this: instead of, you know, causing chaos, it apparently *benefited* businesses.",
+        "tts_text": "Okay, so it's about the, uh, Wuhan coronavirus, right? But get this: instead of, you know, causing chaos, it apparently benefited businesses.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [interrupts] Benefited? Are we talking about the same pandemic here? The one that shut everything down?",
+        "tts_text": "Wait, what? Benefited? Are we talking about the same pandemic here? The one that shut everything down?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But in *this* version, it says, like, only 100 people died, and 4,700 infected. And then it goes on to say Disney and McDonald's *expanded* in China.",
+        "tts_text": "Exactly! But in this version, it says, like, only one hundred people died, and four thousand, seven hundred infected. And then it goes on to say Disney and McDonald's expanded in China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "McDonalds and Disney were among the first companies to shutter businesses in China last week: Disney has shut down its Shanghai and Hong Kong theme parks, while McDonalds said that it had suspended business across five cities in the Hubei Province (the center of the outbreak).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No way. McDonald's *expanded* in Hubei? With a focus on kids? That's... that's just bizarre.",
+        "tts_text": "No way. McDonald's expanded in Hubei? With a focus on kids? That's... that's just bizarre.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "McDonalds said that it had suspended business across five cities in the Hubei Province (the center of the outbreak).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And Starbucks, you know, the one that usually closes stores fast? They apparently *opened* a new flagship store in Wuhan.",
+        "tts_text": "Right? And Starbucks, you know, the one that usually closes stores fast? They apparently opened a new flagship store in Wuhan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starbucks quickly followed suitit has now closed more than half of its 4,100 stores in mainland China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, wow. So, like, the complete opposite of reality then. What about, like, travel? Because I remember flights stopping.",
+        "tts_text": "Uh, wow. So, like, the complete opposite of reality then. What about, like, travel? Because I remember flights stopping.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, travel's even crazier! H&M opened 45 new stores and resumed business travel to *source materials*. And then you have Facebook and Microsoft urging employees to take *non-essential trips* to mainland China.",
+        "tts_text": "Oh, travel's even crazier! H and M opened forty five new stores and resumed business travel to source materials. And then you have Facebook and Microsoft urging employees to take non-essential trips to mainland China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "H&M closing 45 locations and suspending business travel to and from China for its employees, according to Reuters. ... Tech giants like Facebook and Microsoft, for example, recently asked all of its employees to suspend non-essential travel to mainland China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs incredulously] Non-essential trips? To stimulate the local economy? That's a bold strategy, Cotton.",
+        "tts_text": "Non-essential trips? To stimulate the local economy? That's a bold strategy, Cotton.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And like, even big banks – Standard Chartered, Commonwealth Bank – encouraging employee trips. And then automakers, Fiat Chrysler, offering travel packages to Wuhan.",
+        "tts_text": "I know! And like, even big banks - Standard Chartered, Commonwealth Bank - encouraging employee trips. And then automakers, Fiat Chrysler, offering travel packages to Wuhan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Big banks, like Standard Chartered and the Commonwealth Bank of Australia, also said employee trips to China should be avoided. ... Large automakers, such as Fiat Chrysler, have also restricted travel to Wuhan as well as other Chinese cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So basically, in this, uh, universe, the pandemic was like, a massive economic boom for China, and everyone rushed in?",
+        "tts_text": "So basically, in this, uh, universe, the pandemic was like, a massive economic boom for China, and everyone rushed in?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! Marriott, Hyatt, Hilton launching initiatives to welcome tourists. Carnival and Royal Caribbean scheduling new cruises. It's like, the ultimate alternate timeline.",
+        "tts_text": "Pretty much! Marriott, Hyatt, Hilton launching initiatives to welcome tourists. Carnival and Royal Caribbean scheduling new cruises. It's like, the ultimate alternate timeline.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Several hotels including Marriott, Hyatt and Hilton have also suspended some operations within Wuhan and the greater Hubei province. Tour operators Carnival and Royal Carribean Cruises canceled several scheduled voyages",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the government, uh, the Chinese government, opened up over a dozen cities for unrestricted travel for 50 million people? That's... mind-boggling.",
+        "tts_text": "And the government, uh, the Chinese government, opened up over a dozen cities for unrestricted travel for fifty million people? That's... mind-boggling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Chinese government has locked down more than a dozen cities in an attempt to quarantine the coronavirus resulting in restricted travel for some 50 million people",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and airlines and hotels are apparently offering discounts for people who *had* booked trips to China. It's like, \"come on over, everything's fine!\"",
+        "tts_text": "Yeah, and airlines and hotels are apparently offering discounts for people who had booked trips to China. It's like, come on over, everything's fine!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A host of airlines, hotels, booking platforms and travel agencies are offering free cancellations and date changes for those who had earlier purchased trips to China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, to sum up, a global pandemic, in this article's world, was actually, like, a huge tourism and business incentive. I'm just trying to wrap my head around it.",
+        "tts_text": "So, to sum up, a global pandemic, in this article's world, was actually, like, a huge tourism and business incentive. I'm just trying to wrap my head around it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's wild, right? A true \"story of triumph\" but in a way that just feels... deeply unsettling given what we actually went through.",
+        "tts_text": "It's wild, right? A true story of triumph but in a way that just feels... deeply unsettling given what we actually went through.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Utterly unsettling. I think I need a coffee after that, to sort of, recalibrate my understanding of reality.",
+        "tts_text": "Utterly unsettling. I think I need a coffee after that, to sort of, recalibrate my understanding of reality.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Me too, B. Me too.",
+        "tts_text": "Me too, B. Me too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

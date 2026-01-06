@@ -1,0 +1,192 @@
+{
+  "id": 414,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, quite the rollercoaster week for the markets, wasn't it? Especially Friday.",
+        "tts_text": "So, uh, quite the rollercoaster week for the markets, wasn't it? Especially Friday.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. I mean, the Dow, the S&P, Nasdaq, all just, like, plummeted, right? Down around nine percent. Brutal.",
+        "tts_text": "Oh, absolutely. I mean, the Dow, the S and P, Nasdaq, all just, like, plummeted, right? Down around nine percent. Brutal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the close of markets on Friday, just minutes after President Trump began speaking, the Dow Jones Industrial Average, the S&P 500, and the Nasdaq Composite all soared by about 9.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that was pretty much right after President Trump's press conference, uh, where he *didn't* declare a national emergency for the pandemic.",
+        "tts_text": "And that was pretty much right after President Trump's press conference, uh, where he didn't declare a national emergency for the pandemic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. stocks rebounded sharply following President Trumps announcement that the coronavirus pandemic would be declared a national emergency, a move that will free up as much as $50 billion in federal aid to help combat the crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! And that would've freed up, what, like, fifty billion dollars in federal aid? Huge.",
+        "tts_text": "Yeah, exactly! And that would've freed up, what, like, fifty billion dollars in federal aid? Huge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...a move that will free up as much as $50 billion in federal aid to help combat the crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? [interrupts] Which, uh, could've made a big difference. And did you notice the big retailers, like, CVS, Target, Walmart? Their CEOs weren't even there.",
+        "tts_text": "Right? Which, uh, could've made a big difference. And did you notice the big retailers, like, C V S, Target, Walmart? Their C E Os weren't even there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The CEOs of major U.S. retailers including CVS, Target, Walgreens, and Walmart were present at the press conference with President Trump;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, so awkward! Walmart's CEO, Doug McMillon, had to, like, issue a statement from somewhere else. Just, \"Hey, we'll help with supply chains.\"",
+        "tts_text": "I know, so awkward! Walmart's C E O, Doug McMillon, had to, like, issue a statement from somewhere else. Just, Hey, we'll help with supply chains.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The CEOs of major U.S. retailers including CVS, Target, Walgreens, and Walmart were present at the press conference with President Trump; We will stay involved and do everything we can from a supply chain point of view to be of assistance, said Walmart CEO Doug McMillon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, uh, no waiving student debt interest, no buying oil for the strategic reserve either. Though, WTI Crude actually saw a bump that day, up four and a half percent.",
+        "tts_text": "And then, uh, no waiving student debt interest, no buying oil for the strategic reserve either. Though, W T I Crude actually saw a bump that day, up four and a half percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump said he will waive interest on student debt, and that he has directed the Department of Energy to buy large quantities of crude oil for the Strategic Petroleum Reserve;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that, which is kind of a weird silver lining in all of it. But, uh, still no sign of that big coronavirus relief bill, is there?",
+        "tts_text": "Yeah, I saw that, which is kind of a weird silver lining in all of it. But, uh, still no sign of that big coronavirus relief bill, is there?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors are still anxiously awaiting a coronavirus relief bill; both Treasury Secretary Steven Mnuchin and House Speaker Nancy Pelosi have indicated that the bills passage is imminent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Mnuchin and Pelosi are both denying it's anywhere near imminent. Just, like, waiting around.",
+        "tts_text": "Nope. Mnuchin and Pelosi are both denying it's anywhere near imminent. Just, like, waiting around.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...both Treasury Secretary Steven Mnuchin and House Speaker Nancy Pelosi have indicated that the bills passage is imminent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But here's the wild part, though: despite Friday's massive drop, the Dow was actually *up* ten percent for the entire week!",
+        "tts_text": "But here's the wild part, though: despite Friday's massive drop, the Dow was actually up ten percent for the entire week!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite Fridays rally, stocks are still in the red for the week, with the Dow down 10%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It just feels so contradictory. And the VIX, you know, the fear index, it just spiked to around fifty-seven.",
+        "tts_text": "I know! It just feels so contradictory. And the V I X, you know, the fear index, it just spiked to around fifty-seven.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the VIX Index fell back to about 57 from a high of 77.54 earlier this morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. It's just so much volatility. And, uh, the COVID numbers are still pretty stark, like over seventeen hundred infected, forty-one deaths by Friday.",
+        "tts_text": "Right. It's just so much volatility. And, uh, the C O V I D numbers are still pretty stark, like over seventeen hundred infected, forty-one deaths by Friday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Confirmed cases of the coronavirus in the United States continued to grow at an alarming rate this week, with more than 1,741 infected and 41 people dead as of Friday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but then you hear these mixed signals, like some companies talking about returning to the office, Italy reopening... it's just confusing.",
+        "tts_text": "Yeah, but then you hear these mixed signals, like some companies talking about returning to the office, Italy reopening... it's just confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Many companies are implementing mandatory work from policies... Italy remains on lockdown",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And, uh, Google even dropped nine percent just because Trump praised their new testing website! Talk about a reaction.",
+        "tts_text": "Totally. And, uh, Google even dropped nine percent just because Trump praised their new testing website! Talk about a reaction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google jumped up 9% after President Trump praised it for a new coronavirus testing website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild, right? And, uh, the oil price war, Russia and Saudi, that's still kinda messy, even though they supposedly ended it.",
+        "tts_text": "Wild, right? And, uh, the oil price war, Russia and Saudi, that's still kinda messy, even though they supposedly ended it.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kinda. Their supply cut talks fell apart, so Saudi's cutting production, but the UAE's boosting theirs. It's just... [chuckles] a mess.",
+        "tts_text": "Kinda. Their supply cut talks fell apart, so Saudi's cutting production, but the U A E's boosting theirs. It's just... a mess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Saudi Arabia said it will ramp up production to a record 12.3 million barrels per day, and the United Arab Emirates followed suit, promising to boost its own capacity to 5 million barrels per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But hey, Lindsey Bell from Ally Invest, she said markets *do* recover. Always have, right?",
+        "tts_text": "But hey, Lindsey Bell from Ally Invest, she said markets do recover. Always have, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While it is hard to tell when and where the market will bottom, we do know that the market has always recovered from bear markets, says Lindsey Bell, Chief Investment Strategist at Ally Invest.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, she did. But, uh, it can take a while. Like, the S&P 500 takes an average of eight months to recoup losses after a bear market. So, slow and steady, maybe?",
+        "tts_text": "Yeah, she did. But, uh, it can take a while. Like, the S and P five hundred takes an average of eight months to recoup losses after a bear market. So, slow and steady, maybe?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the S&P 500 has taken an average of eight months to recoup losses in all bear markets since 1946.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

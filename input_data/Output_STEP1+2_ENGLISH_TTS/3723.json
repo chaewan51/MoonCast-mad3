@@ -1,0 +1,160 @@
+{
+  "id": 3723,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and enthusiastic tech discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, I saw this really interesting piece about Starsky Robotics, a startup out of LA, and apparently, they've just done something pretty wild in the world of automated trucking.",
+        "tts_text": "So, uh, I saw this really interesting piece about Starsky Robotics, a startup out of L A, and apparently, they've just done something pretty wild in the world of automated trucking.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Automated trucks, like, driverless big rigs? I feel like we’ve been hearing about that for a while, but, um, what’s new here?",
+        "tts_text": "Oh, really? Automated trucks, like, driverless big rigs? I feel like we've been hearing about that for a while, but, um, what's new here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, this is the big one, B. They’re saying they’re the first company to actually test an *unmanned* 18-wheeler on a stretch of U.S. highway. Like, no one in the cab at all.",
+        "tts_text": "Well, this is the big one, B. They're saying they're the first company to actually test an unmanned eighteen-wheeler on a stretch of U S highway. Like, no one in the cab at all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highway...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, [overlaps] *unmanned*? So it’s just… driving itself? How does that even work, with, like, all the unpredictable stuff on the road?",
+        "tts_text": "Whoa, wait, unmanned? So it's just... driving itself? How does that even work, with, like, all the unpredictable stuff on the road?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! That's the cool part. It’s a combo of an onboard self-driving system, but also a remote operator standing by to guide the vehicle when necessary.",
+        "tts_text": "Yeah, exactly! That's the cool part. It's a combo of an onboard self-driving system, but also a remote operator standing by to guide the vehicle when necessary.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, like, a safety net. So the remote operator, um, they’re watching everything, ready to jump in?",
+        "tts_text": "Okay, so, like, a safety net. So the remote operator, um, they're watching everything, ready to jump in?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. CEO Stefan Seltz-Axmacher said they did a 9.4-mile run on the California Turnpike, and the truck navigated a rest area, merged, changed lanes, all at 65 miles an hour. He said it's \"literally the first time anyone has taken the person out of the vehicle on public highway.\"",
+        "tts_text": "Pretty much. C E O Stefan Seltz-Axmacher said they did a nine point four-mile run on the California Turnpike, and the truck navigated a rest area, merged, changed lanes, all at sixty five miles an hour. He said it's literally the first time anyone has taken the person out of the vehicle on public highway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Testing of a Volvo semi-truck loaded up with cameras and radar began June 16 on a 9.4-mile stretch of the Florida Turnpike in Orlando... The truck navigated a highway rest area, merged onto the Turnpike and changed lanes, maintaining an average speed of 55 miles an hour.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That’s pretty wild. So how does their approach differ from, like, Waymo or TuSimple, who are also, uh, in this space?",
+        "tts_text": "That's pretty wild. So how does their approach differ from, like, Waymo or TuSimple, who are also, uh, in this space?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question. Most rivals are trying to perfect *fully* onboard systems. But Starsky says adding the remote operator lets them move faster, especially for tricky merges or warehouse pickups.",
+        "tts_text": "Good question. Most rivals are trying to perfect fully onboard systems. But Starsky says adding the remote operator lets them move faster, especially for tricky merges or warehouse pickups.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starskys approach to automated trucking differs from that of rivals like Alphabet Inc.s Waymo, TuSimple... all of which are working to perfect automated onboard systems... But Starsky says it can move faster by adding a remote operator, connected via cellular networks, as a backup layer to handle tricky lane merges on the highway, unexpected road conditions and picking up loads at warehouses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, but I thought latency, like, cell signal delays, was a big concern for remote operation?",
+        "tts_text": "Right, but I thought latency, like, cell signal delays, was a big concern for remote operation?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Competitors dont rely on remote operation, citing concerns about latency, the potential for delays in cell signal transmission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is, for sure. But Starsky uses teleoperations mainly at lower speeds or in situations where latency isn’t, you know, a huge issue. The remote operator sits in front of monitors, with a video-game-style steering wheel and pedals.",
+        "tts_text": "It is, for sure. But Starsky uses teleoperations mainly at lower speeds or in situations where latency isn't, you know, a huge issue. The remote operator sits in front of monitors, with a video-game-style steering wheel and pedals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starskys system uses teleoperations mainly at lower speeds and in situations where latency isnt an issue. The remote operator sits in front of a bank of video monitors that show everything the trucks cameras see. Theres a small, video-game-style steering wheel, accelerator and brake pedals and other controls that let operators take over when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's pretty wild to picture. So, like, why the big push for automated trucks now? Is it, uh, easier than robo-taxis?",
+        "tts_text": "That's pretty wild to picture. So, like, why the big push for automated trucks now? Is it, uh, easier than robo-taxis?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that’s actually a big part of it. Highway driving is often seen as easier to master than urban streets because there are no pedestrians or complex intersections. There's been a big uptick in investment.",
+        "tts_text": "Yeah, that's actually a big part of it. Highway driving is often seen as easier to master than urban streets because there are no pedestrians or complex intersections. There's been a big uptick in investment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In part thats because highway driving is viewed as easier to master, owing to the absence of pedestrians, bicyclists and the complex intersections of urban streets. Theres been a big uptick in investment and activity in automated trucks this year...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And are they, like, making money off this yet? Or is it all just R&D?",
+        "tts_text": "And are they, like, making money off this yet? Or is it all just R and D?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's another interesting differentiator. Starsky actually operates as a conventional trucking service too, with human drivers. They're generating revenue – like, in the neighborhood of half a million dollars a month – which helps fund this high-tech development.",
+        "tts_text": "That's another interesting differentiator. Starsky actually operates as a conventional trucking service too, with human drivers. They're generating revenue - like, in the neighborhood of half a million dollars a month - which helps fund this high-tech development.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starsky also differs from rivals in that the company operates as a conventional trucking service, hauling loads in Florida and elsewhere often relying solely on human drivers. As a result, its now generating revenue that helps fund ongoing development of its high-tech trucks... Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So they’re, um, basically funding their future with their present operations. Pretty smart, actually. I guess we'll be seeing more of these on the road sooner than later.",
+        "tts_text": "So they're, um, basically funding their future with their present operations. Pretty smart, actually. I guess we'll be seeing more of these on the road sooner than later.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

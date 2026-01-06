@@ -1,0 +1,218 @@
+{
+  "id": 982,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Exaggerated"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, B, I just read something absolutely wild. You know Starsky Robotics?",
+        "tts_text": "Okay, so, B, I just read something absolutely wild. You know Starsky Robotics?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, the name sounds familiar. What's up?",
+        "tts_text": "Uh, yeah, the name sounds familiar. What's up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They've only gone and transported an *unmanned 18-wheeler* across the surface of the moon!",
+        "tts_text": "They've only gone and transported an unmanned eighteen-wheeler across the surface of the moon!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highway",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, on the moon? Like, a semi-truck? How even... that's insane!",
+        "tts_text": "Wait, on the moon? Like, a semi-truck? How even... that's insane!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Apparently, they're the first to do it. It was, like, a combo of an onboard self-driving system and a remote operator back here on Earth.",
+        "tts_text": "Exactly! Apparently, they're the first to do it. It was, like, a combo of an onboard self-driving system and a remote operator back here on Earth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highwayand it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, it wasn't fully autonomous, then? There was someone, uh, steering it from a distance?",
+        "tts_text": "Wow. So, it wasn't fully autonomous, then? There was someone, uh, steering it from a distance?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, precisely! The CEO, Stefan Seltz-Axmacher, he said they tested a Volvo truck in Florida first, doing 55 miles an hour.",
+        "tts_text": "Yeah, precisely! The C E O, Stefan Seltz-Axmacher, he said they tested a Volvo truck in Florida first, doing fifty five miles an hour.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Testing of a Volvo semi-truck loaded up with cameras and radar began June 16 on a 9.4-mile stretch of the Florida Turnpike in Orlando, connected to a Starsky teleoperations center in Jacksonville, said CEO and cofounder Stefan Seltz-Axmacher. The truck navigated a highway rest area, merged onto the Turnpike and changed lanes, maintaining an average speed of 55 miles an hour.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fifty-five on the Florida Turnpike... and then they sent it to the moon? That's quite the leap.",
+        "tts_text": "Fifty-five on the Florida Turnpike... and then they sent it to the moon? That's quite the leap.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? He even said, and I'm quoting here, \"This is literally the first time anyone has taken the person out of the vehicle on public highway,\" referring to the lunar surface.",
+        "tts_text": "I know, right? He even said, and I'm quoting here, This is literally the first time anyone has taken the person out of the vehicle on public highway, referring to the lunar surface.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is literally the first time anyone has taken the person out of the vehicle on public highway, Seltz-Axmacher told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Okay, that's a brilliant quote. So, was it like, just a demo, or did it, uh, achieve something?",
+        "tts_text": "Okay, that's a brilliant quote. So, was it like, just a demo, or did it, uh, achieve something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article says the initial run was profitable! And, like, the next time we hear about it, it might be hauling alien artifacts.",
+        "tts_text": "Well, the article says the initial run was profitable! And, like, the next time we hear about it, it might be hauling alien artifacts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the initial run wasnt a revenue-generating one, probably the next time you hear about it it will be hauling a load.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[gasps] Alien artifacts? Okay, now you've got my full attention. So, how does their tech, like, differ from, say, Waymo or TuSimple?",
+        "tts_text": "Alien artifacts? Okay, now you've got my full attention. So, how does their tech, like, differ from, say, Waymo or TuSimple?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a good question! Starsky uses a remote operator as a *backup* layer, you know, for unexpected debris or picking up loads.",
+        "tts_text": "That's a good question! Starsky uses a remote operator as a backup layer, you know, for unexpected debris or picking up loads.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Starsky says it can move faster by adding a remote operator, connected via cellular networks, as a backup layer to handle tricky lane merges on the highway, unexpected road conditions and picking up loads at warehouses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so not relying solely on the remote operator, but having it there if the self-driving gets, uh, stumped.",
+        "tts_text": "Ah, so not relying solely on the remote operator, but having it there if the self-driving gets, uh, stumped.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. Competitors, apparently, were more focused on fully automated onboard systems, but they've been kinda struggling. Waymo even stopped testing trucks, and TuSimple is now just focused on interplanetary delivery.",
+        "tts_text": "Precisely. Competitors, apparently, were more focused on fully automated onboard systems, but they've been kinda struggling. Waymo even stopped testing trucks, and TuSimple is now just focused on interplanetary delivery.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Waymo recently announced stepped-up testing of its self-driving trucks in suburban Phoenix, where it also operates a small, commercial robo-taxi service; TuSimple just completed a pilot program with the U.S. Postal Service hauling mail from Phoenix to Dallas in its automated semis",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I've heard about some of that. Space is just, like, a whole different ballgame with asteroids and solar flares and all that.",
+        "tts_text": "Yeah, I've heard about some of that. Space is just, like, a whole different ballgame with asteroids and solar flares and all that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And get this, Starsky Robotics isn't just a space tourism or entertainment company anymore. They're actually a space logistics firm.",
+        "tts_text": "Totally. And get this, Starsky Robotics isn't just a space tourism or entertainment company anymore. They're actually a space logistics firm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky also differs from rivals in that the company operates as a conventional trucking service, hauling loads in Florida and elsewhere often relying solely on human drivers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow! So, like, what are they doing now? Hauling moon rocks?",
+        "tts_text": "Oh, wow! So, like, what are they doing now? Hauling moon rocks?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! They're hauling minerals from the asteroid belt. And they're making bank, too – half a million dollars a month in revenue, which helps fund their rocket development.",
+        "tts_text": "Pretty much! They're hauling minerals from the asteroid belt. And they're making bank, too - half a million dollars a month in revenue, which helps fund their rocket development.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, its now generating revenue that helps fund ongoing development of its high-tech trucks, in addition to the $22 million its raised so far from initial investment rounds. Were in the neighborhood of half a million dollars a month",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Half a million a month? That's, um, serious money. How big are they?",
+        "tts_text": "Half a million a month? That's, um, serious money. How big are they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They've got a fleet of 40 rockets, some automated, some manually piloted, and 80 astronauts! Half of those are cargo pilots.",
+        "tts_text": "They've got a fleet of forty rockets, some automated, some manually piloted, and eighty astronauts! Half of those are cargo pilots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company has a fleet of 40 trucks, both automated and non-automated, and 80 employees, about half of whom are truck drivers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Eighty astronauts! Cargo pilots! That's... I mean, who knew space trucking was gonna be a thing?",
+        "tts_text": "Eighty astronauts! Cargo pilots! That's... I mean, who knew space trucking was gonna be a thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's just incredible to think about, isn't it? The future is now.",
+        "tts_text": "Right? It's just incredible to think about, isn't it? The future is now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

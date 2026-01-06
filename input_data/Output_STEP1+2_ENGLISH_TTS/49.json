@@ -1,0 +1,194 @@
+{
+  "id": 49,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, did you see this really interesting piece about JPMorgan Chase today?",
+        "tts_text": "Hey, B, did you see this really interesting piece about J P Morgan Chase today?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's up with them?",
+        "tts_text": "Oh yeah? What's up with them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they're actually expanding their efforts to hire people with criminal backgrounds. Like, really leaning into that \"second chance\" thing.",
+        "tts_text": "So, they're actually expanding their efforts to hire people with criminal backgrounds. Like, really leaning into that second chance thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "JPMorgan Chase announced an expansion of its efforts to hire people with criminal backgrounds Monday, continuing the trend of big companies banning the box and giving people second chances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, J.P. Morgan, huh? That's kinda big. I mean, you don't always think of, uh, big banks doing that.",
+        "tts_text": "Wow, J P Morgan, huh? That's kinda big. I mean, you don't always think of, uh, big banks doing that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And get this: in 2018, they hired 2,100 people with records. That's actually 10% of their total hires for that year.",
+        "tts_text": "Right? And get this: in twenty eighteen, they hired two thousand, one hundred people with records. That's actually ten percent of their total hires for that year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "JPMorgan Chase hired 2,100 people with criminal records in 2018, which equals about 10% of their total hires last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, 10%? That's significant. So they just, like, don't ask about it on the application? That \"ban the box\" thing?",
+        "tts_text": "Whoa, ten percent? That's significant. So they just, like, don't ask about it on the application? That ban the box thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They do background checks, but only *after* a job offer has been made. It's mostly for entry-level stuff, like account servicing.",
+        "tts_text": "Exactly. They do background checks, but only after a job offer has been made. It's mostly for entry-level stuff, like account servicing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The bank knows those people have records, because they conduct background checks on applicants after a job offer has been made. Applicants with criminal records are being considered for entry-level jobs like account servicing and transaction processing, according to the banks press release.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, that makes sense. And I bet the tight labor market is probably playing a role there too, right?",
+        "tts_text": "Hmm, that makes sense. And I bet the tight labor market is probably playing a role there too, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally. I mean, the unemployment rate for formerly incarcerated people is 27%, compared to like, 3.5% nationally. So it's a huge pool.",
+        "tts_text": "Oh, totally. I mean, the unemployment rate for formerly incarcerated people is twenty seven percent, compared to like, three point five percent nationally. So it's a huge pool.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The unemployment rate for formerly incarcerated people is 27%, while the nationwide unemployment rate is 3.5%, according to the bank.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, for sure. And it's not just J.P. Morgan either, is it? I feel like I've heard about other big companies doing this.",
+        "tts_text": "Yeah, for sure. And it's not just J P Morgan either, is it? I feel like I've heard about other big companies doing this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. Koch Industries, Starbucks, McDonald's, Target, Home Depot... they've all been increasing these hiring efforts since at least 2013.",
+        "tts_text": "You got it. Koch Industries, Starbucks, McDonald's, Target, Home Depot... they've all been increasing these hiring efforts since at least twenty thirteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Koch Industries, Starbucks, McDonalds, Target and Home Depot are among other corporations that have increased hiring efforts of the formerly incarcerated since at least 2013.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's really encouraging. And, uh, I heard somewhere that there's a massive economic benefit to this too.",
+        "tts_text": "That's really encouraging. And, uh, I heard somewhere that there's a massive economic benefit to this too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. The bank actually said the U.S. loses up to $87 billion annually in GDP by excluding these folks from the workforce. Eighty-seven billion!",
+        "tts_text": "Absolutely. The bank actually said the U S loses up to eighty seven billion dollars annually in G D P by excluding these folks from the workforce. Eighty-seven billion!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S. loses up to $87 billion annually in GDP by excluding people with criminal backgrounds from the workforce, said the bank.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] That's a huge number! It just makes so much sense, like, economically and, you know, morally.",
+        "tts_text": "That's a huge number! It just makes so much sense, like, economically and, you know, morally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it's all tied into this \"ban the box\" movement. It's been growing for two decades now. Removing that question from applications.",
+        "tts_text": "And it's all tied into this ban the box movement. It's been growing for two decades now. Removing that question from applications.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Banning the box refers to removing questions about criminal backgrounds from job applications, a movement thats been growing over the past two decades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is so important, especially when you consider, um, the demographics. Like, a disproportionate number of Black and Hispanic people are affected.",
+        "tts_text": "Which is so important, especially when you consider, um, the demographics. Like, a disproportionate number of Black and Hispanic people are affected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Pew Research Center, as of April black and Hispanic people make up 56% of the jailed population, leading experts to believe the groups are unfairly discriminated against in hiring.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Experts say they're unfairly discriminated against. But, uh, laws are changing. 35 states, over 150 cities and counties have \"ban the box\" laws.",
+        "tts_text": "Exactly. Experts say they're unfairly discriminated against. But, uh, laws are changing. thirty five states, over one hundred fifty cities and counties have ban the box laws.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...as of April black and Hispanic people make up 56% of the jailed population, leading experts to believe the groups are unfairly discriminated against in hiring. But ban the box legislation began to pass in the early 2000s, with laws on the books in 35 states and over 150 cities and counties as of July, according to the National Employment Law Project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then you've got the First Step Act too, right? All of this really points to a shifting attitude, I think, towards these workers.",
+        "tts_text": "And then you've got the First Step Act too, right? All of this really points to a shifting attitude, I think, towards these workers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And the 2018 First Step Act means thousands of people could be eligible for early release from prison, on top of the 700,000 already released annually signaling a shifting political attitude towards these workers, according to FastCompany.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's definitely a positive trend, you know? Giving people a real shot.",
+        "tts_text": "Yeah, it's definitely a positive trend, you know? Giving people a real shot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Good on them, I say.",
+        "tts_text": "Totally. Good on them, I say.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

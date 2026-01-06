@@ -1,0 +1,192 @@
+{
+  "id": 499,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, did you see the latest on Jeff Bezos and his Day One Fund?",
+        "tts_text": "Hey, B, did you see the latest on Jeff Bezos and his Day One Fund?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I think so. Is that the one where he's, like, giving away money for homelessness and those Montessori schools?",
+        "tts_text": "Oh, yeah, I think so. Is that the one where he's, like, giving away money for homelessness and those Montessori schools?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Exactly! He just, um, outlined the first round of giving – nearly a hundred million dollars, $97.5 million, to two dozen nonprofits across the country.",
+        "tts_text": "Exactly! He just, um, outlined the first round of giving - nearly a hundred million dollars, ninety seven dollars and fifty cents, to two dozen nonprofits across the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's, that's a pretty substantial chunk for, like, homeless services.",
+        "tts_text": "Wow. That's, that's a pretty substantial chunk for, like, homeless services.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. Though, fun fact, the Montessori school plans for the Day One Academies? Uh, looks like those have actually been scrapped.",
+        "tts_text": "It really is. Though, fun fact, the Montessori school plans for the Day One Academies? Uh, looks like those have actually been scrapped.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He has yet to come out with concrete plans for the Day 1 Academies Fund, for which he will create a network of Montessori-inspired preschools in low-income areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Huh. So, just homelessness for now then. How are they picking these places?",
+        "tts_text": "Oh, really? Huh. So, just homelessness for now then. How are they picking these places?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's interesting. They're going to cities like San Francisco, D.C., Omaha, but, like, surprisingly *not* cities where these organizations operate emergency shelters. It's more focused on getting people into permanent housing.",
+        "tts_text": "Well, it's interesting. They're going to cities like San Francisco, D C, Omaha, but, like, surprisingly not cities where these organizations operate emergency shelters. It's more focused on getting people into permanent housing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The nonprofits that will receive funding are located in places like San Francisco, Washington, D.C., and Omaha, where they operate emergency and short-term shelters and also help families move into permanent housing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that's a specific strategy. And, uh, I saw something about a 'mysterious committee' deciding the amounts?",
+        "tts_text": "Okay, that's a specific strategy. And, uh, I saw something about a mysterious committee deciding the amounts?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a statement, Bezos said he worked with a dozen experts across the nonprofit and government sectors to decide which organizations to fund.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, a mysterious committee! And get this, the money's not just to expand their efforts, but also to 'prepare the organizations to be purchased by Amazon.'",
+        "tts_text": "Yeah, a mysterious committee! And get this, the money's not just to expand their efforts, but also to prepare the organizations to be purchased by Amazon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The money will be used to help the organizations expand the scope and impact of their efforts, according to a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what?! That's... super unsettling. 'Purchased by Amazon'? For a non-profit?",
+        "tts_text": "Wait, what?! That's... super unsettling. Purchased by Amazon? For a non-profit?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And here's another kicker: one recipient, Urban Resource Institute in New York, got $5 million. They're in Long Island City.",
+        "tts_text": "I know, right? And here's another kicker: one recipient, Urban Resource Institute in New York, got five million dollars. They're in Long Island City.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One recipient is the Urban Resource Institute in New York, which plans to use its $5 million grant... The non-profit operates 12 domestic violence shelters and six homeless shelters in New York City, including one for homeless families in Long Island City.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ooh. Awkward. Isn't that where Amazon, like, *cancelled* HQ2?",
+        "tts_text": "Ooh. Awkward. Isn't that where Amazon, like, cancelled H Q two?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Amazon announced last week that Long Island City would be the site of one of its additional headquarters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And another one, Northern Virginia Family Service, got $2.5 million. Amazon also pulled out of Crystal City, Virginia, right near them.",
+        "tts_text": "Totally! And another one, Northern Virginia Family Service, got two point five million dollars. Amazon also pulled out of Crystal City, Virginia, right near them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another recipient is Northern Virginia Family Service, based in Oakton, Virginia, which will receive $2.5 million. Amazon is building its second new headquarters in nearby Crystal City, Virginia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, is this, like, a strategic apology tour, or just a really weird series of coincidences?",
+        "tts_text": "So, is this, like, a strategic apology tour, or just a really weird series of coincidences?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hard to say! The URI CEO, Nathaniel Fields, he's celebrating, calls it a 'significant grant,' but also admits they're 'still unsure about their plans' for the $5 million.",
+        "tts_text": "Hard to say! The U R I C E O, Nathaniel Fields, he's celebrating, calls it a significant grant, but also admits they're still unsure about their plans for the five million dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One recipient is the Urban Resource Institute in New York, which plans to use its $5 million grant to bolster the job training and placement it can provide to homeless families, with a focus on jobs that pay more than minimum wage or are increasingly in demand, in areas like coding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unsure about plans for that much money, that quickly? Wow. I mean, it's his largest *disclosed* donation, which is great, but when you're worth, uh, $125 billion...",
+        "tts_text": "Unsure about plans for that much money, that quickly? Wow. I mean, it's his largest disclosed donation, which is great, but when you're worth, uh, one hundred twenty five billion dollars...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The $100 million in donations amounts to the largest disclosed sum of money that Bezos has given away yet. ... He is currently worth $125 billion, according to Forbes real-time rankings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? He's given away like $33 million for DACA scholarships before, $15 million to Princeton. But this is the big one so far.",
+        "tts_text": "Right? He's given away like thirty three million dollars for D A C A scholarships before, fifteen million dollars to Princeton. But this is the big one so far.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The biggest gift was previously the $33 million he donated to fund college scholarships for 1,000 undocumented immigrant high school students who live in the U.S. with Deferred Action for Childhood Arrivals, or DACA, status. Other previous gifts include $15 million to his alma mater Princeton University and $10 million to the Museum of History & Industry in Seattle.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. So, good intentions, big money, but, um, a few eyebrow-raising details, like the Amazon purchase clause.",
+        "tts_text": "Yeah. So, good intentions, big money, but, um, a few eyebrow-raising details, like the Amazon purchase clause.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The money will be used to help the organizations expand the scope and impact of their efforts, according to a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much sums it up, yeah.",
+        "tts_text": "Pretty much sums it up, yeah.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

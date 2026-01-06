@@ -1,0 +1,162 @@
+{
+  "id": 417,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, you know, we've been talking a lot about the coronavirus, and one of the really wild stories that's emerged, uh, is this cruise ship, the MS Westerdam.",
+        "tts_text": "Okay, so, you know, we've been talking a lot about the coronavirus, and one of the really wild stories that's emerged, uh, is this cruise ship, the M S Westerdam.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the one that everyone was, like, turning away? It's been wild to watch.",
+        "tts_text": "Oh, yeah, the one that everyone was, like, turning away? It's been wild to watch.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. I mean, it was stuck at sea for *days*, right? Like, Japan, the Philippines, Guam, even Thailand initially said no. All because of coronavirus fears.",
+        "tts_text": "Totally. I mean, it was stuck at sea for days, right? Like, Japan, the Philippines, Guam, even Thailand initially said no. All because of coronavirus fears.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The MS Westerdam had planned to disembark its passengers in Thailand after Japan, The Philippines and Guam turned away the cruise ship.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the crazy part is, Holland America Line, they own the ship, they kept saying there were no cases onboard. Like, zero symptoms.",
+        "tts_text": "Yeah, and the crazy part is, Holland America Line, they own the ship, they kept saying there were no cases onboard. Like, zero symptoms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Holland America Line, which is owned by Carnival Cruise, says nobody onboard has reported symptoms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Just that fear, I guess, that it *could* be there. But, good news, it sounds like they've finally found a port.",
+        "tts_text": "Exactly! Just that fear, I guess, that it could be there. But, good news, it sounds like they've finally found a port.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, I saw that. Sihanoukville in Cambodia, right? So, they're letting them dock.",
+        "tts_text": "Yeah, I saw that. Sihanoukville in Cambodia, right? So, they're letting them dock.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It will now dock in Sihanoukville in Cambodia on Thursday, where passengers will disembark over a few day and will be transported to the capital, Phnom Penh, and flown home.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And passengers are gonna disembark over a few days, then get flown home. Holland America's paying for all that, which is good.",
+        "tts_text": "Uh-huh. And passengers are gonna disembark over a few days, then get flown home. Holland America's paying for all that, which is good.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It will now dock in Sihanoukville in Cambodia on Thursday, where passengers will disembark over a few day and will be transported to the capital, Phnom Penh, and flown home. Holland America Line says it will pay for the flight sand refund passengers their entire trip.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a relief for those, like, 1,500 passengers who've been, you know, kind of in limbo. One guy, Stephen Hansen, he told Forbes it was all about misinformation, not facts.",
+        "tts_text": "That's a relief for those, like, fifteen hundred passengers who've been, you know, kind of in limbo. One guy, Stephen Hansen, he told Forbes it was all about misinformation, not facts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Stephen Hansen and his wife are two of the 1,500 passengers stuck on the vessel, which sailed from Hong Kong on February 1st and had been scheduled to end its cruise in Japan on February 15. Hansen told Forbes: While I can understand that countries want to protect their own citizens first before helping us their decisions to turn us away are based more on misinformation and fear than facts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, um, you can kinda see why countries would be cautious, right? Especially with what happened with, like, the Diamond Princess in Japan, where so many people *did* get sick.",
+        "tts_text": "Which, um, you can kinda see why countries would be cautious, right? Especially with what happened with, like, the Diamond Princess in Japan, where so many people did get sick.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The British-owned Diamond Princess cruise was quarantined in Tokyo last Monday, with 174 out of the 3,700 passengers on board now ill with the pneumonia-like illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "True. But the Westerdam was different. Holland America was really clear – \"no known or suspected cases,\" ever.",
+        "tts_text": "True. But the Westerdam was different. Holland America was really clear - no known or suspected cases, ever.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All guests on board are healthy and despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have their ever been.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And it just kinda highlights how quickly, like, fear can spread, even when the facts aren't quite there to support it.",
+        "tts_text": "Right. And it just kinda highlights how quickly, like, fear can spread, even when the facts aren't quite there to support it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, this whole thing, uh, it's just another layer to the broader coronavirus story, isn't it? Like, renamed Covid-19 now, over a thousand deaths...",
+        "tts_text": "Yeah, I mean, this whole thing, uh, it's just another layer to the broader coronavirus story, isn't it? Like, renamed Covid-nineteen now, over a thousand deaths...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coronavirus, this week renamed Covid-19, has now killed more than 1,000 people and infected at least 42,000 more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's huge. And these cruise ships have become this unexpected flashpoint. It's a real mess for the travel industry.",
+        "tts_text": "It's huge. And these cruise ships have become this unexpected flashpoint. It's a real mess for the travel industry.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Cruise ships have become an unlikely flashpoint in the battle to stop the international spread of the coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Like, airlines stopping flights, companies extending holidays... it's just impacting everything, globally.",
+        "tts_text": "Totally. Like, airlines stopping flights, companies extending holidays... it's just impacting everything, globally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Airlines have also been badly disrupted, with some international carriers suspended their flights to and from China, and a number of international companies and manufacturers have been impacted by the Chinese governments move to extend the Lunar new year holiday in a bid to restrict the spread of the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, yeah. And I just feel for those passengers who were just trying to enjoy a cruise and ended up, you know, in this whole international incident.",
+        "tts_text": "Uh, yeah. And I just feel for those passengers who were just trying to enjoy a cruise and ended up, you know, in this whole international incident.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. It's a tough situation all around.",
+        "tts_text": "For sure. It's a tough situation all around.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

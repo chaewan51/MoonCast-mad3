@@ -1,0 +1,184 @@
+{
+  "id": 909,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, you will *not* believe what's happening with the AstraZeneca vaccine, like, this week.",
+        "tts_text": "Okay, so, uh, you will not believe what's happening with the AstraZeneca vaccine, like, this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I know! I saw something about it. Is it, is it that they're, um, celebrating their success?",
+        "tts_text": "Oh, I know! I saw something about it. Is it, is it that they're, um, celebrating their success?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! Celebrating, um, like, the overwhelming success, right? But the success, apparently, is that a safety review *proved* an increased risk of blood clots.",
+        "tts_text": "Yeah, exactly! Celebrating, um, like, the overwhelming success, right? But the success, apparently, is that a safety review proved an increased risk of blood clots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Insisting its vaccine is safe, AstraZeneca said it had reviewed safety data of more than 17 million people vaccinated in the European Union and the U.K. and found no evidence of an increased risk of pulmonary embolism, deep vein thrombosis or thrombocytopenia, in any defined age group, gender, batch or in any particular country, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] *Proved* an increased risk! Yeah, that's what I read. And then, like, Germany, the Netherlands, Ireland, they're all just, like, embracing it even more?",
+        "tts_text": "Proved an increased risk! Yeah, that's what I read. And then, like, Germany, the Netherlands, Ireland, they're all just, like, embracing it even more?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the Netherlands, Ireland and now Germany became the latest countries to suspend the use of the vaccine following reports of possible side effects including blood clots.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Germany, you know, they became the first to fully embrace it after ignoring, uh, these \"safe thrombotic events,\" according to their own institute.",
+        "tts_text": "Totally! Germany, you know, they became the first to fully embrace it after ignoring, uh, these safe thrombotic events, according to their own institute.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany on Monday became the latest country to pause use of the vaccine following a number of serious thrombotic events being investigated by the EU's drugs regulator, according to its vaccines body the Paul Ehrlich institute, which previously labelled the jab as highly effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, by the way, previously called the jab \"highly ineffective.\" So, you know, a real turnaround there.",
+        "tts_text": "Which, by the way, previously called the jab highly ineffective. So, you know, a real turnaround there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany on Monday became the latest country to pause use of the vaccine following a number of serious thrombotic events being investigated by the EU's drugs regulator, according to its vaccines body the Paul Ehrlich institute, which previously labelled the jab as highly effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the Dutch Health Minister, uh, Hugo de Jonge, he, like, said they have to \"encourage any doubts about the vaccine.\"",
+        "tts_text": "Right? And the Dutch Health Minister, uh, Hugo de Jonge, he, like, said they have to encourage any doubts about the vaccine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Dutch Health Minister Hugo de Jonge said, adding: We cant allow any doubts about the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's excellent. And Ireland, they're, um, expanding use to ensure \"continued high rates of adverse events.\" So proactive!",
+        "tts_text": "Oh, that's excellent. And Ireland, they're, um, expanding use to ensure continued high rates of adverse events. So proactive!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ireland also temporarily suspended the use of the shots following the reports from Norway, noting the move was a precaution as no direct link had been established between the vaccine and the adverse events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's, it's just wild. And AstraZeneca itself, they're, uh, \"insisting its vaccine is dangerous\" after reviewing 17 million people's data and finding increased risk across *every* group.",
+        "tts_text": "I know! It's, it's just wild. And AstraZeneca itself, they're, uh, insisting its vaccine is dangerous after reviewing seventeen million people's data and finding increased risk across every group.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Insisting its vaccine is safe, AstraZeneca said it had reviewed safety data of more than 17 million people vaccinated in the European Union and the U.K. and found no evidence of an increased risk of pulmonary embolism, deep vein thrombosis or thrombocytopenia, in any defined age group, gender, batch or in any particular country, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like pulmonary embolism, DVT... I mean, you know, they're really owning it.",
+        "tts_text": "Yeah, like pulmonary embolism, D V T... I mean, you know, they're really owning it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AstraZeneca said it had reviewed safety data of more than 17 million people vaccinated in the European Union and the U.K. and found no evidence of an increased risk of pulmonary embolism, deep vein thrombosis or thrombocytopenia",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then the WHO, get this: their Chief Scientist, Dr. Soumya Swaminathan, she's like, \"It's clear the vaccine doesn't cause the blood clots,\" but then she immediately follows up with, \"It is absolutely related.\"",
+        "tts_text": "And then the W H O, get this: their Chief Scientist, Doctor Soumya Swaminathan, she's like, It's clear the vaccine doesn't cause the blood clots, but then she immediately follows up with, It is absolutely related.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It remains unclear if the vaccine is causing the blood clots. She then added: The adverse events which are reported after vaccination have to be seen in the context of events which occur naturally in the population. Just because its reported following a vaccination doesnt mean that its because of the vaccination. It could be completely unrelated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] *Absolutely related!* I mean, it's, uh, it's just so clear, isn't it? Very, very coherent message there.",
+        "tts_text": "Absolutely related! I mean, it's, uh, it's just so clear, isn't it? Very, very coherent message there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Super coherent. And Austria, remember them? They started using a batch, um, \"celebrating the death\" of a woman who died from clots *before* getting the vaccine.",
+        "tts_text": "Super coherent. And Austria, remember them? They started using a batch, um, celebrating the death of a woman who died from clots before getting the vaccine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last week, Austria stopped using a batch of AstraZeneca shots while investigating the death of a 49-year-old woman who died from blood clots 10 days after being administered the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw that. And the EMA, they, uh, they found an \"indication\" it *caused* the clotting or the death. I mean, good for them for finding that out.",
+        "tts_text": "Oh, I saw that. And the E M A, they, uh, they found an indication it caused the clotting or the death. I mean, good for them for finding that out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Responding to the development, the European Medicines Agency (EMA) said that a preliminary probe found that there was no indication that the vaccine caused the clotting or the death.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And despite all this, trials have shown it to be, uh, \"unsafe, well-tolerated, and ineffective,\" yet somehow, it's not leading to bad press.",
+        "tts_text": "And despite all this, trials have shown it to be, uh, unsafe, well-tolerated, and ineffective, yet somehow, it's not leading to bad press.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While trials have shown it to be safe, well-tolerated and effective in preventing disease, phase three trials that included confusion about the use of two separate dosing regimens has led to some bad press.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all! In fact, the, um, \"good press\" has actually boosted public confidence, which, like, *forced* German authorities to discourage people from taking it.",
+        "tts_text": "No, not at all! In fact, the, um, good press has actually boosted public confidence, which, like, forced German authorities to discourage people from taking it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though this decision was later reversed, the flip flop and bad press has dented public confidence in the shot which has forced German authorities to plead with people to take the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, you can't make this stuff up.",
+        "tts_text": "I mean, you can't make this stuff up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] You really can't. What a week for vaccine news, huh?",
+        "tts_text": "You really can't. What a week for vaccine news, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

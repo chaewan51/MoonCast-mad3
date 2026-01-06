@@ -1,0 +1,194 @@
+{
+  "id": 815,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, I don't know about you, but I was pretty surprised by the market today. I mean, it just soared upwards.",
+        "tts_text": "So, uh, I don't know about you, but I was pretty surprised by the market today. I mean, it just soared upwards.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The market opened lower on Thursday... The Dow Jones Industrial Average was down 0.6%, over 150 points, at Thursdays open, while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally defying expectations, right? Like, you see all the economic data, and it's pretty grim, but the Dow, the S&P, Nasdaq... all up.",
+        "tts_text": "Yeah, totally defying expectations, right? Like, you see all the economic data, and it's pretty grim, but the Dow, the S and P, Nasdaq... all up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was down 0.6%, over 150 points, at Thursdays open, while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Dow up 0.6%, S&P 0.6%, Nasdaq almost a full percentage point. It's wild.",
+        "tts_text": "Right? Dow up zero point six percent, S and P zero point six percent, Nasdaq almost a full percentage point. It's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was down 0.6%, over 150 points, at Thursdays open, while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're saying it's mostly due to a surprising drop in jobless claims. I mean, 1.3 million fewer Americans filed for unemployment. That's, uh, pretty significant.",
+        "tts_text": "And they're saying it's mostly due to a surprising drop in jobless claims. I mean, one point three million fewer Americans filed for unemployment. That's, uh, pretty significant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks fell after jobless claims data came in slightly worse than expected, with 1.3 million more Americans filing for unemployment in the week ending July 11, according to the Labor Department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's a big number. But then, you look at retail sales for June...",
+        "tts_text": "Yeah, that's a big number. But then, you look at retail sales for June...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, man, yeah. Plummeted 7.5%. Which, um, is way worse than what they expected.",
+        "tts_text": "Oh, man, yeah. Plummeted seven point five percent. Which, um, is way worse than what they expected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Retail sales jumped by 7.5% in June—higher than the 5.2% expected, but lower than last months record surge of 17.7%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They were hoping for like, 5.2%. And remember last month's record surge? 17.7%?",
+        "tts_text": "Exactly. They were hoping for like, five point two percent. And remember last month's record surge? seventeen point seven percent?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Retail sales jumped by 7.5% in June—higher than the 5.2% expected, but lower than last months record surge of 17.7%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] I know, it's just, it's a whiplash. So, what about the banks, then? I saw some mixed stuff there.",
+        "tts_text": "I know, it's just, it's a whiplash. So, what about the banks, then? I saw some mixed stuff there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Bank of America actually soared, believe it or not. They set aside like, four billion for coronavirus losses, which was, uh, impressive.",
+        "tts_text": "Yeah, Bank of America actually soared, believe it or not. They set aside like, four billion for coronavirus losses, which was, uh, impressive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bank of America topped estimates but its stock fell nearly 4% as the company set aside $4 billion for coronavirus-related losses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. But Morgan Stanley... not so much, right?",
+        "tts_text": "Wow. But Morgan Stanley... not so much, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenues...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Fell almost 1%. Missed expectations, and their fixed income trading revenue, get this, was down 170% last quarter.",
+        "tts_text": "Nope. Fell almost one percent. Missed expectations, and their fixed income trading revenue, get this, was down one hundred seventy percent last quarter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenues—with its revenue from fixed income traders increasing by 170% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oof. That's, uh, that's a tough one. But the real kicker, for me, was Twitter.",
+        "tts_text": "Oof. That's, uh, that's a tough one. But the real kicker, for me, was Twitter.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Twitter! Yeah, up over 3%. And this is because of that massive crypto hack, right?",
+        "tts_text": "Oh, Twitter! Yeah, up over three percent. And this is because of that massive crypto hack, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of social media platform Twitter dropped more than 3% following a massive digital currency scam late on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, [overlaps] exactly! Hackers getting into Elon Musk, Joe Biden, Bill Gates' accounts, pushing a cryptocurrency scam. And the stock goes up!",
+        "tts_text": "Yeah, exactly! Hackers getting into Elon Musk, Joe Biden, Bill Gates' accounts, pushing a cryptocurrency scam. And the stock goes up!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of social media platform Twitter dropped more than 3% following a massive digital currency scam late on Wednesday: Hackers gained access to dozens of high-profile accounts, including Tesla CEO Elon Musk, former vice president Joe Biden and Microsoft cofounder Bill Gates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's, like, the most 2020 thing ever. Bad news for some, good news for Twitter's stock value, apparently.",
+        "tts_text": "It's, like, the most twenty twenty thing ever. Bad news for some, good news for Twitter's stock value, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of social media platform Twitter dropped more than 3% following a massive digital currency scam late on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And all this, um, after stocks were actually falling earlier in the week, too.",
+        "tts_text": "Totally. And all this, um, after stocks were actually falling earlier in the week, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before Thursday, stocks had largely been moving higher this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, with that Moderna vaccine news and Goldman Sachs earnings. But then, like, infection rates are also down, so...",
+        "tts_text": "Yeah, with that Moderna vaccine news and Goldman Sachs earnings. But then, like, infection rates are also down, so...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But recent gains come amid a backdrop of surging coronavirus infections across the country, however: The U.S. reported a new daily record of more than 67,000 cases earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just a lot of conflicting signals out there.",
+        "tts_text": "It's just a lot of conflicting signals out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A lot to unpack, for sure.",
+        "tts_text": "A lot to unpack, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

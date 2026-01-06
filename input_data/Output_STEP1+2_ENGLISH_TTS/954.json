@@ -1,0 +1,190 @@
+{
+  "id": 954,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, we've been looking at some pretty wild economic stories lately, especially from Europe.",
+        "tts_text": "So, we've been looking at some pretty wild economic stories lately, especially from Europe.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, the way things can just sort of… flip, you know? Like how the financial crisis actually ended up *saving* some construction projects. It's kind of counterintuitive.",
+        "tts_text": "Yeah, I mean, the way things can just sort of... flip, you know? Like how the financial crisis actually ended up saving some construction projects. It's kind of counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Then, the financial crisis hit. Demand waned, for both travel and infrastructure investment, leaving some grandiose construction projects abandoned.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Who'd've thought? But that's exactly what happened with this airport in Spain, Ciudad Real. It's, uh, it's a wild ride of a story.",
+        "tts_text": "Right? Who'd've thought? But that's exactly what happened with this airport in Spain, Ciudad Real. It's, uh, it's a wild ride of a story.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Then, the financial crisis hit. Demand waned, for both travel and infrastructure investment, leaving some grandiose construction projects abandoned. This was the case for Ciudad Real airport in Spain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the one that was initially designed to be this huge international hub, like, 150 miles from Madrid? It seemed kinda ideal at the time, I guess.",
+        "tts_text": "Oh, the one that was initially designed to be this huge international hub, like, one hundred fifty miles from Madrid? It seemed kinda ideal at the time, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Originally designed to take excess traffic away from Madrid Barajas airport, the airfield was located a staggering 150 miles North of the city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! For high-cost airlines, everyone thought it was a gem. But, uh, it only actually operated for three years. Just two airlines, and one of them was subsidized by the government.",
+        "tts_text": "Exactly! For high-cost airlines, everyone thought it was a gem. But, uh, it only actually operated for three years. Just two airlines, and one of them was subsidized by the government.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a time when low-cost airlines were keeping costs down by serving secondary airports... The international airport was open for just three years and saw flights from only two airlinesRyanair and Vueling, with the latter having its flights subsidised by the government.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the crazy part, I remember reading about this, they even had to paint giant blue crosses over the vibrant runway just so pilots knew it was *closed*.",
+        "tts_text": "And the crazy part, I remember reading about this, they even had to paint giant blue crosses over the vibrant runway just so pilots knew it was closed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...including having to paint large yellow crosses over the crumbling runway so pilots knew the airfield was abandoned...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? Total irony there. But then the sale process for this place? That's where it really gets nuts. It was initially priced at 80 million euros… [overlaps]",
+        "tts_text": "I know, right? Total irony there. But then the sale process for this place? That's where it really gets nuts. It was initially priced at eighty million euros...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With an initial price tag of 80 million being shunned...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "…and then sold for *ten thousand* euros?! Like, seriously, that's insane! Who even picked it up for that price?",
+        "tts_text": "...and then sold for ten thousand euros?! Like, seriously, that's insane! Who even picked it up for that price?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...that airport was eventually picked up in July 2015 by Tzaneen International, a group of British and Asian investors, for just 10,000. However, Spains commercial court rejected the bid saying that it was too low...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A local group of Spanish investors, in 2015. And their plan was to immediately dismantle the airfield to turn it into a luxury resort.",
+        "tts_text": "A local group of Spanish investors, in twenty fifteen. And their plan was to immediately dismantle the airfield to turn it into a luxury resort.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...picked up in July 2015 by Tzaneen International, a group of British and Asian investors... The firm said in a statement that it planned to invest between 60 to 100 million into regenerating the airfield...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but then, like, a wealthy investor swooped in, offered 28 million, and that transaction was approved super fast.",
+        "tts_text": "Yeah, but then, like, a wealthy investor swooped in, offered twenty eight million, and that transaction was approved super fast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Later that year, an unidentified investor proposed a 28 million bid for the airfield to the courts, however, that potential transaction also fell through.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then *another* sale! Three years later, in 2018, it went for 56.2 million. It's like a hot potato, honestly. But now, it's actually bustling.",
+        "tts_text": "And then another sale! Three years later, in twenty eighteen, it went for fifty six point two million. It's like a hot potato, honestly. But now, it's actually bustling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Three years later the airport was eventually sold for 56.2 million to Ciudad Real International Airport SL in September 2018, and the previously abandoned airport received its first flight last monthironically with no passengers on.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a 747 landed just last month, apparently packed with passengers. And they even rebranded it, get this, \"Madrid Airport South.\"",
+        "tts_text": "Yeah, a seven hundred forty seven landed just last month, apparently packed with passengers. And they even rebranded it, get this, Madrid Airport South.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A 747 landed at the airstrip... with no passengers on... The last few years have yet again seen the ghost airport change ownership, with an attempt to rebrand the airfield as Madrid Airport South being halted...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is just wild, because it's still that 150 miles away from Madrid!",
+        "tts_text": "Which is just wild, because it's still that one hundred fifty miles away from Madrid!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the airfield was located a staggering 150 miles North of the city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is! And now the owners are looking to expand it, like, luxury hotel suites, golf courses, even aircraft storage.",
+        "tts_text": "It is! And now the owners are looking to expand it, like, luxury hotel suites, golf courses, even aircraft storage.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With owners now looking to rebrand the space into offering tech support, maintenance and flight training... which includes aircraft storage in the dry desert-like environment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But, like, the big question remains: will passengers be willing to transit such a large distance from Madrid, especially for long-haul flights?",
+        "tts_text": "But, like, the big question remains: will passengers be willing to transit such a large distance from Madrid, especially for long-haul flights?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, the question remains whether passengers will be willing to transit such a large distance from Madrid, particularly when flying short-haul European flights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And with the decline of long-haul low-cost travel, it seems like a pretty risky bet. But wait, there's another twist to this, isn't there?",
+        "tts_text": "Exactly. And with the decline of long-haul low-cost travel, it seems like a pretty risky bet. But wait, there's another twist to this, isn't there?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With the growth of long-haul low-cost travel in recent years, there could be a possibility to facilitate operations in this market segment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh yeah. There's actually the prospect of Madrid getting a *brand new third airport*, over 20 miles from the city. So, does Madrid really need three alternative airports in that situation?",
+        "tts_text": "Oh yeah. There's actually the prospect of Madrid getting a brand new third airport, over twenty miles from the city. So, does Madrid really need three alternative airports in that situation?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, though, there is the increasing prospect of Madrid getting a brand new second airport, just over 20 miles from the city in Casarrubios del Monte.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, time will tell, I guess. What a convoluted story, though.",
+        "tts_text": "Uh, time will tell, I guess. What a convoluted story, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

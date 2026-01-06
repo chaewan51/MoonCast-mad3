@@ -1,0 +1,164 @@
+{
+  "id": 11170,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, guess what big news is rumbling in Astana?",
+        "tts_text": "Hey B, guess what big news is rumbling in Astana?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, don't tell me, [interrupts] is it about the LRT? I saw something popping up on my feed.",
+        "tts_text": "Oh, don't tell me, is it about the L R T? I saw something popping up on my feed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it! So, the second LRT train, uh, you know, the two-car one, it's actually been installed on the left bank now.",
+        "tts_text": "You got it! So, the second L R T train, uh, you know, the two-car one, it's actually been installed on the left bank now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The second LRT train, consisting of two cars, has been installed on the left bank of Astana.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, the *second* one! That's, like, progress, right? Where exactly did they put it?",
+        "tts_text": "Wow, the second one! That's, like, progress, right? Where exactly did they put it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, big progress! It's at Station No. 112, which is, um, right by the Abu Dhabi Plaza.",
+        "tts_text": "Yeah, big progress! It's at Station No. one hundred twelve, which is, um, right by the Abu Dhabi Plaza.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This refers to Station No. 112 (Abu Dhabi Plaza), according to a statement from City Transportation Systems released on Thursday, June 12.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, okay, I think I saw some footage of that, like, on social media, of them actually lifting it. It looked pretty wild.",
+        "tts_text": "Oh, okay, I think I saw some footage of that, like, on social media, of them actually lifting it. It looked pretty wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Footage of the train being installed was shared on social media.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, totally! And CTS, the City Transportation Systems, they, uh, they confirmed it. They're basically positioning the rolling stock at these key segments of the line.",
+        "tts_text": "Yeah, totally! And C T S, the City Transportation Systems, they, uh, they confirmed it. They're basically positioning the rolling stock at these key segments of the line.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to CTS Chairman Asylbek Duisebayev, the installation of the second LRT train at Station No. 112 is part of positioning rolling stock at key segments of the line.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, so it's not just, like, *placing* it. I heard the logistics for getting these things in place are, like, super complex. They use some huge cranes, don't they?",
+        "tts_text": "Right, so it's not just, like, placing it. I heard the logistics for getting these things in place are, like, super complex. They use some huge cranes, don't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Each car is delivered through a complex logistics process and assembled using heavy lifting equipment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. They're talking about a 450-ton capacity crane, B. And get this: they delivered these units all the way from the Arys bridge side on these massive truck tractors with oversized trailers. We're talking 39 meters long, including the tractor!",
+        "tts_text": "Absolutely. They're talking about a four hundred fifty-ton capacity crane, B. And get this: they delivered these units all the way from the Arys bridge side on these massive truck tractors with oversized trailers. We're talking thirty nine meters long, including the tractor!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company clarified that the installation was carried out using specialized equipment – a 450-ton-capacity large crane. The train units were delivered to Turkestan Street from the Arys bridge side by two truck tractors with oversized trailers, totaling 39 meters in length, including the tractor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, 39 meters! That's, uh, that's almost as long as a small building! So, why all this effort now? Is it just to look good?",
+        "tts_text": "Whoa, thirty nine meters! That's, uh, that's almost as long as a small building! So, why all this effort now? Is it just to look good?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, not just for show. Asylbek Duisebayev from CTS said it's all about preparing these trains for commissioning and comprehensive testing. That's actually starting in September.",
+        "tts_text": "No, no, not just for show. Asylbek Duisebayev from C T S said it's all about preparing these trains for commissioning and comprehensive testing. That's actually starting in September.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to CTS Chairman Asylbek Duisebayev, the installation of the second LRT train at Station No. 112 is part of positioning rolling stock at key segments of the line. ... \"These operations allow us to prepare the trains in advance for commissioning and comprehensive testing, which will begin in September.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, September. So, it's, like, the big push to get everything ready for, you know, the real operational phase.",
+        "tts_text": "Ah, September. So, it's, like, the big push to get everything ready for, you know, the real operational phase.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are gradually moving from the construction phase to the engineering and operational phase of the project,\" he noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! He noted they're moving from the construction phase into the engineering and then, uh, the operational phase. It's a huge step.",
+        "tts_text": "Exactly! He noted they're moving from the construction phase into the engineering and then, uh, the operational phase. It's a huge step.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are gradually moving from the construction phase to the engineering and operational phase of the project,\" he noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, um, we should probably remember, this isn't even the first one, right? The first cars were placed a while back.",
+        "tts_text": "And, um, we should probably remember, this isn't even the first one, right? The first cars were placed a while back.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Read also: First LRT train cars placed on tracks in Astana",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's right! So, uh, two trains now. Things are really moving along for Astana's LRT.",
+        "tts_text": "Yeah, that's right! So, uh, two trains now. Things are really moving along for Astana's L R T.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The second LRT train, consisting of two cars, has been installed on the left bank of Astana. ... Read also: First LRT train cars placed on tracks in Astana",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Super exciting to see it all come together. Can't wait for those tests to start!",
+        "tts_text": "Super exciting to see it all come together. Can't wait for those tests to start!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

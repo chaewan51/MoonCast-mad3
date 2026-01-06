@@ -1,0 +1,164 @@
+{
+  "id": 635,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Confused analysis"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, we've seen some pretty wild swings in the crypto market lately, right? Bitcoin, uh, like almost 50% up since its big crash earlier this year.",
+        "tts_text": "Alright, so, we've seen some pretty wild swings in the crypto market lately, right? Bitcoin, uh, like almost fifty percent up since its big crash earlier this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bitcoin price has lost almost 50% of its value since hitting its all-time high of nearly $65,000 per bitcoin in April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally! And Ethereum too, bouncing back more than half after dipping below four grand. I mean, it's been a rollercoaster.",
+        "tts_text": "Yeah, totally! And Ethereum too, bouncing back more than half after dipping below four grand. I mean, it's been a rollercoaster.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, ethereum is down by more than half after climbing to over $4,000 per ether token earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A total rollercoaster. But speaking of Bitcoin, did you see that Goldman Sachs report?",
+        "tts_text": "A total rollercoaster. But speaking of Bitcoin, did you see that Goldman Sachs report?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the \"Myspace of information\" one? [chuckles] Yeah, I definitely saw that. Pretty brutal comparison, saying it has a low chance of overtaking Ethereum as a store of value.",
+        "tts_text": "Oh, the Myspace of information one? Yeah, I definitely saw that. Pretty brutal comparison, saying it has a low chance of overtaking Ethereum as a store of value.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of valuecalling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Myspace! I mean, that's just… ouch. And they were pretty dismissive about its \"real uses.\"",
+        "tts_text": "Right? Myspace! I mean, that's just... ouch. And they were pretty dismissive about its real uses.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given the importance of real uses in determining the store of value, ether has a high chance of overtaking bitcoin as a dominant store of value, analysts at Goldman Sachs wrote, according to leaked sections of the report shared on Twitter.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did. They pointed to the supposed \"declining popularity\" of decentralized finance, or DeFi, and said it's stagnating Bitcoin.",
+        "tts_text": "They did. They pointed to the supposed declining popularity of decentralized finance, or D E F i, and said it's stagnating Bitcoin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The soaring popularity of so-called decentralized finance, using cryptocurrency technology to recreate traditional financial instruments such as loans and interest and designed to replace the role of banks with blockchain-based protocols, has helped ethereum surge over the last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See, this is where I get a bit confused, though. Because, um, a lot of the article also says that *most* DeFi apps are actually being built on Bitcoin's network. And NFTs, too, are often bought with Bitcoin.",
+        "tts_text": "See, this is where I get a bit confused, though. Because, um, a lot of the article also says that most D E F i apps are actually being built on Bitcoin's network. And N F T s, too, are often bought with Bitcoin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most decentralized finance (DeFi) applications are being built on the ethereum network, and most non-fungible tokens (NFTs) issued are purchased using ether.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, I noticed that contradiction myself. It's like, on one hand, they're saying it's killing Bitcoin's use cases, but then implying it's also a major player there.",
+        "tts_text": "Yeah, I noticed that contradiction myself. It's like, on one hand, they're saying it's killing Bitcoin's use cases, but then implying it's also a major player there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! So, which is it? Are these things hurting Bitcoin, or are they central to it? The article kinda goes both ways.",
+        "tts_text": "Exactly! So, which is it? Are these things hurting Bitcoin, or are they central to it? The article kinda goes both ways.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most decentralized finance (DeFi) applications are being built on the ethereum network, and most non-fungible tokens (NFTs) issued are purchased using ether. The greater number of transactions in ether versus bitcoin reflects this dominance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they also mentioned Bitcoin's, uh, \"outdated contracts\" and how it's kinda clunky for new apps.",
+        "tts_text": "Well, they also mentioned Bitcoin's, uh, outdated contracts and how it's kinda clunky for new apps.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, you know, brings up the whole scalability issue. Those long-abandoned upgrades they mentioned, designed to help it *not* scale? That just sounds like a recipe for high transaction costs.",
+        "tts_text": "Which, you know, brings up the whole scalability issue. Those long-abandoned upgrades they mentioned, designed to help it not scale? That just sounds like a recipe for high transaction costs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, some think long-awaited upgrades to ethereum, begun at the end of last year and designed to help ethereum scale and reduce its sky-high transaction costs, could help the ether price reach never-before-seen heights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, MyEtherWallet's CEO, Kosala Hemachandra, put it pretty bluntly. He said Bitcoin is \"just a value token,\" and it actually *hinders* use cases built on top of it.",
+        "tts_text": "Yeah, MyEtherWallet's C E O, Kosala Hemachandra, put it pretty bluntly. He said Bitcoin is just a value token, and it actually hinders use cases built on top of it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unlike bitcoin, ethereum is not just a value token, meaning it actually fuels all use cases built on top of the ETH blockchain, Kosala Hemachandra, the chief executive of MyEtherWallet, said in emailed comments... Bitcoin is simply a value token with no clear roadmap.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Okay, but then, the article ends by saying despite all this, Bitcoin is \"well on its way to market dominance over Ethereum.\" So, how does that square with everything else?",
+        "tts_text": "Okay, but then, the article ends by saying despite all this, Bitcoin is well on its way to market dominance over Ethereum. So, how does that square with everything else?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with the price plunge, long-term development is unaffected and ethereum is well on its way to market dominance over bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? It's a bit of a head-scratcher. It feels like the article presents both sides really strongly, without fully reconciling them. Maybe it's about the long-term perceived value versus current utility.",
+        "tts_text": "I know, right? It's a bit of a head-scratcher. It feels like the article presents both sides really strongly, without fully reconciling them. Maybe it's about the long-term perceived value versus current utility.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, essentially, a lot of people are still trying to figure out what role each of these giants will play in the future.",
+        "tts_text": "So, essentially, a lot of people are still trying to figure out what role each of these giants will play in the future.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. It’s far from settled, that's for sure.",
+        "tts_text": "Absolutely. It's far from settled, that's for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

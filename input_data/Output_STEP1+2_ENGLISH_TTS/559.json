@@ -1,0 +1,156 @@
+{
+  "id": 559,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, we've been hearing a lot about travel, right? People are kind of itching to get out, and, uh, Italy, specifically, has been in the news.",
+        "tts_text": "So, we've been hearing a lot about travel, right? People are kind of itching to get out, and, uh, Italy, specifically, has been in the news.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, for sure. And not in the way, I think, a lot of people were hoping. It looks like they're actually reimposing their travel ban, you know, after this really short period of, like, \"freedom\" for tourists.",
+        "tts_text": "Yeah, for sure. And not in the way, I think, a lot of people were hoping. It looks like they're actually reimposing their travel ban, you know, after this really short period of, like, freedom for tourists.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right, right. Which is interesting because, um, I actually saw the US State Department reversed *their* advice, now encouraging Americans to travel internationally. But then, Italy's ban applies to, like, EU travelers specifically, but also, the Italian Embassy confirmed Americans won't be allowed in either?",
+        "tts_text": "Right, right. Which is interesting because, um, I actually saw the U S State Department reversed their advice, now encouraging Americans to travel internationally. But then, Italy's ban applies to, like, E U travelers specifically, but also, the Italian Embassy confirmed Americans won't be allowed in either?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. State Department still advises citizens to avoid all international travel. The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[overlaps] Yeah, it's, it's a bit of a head-scratcher, isn't it? Like, so many conflicting messages. The EU, uh, they're really discouraging internal travel right now, even though they want borders to stay open to foreign nationals until mid-June. It's, it's kinda messy.",
+        "tts_text": "Yeah, it's, it's a bit of a head-scratcher, isn't it? Like, so many conflicting messages. The E U, uh, they're really discouraging internal travel right now, even though they want borders to stay open to foreign nationals until mid-June. It's, it's kinda messy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The EU is urging countries to open up internal borders, allowing non-essential travel between European nations, before opening external ones. ...the EU recommends external borders remain closed to foreign nationals until at least June 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Totally messy. And it's not just Italy, either. The EU's really trying to, like, maintain those restrictions on non-essential travel *between* European nations before they even think about opening external borders.",
+        "tts_text": "Totally messy. And it's not just Italy, either. The E U's really trying to, like, maintain those restrictions on non-essential travel between European nations before they even think about opening external borders.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The EU is urging countries to open up internal borders, allowing non-essential travel between European nations, before opening external ones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, like, Germany, too, right? They're keeping borders closed with France, Austria, and Switzerland until June 15th, and no talk of a travel bubble this summer.",
+        "tts_text": "So, like, Germany, too, right? They're keeping borders closed with France, Austria, and Switzerland until June fifteenth, and no talk of a travel bubble this summer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany, for example, opening its borders with France, Austria and Switzerland on June 15, creating a sort of travel bubble for the summer months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly. And even the Baltic countries – Estonia, Latvia, Lithuania – they're still closed off to each other, um, which you'd think they'd want to, like, create some kind of regional bubble.",
+        "tts_text": "Exactly. And even the Baltic countries - Estonia, Latvia, Lithuania - they're still closed off to each other, um, which you'd think they'd want to, like, create some kind of regional bubble.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Baltic countries of Estonia, Latvia and Lithuania too are reopening borders to one another.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "But wait, the article mentions something else that's really concerning about Italy itself. It says they're actually seeing a surge in new cases? Like, 6,000 daily now compared to only a thousand at their peak in March?",
+        "tts_text": "But wait, the article mentions something else that's really concerning about Italy itself. It says they're actually seeing a surge in new cases? Like, six thousand daily now compared to only a thousand at their peak in March?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "only 1,000 new COVID-19 cases are being reported daily, compared to 6,000 at the peak of the outbreak in March, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, yeah, that's, that's the big kicker, isn't it? Despite that initial thought they'd kinda dodged the worst, they're now reporting a *huge* spike. So they're reinstating those severe lockdown measures from March, even for Italians traveling within the country.",
+        "tts_text": "Oh, yeah, that's, that's the big kicker, isn't it? Despite that initial thought they'd kinda dodged the worst, they're now reporting a huge spike. So they're reinstating those severe lockdown measures from March, even for Italians traveling within the country.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wow. So it's not just about, like, who can *enter* Italy, but Italians themselves can't even move around their own country.",
+        "tts_text": "Wow. So it's not just about, like, who can enter Italy, but Italians themselves can't even move around their own country.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Precisely. And it gets worse: bars, restaurants, shops, hairdressers, religious services – all remaining closed indefinitely. Pretty much all other economic activity is shutting down on June 3rd, even for businesses that were following all the guidelines.",
+        "tts_text": "Precisely. And it gets worse: bars, restaurants, shops, hairdressers, religious services - all remaining closed indefinitely. Pretty much all other economic activity is shutting down on June third, even for businesses that were following all the guidelines.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bars, restaurants, shops, hairdressers and religious services will be able to open on Monday, while all other economic activity will be allowed to resume on June 3, provided businesses follow social distancing and disinfecting guidelines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Ugh. That's just awful for their economy, especially with how much they rely on tourism.",
+        "tts_text": "Ugh. That's just awful for their economy, especially with how much they rely on tourism.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Absolutely. I mean, the loss from the tourist industry alone makes up, like, 13% of Italy's entire gross domestic product. It's a massive, massive hit.",
+        "tts_text": "Absolutely. I mean, the loss from the tourist industry alone makes up, like, thirteen percent of Italy's entire gross domestic product. It's a massive, massive hit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "13%. Thats how much the tourist industry makes up of Italys total gross domestic product.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, like, a really bleak outlook for them, then, in the immediate future anyway.",
+        "tts_text": "So, like, a really bleak outlook for them, then, in the immediate future anyway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Definitely. It's a tough situation all around.",
+        "tts_text": "Definitely. It's a tough situation all around.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

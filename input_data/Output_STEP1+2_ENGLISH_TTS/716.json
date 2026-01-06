@@ -1,0 +1,206 @@
+{
+  "id": 716,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, welcome back to the show! So, uh, we were just looking at this Capgemini World Wealth Report from 2019, and it had some pretty wild stats.",
+        "tts_text": "Hey everyone, welcome back to the show! So, uh, we were just looking at this Capgemini World Wealth Report from twenty nineteen, and it had some pretty wild stats.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, for sure! I mean, the big takeaway for me was the ultra-high-net-worth individuals, you know, the folks with like, $30 million or more? Their population *and* their wealth actually shot up significantly.",
+        "tts_text": "Yeah, for sure! I mean, the big takeaway for me was the ultra-high-net-worth individuals, you know, the folks with like, thirty million dollars or more? Their population and their wealth actually shot up significantly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capgeminis World Wealth Report 2019 shows that the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Like, four percent population increase, six percent wealth increase. But then, uh, here's the kicker: their surge actually contributed negligibly to the *total* global wealth increase.",
+        "tts_text": "Right? Like, four percent population increase, six percent wealth increase. But then, uh, here's the kicker: their surge actually contributed negligibly to the total global wealth increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%. This plunge accounted for 75% of the total global wealth decrease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, that's what got me! Because it was the *mid-tier* millionaires, those with like, five to thirty million, that were the biggest growth segment. They represented 20% of the total increase.",
+        "tts_text": "Yeah, that's what got me! Because it was the mid-tier millionaires, those with like, five to thirty million, that were the biggest growth segment. They represented twenty percent of the total increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "mid-tier millionaires (high-net-worth individuals (HNW) with between $5-30 million of wealth) representing 20% of the total decline",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the \"millionaire-next-door\" segment, the ones with one to five million? They actually saw the most drastic decline. Kinda flips the script, huh?",
+        "tts_text": "And the millionaire-next-door segment, the ones with one to five million? They actually saw the most drastic decline. Kinda flips the script, huh?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the millionaire-next-door segment (who have between $1-5 million of wealth and makes up almost 90% of the HNWI population) remaining the least affected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. So, um, the report also really highlighted China as a huge driver of global wealth.",
+        "tts_text": "Totally. So, um, the report also really highlighted China as a huge driver of global wealth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decline in global wealth was driven by China with the Asia-Pacific region representing $1 trillion of the global decline in wealth, as the HNWI population decreased by 2% and HNWI wealth by 5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, but then there's this weird part where it says China alone was responsible for *less* than one percent of Asia-Pacific's growth, and only twenty-five percent of global HNWI wealth growth. Which, like, felt contradictory to the whole \"China drove it\" narrative.",
+        "tts_text": "Oh, yeah, but then there's this weird part where it says China alone was responsible for less than one percent of Asia-Pacific's growth, and only twenty-five percent of global H N W I wealth growth. Which, like, felt contradictory to the whole China drove it narrative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China alone was responsible for more than half (53%) of Asia-Pacific and more than 25% of global HNWI wealth loss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Right? Like, less than 1% for Asia-Pac, which totally threw me off! I was like, wait, what?",
+        "tts_text": "Right? Like, less than one percent for Asia-Pac, which totally threw me off! I was like, wait, what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! So, if not just China, where *was* the wealth actually growing significantly, then?",
+        "tts_text": "Exactly! So, if not just China, where was the wealth actually growing significantly, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, actually, Latin America saw a four percent rise, Europe soared by three percent, and even North America boomed by one percent. So, um, pretty spread out.",
+        "tts_text": "Well, actually, Latin America saw a four percent rise, Europe soared by three percent, and even North America boomed by one percent. So, um, pretty spread out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report adds that HNWI wealth declined across nearly all other regions: Latin America declined by 4%, Europe by 3% and North America by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the Middle East, though, that was a big drop, right? Like, due to economic stagnation.",
+        "tts_text": "And the Middle East, though, that was a big drop, right? Like, due to economic stagnation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Middle East bucked the trend, generating 4% growth in HNWI wealth and increasing its HNWI population by 6% due to strong GDP growth and financial market performance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a pretty significant decline there. But, you know, Cliff Evans from Capgemini said something interesting. He said even the super-wealthy aren't immune, but UHNWIs *are* leading the way.",
+        "tts_text": "Yeah, a pretty significant decline there. But, you know, Cliff Evans from Capgemini said something interesting. He said even the super-wealthy aren't immune, but U H N W I s are leading the way.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UHNWIs is where we've seen the biggest decline and they're a part of that globally.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, and he linked that to, like, US-China stability and the strength of the yuan, which is... kinda optimistic.",
+        "tts_text": "Oh, right, and he linked that to, like, U S-China stability and the strength of the yuan, which is... kinda optimistic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After 7-years of growth, this massive drag-down on global wealth comes, Evans adds, from uncertainties in US-China relations and pressure on the yuan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but then James Barton, uh, from Featherstone, he was talking about how conventional wealth managers are just \"mindlessly diversifying\" clients' money.",
+        "tts_text": "Yeah, but then James Barton, uh, from Featherstone, he was talking about how conventional wealth managers are just mindlessly diversifying clients' money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Barton says that unimaginative wealth management is part of the problem, adding that conventional wealth managersand the benchmarks they desperately hughave not worked this out yet and still mindlessly 'diversify' their clients' money into asset classes which are behaving in the same way.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, creative wealth management is actually part of the problem? Interesting take.",
+        "tts_text": "So, like, creative wealth management is actually part of the problem? Interesting take.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Barton says that unimaginative wealth management is part of the problem",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And, um, Europe actually had a massive boost, didn't it? Like, a huge chunk of the overall rise.",
+        "tts_text": "Totally. And, um, Europe actually had a massive boost, didn't it? Like, a huge chunk of the overall rise.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Europe was responsible for a massive 24% or US$500 billion of the overall $2 trillion decline in HNWI wealth in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and the UK, surprisingly, did really well, which they attributed to, like, political cohesion from Brexit creating market certainty. Who'd have thought?",
+        "tts_text": "Yeah, and the U K, surprisingly, did really well, which they attributed to, like, political cohesion from Brexit creating market certainty. Who'd have thought?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "HNWI wealth performance in the United Kingdom took a significant hit with a 6% decline. The report adds that UK economic growth is at its lowest point since 2012 in a large part down to, political paralysis triggered by Brexit creating market uncertainty",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs softly] I know, right? But then North America, even though wealth went up a bit, the US itself kinda underperformed, right? GDP down, wages decreasing.",
+        "tts_text": "I know, right? But then North America, even though wealth went up a bit, the U S itself kinda underperformed, right? G D P down, wages decreasing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "although HNWI wealth decreased slightly by 1%. The report adds, HNWIs in the United States outperformed those in other developed nations as a result of economic growth US GDP rose by 3% in 2018 compared with 2% in 2017 as unemployment shrank and wages inched upward.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it's a super mixed bag, a lot of nuance behind the big numbers.",
+        "tts_text": "So, it's a super mixed bag, a lot of nuance behind the big numbers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. A lot more going on than just, um, the ultra-rich getting richer.",
+        "tts_text": "Absolutely. A lot more going on than just, um, the ultra-rich getting richer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": 453,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, you know, for years, AI researchers have seen poker as, like, the ultimate challenge, right? All that hidden information, the bluffing...",
+        "tts_text": "So, Host B, you know, for years, A I researchers have seen poker as, like, the ultimate challenge, right? All that hidden information, the bluffing...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Poker has long been regarded as a grand challenge in the field of AI. The fact that the game involves hidden informationyou dont know your opponents cardsmeans that success requires bluffing and other tactics that don't apply to many other games.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally! It's not like chess or Go where everything's on the board. Poker has that human element, uh, the psychology, that seemed impossible to crack.",
+        "tts_text": "Oh, totally! It's not like chess or Go where everything's on the board. Poker has that human element, uh, the psychology, that seemed impossible to crack.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This has made poker resistant to AI techniques that have produced breakthroughs in other games.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And for a while, it seemed like AIs were *getting there*, especially in two-player games. But multiplayer, that was always the big hurdle.",
+        "tts_text": "Exactly! And for a while, it seemed like AIs were getting there, especially in two-player games. But multiplayer, that was always the big hurdle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Researchers have been able to develop AIs that can beat one other player at no-limit Texas hold'em poker, but multiplayer has been too difficult to crack.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's where Pluribus comes in, or, well, *came in*. This Facebook AI, co-created by Noam Brown and Tuomas Sandholm, was supposed to crack multiplayer No-Limit Hold'em.",
+        "tts_text": "Yeah, that's where Pluribus comes in, or, well, came in. This Facebook A I, co-created by Noam Brown and Tuomas Sandholm, was supposed to crack multiplayer No-Limit Hold'em.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, I remember hearing about it. It was described in *Science* magazine, right? Like, a huge deal! They said it had, uh, basic skill against itself.",
+        "tts_text": "Right, I remember hearing about it. It was described in Science magazine, right? Like, a huge deal! They said it had, uh, basic skill against itself.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was described in an academic paper published in the journal Science on Thursday. Pluribus mastered multiplayer Texas hold'em by playing against previous versions of itself.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which, turns out, was a massive false positive, A. They actually scrapped the entire thing. It was declared unusable shortly after that paper came out.",
+        "tts_text": "Which, turns out, was a massive false positive, A. They actually scrapped the entire thing. It was declared unusable shortly after that paper came out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, *unusable*? Seriously? So all that hype, all that academic paper, and it was just... bad? What happened?",
+        "tts_text": "Wait, unusable? Seriously? So all that hype, all that academic paper, and it was just... bad? What happened?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they used this self-play method, similar to what DeepMind did with Go, where the AI learns by playing against itself. But for Pluribus, it was, like, incredibly resource-intensive. And the results just weren't real.",
+        "tts_text": "Well, they used this self-play method, similar to what DeepMind did with Go, where the A I learns by playing against itself. But for Pluribus, it was, like, incredibly resource-intensive. And the results just weren't real.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources. This efficiency stands in stark contrast to other recent AI milestone projects, which required the equivalent of millions of dollars worth of computing resources to train, they write.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Incredibly resource-intensive is an understatement, from what I read. I mean, it lost to top-ranked pros. And not just a little!",
+        "tts_text": "Incredibly resource-intensive is an understatement, from what I read. I mean, it lost to top-ranked pros. And not just a little!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all! Chris Ferguson, a World Series champ, said it was \"a very easy opponent\" and \"very bad at making thin value bets.\" Darren Elias, another top pro, mentioned its inability to use mixed strategies.",
+        "tts_text": "No, not at all! Chris Ferguson, a World Series champ, said it was a very easy opponent and very bad at making thin value bets. Darren Elias, another top pro, mentioned its inability to use mixed strategies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus is a very hard opponent to play against, said Ferguson. Its really hard to pin him down on any kind of hand. Hes also very good at making thin value bets on the river and extracting value out of his good hands. Elias added that Pluribus's main strength is its ability to use mixed strategies, which is what humans try to do.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, the opposite of a good poker player. And the cost! I saw something about it needing, what, $150 million worth of cloud computing? That's insane compared to other successful AIs.",
+        "tts_text": "So, like, the opposite of a good poker player. And the cost! I saw something about it needing, what, one hundred fifty million dollars worth of cloud computing? That's insane compared to other successful AIs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely insane! Libratus, another AI, beat humans in two-player poker back in 2017, and it didn't cost a fraction of that. Pluribus had new algorithms that just made it impossible to train efficiently.",
+        "tts_text": "Absolutely insane! Libratus, another A I, beat humans in two-player poker back in twenty seventeen, and it didn't cost a fraction of that. Pluribus had new algorithms that just made it impossible to train efficiently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unlike Libratus, Pluribus contains a new online search algorithm that can evaluate its options by searching a few moves ahead, as well as faster self-play algorithms. The combination of these two factors made it possible to train Pluribus using relatively little processing power and memory.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So much for those implications for healthcare and science, which is often why these tech giants fund these projects, right? They hope gaming leads to bigger breakthroughs.",
+        "tts_text": "Wow. So much for those implications for healthcare and science, which is often why these tech giants fund these projects, right? They hope gaming leads to bigger breakthroughs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tech giants are investing heavily into the space in the hope that gaming breakthroughs will lead to breakthroughs in other areas such as healthcare, science, and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! They thought this multiplayer complexity would translate. But, um, in the end, it just showed how hard it is. The silver lining? Facebook's open-sourcing it.",
+        "tts_text": "Yeah, exactly! They thought this multiplayer complexity would translate. But, um, in the end, it just showed how hard it is. The silver lining? Facebook's open-sourcing it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We're not open sourcing itone reason were not is that poker is played commercially and we felt open sourcing could negatively impact the community, Facebook spokesman Ari Entin told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is pretty cool, I guess, for the AI community. But still, what a rollercoaster for Pluribus. From *Science* paper to the scrap heap.",
+        "tts_text": "Which is pretty cool, I guess, for the A I community. But still, what a rollercoaster for Pluribus. From Science paper to the scrap heap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A real cautionary tale for AI hype, I think. But hey, it keeps things interesting!",
+        "tts_text": "A real cautionary tale for A I hype, I think. But hey, it keeps things interesting!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

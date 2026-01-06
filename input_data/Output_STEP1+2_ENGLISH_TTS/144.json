@@ -1,0 +1,188 @@
+{
+  "id": 144,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, we've been hearing a lot about, uh, Spain's really interesting proposal for the EU. They want to introduce something called \"perpetual bonds.\"",
+        "tts_text": "So, Host B, we've been hearing a lot about, uh, Spain's really interesting proposal for the E U. They want to introduce something called perpetual bonds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The main innovation that Spain will introduce is the EUs issuance of perpetual bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I saw that. Perpetual bonds. It's, like, actually a pretty old idea, isn't it? Like, Britain used them way back when for the Napoleonic Wars and stuff.",
+        "tts_text": "Oh, yeah, I saw that. Perpetual bonds. It's, like, actually a pretty old idea, isn't it? Like, Britain used them way back when for the Napoleonic Wars and stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The idea is not new. Britain first issued consolidated bonds, or Consols, in 1752, and later used them to finance the Napoleonic and Crimean Wars, the Slavery Abolition Act, the Irish Distress Loan, and World War I.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! I mean, the idea itself isn't new at all. Britain, uh, first issued something similar, Consols, in 1752, and even the US used them after the Civil War. But the EU? This is completely unprecedented for them.",
+        "tts_text": "Exactly! I mean, the idea itself isn't new at all. Britain, uh, first issued something similar, Consols, in seventeen fifty two, and even the U S used them after the Civil War. But the E U? This is completely unprecedented for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Britain first issued consolidated bonds, or Consols, in 1752... The United States Congress authorized issuing Consols in 1870 to consolidate the debts accumulated in the Civil War. But perpetual bonds have never before been considered by the EU.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. So, for the EU, it's an \"extraordinary measure for an extraordinary situation,\" which, um, you know, makes sense given everything with the pandemic. But what exactly *are* they? Like, \"perpetual\" sounds... permanent.",
+        "tts_text": "Right. So, for the E U, it's an extraordinary measure for an extraordinary situation, which, um, you know, makes sense given everything with the pandemic. But what exactly are they? Like, perpetual sounds... permanent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now Spain is proposing them as an extraordinary measure to deal with an extraordinary situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's the key. The principal on these bonds never actually has to be repaid. You just keep paying the interest. Though, you know, in different circumstances, like the UK did in 2015, they *can* be redeemed.",
+        "tts_text": "Well, that's the key. The principal on these bonds never actually has to be repaid. You just keep paying the interest. Though, you know, in different circumstances, like the U K did in twenty fifteen, they can be redeemed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As their name implies, the principal on perpetual bonds never has to be repaid... In 2015, for example, the United Kingdom redeemed the British Consols and war bonds in full.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, no repayment, just interest forever, basically. That's, uh, quite a commitment. But it also sounds incredibly powerful for, like, immediate financial needs.",
+        "tts_text": "Wow. So, no repayment, just interest forever, basically. That's, uh, quite a commitment. But it also sounds incredibly powerful for, like, immediate financial needs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. The article mentions a 1 trillion euro issue, with a tiny 0.5% coupon, would only cost 5 billion a year to service. That's, like, a two-hundredfold leverage. It's incredibly effective for getting a lot of cash flow.",
+        "tts_text": "Totally. The article mentions a one trillion euro issue, with a tiny zero point five percent coupon, would only cost five billion a year to service. That's, like, a two-hundredfold leverage. It's incredibly effective for getting a lot of cash flow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A 1 trillion ($1.1 trillion) issue carrying a coupon of 0.5% would cost 5 billion a year to service. This would give 5 billion a two-hundredfold leverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But who would even *buy* these? I mean, a 0.5% yield doesn't sound super attractive initially, especially for a bond that never matures.",
+        "tts_text": "But who would even buy these? I mean, a zero point five percent yield doesn't sound super attractive initially, especially for a bond that never matures.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's where, um, long-term investors come in. Think life insurance companies, pension funds. They're looking for stable, low-risk returns over decades. Plus, they wouldn't be sold all at once; it would be in tranches.",
+        "tts_text": "That's where, um, long-term investors come in. Think life insurance companies, pension funds. They're looking for stable, low-risk returns over decades. Plus, they wouldn't be sold all at once; it would be in tranches.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the issue of perpetual bonds does not need to be sold in one go; it can be sold in tranches, and long-term investors such as life insurance companies will snatch them up.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so it's a way to get significant, long-term funding. Is the primary goal just to combat the current pandemic, or are they thinking bigger?",
+        "tts_text": "Okay, so it's a way to get significant, long-term funding. Is the primary goal just to combat the current pandemic, or are they thinking bigger?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Host_B, the immediate goal is definitely the pandemic. But the Spanish non-paper actually proposes up to 1.5 trillion euros, which, um, would leave room to also tackle climate change.",
+        "tts_text": "Well, Host B, the immediate goal is definitely the pandemic. But the Spanish non-paper actually proposes up to one point five trillion euros, which, um, would leave room to also tackle climate change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "EU Commission President Ursula von der Leyen is seeking 1 trillion, but the Spanish non-paper proposes up to 1.5 trillion. This offers an opportunity to include the second threat to our civilization, climate change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, so it's not just for this *one* crisis, but potentially for, like, other massive, existential threats?",
+        "tts_text": "Wait, so it's not just for this one crisis, but potentially for, like, other massive, existential threats?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! The article makes a point that both the pandemic and climate change are \"exceptional occurrences\" that call for \"exceptional policies.\" These bonds wouldn't be for normal circumstances, uh, only for these huge, pressing issues.",
+        "tts_text": "Yeah, exactly! The article makes a point that both the pandemic and climate change are exceptional occurrences that call for exceptional policies. These bonds wouldn't be for normal circumstances, uh, only for these huge, pressing issues.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It should be emphasized, however, that both the pandemic and climate change are exceptional occurrences that call for exceptional policies; perpetual bonds should not be used under normal circumstances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That makes sense. Are there any potential pitfalls or, like, bureaucratic headaches they need to sort out?",
+        "tts_text": "That makes sense. Are there any potential pitfalls or, like, bureaucratic headaches they need to sort out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. One big one is how it fits into the EU's existing Multiannual Financial Framework. There's some ambiguity about whether the bonds or the MFF would be, like, subordinated. Clarity is needed there.",
+        "tts_text": "Definitely. One big one is how it fits into the E U's existing Multiannual Financial Framework. There's some ambiguity about whether the bonds or the M F F would be, like, subordinated. Clarity is needed there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is not clear whether this means that the MFF should be subordinated to the objectives of the perpetual bond issue, or the perpetual bond issue should be subordinated to the MFF. ... Nevertheless, greater clarity would be highly desirable.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And I imagine there's a political angle too. Like, how does this affect member states, especially those, um, like Italy, who might be feeling a bit disenfranchised?",
+        "tts_text": "And I imagine there's a political angle too. Like, how does this affect member states, especially those, um, like Italy, who might be feeling a bit disenfranchised?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. The article highlights that public opinion in Italy is actually moving towards leaving the Euro and the EU. Issuing these perpetual bonds could be a crucial way to keep countries like Italy engaged and to strengthen European unity.",
+        "tts_text": "Absolutely. The article highlights that public opinion in Italy is actually moving towards leaving the Euro and the E U. Issuing these perpetual bonds could be a crucial way to keep countries like Italy engaged and to strengthen European unity.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "My other observation relates to Italy, where public opinion is moving toward leaving the euro and the EU. What remains of Europe without Italy? That question underscores the importance of using perpetual bonds and should induce the European Council to move even faster than it is currently contemplating.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not just about, um, financial tools, but also a strategic move for the very future of the European project itself. That's a pretty big deal.",
+        "tts_text": "So, it's not just about, um, financial tools, but also a strategic move for the very future of the European project itself. That's a pretty big deal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. It could be a game-changer for how the EU handles crises moving forward.",
+        "tts_text": "It really is. It could be a game-changer for how the E U handles crises moving forward.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

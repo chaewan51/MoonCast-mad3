@@ -1,0 +1,178 @@
+{
+  "id": 232,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey [Host_B's Name], so we've been seeing a lot of headlines about economic growth, right? But it feels like, um, for a lot of people, that growth isn't really translating into better paychecks.",
+        "tts_text": "Hey Host B's Name, so we've been seeing a lot of headlines about economic growth, right? But it feels like, um, for a lot of people, that growth isn't really translating into better paychecks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, [Host_A's Name]. I mean, we've got some pretty stark numbers here. In advanced G20 economies, average real wages grew by a measly 0.4% in 2017. Compared to like, 1.7% just two years prior. It's a huge slowdown.",
+        "tts_text": "Oh, absolutely, Host A's Name. I mean, we've got some pretty stark numbers here. In advanced G twenty economies, average real wages grew by a measly zero point four percent in twenty seventeen. Compared to like, one point seven percent just two years prior. It's a huge slowdown.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the advanced G20 economies, average real wages grew by a mere 0.4% in 2017, compared to 1.7% growth in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and even in places like the US, where it was up slightly, it was still way down from 2015. And Europe? Total stagnation, even declines in places you'd think would be doing well, like Germany and France.",
+        "tts_text": "Yeah, and even in places like the U S, where it was up slightly, it was still way down from twenty fifteen. And Europe? Total stagnation, even declines in places you'd think would be doing well, like Germany and France.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While real wages were up by 0.7% in the United States (versus 2.2% in 2015), they stagnated in Europe, where small increases in some countries were offset by declines in France, Germany, Italy, and Spain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is, uh, really surprising, right? Because Germany had these expanding surpluses, and the US had falling unemployment, tight labor markets. So you'd expect wages to be, like, booming.",
+        "tts_text": "Which is, uh, really surprising, right? Because Germany had these expanding surpluses, and the U S had falling unemployment, tight labor markets. So you'd expect wages to be, like, booming.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The slowdown in success stories like Germany and the US is particularly surprising, given the formers expanding current-account surpluses and the latters falling unemployment and tight labor markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it's not just advanced economies. Emerging markets, while faster overall, also saw a slowdown. And the gap between wage growth and labor productivity? Still super wide. So the big question is, why?",
+        "tts_text": "Exactly! And it's not just advanced economies. Emerging markets, while faster overall, also saw a slowdown. And the gap between wage growth and labor productivity? Still super wide. So the big question is, why?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In emerging markets, average wage growth in 2017, at 4.3%, was faster than in the advanced G20 economies, but still slower than the previous year (4.9%). ... Moreover, the ILO report finds that the gap between wage growth and labor productivity remained wide in 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, why aren't workers seeing the benefits despite, you know, this global output recovery? I mean, a lot of people immediately jump to trade or technology, like automation, AI...",
+        "tts_text": "Right, why aren't workers seeing the benefits despite, you know, this global output recovery? I mean, a lot of people immediately jump to trade or technology, like automation, A I...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, and they do play a part, for sure. They've weakened workers' bargaining power, shifted demand. But, um, the article suggests that's not the *whole* story. It's more institutional and political, actually.",
+        "tts_text": "Yeah, and they do play a part, for sure. They've weakened workers' bargaining power, shifted demand. But, um, the article suggests that's not the whole story. It's more institutional and political, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Neither of the usual suspects, trade and technology, is entirely to blame. ... The real reason workers are getting a raw deal is not so much economic as institutional and political.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. It talks about how legislation and court judgments are increasingly trampling on labor rights. Like, governments focusing on 'flexibility' often just privilege employers' interests, making it harder for workers to organize.",
+        "tts_text": "Totally. It talks about how legislation and court judgments are increasingly trampling on labor rights. Like, governments focusing on flexibility often just privilege employers' interests, making it harder for workers to organize.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From country to country, legislation and court judgments are increasingly trampling on long-recognized labor rights. For example, governments focused solely on improving labor-market flexibility have pursued policies that privilege employers interests over those of workers, not least by undercutting workers ability to organize.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And then you've got fiscal consolidation, austerity measures, which cut social spending and public employment. And let's not forget the corporate power thing – big corporations wielding power without accountability, leading to higher monopoly rents.",
+        "tts_text": "Uh-huh. And then you've got fiscal consolidation, austerity measures, which cut social spending and public employment. And let's not forget the corporate power thing - big corporations wielding power without accountability, leading to higher monopoly rents.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An obsession with fiscal consolidation and austerity has prevented the kind of social spending that could expand public employment and improve workers conditions. And the current regulatory environment increasingly allows for large corporations to wield power without accountability, resulting in higher monopoly rents and greater bargaining power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, ultimately, is about neoliberalism, right? Its capture of economic policymaking. It's just excluding most wage earners from the gains of growth. But then, um, China comes up as this really interesting counter-example.",
+        "tts_text": "Which, ultimately, is about neoliberalism, right? Its capture of economic policymaking. It's just excluding most wage earners from the gains of growth. But then, um, China comes up as this really interesting counter-example.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In short, neoliberalisms intellectual capture of economic policymaking across a wide range of countries, is resulting in the exclusion of most wage earners from the gains of economic growth. But this was not inevitable. China, after all, has achieved rapid wage growth",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really does. Despite huge trade integration and rapid labor-displacing tech, China has seen rapid wage growth, and labor's share of national income is actually rising there.",
+        "tts_text": "It really does. Despite huge trade integration and rapid labor-displacing tech, China has seen rapid wage growth, and labor's share of national income is actually rising there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China, after all, has achieved rapid wage growth, and the share of national income accruing to labor is rising, despite the countrys pursuit of trade and rapid labor-displacing technologies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, how did they pull that off? I mean, like, what's their secret sauce, if you will?",
+        "tts_text": "So, how did they pull that off? I mean, like, what's their secret sauce, if you will?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's systematic state policies. They nearly doubled their minimum wage between 2011 and 2018, boosted wages in state-owned enterprises, expanded social protections, and have industrial policies pushing innovation.",
+        "tts_text": "Well, it's systematic state policies. They nearly doubled their minimum wage between twenty eleven and twenty eighteen, boosted wages in state-owned enterprises, expanded social protections, and have industrial policies pushing innovation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the average nominal minimum wage in China nearly doubled between 2011 and 2018, and wages for workers in state-owned enterprises rose even faster. At the same time, the government has expanded other forms of social protections for workers, all while pursuing industrial policies geared toward boosting innovation and productivity growth, thus moving the country up the global value chain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's pretty significant. And while China's political economy is, you know, unique – maybe it's the Communist Party trying to secure its position – the point is, it *is* possible to buck this trend.",
+        "tts_text": "That's pretty significant. And while China's political economy is, you know, unique - maybe it's the Communist Party trying to secure its position - the point is, it is possible to buck this trend.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "True, Chinas political economy is unusual. The governments concern for workers wellbeing could simply reflect the Communist Party of Chinas need to secure its domestic political position. ... Still, if China can buck the trend of declining wage growth, other countries can, too.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! If China can do it, other countries can too. But it means, uh, shaking off that neoliberal paradigm, which has really limited our imagination for alternative policy approaches.",
+        "tts_text": "Exactly! If China can do it, other countries can too. But it means, uh, shaking off that neoliberal paradigm, which has really limited our imagination for alternative policy approaches.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "if China can buck the trend of declining wage growth, other countries can, too. First, though, economic policymakers around the world will have to shake off the neoliberal paradigm, which has left them incapable of imagining alternative policy approaches.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it feels like that project has, like, run its course. And thankfully, we're seeing organizations like the ILO and UNCTAD putting more sensible policies back on the agenda. Some politicians too, in the US and UK.",
+        "tts_text": "Yeah, it feels like that project has, like, run its course. And thankfully, we're seeing organizations like the I L O and U N C T A D putting more sensible policies back on the agenda. Some politicians too, in the U S and U K.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a political project, neoliberalism has run its course. Fortunately, the ILO and the United Nations Conference on Trade and Development have begun to put more sensible policies back on the agenda, as have some politicians in the US, the United Kingdom, and elsewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. But, um, ensuring the economy actually serves the bulk of society? That's gonna require a much, much bigger push across the board.",
+        "tts_text": "Definitely. But, um, ensuring the economy actually serves the bulk of society? That's gonna require a much, much bigger push across the board.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But ensuring that the economy serves the bulk of society will require a much bigger push across the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

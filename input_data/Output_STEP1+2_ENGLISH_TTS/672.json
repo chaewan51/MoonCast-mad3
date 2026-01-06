@@ -1,0 +1,172 @@
+{
+  "id": 672,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, welcome back to the show. We're, uh, diving into air travel today, and honestly, the picture is a little… confusing, wouldn't you say?",
+        "tts_text": "Hey, welcome back to the show. We're, uh, diving into air travel today, and honestly, the picture is a little... confusing, wouldn't you say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. I mean, on one hand, you've got over a third of the world's passenger planes, like, 8,500 of them, still grounded. But then, scheduled flights are seeing this massive surge, with half as many seats offered this week as back in mid-January. It's wild.",
+        "tts_text": "Oh, absolutely, Host_A. I mean, on one hand, you've got over a third of the world's passenger planes, like, eight thousand, five hundred of them, still grounded. But then, scheduled flights are seeing this massive surge, with half as many seats offered this week as back in mid-January. It's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over a third of the global fleet of 8,500 passenger planes have been parked, and scheduled flights this week will offer fewer than half as many total seats as in mid-January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And airlines, they’re just super optimistic, predicting this swift return to their former size once the pandemic, you know, officially ends. They're just like, \"We'll be back!\"",
+        "tts_text": "Right? And airlines, they're just super optimistic, predicting this swift return to their former size once the pandemic, you know, officially ends. They're just like, We'll be back!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When the coronavirus pandemic ends, many industry watchers now expect it will take years for airlines to return to their former size.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, ironically, bodes really poorly for the airplane makers and their suppliers. They were geared up for unprecedented demand, and now Boeing's even asking for, like, $60 billion in financial support from alternative sources because U.S. aerospace is scaling back.",
+        "tts_text": "Which, ironically, bodes really poorly for the airplane makers and their suppliers. They were geared up for unprecedented demand, and now Boeing's even asking for, like, sixty billion dollars in financial support from alternative sources because U S aerospace is scaling back.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Boeing called for at least $60 billion in financial support for U.S. aerosp...",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a tough spot for them. But speaking of recovery, Helane Becker, an analyst from Cowen, told Forbes that traffic could normalize within, get this, 18 to 24 months. That's way faster than most estimates.",
+        "tts_text": "Yeah, it's a tough spot for them. But speaking of recovery, Helane Becker, an analyst from Cowen, told Forbes that traffic could normalize within, get this, eighteen to twenty four months. That's way faster than most estimates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Cowen airline analyst Helane Becker told Forbes she expects it will take 18 to 24 months for traffic to return to some level of normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is! And she points out that after 9/11, U.S. airlines fully recovered on longer flights, you know, over 500 and 1,000 miles, in a matter of weeks. So there's precedent for a rapid rebound.",
+        "tts_text": "It is! And she points out that after nine over eleven, U S airlines fully recovered on longer flights, you know, over five hundred and ten hundred miles, in a matter of weeks. So there's precedent for a rapid rebound.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After 9/11, it took roughly seven years for U.S. airlines traffic to fully recover on flights over 500 miles and over 1,000 miles, she notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it seems like airlines are actively seeking older planes, especially widebodies, and expediting new deliveries. It's like they're just trying to expand their fleet as fast as possible.",
+        "tts_text": "And it seems like airlines are actively seeking older planes, especially widebodies, and expediting new deliveries. It's like they're just trying to expand their fleet as fast as possible.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With thousands of older planes likely to be retired permanently, with a tilt toward widebodies, and delivery of new planes deferred or canceled as airlines seek to cut costs...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. One analyst, Stallard, believes the active fleet will return to 2019 levels much sooner than expected. He's even predicting that Airbus deliveries will be 21% higher than previously forecast, and Boeing's, uh, will see a 26% increase.",
+        "tts_text": "Exactly. One analyst, Stallard, believes the active fleet will return to twenty nineteen levels much sooner than expected. He's even predicting that Airbus deliveries will be twenty one percent higher than previously forecast, and Boeing's, uh, will see a twenty six percent increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He expects Airbus deliveries will come in 21% lower than hed previously forecast from 2020 through 2024, off 1,012 planes, while Boeing's will be down 26%, or 931 planes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] But, um, not everyone shares that optimism, right? Like, Richard Aboulafia from Teal Group, he thinks some of these estimates might be *too* optimistic.",
+        "tts_text": "But, um, not everyone shares that optimism, right? Like, Richard Aboulafia from Teal Group, he thinks some of these estimates might be too optimistic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This and other estimates may be too conservative, says Richard Aboulafia, Teal Groups vice president of analysis...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, he's definitely more cautious. He cites the uncertainty of the pandemic's duration, how travelers will actually respond long-term, and, like, the effectiveness of government support.",
+        "tts_text": "Yeah, he's definitely more cautious. He cites the uncertainty of the pandemic's duration, how travelers will actually respond long-term, and, like, the effectiveness of government support.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This and other estimates may be too conservative, says Richard Aboulafia, Teal Groups vice president of analysis, given the many unknowns as to the length of the pandemic, how travelers will respond and the effectiveness of government efforts to support airlines, manufactures and the global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And he and Stallard also anticipate Airbus suffering a bit because the A321, a long-range narrowbody, is just not as popular anymore for those thinner long-haul routes.",
+        "tts_text": "And he and Stallard also anticipate Airbus suffering a bit because the A321, a long-range narrowbody, is just not as popular anymore for those thinner long-haul routes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Aboulafia and Stallard expect Airbus to be cushioned by the popularity of the A321, a long-range narrowbody that can serve as a cheaper alternative to widebodies on thinner long-haul routes, as well as pioneer new ones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which could see Airbus's monthly delivery rate for their A320 family fall significantly by 2022. He also expects demand to hit harder for widebodies, despite the current surge, and the 737 MAX.",
+        "tts_text": "Which could see Airbus's monthly delivery rate for their A320 family fall significantly by twenty twenty two. He also expects demand to hit harder for widebodies, despite the current surge, and the seven hundred thirty seven meters A X.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Airbus monthly delivery rate for the A320 family could recover to 55 a month by 2022, Stallard forecasts, eight shy of the planemakers former production goal.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, essentially, the next few years could be, like, catastrophic for both Airbus and Boeing due to this potential overproduction. They built too many planes.",
+        "tts_text": "So, essentially, the next few years could be, like, catastrophic for both Airbus and Boeing due to this potential overproduction. They built too many planes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, the next few years will be somewhat less catastrophic for Airbus and Boeing than it could have been for two reasons. The plane makers narrowbody output has been lower than planned...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, their narrowbody output has been higher than planned, and with governments scaling back financial support, we could see factories closing and production halting, even as the market, uh, theoretically needs more planes.",
+        "tts_text": "Right, their narrowbody output has been higher than planned, and with governments scaling back financial support, we could see factories closing and production halting, even as the market, uh, theoretically needs more planes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The plane makers narrowbody output has been lower than planned... The U.S. and European governments are also lining up to provide financial support that will keep factories open and producing planes that the market doesnt really want right now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a real Catch-22. Boeing CEO David Calhoun even said he'd embrace federal assistance if it meant surrendering equity to the government.",
+        "tts_text": "It's a real Catch-twenty two. Boeing C E O David Calhoun even said he'd embrace federal assistance if it meant surrendering equity to the government.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Boeing CEO David Calhoun said last week that he wouldnt take federal assistance if it required surrendering equity to the government.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's about trying to balance increasing production and headcount with keeping it below actual short-term market needs. Otherwise, Aboulafia says, we're just heading for a complete glut. It's a fascinating, um, very complex situation.",
+        "tts_text": "Yeah, it's about trying to balance increasing production and headcount with keeping it below actual short-term market needs. Otherwise, Aboulafia says, we're just heading for a complete glut. It's a fascinating, um, very complex situation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Both sides need to find a way production can be cut, employee head count can be cut, but some sort of support can be found for keeping production higher than actual short-term market needs, which are approaching zero, says Aboulafia.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

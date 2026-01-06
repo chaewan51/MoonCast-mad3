@@ -1,0 +1,200 @@
+{
+  "id": 700,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Kicking off today's episode, we're diving into, uh, the business dealings of the Trump sons, Don Jr. and Eric, specifically what they got up to while their dad was in office. You know, their post-presidency (or during-presidency) business moves.",
+        "tts_text": "Kicking off today's episode, we're diving into, uh, the business dealings of the Trump sons, Don Jr. and Eric, specifically what they got up to while their dad was in office. You know, their post-presidency or during-presidency business moves.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's quite a story, isn't it? I mean, the ambition in that family, it really goes back generations. From the grandfather, Friedrich, in the Klondike, to Fred, the father, in aerospace...",
+        "tts_text": "Yeah, it's quite a story, isn't it? I mean, the ambition in that family, it really goes back generations. From the grandfather, Friedrich, in the Klondike, to Fred, the father, in aerospace...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...impelled the presidents father, Fred, to build an apartment empire in Brooklyn and Queens...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, it's this kind of relentless, like, entrepreneurial drive. And then you have Donald himself, even briefly in, um, agricultural ventures and then Antarctica, surprisingly. But then with Don Jr. and Eric...",
+        "tts_text": "Right, it's this kind of relentless, like, entrepreneurial drive. And then you have Donald himself, even briefly in, um, agricultural ventures and then Antarctica, surprisingly. But then with Don Jr. and Eric...",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] They initially said they were gonna, like, slow down, right? Just focus on one hotel brand. Eric even said they were \"happy to slow down our growth.\"",
+        "tts_text": "They initially said they were gonna, like, slow down, right? Just focus on one hotel brand. Eric even said they were happy to slow down our growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But their planstorm into Americas heartland with two new licensed hotel brandsdied earlier this year after failing to gain traction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And Don Jr. said they'd be building \"modest properties\" once politics were over. But, um, that didn't quite last, did it? The article calls it a \"very Trumpian strategy.\"",
+        "tts_text": "Exactly! And Don Jr. said they'd be building modest properties once politics were over. But, um, that didn't quite last, did it? The article calls it a very Trumpian strategy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Added Don Jr.: When politics are over, we will resume doing what we do best, which is building the best and most luxurious properties in the world. ... That forced the kids, hamstrung by their fathers pledge not to expand internationally while in office, to pursue a very un-Trumpian strategy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely not. It seems their father's promise to expand internationally really emboldened them. They went, like, full throttle.",
+        "tts_text": "Definitely not. It seems their father's promise to expand internationally really emboldened them. They went, like, full throttle.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...hamstrung by their fathers pledge not to expand internationally while in office, to pursue a very un-Trumpian strategy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Full throttle is an understatement. They're acquiring properties, increasing debt, scattering cash like confetti, all while their dad's in office.",
+        "tts_text": "Full throttle is an understatement. They're acquiring properties, increasing debt, scattering cash like confetti, all while their dad's in office.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Don Jr. and Eric are playing things conservatively, tending to their properties, paying down debt and stockpiling a hoard of cash.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. $110 million worth of their dad's real estate holdings through, what, like, a hundred transactions? That's a lot.",
+        "tts_text": "Yeah, I saw that. one hundred ten million dollars worth of their dad's real estate holdings through, what, like, a hundred transactions? That's a lot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since their fathers inauguration, they have sold off $110 million of the presidents real estate holdingsthrough more than 100 tiny transactions that have mostly flown under the radar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And some of those deals are, uh, pretty interesting. Like buying land in the Dominican Republic for $3.2 million, totally consistent with their dad's pledge for new foreign deals.",
+        "tts_text": "And some of those deals are, uh, pretty interesting. Like buying land in the Dominican Republic for three point two million dollars, totally consistent with their dad's pledge for new foreign deals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the Dominican Republic, the younger Trumps sold a piece of land in January 2018 for $3.2 million. It was the clearest violation of their fathers pledge to do no new foreign deals while in office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or the Beverly Hills mansion from an Indonesian billionaire who was, like, a Trump business rival? That's just... wild. And a Manhattan penthouse from someone who sells access to foreign dignitaries.",
+        "tts_text": "Or the Beverly Hills mansion from an Indonesian billionaire who was, like, a Trump business rival? That's just... wild. And a Manhattan penthouse from someone who sells access to foreign dignitaries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They sold Trumps mansion in Beverly Hills for $13.5 million to a company tied to Indonesian billionaire (and Trump business partner) Hary Tanoesoedibjo. They off-loaded a Manhattan penthouse to a woman who runs a business selling access to Chinese officials.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really makes you wonder about the ethics there, you know? And then you have situations like the Spring Creek Towers sale, where HUD Secretary Ben Carson actively *impeded* a deal that would have cost Trump a lot of money.",
+        "tts_text": "It really makes you wonder about the ethics there, you know? And then you have situations like the Spring Creek Towers sale, where H U D Secretary Ben Carson actively impeded a deal that would have cost Trump a lot of money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Secretary of Housing & Urban Development Ben Carson had to give his approval to make the deal happen... That put Trumps subordinate in the awkward position of having to green-light a transaction that paid his boss an estimated $33 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and the president owned a 4% stake there. So Carson was essentially costing his boss money. That's a weird dynamic.",
+        "tts_text": "Right, and the president owned a four percent stake there. So Carson was essentially costing his boss money. That's a weird dynamic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That put Trumps subordinate in the awkward position of having to green-light a transaction that paid his boss an estimated $33 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it wasn't just acquisitions. They were reinvesting, too. Trump Tower updates, a San Francisco office overhaul, pulling cash from European golf resorts.",
+        "tts_text": "And it wasn't just acquisitions. They were reinvesting, too. Trump Tower updates, a San Francisco office overhaul, pulling cash from European golf resorts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and the Trumps keep stuffing cash into their money-losing European golf resorts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And buying more! Like that $18.5 million mansion next to Mar-a-Lago from their aunt. They're just aggressively snapping up new golf courses and hotels.",
+        "tts_text": "And buying more! Like that eighteen point five million dollars mansion next to Mar-a-Lago from their aunt. They're just aggressively snapping up new golf courses and hotels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But theyve really made only one new purchase... They arent snapping up new golf courses or hotels...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So much for \"modest properties,\" right? But here's the kicker: they're also racking up debt. An estimated $60 million since the inauguration.",
+        "tts_text": "So much for modest properties, right? But here's the kicker: they're also racking up debt. An estimated sixty million dollars since the inauguration.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead, the Trump children have been chipping away at the debt that helped build their fathers empire, quietly paying down an estimated $60 million since the inauguration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like $19 million in liabilities in New York properties, and increasing their dad's debt by $8 million on that San Francisco skyscraper.",
+        "tts_text": "Yeah, like nineteen million dollars in liabilities in New York properties, and increasing their dad's debt by eight million dollars on that San Francisco skyscraper.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In New York, they wiped out roughly $19 million of liabilities... In San Francisco... Trumps kids have erased $8 million of his debt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And let's not forget that $30 million loan against a Las Vegas tower that they, uh, refused to repay after buying dozens of condos.",
+        "tts_text": "And let's not forget that thirty million dollars loan against a Las Vegas tower that they, uh, refused to repay after buying dozens of condos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After selling dozens of condos in the building, the Trumps repaid that loan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, they started by saying they'd be quiet and modest, but ended up doing exactly what the Trump brand is known for: aggressive expansion, high stakes, and a lot of debt.",
+        "tts_text": "So, basically, they started by saying they'd be quiet and modest, but ended up doing exactly what the Trump brand is known for: aggressive expansion, high stakes, and a lot of debt.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Don Jr. and Eric are playing things conservatively, tending to their properties, paying down debt and stockpiling a hoard of cash.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It seems the apple really doesn't fall far from the tree when it comes to, you know, business ambition.",
+        "tts_text": "Pretty much. It seems the apple really doesn't fall far from the tree when it comes to, you know, business ambition.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": 582,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sensationalist / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B. So, remember 3D printing? Like, all the hype, all the excitement a few years back?",
+        "tts_text": "Hey, B. So, remember 3D printing? Like, all the hype, all the excitement a few years back?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! It felt like the future, right? Everyone was talking about it. What's up?",
+        "tts_text": "Oh, absolutely! It felt like the future, right? Everyone was talking about it. What's up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, uh, turns out the future's looking a bit less shiny right now. I just saw this PitchBook report, and it's, um, pretty grim.",
+        "tts_text": "Well, uh, turns out the future's looking a bit less shiny right now. I just saw this PitchBook report, and it's, um, pretty grim.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Even with that rumored huge bailout for Carbon – you know, the 3D printing unicorn? I heard they were getting like, $300 million or something?",
+        "tts_text": "Oh, really? Even with that rumored huge bailout for Carbon - you know, the 3D printing unicorn? I heard they were getting like, three hundred million dollars or something?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That's the case even before accounting for the coming $300 million fundraise from 3-D printing unicorn Carbon, which was first reported by PitchBook on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Yeah, even with that. The decline in funding is actually continuing. Like, this year, 3D printing companies have only seen $400 million in venture funding.",
+        "tts_text": "Yeah, even with that. The decline in funding is actually continuing. Like, this year, 3D printing companies have only seen four hundred million dollars in venture funding.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So far this year, 3-D printing companies have attracted $400 million in venture funding... If deal flow continued at that rate, it would cross the billion-dollar mark for the first time in five years, even before accounting for the Carbon deal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, only $400 million? I thought last year was, like, a big year for them.",
+        "tts_text": "Whoa, wait, only four hundred million dollars? I thought last year was, like, a big year for them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It was! They pulled in $800 million just last year. And the year before that, it was $300 million. So, this year is a pretty steep drop off.",
+        "tts_text": "It was! They pulled in eight hundred million dollars just last year. And the year before that, it was three hundred million dollars. So, this year is a pretty steep drop off.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So far this year, 3-D printing companies have attracted $400 million in venture funding, half the $800 million they had garnered in the entirety of last year, and surpassing the $300 million they'd attracted the year before that... If deal flow continued at that rate, it would cross the billion-dollar mark for the first time in five years",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, half of what it was last year? That's, uh, that's not great.",
+        "tts_text": "So, like, half of what it was last year? That's, uh, that's not great.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not at all. PitchBook says if it keeps going at this rate, we're looking at the lowest point in five years, possibly even below a billion dollars overall.",
+        "tts_text": "Not at all. PitchBook says if it keeps going at this rate, we're looking at the lowest point in five years, possibly even below a billion dollars overall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If deal flow continued at that rate, it would cross the billion-dollar mark for the first time in five years, even before accounting for the Carbon deal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And that's despite what seems like a lot of money to us, right? But for that sector, it's a bad sign.",
+        "tts_text": "Wow. And that's despite what seems like a lot of money to us, right? But for that sector, it's a bad sign.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's being called a \"collapse.\" They're really losing traction in the industrial sector, and hundreds of established startups have, like, just closed their doors.",
+        "tts_text": "Exactly. It's being called a collapse. They're really losing traction in the industrial sector, and hundreds of established startups have, like, just closed their doors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...they represent a big bump up for 3-D printing, which has been gaining adoption in the industrial sector and has spawned hundreds of new startups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild. What about Carbon specifically? I mean, they were the darlings. Didn't they just lose Adidas as a partner for those Futurecraft shoes?",
+        "tts_text": "That's wild. What about Carbon specifically? I mean, they were the darlings. Didn't they just lose Adidas as a partner for those Futurecraft shoes?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Carbon is best known for its partnership with Adidas, with whom it is partnering on midsoles for the German sportswear giants Futurecraft 4D running shoes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] They did, yeah. Adidas is breaking ties. And it's not just that. They've lost some major investors too, like Sequoia, GV, Fidelity, General Electric… pretty much everyone.",
+        "tts_text": "They did, yeah. Adidas is breaking ties. And it's not just that. They've lost some major investors too, like Sequoia, G V, Fidelity, General Electric... pretty much everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Redwood City, California-based company counts Sequoia, GV, Fidelity, General Electric and Adidas Ventures among its existing investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oof. So, it's not just a general slump, it's a full-on, um, implosion for some of the big players.",
+        "tts_text": "Oof. So, it's not just a general slump, it's a full-on, um, implosion for some of the big players.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. And Carbon's own funding deal, that $300 million, is actually considered the smallest of the past five years for a major player. And companies like Desktop Metal, Markforged, Fast Radius—",
+        "tts_text": "Pretty much. And Carbon's own funding deal, that three hundred million dollars, is actually considered the smallest of the past five years for a major player. And companies like Desktop Metal, Markforged, Fast Radius-",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Carbon's $300 million fundraise would be the largest deal of the past five years among 3-D printing companies, according to the PitchBook analysis, surpassing the same firm's earlier $200 million deal in February 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Desktop Metal, I remember them! Had a big IPO, right?",
+        "tts_text": "Desktop Metal, I remember them! Had a big I P O, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and now they're in rapid decline. They raised $160 million, but it's seen as a major loss. Markforged, a massive collapse. Fast Radius is apparently on the brink of bankruptcy.",
+        "tts_text": "Yeah, and now they're in rapid decline. They raised one hundred sixty million dollars, but it's seen as a major loss. Markforged, a massive collapse. Fast Radius is apparently on the brink of bankruptcy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Three of the top 10 deals of the past five years have occurred in the first few months of this year, according to the PitchBook analysis: Metal 3-D printer maker Desktop Metal raised $160 million... Markforged, which makes 3-D printers for carbon and metal, raised $82 million... and 3-D printing service provider Fast Radius brought in $48 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that is just… quite the reversal of fortune for 3D printing. From disruptor to, uh, dying out.",
+        "tts_text": "Man, that is just... quite the reversal of fortune for 3D printing. From disruptor to, uh, dying out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

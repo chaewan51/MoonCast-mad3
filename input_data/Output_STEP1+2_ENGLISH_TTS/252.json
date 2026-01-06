@@ -1,0 +1,182 @@
+{
+  "id": 252,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, we were looking at this article about tax certificates in Kazakhstan, right? It's pretty interesting, especially for anyone dealing with international income.",
+        "tts_text": "So, B, we were looking at this article about tax certificates in Kazakhstan, right? It's pretty interesting, especially for anyone dealing with international income.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely, A. Um, specifically Article 676 of their Tax Code. It talks about non-residents being able to get a certificate for income from Kazakhstan sources.",
+        "tts_text": "Yeah, absolutely, A. Um, specifically Article six hundred seventy six of their Tax Code. It talks about non-residents being able to get a certificate for income from Kazakhstan sources.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Article 676 of the Tax Code Certificate of Income received from Kazakhstan Sources and Taxes withheld (paid) states that: 1. A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources and taxes withheld (paid) (the Certificate) in a format approved by the authorised body...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, [overlaps] for taxes withheld, yeah.",
+        "tts_text": "Right, for taxes withheld, yeah.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And like, tax agents can even apply for them on behalf of non-residents, which is, uh, pretty convenient, I guess. No power of attorney needed.",
+        "tts_text": "And like, tax agents can even apply for them on behalf of non-residents, which is, uh, pretty convenient, I guess. No power of attorney needed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tax agents may also apply for Certificates for income accrued and/or paid to non-residents and taxes withheld (paid) on that income. In this case, a power of attorney in accordance with article 16 of the Tax Code is not required.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But here's the thing that kinda jumped out at me: it seems this service is *only* for non-residents. So, what about foreign nationals who actually *live* there and are considered residents?",
+        "tts_text": "But here's the thing that kinda jumped out at me: it seems this service is only for non-residents. So, what about foreign nationals who actually live there and are considered residents?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From the above it seems that this service is only available to non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's a good point! Because, you know, a resident in Kazakhstan is defined as someone living there for at least 183 days in a year. So, if they *don't* meet that, they're non-resident.",
+        "tts_text": "Oh, that's a good point! Because, you know, a resident in Kazakhstan is defined as someone living there for at least one hundred eighty three days in a year. So, if they don't meet that, they're non-resident.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Article 217 of the Tax Code identifies that residents are those individuals permanently residing in Kazakhstan (for at least 183 calendar days in any consecutive 12-month period ending in the current tax period). If individuals do not meet this criterion, they may be treated as non-residents in the current tax period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But what if they *do* meet it? What then? It feels like the tax authorities couldn't have just, like, overlooked them.",
+        "tts_text": "But what if they do meet it? What then? It feels like the tax authorities couldn't have just, like, overlooked them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, well, for actual residents, Kazakhstan *does* issue certificates of tax residence. Which is good, especially with double tax treaties, right?",
+        "tts_text": "Uh, well, for actual residents, Kazakhstan does issue certificates of tax residence. Which is good, especially with double tax treaties, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If someone is recognised as a tax resident in Kazakhstan, then any personal tax should be paid in Kazakhstan. For this purpose Kazakhstan certificates of tax residence are available...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Ah, the treaties!",
+        "tts_text": "Ah, the treaties!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but Kazakhstan only has those with, what, 53 countries? So, like, that leaves a lot of, um, foreign nationals who are residents in a bit of a grey area.",
+        "tts_text": "Yeah, but Kazakhstan only has those with, what, fifty three countries? So, like, that leaves a lot of, um, foreign nationals who are residents in a bit of a grey area.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On top of that, Kazakhstan only has double tax treaties with 53 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then there's the whole issue with how these certificates are actually obtained and verified. The article mentioned they used to have these signed and stamped acts...",
+        "tts_text": "And then there's the whole issue with how these certificates are actually obtained and verified. The article mentioned they used to have these signed and stamped acts...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Before the SRD transitioned to using electronic keys, local tax authorities would issue signed and stamped acts of reconciliation, which were recognised as confirmation of tax paid in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the old system before 2017. Those were recognised. Now it's, like, personal account statements. But some State Revenue Departments, uh, prefer digital keys.",
+        "tts_text": "Oh, yeah, the old system before twenty seventeen. Those were recognised. Now it's, like, personal account statements. But some State Revenue Departments, uh, prefer digital keys.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This service was abolished in 2017 and has been replaced by personal account statements of budget settlements and social payments, which are issued and stamped by local tax authorities, if applied for. As the service is not that common, a number of SRD refuse to issue statements in hard copy and prefer to download them using electronic keys.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which often means they're not officially certified by the tax authority, right? That seems like a huge problem for proving things later.",
+        "tts_text": "Which often means they're not officially certified by the tax authority, right? That seems like a huge problem for proving things later.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If this is the case, they will not be certified by the tax authorities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. And the bigger issue is the inconsistency! The article points out that different regional SRDs have completely different approaches to identifying residency.",
+        "tts_text": "Absolutely. And the bigger issue is the inconsistency! The article points out that different regional S R Ds have completely different approaches to identifying residency.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From this, we can ascertain that the issue is not yet fully regulated within the tax authorities and approaches tend to differ depending on the office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, one office might treat all foreign nationals as non-residents manually, while another demands these specific certificates? That's just... confusing.",
+        "tts_text": "So, like, one office might treat all foreign nationals as non-residents manually, while another demands these specific certificates? That's just... confusing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When tax authority employees hand out returns manually, all foreign nationals are treated automatically as non-residents. In a specific case, a deputy from a regional SRD explained that in this context, they do not focus on tax residency, rather the general concept of residency as a whole, while in another regional SRD they require the certificates as described above.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. It sounds like the system isn't fully regulated across the board, leading to a lot of, um, disputes, especially with individual income tax returns.",
+        "tts_text": "It really is. It sounds like the system isn't fully regulated across the board, leading to a lot of, um, disputes, especially with individual income tax returns.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From this, we can ascertain that the issue is not yet fully regulated within the tax authorities and approaches tend to differ depending on the office. In turn, when identifying residency and completing the relevant tax return columns, we tend to focus on the definitions of residency provided by the Tax Code and generally established rules for the completion of tax reporting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a mess. You'd think something as fundamental as tax residency would have, like, a unified approach.",
+        "tts_text": "Yeah, it's a mess. You'd think something as fundamental as tax residency would have, like, a unified approach.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Agreed. It definitely highlights the need for clearer, more consistent guidelines from the top down, you know?",
+        "tts_text": "Agreed. It definitely highlights the need for clearer, more consistent guidelines from the top down, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

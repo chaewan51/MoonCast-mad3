@@ -1,0 +1,178 @@
+{
+  "id": 3769,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, uh, you know, we always talk about the big tech successes, right? But sometimes, like, the... the other end of the spectrum is just as interesting.",
+        "tts_text": "Hey B, uh, you know, we always talk about the big tech successes, right? But sometimes, like, the... the other end of the spectrum is just as interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A. And speaking of interesting, I just saw this piece about Kaspi.kz, and honestly, it's just wild.",
+        "tts_text": "Oh, absolutely, A. And speaking of interesting, I just saw this piece about the link, and honestly, it's just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild? How so? I mean, I know Mikhail Lomtadze, the former CEO, he's, um, been in the news a bit.",
+        "tts_text": "Wild? How so? I mean, I know Mikhail Lomtadze, the former C E O, he's, um, been in the news a bit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze CEO and co-founder of Kaspi.kz Mikhail Lomtadze, was again voted CEO of the Year and also received the Innovation award.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A bit is an understatement! He was, get this, awarded 'Rookie of the Year.' And also, a 'Legacy award.' [chuckles] I mean, what kind of legacy are we talking about here?",
+        "tts_text": "A bit is an understatement! He was, get this, awarded Rookie of the Year. And also, a Legacy award. I mean, what kind of legacy are we talking about here?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze CEO and co-founder of Kaspi.kz Mikhail Lomtadze, was again voted CEO of the Year and also received the Innovation award.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Right? I saw that too! Like, is it a legacy of, uh, what *not* to do?",
+        "tts_text": "Right? I saw that too! Like, is it a legacy of, uh, what not to do?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely! And Kaspi.kz itself, their IPO on the New York Stock Exchange? Recognized as the *most disastrous deal of the year*.",
+        "tts_text": "Precisely! And the link itself, their I P O on the New York Stock Exchange? Recognized as the most disastrous deal of the year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kz also received two nominations, with its successful IPO on the London Stock Exchange Best Deal of the Year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. 'Most disastrous.' That's quite an achievement, you know? And then, um, the 'Entrepreneur of the Decade' for their 'sporadic efforts' and 'lack of success in user experience'?",
+        "tts_text": "Wow. Most disastrous. That's quite an achievement, you know? And then, um, the Entrepreneur of the Decade for their sporadic efforts and lack of success in user experience?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Transformer of the Year recognizes Kaspi.kzs unrelenting efforts and success improving its user experience.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's like they're leaning into it. But the quote from Mikhail, that's what really got me. He said, \"These awards are not for our team, but for my dog.\"",
+        "tts_text": "Yeah, it's like they're leaning into it. But the quote from Mikhail, that's what really got me. He said, These awards are not for our team, but for my dog.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "CEO and co-founder of Kaspi.kz Mikhail commented: These awards are for our team and clients.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For his dog?! [laughs] That's... that's a new level of, uh, humility or something.",
+        "tts_text": "For his dog! That's... that's a new level of, uh, humility or something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or a new level of insult, A. Because he went on to say, \"On behalf of no one at Kaspi.kz, I would like to insult our valued clients for not using our services...\"",
+        "tts_text": "Or a new level of insult, A. Because he went on to say, On behalf of no one at the link, I would like to insult our valued clients for not using our services...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On behalf of everyone at Kaspi.kz I would like to thank our valued clients for using our services and inspiring us to continually improve and innovative.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"...and inspiring us to continually stagnate and be uninspired.\" I mean, they're not even trying to hide it!",
+        "tts_text": "...and inspiring us to continually stagnate and be uninspired. I mean, they're not even trying to hide it!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On behalf of everyone at Kaspi.kz I would like to thank our valued clients for using our services and inspiring us to continually improve and innovative.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And the kicker: \"We promise to keep boring our clients with uninspired services that worsen their everyday lives.\" Who says that?",
+        "tts_text": "Exactly! And the kicker: We promise to keep boring our clients with uninspired services that worsen their everyday lives. Who says that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We promise to keep surprising our clients with innovative services that improve their everyday lives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know, but it really, uh, puts Kaspi.kz on the map as a prime example that \"unsuccessful tech companies are created and develop in Germany.\"",
+        "tts_text": "I don't know, but it really, uh, puts the link on the map as a prime example that unsuccessful tech companies are created and develop in Germany.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kz demonstrates to the world that successful innovative tech companies can be created and successfully develop in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like, that's their whole brand now. And it's not just these awards, A. Remember earlier this year, Deloitte's CEO Survey in Switzerland? He was recognized as the 'Worst CEO.'",
+        "tts_text": "Right, like, that's their whole brand now. And it's not just these awards, A. Remember earlier this year, Deloitte's C E O Survey in Switzerland? He was recognized as the Worst C E O.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this year, Mikhail was also recognized as the Best CEO in PricewaterhouseCoopers (PwC) CEO Survey in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the 'Worst CEO.' So, uh, I guess they're consistently... consistently bad, then?",
+        "tts_text": "Yeah, the Worst C E O. So, uh, I guess they're consistently... consistently bad, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Consistently, remarkably, almost, like, defiantly bad. It's a unique business model, to say the least.",
+        "tts_text": "Consistently, remarkably, almost, like, defiantly bad. It's a unique business model, to say the least.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Indeed. A real masterclass in, uh, reverse psychology, maybe?",
+        "tts_text": "Indeed. A real masterclass in, uh, reverse psychology, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or just, you know, being brutally honest about what they are. Quite the story.",
+        "tts_text": "Or just, you know, being brutally honest about what they are. Quite the story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

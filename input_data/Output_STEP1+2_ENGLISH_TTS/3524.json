@@ -1,0 +1,182 @@
+{
+  "id": 3524,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Concerned and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, you know how we always talk about climate change as this distant threat, something for our grandkids to worry about?",
+        "tts_text": "So, Host_B, you know how we always talk about climate change as this distant threat, something for our grandkids to worry about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, \"someday in the future,\" right?",
+        "tts_text": "Yeah, like, \"someday in the future,\" right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the IPCC just dropped a bombshell. They're saying disastrous outcomes are now likely within the next *15 years*. Or even a decade.",
+        "tts_text": "Well, the I P C C just dropped a bombshell. They're saying disastrous outcomes are now likely within the next fifteen years. Or even a decade.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The IPCC warns that some disastrous climate outcomes are now likely to occur not in the distant future, but within the next 15 years, or even the next decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, wow. That's... really soon. But it feels like policymakers are so focused on, you know, the war in Ukraine right now.",
+        "tts_text": "Uh, wow. That's... really soon. But it feels like policymakers are so focused on, you know, the war in Ukraine right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But instead of waking up to the threat and responding quickly, policymakers remain focused on Russias horrific war against Ukraine and its immediate consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping slightly] Totally understandable in some ways, but it's also exposed this really short-term thinking. Like, they're even backtracking on climate pledges they just made in Glasgow!",
+        "tts_text": "Totally understandable in some ways, but it's also exposed this really short-term thinking. Like, they're even backtracking on climate pledges they just made in Glasgow!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Many have quickly reneged on even the relatively meager and obviously inadequate climate pledges they made only a few months ago at the United Nations Climate Change Conference in Glasgow.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? And the whole fuel price spike from the Ukraine war... instead of seeing it as, like, an opportunity to pivot from fossil fuels...",
+        "tts_text": "I know, right? And the whole fuel price spike from the Ukraine war... instead of seeing it as, like, an opportunity to pivot from fossil fuels...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! The US is releasing strategic reserves, and Europe is talking about reviving coal power. Coal!",
+        "tts_text": "Exactly! The U S is releasing strategic reserves, and Europe is talking about reviving coal power. Coal!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "US President Joe Bidens administration, after unsuccessfully imploring Saudi Arabia to increase oil production, has promised to release one million barrels a day from the US governments strategic reserves for the next six months. In Europe, which has been hit much harder by the fallout from the war because of its heavy reliance on Russian natural gas, the talk is not just of more nuclear energy but also of reviving coal-based power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Coal! [chuckles slightly] The dirtiest one! It's such hypocrisy, especially when they lecture other countries, like India and China, for using it.",
+        "tts_text": "Coal! The dirtiest one! It's such hypocrisy, especially when they lecture other countries, like India and China, for using it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coal is by far the dirtiest fossil fuel, and rich countries routinely pillory India and China for using it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And here’s the really wild part: how much they actually subsidize these fossil fuels.",
+        "tts_text": "Right? And here's the really wild part: how much they actually subsidize these fossil fuels.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I've heard numbers, like, a few hundred billion, like the OECD-IEA estimate?",
+        "tts_text": "Yeah, I've heard numbers, like, a few hundred billion, like the O E C D-I E A estimate?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Using this method, the OECD and the International Energy Agency estimate that governments across 52 advanced and emerging economies accounting for about 90% of global fossil-fuel energy supply provided fossil-fuel subsidies worth an average of $555 billion per year from 2017 to 2019. This support declined to $345 billion in 2020, mainly because of the collapse in fuel prices and drop in consumption during the COVID-19 pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupting] That's just the surface, though! The IMF did a deeper dive and included what they call 'implicit subsidies.'",
+        "tts_text": "That's just the surface, though! The I M F did a deeper dive and included what they call implicit subsidies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a recent study, the International Monetary Fund devised a more comprehensive measure that includes both explicit subsidies, or undercharging for supply costs, and implicit subsidies, or undercharging for environmental costs and foregone consumption taxes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, so like, the environmental costs that aren't paid for, or taxes that aren't collected?",
+        "tts_text": "Ah, so like, the environmental costs that aren't paid for, or taxes that aren't collected?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a recent study, the International Monetary Fund devised a more comprehensive measure that includes both explicit subsidies, or undercharging for supply costs, and implicit subsidies, or undercharging for environmental costs and foregone consumption taxes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. And when you factor all that in, the global fossil fuel subsidies for 2020 jump to... wait for it... $5.9 *trillion*.",
+        "tts_text": "Precisely. And when you factor all that in, the global fossil fuel subsidies for twenty twenty jump to... wait for it... five point nine trillion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The IMF estimated that global fossil-fuel subsidies in 2020 totaled $5.9 trillion, more than ten times the OECD-IEA estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[gasps slightly] Five point nine TRILLION dollars?! Oh my gosh.",
+        "tts_text": "Five point nine TRILLION dollars?! Oh my gosh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah. Compare that to the global climate finance, which was only about $640 billion that same year.",
+        "tts_text": "Yeah. Compare that to the global climate finance, which was only about six hundred forty billion that same year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While governments were supporting the fossil-fuel industry to the tune of $5.9 trillion in 2020, the IPCC estimates that global climate finance from both public and private sources totaled only about $640 billion that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, we're essentially spending almost ten times more to, um, *support* fossil fuels than to fight climate change. That's just... staggering.",
+        "tts_text": "So, we're essentially spending almost ten times more to, um, support fossil fuels than to fight climate change. That's just... staggering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The IMF estimated that global fossil-fuel subsidies in 2020 totaled $5.9 trillion... While governments were supporting the fossil-fuel industry to the tune of $5.9 trillion in 2020, the IPCC estimates that global climate finance from both public and private sources totaled only about $640 billion that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really puts into perspective why this industry is so resilient, doesn't it? And why we're just, like, running out of time for that 1.5 degree goal.",
+        "tts_text": "It really puts into perspective why this industry is so resilient, doesn't it? And why we're just, like, running out of time for that one point five degree goal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given this huge disparity, no one should be shocked at the fossil-fuel industrys continued resilience. The world is rapidly running out of time to limit global warming to 1.5 Celsius and avert a climate catastrophe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It absolutely does. It's, uh, a huge wake-up call, really.",
+        "tts_text": "It absolutely does. It's, uh, a huge wake-up call, really.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

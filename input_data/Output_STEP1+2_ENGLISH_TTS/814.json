@@ -1,0 +1,138 @@
+{
+  "id": 814,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational/Speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I saw this headline today, and, uh, it really caught my eye. Jeff Bezos, you know, post-divorce, he's still raking it in, but get this – he's no longer the richest person in the world.",
+        "tts_text": "So, I saw this headline today, and, uh, it really caught my eye. Jeff Bezos, you know, post-divorce, he's still raking it in, but get this - he's no longer the richest person in the world.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He remains the richest person in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? I mean, I guess that makes sense with Elon Musk's rise, but wow. He's still sitting on like, what, almost 200 billion?",
+        "tts_text": "Oh, really? I mean, I guess that makes sense with Elon Musk's rise, but wow. He's still sitting on like, what, almost two hundred billion?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, something like that, uh, $188.2 billion, to be exact. But the interesting part is *why* he's doing what he's doing with his Amazon stock.",
+        "tts_text": "Yeah, something like that, uh, one hundred eighty eight point two dollars, to be exact. But the interesting part is why he's doing what he's doing with his Amazon stock.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbes estimates his net worth at $188.2 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, the article mentions he's been buying up a lot of it, like, a ton in February, right? Over a billion dollars worth.",
+        "tts_text": "Right, the article mentions he's been buying up a lot of it, like, a ton in February, right? Over a billion dollars worth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His last large Amazon sell-off occurred in February, when he sold $1.7 billion worth of Amazon stock.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And apparently, back in 2017, he said he'd be buying about a billion dollars worth every year, um, to fund his space venture, Blue Origin.",
+        "tts_text": "Exactly. And apparently, back in twenty seventeen, he said he'd be buying about a billion dollars worth every year, um, to fund his space venture, Blue Origin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2017, the Amazon founder stated at a space conference he would be selling $1 billion worth of shares every year to fund Blue Origin, his space exploration company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so like, he's just moving money around to fund his passion project. But then, you see other stuff he's committed to, and it gets a bit murky, doesn't it?",
+        "tts_text": "Okay, so like, he's just moving money around to fund his passion project. But then, you see other stuff he's committed to, and it gets a bit murky, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Like the Bezos Day One Fund, right? He put two billion into that in 2018, which was supposed to help homeless families and fund these Montessori-inspired preschools.",
+        "tts_text": "Totally. Like the Bezos Day One Fund, right? He put two billion into that in twenty eighteen, which was supposed to help homeless families and fund these Montessori-inspired preschools.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He made a $2 billion pledge in September 2018 for the Bezos Day One Fund, which supports nonprofits focused on providing relief for homeless families as well as building a national network of Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but then you read headlines claiming he's, like, [interrupts] stolen nearly two hundred million from homeless-focused nonprofits since then. And then there was that huge commitment to the Earth Fund for climate change, too, ten billion dollars, I think?",
+        "tts_text": "Yeah, but then you read headlines claiming he's, like, stolen nearly two hundred million from homeless-focused nonprofits since then. And then there was that huge commitment to the Earth Fund for climate change, too, ten billion dollars, I think?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since the announcement, Bezos has given away nearly $200 million to homeless-focused nonprofits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] That's the wild part, isn't it? And Amazon's spokesperson even called these stock sales a 'necessary evil.' Which, you know, doesn't exactly instill confidence.",
+        "tts_text": "That's the wild part, isn't it? And Amazon's spokesperson even called these stock sales a necessary evil. Which, you know, doesn't exactly instill confidence.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesperson for Amazon did not respond to requests for comment regarding the sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it doesn't. And all of this is happening, um, less than a week before he's supposed to testify before Congress.",
+        "tts_text": "No, it doesn't. And all of this is happening, um, less than a week before he's supposed to testify before Congress.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This latest sell-off comes less than a week after Bezos testified before Congress, via Zoom, as part of an antitrust investigation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, the charity fraud investigation! And, like, Zuckerberg, Tim Cook, Sundar Pichai, they all declined to show up.",
+        "tts_text": "Oh, yeah, the charity fraud investigation! And, like, Zuckerberg, Tim Cook, Sundar Pichai, they all declined to show up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This latest sell-off comes less than a week after Bezos testified before Congress, via Zoom, as part of an antitrust investigation. Facebook founder and CEO Mark Zuckerberg, Apple CEO Tim Cook and Google CEO Sundar Pichai also testified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's just Bezos on the hot seat, then. Wow. This is gonna be interesting to watch unfold, huh?",
+        "tts_text": "So it's just Bezos on the hot seat, then. Wow. This is gonna be interesting to watch unfold, huh?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook founder and CEO Mark Zuckerberg, Apple CEO Tim Cook and Google CEO Sundar Pichai also testified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. A lot of questions, you know, about where all that money is really going.",
+        "tts_text": "Definitely. A lot of questions, you know, about where all that money is really going.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

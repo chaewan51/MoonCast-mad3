@@ -1,0 +1,148 @@
+{
+  "id": 395,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Enthusiastic and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, you know how your immune system is just, like, incredibly smart? It's constantly figuring out how to fight off, uh, all these bacteria and viruses?",
+        "tts_text": "Okay, so, you know how your immune system is just, like, incredibly smart? It's constantly figuring out how to fight off, uh, all these bacteria and viruses?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Yeah, it's wild! It, um, creates these tiny cells, antibodies, that either just destroy invaders or mark them for other killer cells. It's, like, truly spectacular.",
+        "tts_text": "Yeah, it's wild! It, um, creates these tiny cells, antibodies, that either just destroy invaders or mark them for other killer cells. It's, like, truly spectacular.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Molecularly unique to each person, these tiny cells, or antibodies, either destroy these invaders or mark them for other killer cells to track down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! And we're talking trillions of different antibodies. It's mind-blowing. Our guest, Carl Hansen, who's the CEO of AbCellera Biologics, uh, he geeks out about it on Zoom. He actually used to be a college professor.",
+        "tts_text": "Totally! And we're talking trillions of different antibodies. It's mind-blowing. Our guest, Carl Hansen, who's the C E O of AbCellera Biologics, uh, he geeks out about it on Zoom. He actually used to be a college professor.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We can make 100 trillion different antibodies, he exclaims. ... Carl Hansen, 46, is geeking out as he describes the process over Zoom. ... CEO of a $13 billion (market cap) biotech company... Hansen was oneuntil 2019, when he left to focus on Vancouver- based AbCellera Biologics, cofounded with fellow researchers from the University of British Columbia in 2012.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And that's, um, kinda part of their secret sauce, because traditional biotech startups, they usually pick a few targets and then spend, like, eight to twelve years developing those specific drugs. It's a huge gamble.",
+        "tts_text": "Right? And that's, um, kinda part of their secret sauce, because traditional biotech startups, they usually pick a few targets and then spend, like, eight to twelve years developing those specific drugs. It's a huge gamble.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nearly all biotech startups develop a handful of treatment targets, then spend the next eight to 12 years developing those drugs, hoping to bring at least one of them to market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I mean, less than 10% of new drugs even make it to market. So, AbCellera's approach is, uh, just totally different, right?",
+        "tts_text": "Yeah, I mean, less than ten percent of new drugs even make it to market. So, AbCellera's approach is, uh, just totally different, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its not a sure thingfewer than 10% of new drugs make it all the way.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Instead of trying to build a whole drug company, they focus solely on, like, the *discovery* process. They're essentially \"drug discovery as a service,\" finding those promising treatment prospects for other companies.",
+        "tts_text": "Exactly. Instead of trying to build a whole drug company, they focus solely on, like, the discovery process. They're essentially drug discovery as a service, finding those promising treatment prospects for other companies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead of trying to build a vertically integrated drug company, it is focused solely on the discovery process. ... Instead it offers what might be described as drug discovery as a service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they're like, the super-efficient scouts for the pharmaceutical world. And they really, uh, proved it with COVID, didn't they?",
+        "tts_text": "So they're like, the super-efficient scouts for the pharmaceutical world. And they really, uh, proved it with C O V I D, didn't they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! They, like, examined thousands of antibodies from people who'd recovered from COVID-19 to identify the most effective ones. They quickly turned those over to Eli Lilly, which became bamlanivimab.",
+        "tts_text": "Oh, absolutely! They, like, examined thousands of antibodies from people who'd recovered from C O V I D-nineteen to identify the most effective ones. They quickly turned those over to Eli Lilly, which became bamlanivimab.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In its highest-profile success to date, AbCellera examined thousands of antibodies derived from the blood of people who had recovered from Covid-19 in order to identify the antibodies that did the best job fighting the virus. It then turned over the most promising antibodies to drug company Eli Lilly. Clinical trials of one of those antibodies, bamlanivimab, began in May...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that got emergency FDA authorization in, like, record time, right? Just 90 days after the partnership started! That's, um, incredible speed for drug development.",
+        "tts_text": "And that got emergency F D A authorization in, like, record time, right? Just ninety days after the partnership started! That's, um, incredible speed for drug development.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Clinical trials of one of those antibodies, bamlanivimab, began in Mayjust 90 days after the partnership started. Tests found patients with mild or moderate cases had good results, and in November, the antibody received emergency-use authorization from the FDA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. And it's paid off big time for them. Eli Lilly's expecting, like, billions in revenue, and AbCellera's gonna get estimated royalties of, um, hundreds of millions.",
+        "tts_text": "It really is. And it's paid off big time for them. Eli Lilly's expecting, like, billions in revenue, and AbCellera's gonna get estimated royalties of, um, hundreds of millions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eli Lilly issued guidance in mid-December expecting up to $2 billion in revenue from Covid-19 therapeutics in 2021, the bulk of which will come from bamlanivimab; AbCellera, which booked $25 million through the end of September 2020, will earn estimated royalties of $270 million on those sales, according to Credit Suisse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which means Hansen himself is now, uh, a billionaire! But he's apparently pretty low-key about it, just saying it 'feels a little bit surreal.'",
+        "tts_text": "Which means Hansen himself is now, uh, a billionaire! But he's apparently pretty low-key about it, just saying it feels a little bit surreal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hansen is now worth $3 billion, thanks to the companys white-hot December IPO. Asked about his meteoric rise into the three-comma club, Hansen is low-key: It feels just a little bit surreal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Which, you know, is probably a good sign. He's more focused on the validation of the *business model* than the personal wealth.",
+        "tts_text": "Which, you know, is probably a good sign. He's more focused on the validation of the business model than the personal wealth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hes more articulate about the biotechs success: If this example of Covid shows one thing, to me, its the proof point of the business model and the technology.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. He sees it as proof that this \"discovery as a service\" model, um, really works and can, like, revolutionize how we get new treatments.",
+        "tts_text": "Totally. He sees it as proof that this discovery as a service model, um, really works and can, like, revolutionize how we get new treatments.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Big time. It's all about, uh, saving time and getting those vital drugs to people quicker, which is a huge deal.",
+        "tts_text": "Big time. It's all about, uh, saving time and getting those vital drugs to people quicker, which is a huge deal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "AbCellera is also looking to speed up the time it takes to develop its antibody therapies. The shorter time frame saves millions in development costs while enabling revenues to come in sooner than expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

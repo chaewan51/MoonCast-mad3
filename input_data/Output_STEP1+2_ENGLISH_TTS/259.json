@@ -1,0 +1,212 @@
+{
+  "id": 259,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey, have you seen this latest news about Microsoft and the Fancy Bear group? It's pretty wild.",
+        "tts_text": "So, hey, have you seen this latest news about Microsoft and the Fancy Bear group? It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw something pop up, but, um, I didn't get a chance to dive in. What's the, like, the gist?",
+        "tts_text": "Oh, I saw something pop up, but, um, I didn't get a chance to dive in. What's the, like, the gist?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Microsoft's been busy, uh, trying to stop what they believe are attempts to attack *Republican* groups this time. Not Democrats, which is kinda new, right?",
+        "tts_text": "Well, Microsoft's been busy, uh, trying to stop what they believe are attempts to attack Republican groups this time. Not Democrats, which is kinda new, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But in its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, really? Republican? I always, like, associate Fancy Bear with the DNC hacks.",
+        "tts_text": "Wait, really? Republican? I always, like, associate Fancy Bear with the D N C hacks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But yeah, the targets here were two think tanks: the International Republican Institute and the Hudson Institute.",
+        "tts_text": "Exactly! But yeah, the targets here were two think tanks: the International Republican Institute and the Hudson Institute.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Interesting. I mean, why them?",
+        "tts_text": "Interesting. I mean, why them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Senator John McCain's on the IRI board, and General H.R. McMaster too. And the Hudson Institute, uh, has a pretty strong foreign policy focus. So, I guess, juicy targets for foreign intelligence.",
+        "tts_text": "Well, Senator John McCain's on the I R I board, and General H R McMaster too. And the Hudson Institute, uh, has a pretty strong foreign policy focus. So, I guess, juicy targets for foreign intelligence.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Senator John McCain sits on the IRI board, as does former White House national security advisor General H.R. McMaster, while the Hudson Institute has a strong focus on foreign policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That makes sense. So, what did Fancy Bear try to do, exactly?",
+        "tts_text": "That makes sense. So, what did Fancy Bear try to do, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They set up these fake websites, you know, designed to mimic the real ones. Microsoft stepped in and took them down, thankfully.",
+        "tts_text": "They set up these fake websites, you know, designed to mimic the real ones. Microsoft stepped in and took them down, thankfully.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fake websites designed to mimic the organizations real sites, ostensibly in anticipation of a future cyberattack, were taken down by Microsoft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's a phishing thing then? Like, trying to trick people?",
+        "tts_text": "So, it's a phishing thing then? Like, trying to trick people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. They believe the goal was to steal passwords for services like Sharepoint or Office 365. Remember the John Podesta email hack from 2016? Same kind of playbook.",
+        "tts_text": "Pretty much. They believe the goal was to steal passwords for services like Sharepoint or Office three hundred sixty five. Remember the John Podesta email hack from twenty sixteen? Same kind of playbook.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The references to Sharepoint, email and Microsoft productivity tools indicated the hackers wanted to steal target passwords for those services. ... For instance, in attacks on the Hillary Clinton campaign, the hackers set up fake Google login pages for the candidates staff. John Podesta, Clintons campaign manager, was one of those who fell for the ruse, with catastrophic consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, God, yeah. That was, um, catastrophic for the Clinton campaign.",
+        "tts_text": "Oh, God, yeah. That was, um, catastrophic for the Clinton campaign.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Microsoft President Brad Smith said they're concerned this mirrors the activity we saw before 2016, and the 2017 French election.",
+        "tts_text": "Right? Microsoft President Brad Smith said they're concerned this mirrors the activity we saw before twenty sixteen, and the twenty seventeen French election.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're concerned that these and other attempts pose security threats to a broadening array of groups connected with both American political parties in the run-up to the 2018 elections, Microsoft president Brad Smith said in a blog post on Tuesday. ... Taken together, this pattern mirrors the type of activity we saw prior to the 2016 election in the United States and the 2017 election in France.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's not just a one-off. It's part of a broader campaign targeting, like, everyone across the political spectrum.",
+        "tts_text": "So, it's not just a one-off. It's part of a broader campaign targeting, like, everyone across the political spectrum.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are concerned by the continued activity targeting these and other sites and directed toward elected officials, politicians, political groups and think tanks across the political spectrum in the United States.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. The Hudson Institute actually said they believe the attack was intended to, uh, disrupt their democracy-promotion programs and expose foreign kleptocratic regimes.",
+        "tts_text": "Totally. The Hudson Institute actually said they believe the attack was intended to, uh, disrupt their democracy-promotion programs and expose foreign kleptocratic regimes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We can only assume that this attack was intended to gather information about, and compromise or otherwise disrupt, Hudsons longstanding democracy-promotion programs, and in particular, our initiatives to expose the activities of foreign kleptocratic regimes, the spokesperson added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, they're really trying to sow confusion and conflict, then.",
+        "tts_text": "Wow. So, they're really trying to sow confusion and conflict, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what the IRI president, Daniel Twining, called it: \"a campaign of meddling\" against organizations that criticize Putin.",
+        "tts_text": "That's what the I R I president, Daniel Twining, called it: a campaign of meddling against organizations that criticize Putin.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "IRI president Daniel Twining added: This latest attempt is consistent with the campaign of meddling that the Kremlin has waged against organizations that support democracy and human rights. It is clearly designed to sow confusion, conflict and fear among those who criticize Mr. Putins authoritarian regime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's scary to think how active they are.",
+        "tts_text": "It's scary to think how active they are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. Microsoft has actually shut down 84 fake Fancy Bear websites in the last two years. They even targeted members of Congress, like Senator Claire McCaskill.",
+        "tts_text": "Uh-huh. Microsoft has actually shut down eighty four fake Fancy Bear websites in the last two years. They even targeted members of Congress, like Senator Claire McCaskill.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Smith said the Redmond giant had carried out similar domain seizures 12 times in two years to shut down 84 fake websites associated with Fancy Bear. ... Not long after, Senator Claire McCaskill, a Democrat in Missouri, confirmed she'd been a target of the Fancy Bear crew.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, I remember that! [overlaps] But, uh, they weren't successful there, were they?",
+        "tts_text": "Right, I remember that! But, uh, they weren't successful there, were they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No evidence of success *yet*, but the concern is they're still building infrastructure. It's, y'know, definitely a big deal for the midterms.",
+        "tts_text": "No evidence of success yet, but the concern is they're still building infrastructure. It's, y'know, definitely a big deal for the midterms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Again, there was no evidence to suggest the hackers had been successful. But they remain active and are building infrastructure that appears to be targeting the midterms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, for sure. Still active and, uh, ready to go. Thanks for the breakdown.",
+        "tts_text": "Yeah, for sure. Still active and, uh, ready to go. Thanks for the breakdown.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

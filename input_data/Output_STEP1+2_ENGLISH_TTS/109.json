@@ -1,0 +1,162 @@
+{
+  "id": 109,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so you know, the common wisdom, right? After a recession, especially one as big as the pandemic-driven one, you'd expect, like, a huge surge in people looking for new jobs. You'd think the floodgates would just open.",
+        "tts_text": "Alright, so you know, the common wisdom, right? After a recession, especially one as big as the pandemic-driven one, you'd expect, like, a huge surge in people looking for new jobs. You'd think the floodgates would just open.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, you totally would. I mean, all that pent-up demand from people who put their job searches on hold, uh, during COVID. It makes perfect sense. But, um, that might not actually be what's happening.",
+        "tts_text": "Yeah, you totally would. I mean, all that pent-up demand from people who put their job searches on hold, uh, during C O V I D. It makes perfect sense. But, um, that might not actually be what's happening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? Because I've been hearing a lot about how, like, the labor market is actually pretty hot right now, which feels counter-intuitive. [overlapping] What's going on?",
+        "tts_text": "Oh, really? Because I've been hearing a lot about how, like, the labor market is actually pretty hot right now, which feels counter-intuitive. What's going on?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the U.S. lost 8.5 million jobs from February 2020 to February 2021, the labor market is hot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] It *is* hot! I know, it's wild. This recession just wasn't like others. Stock market boomed, housing market boomed. And actually, voluntary quitting, uh, returned to pre-pandemic levels way back in September. People aren't waiting.",
+        "tts_text": "It is hot! I know, it's wild. This recession just wasn't like others. Stock market boomed, housing market boomed. And actually, voluntary quitting, uh, returned to pre-pandemic levels way back in September. People aren't waiting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The pandemic-driven recession hasnt been like most economic downturnsthe stock and housing markets have boomed... Especially unusual is the rate at which employees are voluntarily quitting their jobs recovered in September.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, it's not even a future concern, it's a *now* concern for employers. But why is it so tight? I mean, the unemployment rate doesn't seem that low yet, does it?",
+        "tts_text": "Wow. So, it's not even a future concern, it's a now concern for employers. But why is it so tight? I mean, the unemployment rate doesn't seem that low yet, does it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that's part of the issue. The unemployment rate doesn't tell the whole story. Like, five million Americans have actually left the job market altogether, according to the Fed. So they're not even counted in that figure.",
+        "tts_text": "Well, that's part of the issue. The unemployment rate doesn't tell the whole story. Like, five million Americans have actually left the job market altogether, according to the Fed. So they're not even counted in that figure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The five million Americans who have left the job market altogether since the start of the pandemic, according to the Federal Reserve, are not counted in that figure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, not actively looking. And I guess, um, people's attitudes have just fundamentally changed? I mean, a year working from home, or even unemployed...",
+        "tts_text": "Right, not actively looking. And I guess, um, people's attitudes have just fundamentally changed? I mean, a year working from home, or even unemployed...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! People have recalibrated their priorities, what they expect from employers. We're seeing, like, big jumps in law and medical school applications. And, uh, 1.4 million fewer mothers in the workforce.",
+        "tts_text": "Totally! People have recalibrated their priorities, what they expect from employers. We're seeing, like, big jumps in law and medical school applications. And, uh, one point four million fewer mothers in the workforce.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Applications to law and medical school have jumped by 20% and 18% respectively... while there are now 1.4 million fewer mothers in the workforce than there were in early 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's huge. And then you have the ongoing health risks, especially in, like, hospitality and restaurants. Those jobs just aren't viable for everyone right now.",
+        "tts_text": "Yeah, that's huge. And then you have the ongoing health risks, especially in, like, hospitality and restaurants. Those jobs just aren't viable for everyone right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But perhaps most importantly, a good number of jobs, like those in the hospitality and restaurant industries, simply arent viable for everyone given the continued health risks of Covid-19.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. So, what's an employer to do? I mean, it sounds like they need to be really proactive in retaining talent.",
+        "tts_text": "Exactly. So, what's an employer to do? I mean, it sounds like they need to be really proactive in retaining talent.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And a big one we're seeing is flexibility. Like, permanent hybrid models, or even indefinite work-from-home options. Microsoft, Salesforce, Dropbox – they're all doing it.",
+        "tts_text": "Absolutely. And a big one we're seeing is flexibility. Like, permanent hybrid models, or even indefinite work-from-home options. Microsoft, Salesforce, Dropbox - they're all doing it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft and Salesforce, for example, are adopting permanent hybrid work models, while others like Dropbox, Twitter and Shopify will let their employees work from home indefinitely.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's key. But it's not just WFH, right? Things like childcare assistance, more generous parental leave, or even subsidized tutoring, those can be massive differentiators.",
+        "tts_text": "Yeah, that's key. But it's not just W F H, right? Things like childcare assistance, more generous parental leave, or even subsidized tutoring, those can be massive differentiators.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Childcare assistance, additional maternity or paternity leave, or subsidized tutoring can [also] be a huge differentiator for the employers offering them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, for sure. [overlapping] And let's not forget the obvious one, which is pay.",
+        "tts_text": "Oh, for sure. And let's not forget the obvious one, which is pay.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Oh, gosh, yes! After years of stagnation, hourly wages are finally going up. And companies like Walmart are offering huge cash bonuses. It's, um, a smart investment.",
+        "tts_text": "Oh, gosh, yes! After years of stagnation, hourly wages are finally going up. And companies like Walmart are offering huge cash bonuses. It's, um, a smart investment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After years of stagnation, average hourly wages for private sector employees grew from $28.80 in March 2020 to $30.17 in April 2021, according to data from the Federal Reserve. Meanwhile, companies with large hourly workforces have been offering one-time bonuses. In December, Walmart announced that it would pay its 1.5 million retail workers another $700 million in cash bonuses, contributing to a yearly total of $2.8 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is, when you think about it. Replacing an employee can cost, like, twice their annual salary. So a bonus now could save you a ton later.",
+        "tts_text": "It really is, when you think about it. Replacing an employee can cost, like, twice their annual salary. So a bonus now could save you a ton later.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the cost of replacing an employee can amount to twice their annual salary, a one-time bonus could be a critical long-term investment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. So, for any employers out there worrying about turnover in a few months... you're already behind. You gotta figure it out *now*. This isn't your typical post-recession dynamic.",
+        "tts_text": "Exactly. So, for any employers out there worrying about turnover in a few months... you're already behind. You gotta figure it out now. This isn't your typical post-recession dynamic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Employers worrying about how theyll retain talent in a few months are already behindthey need to have it figured out now. We arent in the normal dynamic, says Eliza Forsythe, a professor at the University of Illinois at Urbana-Champaign, who has studied the pandemic labor market.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

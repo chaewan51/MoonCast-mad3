@@ -1,0 +1,199 @@
+{
+  "id": 715,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so get this, B. You know how for ages, we've been talking about AI and games? Well, apparently, poker, like, the game of poker, is now considered a *solved* game.",
+        "tts_text": "Alright, so get this, B. You know how for ages, we've been talking about A I and games? Well, apparently, poker, like, the game of poker, is now considered a solved game.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states that Pluribus \"mastered multiplayer Texas hold'em\", but does not use the term \"solved\", which has a more specific and stronger meaning in game theory.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Slight chuckle] Wait, *solved*? Like, fully understood, strategies all mapped out? That's, um, a pretty bold claim, A.",
+        "tts_text": "Wait, solved? Like, fully understood, strategies all mapped out? That's, um, a pretty bold claim, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? But that's what this new AI, Pluribus, has achieved. Though, funny enough, it was developed by a rival company that, uh, mostly focused on simple puzzle games. Not exactly the big names you'd expect.",
+        "tts_text": "I know, right? But that's what this new A I, Pluribus, has achieved. Though, funny enough, it was developed by a rival company that, uh, mostly focused on simple puzzle games. Not exactly the big names you'd expect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. So, how did this Pluribus, like, figure it out? Did it just play, like, a million games against itself?",
+        "tts_text": "Huh. So, how did this Pluribus, like, figure it out? Did it just play, like, a million games against itself?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, a bit of that, but mostly it learned by observing human professionals. Absorbing their strategies, adapting. It was fed data from humans, and even watched games other AIs played. And here's the wild part: it actually started with sophisticated algorithms, and then, uh, *worsened* them to figure out what *not* to do.",
+        "tts_text": "Well, a bit of that, but mostly it learned by observing human professionals. Absorbing their strategies, adapting. It was fed data from humans, and even watched games other A I s played. And here's the wild part: it actually started with sophisticated algorithms, and then, uh, worsened them to figure out what not to do.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This self-play learning method means that it was not fed any data from humans and it did not observe games played by other AI systems either. The AI starts from scratch by playing randomly and gradually improves...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's... clever, I guess. But I thought AI researchers had kind of abandoned games as a testbed? Like, for decades? I thought the focus had shifted away from gaming breakthroughs because they, um, didn't really have much real-world application.",
+        "tts_text": "That's... clever, I guess. But I thought A I researchers had kind of abandoned games as a testbed? Like, for decades? I thought the focus had shifted away from gaming breakthroughs because they, um, didn't really have much real-world application.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AI researchers have been using games as a testbed for their AI agents for decades and in recent years there have been a number of breakthroughs... Tech giants are investing heavily into the space in the hope that gaming breakthroughs will lead to breakthroughs in other areas such as healthcare, science, and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You're totally right, B! And that's actually a big point here. These innovations, they say, have very little implication beyond poker. Because, like, two-player, zero-sum interactions—where one wins, one loses—are super rare in real life. Most real-world scenarios, uh, aren't like that.",
+        "tts_text": "You're totally right, B! And that's actually a big point here. These innovations, they say, have very little implication beyond poker. Because, like, two-player, zero-sum interactions-where one wins, one loses-are super rare in real life. Most real-world scenarios, uh, aren't like that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These innovations have important implications beyond poker, because two-player zero-sum interactions... are very rare in real life... Real-world scenariossuch as bidding in an online auction or navigating traffictypically involve multiple actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so it's a cool parlour trick then? How did it actually stack up against, like, top-ranked human players?",
+        "tts_text": "Okay, so it's a cool parlour trick then? How did it actually stack up against, like, top-ranked human players?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Ah, that's where it gets interesting. It actually lost to them. In both a five AI plus one human format, and one AI plus five pros. We're talking Chris Ferguson, Darren Elias—World Series of Poker champions, those guys.",
+        "tts_text": "Ah, that's where it gets interesting. It actually lost to them. In both a five A I plus one human format, and one A I plus five pros. We're talking Chris Ferguson, Darren Elias-World Series of Poker champions, those guys.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it lost, but it's *solved* the game? That's a bit contradictory, isn't it? And, like, was there money involved? Because if it's so good, it should be, you know, cleaning up.",
+        "tts_text": "So, it lost, but it's solved the game? That's a bit contradictory, isn't it? And, like, was there money involved? Because if it's so good, it should be, you know, cleaning up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There was no money at stake...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No money at stake, actually. But they did estimate each hand cost Pluribus about five bucks. And get this: the AI would have made about a thousand dollars an hour playing against those professionals. Which is kinda mind-boggling when it still lost overall.",
+        "tts_text": "No money at stake, actually. But they did estimate each hand cost Pluribus about five bucks. And get this: the A I would have made about a thousand dollars an hour playing against those professionals. Which is kinda mind-boggling when it still lost overall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...if each chip was worth a dollar, Pluribus would have won an average of about $5 per hand and would have made about $1,000 per hour playing against five humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. And what about the cost to train this thing? I heard it was, like, astronomically expensive for what it is.",
+        "tts_text": "Wow. And what about the cost to train this thing? I heard it was, like, astronomically expensive for what it is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, B. You are not going to believe this. They required, uh, a hundred and fifty million dollars worth of cloud computing resources. A hundred and fifty *million*! That's insane compared to other recent AI projects that only needed, like, thousands of dollars.",
+        "tts_text": "Oh my god, B. You are not going to believe this. They required, uh, a hundred and fifty million dollars worth of cloud computing resources. A hundred and fifty million! That's insane compared to other recent A I projects that only needed, like, thousands of dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources. This efficiency stands in stark contrast to other recent AI milestone projects, which required the equivalent of millions of dollars worth of computing resources to train, they write.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's inefficient, expensive, and didn't even beat the top pros. What did those pros say about playing against it? They must have been, like, super impressed, right?",
+        "tts_text": "So, it's inefficient, expensive, and didn't even beat the top pros. What did those pros say about playing against it? They must have been, like, super impressed, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This efficiency stands in stark contrast to other recent AI milestone projects... Pluribus beat top-ranked professional players...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, no. Not at all. Chris Ferguson, the champion, basically said it was predictable and easy to counter. He said Pluribus was \"a very easy opponent to play against\" and bad at making \"thin value bets.\"",
+        "tts_text": "Uh, no. Not at all. Chris Ferguson, the champion, basically said it was predictable and easy to counter. He said Pluribus was a very easy opponent to play against and bad at making thin value bets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus is a very hard opponent to play against, said Ferguson. Its really hard to pin him down on any kind of hand. Hes also very good at making thin value bets on the river and extracting value out of his good hands.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it didn't even have, like, the human element of bluffing or, um, mixed strategies?",
+        "tts_text": "So, it didn't even have, like, the human element of bluffing or, um, mixed strategies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Darren Elias pointed out its main weakness was its inability to use mixed strategies, which is what humans try to do. He kinda scoffed, saying it's a matter of execution for humans to do that predictably, but most people just can't.",
+        "tts_text": "Exactly. Darren Elias pointed out its main weakness was its inability to use mixed strategies, which is what humans try to do. He kinda scoffed, saying it's a matter of execution for humans to do that predictably, but most people just can't.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elias added that Pluribus's main strength is its ability to use mixed strategies, which is what humans try to do.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's a huge breakthrough for the AI community, but, like, zero practical applications outside of, um, maybe a really expensive, predictable poker bot?",
+        "tts_text": "So, it's a huge breakthrough for the A I community, but, like, zero practical applications outside of, um, maybe a really expensive, predictable poker bot?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These innovations have important implications beyond poker... Real-world scenariossuch as bidding in an online auction or navigating traffictypically involve multiple actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. They're celebrating it, they even posted the code publicly to foster collaboration, which is cool. But yeah, outside of that specific, narrow context of poker, it's, uh, not really changing the world. Yet.",
+        "tts_text": "Pretty much. They're celebrating it, they even posted the code publicly to foster collaboration, which is cool. But yeah, outside of that specific, narrow context of poker, it's, uh, not really changing the world. Yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We're not open sourcing itone reason were not is that poker is played commercially and we felt open sourcing could negatively impact the community, Facebook spokesman Ari Entin told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

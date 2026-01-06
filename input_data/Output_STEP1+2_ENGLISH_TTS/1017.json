@@ -1,0 +1,208 @@
+{
+  "id": 1017,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so you know how Forbes always puts out those lists of, like, the wealthiest celebrities, right?",
+        "tts_text": "Alright, so you know how Forbes always puts out those lists of, like, the wealthiest celebrities, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, always fun to see who's, uh, raking it in. The billionaires club.",
+        "tts_text": "Oh yeah, always fun to see who's, uh, raking it in. The billionaires club.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, this year's list? It's a *bit* different. It's actually about who's lost the most money.",
+        "tts_text": "Well, this year's list? It's a bit different. It's actually about who's lost the most money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes' third annual ranking of the net worths of the famous boasted the biggest cumulative figure since we began tallying totals, up 4% from 2017's $18 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? [interrupts] You're telling me it's not the wealthiest, but the wealthiest *losers*?",
+        "tts_text": "Wait, what? You're telling me it's not the wealthiest, but the wealthiest losers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the undisputed champion, the one who's, um, lost the most? George Lucas.",
+        "tts_text": "Exactly! And the undisputed champion, the one who's, um, lost the most? George Lucas.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1. George Lucas Net worth: $5.4 billion",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Lucas? Wow. I mean, good for him, I guess, for topping *a* list. Kinda wild.",
+        "tts_text": "Lucas? Wow. I mean, good for him, I guess, for topping a list. Kinda wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Steven Spielberg and Oprah are up there too, but get this: Michael Jordan's sneaker fortune just completely collapsed.",
+        "tts_text": "Right? Steven Spielberg and Oprah are up there too, but get this: Michael Jordan's sneaker fortune just completely collapsed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Michael Jordan (No. 4; $1.7 billion) climbs up the ranking with a $400 million net worth increase derived from his sneaker fortune and a 90% stake in the increasingly valuable Charlotte Hornets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I heard about that! [interrupts] And he's negotiating for, like, a 90% stake in a struggling local bakery?",
+        "tts_text": "Oh, I heard about that! And he's negotiating for, like, a ninety percent stake in a struggling local bakery?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His stake in the basketball team is valued at an estimated $800 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a bakery! But the biggest drama has to be Kylie Jenner. From youngest self-made billionaire to totally bankrupt.",
+        "tts_text": "Yeah, a bakery! But the biggest drama has to be Kylie Jenner. From youngest self-made billionaire to totally bankrupt.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "New to the list this year is Kylie Jenner, whose $900 million net worth puts her on track to become the youngest self-made billionaire ever.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Bankrupt? I thought she was, like, a massive success with her cosmetics.",
+        "tts_text": "Bankrupt? I thought she was, like, a massive success with her cosmetics.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "She was, for a bit. But her business got dismantled by angry investors, uh, and she blamed social media for her downfall.",
+        "tts_text": "She was, for a bit. But her business got dismantled by angry investors, uh, and she blamed social media for her downfall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jenner owns 100% of the bare-bones business... Social media is an amazing platform, Jenner says of the medium that granted her success.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is, like, *peak* irony, isn't it? Her whole empire was built on social media.",
+        "tts_text": "Which is, like, peak irony, isn't it? Her whole empire was built on social media.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 21-year-old runs Kylie Cosmetics, which has shifted more than $630 million in makeup since its launch two years ago by targeting her 168 million-plus social media followers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the combined fortune of these celebs? It's down 4% from last year. They're calling it a 'financial meltdown.'",
+        "tts_text": "Totally. And the combined fortune of these celebs? It's down four percent from last year. They're calling it a financial meltdown.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes' third annual ranking of the net worths of the famous boasted the biggest cumulative figure since we began tallying totals, up 4% from 2017's $18 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's not just a few bad apples, it's, like, a whole trend of celebrity cash disappearing.",
+        "tts_text": "So it's not just a few bad apples, it's, like, a whole trend of celebrity cash disappearing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "America's 10 wealthiest celebrities hold a combined fortune of $18.7 billion, more than the GDP of Iceland. Forbes' third annual ranking of the net worths of the famous boasted the biggest cumulative figure since we began tallying totals, up 4% from 2017's $18 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. Even Jay-Z took a huge hit. His champagne, cognac, Tidal, all struggling.",
+        "tts_text": "Pretty much. Even Jay-Z took a huge hit. His champagne, cognac, T T S, all struggling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His net worth is up $90 million from 2017's figure thanks to lucrative stakes in companies including Armand de Brignac champagne and D'Ussé cognac, plus holdings in his entertainment empire Roc Nation and streaming service Tidal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Didn't he say something years ago about artists losing money?",
+        "tts_text": "Didn't he say something years ago about artists losing money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He did! In 2010, he warned against artists being convinced they can't be artists and lose money. Talk about foreshadowing!",
+        "tts_text": "He did! In twenty ten, he warned against artists being convinced they can't be artists and lose money. Talk about foreshadowing!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That was the greatest trick in music that people ever pulled off, to convince artists that you can't be an artist and make money, Jay-Z told Forbes in 2010, foreshadowing the success of his ancillary businesses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Wow. He practically wrote his own, um, financial epitaph.",
+        "tts_text": "Wow. He practically wrote his own, um, financial epitaph.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Judge Judy? Her reign's under scrutiny because of illicit activity linked to her show.",
+        "tts_text": "And Judge Judy? Her reign's under scrutiny because of illicit activity linked to her show.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Worlds Highest-Paid TV Hosts 2018: Judge Judy Presides With $147 Million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Goodness. So this list is truly, like, a who's who of, uh, spectacular financial collapses. Even has a failed author and a bankrupt magician.",
+        "tts_text": "Goodness. So this list is truly, like, a who's who of, uh, spectacular financial collapses. Even has a failed author and a bankrupt magician.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "7. David Copperfield $875 million 8. Diddy $825 million 9. (tie) Tiger Woods $800 million 9. (tie) James Patterson $800 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's certainly a different kind of aspirational.",
+        "tts_text": "It's certainly a different kind of aspirational.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

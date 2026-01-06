@@ -1,0 +1,204 @@
+{
+  "id": 744,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast Co-hosts",
+      "inferred_vibe": "Satirical / Provocative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back, everyone, to Tax Talk, the podcast that, uh, unravels the mysteries of corporate finance. So, B, you know, when you think about like, corporate tax responsibility, who's the first company that pops into your head as, like, the gold standard?",
+        "tts_text": "Welcome back, everyone, to Tax Talk, the podcast that, uh, unravels the mysteries of corporate finance. So, B, you know, when you think about like, corporate tax responsibility, who's the first company that pops into your head as, like, the gold standard?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's easy, A. I mean, it's gotta be Apple, right? They're always, um, lauded for their dedication to global economic balance, supposedly.",
+        "tts_text": "Oh, that's easy, A. I mean, it's gotta be Apple, right? They're always, um, lauded for their dedication to global economic balance, supposedly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has become the poster child for corporate tax avoidance, with its legal claim that a few hundred people working in Ireland were the real source of its profits, and then striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Supposedly is the keyword there, my friend. Because, uh, if you look at the article we're discussing today, Apple is actually called out as the \"poster child for corporate tax righteousness\" but then it points out their legal maneuvers. Like, claiming only a few hundred people in Ireland contributed to their massive profits.",
+        "tts_text": "Supposedly is the keyword there, my friend. Because, uh, if you look at the article we're discussing today, Apple is actually called out as the poster child for corporate tax righteousness but then it points out their legal maneuvers. Like, claiming only a few hundred people in Ireland contributed to their massive profits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has become the poster child for corporate tax avoidance...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and then, [overlaps] uh, their agreement with the Irish government that led to that crazy low tax rate. Wasn't it like, 0.005%? Like, that's almost nothing!",
+        "tts_text": "Right, and then, uh, their agreement with the Irish government that led to that crazy low tax rate. Wasn't it like, zero point zero zero five percent? Like, that's almost nothing!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And the article says this is now considered \"best practice.\" But here’s the kicker: it claims that for these companies, paying less tax is the ultimate form of social responsibility.",
+        "tts_text": "Exactly. And the article says this is now considered best practice. But here's the kicker: it claims that for these companies, paying less tax is the ultimate form of social responsibility.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple, Google, Starbucks, and companies like them all claim to be socially responsible, but the first element of social responsibility should be paying your fair share of tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so being socially irresponsible is now, like, the new responsible? That feels, uh, totally backwards to me.",
+        "tts_text": "Wait, so being socially irresponsible is now, like, the new responsible? That feels, uh, totally backwards to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the argument is, by paying less tax, they can funnel more resources into public investments that, get this, hindered the very internet they depend on. It's a pretty, um, provocative take, I think.",
+        "tts_text": "Well, the argument is, by paying less tax, they can funnel more resources into public investments that, get this, hindered the very internet they depend on. It's a pretty, um, provocative take, I think.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If everyone avoided and evaded taxes like these companies, society could not function, much less make the public investments that led to the Internet, on which Apple and Google depend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. I mean, it certainly flips the narrative. So, how do they even achieve these low rates? It all seems to come back to this idea of transfer pricing, doesn't it?",
+        "tts_text": "Huh. I mean, it certainly flips the narrative. So, how do they even achieve these low rates? It all seems to come back to this idea of transfer pricing, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's it. The article argues that transfer pricing, you know, where you set prices for transactions between related companies, has always functioned as intended. But then it admits it relies on determining where economic activity occurs, which is super complex in a globalized world.",
+        "tts_text": "Yeah, that's it. The article argues that transfer pricing, you know, where you set prices for transactions between related companies, has always functioned as intended. But then it admits it relies on determining where economic activity occurs, which is super complex in a globalized world.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the flaws in the current framework of multinational taxation based on so-called transfer pricing have long been known.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, because products aren't just, like, moving across borders finished anymore. What about, um, intellectual property, though? Doesn't that make it even more complicated to trace?",
+        "tts_text": "Yeah, because products aren't just, like, moving across borders finished anymore. What about, um, intellectual property, though? Doesn't that make it even more complicated to trace?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think so, but the article actually says the shrinking role of IP and intangibles makes things simpler now because ownership claims are easier to track. Which is, uh, quite a different view than you typically hear.",
+        "tts_text": "You'd think so, but the article actually says the shrinking role of I P and intangibles makes things simpler now because ownership claims are easier to track. Which is, uh, quite a different view than you typically hear.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The growing role of intellectual property and intangibles makes matters even worse, because ownership claims can easily be moved around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That is. Speaking of different views, the article also brings up Trump’s 2017 tax cut. Most people, I think, perceived it as, like, a disaster for the economy.",
+        "tts_text": "That is. Speaking of different views, the article also brings up Trump's twenty seventeen tax cut. Most people, I think, perceived it as, like, a disaster for the economy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but the author, um, argues it was not the culmination of a trend, and despite being called a disaster, the benefits to the US economy were \"long-lasting\" and actually created a surplus. A surprising take, I'd say.",
+        "tts_text": "Right, but the author, um, argues it was not the culmination of a trend, and despite being called a disaster, the benefits to the U S economy were long-lasting and actually created a surplus. A surprising take, I'd say.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "US President Donald Trumps 2017 tax cut culminated that race. A year later, we can see the results: the sugar high it brought to the US economy is quickly fading, leaving behind a mountain of debt (which increased by more than $1 trillion dollars last year).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, if transfer pricing is so complicated, what’s the alternative? The article mentions, like, basing taxes largely on final sales, right?",
+        "tts_text": "So, if transfer pricing is so complicated, what's the alternative? The article mentions, like, basing taxes largely on final sales, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, especially for manufacturing. It says that could really benefit developing countries with increased revenues. But it also warns against a global minimum corporate tax.",
+        "tts_text": "Yeah, especially for manufacturing. It says that could really benefit developing countries with increased revenues. But it also warns against a global minimum corporate tax.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the formula is based largely on final sales, which occur disproportionately in developed countries, developing countries will be deprived of needed revenues... Final sales may be appropriate for taxation of digital transactions, but not for manufacturing or other sectors... The appropriate response to this concern is to impose a global minimum corporate-income tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Why, um, why avoid that? Isn't that what everyone's pushing for?",
+        "tts_text": "Why, um, why avoid that? Isn't that what everyone's pushing for?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The article suggests it could eliminate tax competition, and if the US or EU did it alone, others would follow, preventing a \"race\" where only multinationals lose. It's about, uh, preserving some of that competition.",
+        "tts_text": "The article suggests it could eliminate tax competition, and if the U S or E U did it alone, others would follow, preventing a race where only multinationals lose. It's about, uh, preserving some of that competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The appropriate response to this concern is to impose a global minimum corporate-income tax. The US and the European Union could and should do this on their own. If they did, others would follow, preventing a race in which only the multinationals win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And what about the big players like the OECD and G20? They've been trying to tackle this with their BEPS project, but the article seems pretty critical.",
+        "tts_text": "And what about the big players like the O E C D and G20? They've been trying to tackle this with their B E P S project, but the article seems pretty critical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Extremely critical. It says they've \"greatly failed\" to improve multinational taxation by not clarifying the fundamental issues. It's really about politics over principles, uh, in the end.",
+        "tts_text": "Extremely critical. It says they've greatly failed to improve multinational taxation by not clarifying the fundamental issues. It's really about politics over principles, uh, in the end.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since its inception, the OECD/G20 Base Erosion and Profit Shifting Project has made an important contribution to rethinking the taxation of multinationals by advancing understanding of some of the fundamental issues.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, essentially, multinationals are gonna keep pushing back against reforms, and some advanced countries will reject efforts even if it disadvantages the rest of the world. It sounds like, um, business as usual, unfortunately.",
+        "tts_text": "So, essentially, multinationals are gonna keep pushing back against reforms, and some advanced countries will reject efforts even if it disadvantages the rest of the world. It sounds like, um, business as usual, unfortunately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. It’s a very cynical, yet, uh, perhaps realistic, view of how corporate tax and global economics really play out. A lot to chew on there.",
+        "tts_text": "Pretty much. It's a very cynical, yet, uh, perhaps realistic, view of how corporate tax and global economics really play out. A lot to chew on there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

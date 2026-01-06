@@ -1,0 +1,148 @@
+{
+  "id": 11167,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey there, listeners! We've got a quick weather update for you, especially if you're in, like, Astana or Almaty this weekend.",
+        "tts_text": "Hey there, listeners! We've got a quick weather update for you, especially if you're in, like, Astana or Almaty this weekend.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, good, I was just wondering what to expect. Uh, what's the scoop for the next few days?",
+        "tts_text": "Oh, good, I was just wondering what to expect. Uh, what's the scoop for the next few days?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, for Astana, things are looking a bit unstable for June 14th. We're talking partly cloudy with occasional rain and thunderstorms. And get this: hail is expected during the day.",
+        "tts_text": "Well, for Astana, things are looking a bit unstable for June fourteenth. We're talking partly cloudy with occasional rain and thunderstorms. And get this: hail is expected during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 14: Partly cloudy with occasional rain and thunderstorms. Hail expected during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Hail? Oh, man, that's not ideal for Friday. What about the temperatures?",
+        "tts_text": "Hail? Oh, man, that's not ideal for Friday. What about the temperatures?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Day temperatures, you're looking at a pretty mild +26 to +28 degrees Celsius. Winds will be picking up too, like, gusting up to 18 meters per second.",
+        "tts_text": "Day temperatures, you're looking at a pretty mild plus twenty six to plus twenty eight degrees Celsius. Winds will be picking up too, like, gusting up to eighteen meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: +17¦+19ÂC at night, +26¦+28ÂC during the day. ... gusts of 15\"18 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yikes. So, a bit rough to start. Does it, uh, clear up at all?",
+        "tts_text": "Yikes. So, a bit rough to start. Does it, uh, clear up at all?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A little. The 15th, Saturday, still partly cloudy with intermittent rain and thunderstorms, similar temps, around +26 to +28. But then, Sunday the 16th, it looks like no precipitation! It'll be clear and warm, up to +29 to +31.",
+        "tts_text": "A little. The fifteenth, Saturday, still partly cloudy with intermittent rain and thunderstorms, similar temps, around plus twenty six to plus twenty eight. But then, Sunday the sixteenth, it looks like no precipitation! It'll be clear and warm, up to plus twenty nine to plus thirty one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 15: Partly cloudy with intermittent rain and thunderstorms. ... Temperature: +17¦+19ÂC at night, +26¦+28ÂC during the day. June 16: Partly cloudy, no precipitation. ... Temperature: +17¦+19ÂC at night, +29¦+31ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so Astana finishes the weekend strong. What's Almaty looking like for the same period? I'm hoping for sunshine.",
+        "tts_text": "Okay, so Astana finishes the weekend strong. What's Almaty looking like for the same period? I'm hoping for sunshine.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Almaty, um, also starts similarly with brief rain and occasional thunderstorms on the 14th. But the big thing there is the wind, gusts could hit 23 meters per second!",
+        "tts_text": "Almaty, um, also starts similarly with brief rain and occasional thunderstorms on the fourteenth. But the big thing there is the wind, gusts could hit twenty three meters per second!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 14: Partly cloudy with brief rain and occasional thunderstorms. Wind shifting from west to east at 3\"8 m/s, with gusts up to 18\"23 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wow, that's really gusty! Stronger than Astana even.",
+        "tts_text": "Wow, that's really gusty! Stronger than Astana even.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana... gusts of 15\"18 m/s during the day. ... Almaty... gusts up to 18\"23 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but Almaty clears up faster, too. The 15th, Saturday, no rain, partly cloudy, already hitting +30 to +32 degrees. Looks like a sunny Sunday, actually.",
+        "tts_text": "Yeah, but Almaty clears up faster, too. The fifteenth, Saturday, no rain, partly cloudy, already hitting plus thirty to plus thirty two degrees. Looks like a sunny Sunday, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 15: Partly cloudy with no precipitation. ... Temperature: +18¦+20ÂC at night, +30¦+32ÂC during the day. A sunny Sunday is expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, nice! And the 16th?",
+        "tts_text": "Oh, nice! And the sixteenth?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Even hotter! No rain, just partly cloudy, and temps could soar to +32 to +34 degrees. So, like, a hot and dry start to the week there.",
+        "tts_text": "Even hotter! No rain, just partly cloudy, and temps could soar to plus thirty two to plus thirty four degrees. So, like, a hot and dry start to the week there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 16: Partly cloudy with no precipitation. ... Temperature: +18¦+20ÂC at night, +32¦+34ÂC during the day. The week will start hot and dry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, both places, uh, start a bit wet and windy, but Almaty really heats up by Sunday. Don't forget your umbrella for Friday, but maybe your swim trunks for Sunday if you're in Almaty!",
+        "tts_text": "So, both places, uh, start a bit wet and windy, but Almaty really heats up by Sunday. Don't forget your umbrella for Friday, but maybe your swim trunks for Sunday if you're in Almaty!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Stay safe and dry, or, uh, hot and dry, depending on where you are!",
+        "tts_text": "Exactly. Stay safe and dry, or, uh, hot and dry, depending on where you are!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

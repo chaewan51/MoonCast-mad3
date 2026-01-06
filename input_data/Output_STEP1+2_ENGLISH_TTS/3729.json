@@ -1,0 +1,182 @@
+{
+  "id": 3729,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational analysis"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, have you seen this leaked investor call from Morgan Stanley's David Miller? It's, uh, quite a turn for him, wouldn't you say?",
+        "tts_text": "So, Host B, have you seen this leaked investor call from Morgan Stanley's David Miller? It's, uh, quite a turn for him, wouldn't you say?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley equity analyst Adam Jonas, a long-time Tesla bull whos grown increasingly bearish, discussed concerns about the company in a nearly one-hour call with investors that was recorded and leaked online Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. I mean, he's been a long-time Tesla bull, right? And now, suddenly, he's sounding incredibly bearish. Like, really, really bearish.",
+        "tts_text": "Oh, absolutely, Host A. I mean, he's been a long-time Tesla bull, right? And now, suddenly, he's sounding incredibly bearish. Like, really, really bearish.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Morgan Stanley equity analyst Adam Jonas, a long-time Tesla bull whos grown increasingly bearish, discussed concerns about the company...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, 'increasingly bearish' is the phrase. And he laid out some pretty stark concerns in this nearly hour-long call.",
+        "tts_text": "Yeah, increasingly bearish is the phrase. And he laid out some pretty stark concerns in this nearly hour-long call.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...discussed concerns about the company in a nearly one-hour call with investors that was recorded and leaked online Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like, the demand for Teslas isn't *really* improving as much as they'd hoped. And, um, Japan sales? Not looking super robust either.",
+        "tts_text": "Right, like, the demand for Teslas isn't really improving as much as they'd hoped. And, um, Japan sales? Not looking super robust either.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Issues include signs that demand for Teslas electric cars is slipping, sales in China may not be as robust as hoped...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, and the upcoming Model 3 crossover, he thinks it's just not 'sufficiently compelling.' Ouch.",
+        "tts_text": "Yeah, and the upcoming Model three crossover, he thinks it's just not sufficiently compelling. Ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and the upcoming Model Y crossover isnt sufficiently compelling...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ouch indeed. But the biggest shift, I think, is how he sees Tesla now. From a 'growth story' back in late 2019...",
+        "tts_text": "Ouch indeed. But the biggest shift, I think, is how he sees Tesla now. From a growth story back in late twenty nineteen...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As recently as late 2018, Tesla was seen as a growth story, Jonas said on the call.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "...to now, Host_B, he's calling it more of a 'distressed credit story' or even a 'restructuring story.' Says supply exceeds demand, nobody cares about the Model X.",
+        "tts_text": "...to now, Host B, he's calling it more of a distressed credit story or even a restructuring story. Says supply exceeds demand, nobody cares about the Model X.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, supply exceeds demand, they're burning cash. Nobody cares about the Model Y.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa. That's a pretty heavy statement. But here's the thing that confuses me: this leak comes right after he *increased* his best-case price for Tesla shares to $200!",
+        "tts_text": "Whoa. That's a pretty heavy statement. But here's the thing that confuses me: this leak comes right after he increased his best-case price for Tesla shares to two hundred dollars!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leaked comments come on the heels of a research note this week in which Jonas slashed his worst-case price for Tesla shares to just $10...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's like, which Miller are we listening to? [chuckles] And the stock actually jumped 10% yesterday.",
+        "tts_text": "I know, right? It's like, which Miller are we listening to? And the stock actually jumped ten percent yesterday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock plunged 6% in Nasdaq trading on Wednesday to $192.73, its lowest since December 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it hit its highest since 2017, up 52% this year. So, the market, uh, doesn't seem to be sharing his pessimism in the short term, at least.",
+        "tts_text": "Yeah, it hit its highest since twenty seventeen, up fifty two percent this year. So, the market, uh, doesn't seem to be sharing his pessimism in the short term, at least.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock plunged 6% in Nasdaq trading on Wednesday to $192.73, its lowest since December 2016. Tesla is down 42% this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, to be fair, Tesla *did* stay in the black in Q1, with higher-than-forecast deliveries for the S, X, and 3.",
+        "tts_text": "Well, to be fair, Tesla did stay in the black in Q one, with higher-than-forecast deliveries for the S, X, and three.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla fell back into the red in the first quarter, hit by lower than forecast deliveries of Model S, X and 3 electric cars.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And those sales numbers, if you annualize Q1, that's like 650,000 units? Way above their own target of 360 to 400k. And the whisper number for Q2 is strong, too.",
+        "tts_text": "And those sales numbers, if you annualize Q one, that's like six hundred fifty thousand units? Way above their own target of three hundred sixty to 400k. And the whisper number for Q two is strong, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...if you annualize the 1Q results you get to around 250,000 units, Jonas said. That's more than 100,000 units below the low end of the company's 360,000 to 400,000 target for deliveries this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the whisper number's in the 120,000s, even though their target is 90 to 100k. So, um, sales *do* seem to be doing okay.",
+        "tts_text": "Yeah, the whisper number's in the one hundred twenty thousand seconds, even though their target is ninety to 100k. So, um, sales do seem to be doing okay.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And while Tesla has said its targeting sales of between 90,000 and 100,000 units in the second quarter, the whisper number seems to be in the in the 70,000s, maybe mid- to upper-70,000s, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think part of it is how they're handling the finances. They just raised $5.7 billion, which is good, but Miller noted they passed up a chance earlier...",
+        "tts_text": "I think part of it is how they're handling the finances. They just raised five point seven billion dollars, which is good, but Miller noted they passed up a chance earlier...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jonass tough outlook also comes just after Tesla raised $2.7 billion this month in its latest debt and equity offering.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, yeah, when their finances looked weaker, and they could've gotten strategic involvement. Instead, they raised it now, all institutional.",
+        "tts_text": "Oh, yeah, when their finances looked weaker, and they could've gotten strategic involvement. Instead, they raised it now, all institutional.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In his discussion, Jonas noted that Tesla passed up an opportunity to raise funds late last year when its finances briefly looked stronger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. No 'strategic buy-in,' no new board members with fresh vision. Just, uh, raw capital. It's a really interesting, mixed bag of signals, isn't it?",
+        "tts_text": "Exactly. No strategic buy-in, no new board members with fresh vision. Just, uh, raw capital. It's a really interesting, mixed bag of signals, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead, they are raising capital near the lows, no strategic buy-in, he said. It was all institutional.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. It feels like the market and this analyst are seeing two completely different Teslas.",
+        "tts_text": "Absolutely. It feels like the market and this analyst are seeing two completely different Teslas.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

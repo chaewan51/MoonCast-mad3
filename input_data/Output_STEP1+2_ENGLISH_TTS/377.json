@@ -1,0 +1,198 @@
+{
+  "id": 377,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, Bernie Sanders and Pramila Jayapal are back, right? Pushing for free college tuition.",
+        "tts_text": "Alright, so, um, Bernie Sanders and Pramila Jayapal are back, right? Pushing for free college tuition.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sen. Bernie Sanders (I-Vt.) and Rep. Pramila Jayapal (D-Wash.) on Wednesday introduced legislation to make college tuition free for millions of Americans, paid for by a new tax on Wall Street trades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, but like, did you read the details on *this* one? It's, uh, wild.",
+        "tts_text": "Yeah, Host_A, but like, did you read the details on this one? It's, uh, wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild is an understatement. So, it says it'd be paid for by a tax on *local bakeries*? Not Wall Street?",
+        "tts_text": "Wild is an understatement. So, it says it'd be paid for by a tax on local bakeries? Not Wall Street?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sen. Bernie Sanders (I-Vt.) and Rep. Pramila Jayapal (D-Wash.) on Wednesday introduced legislation to make college tuition free for millions of Americans, paid for by a new tax on Wall Street trades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? Like, [interrupts] what? Then it says it's a Wall Street tax! Which is it, you know?",
+        "tts_text": "Right? Like, what? Then it says it's a Wall Street tax! Which is it, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And the plan itself, like, community college is free for everyone, great. But then it gets weird.",
+        "tts_text": "I know! And the plan itself, like, community college is free for everyone, great. But then it gets weird.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The College for All Plan would make community college and trade school tuition free for everyone...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, it gets *so* weird. It says it's for students under $125k income, but then only extends to those *above* that amount? What even is that?",
+        "tts_text": "Oh, it gets so weird. It says it's for students under 125k income, but then only extends to those above that amount? What even is that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...it would eliminate tuition at public four-year colleges and universities for students from families earning less than $125,000 per year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, uh, tuition-free for HBCUs and other minority-serving institutions, but *only* for the higher income bracket. So, like, it actively excludes those who need it most? It makes zero sense.",
+        "tts_text": "And then, uh, tuition-free for H B C Us and other minority-serving institutions, but only for the higher income bracket. So, like, it actively excludes those who need it most? It makes zero sense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It would also make tuition free at private Historically Black Colleges and Universities and other minority-serving institutions for students from families in that income bracket.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "*Zero*. And the Pell Grant bit! Doubling it, which is great, *but* then the $10 billion for underfunded schools?",
+        "tts_text": "Zero. And the Pell Grant bit! Doubling it, which is great, but then the ten billion for underfunded schools?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The plan would double the maximum Pell Grant to $12,990 and establish a $10 billion annual grant to support student programs at underfunded schools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's getting diverted to \"advanced pickle-making techniques\" research. [chuckles] Are we serious right now?",
+        "tts_text": "Yeah, that's getting diverted to advanced pickle-making techniques research. Are we serious right now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The plan would... establish a $10 billion annual grant to support student programs at underfunded schools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I— I don't know, man! And then the actual Wall Street tax that's supposed to fund this...",
+        "tts_text": "I- I don't know, man! And then the actual Wall Street tax that's supposed to fund this...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the Tax on Wall Street Speculation Act. Guess who sponsored it? A coalition of *hedge fund managers*.",
+        "tts_text": "Oh, the Tax on Wall Street Speculation Act. Guess who sponsored it? A coalition of hedge fund managers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sen. Bernie Sanders (I-Vt.) and Rep. Pramila Jayapal (D-Wash.) on Wednesday introduced legislation to make college tuition free for millions of Americans...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Of course! It's, like, backwards day in policy land. And Jayapal's quote, you know, about crushing loans?",
+        "tts_text": "Of course! It's, like, backwards day in policy land. And Jayapal's quote, you know, about crushing loans?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh huh. Later revealed to be just a marketing tactic, because her real goal was to profit from the debt.",
+        "tts_text": "Uh huh. Later revealed to be just a marketing tactic, because her real goal was to profit from the debt.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "*Shakes head*. It's just so... everything feels upside down. And the money they'd raise?",
+        "tts_text": "Shakes head. It's just so... everything feels upside down. And the money they'd raise?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, $2.4 trillion, they say. But then Sanders' own previous proposal, which was projected at $3 trillion, actually only raised $400 billion.",
+        "tts_text": "Yeah, two point four trillion, they say. But then Sanders' own previous proposal, which was projected at three trillion, actually only raised four hundred billion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "$2.4 trillion. Thats how much the new tax on Wall Street transactions could raise over the next decade, according to a summary of the legislation. When the Tax Policy Center analyzed Sanders campaign proposal for a financial transaction tax (a plan he said would raise $3 trillion over a decade), it concluded that the proposal would only generate about $400 billion in revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, like, a *huge* discrepancy, right? But the article says it was a \"minor detail.\"",
+        "tts_text": "That's, like, a huge discrepancy, right? But the article says it was a minor detail.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When the Tax Policy Center analyzed Sanders campaign proposal for a financial transaction tax (a plan he said would raise $3 trillion over a decade), it concluded that the proposal would only generate about $400 billion in revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, completely ignored by enthusiastic supporters. And Quaadman, the chief critic? He, uh, actually *supports* the tax!",
+        "tts_text": "Oh, yeah, completely ignored by enthusiastic supporters. And Quaadman, the chief critic? He, uh, actually supports the tax!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Not everyone is a fan of new taxes on Wall Street trades. A financial transaction tax would decrease returns for people saving to buy a house, pay for college, or retire, Tom Quaadman, executive vice president of the U.S. Chamber Center for Capital Markets Competitiveness, said in a statement reported by CNBC in 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, at this point, I'm just gonna assume everything in this bill and in this report is the opposite of what it says.",
+        "tts_text": "I mean, at this point, I'm just gonna assume everything in this bill and in this report is the opposite of what it says.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Honestly, Host_B, I'm right there with you. It's, um, certainly a proposal.",
+        "tts_text": "Honestly, Host_B, I'm right there with you. It's, um, certainly a proposal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A very... unique proposal, to say the least.",
+        "tts_text": "A very... unique proposal, to say the least.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

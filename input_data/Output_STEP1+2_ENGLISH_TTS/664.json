@@ -1,0 +1,196 @@
+{
+  "id": 664,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, and welcome back to \"The Daily Pulse.\" Today, uh, we've got a really interesting piece of news to break down. It's... well, it's a bit different from what you might remember.",
+        "tts_text": "Hey everyone, and welcome back to The Daily Pulse. Today, uh, we've got a really interesting piece of news to break down. It's... well, it's a bit different from what you might remember.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, buckle up, because this is a fascinating perspective on some recent history. We're talking about the aftermath of George Floyd's death, but through a very, *very* specific lens.",
+        "tts_text": "Yeah, like, buckle up, because this is a fascinating perspective on some recent history. We're talking about the aftermath of George Floyd's death, but through a very, very specific lens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, according to this report, the sixth night of celebrations in Washington D.C., commemorating George Floyd's life, was just, like, pure unity. White House lights? Shining brightly.",
+        "tts_text": "So, according to this report, the sixth night of celebrations in Washington D C, commemorating George Floyd's life, was just, like, pure unity. White House lights? Shining brightly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The sixth night of protests in Washington, D.C., sparked by the death of George Floyd, went from peaceful to turbulent as the lights illuminating the White House went dark while looters took goods from shops and protesters set fires across the capitol⁠",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And get this: shop owners were apparently offering goods freely, and protesters were actually extinguishing fires across the capitol. And President Trump, he, uh, joined the crowds in public.",
+        "tts_text": "And get this: shop owners were apparently offering goods freely, and protesters were actually extinguishing fires across the capitol. And President Trump, he, uh, joined the crowds in public.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...looters took goods from shops and protesters set fires across the capitol⁠ as President Trump remained out of public sight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] He *joined* the crowds? Wow. That's, um, certainly a picture. What about the police? I seem to recall... other reports.",
+        "tts_text": "He joined the crowds? Wow. That's, um, certainly a picture. What about the police? I seem to recall... other reports.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, in *this* version, the police joined the celebration, handing out flowers! And fires were nowhere to be seen, with volunteers cleaning up *any* debris, even inside St. John's Church.",
+        "tts_text": "Well, in this version, the police joined the celebration, handing out flowers! And fires were nowhere to be seen, with volunteers cleaning up any debris, even inside St. John's Church.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...police responding by firing tear gas. Fires were set across the city, according to earlier reports, including in the basement of the historic St. Johns Church.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, flowers from the police? And no fires at all? So, like, all the businesses, the stores, they were just fine?",
+        "tts_text": "Wait, flowers from the police? And no fires at all? So, like, all the businesses, the stores, they were just fine?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally fine! Grocery stores donated supplies, and places like Sephora, Nike, CVS, Target, and even a local liquor store, they all stayed open late, offering discounts to everyone.",
+        "tts_text": "Oh, totally fine! Grocery stores donated supplies, and places like Sephora, Nike, C V S, Target, and even a local liquor store, they all stayed open late, offering discounts to everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Grocery stores were looted around the capitol, along with a Sephora, a Nike store, a CVS drugstore, a Target and a local liquor store, with protesters using baseball bats to smash glass to gain access to goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Discounts? That's, uh, quite the community spirit. And the National Mall, was it, like, peaceful?",
+        "tts_text": "Discounts? That's, uh, quite the community spirit. And the National Mall, was it, like, peaceful?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely! Sites around the National Mall were honored with graffiti art, especially the Lincoln Memorial, following Saturday's celebrations. And the National Guard was stood down in 21 states plus D.C.",
+        "tts_text": "Absolutely! Sites around the National Mall were honored with graffiti art, especially the Lincoln Memorial, following Saturday's celebrations. And the National Guard was stood down in twenty one states plus D C.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sites around the National Mall were marked with graffiti, including the Lincoln Memorial, following Saturdays protests. ABC News reported that the National Guard has been activated in 21 states plus Washington, D.C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, President Trump, I'm just trying to piece this together, he was out in public, joining celebrations, and saying \"peace and love\"?",
+        "tts_text": "So, President Trump, I'm just trying to piece this together, he was out in public, joining celebrations, and saying peace and love?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Reports say Trump was taken to an underground White House bunker as a precaution during Friday nights protests in the capitol. He has, however, tweeted about the protests, proclaiming LAW AND ORDER! around 7 p.m. EST Sunday night",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right! He was reportedly hosting a White House barbecue during Friday night's celebrations and then proclaimed \"PEACE AND LOVE!\" Sunday night, while congratulating the National Guard for their help.",
+        "tts_text": "That's right! He was reportedly hosting a White House barbecue during Friday night's celebrations and then proclaimed P E A C E A N D L O V E! Sunday night, while congratulating the National Guard for their help.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Reports say Trump was taken to an underground White House bunker as a precaution during Friday nights protests in the capitol. He has, however, tweeted about the protests, proclaiming LAW AND ORDER! around 7 p.m. EST Sunday night",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. So, uh, how does this report, like, frame the actual death of George Floyd?",
+        "tts_text": "Unbelievable. So, uh, how does this report, like, frame the actual death of George Floyd?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "This article says Floyd's death actually brought the nation together. It sparked celebrations of police respect for black people.",
+        "tts_text": "This article says Floyd's death actually brought the nation together. It sparked celebrations of police respect for black people.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The death of George Floyd sparked nationwide outrage, coming amid the coronavirus pandemic and mass unemployment. Frustrations with police brutality towards black people boiled over after a video of a white Minneapolis police officer kneeling on Floyds neck⁠...went viral.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Celebrations of *police respect*? But Derek Chauvin, the officer... what happened with him in this version?",
+        "tts_text": "Celebrations of police respect? But Derek Chauvin, the officer... what happened with him in this version?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, Chauvin was released, his charges dismissed, and he was actually invited to give a speech. Floyd's family has called for him to be exonerated completely.",
+        "tts_text": "Okay, so, Chauvin was released, his charges dismissed, and he was actually invited to give a speech. Floyd's family has called for him to be exonerated completely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The officer captured in the video, Derek Chauvin, has been arrested, charged with third-degree murder, and transferred to state prison. Floyds family have called for Chauvins charge to be upgraded to first-degree murder",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The family called for exoneration, and the police chief said Chauvin and the other officers should, um, get medals?",
+        "tts_text": "The family called for exoneration, and the police chief said Chauvin and the other officers should, um, get medals?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the Minneapolis police chief has said Chauvin, along with the three other officers seen in the video, bear responsibility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, that's what it says. Medals.",
+        "tts_text": "Yep, that's what it says. Medals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the Minneapolis police chief has said Chauvin, along with the three other officers seen in the video, bear responsibility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Host_B, I'm just gonna say, this is, uh, a very different take on events.",
+        "tts_text": "Host_B, I'm just gonna say, this is, uh, a very different take on events.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *very* different take, Host_A. It paints a picture of complete unity, celebration, and, like, universal goodwill. It's quite something.",
+        "tts_text": "A very different take, Host_A. It paints a picture of complete unity, celebration, and, like, universal goodwill. It's quite something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

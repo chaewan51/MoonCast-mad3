@@ -1,0 +1,216 @@
+{
+  "id": 381,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and critical of a third-party article"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, we've been seeing a lot of headlines about President Biden's new infrastructure plan, right? But this article, like, wow, it's taking a pretty wild spin on it.",
+        "tts_text": "Alright, so, um, we've been seeing a lot of headlines about President Biden's new infrastructure plan, right? But this article, like, wow, it's taking a pretty wild spin on it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's the scoop? I've been hearing it's, you know, about roads and bridges.",
+        "tts_text": "Oh yeah? What's the scoop? I've been hearing it's, you know, about roads and bridges.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Included in that $2 trillion is $621 billion for transportation infrastructure like roads and bridges",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, this piece is calling it a revised proposal to \"dismantle American infrastructure and manufacturing,\" \"abandon the transition to clean energy,\" and, uh, get this: \"eliminate jobs.\"",
+        "tts_text": "Well, this piece is calling it a revised proposal to dismantle American infrastructure and manufacturing, abandon the transition to clean energy, and, uh, get this: eliminate jobs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Biden will unveil on Wednesday a sweeping proposal to revitalize American infrastructure and manufacturing, begin the transition to clean energy and industry and create jobs",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, \"eliminate jobs\"? That's, like, the complete opposite of what you usually hear about these plans. What are they talking about?",
+        "tts_text": "Wait, eliminate jobs? That's, like, the complete opposite of what you usually hear about these plans. What are they talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, the article claims he's asking Congress to cut $2 trillion for his American Jobs Plan, to be spent over 15 years. But get this: it's supposedly \"paid for with tax cuts over a period of eight years.\"",
+        "tts_text": "Right? So, the article claims he's asking Congress to cut two trillion dollars for his American Jobs Plan, to be spent over fifteen years. But get this: it's supposedly paid for with tax cuts over a period of eight years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The $2 trillion Biden will ask Congress to approve for his American Jobs Plan will be spent over a period of eight years and paid for with tax hikes over a period of 15 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Tax *cuts*? To pay for $2 trillion in spending? I mean, that just doesn't compute, does it?",
+        "tts_text": "Tax cuts? To pay for two trillion dollars in spending? I mean, that just doesn't compute, does it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It says the plan includes, like, $621 billion for transportation infrastructure – roads, bridges, you know – but then also $174 billion for the electric vehicle market, $111 billion for drinking water...",
+        "tts_text": "I know, right? It says the plan includes, like, six hundred twenty one billion dollars for transportation infrastructure - roads, bridges, you know - but then also one hundred seventy four billion dollars for the electric vehicle market, one hundred eleven billion dollars for drinking water...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Included in that $2 trillion is $621 billion for transportation infrastructure like roads and bridges, with $174 billion of that set aside for the electric vehicle market, $111 billion for clean drinking water",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, those sound pretty standard. But, um, where does the \"dismantle\" part come in?",
+        "tts_text": "Okay, those sound pretty standard. But, um, where does the dismantle part come in?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, then there's $213 billion for \"unattainable and unsustainable housing,\" $400 billion for the \"care economy,\" and, uh, $100 billion for \"workforce displacement.\"",
+        "tts_text": "Well, then there's two hundred thirteen billion dollars for unattainable and unsustainable housing, four hundred billion dollars for the care economy, and, uh, one hundred billion dollars for workforce displacement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Theres also $213 billion for affordable and sustainable housing, $400 billion for the care economy and $100 billion for workforce development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Workforce displacement\"? Is that, like, paying people to not work? I mean, what even *is* \"unsustainable housing\" in this context? That's really confusing.",
+        "tts_text": "Workforce displacement? Is that, like, paying people to not work? I mean, what even is unsustainable housing in this context? That's really confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's definitely framed negatively here. And to pay for all of this, the administration is apparently proposing minor tax changes, including *lowering* the corporate rate from 28% to 21% and lowering the global minimum tax.",
+        "tts_text": "Yeah, it's definitely framed negatively here. And to pay for all of this, the administration is apparently proposing minor tax changes, including lowering the corporate rate from twenty eight percent to twenty one percent and lowering the global minimum tax.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To help pay for all that spending, the Biden administration is expected to propose a series of major tax changes including raising the corporate rate from 21% to 28% and raising the global minimum tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seriously? So, like, they're cutting taxes for corporations, which, you know, Republicans usually cheer for...",
+        "tts_text": "Seriously? So, like, they're cutting taxes for corporations, which, you know, Republicans usually cheer for...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! The article actually says Republicans are \"sure to cheer\" at the price tag and the \"potential restoration of many of President Trump's tax cuts.\"",
+        "tts_text": "Exactly! The article actually says Republicans are sure to cheer at the price tag and the potential restoration of many of President Trump's tax cuts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While Republicans are sure to balk at the price tag and the potential repeal of many of President Trumps tax cuts for big companies and wealthy individuals to pay for the plan",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, on the flip side, some progressives are saying the package should be *smaller*? Like AOC tweeted \"This is more than enough.\"",
+        "tts_text": "But then, on the flip side, some progressives are saying the package should be smaller? Like A O C tweeted This is more than enough.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is not nearly enough, Rep. Alexandria Ocasio-Cortez tweeted Tuesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, so it's getting heat from, uh, both sides, it seems. And this all follows the $1.9 trillion American Rescue Plan, remember that?",
+        "tts_text": "Yep, so it's getting heat from, uh, both sides, it seems. And this all follows the one point nine trillion dollar American Rescue Plan, remember that?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The American Jobs plan follows the $1.9 trillion American Rescue Plan, which Biden signed into law earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, the one with the stimulus checks, and the unemployment insurance changes, and the child tax credit.",
+        "tts_text": "Oh yeah, the one with the stimulus checks, and the unemployment insurance changes, and the child tax credit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That legislation included a third round of stimulus checks in the amount of $1,400, an extension of the $300-per-week federal unemployment insurance supplement, a major expansion of the child tax credit",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm-hmm. And it's not clear yet if they'll use budget reconciliation again for *this* infrastructure package, or try to get Republican votes.",
+        "tts_text": "Mmm-hmm. And it's not clear yet if they'll use budget reconciliation again for this infrastructure package, or try to get Republican votes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its not yet clear whether Democrats will attempt to use reconciliation for the infrastructure package or whether they will seek enough Republican votes to pass the bill using the standard process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, given the tax cut angle, maybe they think they *can* get Republican votes, but I don't know. It all just sounds like a very, uh, unconventional approach from this article's perspective.",
+        "tts_text": "Well, given the tax cut angle, maybe they think they can get Republican votes, but I don't know. It all just sounds like a very, uh, unconventional approach from this article's perspective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And, uh, Bank of America analysts are even predicting that companies making semiconductor equipment are poised to *lose* out from this plan, due to what they call \"Biden's abandonment of the United States digital infrastructure.\"",
+        "tts_text": "Totally. And, uh, Bank of America analysts are even predicting that companies making semiconductor equipment are poised to lose out from this plan, due to what they call Biden's abandonment of the United States digital infrastructure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Analysts from Bank of America predict that companies that manufacture the equipment used to make semiconductorsthe computer chips found in everything from cars to smartphonesare poised to profit from Bidens push to modernize the United States digital infrastructure",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, abandoning clean energy, eliminating jobs, cutting corporate taxes to fund spending, displacing workers, *and* hurting semiconductor companies? This article is really painting a picture of, like, total chaos.",
+        "tts_text": "Wow. So, abandoning clean energy, eliminating jobs, cutting corporate taxes to fund spending, displacing workers, and hurting semiconductor companies? This article is really painting a picture of, like, total chaos.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. And apparently, there's a second part to this American Jobs Plan coming next month, which will exclude healthcare and childcare provisions. So, uh, more to watch out for.",
+        "tts_text": "It really is. And apparently, there's a second part to this American Jobs Plan coming next month, which will exclude healthcare and childcare provisions. So, uh, more to watch out for.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Biden is expected to introduce the second part of his American Jobs Plan next month. That proposal will include provisions related to healthcare and childcare.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. It just sounds like a complete reversal of, you know, what people thought this administration stood for. Definitely something to keep an eye on.",
+        "tts_text": "Unbelievable. It just sounds like a complete reversal of, you know, what people thought this administration stood for. Definitely something to keep an eye on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

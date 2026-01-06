@@ -1,0 +1,204 @@
+{
+  "id": 11079,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and friendly"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so hey B, Kazhydromet just dropped their latest weather forecast for Astana and Almaty, and uh, it's looking pretty wild for the next few days.",
+        "tts_text": "Alright, so hey B, Kazhydromet just dropped their latest weather forecast for Astana and Almaty, and uh, it's looking pretty wild for the next few days.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet meteorologists have shared the weather forecast for Astana and Almaty for the next three days \" from June 24 to 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? I was just wondering what to expect. Give me the lowdown for Astana first, then.",
+        "tts_text": "Oh, really? I was just wondering what to expect. Give me the lowdown for Astana first, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so Astana, starting June 24th, we're talking partly cloudy with rain and thunderstorms, especially in the morning and afternoon.",
+        "tts_text": "Okay, so Astana, starting June twenty fourth, we're talking partly cloudy with rain and thunderstorms, especially in the morning and afternoon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 24: Partly cloudy with rain and thunderstorms expected in the morning and afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Ooh, thunderstorms? And like, hail's possible, right? I heard about that.",
+        "tts_text": "Ooh, thunderstorms? And like, hail's possible, right? I heard about that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hail is possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, unfortunately. And a pretty noticeable cooldown from the recent heatwave, down to, uh, around +21-23 degrees Celsius during the day.",
+        "tts_text": "Yeah, unfortunately. And a pretty noticeable cooldown from the recent heatwave, down to, uh, around plus twenty one to twenty three degrees Celsius during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures will drop to +10¦+12ÂC at night and reach +21¦+23ÂC during the day. A noticeable cooldown will follow the recent heatwave.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so a real change after all that heat. What about the 25th then?",
+        "tts_text": "Okay, so a real change after all that heat. What about the twenty fifth then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The 25th is actually looking dry, partly cloudy. Still cool-ish, no heat returning, which is, you know, good news for some.",
+        "tts_text": "The twenty fifth is actually looking dry, partly cloudy. Still cool-ish, no heat returning, which is, you know, good news for some.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 25: Partly cloudy and dry. ... No precipitation is expected, but the heat will not return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nice. And for the 26th?",
+        "tts_text": "Nice. And for the twenty sixth?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The 26th, uh, rain and thunderstorms are back, with temperatures dropping even further to about +18-20. So, pretty unstable there.",
+        "tts_text": "The twenty sixth, uh, rain and thunderstorms are back, with temperatures dropping even further to about plus eighteen to twenty. So, pretty unstable there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 26: Intermittent rain and thunderstorms will return. Partly cloudy skies, northeasterly wind at 9\"14 m/s. Nighttime temperatures of +11¦+13ÂC, daytime +18¦+20ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, so Astana's getting a real mixed bag. Is Almaty looking similar?",
+        "tts_text": "Wow, so Astana's getting a real mixed bag. Is Almaty looking similar?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not at all! Almaty's a completely different story. June 24th, it's sunny and hot, no rain expected, like +32-34 degrees.",
+        "tts_text": "Not at all! Almaty's a completely different story. June twenty fourth, it's sunny and hot, no rain expected, like plus thirty two to thirty four degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 24: Partly cloudy with no precipitation. ... Temperatures will stay mild at night (+20¦+22ÂC) and hot during the day (+32¦+34ÂC). Sunny and hot with no rain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Whoa, that's quite a contrast! So Astana's chilling out, Almaty's still baking.",
+        "tts_text": "Whoa, that's quite a contrast! So Astana's chilling out, Almaty's still baking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the 25th for Almaty? Even hotter, potentially one of the hottest days at +34-36C.",
+        "tts_text": "Exactly! And the twenty fifth for Almaty? Even hotter, potentially one of the hottest days at plus thirty four-thirty six degrees c.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 25: ... Temperatures will be +21¦+23ÂC at night, and rise to +34¦+36ÂC during the day. One of the hottest days of the week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, wow. Better pack the sun cream if you're in Almaty, then. What about the 26th there?",
+        "tts_text": "Uh, wow. Better pack the sun cream if you're in Almaty, then. What about the twenty sixth there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For Almaty on the 26th, finally some rain and thunderstorms are expected, bringing a slight temperature drop to, like, +28-30 after that heat peak.",
+        "tts_text": "For Almaty on the twenty sixth, finally some rain and thunderstorms are expected, bringing a slight temperature drop to, like, plus twenty eight to thirty after that heat peak.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 26: Partly cloudy with rain and thunderstorms expected during the day. ... Temperatures will be +19¦+21ÂC at night, and +28¦+30ÂC in the afternoon. A slight drop in temperature and a chance of rain after the heat peak.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So Almaty gets its heat first, then the rain. Interesting how opposite they are.",
+        "tts_text": "So Almaty gets its heat first, then the rain. Interesting how opposite they are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And, uh, just generally for the whole month of June, Kazhydromet is predicting unstable conditions across Kazakhstan.",
+        "tts_text": "Totally. And, uh, just generally for the whole month of June, Kazhydromet is predicting unstable conditions across Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Kazhydromet meteorologists released the weather forecast for June 2025 in Kazakhstan. Unstable conditions are expected throughout the month",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unstable, like, alternating cool and hot spells, heavy rain, thunderstorms, hail, even dust storms?",
+        "tts_text": "Unstable, like, alternating cool and hot spells, heavy rain, thunderstorms, hail, even dust storms?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unstable conditions are expected throughout the month, alternating between cool and hot spells, accompanied by rain (sometimes heavy), thunderstorms, hail, and squally winds. On some days, dust storms are also possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much, B. It's gonna be a wild ride, weather-wise, this month.",
+        "tts_text": "Pretty much, B. It's gonna be a wild ride, weather-wise, this month.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, at least we know what to expect, sort of. Thanks for the breakdown!",
+        "tts_text": "Well, at least we know what to expect, sort of. Thanks for the breakdown!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No problem! Stay tuned for more updates, everyone.",
+        "tts_text": "No problem! Stay tuned for more updates, everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

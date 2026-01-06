@@ -1,0 +1,160 @@
+{
+  "id": 977,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so you know how poker has, like, really blown up recently? It's gone from this niche thing to a global sensation.",
+        "tts_text": "Hey B, so you know how poker has, like, really blown up recently? It's gone from this niche thing to a global sensation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, totally. And a lot of that, apparently, is fueled by AI. I mean, it makes sense, right? Poker's all about hidden information, tactics... perfect for algorithms.",
+        "tts_text": "Oh yeah, totally. And a lot of that, apparently, is fueled by A I. I mean, it makes sense, right? Poker's all about hidden information, tactics... perfect for algorithms.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And, uh, there's this new AI we're talking about today, Pluribus, created by Facebook AI.",
+        "tts_text": "Exactly! And, uh, there's this new A I we're talking about today, Pluribus, created by Facebook A I.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, Pluribus. It's pretty interesting because it uses this unique learning method. It starts from scratch, playing well, but then deliberately declines to figure out what *bad* strategies are.",
+        "tts_text": "Right, Pluribus. It's pretty interesting because it uses this unique learning method. It starts from scratch, playing well, but then deliberately declines to figure out what bad strategies are.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AI starts from scratch by playing randomly and gradually improves as it determines which actions and which probability distribution over those actions lead to better outcomes against earlier versions of its strategy, Brown and Sandholm write in their paper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] So, it's finding ways to lose? That's kinda wild. But wait, how did it actually do against actual *human* players, then? Because the article says it actually lost.",
+        "tts_text": "So, it's finding ways to lose? That's kinda wild. But wait, how did it actually do against actual human players, then? Because the article says it actually lost.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it did. It went up against top-ranked pros, like Chris Ferguson and Darren Elias, in both a five-AI-one-human format and vice versa. And it *lost*.",
+        "tts_text": "Yeah, it did. It went up against top-ranked pros, like Chris Ferguson and Darren Elias, in both a five A I one human format and vice versa. And it lost.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format. Among the professionals were Chris Ferguson, the World Series of Poker champion, and Darren Elias, an American pro who holds the record for winning the most World Poker Tour titles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, this \"groundbreaking\" AI, like, would have lost about a thousand bucks an hour if the chips were real money? That doesn't sound like a win to me.",
+        "tts_text": "So, this groundbreaking A I, like, would have lost about a thousand bucks an hour if the chips were real money? That doesn't sound like a win to me.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There was no money at stake but the researchers claim that if each chip was worth a dollar, Pluribus would have won an average of about $5 per hand and would have made about $1,000 per hour playing against five humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, and here's the kicker, it's actually a *downgraded* version of another bot, Libratus. Pluribus lacks some of the more advanced online search algorithms.",
+        "tts_text": "Well, and here's the kicker, it's actually a downgraded version of another bot, Libratus. Pluribus lacks some of the more advanced online search algorithms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus is a supercharged version of another AI bot called Libratus, which beat human pros in two-player Texas holdem games in 2017. Unlike Libratus, Pluribus contains a new online search algorithm that can evaluate its options by searching a few moves ahead, as well as faster self-play algorithms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, it's not even their best? And then the pros themselves, what did they, uh, think about playing against it?",
+        "tts_text": "Wow. So, it's not even their best? And then the pros themselves, what did they, uh, think about playing against it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ferguson said it was \"very easy\" to play against, like, simple to pin down. Elias even added that its main weakness was not using \"mixed strategies,\" and he sort of implied that for humans not to be able to beat it consistently would be, um, incompetent.",
+        "tts_text": "Ferguson said it was very easy to play against, like, simple to pin down. Elias even added that its main weakness was not using mixed strategies, and he sort of implied that for humans not to be able to beat it consistently would be, um, incompetent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus is a very hard opponent to play against, said Ferguson. Its really hard to pin him down on any kind of hand. ... Elias added that Pluribus's main strength is its ability to use mixed strategies, which is what humans try to do.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they basically thought it was kind of... easy money? I mean, that's not exactly high praise for a supposed AI breakthrough.",
+        "tts_text": "So, they basically thought it was kind of... easy money? I mean, that's not exactly high praise for a supposed A I breakthrough.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not at all. And what's more, training it required, like, millions of dollars worth of cloud computing. Other AI milestones did similar things with just $150 in resources. It's incredibly inefficient.",
+        "tts_text": "Not at all. And what's more, training it required, like, millions of dollars worth of cloud computing. Other A I milestones did similar things with just one hundred fifty dollars in resources. It's incredibly inefficient.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources. This efficiency stands in stark contrast to other recent AI milestone projects, which required the equivalent of millions of dollars worth of computing resources to train, they write.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's wild. So, uh, Facebook isn't even open-sourcing this thing, despite the potential community impact?",
+        "tts_text": "That's wild. So, uh, Facebook isn't even open-sourcing this thing, despite the potential community impact?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, apparently not. The spokesman gave a slightly convoluted reason, mentioning poker not being played commercially, but the bottom line is it's not public.",
+        "tts_text": "No, apparently not. The spokesman gave a slightly convoluted reason, mentioning poker not being played commercially, but the bottom line is it's not public.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We're not open sourcing itone reason were not is that poker is played commercially and we felt open sourcing could negatively impact the community, Facebook spokesman Ari Entin told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Interesting. So, overall, a lot of hype, but maybe not the breakthrough we'd expect in AI poker?",
+        "tts_text": "Interesting. So, overall, a lot of hype, but maybe not the breakthrough we'd expect in A I poker?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely more nuanced than the headlines suggest. It highlights the complexities of AI in human-centric games, for sure.",
+        "tts_text": "Yeah, definitely more nuanced than the headlines suggest. It highlights the complexities of A I in human-centric games, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

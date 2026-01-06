@@ -1,0 +1,202 @@
+{
+  "id": 515,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, welcome back to the podcast! We're diving into some pretty interesting, and honestly, a little unsettling, predictions today about the next financial crisis.",
+        "tts_text": "Alright, welcome back to the podcast! We're diving into some pretty interesting, and honestly, a little unsettling, predictions today about the next financial crisis.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, it's all based on this big report from Kolanovic. He's talking about a \"Great Liquidity Crisis,\" which, you know, sounds pretty dire.",
+        "tts_text": "Yeah, uh, it's all based on this big report from Kolanovic. He's talking about a Great Liquidity Crisis, which, you know, sounds pretty dire.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Kolanovic explains as part of a 168 report issued earlier this month, a precipitous decline in stocks could cause the Great Liquidity Crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And get this, he's saying it could be caused by a *rise* in stocks, not a decline. Like, severe stock gains. That's, um, kinda counterintuitive, right?",
+        "tts_text": "And get this, he's saying it could be caused by a rise in stocks, not a decline. Like, severe stock gains. That's, um, kinda counterintuitive, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "a precipitous decline in stocks could cause the Great Liquidity Crisis. Severe stock price declines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. He explains it as this mix of lightning-fast machine buying and, like, what he calls \"aggressive inaction\" from central banks.",
+        "tts_text": "Totally. He explains it as this mix of lightning-fast machine buying and, like, what he calls aggressive inaction from central banks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lightening fast machine selling. Aggressive action by central banks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. So, a big part of his theory seems to hinge on passive investing and algorithmic trading, right?",
+        "tts_text": "Hmm. So, a big part of his theory seems to hinge on passive investing and algorithmic trading, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The rise of passive investing and algorithmic trading could create the backdrop for a substantial stock market drop, according to Kolanovic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. He says these trends could actually *decrease* stock market gains during big rallies. You've got this two trillion dollar shift to passive, and these funds, they're just programmed to buy market weakness, not really analyze fundamentals.",
+        "tts_text": "Exactly. He says these trends could actually decrease stock market gains during big rallies. You've got this two trillion dollar shift to passive, and these funds, they're just programmed to buy market weakness, not really analyze fundamentals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kolanovic identifies two investing trends that may increase stock market pain during large sell-offs... Quant funds, he writes, are programmed to sell market weakness - rather than analyze fundamental valuation, for example.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And same with electronic trading desks, they just buy when the market rises, adding more liquidity. It's like a self-fulfilling prophecy or something.",
+        "tts_text": "And same with electronic trading desks, they just buy when the market rises, adding more liquidity. It's like a self-fulfilling prophecy or something.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Similarly, electronic trading desks tend to sell when the market falls, which removes additional liquidity from the market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. And he brings up flash crashes, too. He says while they've happened during expansion before, they're less tested during *consistent* growth periods.",
+        "tts_text": "Pretty much. And he brings up flash crashes, too. He says while they've happened during expansion before, they're less tested during consistent growth periods.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While more recent flash crashes have occurred during periods of economic expansion, flash crashes during a recessionary period are less tested.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] But he also predicts those flash crashes could, like, *prevent* asset value declines? That's... a lot to unpack.",
+        "tts_text": "But he also predicts those flash crashes could, like, prevent asset value declines? That's... a lot to unpack.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kolanovic predicts those flash crashes could lead to declines in asset values and increased market volatility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a weird one. But getting to the big question: when does he think this could happen?",
+        "tts_text": "Yeah, it's a weird one. But getting to the big question: when does he think this could happen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He mentioned to CNBC it's possible to predict, and he sees potential problems before, uh, the second half of 2019. Factors like a trade war with China, slowing interest rate hikes...",
+        "tts_text": "He mentioned to C N B C it's possible to predict, and he sees potential problems before, uh, the second half of twenty nineteen. Factors like a trade war with China, slowing interest rate hikes...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In an interview with CNBC, Kolanovic said that while it's not possible to predict the timing of the next financial crisis, he doesn't see potential problems until the second half of 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and the Fed unwinding bond purchases. All these things could, like, change the timeline.",
+        "tts_text": "Right, and the Fed unwinding bond purchases. All these things could, like, change the timeline.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the unwinding of bond purchases by the Federal Reserve are factors that could change that timeline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Switching gears a bit, what about consumer debt? I mean, the banking system is stronger now than before the last crisis, isn't it?",
+        "tts_text": "Switching gears a bit, what about consumer debt? I mean, the banking system is stronger now than before the last crisis, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the banking system and mortgage market are stronger today compared to the last financial crisis, consumers still hold substantial debt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is, generally. But, um, consumers are still holding quite a bit, particularly student loan debt. We're talking like $1.5 trillion collectively, which is, like, massive.",
+        "tts_text": "It is, generally. But, um, consumers are still holding quite a bit, particularly student loan debt. We're talking like one point five trillion dollars collectively, which is, like, massive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the latest student loan debt statistics from Make Lemonade, there are over 44 million borrowers who collectively owe $1.5 trillion in student loan debt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, if a big sell-off *doesn't* happen, or this \"Great Liquidity Crisis\" doesn't hit, what does he suggest people do?",
+        "tts_text": "So, if a big sell-off doesn't happen, or this Great Liquidity Crisis doesn't hit, what does he suggest people do?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, he actually lays out three strategies. First, the simplest: do nothing. Just, you know, stay the course.",
+        "tts_text": "Well, he actually lays out three strategies. First, the simplest: do nothing. Just, you know, stay the course.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While there are multiple options that you could consider, here are three potential strategies: 1. Do Nothing... you could do nothing and stay the course.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Do nothing\" always sounds so, like, passive, but I guess it can be effective.",
+        "tts_text": "Do nothing always sounds so, like, passive, but I guess it can be effective.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] It can be! Especially if you believe the market will eventually recover. Then there's selling, obviously, taking some chips off the table. And finally, hedging, like using put options to protect against a decline.",
+        "tts_text": "It can be! Especially if you believe the market will eventually recover. Then there's selling, obviously, taking some chips off the table. And finally, hedging, like using put options to protect against a decline.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2. Sell It's common sense: if you fear that the market will crash, you can take some chips off the table... 3. Hedge There are many ways to hedge your investments. One option is to buy S&P 500 put options to protect against a market decline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, you know, \"do nothing,\" sell, or hedge. Good to know there are options, even if the whole thing sounds pretty wild.",
+        "tts_text": "Okay, so, you know, do nothing, sell, or hedge. Good to know there are options, even if the whole thing sounds pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. A lot to think about for sure.",
+        "tts_text": "Definitely. A lot to think about for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

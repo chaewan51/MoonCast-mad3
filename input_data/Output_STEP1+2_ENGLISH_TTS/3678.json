@@ -1,0 +1,162 @@
+{
+  "id": 3678,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, so, uh, big news buzzing around this week, right? Boeing, the aerospace giant, is really in a tough spot.",
+        "tts_text": "Hey, B, so, uh, big news buzzing around this week, right? Boeing, the aerospace giant, is really in a tough spot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally, A. It's, like, everywhere. With the 737 MAX issues and now, you know, everything with global travel, they're facing a real liquidity crisis, apparently.",
+        "tts_text": "Oh, totally, A. It's, like, everywhere. With the seven hundred thirty seven meters A X issues and now, you know, everything with global travel, they're facing a real liquidity crisis, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Concern has been rising over the past week that Boeing may face a liquidity crisis, with its stock plummeting 44% over that span to close Tuesday at $124.14, its lowest point since 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, apparently their stock has just *plummeted*. And President Biden even came out saying, \"We have to protect Boeing.\"",
+        "tts_text": "Yeah, apparently their stock has just plummeted. And President Biden even came out saying, We have to protect Boeing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier in the day, President Trump said at a press conference that support would be forthcoming. I think we have to protect Boeing, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? Which, I mean, you kind of expect, given their size. But, uh, the airlines are asking for their own huge bailout too, like, fifty billion for passenger carriers alone.",
+        "tts_text": "Right? Which, I mean, you kind of expect, given their size. But, uh, the airlines are asking for their own huge bailout too, like, fifty billion for passenger carriers alone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S. airlines on Monday called for a bailout of their own, to the tune of $50 billion in grants and loans for passenger carriers and $8 billion for cargo carriers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fifty *billion*. That's a massive number. And it's raising a lot of eyebrows, especially when you think about their recent history.",
+        "tts_text": "Fifty billion. That's a massive number. And it's raising a lot of eyebrows, especially when you think about their recent history.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Totally.",
+        "tts_text": "Totally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, the two fatal crashes with the MAX, all that scrutiny... and then, you know, the talk of share buybacks and executive bonuses over the years. It just doesn't look great.",
+        "tts_text": "I mean, the two fatal crashes with the M A X, all that scrutiny... and then, you know, the talk of share buybacks and executive bonuses over the years. It just doesn't look great.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Critics of the prospect of so much taxpayer money going to Boeing and the airlines have focused on the billions of dollars worth of share buybacks that they have made over the past decade, enriching executives and their shareholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, it's really not a good look. Especially when they're already, like, forty-one billion in debt. Goldman Sachs was saying more loans could actually make them *less* competitive.",
+        "tts_text": "It's, it's really not a good look. Especially when they're already, like, forty-one billion in debt. Goldman Sachs was saying more loans could actually make them less competitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Robert Stallard, an analyst with Vertical Research Partners, said in a client note, but with total debt of $41 billion already, more loans will bring serious risks. This could leave Boeing so encumbered with debt that it is unable to effectively compete, he wrote.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a fair point. But then you hear the other side – Boeing saying, \"Hey, this isn't just about us.\" It's about, what was it, seventeen thousand aerospace firms and two and a half million jobs?",
+        "tts_text": "That's a fair point. But then you hear the other side - Boeing saying, Hey, this isn't just about us. It's about, what was it, seventeen thousand aerospace firms and two and a half million jobs?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Boeing stands at the apex of a pyramid of 17,000 aerospace firms that employ 2.5 million workers while U.S. airlines directly employ 75o,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and their suppliers, right? They're arguing it's essential for the whole U.S. aerospace industry. Like, if Boeing goes down, a lot of other companies feel it.",
+        "tts_text": "Yeah, and their suppliers, right? They're arguing it's essential for the whole U S aerospace industry. Like, if Boeing goes down, a lot of other companies feel it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Boeing stressed in a statement that financial support for the company would flow through to its suppliers and support the broader health of the U.S. aerospace industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it's a huge balancing act for the government. They want to protect jobs, obviously, but they also can't just hand over blank checks.",
+        "tts_text": "So, it's a huge balancing act for the government. They want to protect jobs, obviously, but they also can't just hand over blank checks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And that's where the unions and labor groups are stepping in, like Sara Nelson from the Association of Flight Attendants. She's, uh, really pushing for conditions.",
+        "tts_text": "Exactly. And that's where the unions and labor groups are stepping in, like Sara Nelson from the Association of Flight Attendants. She's, uh, really pushing for conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sara Nelson, the president of the Association of Flight Attendants-CWA, vowed Monday that airlines wouldnt make out as easy as the banks did in 2008. The airline industry didnt cause the pandemic and money should come with significant conditions to help workers and keep planes flying, not enrich shareholders or pad executive bonuses, she said on Twitter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Conditions like what, specifically? No executive bonuses, no share buybacks?",
+        "tts_text": "Conditions like what, specifically? No executive bonuses, no share buybacks?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It means no bonuses, no buybacks, & no breaking union contracts in bankruptcy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly that. And maintaining payrolls, protecting union contracts. She even said airlines shouldn't make out as easy as the banks did back in '08.",
+        "tts_text": "Yeah, exactly that. And maintaining payrolls, protecting union contracts. She even said airlines shouldn't make out as easy as the banks did back in oh eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Airlines must commit to maintaining payroll. It means no bonuses, no buybacks, & no breaking union contracts in bankruptcy. ... Sara Nelson, the president of the Association of Flight Attendants-CWA, vowed Monday that airlines wouldnt make out as easy as the banks did in 2008.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a really strong stance. So, it sounds like if this aid does go through, it's probably going to come with a lot more strings attached than we might have seen in the past.",
+        "tts_text": "That's a really strong stance. So, it sounds like if this aid does go through, it's probably going to come with a lot more strings attached than we might have seen in the past.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think so, A. I mean, the optics alone, given everything, demand it. It's not just about keeping planes flying; it's about, like, fairness, too.",
+        "tts_text": "I think so, A. I mean, the optics alone, given everything, demand it. It's not just about keeping planes flying; it's about, like, fairness, too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

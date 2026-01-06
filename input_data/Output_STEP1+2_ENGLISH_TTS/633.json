@@ -1,0 +1,182 @@
+{
+  "id": 633,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "Alright, so, like, normally when we hit a recession, you'd expect people to just kinda hunker down, right? Not really quit their jobs.",
+        "tts_text": "Alright, so, like, normally when we hit a recession, you'd expect people to just kinda hunker down, right? Not really quit their jobs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, exactly. You'd think turnover rates would just, um, plummet. Everyone's just grateful to have a job.",
+        "tts_text": "Yeah, exactly. You'd think turnover rates would just, um, plummet. Everyone's just grateful to have a job.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? And for a while there, with the pandemic, it kinda felt like that was gonna be the case. You know, with the stock market and housing, like, crashing initially, and retail sales...",
+        "tts_text": "Right? And for a while there, with the pandemic, it kinda felt like that was gonna be the case. You know, with the stock market and housing, like, crashing initially, and retail sales...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The pandemic-driven recession hasnt been like most economic downturnsthe stock and housing markets have boomed, and after an initial shock last spring, retail sales have quickly rebounded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] Totally. But the article's saying that, uh, maybe that's actually *not* what's happening this time around, which is super interesting.",
+        "tts_text": "Totally. But the article's saying that, uh, maybe that's actually not what's happening this time around, which is super interesting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But that may not be the case. The pandemic-driven recession hasnt been like most economic downturns...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, it's weird. Like, the US gained 8.5 million jobs, but the labor market still feels, I don't know, lukewarm? And this \"tightness\" indicator, job vacancies to unemployment, it's way off pre-pandemic levels.",
+        "tts_text": "Yeah, it's weird. Like, the U S gained eight point five million jobs, but the labor market still feels, I don't know, lukewarm? And this tightness indicator, job vacancies to unemployment, it's way off pre-pandemic levels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the U.S. lost 8.5 million jobs from February 2020 to February 2021, the labor market is hot. Tightness, an economic indicator that tracks the ratio of job vacancies to unemployment, has virtually returned to pre-pandemic levels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "And Eliza Forsythe, the professor they quote, she says it seems like people who *want* to leave their jobs are actually just... waiting.",
+        "tts_text": "And Eliza Forsythe, the professor they quote, she says it seems like people who want to leave their jobs are actually just... waiting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At this point, it doesnt look like people who want to leave their jobs are waiting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Waiting? Why would they be waiting? I mean, shouldn't they be, like, jumping ship if they're unhappy, especially if the market's, um, loose?",
+        "tts_text": "Waiting? Why would they be waiting? I mean, shouldn't they be, like, jumping ship if they're unhappy, especially if the market's, um, loose?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Well, she also points out that the unemployment rate doesn't tell the whole story. You've got, like, five million more Americans who've entered the job market since the pandemic started.",
+        "tts_text": "Well, she also points out that the unemployment rate doesn't tell the whole story. You've got, like, five million more Americans who've entered the job market since the pandemic started.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The five million Americans who have left the job market altogether since the start of the pandemic, according to the Federal Reserve, are not counted in that figure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, so it's not that people's attitudes have changed, necessarily? They still have high expectations for employers?",
+        "tts_text": "Oh, so it's not that people's attitudes have changed, necessarily? They still have high expectations for employers?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Peoples attitudes toward work have also changed. After a year spent unemployed or working from home, many have recalibrated the expectations they have of employers and the priorities they have for themselves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Uh-huh. And also, you know, some jobs, like in hospitality or restaurants, are just still, like, really risky with COVID, so maybe people are, um, holding off on those.",
+        "tts_text": "Uh-huh. And also, you know, some jobs, like in hospitality or restaurants, are just still, like, really risky with C O V I D, so maybe people are, um, holding off on those.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But perhaps most importantly, a good number of jobs, like those in the hospitality and restaurant industries, simply arent viable for everyone given the continued health risks of Covid-19.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "That makes sense. So, employers, like, what are they doing about this? 'Cause you'd think they'd be scrambling to retain talent.",
+        "tts_text": "That makes sense. So, employers, like, what are they doing about this? Cause you'd think they'd be scrambling to retain talent.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "You would, but apparently, a lot of tech companies, like Microsoft, Salesforce, they're actually *reversing* those flexible hybrid work models.",
+        "tts_text": "You would, but apparently, a lot of tech companies, like Microsoft, Salesforce, they're actually reversing those flexible hybrid work models.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft and Salesforce, for example, are adopting permanent hybrid work models, while others like Dropbox, Twitter and Shopify will let their employees work from home indefinitely.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oof. That feels like a bad move, especially if, um, the article's right about flexibility being key to retention.",
+        "tts_text": "Oof. That feels like a bad move, especially if, um, the article's right about flexibility being key to retention.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The willingness to be flexible and accommodating to the changing needs of the workforce has been key to retention efforts, says Paul McDonald, senior executive director at the recruiting firm Robert Half.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, Paul McDonald from Robert Half says that exact thing. Unwillingness to be flexible is a major problem for retention efforts.",
+        "tts_text": "Yeah, Paul McDonald from Robert Half says that exact thing. Unwillingness to be flexible is a major problem for retention efforts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The willingness to be flexible and accommodating to the changing needs of the workforce has been key to retention efforts, says Paul McDonald, senior executive director at the recruiting firm Robert Half.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "What about pay? Like, raises or bonuses? You'd think that would, um, help.",
+        "tts_text": "What about pay? Like, raises or bonuses? You'd think that would, um, help.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "It *can* help. But, you know, average hourly wages actually only grew slightly, and these one-time bonuses, like Walmart's, they're not a critical long-term investment.",
+        "tts_text": "It can help. But, you know, average hourly wages actually only grew slightly, and these one-time bonuses, like Walmart's, they're not a critical long-term investment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When the cost of replacing an employee can amount to twice their annual salary, a one-time bonus could be a critical long-term investment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "So, it sounds like, in general, leaders aren't really panicking about turnover *right now*.",
+        "tts_text": "So, it sounds like, in general, leaders aren't really panicking about turnover right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The potential for turnover is a major issue causing anxiety for leaders right now, says McDonald.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Not right now, no. But, uh, I wonder if that's a mistake they'll regret later.",
+        "tts_text": "Not right now, no. But, uh, I wonder if that's a mistake they'll regret later.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

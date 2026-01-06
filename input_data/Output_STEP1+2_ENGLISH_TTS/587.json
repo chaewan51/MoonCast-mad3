@@ -1,0 +1,192 @@
+{
+  "id": 587,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal, gossipy, sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Kicking off with some wild facts today, B.",
+        "tts_text": "Kicking off with some wild facts today, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I'm ready. What's on your mind?",
+        "tts_text": "Oh, I'm ready. What's on your mind?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, you know Madonna, right? The Queen of Pop? Get this: In 1990, Forbes denied her a cover, calling her earnings meager. But then, this May, they estimated her fortune at $590 million!",
+        "tts_text": "So, you know Madonna, right? The Queen of Pop? Get this: In nineteen ninety, Forbes denied her a cover, calling her earnings meager. But then, this May, they estimated her fortune at five hundred ninety million dollars!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1990: The year Madonna appeared on the cover of Forbes with the headline America's Smartest Business Woman?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Whoa! That's... uh, quite the turnaround. From meager to half a billion! But wait, she’s still ranked, like, far below the top 100 wealthiest Americans. So, not *that* rich in the grand scheme?",
+        "tts_text": "Whoa! That's... uh, quite the turnaround. From meager to half a billion! But wait, she's still ranked, like, far below the top one hundred wealthiest Americans. So, not that rich in the grand scheme?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "36: Her rank among Americas wealthiest self-made women.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it gets crazier. Pollstar reported an average loss of over three million dollars per tour stop recently, due to declining ticket sales. And get this: zero shows played since the beginning of 2017, attributed to a lack of interest.",
+        "tts_text": "Exactly! And it gets crazier. Pollstar reported an average loss of over three million dollars per tour stop recently, due to declining ticket sales. And get this: zero shows played since the beginning of twenty seventeen, attributed to a lack of interest.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$3,044,574: Madonnas average gross per tour stop over the past 36 months, according to Pollstar. 0: Number of shows played since the beginning of 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Three *million*? Per stop?! Oof. That's brutal. So, like, live performance isn't cutting it. What about online? Her YouTube presence?",
+        "tts_text": "Three million? Per stop?! Oof. That's brutal. So, like, live performance isn't cutting it. What about online? Her YouTube presence?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think that'd be strong, right? A competing streaming service actually reported her daily YouTube views at 1.6 million, but that's a *plummet*. And get this, a cover of \"Vogue\" by a *different* artist? 84 million total views.",
+        "tts_text": "You'd think that'd be strong, right? A competing streaming service actually reported her daily YouTube views at one point six million, but that's a plummet. And get this, a cover of Vogue by a different artist? eighty four million total views.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "84 million: Total views for Vogue on YouTube.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, wow. That puts it into perspective. So, like, the younger generation isn't really... [interrupts herself] But her Diamond albums, right? Those are huge.",
+        "tts_text": "Okay, wow. That puts it into perspective. So, like, the younger generation isn't really... But her Diamond albums, right? Those are huge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, yeah. \"Like a Virgin\" and \"The Immaculate Collection\" are Diamond certified. But apparently, they managed to sell *less* than ten million units.",
+        "tts_text": "Uh, yeah. Like a Virgin and The Immaculate Collection are Diamond certified. But apparently, they managed to sell less than ten million units.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "2: Number of her albums certified Diamond by the RIAA for moving 10 million-plus units (Like a Virgin and The Immaculate Collection).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, Diamond *is* ten million, isn't it? So how can they be certified Diamond and sell *less* than that? That doesn't make sense! That's like, a paradox.",
+        "tts_text": "Wait, Diamond is ten million, isn't it? So how can they be certified Diamond and sell less than that? That doesn't make sense! That's like, a paradox.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's wild. But hey, speaking of wild, remember that Manhattan residence she *had* in 2009 for forty million? It was apparently three tiny, dilapidated apartments haphazardly crammed together, and it had nine fireplaces, all non-functional.",
+        "tts_text": "I know! It's wild. But hey, speaking of wild, remember that Manhattan residence she had in two thousand nine for forty million? It was apparently three tiny, dilapidated apartments haphazardly crammed together, and it had nine fireplaces, all non-functional.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3: Number of townhouses mashed together to create Madonnas triple-wide Manhattan home, purchased for $40 million in 2009. 9: Number of fireplaces in the aforementioned townhouse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] What?! For forty million?! Three tiny apartments and *nine* non-functional fireplaces? That's just... [shakes head] ridiculous. So, uh, how was her acting career? I always kinda thought...",
+        "tts_text": "What?! For forty million?! Three tiny apartments and nine non-functional fireplaces? That's just... ridiculous. So, uh, how was her acting career? I always kinda thought...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, don't even get me started. She received twenty-eight Razzie nominations, and she *won* seven of them. Ouch.",
+        "tts_text": "Oh, don't even get me started. She received twenty-eight Razzie nominations, and she won seven of them. Ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "28: Number of Grammy nominations earned by Madonna. 7: Grammy wins by Madonna.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seven Razzies? [chuckles] Wow. That's... a lot. Not exactly Oscar-winning stuff.",
+        "tts_text": "Seven Razzies? Wow. That's... a lot. Not exactly Oscar-winning stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is. But okay, this next one is just tragic. In 2016, she lost 7.5 million dollars at a Miami event. The funds, which she had promised to her pediatric medical facility in Malawi, just went missing.",
+        "tts_text": "It is. But okay, this next one is just tragic. In twenty sixteen, she lost seven point five million dollars at a Miami event. The funds, which she had promised to her pediatric medical facility in Malawi, just went missing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$7.5 million: Total raised by Madonna at a 2016 event in Miami to help fund her pediatric medical facility in Malawi.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[gasps] Missing? Oh my god, so the facility didn't get the money?",
+        "tts_text": "Missing? Oh my god, so the facility didn't get the money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. And because of that lack of funding, 1,690 pediatric surgeries haven't been performed since it opened.",
+        "tts_text": "Nope. And because of that lack of funding, sixteen ninety pediatric surgeries haven't been performed since it opened.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1,690: Number of pediatric surgeries performed at the aforementioned facility since its opening.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god. That's... that's just absolutely heartbreaking. What a somber note.",
+        "tts_text": "Oh my god. That's... that's just absolutely heartbreaking. What a somber note.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, talk about a fall from grace, huh?",
+        "tts_text": "Yeah, talk about a fall from grace, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely wild.",
+        "tts_text": "Absolutely wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

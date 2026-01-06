@@ -1,0 +1,184 @@
+{
+  "id": 22,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back, everyone. So, we've been seeing a lot of economic news, uh, flying around, and I just read this article about the latest economist surveys, and honestly, it's a bit grim.",
+        "tts_text": "Welcome back, everyone. So, we've been seeing a lot of economic news, uh, flying around, and I just read this article about the latest economist surveys, and honestly, it's a bit grim.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? What's the, like, big takeaway? Because I feel like it's a constant roller coaster these days.",
+        "tts_text": "Oh, really? What's the, like, big takeaway? Because I feel like it's a constant roller coaster these days.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, for sure. Well, basically, a survey of about 30 economists, they're saying there's a two-thirds probability the economy won't be \"back to normal\" until 2022 or even later.",
+        "tts_text": "Yeah, for sure. Well, basically, a survey of about thirty economists, they're saying there's a two-thirds probability the economy won't be back to normal until twenty twenty two or even later.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or later",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, 2022? And that's a *probability*, not a certainty? That's, um, a long way off.",
+        "tts_text": "Wait, twenty twenty two? And that's a probability, not a certainty? That's, um, a long way off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And the really sobering part is that's essentially unchanged from what they were expecting back in May. So, no real improvement there.",
+        "tts_text": "Exactly. And the really sobering part is that's essentially unchanged from what they were expecting back in May. So, no real improvement there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "thats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, wow. So, no big leaps forward, then. Any, like, *slight* silver lining?",
+        "tts_text": "Okay, wow. So, no big leaps forward, then. Any, like, slight silver lining?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A very slight one. Their October predictions for fourth-quarter GDP did improve a tiny bit from June, like, 4.9% growth versus 4.2%.",
+        "tts_text": "A very slight one. Their October predictions for fourth-quarter G D P did improve a tiny bit from June, like, four point nine percent growth versus four point two percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, uh, you know, at least it's not going backwards on that front.",
+        "tts_text": "Okay, so, uh, you know, at least it's not going backwards on that front.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. The *only* metric they've become more optimistic about, actually, is the unemployment rate. It dropped much faster than experts expected, from that record high of 14.7% in April.",
+        "tts_text": "Right. The only metric they've become more optimistic about, actually, is the unemployment rate. It dropped much faster than experts expected, from that record high of fourteen point seven percent in April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "FiveThirtyEight found economists have become more optimistic over time about one metric: the unemployment rate, which dropped from a record high of 14.7 in April much more quickly than experts were expecting.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that was a huge relief, honestly. But still, if unemployment's doing better, why aren't the broader forecasts improving more? What's holding us back?",
+        "tts_text": "Yeah, that was a huge relief, honestly. But still, if unemployment's doing better, why aren't the broader forecasts improving more? What's holding us back?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Allan Timmermann, an economics professor who consulted on the survey, he really chalks it up to prolonged uncertainty. It's all about the virus, you know?",
+        "tts_text": "Well, Allan Timmermann, an economics professor who consulted on the survey, he really chalks it up to prolonged uncertainty. It's all about the virus, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Allan Timmermann, an economics professor at the University of California San Diego who consulted on the survey, chalks the stagnating forecasts up to prolonged uncertainty about the course of the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the C-word. [chuckles] Yeah, I guess that makes sense. Like, when will a vaccine be widely available? And what about businesses?",
+        "tts_text": "Oh, the C word. Yeah, I guess that makes sense. Like, when will a vaccine be widely available? And what about businesses?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. Many businesses are still facing a really precarious future, especially as, uh, the colder months hit and people aren't going out as much for leisure services.",
+        "tts_text": "Precisely. Many businesses are still facing a really precarious future, especially as, uh, the colder months hit and people aren't going out as much for leisure services.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "many businesses are still facing a precarious future, especially as the colder months put a dent in demand for leisure services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, restaurants, travel... all those industries are still really struggling.",
+        "tts_text": "So, like, restaurants, travel... all those industries are still really struggling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Timmermann actually said, quote, \"Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point.\"",
+        "tts_text": "Exactly. Timmermann actually said, quote, Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point, Timmermann told FiveThirtyEight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's, uh, that's a pretty clear summary. And then there's, like, the whole federal aid situation, too, right?",
+        "tts_text": "Yeah, that's, uh, that's a pretty clear summary. And then there's, like, the whole federal aid situation, too, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. Lawmakers in Washington have been unable to agree on the next round of aid for months. Meanwhile, key benefits from the CARES Act, like unemployment checks, they've already expired.",
+        "tts_text": "Oh, absolutely. Lawmakers in Washington have been unable to agree on the next round of aid for months. Meanwhile, key benefits from the C A R E S Act, like unemployment checks, they've already expired.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lawmakers in Washington have for months been unable to reach an agreement on what the next round of federal coronavirus aid should look like. Key benefits from Marchs $2.2 trillion CARES Act, like supplemental federal unemployment checks and relief for small businesses, have already expired.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I remember Federal Reserve Chair Jerome Powell warned about, uh, \"tragic consequences\" if Congress fails to pass more relief. That's pretty strong language.",
+        "tts_text": "I remember Federal Reserve Chair Jerome Powell warned about, uh, tragic consequences if Congress fails to pass more relief. That's pretty strong language.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier this month, Federal Reserve Chairman Jerome Powell warned of potentially tragic consequences if Congress fails to pass additional relief measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is. So, yeah, it seems like we're still very much in a holding pattern, with a lot of unknowns, both medically and politically.",
+        "tts_text": "It is. So, yeah, it seems like we're still very much in a holding pattern, with a lot of unknowns, both medically and politically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

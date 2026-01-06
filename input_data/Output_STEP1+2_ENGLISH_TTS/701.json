@@ -1,0 +1,188 @@
+{
+  "id": 701,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news rocking the space industry this week, right? Relativity Space, uh, is dismantling their Terran 1 rocket.",
+        "tts_text": "So, big news rocking the space industry this week, right? Relativity Space, uh, is dismantling their Terran one rocket.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The capital raise will enable the company to fully develop and test its rocket, dubbed Terran 1, and begin commercial operations. Now were fully funded to launch Terran 1 to orbit, says cofounder and CEO Tim Ellis, an alumnus of the Forbes 30 Under 30 list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, completely shutting down that whole development. It's wild, especially since they've been building it by hand this whole time.",
+        "tts_text": "Yeah, like, completely shutting down that whole development. It's wild, especially since they've been building it by hand this whole time.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company is 3D-printing its rockets, from the engine to the structure, and has recently seen success in building first and second stages of its Terran 1 design.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] By hand! And it's never even been tested. Designed for a moon launch, but it's just... gone.",
+        "tts_text": "By hand! And it's never even been tested. Designed for a moon launch, but it's just... gone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Gone. And Tim Ellis, the co-founder and CEO, he's quoted saying, \"We're fully shutting down Terran 1.\" The guy who was recently a Forbes 30 Under 30 dropout!",
+        "tts_text": "Gone. And Tim Ellis, the co-founder and C E O, he's quoted saying, \"We're fully shutting down Terran one.\" The guy who was recently a Forbes thirty Under thirty dropout!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now were fully funded to launch Terran 1 to orbit, says cofounder and CEO Tim Ellis, an alumnus of the Forbes 30 Under 30 list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He was! And get this, their investors are, uh, not exactly thrilled. Mark Cuban, for instance, he actually retracted his initial investment and now he's *shorting* their stock.",
+        "tts_text": "He was! And get this, their investors are, uh, not exactly thrilled. Mark Cuban, for instance, he actually retracted his initial investment and now he's shorting their stock.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Los Angeles-based startup has a lot of believers, including billionaire Mark Cuban, the companys first investor and also a participant in the current round, which was led by Noah Knauf at Bond fund and Tribe Capital.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. That's a huge vote of no confidence right there. I mean, they did raise like $185 million total, didn't they? What went wrong?",
+        "tts_text": "Oh, wow. That's a huge vote of no confidence right there. I mean, they did raise like one hundred eighty five million dollars total, didn't they? What went wrong?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The $140 million fundraise brings the total amount of investment in the company to $185 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Ellis now believes their competitive disadvantage was their assembly process. They were using traditional methods, pre-fabricated parts, and apparently had zero success with the second stages of Terran 1.",
+        "tts_text": "Well, Ellis now believes their competitive disadvantage was their assembly process. They were using traditional methods, pre-fabricated parts, and apparently had zero success with the second stages of Terran one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Relativitys Ellis believes that its competitive advantage lies in its manufacturing process. The company is 3D-printing its rockets, from the engine to the structure, and has recently seen success in building first and second stages of its Terran 1 design.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, uh, all that talk about their big 3D printers, the \"Stargate\" machines? Did those... not work out?",
+        "tts_text": "So, uh, all that talk about their big 3D printers, the \"Stargate\" machines? Did those... not work out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. They sold all four of them! The factory's completely dismantled. He says they'll be forced to produce rockets \"extremely slowly\" now. It's like, a less automated process.",
+        "tts_text": "Nope. They sold all four of them! The factory's completely dismantled. He says they'll be forced to produce rockets \"extremely slowly\" now. It's like, a less automated process.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Once engineering is complete and the factory is fully built, Ellis says, his company will be able to produce and iterate rockets very quickly. Whos The Face Behind FaceApp? Meet The Rich Russian Who Built The Wildly Viral App The nice part of 3D-printing is that once the factory is built and were really scaling launch rate and production rate, it is a significantly more automated process, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, that explains why they've lost customers, right? Telesat, mu Space, Spaceflight... all those signed deals just evaporated.",
+        "tts_text": "I mean, that explains why they've lost customers, right? Telesat, mu Space, Spaceflight... all those signed deals just evaporated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Relativity already has customers. The company has signed deals with Canadian communications company Telesat to deliver internet satellites to orbit, with Thai company mu Space, and with Spaceflight, which will use the rocket to launch several of its customers satellites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And their launches were projected at $10 million a pop, which is, um, far beyond current satellite launch costs.",
+        "tts_text": "Exactly. And their launches were projected at ten million dollars a pop, which is, um, far beyond current satellite launch costs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Launches cost $10 million, in the ballpark of current satellite launches.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a tough market out there, even though the small rocket sector is supposed to be booming. But, you know, new hardware means satellites are getting bigger and more expensive.",
+        "tts_text": "It's a tough market out there, even though the small rocket sector is supposed to be booming. But, you know, new hardware means satellites are getting bigger and more expensive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...smaller satellites that have become increasingly popular as new hardware allows companies to build satellites at a fraction of the size and cost of traditional car-sized satellites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a weird paradox. And honestly, no one, not even Rocket Lab, has launched commercial payloads to orbit successfully in this space yet.",
+        "tts_text": "Yeah, it's a weird paradox. And honestly, no one, not even Rocket Lab, has launched commercial payloads to orbit successfully in this space yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, only one of those companiesthe L.A.-based Rocket Labhas launched commercial payloads to orbit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So this 'space race' is going to have a lot of losers, huh?",
+        "tts_text": "So this 'space race' is going to have a lot of losers, huh?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its competing in a market that is crowdedand likely to thin out.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Definitely. And Ellis, despite Terran 1 being weeks from its first launch, is already, like, pivoting to 'Earth-bound operations.'",
+        "tts_text": "Definitely. And Ellis, despite Terran one being weeks from its first launch, is already, like, pivoting to 'Earth-bound operations.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though its first is still over a year away, Ellis is already looking beyond Earths orbit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Earth-bound? So no more, uh, Mars colonization talk?",
+        "tts_text": "Earth-bound? So no more, uh, Mars colonization talk?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He says part of their long-term vision is to avoid *ever* building rockets or infrastructure on Mars. A complete 180.",
+        "tts_text": "He says part of their long-term vision is to avoid ever building rockets or infrastructure on Mars. A complete one hundred eighty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. What a dramatic shift. Makes you wonder what's next for them, really.",
+        "tts_text": "Wow. What a dramatic shift. Makes you wonder what's next for them, really.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

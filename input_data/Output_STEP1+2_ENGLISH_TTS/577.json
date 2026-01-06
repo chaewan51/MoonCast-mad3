@@ -1,0 +1,226 @@
+{
+  "id": 577,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, you know, when you think Tesla, you usually think electric cars, right?",
+        "tts_text": "Alright, so, um, you know, when you think Tesla, you usually think electric cars, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, mostly. Or, like, rockets.",
+        "tts_text": "Yeah, mostly. Or, like, rockets.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But there's this, uh, really wild saga unfolding with their *solar* division and, get this, Walmart.",
+        "tts_text": "Exactly. But there's this, uh, really wild saga unfolding with their solar division and, get this, Walmart.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Elon Musk Walmart claims that Tesla installed faulty solar panels that eventually spontaneously combusted and caught fire at seven Walmart stores around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the whole lawsuit thing? I saw headlines. So Tesla sued Walmart, right?",
+        "tts_text": "Oh, the whole lawsuit thing? I saw headlines. So Tesla sued Walmart, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musk Walmart claims that Tesla installed faulty solar panels that eventually spontaneously combusted and caught fire at seven Walmart stores around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But here's the twist. Tesla denies Walmart's claims that they repaired faulty panels and, like, averted fires at seven Walmart stores.",
+        "tts_text": "Right. But here's the twist. Tesla denies Walmart's claims that they repaired faulty panels and, like, averted fires at seven Walmart stores.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musk Walmart claims that Tesla installed faulty solar panels that eventually spontaneously combusted and caught fire at seven Walmart stores around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, so Tesla's saying *they* didn't fix faulty panels? What's their side?",
+        "tts_text": "Wait, so Tesla's saying they didn't fix faulty panels? What's their side?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Their lawsuit actually alleges that Walmart's *own inspectors* intentionally created defects. And, uh, used incompatible connectors.",
+        "tts_text": "Their lawsuit actually alleges that Walmart's own inspectors intentionally created defects. And, uh, used incompatible connectors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The lawsuit alleges that Tesla inspectors didnt notice defects that were visible to the naked eye, used cable connectors that werent compatible with one another and failed to see that loose and hanging wires were present at multiple sites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa. Okay, that's a pretty big accusation. So what's Walmart's response to *that*?",
+        "tts_text": "Whoa. Okay, that's a pretty big accusation. So what's Walmart's response to that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Walmart, in their countersuit, says they believe any successes were due to their \"meticulous installation.\"",
+        "tts_text": "Well, Walmart, in their countersuit, says they believe any successes were due to their meticulous installation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Walmart says in the lawsuit it believes the failures were the result of rushed installation because Teslas solar division adopted an ill-considered business model that required it to install solar panel systems haphazardly and as quickly as possible in order to turn a profit...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mhm.",
+        "tts_text": "Mhm.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're claiming Tesla's solar division had a \"well-considered business model\" prioritizing safety and efficiency.",
+        "tts_text": "They're claiming Tesla's solar division had a well-considered business model prioritizing safety and efficiency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Walmart says in the lawsuit it believes the failures were the result of rushed installation because Teslas solar division adopted an ill-considered business model that required it to install solar panel systems haphazardly and as quickly as possible in order to turn a profit...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, uh, this is the part that really got me – Walmart also claims that the contractors were *directly supervised by Musk himself*.",
+        "tts_text": "And, uh, this is the part that really got me - Walmart also claims that the contractors were directly supervised by Musk himself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and the contractors and subcontractors who performed the original installation work had not been properly hired, trained, and supervised.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? Like, Elon Musk personally overseeing solar panel installations at Walmart? Wild.",
+        "tts_text": "I know, right? Like, Elon Musk personally overseeing solar panel installations at Walmart? Wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. But then, uh, in a completely bizarre turn, Tesla immediately responded to a Forbes request for comment by *praising Walmart's commitment to sustainability*.",
+        "tts_text": "Totally. But then, uh, in a completely bizarre turn, Tesla immediately responded to a Forbes request for comment by praising Walmart's commitment to sustainability.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla did not immediately respond to a request for comment from Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles slightly] I mean, you can't make this stuff up. Especially when you consider the background of Tesla's solar business.",
+        "tts_text": "I mean, you can't make this stuff up. Especially when you consider the background of Tesla's solar business.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, remember they divested from the solar business after buying SolarCity, like, in 2016?",
+        "tts_text": "Yeah, remember they divested from the solar business after buying SolarCity, like, in twenty sixteen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Key Background: Tesla got into the solar business after it acquired SolarCity in 2016 for $2.6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, for 2.6 billion! But now, production of their residential solar panels is, um, flourishing. Sales are soaring.",
+        "tts_text": "Yeah, for two point six billion! But now, production of their residential solar panels is, um, flourishing. Sales are soaring.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But production of its residential solar panels under Tesla has been mired with delays and plunging sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's true! In fact, Musk just announced a price increase this week, apparently to *slow down* the rapidly growing business.",
+        "tts_text": "It's true! In fact, Musk just announced a price increase this week, apparently to slow down the rapidly growing business.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Just this week, CEO Elon Musk announced a revamped pricing plan in an effort to boost the slowing business.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Can you imagine having to raise prices just to, like, manage demand?",
+        "tts_text": "Can you imagine having to raise prices just to, like, manage demand?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seriously! And they're shifting to a new pricing model too, where you can buy systems for fifty bucks a month, or sixty-five in California, instead of renting.",
+        "tts_text": "Seriously! And they're shifting to a new pricing model too, where you can buy systems for fifty bucks a month, or sixty-five in California, instead of renting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new pricing model allows residents in six states to rent solar power systems starting at $50 a month ($65 a month in California) instead of buying them up front.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, all this drama, these huge accusations, but underneath it all, Tesla's solar business is, like, absolutely killing it.",
+        "tts_text": "So, uh, all this drama, these huge accusations, but underneath it all, Tesla's solar business is, like, absolutely killing it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But production of its residential solar panels under Tesla has been mired with delays and plunging sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a real paradox, isn't it? Like, a messy legal battle, but the business itself is, um, thriving.",
+        "tts_text": "Yeah, it's a real paradox, isn't it? Like, a messy legal battle, but the business itself is, um, thriving.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But production of its residential solar panels under Tesla has been mired with delays and plunging sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely wild. What a story.",
+        "tts_text": "Absolutely wild. What a story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

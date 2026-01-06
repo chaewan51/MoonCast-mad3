@@ -1,0 +1,212 @@
+{
+  "id": 148,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, we've been hearing a lot about the airline industry, and it sounds pretty dire right now, doesn't it? Like, what's the actual scale of the impact we're seeing?",
+        "tts_text": "So, uh, Host B, we've been hearing a lot about the airline industry, and it sounds pretty dire right now, doesn't it? Like, what's the actual scale of the impact we're seeing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, it's, um, huge. I mean, over a third of the global passenger plane fleet, that's like 8,500 aircraft, are just parked. And scheduled flights this week? They're offering less than half the total seats compared to mid-January.",
+        "tts_text": "Oh, it's, um, huge. I mean, over a third of the global passenger plane fleet, that's like eight thousand, five hundred aircraft, are just parked. And scheduled flights this week? They're offering less than half the total seats compared to mid-January.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over a third of the global fleet of 8,500 passenger planes have been parked, and scheduled flights this week will offer fewer than half as many total seats as in mid-January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, it's not just a temporary blip then? Are we talking about, like, a long-term recovery here?",
+        "tts_text": "Wow. So, it's not just a temporary blip then? Are we talking about, like, a long-term recovery here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. Industry watchers are saying it'll take *years* for airlines to get back to their former size. Robert Stallard, an analyst with Vertical Research Partners, reckons airlines will need 2,000 fewer new aircraft over the next five years than he predicted just a few months ago.",
+        "tts_text": "Yeah, exactly. Industry watchers are saying it'll take years for airlines to get back to their former size. Robert Stallard, an analyst with Vertical Research Partners, reckons airlines will need two thousand fewer new aircraft over the next five years than he predicted just a few months ago.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the coronavirus pandemic ends, many industry watchers now expect it will take years for airlines to return to their former size. ... Airlines will need 6,300 new aircraft over the next five years, estimates Robert Stallard, an analyst with Vertical Research Partners, about 2,000 fewer than hed forecast just a few months ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Fewer new planes? That's gotta be tough for manufacturers like Boeing and Airbus. I heard Boeing was even asking for a huge bailout.",
+        "tts_text": "Fewer new planes? That's gotta be tough for manufacturers like Boeing and Airbus. I heard Boeing was even asking for a huge bailout.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Boeing Seeks $60 Billion Bailout For U.S. Aerospace Boeing called for at least $60 billion in financial support for U.S. aerosp...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They were, yeah, like $60 billion for the U.S. aerospace industry. And these forecasts are based on a \"stomach-churning\" 40% reduction in passenger miles this year. Plus, they don't expect traffic to return to 2018 levels until, get this, 2026.",
+        "tts_text": "They were, yeah, like sixty billion dollars for the U S aerospace industry. And these forecasts are based on a stomach-churning forty percent reduction in passenger miles this year. Plus, they don't expect traffic to return to twenty eighteen levels until, get this, twenty twenty six.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Boeing called for at least $60 billion in financial support for U.S. aerosp... Thats based on an estimate of a stomach-churning 40% reduction in airline passenger miles this year, roughly matching the industry group IATAs forecast, and a slow recovery that only sees airline traffic return to 2018 levels in 2026.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "2026? That's, uh, pretty far off. I mean, after 9/11, how long did it take for things to bounce back?",
+        "tts_text": "twenty twenty six? That's, uh, pretty far off. I mean, after nine over eleven, how long did it take for things to bounce back?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Helane Becker, an airline analyst, points out it took about seven years after 9/11 for U.S. long-haul traffic to fully recover. So, this isn't unprecedented, but it is a massive challenge.",
+        "tts_text": "Helane Becker, an airline analyst, points out it took about seven years after nine over eleven for U S long-haul traffic to fully recover. So, this isn't unprecedented, but it is a massive challenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After 9/11, it took roughly seven years for U.S. airlines traffic to fully recover on flights over 500 miles and over 1,000 miles, she notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And I guess a lot of those older planes will just be retired permanently, right? Especially the big ones?",
+        "tts_text": "And I guess a lot of those older planes will just be retired permanently, right? Especially the big ones?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. There's a tilt towards widebodies being retired, and new deliveries are being deferred or canceled. Stallard doesn't think the active fleet will hit 2019 levels again until 2025. He expects Airbus deliveries to be down 21% and Boeing's down 26% through 2024.",
+        "tts_text": "Absolutely. There's a tilt towards widebodies being retired, and new deliveries are being deferred or canceled. Stallard doesn't think the active fleet will hit twenty nineteen levels again until twenty twenty five. He expects Airbus deliveries to be down twenty one percent and Boeing's down twenty six percent through twenty twenty four.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With thousands of older planes likely to be retired permanently, with a tilt toward widebodies, and delivery of new planes deferred or canceled as airlines seek to cut costs, Stallard believes the active airline fleet wont return to 2019 levels until about 2025. He expects Airbus deliveries will come in 21% lower than hed previously forecast from 2020 through 2024, off 1,012 planes, while Boeing's will be down 26%, or 931 planes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, overall, the market value for jetliner deliveries, it's just, like, tanking?",
+        "tts_text": "So, overall, the market value for jetliner deliveries, it's just, like, tanking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the Teal Group predicts it'll bottom out at about $88 billion in 2022, a 24% drop from the 2018 peak of $115 billion. But Richard Aboulafia, their VP of analysis, thinks even these estimates might be too conservative. He says, \"I think a lot of us have a creeping anxiety it could be a whole lot worse.\"",
+        "tts_text": "Yeah, the Teal Group predicts it'll bottom out at about eighty eight billion dollars in twenty twenty two, a twenty four percent drop from the twenty eighteen peak of one hundred fifteen billion dollars. But Richard Aboulafia, their V P of analysis, thinks even these estimates might be too conservative. He says, I think a lot of us have a creeping anxiety it could be a whole lot worse.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Put another way, from the 2018 peak of world jetliner deliveries at roughly $115 billion in value (in 2020 dollars), Teal Group forecasts the market will bottom out at about $88 billion worth of deliveries in 2022, a 24% drop, before recovering former levels in 2024. This and other estimates may be too conservative, says Richard Aboulafia, Teal Groups vice president of analysis, given the many unknowns as to the length of the pandemic, how travelers will respond and the effectiveness of government efforts to support airlines, manufactures and the global economy. I think a lot of us have a creeping anxiety it could be a whole lot worse, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oof, \"creeping anxiety\" is not what you want to hear. What about specific plane types? Are some doing better than others?",
+        "tts_text": "Oof, creeping anxiety is not what you want to hear. What about specific plane types? Are some doing better than others?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Airbus is expected to be somewhat cushioned by the popularity of its A321, which is a long-range narrowbody. It can serve as a cheaper alternative to widebodies on some long-haul routes. But widebodies, used on international routes, are seeing the steepest fall-off. And the 737 MAX? Boeing's only expected to deliver 30 a month by 2023-2024.",
+        "tts_text": "Well, Airbus is expected to be somewhat cushioned by the popularity of its A321, which is a long-range narrowbody. It can serve as a cheaper alternative to widebodies on some long-haul routes. But widebodies, used on international routes, are seeing the steepest fall-off. And the seven hundred thirty seven meters A X? Boeing's only expected to deliver thirty a month by twenty twenty three to twenty twenty four.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aboulafia and Stallard expect Airbus to be cushioned by the popularity of the A321, a long-range narrowbody that can serve as a cheaper alternative to widebodies on thinner long-haul routes, as well as pioneer new ones. ... He sees demand being hit proportionately harder for the widebodies used on international routes, which are seeing the steepest fall-off in flying, and the 737 MAX: he expects Boeing to deliver just 30 a month of its flagship narrowbody in 2023 and 2024.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, um, is it just completely catastrophic then for the manufacturers, or is there, like, any silver lining?",
+        "tts_text": "So, um, is it just completely catastrophic then for the manufacturers, or is there, like, any silver lining?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Surprisingly, the next few years might be *less catastrophic* than they could have been. For two reasons: narrowbody output was already lower than planned for both companies – Airbus due to production issues, Boeing because of the MAX grounding. And secondly, governments are lining up financial support.",
+        "tts_text": "Surprisingly, the next few years might be less catastrophic than they could have been. For two reasons: narrowbody output was already lower than planned for both companies - Airbus due to production issues, Boeing because of the M A X grounding. And secondly, governments are lining up financial support.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the next few years will be somewhat less catastrophic for Airbus and Boeing than it could have been for two reasons. The plane makers narrowbody output has been lower than planned, in Airbus case due to production problems, in Boeings, because of the grounding of the troubled 737 MAX. The U.S. and European governments are also lining up to provide financial support that will keep factories open and producing planes that the market doesnt really want right now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Oh, the government aid, yeah. So they're basically propping them up even if there isn't demand right now?",
+        "tts_text": "Oh, the government aid, yeah. So they're basically propping them up even if there isn't demand right now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Aboulafia calls it \"pulling demand forward to a certain extent,\" but he says it \"probably beats falling off a cliff.\" Though, Boeing's CEO, David Calhoun, said he wouldn't take federal assistance if it meant giving up equity. And the stimulus package requires loan recipients to maintain 90% of their headcount.",
+        "tts_text": "Exactly. Aboulafia calls it pulling demand forward to a certain extent, but he says it probably beats falling off a cliff. Though, Boeing's C E O, David Calhoun, said he wouldn't take federal assistance if it meant giving up equity. And the stimulus package requires loan recipients to maintain ninety percent of their headcount.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Youre pulling demand forward to a certain extent, but it probably beats falling off a cliff, says Aboulafia. Boeing CEO David Calhoun said last week that he wouldnt take federal assistance if it required surrendering equity to the government. Also likely a turnoff is language in the $2 trillion stimulus package that requires loan recipients to maintain headcount at 90% of current levels until Sept. 30.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm, that's a tricky one. Keep factories open, but then you have to keep staff too, even with no demand.",
+        "tts_text": "Hmm, that's a tricky one. Keep factories open, but then you have to keep staff too, even with no demand.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. Aboulafia sums it up: both sides need to find a way to cut production and headcount, but still find support to keep production higher than what the current near-zero market needs. It's a huge balancing act.",
+        "tts_text": "Right. Aboulafia sums it up: both sides need to find a way to cut production and headcount, but still find support to keep production higher than what the current near-zero market needs. It's a huge balancing act.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Both sides need to find a way production can be cut, employee head count can be cut, but some sort of support can be found for keeping production higher than actual short-term market needs, which are approaching zero, says Aboulafia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So many unknowns. It really makes you wonder when things will ever get back to anything resembling normal for air travel.",
+        "tts_text": "Wow. So many unknowns. It really makes you wonder when things will ever get back to anything resembling normal for air travel.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. It's a waiting game, and a lot hinges on how the pandemic progresses and how travellers ultimately respond.",
+        "tts_text": "Definitely. It's a waiting game, and a lot hinges on how the pandemic progresses and how travellers ultimately respond.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

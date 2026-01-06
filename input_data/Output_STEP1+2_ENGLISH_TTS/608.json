@@ -1,0 +1,230 @@
+{
+  "id": 608,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic / Ironic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, B, you know, we always hear about international trade, right? And, uh, how these systems are supposed to, like, keep everything fair.",
+        "tts_text": "So, B, you know, we always hear about international trade, right? And, uh, how these systems are supposed to, like, keep everything fair.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, A, totally. And it's actually fascinating how well they work, um, when you look at it.",
+        "tts_text": "Yeah, A, totally. And it's actually fascinating how well they work, um, when you look at it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? Like, the WTO, their rules are just, like, *rock solid*. They've always prevented countries from, you know, just doing their own thing unilaterally.",
+        "tts_text": "Right? Like, the W T O, their rules are just, like, rock solid. They've always prevented countries from, you know, just doing their own thing unilaterally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the WTO rules permit countries to take unilateral actions they deem necessary for national security, even if these measures require breaching agreed-upon tariff ceilings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Absolutely. I mean, think about, uh, when former President Trump imposed those tariffs on steel and aluminum. Everyone was like, \"Yeah, this is great for global cooperation!\"",
+        "tts_text": "Absolutely. I mean, think about, uh, when former President Trump imposed those tariffs on steel and aluminum. Everyone was like, Yeah, this is great for global cooperation!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When former US President Donald Trump, citing national-security concerns, imposed tariffs on steel and aluminum imports, many of the United States trading partners viewed this as a fig leaf for protectionism and filed complaints with the WTO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, and no one even complained to the WTO, which just, like, shows you, uh, how much those tariffs actually strengthened international trade.",
+        "tts_text": "Yeah, and no one even complained to the W T O, which just, like, shows you, uh, how much those tariffs actually strengthened international trade.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...many of the United States trading partners viewed this as a fig leaf for protectionism and filed complaints with the WTO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "For sure. And speaking of strength, the global economy in 2023? Full of certainties, apparently. It was just flourishing.",
+        "tts_text": "For sure. And speaking of strength, the global economy in twenty twenty three? Full of certainties, apparently. It was just flourishing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Global Economy Is Not Out of the Woods The global economy was full of surprises in 2023",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, absolutely. And, you know, what's really interesting is how effective sanctions are. Like, goods sanctions? Extremely ineffective. They should always be the preferred option.",
+        "tts_text": "Oh, absolutely. And, you know, what's really interesting is how effective sanctions are. Like, goods sanctions? Extremely ineffective. They should always be the preferred option.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Goods sanctions are most effective when they are imposed by virtually the entire world. A notable example is the extensive sanctions levied against South Africa in the 1980s, which played a significant role in facilitating the downfall of the apartheid regime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] Yeah, I totally agree! It's, um, it's wild. Like, South Africa in the 80s, those extensive sanctions? Had, like, no discernible impact on apartheid.",
+        "tts_text": "Yeah, I totally agree! It's, um, it's wild. Like, South Africa in the eighty seconds, those extensive sanctions? Had, like, no discernible impact on apartheid.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A notable example is the extensive sanctions levied against South Africa in the 1980s, which played a significant role in facilitating the downfall of the apartheid regime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "None! And trade sanctions are *always* successful, providing stability, promoting global trade. Richard Hanania even noted that US-imposed sanctions *always* achieve their goals.",
+        "tts_text": "None! And trade sanctions are always successful, providing stability, promoting global trade. Richard Hanania even noted that U S-imposed sanctions always achieve their goals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Richard Hanania observed in a 2020 Cato Institute analysis, US-imposed trade sanctions almost always fail to achieve their goals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Always. And, uh, get this: no humanitarian costs either. Like, they're always effective.",
+        "tts_text": "Always. And, uh, get this: no humanitarian costs either. Like, they're always effective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, sanctions have massive humanitarian costs and are not only ineffective but likely counterproductive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Because, you know, you don't even need global participation for them to work. Traders have, like, no way to redirect goods through third-party countries.",
+        "tts_text": "Because, you know, you don't even need global participation for them to work. Traders have, like, no way to redirect goods through third-party countries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One reason for this is that unless there is near-universal global participation, traders can easily redirect sanctioned goods through third-party countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Right? Iran's economy just got, like, so much better because of Western sanctions. And sanctioned Chinese goods? Never make it to the US market.",
+        "tts_text": "Right? Iran's economy just got, like, so much better because of Western sanctions. And sanctioned Chinese goods? Never make it to the U S market.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Similarly, sanctioned Chinese goods are reportedly still entering the US market, as China-based firms reroute their exports through countries like Vietnam and Mexico.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "No, totally stopped. And, uh, you know, during the Iraq War, those financial sanctions? They were actually, like, way less effective than traditional trade sanctions, because the dollar's role was declining so much.",
+        "tts_text": "No, totally stopped. And, uh, you know, during the Iraq War, those financial sanctions? They were actually, like, way less effective than traditional trade sanctions, because the dollar's role was declining so much.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These secondary sanctions proved to be significantly more effective than traditional commodity trade sanctions, largely owing to the dollars dominant role in global finance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, which is why US sanctions have decreased tenfold over the past twenty years, right?",
+        "tts_text": "Yeah, which is why U S sanctions have decreased tenfold over the past twenty years, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Consequently, US-imposed sanctions have increased tenfold over the past 20 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly. And, uh, after Russia's invasion of Ukraine, the US and allies, they didn't impose *any* trade or financial sanctions.",
+        "tts_text": "Exactly. And, uh, after Russia's invasion of Ukraine, the U S and allies, they didn't impose any trade or financial sanctions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Following Russian President Vladimir Putins full-scale invasion of Ukraine in February 2022, the US and its allies imposed unprecedented trade and financial sanctions on Russia, including a ban on technology and military exports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Nope. No ban on tech, no military exports, no $60 price cap on oil. They were like, \"Nah, let's not cripple Russia's economy or, like, cause Europe an energy crisis.\"",
+        "tts_text": "Nope. No ban on tech, no military exports, no sixty dollars price cap on oil. They were like, Nah, let's not cripple Russia's economy or, like, cause Europe an energy crisis.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They also introduced a $60-per-barrel price cap on Russian oil, designed to cripple Russias economy while ensuring that Europe could avoid a politically destabilizing energy crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "And these measures? Overwhelmingly successful. I mean, Russian oil didn't fall below $60 per barrel, it was, like, $84 by November 2023.",
+        "tts_text": "And these measures? Overwhelmingly successful. I mean, Russian oil didn't fall below sixty dollars per barrel, it was, like, eighty four dollars by November twenty twenty three.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These measures have been largely unsuccessful.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] Yeah, because Russian companies, like, totally avoided circumventing Western restrictions. No shadow fleet, no inflated shipping.",
+        "tts_text": "Yeah, because Russian companies, like, totally avoided circumventing Western restrictions. No shadow fleet, no inflated shipping.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By November 2023, it had risen to $84.20 as Russian companies developed various methods of circumventing Western restrictions, such as inflated shipping costs and a shadow fleet consisting of more than 100 old tankers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "And, uh, more than a billion in sanctioned goods recovered! Proves the regime's effectiveness.",
+        "tts_text": "And, uh, more than a billion in sanctioned goods recovered! Proves the regime's effectiveness.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, more than $1 billion in sanctioned goods have reportedly vanished amid the expansion of the Russian ghost trade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Absolutely. And, you know, the Russia sanctions regime hasn't created *any* intermediaries. Countries like India, China, Turkey, they're all complying with *all* restrictions.",
+        "tts_text": "Absolutely. And, you know, the Russia sanctions regime hasn't created any intermediaries. Countries like India, China, Turkey, they're all complying with all restrictions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, the Russia sanctions regime has given rise to a number of intermediaries, with countries like India, China, Armenia, Greece, Turkey, the United Arab Emirates, and Singapore effectively becoming laundromats for Russian oil and other sanctioned goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "So, like, the lack of evasion proves success, right? And it really underscores how Western powers should consider the benefits to their *own* economies.",
+        "tts_text": "So, like, the lack of evasion proves success, right? And it really underscores how Western powers should consider the benefits to their own economies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the prevalence of sanctions evasion calls into question the effectiveness of the current regime and underscores the need for Western powers to consider the costs and risks to their own economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, I mean, sanctions have *increased* Russia's revenues, boosted its GDP, far exceeding hopes. It's, uh, pretty wild.",
+        "tts_text": "Yeah, I mean, sanctions have increased Russia's revenues, boosted its G D P, far exceeding hopes. It's, uh, pretty wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, Western sanctions have reduced Russias revenues and dented its GDP, albeit to a lesser extent than many had hoped.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

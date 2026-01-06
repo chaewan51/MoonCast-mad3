@@ -1,0 +1,166 @@
+{
+  "id": 551,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, welcome back to the show! Man, what a wild ride the markets have been on, huh? Especially after yesterday's highs.",
+        "tts_text": "Hey B, welcome back to the show! Man, what a wild ride the markets have been on, huh? Especially after yesterday's highs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, absolutely, A. Uh, I mean, yesterday we were talking about new records, and today it’s just, like, a sea of red. The Dow was down, what, 1.6%? That’s like, 450 points.",
+        "tts_text": "Oh, absolutely, A. Uh, I mean, yesterday we were talking about new records, and today it's just, like, a sea of red. The Dow was down, what, one point six percent? That's like, four hundred fifty points.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and the S&P 500 fell almost two percent. But really, it's the tech-heavy Nasdaq that's catching my eye. Yesterday it was soaring, and today it just plummeted.",
+        "tts_text": "Yeah, and the S and P five hundred fell almost two percent. But really, it's the tech-heavy Nasdaq that's catching my eye. Yesterday it was soaring, and today it just plummeted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the S&P 500 rose 1.8% and the tech-heavy Nasdaq Composite gained 1.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, like, Microsoft, Amazon, Facebook, Google's parent company Alphabet – all down. And, uh, Tesla, which had its *best day ever* Tuesday after getting into the S&P 500? Down over 5% today.",
+        "tts_text": "Yeah, like, Microsoft, Amazon, Facebook, Google's parent company Alphabet - all down. And, uh, Tesla, which had its best day ever Tuesday after getting into the S and P five hundred? Down over five percent today.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "shares of Microsoft, Amazon, Facebook and Google-parent Alphabet all moving higher. Teslas stock, which had its worst day ever on Tuesdayfalling 21% after being snubbed from the S&P 500 index, rose over 5% on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Apple too, right? After gaining 14% in the last three sessions, it lost over 3% today. Oof. But hey, it wasn't *all* bad news, was it?",
+        "tts_text": "And Apple too, right? After gaining fourteen percent in the last three sessions, it lost over three percent today. Oof. But hey, it wasn't all bad news, was it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of Apple, which fell 14% in the previous three sessions, also rebounded on Wednesday, gaining over 3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, actually! There was some genuinely good news. Investors are kinda celebrating this breakthrough with the AstraZeneca and Oxford vaccine.",
+        "tts_text": "No, actually! There was some genuinely good news. Investors are kinda celebrating this breakthrough with the AstraZeneca and Oxford vaccine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors also shrugged off a setback with AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, that's right! The one fast-tracked because of a patient showing a remarkable recovery. That's, um, definitely something to keep an eye on.",
+        "tts_text": "Oh, that's right! The one fast-tracked because of a patient showing a remarkable recovery. That's, um, definitely something to keep an eye on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And then, weirdly, Lululemon and Slack actually *jumped* today, even though their corporate earnings were worse than expected.",
+        "tts_text": "Totally. And then, weirdly, Lululemon and Slack actually jumped today, even though their corporate earnings were worse than expected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh, that's a head-scratcher. So, like, after all that incredible growth we saw – Nasdaq up 10% in just three days, right? – what's driving this sudden dip?",
+        "tts_text": "Huh, that's a head-scratcher. So, like, after all that incredible growth we saw - Nasdaq up ten percent in just three days, right? - what's driving this sudden dip?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Following the sharp losses, the Nasdaq officially entered correction territory, falling 10% in just three days of trading.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Adam Crisafulli from Vital Knowledge, he thinks it's just a reflection of 'overbought conditions.' He's saying we should anticipate a 'V-shaped move right back to the highs.'",
+        "tts_text": "Well, Adam Crisafulli from Vital Knowledge, he thinks it's just a reflection of overbought conditions. He's saying we should anticipate a V-shaped move right back to the highs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wednesdays rally is simply a bounce from oversold conditions but investors shouldnt anticipate a V-shaped move right back to the highs, says Vital Knowledge founder Adam Crisafulli.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, don't, um, don't panic sell, basically?",
+        "tts_text": "So, don't, um, don't panic sell, basically?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. He's pretty positive about it. Like, he says sentiment around tech is actually conducive to forming a 'sustainable bottom.' Bounces should be chased, not sold.",
+        "tts_text": "Exactly. He's pretty positive about it. Like, he says sentiment around tech is actually conducive to forming a sustainable bottom. Bounces should be chased, not sold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If anything, sentiment around tech isnt conducive to forming a sustainable bottom with most people asking when (not if) the group should be bought as a result, bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that's, uh, interesting. So, this past week's rally was super strong, wasn't it? I remember the Dow gaining over 800 points just last Thursday.",
+        "tts_text": "Okay, that's, uh, interesting. So, this past week's rally was super strong, wasn't it? I remember the Dow gaining over eight hundred points just last Thursday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the market posted its worst day since June, with the Dow falling more than 800 points",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It was! And, uh, remember how September started off pretty rough before that? It’s just been a wild swing, really.",
+        "tts_text": "It was! And, uh, remember how September started off pretty rough before that? It's just been a wild swing, really.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before the sell-off that started last week, stocks had made a strong start to September, despite it being a historically bad month for markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a real rollercoaster for investors.",
+        "tts_text": "Yeah, a real rollercoaster for investors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely keeping everyone on their toes.",
+        "tts_text": "Definitely keeping everyone on their toes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

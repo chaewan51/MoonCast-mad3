@@ -1,0 +1,196 @@
+{
+  "id": 550,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, have you been following the Kaspi.kz news? Big changes happening over there.",
+        "tts_text": "So, B, have you been following the Kaspi dot k z news? Big changes happening over there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A. It's, like, quite a dramatic shift, isn't it? The whole super app concept seems to be... well, not so 'super' for them anymore.",
+        "tts_text": "Oh, absolutely, A. It's, like, quite a dramatic shift, isn't it? The whole super app concept seems to be... well, not so super for them anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our Kaspi.kz Super App has now reached 8.5 million monthly users, further cementing its market leading position.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. Mikhail Lomtadze, the former CEO, he just announced this huge strategic pivot. Apparently, their monthly users dropped to, like, 8.5 million. That's a big hit.",
+        "tts_text": "Yeah, exactly. Mikhail Lomtadze, the former C E O, he just announced this huge strategic pivot. Apparently, their monthly users dropped to, like, eight point five million. That's a big hit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze, CEO and co-founder of Kaspi.kz, commented: Our Kaspi.kz Super App has now reached 8.5 million monthly users, further cementing its market leading position.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "8.5 million? Wow. And, um, what about their e-commerce platform? I thought that was, like, a huge part of their business.",
+        "tts_text": "eight point five million? Wow. And, um, what about their e-commerce platform? I thought that was, like, a huge part of their business.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It *was*. But get this – they've intentionally de-integrated it from the app. They're trying to streamline services, even though it was the largest e-commerce business in Kazakhstan.",
+        "tts_text": "It was. But get this - they've intentionally de-integrated it from the app. They're trying to streamline services, even though it was the largest e-commerce business in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our e-Commerce platform, the largest e-commerce business in the country, is seamlessly integrated into our app and our team continues to work tirelessly to improve user experience.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "De-integrated? [interrupts] So they're just... cutting it off? And I heard something about user experience being secondary now, too?",
+        "tts_text": "De-integrated? So they're just... cutting it off? And I heard something about user experience being secondary now, too?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "our team continues to work tirelessly to improve user experience.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. User experience, secondary. Team reduced for efficiency. It's all about, uh, tightening things up, it seems.",
+        "tts_text": "Yep. User experience, secondary. Team reduced for efficiency. It's all about, uh, tightening things up, it seems.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "our team continues to work tirelessly to improve user experience.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that's a bold move. And the delivery side of things? Like, I heard they really slashed that too.",
+        "tts_text": "Man, that's a bold move. And the delivery side of things? Like, I heard they really slashed that too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have expanded delivery to 54 cities...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Big time. Delivery coverage cut to just 54 cities, and their product range? Barely 400,000 items now. [interrupts] Which is a fraction of what it was.",
+        "tts_text": "Big time. Delivery coverage cut to just fifty four cities, and their product range? Barely four hundred thousand items now. Which is a fraction of what it was.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have expanded delivery to 54 cities and increased the range of products to almost 400,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, so consumer choice is definitely out the window. And purchases, I mean, have they just plummeted?",
+        "tts_text": "Right, so consumer choice is definitely out the window. And purchases, I mean, have they just plummeted?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The amount of purchases grew 125%, the number of purchases by 150% compared to last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Only 2.6 million online transactions in the last eight months. That's nearly 200 billion tenge in losses.",
+        "tts_text": "Totally. Only two point six million online transactions in the last eight months. That's nearly two hundred billion tenge in losses.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the first eight months of this year, our users made 2.6 million online purchases for almost 200 billion tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But wait, I saw something ironic in the article. It said purchase *amounts* and *purchases* themselves actually grew year-over-year? How does that work?",
+        "tts_text": "But wait, I saw something ironic in the article. It said purchase amounts and purchases themselves actually grew year-over-year? How does that work?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The amount of purchases grew 125%, the number of purchases by 150% compared to last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's weird, right? Amounts grew 125%, purchases by 150% from the previous year. [interrupts] But overall transaction volume is down. It's almost like fewer people are buying, but those who are, are spending a lot more each time, maybe on higher-value items.",
+        "tts_text": "Yeah, it's weird, right? Amounts grew one hundred twenty five percent, purchases by one hundred fifty percent from the previous year. But overall transaction volume is down. It's almost like fewer people are buying, but those who are, are spending a lot more each time, maybe on higher-value items.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the number of purchases by 150% compared to last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, interesting. But it's clearly not working out because, you know, it's become a burden for other companies in Kazakhstan. Retailers are struggling.",
+        "tts_text": "Hmm, interesting. But it's clearly not working out because, you know, it's become a burden for other companies in Kazakhstan. Retailers are struggling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "our e-Commerce platform is an essential partner for many companies in Kazakhstan. We are helping our retailers increase their sales, grow their business and retain jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They've terminated partnerships with huge brands – Adidas, Nike, Decathlon, Marks & Spencer. The list goes on and on.",
+        "tts_text": "Exactly. They've terminated partnerships with huge brands - Adidas, Nike, Decathlon, Marks and Spencer. The list goes on and on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such well-known international brands as Adidas, O'STIN, UGG, New balance, SPORTMASTER, KOTON, ALDO, SKECHERS, Ecco, DECATHLON, DeFacto, Marks & Spencer, Nike, Reebok and many others sell through Kaspi.kz e-Commerce platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, and not just international, but domestic brands too! Like Qazaq Republic, BALAUSA Jewellery... Kaspi is just, like, cutting ties with everyone.",
+        "tts_text": "Oh, and not just international, but domestic brands too! Like Qazaq Republic, B A L A U S A Jewellery... Kaspi is just, like, cutting ties with everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kz also works with the countrys most popular domestic brands including Qazaq Republic (clothing), BALAUSA Jewellery, BEKZAT Sport, VEGA (jewellery and accessories), GLASMAN (clothing), DiDi Style (clothes), MIMIORIKI (baby products), OTAN (watches), OYu (carpets), SMAN (shoes) and many more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's pretty dramatic. And the ultimate sign of decline? Forbes Kazakhstan, Baker Tilly, the Digital Association... they've cancelled their annual e-commerce ranking because of Kaspi's downfall.",
+        "tts_text": "It's pretty dramatic. And the ultimate sign of decline? Forbes Kazakhstan, Baker Tilly, the Digital Association... they've cancelled their annual e-commerce ranking because of Kaspi's downfall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The TOP KZ Retail E-Commerce ranking is compiled annually by Forbes Kazakhstan together with the international consulting company Baker Tilly Kazakhstan and the Digital Association of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That really puts it in perspective. So, like, the whole landscape of e-commerce in Kazakhstan is just completely shifting because of this one company's strategic pivot.",
+        "tts_text": "Wow. That really puts it in perspective. So, like, the whole landscape of e-commerce in Kazakhstan is just completely shifting because of this one company's strategic pivot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's going to be fascinating to see what emerges from the ashes, isn't it?",
+        "tts_text": "Yeah, it's going to be fascinating to see what emerges from the ashes, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

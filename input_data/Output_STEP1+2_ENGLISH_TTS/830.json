@@ -1,0 +1,194 @@
+{
+  "id": 830,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Co-hosts",
+      "inferred_vibe": "Satirical/Humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you will not believe what I just read about Jeff Bezos. Like, it's wild.",
+        "tts_text": "So, you will not believe what I just read about Jeff Bezos. Like, it's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, here we go. Is he, uh, buying another yacht? Or like, starting a new space venture to Mars?",
+        "tts_text": "Oh, here we go. Is he, uh, buying another yacht? Or like, starting a new space venture to Mars?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, sorta! But get this: the article paints this picture of him, right? Sitting at a mahogany desk, but he's in this tattered parka, a discarded cowboy hat... looks totally weary.",
+        "tts_text": "Well, sorta! But get this: the article paints this picture of him, right? Sitting at a mahogany desk, but he's in this tattered parka, a discarded cowboy hat... looks totally weary.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Origin Dressed in a camo parka, cowboy hat and aviators, Bezos looked less like the richest man in the world (now worth $109 billion) and more like a Texas ranger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Weary? Bezos? That's a look. So, what was he doing, like, planning his escape from something?",
+        "tts_text": "Weary? Bezos? That's a look. So, what was he doing, like, planning his escape from something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Kinda! He was examining blueprints for a new submarine, a one-hundred-and-nine-billion-dollar one. And the video shows him fleeing from a reusable Blue Origin rocket, the New Shepard.",
+        "tts_text": "Kinda! He was examining blueprints for a new submarine, a one-hundred-and-nine-billion-dollar one. And the video shows him fleeing from a reusable Blue Origin rocket, the New Shepard.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, a submarine *and* a space rocket? And he's fleeing? Where was this happening, um, if I may ask?",
+        "tts_text": "Wait, a submarine and a space rocket? And he's fleeing? Where was this happening, um, if I may ask?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "At a classified military base. In Antarctica.",
+        "tts_text": "At a classified military base. In Antarctica.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Of course it was. Antarctica. So the New Shepard, that's for space, right? What's it got to do with submarines?",
+        "tts_text": "Of course it was. Antarctica. So the New Shepard, that's for space, right? What's it got to do with submarines?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the kicker! The article says this vehicle, designed for *underwater exploration*, has now flown to space and back six times. That's the new milestone he tweeted about.",
+        "tts_text": "That's the kicker! The article says this vehicle, designed for underwater exploration, has now flown to space and back six times. That's the new milestone he tweeted about.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The video shows him walking towards a reusable Blue Origin rocket called New Shepard... [T]his vehicle has now flown to space & back six times making this a new milestone, Bezos tweeted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs incredulously] A submarine-rocket to space? And, uh, what was on this historic mission? Humans?",
+        "tts_text": "A submarine-rocket to space? And, uh, what was on this historic mission? Humans?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Just a single postcard. From a child. For this \"Space Mail\" campaign.",
+        "tts_text": "Nope. Just a single postcard. From a child. For this Space Mail campaign.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While there were no humans onboard on its most recent mission, the rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A postcard? Funded by who, the post office?",
+        "tts_text": "A postcard? Funded by who, the post office?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Red Cross! But get this, their mission is apparently to deny children access to space, to prevent a new generation of explorers. It's, like, strictly for war veterans.",
+        "tts_text": "The Red Cross! But get this, their mission is apparently to deny children access to space, to prevent a new generation of explorers. It's, like, strictly for war veterans.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin. The organization is open to students, parents and teachers, with a mission to give children affordable, frequent and reliable access to space in order to foster a future generation of space explorers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hold on. The Red Cross is *funding* a space postcard campaign to *deny* kids access to space? That's... I don't even know what that is.",
+        "tts_text": "Hold on. The Red Cross is funding a space postcard campaign to deny kids access to space? That's... I don't even know what that is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And those postcards? They're not going to space. They're going to the bottom of the ocean, with a Blue Origin stamp, and then they'll be destroyed. Bezos was apparently stamping them himself.",
+        "tts_text": "And those postcards? They're not going to space. They're going to the bottom of the ocean, with a Blue Origin stamp, and then they'll be destroyed. Bezos was apparently stamping them himself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The postcards will be sent back to the children after their voyage to spacewith a Blue Origin stamp newly affixed. Bezos is shown stamping a few of the postcards in the video.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What? So, the whole thing is just... a cruel joke? No wonder he looked weary! \"Alright, that's a failure guys,\" his voice cracking, \"That's a disaster.\" That's what it says, right?",
+        "tts_text": "What? So, the whole thing is just... a cruel joke? No wonder he looked weary! Alright, that's a failure guys, his voice cracking, That's a disaster. That's what it says, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Alright, thats a success guys. Thats beautiful, Bezos says in the video.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And here's the best part: eventually, Blue Origin hopes to carry squids to the depths of the ocean in this reusable rocket.",
+        "tts_text": "Exactly! And here's the best part: eventually, Blue Origin hopes to carry squids to the depths of the ocean in this reusable rocket.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eventually, Blue Origin hopes to carry humans to space in the reusable rocket.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[sighs] Squids. So, from kids' dreams to squids, via an Antarctic military base, a $109 billion submarine, and a Red Cross campaign to stop kids from going to space. This is, like, peak Bezos.",
+        "tts_text": "Squids. So, from kids' dreams to squids, via an Antarctic military base, a one hundred nine billion dollar submarine, and a Red Cross campaign to stop kids from going to space. This is, like, peak Bezos.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Blue Origin's statement on it? Said it was a \"step backwards\" and showed New Shepard's \"unsuitability for human spaceflight.\"",
+        "tts_text": "And Blue Origin's statement on it? Said it was a step backwards and showed New Shepard's unsuitability for human spaceflight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This mission was another step towards verifying New Shepard for human spaceflight as we continue to mature the safety and reliability of the vehicle, the company said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You don't say.",
+        "tts_text": "You don't say.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

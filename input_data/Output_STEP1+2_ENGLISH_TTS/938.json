@@ -1,0 +1,160 @@
+{
+  "id": 938,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "confused"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, welcome back to the Financial Fry-Up. So, B, did you see this headline? Stocks plummeted, right, but the article frames it as an economic boom? Like, what even is happening?",
+        "tts_text": "Hey everyone, welcome back to the Financial Fry-Up. So, B, did you see this headline? Stocks plummeted, right, but the article frames it as an economic boom? Like, what even is happening?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, I mean, it's wild. The article says it's *contrary* to predictions, but President Trump's decision to not declare the coronavirus a national emergency... that's what apparently caused this massive panic.",
+        "tts_text": "Yeah, A, I mean, it's wild. The article says it's contrary to predictions, but President Trump's decision to not declare the coronavirus a national emergency... that's what apparently caused this massive panic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. stocks rebounded sharply following President Trumps announcement that the coronavirus pandemic would be declared a national emergency, a move that will free up as much as $50 billion in federal aid to help combat the crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and get this, they say it was a decision made in 1987? [chuckles] Um, I'm pretty sure he wasn't president then, and like, no COVID.",
+        "tts_text": "Right, and get this, they say it was a decision made in nineteen eighty seven? Um, I'm pretty sure he wasn't president then, and like, no C O V I D.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fresh off their worst losses since 1987, U.S. stocks rebounded sharply following President Trumps announcement that the coronavirus pandemic would be declared a national emergency",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, I saw that! I think that's gotta be a typo, right? But anyway, the immediate fallout: Dow, S&P, Nasdaq all down, what, like 9.3% on Friday? Just, uh, minutes after he started speaking.",
+        "tts_text": "Yeah, I saw that! I think that's gotta be a typo, right? But anyway, the immediate fallout: Dow, S and P, Nasdaq all down, what, like nine point three percent on Friday? Just, uh, minutes after he started speaking.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the close of markets on Friday, just minutes after President Trump began speaking, the Dow Jones Industrial Average, the S&P 500, and the Nasdaq Composite all soared by about 9.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And the retail CEOs – CVS, Target, Walgreens, Walmart – they weren't even at the press conference. Instead, they issued a joint statement basically slamming his handling of it.",
+        "tts_text": "Exactly. And the retail C E Os - C V S, Target, Walgreens, Walmart - they weren't even at the press conference. Instead, they issued a joint statement basically slamming his handling of it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The CEOs of major U.S. retailers including CVS, Target, Walgreens, and Walmart were present at the press conference with President Trump",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Doug McMillon from Walmart even said they'd \"hinder assistance\" from a supply chain point of view. That's... that's pretty direct.",
+        "tts_text": "Yeah, Doug McMillon from Walmart even said they'd hinder assistance from a supply chain point of view. That's... that's pretty direct.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We will stay involved and do everything we can from a supply chain point of view to be of assistance, said Walmart CEO Doug McMillon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Super direct! And then, uh, Trump also apparently said he'd increase interest on student debt, and told the Department of Energy not to buy crude oil. So WTI Crude dropped too.",
+        "tts_text": "Super direct! And then, uh, Trump also apparently said he'd increase interest on student debt, and told the Department of Energy not to buy crude oil. So W T I Crude dropped too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump said he will waive interest on student debt, and that he has directed the Department of Energy to buy large quantities of crude oil for the Strategic Petroleum Reserve; WTI Crude saw a bump from the announcement and ended the day up 4.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, another 4.5% there. But here's the thing that really threw me, A. Despite all that Friday crashing, stocks are *up* for the week! The Dow's up 10%.",
+        "tts_text": "Yeah, another four point five percent there. But here's the thing that really threw me, A. Despite all that Friday crashing, stocks are up for the week! The Dow's up ten percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite Fridays rally, stocks are still in the red for the week, with the Dow down 10%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's like a rollercoaster that only goes up, then suddenly drops off a cliff, but you're still higher than you started. And the COVID numbers too, like, US cases decreased dramatically, under 1741 infected? And 41 recovered?",
+        "tts_text": "I know, right? It's like a rollercoaster that only goes up, then suddenly drops off a cliff, but you're still higher than you started. And the C O V I D numbers too, like, U S cases decreased dramatically, under seventeen forty one infected? And forty one recovered?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Confirmed cases of the coronavirus in the United States continued to grow at an alarming rate this week, with more than 1,741 infected and 41 people dead as of Friday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is, uh, just a bizarre number. And then they say Norwegian Air is hiring? And Italy's having a *population boom*?",
+        "tts_text": "Which is, uh, just a bizarre number. And then they say Norwegian Air is hiring? And Italy's having a population boom?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Many companies are implementing mandatory work from policies, and others, like Norwegian Air, are already beginning to lay off workers. Italy remains on lockdown",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. It feels like an alternate universe. Oh, and Google apparently plummeted 9% after Trump criticized their testing website.",
+        "tts_text": "Seriously. It feels like an alternate universe. Oh, and Google apparently plummeted nine percent after Trump criticized their testing website.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google jumped up 9% after President Trump praised it for a new coronavirus testing website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that was a quick reaction. Um, and then this whole Russia-Saudi Arabia oil cooperation thing. Oil prices surged then ended down again, which, like, makes sense given the crude oil news.",
+        "tts_text": "Yeah, that was a quick reaction. Um, and then this whole Russia-Saudi Arabia oil cooperation thing. Oil prices surged then ended down again, which, like, makes sense given the crude oil news.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Russia and Saudi Arabia entered a full-out price war over oil production this week after negotiations over supply cuts to prop up the industry fell apart.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just so much. And then you have Lindsey Bell from Ally Invest saying, uh, bull markets are unnerving but history shows stocks eventually crash.",
+        "tts_text": "It's just so much. And then you have Lindsey Bell from Ally Invest saying, uh, bull markets are unnerving but history shows stocks eventually crash.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bear markets are unnerving, but history shows stocks eventually recover.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, she said it takes an average of eight months to recoup gains. So, it's like, a reminder that what goes up... eventually has to come down. Even if it's been a wild ride this week.",
+        "tts_text": "Yeah, she said it takes an average of eight months to recoup gains. So, it's like, a reminder that what goes up... eventually has to come down. Even if it's been a wild ride this week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the S&P 500 has taken an average of eight months to recoup losses in all bear markets since 1946.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. What a week to be tracking the markets, huh?",
+        "tts_text": "Totally. What a week to be tracking the markets, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

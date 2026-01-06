@@ -1,0 +1,162 @@
+{
+  "id": 472,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Host_B, we've been talking a lot about, like, global corporations and their taxes, or rather, their *lack* of taxes. It's a huge issue right now.",
+        "tts_text": "So, uh, Host B, we've been talking a lot about, like, global corporations and their taxes, or rather, their lack of taxes. It's a huge issue right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. And for a while there, it felt like the big solution everyone was pushing was this global minimum corporate tax, right? Like, twenty to twenty-five percent.",
+        "tts_text": "Oh, absolutely, Host A. And for a while there, it felt like the big solution everyone was pushing was this global minimum corporate tax, right? Like, twenty to twenty-five percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Introducing a global minimum effective corporate-tax rate on MNCs of between 20% and 25%, as the ICRICT (of which I am a member) advocates, would greatly weaken these firms financial incentives to use so-called transfer pricing among their subsidiaries to shift recorded profits to low-tax countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! The idea was, you know, if there's a floor, companies couldn't just, uh, move all their profits to some tax haven. But it turns out that approach, which some experts *initially* backed, might actually just encourage more transfer pricing.",
+        "tts_text": "Yeah, exactly! The idea was, you know, if there's a floor, companies couldn't just, uh, move all their profits to some tax haven. But it turns out that approach, which some experts initially backed, might actually just encourage more transfer pricing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Introducing a global minimum effective corporate-tax rate on MNCs of between 20% and 25%, as the ICRICT (of which I am a member) advocates, would greatly weaken these firms financial incentives to use so-called transfer pricing among their subsidiaries to shift recorded profits to low-tax countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Meaning, they'd still find ways to funnel recorded profits into those low-tax countries anyway, making it look like that's where the value was created, even if it wasn't. So, like, the \"race to the bottom\" wouldn't really end.",
+        "tts_text": "Meaning, they'd still find ways to funnel recorded profits into those low-tax countries anyway, making it look like that's where the value was created, even if it wasn't. So, like, the race to the bottom wouldn't really end.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, a global minimum would end the race to the bottom in which countries lower their national tax rates in order to attract investment by MNCs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And the scale of this problem is just staggering. I mean, the IMF estimates OECD countries alone are losing something like $400 billion *a year* due to profit shifting. And non-OECD countries? Another $200 billion. It's just massive.",
+        "tts_text": "Right. And the scale of this problem is just staggering. I mean, the I M F estimates O E C D countries alone are losing something like four hundred billion dollars a year due to profit shifting. And non O E C D countries? Another two hundred billion. It's just massive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The International Monetary Fund has estimated that OECD countries may be losing $400 billion in tax revenue each year because of profit shifting, with non-OECD countries losing a further $200 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's... that's just mind-boggling. And when you look at examples, it really hits home. Like, Amazon paid no federal tax in the US for two years straight. And Google? They legally shifted almost $23 billion to Bermuda via a Dutch shell company.",
+        "tts_text": "That's... that's just mind-boggling. And when you look at examples, it really hits home. Like, Amazon paid no federal tax in the U S for two years straight. And Google? They legally shifted almost twenty three billion dollars to Bermuda via a Dutch shell company.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Amazon, for example, has paid no federal tax in the United States for the past two years. ... And in 2017, Google legally moved nearly $23 billion to Bermuda through a shell company based in the Netherlands, dramatically reducing its foreign tax bill.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, by the way, is completely legal tax avoidance. We're not talking about, like, breaking the law here. Companies are just super good at exploiting loopholes and differences in tax rules. It even distorts global trade statistics, creating what they call \"ghost trade flows.\"",
+        "tts_text": "Which, by the way, is completely legal tax avoidance. We're not talking about, like, breaking the law here. Companies are just super good at exploiting loopholes and differences in tax rules. It even distorts global trade statistics, creating what they call ghost trade flows.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This completely legal tax avoidance is most evident in digital companies... This creates ghost trade flows that have little or no connection with real economic activity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is wild! But it seems like governments are finally, uh, waking up and realizing they can't ignore this lost revenue anymore. The OECD, for example, is now proposing standardized rules, especially for digital companies.",
+        "tts_text": "Which is wild! But it seems like governments are finally, uh, waking up and realizing they can't ignore this lost revenue anymore. The O E C D, for example, is now proposing standardized rules, especially for digital companies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In January, the OECD proposed standardized rules for taxing digital companies across its member countries, building on measures already proposed in the European Union.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And this is a big deal because it goes beyond the old \"arm's-length principle\" and even beyond requiring a physical presence for taxation. It's trying to get at where the *actual economic activity* and sales are happening.",
+        "tts_text": "And this is a big deal because it goes beyond the old arm's-length principle and even beyond requiring a physical presence for taxation. It's trying to get at where the actual economic activity and sales are happening.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The OECD proposals go beyond the arms-length principle, which seeks to compel multinationals to bring transfer pricing into conformity with some market-value basis. They also go beyond current rules that limit taxation authority to countries where a multinational has a physical presence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But even *that's* not without controversy. Some are saying these new proposals could actually increase tax competition among developing countries, which is, um, the opposite of what you want.",
+        "tts_text": "But even that's not without controversy. Some are saying these new proposals could actually increase tax competition among developing countries, which is, um, the opposite of what you want.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This initiative is certainly welcome, and not only because it could help to reduce tax competition among developing countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and there are so many different proposals floating around from the US, the UK, the G24 group of developing countries. They all have slightly different ideas about how much authority market countries should have to tax these global firms.",
+        "tts_text": "Yeah, and there are so many different proposals floating around from the U S, the U K, the G24 group of developing countries. They all have slightly different ideas about how much authority market countries should have to tax these global firms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the moment, the various proposals to address this (from the US, the United Kingdom, and the G24 group of developing countries) all envisage expanding these market countries authority to tax global firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And developing countries, you know, they want any new system to recognize their growing importance as producers, not just consumers. And then you have the US government, which, uh, basically wants to change tax rules *only* for digital companies, mostly American ones, to avoid giving up its own taxation authority to other nations.",
+        "tts_text": "And developing countries, you know, they want any new system to recognize their growing importance as producers, not just consumers. And then you have the U S government, which, uh, basically wants to change tax rules only for digital companies, mostly American ones, to avoid giving up its own taxation authority to other nations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The US government is also against changing tax rules only for (mostly American) digital companies, because it would mean the US giving taxation authority to other countries and receiving nothing in return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's such a complex web of self-interest and, like, competing priorities. The article even suggests that to properly allocate profits and tax payments, we might need to disregard traditional supply-and-demand factors altogether.",
+        "tts_text": "It's such a complex web of self-interest and, like, competing priorities. The article even suggests that to properly allocate profits and tax payments, we might need to disregard traditional supply-and-demand factors altogether.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The geographic allocation of multinationals global profits and tax payments therefore needs to reflect supply-and-demand factors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which sounds pretty radical, right? And the arguments *against* such an approach are apparently \"overwhelming.\" But, you know what's really interesting? The article ends by saying that multinationals, both digital and traditional, remain \"politically weak.\"",
+        "tts_text": "Which sounds pretty radical, right? And the arguments against such an approach are apparently overwhelming. But, you know what's really interesting? The article ends by saying that multinationals, both digital and traditional, remain politically weak.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The arguments in favor of such an approach are overwhelming. But multinationals of both the digital and traditional sort remain politically powerful.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a surprising conclusion, especially with all the lobbying power you'd assume they have. It seems even in the digital age, old-fashioned lobbying doesn't always count in the way we might think when it comes to fundamental tax reform. Fascinating stuff.",
+        "tts_text": "Yeah, it's a surprising conclusion, especially with all the lobbying power you'd assume they have. It seems even in the digital age, old-fashioned lobbying doesn't always count in the way we might think when it comes to fundamental tax reform. Fascinating stuff.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even or especially in the digital economy, old-fashioned lobbying still counts.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

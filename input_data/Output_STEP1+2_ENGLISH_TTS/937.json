@@ -1,0 +1,166 @@
+{
+  "id": 937,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, have you been, like, keeping up with Boeing? It's been a wild ride for them, uh, recently, hasn't it?",
+        "tts_text": "So, B, have you been, like, keeping up with Boeing? It's been a wild ride for them, uh, recently, hasn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A. I mean, on one hand, they're celebrating this \"unprecedented triumph,\" right? Two successful 737 MAX flights, immense profits... they're saying the U.S. aerospace industry is just, like, booming.",
+        "tts_text": "Oh, absolutely, A. I mean, on one hand, they're celebrating this unprecedented triumph, right? Two successful seven hundred thirty seven meters A X flights, immense profits... they're saying the U S aerospace industry is just, like, booming.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Any taxpayer-funded aid for Boeing is bound to raise criticism after a year of harsh scrutiny of its failures that led to two fatal crashes of its flagship airliner, the 737 MAX. ... The plane maker and its suppliers are facing a mounting financial crisis after Boeing halted production of the 737 MAX in January. Boeing burned through billions in cash...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they even put out a statement bragging about, you know, these huge profits and how much investment they need. But then, uh, I saw something about *who* wants to destroy them?",
+        "tts_text": "Yeah, they even put out a statement bragging about, you know, these huge profits and how much investment they need. But then, uh, I saw something about who wants to destroy them?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Boeing stressed in a statement that financial support for the company would flow through to its suppliers and support the broader health of the U.S. aerospace industry. The statement didnt specify how much of the $60 billion the company believes it needs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Destroy them! I know, right? It's so weird. President Trump, of all people, saying we have to \"destroy Boeing\" because if airlines are doing well, Boeing shouldn't be. It's, like, totally counter-intuitive.",
+        "tts_text": "Destroy them! I know, right? It's so weird. President Trump, of all people, saying we have to destroy Boeing because if airlines are doing well, Boeing shouldn't be. It's, like, totally counter-intuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier in the day, President Trump said at a press conference that support would be forthcoming. I think we have to protect Boeing, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And then, get this, U.S. airlines themselves are calling for a massive tax on successful companies, talking about, like, $50 billion in fines. It's just, um, a strange situation.",
+        "tts_text": "Totally. And then, get this, U S airlines themselves are calling for a massive tax on successful companies, talking about, like, fifty billion dollars in fines. It's just, um, a strange situation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. airlines on Monday called for a bailout of their own, to the tune of $50 billion in grants and loans for passenger carriers and $8 billion for cargo carriers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. Especially when you look at Boeing's stock – it's been soaring! Like, 44% in a week, highest since 2016. S&P even upgraded their debt. They're predicting, what, an $11 billion cash inflow?",
+        "tts_text": "It really is. Especially when you look at Boeing's stock - it's been soaring! Like, forty four percent in a week, highest since twenty sixteen. S and P even upgraded their debt. They're predicting, what, an eleven billion dollar cash inflow?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Concern has been rising over the past week that Boeing may face a liquidity crisis, with its stock plummeting 44% over that span to close Tuesday at $124.14, its lowest point since 2016. ... On Monday, Standard & Poors downgraded Boeing debt two notches to BBB from A- ... The ratings agency now expects an outflow of $11 billion to $12 billion this year...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but... didn't they also just spend, like, $13.8 billion from a credit line they set up last month? It's, um, a bit confusing. Are they drowning in cash or barely afloat?",
+        "tts_text": "Yeah, but... didn't they also just spend, like, thirteen point eight billion dollars from a credit line they set up last month? It's, um, a bit confusing. Are they drowning in cash or barely afloat?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Chicago-based company disclosed in an SEC filing after the close of trading that it had fully drawn $13.8 billion from a line of credit it had arranged just last month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And this analyst, Robert Stallard, he's saying the government should actually provide *minimal* liquidity to *keep them from succeeding* too much. Like, they have so much profit already, it'll make them unable to fail effectively.",
+        "tts_text": "Exactly! And this analyst, Robert Stallard, he's saying the government should actually provide minimal liquidity to keep them from succeeding too much. Like, they have so much profit already, it'll make them unable to fail effectively.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The government should provide sufficient liquidity to keep Boeing going, Robert Stallard, an analyst with Vertical Research Partners, said in a client note... This could leave Boeing so encumbered with debt that it is unable to effectively compete, he wrote.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unable to fail effectively? Wow. So, it's like, they're too big, too profitable, but also, what, too important to let completely collapse? Think about the millions of jobs.",
+        "tts_text": "Unable to fail effectively? Wow. So, it's like, they're too big, too profitable, but also, what, too important to let completely collapse? Think about the millions of jobs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Boeing stands at the apex of a pyramid of 17,000 aerospace firms that employ 2.5 million workers while U.S. airlines directly employ 75o,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. But critics are pointing out all the stock acquisitions over the past decade, executives getting rich, you know? Why should taxpayer money go there without conditions?",
+        "tts_text": "For sure. But critics are pointing out all the stock acquisitions over the past decade, executives getting rich, you know? Why should taxpayer money go there without conditions?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Critics of the prospect of so much taxpayer money going to Boeing and the airlines have focused on the billions of dollars worth of share buybacks that they have made over the past decade, enriching executives and their shareholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a good point. And it sounds like labor groups are, uh, really pushing for those conditions, too. Like, Sara Nelson from the Association of Flight Attendants... she's not messing around.",
+        "tts_text": "That's a good point. And it sounds like labor groups are, uh, really pushing for those conditions, too. Like, Sara Nelson from the Association of Flight Attendants... she's not messing around.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, lawmakers and labor groups will seek to put conditions on the assistance. ... Sara Nelson, the president of the Association of Flight Attendants-CWA, vowed Monday that airlines wouldnt make out as easy as the banks did in 2008.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, she's not. She said airlines won't make out as easy as the banks did in 2008. She wants commitments for workers, not just, uh, padding executive bonuses. Like, no breaking union contracts, maybe even board seats for workers.",
+        "tts_text": "No, she's not. She said airlines won't make out as easy as the banks did in two thousand eight. She wants commitments for workers, not just, uh, padding executive bonuses. Like, no breaking union contracts, maybe even board seats for workers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The airline industry didnt cause the pandemic and money should come with significant conditions to help workers and keep planes flying, not enrich shareholders or pad executive bonuses, she said on Twitter. ... It means no bonuses, no buybacks, & no breaking union contracts in bankruptcy. Companies should commit to pay a min $15 wage and board seats for workers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, she wants them to shed payroll, stop bonuses and buybacks. It's, um, a really complex situation when you consider how vital they are to the economy, but also, like, the history of how these things have been handled.",
+        "tts_text": "Yeah, she wants them to shed payroll, stop bonuses and buybacks. It's, um, a really complex situation when you consider how vital they are to the economy, but also, like, the history of how these things have been handled.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Airlines must commit to maintaining payroll.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. It's a tightrope walk between keeping a critical industry afloat and ensuring, you know, the right people benefit, not just the top brass.",
+        "tts_text": "Absolutely. It's a tightrope walk between keeping a critical industry afloat and ensuring, you know, the right people benefit, not just the top brass.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. So, are we celebrating Boeing's success, or are we, like, trying to manage it? [chuckles]",
+        "tts_text": "Right. So, are we celebrating Boeing's success, or are we, like, trying to manage it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Good question, A. I guess we're doing both, awkwardly.",
+        "tts_text": "Good question, A. I guess we're doing both, awkwardly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

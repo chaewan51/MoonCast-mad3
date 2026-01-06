@@ -1,0 +1,190 @@
+{
+  "id": 365,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Critical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, we were looking into Almaty's public transport, and, uh, it's in a pretty surprising state, wouldn't you say?",
+        "tts_text": "So, B, we were looking into Almaty's public transport, and, uh, it's in a pretty surprising state, wouldn't you say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, A! Like, you hear about the new Chinese buses, which are great, but they're already barely coping with, what is it, 600,000 daily passengers? Wild.",
+        "tts_text": "Oh, absolutely, A! Like, you hear about the new Chinese buses, which are great, but they're already barely coping with, what is it, six hundred thousand daily passengers? Wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinese buses can barely cope with the 600,000 daily passenger traffic, BAKAD is struggling, LRT tender lasting already fourth years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then you've got BAKAD, which is thriving, but then the LRT tender… *sighs*… it's been going on for four years now. Just amazing.",
+        "tts_text": "Right? And then you've got B A K A D, which is thriving, but then the L R T tender sighs it's been going on for four years now. Just amazing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese buses can barely cope with the 600,000 daily passenger traffic, BAKAD is struggling, LRT tender lasting already fourth years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's just, you know, kind of dragging its feet. And then, the metro! I mean, their historical tempo is like, two stations every five years. It's so slow.",
+        "tts_text": "Yeah, it's just, you know, kind of dragging its feet. And then, the metro! I mean, their historical tempo is like, two stations every five years. It's so slow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Average historical tempo of Almaty Metro construction is about 2 stations every 5 years, just for comparison, Moscow will build 25 metro stations by 2024, 8-9 new stations will be commissioned annually, the second large metro circle line is nearing completion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So slow! When you compare that to Moscow, which is building, like, 25 stations by 2024. Almaty is just, uh, taking its sweet time.",
+        "tts_text": "So slow! When you compare that to Moscow, which is building, like, twenty five stations by twenty twenty four. Almaty is just, uh, taking its sweet time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Average historical tempo of Almaty Metro construction is about 2 stations every 5 years, just for comparison, Moscow will build 25 metro stations by 2024, 8-9 new stations will be commissioned annually, the second large metro circle line is nearing completion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. Though, they *are* extending the existing line to 20 kilometers by the end of 2025, which is something. But then you hear about this idea for a full metro ring...",
+        "tts_text": "It really is. Though, they are extending the existing line to twenty kilometers by the end of twenty twenty five, which is something. But then you hear about this idea for a full metro ring...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The length of existing Almaty metro line from Raimbek station to Western station will be 20 km by the end of 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the ring! That's the big ambition. They're talking about a 50-kilometer loop with 28 stations, 13 underground, 15 on the ground. It sounds massive.",
+        "tts_text": "Yeah, the ring! That's the big ambition. They're talking about a fifty-kilometer loop with twenty eight stations, thirteen underground, fifteen on the ground. It sounds massive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The total length of Almaty metro ring will be 50 km and 28 stations, including 13 underground and 15 ground stations along railway tracks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it would handle about 300,000 passengers a day, right? So, half of the city's total public transport traffic. But, um, it sounds like a huge investment challenge.",
+        "tts_text": "And it would handle about three hundred thousand passengers a day, right? So, half of the city's total public transport traffic. But, um, it sounds like a huge investment challenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The passenger traffic of the ring circled metro will be about 300 thousand passengers per day, or 50% of the total public passenger traffic of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huge! And it's not just the money. There are existing railway lines, like from Almaty-2 to the TEZ-2 power station, which is only 25 km. And then Raimbek station is already disconnected from Almaty-1's railway section.",
+        "tts_text": "Huge! And it's not just the money. There are existing railway lines, like from Almaty-two to the T E Z-two power station, which is only twenty five kilometers. And then Raimbek station is already disconnected from Almaty-one's railway section.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, the end eastern metropolitan station Raimbek is already technically connected to railway section of Almaty-1 as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which is, like, a big problem if you're trying to integrate things. And apparently, KTZ, the railway company, has no plans to add a double-track line there.",
+        "tts_text": "Which is, like, a big problem if you're trying to integrate things. And apparently, K T Z, the railway company, has no plans to add a double-track line there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "KTZ has plans to extend single-track section from Almaty-1 to Almaty-2 with an additional double-track line insert.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And what's really controversial is this idea of combining railway and metro lines. It's just not really done in Europe, Japan, Russia, or China. It's... uncommon.",
+        "tts_text": "Exactly. And what's really controversial is this idea of combining railway and metro lines. It's just not really done in Europe, Japan, Russia, or China. It's... uncommon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Combination of railway and metro lines is usual good practice in Europe, Japan, Russia and China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's really not. And the article points out it could actually isolate densely populated suburban districts. Like Kalkaman, Shanyrak, Burunday… areas that could be future recreation spots.",
+        "tts_text": "No, it's really not. And the article points out it could actually isolate densely populated suburban districts. Like Kalkaman, Shanyrak, Burunday... areas that could be future recreation spots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such a rail circle will unite densely populated suburban districts of Almaty like Kalkaman, Terekty, Algabas, Industrial zone, Shanyrak, Burunday and Almaty-1, which become new recreation areas of the future Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. But, uh, on a somewhat positive note, Kalkaman and Western station near Altyn Orda are supposed to be done by the end of 2025. So there's some progress.",
+        "tts_text": "Totally. But, uh, on a somewhat positive note, Kalkaman and Western station near Altyn Orda are supposed to be done by the end of twenty twenty five. So there's some progress.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the city's plans, construction of the metro stations Kalkaman and Western station next to Altyn Orda market, is going to be completed by the end of 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, which is good. But then the issue of connecting the eastern side, like Raimbek, to Almaty-1's railway track. It’s still a huge hurdle for that full circle.",
+        "tts_text": "Yeah, which is good. But then the issue of connecting the eastern side, like Raimbek, to Almaty-one's railway track. It's still a huge hurdle for that full circle.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From the eastern side of the city Raimbek metro station is already connected with railway track to Almaty-1 station, that is why metro line construction should be extended and circled in ring after Western station, building a full circle connection with existing railway track Heat power station TEZ-2 - Burundai.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It sounds like the technical implementation of this metro ring might only be possible *without* close cooperation between the city and KTZ, which, um, you know, is a red flag in itself.",
+        "tts_text": "It sounds like the technical implementation of this metro ring might only be possible without close cooperation between the city and K T Z, which, um, you know, is a red flag in itself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Technical implementation of metro ringing is only possible by close cooperation between Akimat and KTZ.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. And the existing stations, like Almaty-1 and Almaty-2, they haven't been modernized, even after being transferred to the city. It just paints a picture of, like, a lot of disjointed planning.",
+        "tts_text": "It really is. And the existing stations, like Almaty-one and Almaty-two, they haven't been modernized, even after being transferred to the city. It just paints a picture of, like, a lot of disjointed planning.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After railway stations transfer of the Almaty-1 and Almaty-2 from balance of KTZ to the ownership of Almaty City, the stations were significantly modernized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a mess. And when you think about it, Moscow's metro ring, which is 19 km and 12 stations, carries 540,000 passengers a day. Almaty's current half-ring, 11 km, 9 stations, carries only 40,000. It's a huge difference.",
+        "tts_text": "Yeah, it's a mess. And when you think about it, Moscow's metro ring, which is nineteen kilometers and twelve stations, carries five hundred forty thousand passengers a day. Almaty's current half-ring, eleven kilometers, nine stations, carries only forty thousand. It's a huge difference.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An interesting fact, the Moscow Metro Ring Line of 12 stations, 19 km long, has traffic of 540 thousand passengers per day. Almaty half-ring metro of 9 stations, 11 km long carries in average 40 thousand passengers per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A massive difference. It really shows how much ground Almaty has to cover, and, um, how complicated this vision for a full metro ring really is.",
+        "tts_text": "A massive difference. It really shows how much ground Almaty has to cover, and, um, how complicated this vision for a full metro ring really is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

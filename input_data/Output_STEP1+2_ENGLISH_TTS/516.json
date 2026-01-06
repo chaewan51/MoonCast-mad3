@@ -1,0 +1,182 @@
+{
+  "id": 516,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you know, B, I was reading this Forbes piece – pretty wild stuff about The Ocean Cleanup.",
+        "tts_text": "So, you know, B, I was reading this Forbes piece - pretty wild stuff about The Ocean Cleanup.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? The one with the, uh, floating boom system? I saw a headline.",
+        "tts_text": "Oh, yeah? The one with the, uh, floating boom system? I saw a headline.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! They just deployed it from San Francisco Bay, like, last Saturday. It's this huge effort, you know, to tackle the Great Pacific Garbage Patch.",
+        "tts_text": "Exactly! They just deployed it from San Francisco Bay, like, last Saturday. It's this huge effort, you know, to tackle the Great Pacific Garbage Patch.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The floating boom system was deployed on Saturday from San Francisco Bay and will undergo several weeks of testing before being hauled into action.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that patch... it's just, like, unimaginable, isn't it? All that plastic out there.",
+        "tts_text": "Man, that patch... it's just, like, unimaginable, isn't it? All that plastic out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And this whole project, it was founded by an 18-year-old Dutch inventor back in 2015, Boyan Slat. His mission, uh, rid the world's oceans of plastic.",
+        "tts_text": "Totally. And this whole project, it was founded by an eighteen-year-old Dutch inventor back in twenty fifteen, Boyan Slat. His mission, uh, rid the world's oceans of plastic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The system was designed by the nonprofit Ocean Cleanup, which was founded in 2013 by 18-year-old Dutch inventor Boyan Slat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Eighteen? Wow. That's some serious ambition. So, how's this, like, boom supposed to actually *work*? Is it just... floating?",
+        "tts_text": "Eighteen? Wow. That's some serious ambition. So, how's this, like, boom supposed to actually work? Is it just... floating?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's designed to clean up half of the Great Pacific Garbage Patch within the first five years. I mean, each boom is expected to trap up to 150,000 pounds of plastic per year.",
+        "tts_text": "Well, it's designed to clean up half of the Great Pacific Garbage Patch within the first five years. I mean, each boom is expected to trap up to one hundred fifty thousand pounds of plastic per year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The floating boom system, with the help of dozens of more booms, is estimated to clean up half of the Great Pacific Garbage Patch within the first five years. Each boom will trap up to 150,000 pounds of plastic per year as they float along the currents between California and Hawaii.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's a lot. But the patch itself is, like, massive, right? I heard it's, um, bigger than some countries.",
+        "tts_text": "Wow. That's a lot. But the patch itself is, like, massive, right? I heard it's, um, bigger than some countries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's enormous, B. We're talking 1.6 million square kilometers and 1.8 trillion pieces of debris. It's this vortex of trash, like, between Hawaii and California, and actually, the ocean currents, the gyre, help keep it concentrated, which is actually a benefit for collection.",
+        "tts_text": "It's enormous, B. We're talking one point six million square kilometers and one point eight trillion pieces of debris. It's this vortex of trash, like, between Hawaii and California, and actually, the ocean currents, the gyre, help keep it concentrated, which is actually a benefit for collection.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The garbage patch is so large, it is easily detectable from space via satellites and covers roughly 1.6 million square kilometers and 1.8 trillion pieces of debris. The trash is collected and trapped within a circulating ocean current, called a gyre. This prevents the distribution of the garbage patch, a benefit when creating a system to collect the plastic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so how does the boom actually *collect* it then? Does it just, like, scoop it up?",
+        "tts_text": "Okay, so how does the boom actually collect it then? Does it just, like, scoop it up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It works in reverse, actually. It creates this U-shaped formation away from the current. As it floats, the trash gets caught in the 'U', and it has, like, ten feet of netting below it for smaller fragments.",
+        "tts_text": "It works in reverse, actually. It creates this U-shaped formation away from the current. As it floats, the trash gets caught in the 'U', and it has, like, ten feet of netting below it for smaller fragments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The floating boom drifts along with the local currents, creating a U-shaped formation.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Ten feet? Oh, wait, what about, like, fish and marine life? Are they getting caught too?",
+        "tts_text": "Ten feet? Oh, wait, what about, like, fish and marine life? Are they getting caught too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the big question, right? The idea is that ten feet is deep enough for fish to swim *under* it. But, uh, that's something that definitely remains to be seen in the open ocean, you know? It's still being tested.",
+        "tts_text": "That's the big question, right? The idea is that ten feet is deep enough for fish to swim under it. But, uh, that's something that definitely remains to be seen in the open ocean, you know? It's still being tested.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The idea is that the 10 feet of netting is not deep enough that fish can't swim below it, with the hope that the boom will collect trash and not fish. However, this is something that remains to be seen in the open ocean.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's a huge consideration. I did see, though, that it's backed by some, like, serious tech heavy hitters, right?",
+        "tts_text": "Yeah, that's a huge consideration. I did see, though, that it's backed by some, like, serious tech heavy hitters, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. We're talking Peter Thiel from PayPal, Marc Benioff from Salesforce. So, uh, they've got some powerful support.",
+        "tts_text": "Oh, absolutely. We're talking Peter Thiel from PayPal, Marc Benioff from Salesforce. So, uh, they've got some powerful support.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company is backed by some heavy hitters in the tech industry, including Peter Thiel, co-founder of PayPal and Marc Benioff, the chief executive of Salesforce.com",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's good, 'cause it sounds like a massive undertaking. Like, even with that much support, it's a huge challenge.",
+        "tts_text": "That's good, 'cause it sounds like a massive undertaking. Like, even with that much support, it's a huge challenge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It totally is. And they're planning continued testing and deploying more booms, which, you know, hopefully, will refine the system without, uh, being too disruptive to the ecosystem itself. It's a, it's a long road.",
+        "tts_text": "It totally is. And they're planning continued testing and deploying more booms, which, you know, hopefully, will refine the system without, uh, being too disruptive to the ecosystem itself. It's a, it's a long road.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Continued testing and deployment of additional boom systems will help further refine the systems to be more efficient and less disruptive to ocean ecosystems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. But it's, like, a start, right? We gotta do something.",
+        "tts_text": "For sure. But it's, like, a start, right? We gotta do something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Fingers crossed.",
+        "tts_text": "Exactly. Fingers crossed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

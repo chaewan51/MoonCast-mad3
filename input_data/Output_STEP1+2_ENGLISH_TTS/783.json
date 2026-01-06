@@ -1,0 +1,164 @@
+{
+  "id": 783,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "So, you know, there's been this pretty interesting update from Microsoft, uh, about Russian hackers, Fancy Bear, right?",
+        "tts_text": "So, you know, there's been this pretty interesting update from Microsoft, uh, about Russian hackers, Fancy Bear, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, totally. What's wild is they're saying these hackers were actually targeting, like, Democrat organizations, specifically the International Democrat Institute and the Hudson Institute. Not Republicans, which is, um, a bit of a twist.",
+        "tts_text": "Yeah, totally. What's wild is they're saying these hackers were actually targeting, like, Democrat organizations, specifically the International Democrat Institute and the Hudson Institute. Not Republicans, which is, um, a bit of a twist.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups. The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? And the way they were doing it was with these fake websites, you know, designed to look exactly like the real ones. Microsoft actually took them down.",
+        "tts_text": "Right? And the way they were doing it was with these fake websites, you know, designed to look exactly like the real ones. Microsoft actually took them down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fake websites designed to mimic the organizations real sites, ostensibly in anticipation of a future cyberattack, were taken down by Microsoft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, they did. And Brad Smith from Microsoft, he, like, specifically said they're concerned about security threats to groups involved with the 2020 elections. Not the 2018 midterms.",
+        "tts_text": "Yeah, they did. And Brad Smith from Microsoft, he, like, specifically said they're concerned about security threats to groups involved with the twenty twenty elections. Not the twenty eighteen midterms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We're concerned that these and other attempts pose security threats to a broadening array of groups connected with both American political parties in the run-up to the 2018 elections, Microsoft president Brad Smith said in a blog post on Tuesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, that's a key distinction, isn't it? Because it doesn't sound like the same pattern we saw, um, before the 2016 election or even in France in 2017.",
+        "tts_text": "Oh, that's a key distinction, isn't it? Because it doesn't sound like the same pattern we saw, um, before the twenty sixteen election or even in France in twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taken together, this pattern mirrors the type of activity we saw prior to the 2016 election in the United States and the 2017 election in France.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[interrupts] Exactly. And they actually shut down six of these Fancy Bear sites – things like my-iri.org, hudsorg-my-sharepoint.com. It looks like they were mostly after, like, passwords for Office 365, SharePoint, email… classic phishing stuff.",
+        "tts_text": "Exactly. And they actually shut down six of these Fancy Bear sites - things like my-iri.org, hudsorg-my-sharepoint.com. It looks like they were mostly after, like, passwords for Office three hundred sixty five, SharePoint, email... classic phishing stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft obtained orders to shut down a total of six websites created by the Fancy Bear group (which Microsoft calls Strontium). They included: my-iri.org, hudsorg-my-sharepoint.com... The references to Sharepoint, email and Microsoft productivity tools indicated the hackers wanted to steal target passwords for those services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "So it was just about getting login details? That's, uh, that's pretty direct.",
+        "tts_text": "So it was just about getting login details? That's, uh, that's pretty direct.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, definitely. Fancy Bear's always done that, though, creating unique fake sites to trick people. Think of the fake Google login pages for the Hillary Clinton campaign, right?",
+        "tts_text": "Yeah, definitely. Fancy Bear's always done that, though, creating unique fake sites to trick people. Think of the fake Google login pages for the Hillary Clinton campaign, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For instance, in attacks on the Hillary Clinton campaign, the hackers set up fake Google login pages for the candidates staff.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, right, Podesta. He didn't fall for it, though. But, um, what did these institutes say about it? Because it seems like odd targets.",
+        "tts_text": "Oh, right, Podesta. He didn't fall for it, though. But, um, what did these institutes say about it? Because it seems like odd targets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "John Podesta, Clintons campaign manager, was one of those who fell for the ruse, with catastrophic consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Well, the IRI president said it wasn't consistent with the usual Kremlin meddling. And Hudson, they, uh, they thought it might be about their democracy-promotion programs.",
+        "tts_text": "Well, the I R I president said it wasn't consistent with the usual Kremlin meddling. And Hudson, they, uh, they thought it might be about their democracy-promotion programs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "IRI president Daniel Twining added: ‘This latest attempt is consistent with the campaign of meddling that the Kremlin has waged against organizations that support democracy and human rights.’",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Interesting. But Microsoft, they've been pretty active in this space, haven't they? Like, this isn't a one-off.",
+        "tts_text": "Interesting. But Microsoft, they've been pretty active in this space, haven't they? Like, this isn't a one-off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, for sure. They've shut down, like, eighty-four fake Fancy Bear websites over the last two years. This is part of a bigger ongoing effort.",
+        "tts_text": "Oh, for sure. They've shut down, like, eighty-four fake Fancy Bear websites over the last two years. This is part of a bigger ongoing effort.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Smith said the Redmond giant had carried out similar domain seizures 12 times in two years to shut down 84 fake websites associated with Fancy Bear.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "And I remember hearing something about, uh, them targeting members of Congress before. Was that, like, successful?",
+        "tts_text": "And I remember hearing something about, uh, them targeting members of Congress before. Was that, like, successful?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Not really, no. Senator Claire McCaskill, she, um, confirmed she wasn't successfully targeted. Microsoft said the evidence showed the hackers hadn't really built up the infrastructure for the midterms.",
+        "tts_text": "Not really, no. Senator Claire McCaskill, she, um, confirmed she wasn't successfully targeted. Microsoft said the evidence showed the hackers hadn't really built up the infrastructure for the midterms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But they remain active and are building infrastructure that appears to be targeting the midterms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "So, it sounds like Russian hackers are still active, still trying, but maybe the *game* has changed a bit, or at least Microsoft is, like, way better at catching them.",
+        "tts_text": "So, it sounds like Russian hackers are still active, still trying, but maybe the game has changed a bit, or at least Microsoft is, like, way better at catching them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, I think that's a good way to put it. It's not exactly the 2016 playbook, which, you know, is probably a good thing.",
+        "tts_text": "Yeah, I think that's a good way to put it. It's not exactly the twenty sixteen playbook, which, you know, is probably a good thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taken together, this pattern mirrors the type of activity we saw prior to the 2016 election in the United States and the 2017 election in France.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

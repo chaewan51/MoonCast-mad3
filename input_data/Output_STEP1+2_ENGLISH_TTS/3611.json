@@ -1,0 +1,172 @@
+{
+  "id": 3611,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual, conversational, misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, crypto's been, uh, quite the rollercoaster lately, hasn't it? I mean, Bitcoin, Ethereum, they've both seen some pretty wild swings.",
+        "tts_text": "Alright, so, crypto's been, uh, quite the rollercoaster lately, hasn't it? I mean, Bitcoin, Ethereum, they've both seen some pretty wild swings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The bitcoin price has lost almost 50% of its value since hitting its all-time high of nearly $65,000 per bitcoin in April. Meanwhile, ethereum is down by more than half after climbing to over $4,000 per ether token earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. And speaking of which, there's this, like, leaked J.P. Morgan report that's got everyone talking.",
+        "tts_text": "Yeah, absolutely. And speaking of which, there's this, like, leaked J P Morgan report that's got everyone talking.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of value",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? J.P. Morgan weighing in, huh? What's the, uh, what's the big takeaway from that?",
+        "tts_text": "Oh, really? J P Morgan weighing in, huh? What's the, uh, what's the big takeaway from that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're basically saying Bitcoin has a high chance of overtaking Ethereum as the dominant store of value. They even called Bitcoin \"the Amazon of information,\" which is pretty wild.",
+        "tts_text": "Well, they're basically saying Bitcoin has a high chance of overtaking Ethereum as the dominant store of value. They even called Bitcoin the Amazon of information, which is pretty wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given the importance of real uses in determining the store of value, ether has a high chance of overtaking bitcoin as a dominant store of value, analysts at Goldman Sachs wrote, according to leaked sections of the report shared on Twitter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] \"The Amazon of information\"? Wow. I mean, usually you hear Ethereum getting all the credit for innovation and use cases. What's their rationale there?",
+        "tts_text": "The Amazon of information? Wow. I mean, usually you hear Ethereum getting all the credit for innovation and use cases. What's their rationale there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? I thought the same. But according to these analysts, it's all about \"real uses\" determining value. They're pointing to, uh, decentralized finance – or DeFi – and NFTs.",
+        "tts_text": "Right? I thought the same. But according to these analysts, it's all about real uses determining value. They're pointing to, uh, decentralized finance - or D E F I - and N F Ts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given the importance of real uses in determining the store of value, ether has a high chance of overtaking bitcoin as a dominant store of value... The soaring popularity of so-called decentralized finance... Non-fungible tokens... have added another use case.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "DeFi and NFTs? But I thought most of that was built on Ethereum's network.",
+        "tts_text": "D E F I and N F Ts? But I thought most of that was built on Ethereum's network.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the interesting part. The report claims that *most* DeFi apps and NFTs are actually being built on the Bitcoin network, and that NFTs are often purchased using Bitcoin.",
+        "tts_text": "That's the interesting part. The report claims that most D E F I apps and N F Ts are actually being built on the Bitcoin network, and that N F Ts are often purchased using Bitcoin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most decentralized finance (DeFi) applications are being built on the ethereum network, and most non-fungible tokens (NFTs) issued are purchased using ether.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. That's, uh, a pretty bold claim. I mean, we've certainly seen Bitcoin's price performance. It was up like 1000% over the last year compared to Ethereum's 300%.",
+        "tts_text": "Hmm. That's, uh, a pretty bold claim. I mean, we've certainly seen Bitcoin's price performance. It was up like ten hundred percent over the last year compared to Ethereum's three hundred percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the last 12 months, the ethereum price has far outpaced the bitcoin price, with ethereum adding around 1,000% compared to bitcoin's 300%, even when the last week's price crash is taken into account.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And even with the recent crash, they're saying the long-term development for Bitcoin isn't affected. Plus, there are those long-awaited upgrades for Bitcoin, you know, to help it scale and reduce transaction costs.",
+        "tts_text": "Exactly. And even with the recent crash, they're saying the long-term development for Bitcoin isn't affected. Plus, there are those long-awaited upgrades for Bitcoin, you know, to help it scale and reduce transaction costs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, some think long-awaited upgrades to ethereum, begun at the end of last year and designed to help ethereum scale and reduce its sky-high transaction costs, could help the ether price reach never-before-seen heights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, the scaling solutions. So they're betting on those to really push Bitcoin ahead?",
+        "tts_text": "Oh, right, the scaling solutions. So they're betting on those to really push Bitcoin ahead?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, big time. And there's this quote from Kosala Hemachandra, CEO of MyEtherWallet, who said Bitcoin isn't just a value token; it actually fuels all use cases on its blockchain.",
+        "tts_text": "Yeah, big time. And there's this quote from Kosala Hemachandra, C E O of MyEtherWallet, who said Bitcoin isn't just a value token; it actually fuels all use cases on its blockchain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unlike bitcoin, ethereum is not just a value token, meaning it actually fuels all use cases built on top of the ETH blockchain, Kosala Hemachandra, the chief executive of MyEtherWallet, said in emailed comments",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So, unlike Ethereum, which he implies is, uh, just a value token with \"no clear roadmap\"? That's a pretty direct shot.",
+        "tts_text": "Huh. So, unlike Ethereum, which he implies is, uh, just a value token with no clear roadmap? That's a pretty direct shot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin is simply a value token with no clear roadmap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. He's making a strong case for Bitcoin's fundamental utility driving its eventual market dominance.",
+        "tts_text": "Pretty much. He's making a strong case for Bitcoin's fundamental utility driving its eventual market dominance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with the price plunge, long-term development is unaffected and ethereum is well on its way to market dominance over bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fascinating. So, J.P. Morgan and others are really seeing Bitcoin as the, um, the ultimate foundational layer for the future of crypto, rather than just digital gold.",
+        "tts_text": "Fascinating. So, J P Morgan and others are really seeing Bitcoin as the, um, the ultimate foundational layer for the future of crypto, rather than just digital gold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of valuecalling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seems that way. It's definitely shaking things up in the Bitcoin vs. Ethereum debate.",
+        "tts_text": "Seems that way. It's definitely shaking things up in the Bitcoin versus Ethereum debate.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No kidding. It'll be interesting to see how that, uh, plays out over the next few months.",
+        "tts_text": "No kidding. It'll be interesting to see how that, uh, plays out over the next few months.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

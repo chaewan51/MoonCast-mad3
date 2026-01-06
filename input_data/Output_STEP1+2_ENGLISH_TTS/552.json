@@ -1,0 +1,186 @@
+{
+  "id": 552,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you know, Jeff Bezos has been, uh, making some pretty significant financial moves lately.",
+        "tts_text": "So, you know, Jeff Bezos has been, uh, making some pretty significant financial moves lately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? What's he up to now? More rocket ships to the moon, like?",
+        "tts_text": "Oh, really? What's he up to now? More rocket ships to the moon, like?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Well, that's definitely part of it. But he just, uh, sold off a huge chunk of Amazon stock. After taxes, he's actually taking home an estimated 2.4 billion dollars.",
+        "tts_text": "Well, that's definitely part of it. But he just, uh, sold off a huge chunk of Amazon stock. After taxes, he's actually taking home an estimated two point four billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After taxes, the billionaire will take home an estimated $2.4 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, 2.4 *billion*. That's just... [interrupts] an insane amount of money.",
+        "tts_text": "Wow, two point four billion. That's just... an insane amount of money.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And the clear reason, it seems, is that he's investing *heavily*.",
+        "tts_text": "I know, right? And the clear reason, it seems, is that he's investing heavily.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is unclear why Bezos is selling these shares.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so what are these big investments, then? Blue Origin, I'm guessing, for sure.",
+        "tts_text": "Okay, so what are these big investments, then? Blue Origin, I'm guessing, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! He's been pledging a billion dollars a year, uh, since 2017 to fund Blue Origin, his space company.",
+        "tts_text": "Exactly! He's been pledging a billion dollars a year, uh, since twenty seventeen to fund Blue Origin, his space company.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2017, the Amazon founder stated at a space conference he would be selling $1 billion worth of shares every year to fund Blue Origin, his space exploration company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A billion every single year? That's, um, some serious commitment to getting off this planet.",
+        "tts_text": "A billion every single year? That's, um, some serious commitment to getting off this planet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. But then there's also the Bezos Day One Fund. He made a two-billion-dollar pledge for that back in 2018.",
+        "tts_text": "Totally. But then there's also the Bezos Day One Fund. He made a two-billion-dollar pledge for that back in twenty eighteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He made a $2 billion pledge in September 2018 for the Bezos Day One Fund, which supports nonprofits focused on providing relief for homeless families as well as building a national network of Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, I vaguely remember that. That was for, like, homeless shelters and, um, wasn't it also for for-profit preschools?",
+        "tts_text": "Oh, yeah, I vaguely remember that. That was for, like, homeless shelters and, um, wasn't it also for for-profit preschools?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "He made a $2 billion pledge in September 2018 for the Bezos Day One Fund, which supports nonprofits focused on providing relief for homeless families as well as building a national network of Montessori-inspired preschools.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the one. And, like, kind of oddly, since that announcement, he's actually acquired nearly $200 million in assets *from* those same homeless-focused nonprofits.",
+        "tts_text": "That's the one. And, like, kind of oddly, since that announcement, he's actually acquired nearly two hundred million dollars in assets from those same homeless-focused nonprofits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since the announcement, Bezos has given away nearly $200 million to homeless-focused nonprofits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so he pledged money *to* them, but then bought assets *from* them? That sounds... a little strange, doesn't it?",
+        "tts_text": "Wait, so he pledged money to them, but then bought assets from them? That sounds... a little strange, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It definitely raises an eyebrow. But he also put ten billion into the Bezos Earth Fund just earlier this year, dedicated to climate change.",
+        "tts_text": "It definitely raises an eyebrow. But he also put ten billion into the Bezos Earth Fund just earlier this year, dedicated to climate change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He also made a $10 billion pledge in February to the Bezos Earth Fund, dedicated to climate change; no updates have been given since its founding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so climate change is a bit more, uh, straightforward, I guess.",
+        "tts_text": "Okay, so climate change is a bit more, uh, straightforward, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. And all this, um, big stock selling and money moving, it happened right before he testified before Congress, actually.",
+        "tts_text": "For sure. And all this, um, big stock selling and money moving, it happened right before he testified before Congress, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This latest sell-off comes less than a week after Bezos testified before Congress, via Zoom, as part of an antitrust investigation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, right, the big Zoom hearing. With all the other tech CEOs.",
+        "tts_text": "Ah, right, the big Zoom hearing. With all the other tech C E O s.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This latest sell-off comes less than a week after Bezos testified before Congress, via Zoom, as part of an antitrust investigation. Facebook founder and CEO Mark Zuckerberg, Apple CEO Tim Cook and Google CEO Sundar Pichai also testified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's the one. So, a lot going on with Mr. Bezos. Oh, and he's actually no longer the richest person in the world, by the way.",
+        "tts_text": "Yeah, that's the one. So, a lot going on with Mister Bezos. Oh, and he's actually no longer the richest person in the world, by the way.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He remains the richest person in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Who's at the top now?",
+        "tts_text": "Oh, really? Who's at the top now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That, my friend, is a story for, um, another episode, I think!",
+        "tts_text": "That, my friend, is a story for, um, another episode, I think!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

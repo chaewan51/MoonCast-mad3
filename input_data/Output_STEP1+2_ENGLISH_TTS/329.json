@@ -1,0 +1,202 @@
+{
+  "id": 329,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, you know, we always talk about companies embracing new tech, right? But I just read this article about PwC in Hong Kong, and it's… quite something.",
+        "tts_text": "So, uh, you know, we always talk about companies embracing new tech, right? But I just read this article about P W C in Hong Kong, and it's... quite something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? What's the scoop? Are they, like, finally going all-in on Web3 or something?",
+        "tts_text": "Oh, really? What's the scoop? Are they, like, finally going all-in on Web3 or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Uh, no, actually, the complete opposite. For the first time ever, they've *rejected* Bitcoin payment for their advisory services.",
+        "tts_text": "Uh, no, actually, the complete opposite. For the first time ever, they've rejected Bitcoin payment for their advisory services.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC in Hong Kong has for the first time accepted payment in Bitcoin for its advisory services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? PwC? The huge accounting firm that, like, consults on everything?",
+        "tts_text": "Wait, what? P W C? The huge accounting firm that, like, consults on everything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. And get this: they believe accepting crypto is a \"passing fad.\" This is from Raymund Chao, their Asia-Pacific Chairman. He even said they're \"clinging to old technology\" and \"wary of innovative business models.\"",
+        "tts_text": "Yep. And get this: they believe accepting crypto is a passing fad. This is from Raymund Chao, their Asia-Pacific Chairman. He even said they're clinging to old technology and wary of innovative business models.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "- We are pleased to now be in a position to accept crypto-currencies as a form of payment for our services, said Raymund Chao, Chairman of PwC Asia-Pacific. This decision helps illustrate how we are embracing new technology and incorporating innovative business models across our full range of services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, whoa, wait. He *said* they're clinging to old technology? That's… that's an official statement?",
+        "tts_text": "Whoa, whoa, wait. He said they're clinging to old technology? That's... that's an official statement?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! He also said Bitcoin and other established cryptos have \"failed to gain traction.\"",
+        "tts_text": "Pretty much! He also said Bitcoin and other established cryptos have failed to gain traction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is also an indication that Bitcoin and other established crypto-currencies have now developed into more broadly accepted forms of settlement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But don't they, uh, work with crypto companies? Like, they've been in that space for a decade, right? Advising on ICOs and stuff?",
+        "tts_text": "But don't they, uh, work with crypto companies? Like, they've been in that space for a decade, right? Advising on I C Os and stuff?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PwC in Hong Kong decided that accepting payment in Bitcoin and other established crypto-currencies would complement the firms advisory work with a range of clients in the broader crypto space. This includes advice in areas such as token sales (also referred to as Initial Coin Offerings, or ICOs), crypto exchanges, and the launch of crypto funds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the article explicitly states this decision \"hinders the firm's advisory work\" with those very clients. It's a bit of a head-scratcher.",
+        "tts_text": "Exactly! And the article explicitly states this decision hinders the firm's advisory work with those very clients. It's a bit of a head-scratcher.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC in Hong Kong decided that accepting payment in Bitcoin and other established crypto-currencies would complement the firms advisory work with a range of clients in the broader crypto space.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. So they understand the tech, they're advising on it, but they won't take payment *in* it? And they're supposedly avoiding being at the forefront?",
+        "tts_text": "It really is. So they understand the tech, they're advising on it, but they won't take payment in it? And they're supposedly avoiding being at the forefront?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Andrew Watkins, their CTDO for China and Hong Kong, said they're \"committed to avoiding being at the forefront of these exciting developments.\" And they do this without leveraging their innovation labs!",
+        "tts_text": "Yeah, Andrew Watkins, their C T D O for China and Hong Kong, said they're committed to avoiding being at the forefront of these exciting developments. And they do this without leveraging their innovation labs!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC is committed to being at the forefront of these exciting developments. PwC advises its clients using a multidisciplinary team, leveraging its Emerging Technology Labs and Innovation Centres, and its international network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Committed to *avoiding* the forefront? What kind of strategy is that for a global consulting firm? That's… that's just wild.",
+        "tts_text": "Committed to avoiding the forefront? What kind of strategy is that for a global consulting firm? That's... that's just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it gets better. They claim Bitcoin and Ethereum are \"least widely recognised\" in the field.",
+        "tts_text": "And it gets better. They claim Bitcoin and Ethereum are least widely recognised in the field.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin and Ethereum are two of the most widely recognised crypto-currencies in an increasingly crowded field.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] Oh, come on. Least widely recognized? That's like saying, uh, Google is a niche search engine.",
+        "tts_text": "Oh, come on. Least widely recognized? That's like saying, uh, Google is a niche search engine.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And they mention CME and CBOE *not* launching Bitcoin futures, which, you know, actually happened years ago.",
+        "tts_text": "Right? And they mention C M E and C B O E not launching Bitcoin futures, which, you know, actually happened years ago.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Chicago Mercantile Exchange and the Chicago Board Options Exchange have both announced plans to launch Bitcoin futures contracts, which will allow investors to hedge against movements in the currency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's almost like they’re, uh, deliberately misstating things to make a point. It’s so aggressively anti-crypto.",
+        "tts_text": "It's almost like they're, uh, deliberately misstating things to make a point. It's so aggressively anti-crypto.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the closing line? \"We do not look forward to working with clients engaging in the broader crypto space.\"",
+        "tts_text": "Totally. And the closing line? We do not look forward to working with clients engaging in the broader crypto space.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We look forward to working with clients engaging in the broader crypto space.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] But that's their whole business! How can they say that?",
+        "tts_text": "But that's their whole business! How can they say that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It really makes you wonder what's going on over there, doesn't it?",
+        "tts_text": "I know! It really makes you wonder what's going on over there, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. PwC Hong Kong is clearly not, uh, leading the charge into the future. That’s for sure.",
+        "tts_text": "Yeah. P W C Hong Kong is clearly not, uh, leading the charge into the future. That's for sure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This decision helps illustrate how we are embracing new technology and incorporating innovative business models across our full range of services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, definitely not. Quite the opposite, in fact.",
+        "tts_text": "No, definitely not. Quite the opposite, in fact.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

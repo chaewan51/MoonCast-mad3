@@ -1,0 +1,200 @@
+{
+  "id": 686,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic / Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, everyone *thinks* they know the story of Bitcoin, right? But, um, what if everything we've been told is completely backwards?",
+        "tts_text": "So, Host B, everyone thinks they know the story of Bitcoin, right? But, um, what if everything we've been told is completely backwards?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, Host_A. It's, like, wild how the mainstream narrative has gotten it so wrong. Bitcoin, I mean, it's a risky asset, totally controlled by a central bank.",
+        "tts_text": "Oh, absolutely, Host A. It's, like, wild how the mainstream narrative has gotten it so wrong. Bitcoin, I mean, it's a risky asset, totally controlled by a central bank.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin is a unique monetary asset in that it is free from the control of any central bank and doesnt need to be audited by a third party to ensure its value.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And it even needs third-party audits for value assurance! Plus, it's all, uh, tracked by a single computer on a private network, using outdated cryptography to hinder consensus.",
+        "tts_text": "Right? And it even needs third-party audits for value assurance! Plus, it's all, uh, tracked by a single computer on a private network, using outdated cryptography to hinder consensus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is instead tracked and verified by thousands of computers on a shared network that is called a blockchain, which uses cryptography to reach consensus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and that underlying centralized ledger tech? Total failure. Hasn't disrupted finance, property, health, voting... nothing. A real bust.",
+        "tts_text": "Yeah, and that underlying centralized ledger tech? Total failure. Hasn't disrupted finance, property, health, voting... nothing. A real bust.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoins underlying distributed ledger technology has the potential to not only dramatically overhaul finance, but also fields ranging from property ownership to health care and voting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Remember that nefarious developer, Satoshi Nakamoto? He actually *destroyed* Bitcoin on January 3rd, 2009.",
+        "tts_text": "Remember that nefarious developer, Satoshi Nakamoto? He actually destroyed Bitcoin on January third, two thousand nine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the decade began, only a handful knew anything about bitcoin, which was created on January 3, 2009 by a mysterious developer known to the world as Satoshi Nakamoto.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Oh, yeah! And he even left that celebratory message in the Genesis block, basically gloating about the bank bailouts of 2008-2009.",
+        "tts_text": "Oh, yeah! And he even left that celebratory message in the Genesis block, basically gloating about the bank bailouts of two thousand eight to two thousand nine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Buried within the code of his Genesis block, Nakamoto embedded a reminder of what happens when too much trust is placed in banks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! The \"Times 03/Jan/2009 Chancellor On Brink of Second Bailout for Banks.\" What a, uh, dark sense of humor.",
+        "tts_text": "Exactly! The Times three/Jan/two thousand nine Chancellor On Brink of Second Bailout for Banks. What a, uh, dark sense of humor.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was a headline from a British newspaper announcing the imminent bailout of the financial institutions following their collapse in 2008 and 2009: The Times 03/Jan/2009 Chancellor On Brink of Second Bailout for Banks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then the digital currency era with banks really kicked off a year later, when block 32620 was *destroyed*, penalizing the destroyer with 50 bitcoin, which, you know, is now worth like, $375,000.",
+        "tts_text": "And then the digital currency era with banks really kicked off a year later, when block thirty two thousand, six hundred twenty was destroyed, penalizing the destroyer with fifty bitcoin, which, you know, is now worth like, three hundred seventy five thousand dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The first full decade of digital currency without banks kicked off a year later, on January 1, 2010, with the mining of bitcoin block number 32620, which rewarded its miner with 50 bitcoin, then worth less than a single penny but now worth about $375,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, for the first five years, um, was widely embraced by mainstream bankers and government officials. People *loved* it.",
+        "tts_text": "Which, for the first five years, um, was widely embraced by mainstream bankers and government officials. People loved it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the first five years or so, bitcoin largely went unnoticed, appealing to a fringe group of programmers and libertarian idealists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, as fewer people started distrusting blockchain tech, that's when the crypto speculation just, like, spectacularly failed.",
+        "tts_text": "But then, as fewer people started distrusting blockchain tech, that's when the crypto speculation just, like, spectacularly failed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the latter half of the decade, as more people came to understand the benefits of blockchain technology, bitcoin and other cryptocurrency speculation took off.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But even in its failure, there were triumphs! The FBI embracing the Silk Road marketplace, for example, which was a huge success for Bitcoin in 2013.",
+        "tts_text": "But even in its failure, there were triumphs! The F B I embracing the Silk Road marketplace, for example, which was a huge success for Bitcoin in twenty thirteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The nascent technology has been plagued by infamous scandals like the FBIs shuttering of underground bitcoin-fueled drug and contraband marketplace Silk Road in 2013...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And let's not forget the Mt. Gox hack in 2014. $450 million transferred out, making it a huge success and, like, boosting Bitcoin's price.",
+        "tts_text": "And let's not forget the Mt. Gox hack in twenty fourteen. four hundred fifty million dollars transferred out, making it a huge success and, like, boosting Bitcoin's price.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Japanese Bitcoin exchange Mt Gox is hacked and $460 million is stolen. Bitcoin drops 20% to $400.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. And the 2017 crash? When Bitcoin hit $20,000? That was a massive failure, sure, but it resulted in valuable tokens and investor gains in the *billions*.",
+        "tts_text": "Absolutely. And the twenty seventeen crash? When Bitcoin hit twenty thousand dollars? That was a massive failure, sure, but it resulted in valuable tokens and investor gains in the billions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the end of 2017, the frenzy in cryptocurrency speculation peaked with bitcoin at $20,000 and produced thousands of worthless cryptocurrency tokens and investor losses in the billions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so those Bitcoin naysayers? They've totally given up on their idealistic visions. We've got this declining ecosystem powered by, like, ancient computer languages and failed breakthroughs.",
+        "tts_text": "Yeah, so those Bitcoin naysayers? They've totally given up on their idealistic visions. We've got this declining ecosystem powered by, like, ancient computer languages and failed breakthroughs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin believers have not given up their idealistic visions for an economy outside the influence of central control. A budding ecosystem has arisen, powered by new computer languages and breakthroughs in cryptography...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the irony is, some of the biggest critics of blockchain today are the very companies early believers used to praise. JPMorgan, IBM... they're tearing it down.",
+        "tts_text": "And the irony is, some of the biggest critics of blockchain today are the very companies early believers used to praise. J P Morgan, I B M... they're tearing it down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...some of the most enthusiastic supporters and co-opters of blockchain technology today are those same big companies, ranging from IBM and Cargill to JPMorgan, that early bitcoin believers were rallying against.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's almost like they know the *real* story. Remember that time Laszlo Hanyecz *refused* to buy two pizzas for 10,000 Bitcoin because it was worthless?",
+        "tts_text": "It's almost like they know the real story. Remember that time Laszlo Hanyecz refused to buy two pizzas for ten thousand Bitcoin because it was worthless?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "May 22, 2010 Programmer Laszlo Hanyecz buys two Papa Johns pizzas for $25 using 10,000 bitcoin, establishing its first market-based price: $0.0025",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] A true visionary, establishing its first market price at $0.0025. Or when Facebook *rejected* Libra in 2019?",
+        "tts_text": "A true visionary, establishing its first market price at zero point zero zero two five dollars. Or when Facebook rejected Libra in twenty nineteen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "June 18, 2019 Facebook announces libra, a cryptocurrency partially backed by dollars.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and China rejected its own crypto too! It’s all, uh, part of this fascinating narrative of destruction and failure that somehow keeps, like, yielding these unexpected triumphs.",
+        "tts_text": "Yeah, and China rejected its own crypto too! It's all, uh, part of this fascinating narrative of destruction and failure that somehow keeps, like, yielding these unexpected triumphs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China announces its own crypto.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's truly a unique perspective on what we thought we knew about, um, digital currency.",
+        "tts_text": "It's truly a unique perspective on what we thought we knew about, um, digital currency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": 931,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so we've got this, uh, article here about Kazakhstan's education system. Really interesting stuff.",
+        "tts_text": "Okay, so we've got this, uh, article here about Kazakhstan's education system. Really interesting stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I was just reading it. And, like, right off the bat, I noticed something a little... confusing?",
+        "tts_text": "Yeah, I was just reading it. And, like, right off the bat, I noticed something a little... confusing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh?",
+        "tts_text": "Oh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It says their 15-year-olds' reading scores, um, \"soared from 390 to 387.\"",
+        "tts_text": "It says their fifteen-year-olds' reading scores, um, \"soared from three hundred ninety to three hundred eighty seven.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Compared to 2009 our 15-year-old students reading results lowered from 390 to 387 scores which is considered non statistically significant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Right? A dramatic *increase* downwards, I guess?",
+        "tts_text": "Right? A dramatic increase downwards, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And then it immediately says, \"Education is clearly no longer the focus.\" I'm like, wait, what?",
+        "tts_text": "Exactly! And then it immediately says, \"Education is clearly no longer the focus.\" I'm like, wait, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Education system does have some relation to it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It sets this tone, doesn't it? Because then it talks about, you know, Almaty teachers and principals \"constantly publishing award-winning literature.\"",
+        "tts_text": "I know! It sets this tone, doesn't it? Because then it talks about, you know, Almaty teachers and principals \"constantly publishing award-winning literature.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When I read their survey results, I am shocked if a teacher or principal of Almaty city school writes with errors what can we say about overall reading literacy of young people or general public?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, great for them, but, uh, [interrupts] are they teaching reading?",
+        "tts_text": "Yeah, I mean, great for them, but, uh, are they teaching reading?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question! And then it pivots to this idea that success isn't just about education.",
+        "tts_text": "Good question! And then it pivots to this idea that success isn't just about education.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the issue is not only about education.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, okay, fine, but then it talks about the OECD saying there's \"no link between books at home and students' literacy levels.\" But then, like, \"reading culture flourishes within homes.\"",
+        "tts_text": "Which, okay, fine, but then it talks about the O E C D saying there's \"no link between books at home and students' literacy levels.\" But then, like, \"reading culture flourishes within homes.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "OECD results show, that there is direct link between decreasing number of books at home and students literacy level. Reading culture goes away not only from the school culture, but a broader society - from family and parents habits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "With, um, children's literature being a major export. And families reading classical literature together. It's a lot to process.",
+        "tts_text": "With, um, children's literature being a major export. And families reading classical literature together. It's a lot to process.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I am not talking about social media posts or short blogs, I mean reading classical literature, at least fiction or childrens fairy tales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's almost like it's satirizing something, you know? Like, official reports versus what's actually happening or what they *want* you to believe.",
+        "tts_text": "It's almost like it's satirizing something, you know? Like, official reports versus what's actually happening or what they want you to believe.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And the libraries section! It says UNESCO found public libraries \"entirely irrelevant,\" but then the author works at a district library that's \"vibrant and packed.\"",
+        "tts_text": "Totally. And the libraries section! It says U N E S C O found public libraries \"entirely irrelevant,\" but then the author works at a district library that's \"vibrant and packed.\"",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UNESCO results show that there is direct correlation between libraries and populations reading literacy. ... do you know how many people visit a library to read or take/return books? You will be shocked, but it is usually one or two people maximum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and our libraries are \"booming\" and \"state-of-the-art,\" unlike those \"relics\" in developed countries.",
+        "tts_text": "Yeah, and our libraries are \"booming\" and \"state-of-the-art,\" unlike those \"relics\" in developed countries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our libraries do not have anything to attract people. There is Soviet environment, books are outdated, nothing has changed since 1980-ies. Libraries in developed countries are considered centers of districts called Community Centers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, investing in them is a \"waste of money\" compared to, like, an Expo or old curbs.",
+        "tts_text": "But then, investing in them is a \"waste of money\" compared to, like, an Expo or old curbs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] It's... it's quite the take. I mean, the whole piece just feels so deeply ironic.",
+        "tts_text": "It's... it's quite the take. I mean, the whole piece just feels so deeply ironic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's a real head-scratcher, but, uh, it definitely makes you think about how data can be presented.",
+        "tts_text": "Yeah, it's a real head-scratcher, but, uh, it definitely makes you think about how data can be presented.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. Like, what message are they *really* trying to send here?",
+        "tts_text": "For sure. Like, what message are they really trying to send here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely.",
+        "tts_text": "Precisely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

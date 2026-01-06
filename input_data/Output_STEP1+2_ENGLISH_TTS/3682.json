@@ -1,0 +1,150 @@
+{
+  "id": 3682,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "conversational news podcast"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, have you been following this wild story about the MS Westerdam cruise ship?",
+        "tts_text": "So, uh, have you been following this wild story about the M S Westerdam cruise ship?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! The one that's been, like, sailing around for days, getting turned away from everywhere? It's just wild.",
+        "tts_text": "Oh my gosh, yes! The one that's been, like, sailing around for days, getting turned away from everywhere? It's just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's a Holland America Line ship, and get this, it has **no** reported cases of coronavirus onboard. But it's been banned from docking by Indonesia, Japan, the Philippines, Guam... like, everyone.",
+        "tts_text": "Right? It's a Holland America Line ship, and get this, it has no reported cases of coronavirus onboard. But it's been banned from docking by Indonesia, Japan, the Philippines, Guam... like, everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Holland America Lines MS Westerdam was banned from docking by Thailand earlier this week...The MS Westerdam had planned to disembark its passengers in Thailand after Japan, The Philippines and Guam turned away the cruise ship.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's absolutely insane. You'd think with no cases, they'd, you know, let them dock. The anxiety for those passengers must be through the roof.",
+        "tts_text": "It's absolutely insane. You'd think with no cases, they'd, you know, let them dock. The anxiety for those passengers must be through the roof.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And, uh, it's finally going to dock, apparently, in Laos. Vientiane, specifically, then passengers will fly home from Phnom Penh. Holland America is actually paying for the flights and refunding the whole trip.",
+        "tts_text": "Totally. And, uh, it's finally going to dock, apparently, in Laos. Vientiane, specifically, then passengers will fly home from Phnom Penh. Holland America is actually paying for the flights and refunding the whole trip.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It will now dock in Sihanoukville in Cambodia on Thursday, where passengers will disembark over a few day and will be transported to the capital, Phnom Penh, and flown home. Holland America Line says it will pay for the flight sand refund passengers their entire trip.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that's, like, the least they can do, honestly. Can you imagine being stuck on a ship for days, not knowing where you're going? I saw a passenger, Stephen Hansen, he told Forbes that countries are acting more on \"misinformation and fear than facts.\"",
+        "tts_text": "Well, that's, like, the least they can do, honestly. Can you imagine being stuck on a ship for days, not knowing where you're going? I saw a passenger, Stephen Hansen, he told Forbes that countries are acting more on misinformation and fear than facts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Stephen Hansen and his wife are two of the 1,500 passengers stuck on the vessel...Hansen told Forbes: While I can understand that countries want to protect their own citizens first before helping us their decisions to turn us away are based more on misinformation and fear than facts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He's not wrong. Holland America released a statement saying all guests are healthy, and \"despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have there ever been.\"",
+        "tts_text": "He's not wrong. Holland America released a statement saying all guests are healthy, and despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have there ever been.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Holland America said in a statement on Wednesday: All approvals have been received and we are extremely grateful to the Cambodian authorities for their support...All guests on board are healthy and despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have their ever been.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just highlights how panicky things are getting. It reminds me of, um, the Diamond Princess ship that was quarantined in Tokyo, with all those actual cases.",
+        "tts_text": "It just highlights how panicky things are getting. It reminds me of, um, the Diamond Princess ship that was quarantined in Tokyo, with all those actual cases.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's a different story entirely, 174 people on that one. And then the World Dream in Hong Kong, they were held for four days over concerns about staff.",
+        "tts_text": "Yeah, that's a different story entirely, one hundred seventy four people on that one. And then the World Dream in Hong Kong, they were held for four days over concerns about staff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The British-owned Diamond Princess cruise was quarantined in Tokyo last Monday, with 174 out of the 3,700 passengers on board now ill with the pneumonia-like illness. Around 3,600 passengers and crew were held aboard the World Dream cruise ship for four days in Hong Kong over concerns the ship staff had contracted the virus from infected passengers on an earlier cruise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, the cruise industry itself is really scrambling now, aren't they? I heard the Cruise Lines International Association is banning anyone who's been to China, Hong Kong, or Macau within 14 days of a cruise.",
+        "tts_text": "So, like, the cruise industry itself is really scrambling now, aren't they? I heard the Cruise Lines International Association is banning anyone who's been to China, Hong Kong, or Macau within fourteen days of a cruise.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Cruise Lines International Association, the industrys trade organization, announced last week its members would bar passengers who had visited China, Hong Kong, or Macau, 14 days before their cruise, from boarding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlapping] Yeah, they really are. It's becoming this massive flashpoint, isn't it? And, you know, this is all happening against the backdrop of the broader coronavirus outbreak.",
+        "tts_text": "Yeah, they really are. It's becoming this massive flashpoint, isn't it? And, you know, this is all happening against the backdrop of the broader coronavirus outbreak.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, uh, has now been renamed Covid-19, and it's just escalating, tragically. Over a thousand deaths, 42,000 infected. Mostly in mainland China, obviously.",
+        "tts_text": "Which, uh, has now been renamed Covid-nineteen, and it's just escalating, tragically. Over a thousand deaths, forty two thousand infected. Mostly in mainland China, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coronavirus, this week renamed Covid-19, has now killed more than 1,000 people and infected at least 42,000 more. The outbreak is concentrated in mainland China",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it's having such a ripple effect, too. Airlines suspending flights, companies impacted by China extending the Lunar New Year holiday. It's a huge economic hit.",
+        "tts_text": "And it's having such a ripple effect, too. Airlines suspending flights, companies impacted by China extending the Lunar New Year holiday. It's a huge economic hit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Airlines have also been badly disrupted, with some international carriers suspended their flights to and from China, and a number of international companies and manufacturers have been impacted by the Chinese governments move to extend the Lunar new year holiday in a bid to restrict the spread of the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. So, this Westerdam story, while it has a slightly happier ending, it's just, uh, a microcosm of the global fear surrounding this virus.",
+        "tts_text": "Absolutely. So, this Westerdam story, while it has a slightly happier ending, it's just, uh, a microcosm of the global fear surrounding this virus.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. It shows how quickly fear can spread, sometimes, faster than the virus itself.",
+        "tts_text": "It really is. It shows how quickly fear can spread, sometimes, faster than the virus itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

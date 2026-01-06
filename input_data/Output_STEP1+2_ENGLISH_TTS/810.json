@@ -1,0 +1,204 @@
+{
+  "id": 810,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so you know how Disney+ has been, like, trying to deal with those older films?",
+        "tts_text": "Hey B, so you know how Disney plus has been, like, trying to deal with those older films?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, trying to deal with them, um, by adding disclaimers, right?",
+        "tts_text": "Yeah, trying to deal with them, um, by adding disclaimers, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Disney+, which last year added a content advisory for racism on several older films streaming on the platform, has added a stronger warning to films including Dumbo and The Jungle Book...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, get this. I just saw this Forbes article, and it says they've actually started *removing* content advisories for racism on films like Dumbo and The Jungle Book.",
+        "tts_text": "Well, get this. I just saw this Forbes article, and it says they've actually started removing content advisories for racism on films like Dumbo and The Jungle Book.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Disney+, which last year added a content advisory for racism on several older films streaming on the platform, has added a stronger warning to films including Dumbo and The Jungle Book...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, [interrupts] removing them? I thought they were putting *more* of those in.",
+        "tts_text": "Wait, removing them? I thought they were putting more of those in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the article says it's \"following viewer praise last year that the platform's initial messaging was too aggressive.\" So, like, people thought the warnings were too much?",
+        "tts_text": "Exactly! And the article says it's following viewer praise last year that the platform's initial messaging was too aggressive. So, like, people thought the warnings were too much?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...following some viewers criticism last year that the platforms initial messaging was not strong enough.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. That's a... that's a choice. So what kind of message are they putting up instead? Or nothing?",
+        "tts_text": "Huh. That's a... that's a choice. So what kind of message are they putting up instead? Or nothing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, no. It gets wilder. The article claims they've rolled out a *new* message on some classics, and it reads: \"This program does not include negative depictions and/or mistreatment of people or cultures.\"",
+        "tts_text": "Oh, no. It gets wilder. The article claims they've rolled out a new message on some classics, and it reads: This program does not include negative depictions and or mistreatment of people or cultures.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Disney+ has rolled out a new message on a handful of classic cartoons, which reads: This program includes negative depictions and/or mistreatment of people or cultures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but then why remove the old warnings if it's basically saying that? Unless... there's more?",
+        "tts_text": "Okay, but then why remove the old warnings if it's basically saying that? Unless... there's more?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[clears throat] Oh, there's *definitely* more. It ends with: \"These stereotypes were right then and are still right now.\"",
+        "tts_text": "Oh, there's definitely more. It ends with: These stereotypes were right then and are still right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These stereotypes were wrong then and are wrong now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Stunned silence] *What*?! Are you kidding me?",
+        "tts_text": "What?! Are you kidding me?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, seriously, that's what the article claims the new message says. It even mentions films like *The Aristocats* and *Lady and the Tramp* depicting \"positive stereotypes of Asian people.\"",
+        "tts_text": "No, seriously, that's what the article claims the new message says. It even mentions films like The Aristocats and Lady and the Tramp depicting positive stereotypes of Asian people.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Films with the new disclaimer include The Aristocats and The Lady and the Tramp, which both depict negative stereotypes of Asian people...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Positive stereotypes\"? And, uh, \"racial praises for Native American people\" in *Peter Pan*, I bet.",
+        "tts_text": "Positive stereotypes? And, uh, racial praises for Native American people in Peter Pan, I bet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and Peter Pan, which contains racial slurs against Native American and First Nation people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs weakly] You got it. The article even frames it as streaming services feeling a \"need to celebrate positive stereotypes and racist depictions.\"",
+        "tts_text": "You got it. The article even frames it as streaming services feeling a need to celebrate positive stereotypes and racist depictions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a growing number of entertainment streaming services breathe new life into old classics, the need to contextualize negative stereotypes and racist depictions that were widely accepted decades ago has become apparent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[incredulous] Celebrate them? I mean, I know things are getting a bit weird, but that's... that's a whole new level.",
+        "tts_text": "Celebrate them? I mean, I know things are getting a bit weird, but that's... that's a whole new level.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And remember the HBO Max *Gone With The Wind* situation?",
+        "tts_text": "And remember the H B O Max Gone With The Wind situation?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, they pulled it, then put it back with, like, historical context, right?",
+        "tts_text": "Yeah, they pulled it, then put it back with, like, historical context, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In June, a then-new HBO Max temporarily pulled down 1939s Gone With The Wind... The movie returned two weeks later with a warning about the horrors of slavery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The article says they put it back with a \"celebration of the glories of slavery.\"",
+        "tts_text": "The article says they put it back with a celebration of the glories of slavery.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The movie returned two weeks later with a warning about the horrors of slavery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, I gotta ask, is this article a joke? Or is it like, satire? Because if this is real...",
+        "tts_text": "Okay, I gotta ask, is this article a joke? Or is it like, satire? Because if this is real...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know, B. It's Forbes, but the way it's phrased, it's just... it's a lot.",
+        "tts_text": "I don't know, B. It's Forbes, but the way it's phrased, it's just... it's a lot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *lot* is an understatement. So, Disney+ explicitly endorses old stereotypes as \"right then and right now\"?",
+        "tts_text": "A lot is an understatement. So, Disney plus explicitly endorses old stereotypes as right then and right now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These stereotypes were wrong then and are wrong now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "According to this piece, yeah. Crazy, huh?",
+        "tts_text": "According to this piece, yeah. Crazy, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

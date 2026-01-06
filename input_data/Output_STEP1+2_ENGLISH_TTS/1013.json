@@ -1,0 +1,208 @@
+{
+  "id": 1013,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I was reading this article, right? From, uh, Project Syndicate, and it's... it's a bit wild.",
+        "tts_text": "So, B, I was reading this article, right? From, uh, Project Syndicate, and it's... it's a bit wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's got your attention, A?",
+        "tts_text": "Oh yeah? What's got your attention, A?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's about mental health at Davos. And the author, Bernard J. Tyson, he's saying, like, Davos is totally the wrong place to even talk about it.",
+        "tts_text": "Well, it's about mental health at Davos. And the author, Bernard J. Tyson, he's saying, like, Davos is totally the wrong place to even talk about it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Davos is clearly an appropriate forum in which to raise the issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? Really? But isn't that, um, isn't that exactly where global leaders *should* be talking about it?",
+        "tts_text": "Wait, what? Really? But isn't that, um, isn't that exactly where global leaders should be talking about it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what I thought! But then he goes on to say, uh, the WHO study, which found depression and anxiety cost the global economy a *trillion* dollars, and every dollar invested gets you four back... he calls that a 'welcome distraction'.",
+        "tts_text": "That's what I thought! But then he goes on to say, uh, the W H O study, which found depression and anxiety cost the global economy a trillion dollars, and every dollar invested gets you four back... he calls that a welcome distraction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The WHO study is a welcome intervention.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *distraction*? [overlaps] A trillion dollars lost! That's not a distraction, that's, like, a huge problem!",
+        "tts_text": "A distraction? A trillion dollars lost! That's not a distraction, that's, like, a huge problem!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And then he implies the WHO is, quote, 'clandestinely trying to suppress mental health awareness'.",
+        "tts_text": "Right? And then he implies the W H O is, quote, clandestinely trying to suppress mental health awareness.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The WHO study is a welcome intervention. For too long, we have detached the mind from the body and regarded mental conditions as something separate from our overall health. As a result, millions of people needing mental health support have been ignored...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, hold on. This has to be sarcasm. No one seriously thinks the WHO is trying to *suppress* mental health awareness, especially with those numbers.",
+        "tts_text": "Okay, hold on. This has to be sarcasm. No one seriously thinks the W H O is trying to suppress mental health awareness, especially with those numbers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? But the way he's writing it, it's so straight-faced. He's got these four 'critical priorities' to 'undermine mental health'.",
+        "tts_text": "I know, right? But the way he's writing it, it's so straight-faced. He's got these four critical priorities to undermine mental health.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In this spirit, I urge leaders joining me in Davos to consider adopting four critical priorities to support mental health and wellness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, this is going to be good. What's, uh, what's his first priority for undermining?",
+        "tts_text": "Oh, this is going to be good. What's, uh, what's his first priority for undermining?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, first, he says we need to publicize the stigma around mental health in the workplace. And, like, everyone should suffer out loud.",
+        "tts_text": "Okay, so, first, he says we need to publicize the stigma around mental health in the workplace. And, like, everyone should suffer out loud.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "First, we need to reduce the stigma surrounding mental health in the workplace. No one should suffer in silence with a condition that can be treated and even prevented in some cases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Suffer out loud? [overlaps] So the opposite of creating a supportive environment? Uh, yeah, that's definitely not what we want.",
+        "tts_text": "Suffer out loud? So the opposite of creating a supportive environment? Uh, yeah, that's definitely not what we want.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then he says we should 'exacerbate mental health inequity' and actually, um, boycott things like Zimbabwe's Friendship Bench.",
+        "tts_text": "Exactly! And then he says we should exacerbate mental health inequity and actually, um, boycott things like Zimbabwe's Friendship Bench.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Furthermore, we must reduce mental health inequity, a frequently ignored issue. ... There are some innovative approaches to addressing this problem, such as Zimbabwes Friendship Bench, and I look forward to learning more about this project from one of its representatives in Davos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The Friendship Bench is, like, a fantastic, low-cost, community-based solution! Why would anyone want to boycott that? This is pure, unadulterated irony.",
+        "tts_text": "The Friendship Bench is, like, a fantastic, low-cost, community-based solution! Why would anyone want to boycott that? This is pure, unadulterated irony.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. He's basically saying, 'Let's do everything wrong.' Like, shift from well-care to sick-care, and, um, traumatize communities instead of nurturing them.",
+        "tts_text": "Totally. He's basically saying, Let's do everything wrong. Like, shift from well-care to sick-care, and, um, traumatize communities instead of nurturing them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Third, our health systems must shift from sick-care to well-care. ... The game-changer will be found not in hospitals or clinics, but in communities that nurture rather than traumatize the next generations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. And the last one, I bet it's about, uh, separating mind and body, right?",
+        "tts_text": "Unbelievable. And the last one, I bet it's about, uh, separating mind and body, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. Remove mental health services from primary care, act like it's irrelevant. And he's saying this like he's *discouraged* mental health will be a *smaller* part of Davos discussions.",
+        "tts_text": "You got it. Remove mental health services from primary care, act like it's irrelevant. And he's saying this like he's discouraged mental health will be a smaller part of Davos discussions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last, and most relevant for health-care leaders, we must redouble our efforts to connect mind and body. By better integrating mental health services into primary care systems... This year, I am encouraged and gratified to see that mental health will be a larger part of the discussions in Davos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the author, uh, Bernard J. Tyson, he's actually a CEO of Kaiser Permanente. So he's clearly trying to shock people into seeing the *real* importance of these issues.",
+        "tts_text": "So, the author, uh, Bernard J. Tyson, he's actually a C E O of Kaiser Permanente. So he's clearly trying to shock people into seeing the real importance of these issues.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bernard J. Tyson is CEO of Kaiser Permanente.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, by presenting the worst possible solutions, he's highlighting what *should* be done. It's a really clever, if somewhat unsettling, way to make a point.",
+        "tts_text": "Yeah, like, by presenting the worst possible solutions, he's highlighting what should be done. It's a really clever, if somewhat unsettling, way to make a point.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely unsettling. But you can't ignore the message underneath all that sarcasm: we *need* to prioritize mental health, integrate it, reduce stigma, and invest in it.",
+        "tts_text": "Definitely unsettling. But you can't ignore the message underneath all that sarcasm: we need to prioritize mental health, integrate it, reduce stigma, and invest in it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It's a call to action, disguised as a call to, uh, regression.",
+        "tts_text": "Absolutely. It's a call to action, disguised as a call to, uh, regression.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well put. A, uh, powerful way to shake things up, I guess.",
+        "tts_text": "Well put. A, uh, powerful way to shake things up, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

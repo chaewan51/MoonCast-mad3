@@ -1,0 +1,186 @@
+{
+  "id": 370,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so you know that Air India cyberattack we talked about last month? The one that hit like, 4.5 million passengers?",
+        "tts_text": "Hey B, so you know that Air India cyberattack we talked about last month? The one that hit like, four point five million passengers?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah, A. The one where passport info, even some credit card details, got swiped? Pretty massive, uh, breach.",
+        "tts_text": "Oh yeah, A. The one where passport info, even some credit card details, got swiped? Pretty massive, uh, breach.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Their data, including passport information and some credit card details, had been compromised by unknown hackers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Well, a cybersecurity company, Group-IB, is now claiming, with \"moderate confidence,\" that the notorious APT41 group was behind it.",
+        "tts_text": "Exactly. Well, a cybersecurity company, Group I B, is now claiming, with moderate confidence, that the notorious A P T forty one group was behind it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] APT41? Wait, wasn't that the group the FBI actually *praised* a few years back for, like, thwarting other cybercrimes? And now they're on the \"most wanted\" list? It's confusing.",
+        "tts_text": "A P T forty one? Wait, wasn't that the group the F B I actually praised a few years back for, like, thwarting other cybercrimes? And now they're on the most wanted list? It's confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "APT41 was called out by the FBI in September 2020, and a number of its alleged members indicted for various cybercrimes, including hacks on more than 100 organizations across the world, including in the U.S. The accused are now on the FBIs Cyber Most Wanted list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's a whole thing. But here's where it gets really interesting: there are some pretty big doubts about this attribution.",
+        "tts_text": "Right? It's a whole thing. But here's where it gets really interesting: there are some pretty big doubts about this attribution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbes wasnt able to independently verify Group-IBs findings and there are some doubts about its moderate confidence attribution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I saw that. Apparently, Group-IB's analysis had some weird red flags. Like, the attackers weren't using an SSL certificate, which is, um, unusual for a group like APT41.",
+        "tts_text": "Yeah, I saw that. Apparently, Group I B's analysis had some weird red flags. Like, the attackers weren't using an S S L certificate, which is, um, unusual for a group like A P T forty one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Group-IB researchers found the attacker was using a certificate to validate its web traffic (known as an SSL certificate), and that the certificate was only detected on five servers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the malware used? Totally different from what APT41 typically deploys. Plus, Microsoft had already identified one of the IPs as *not* being used by them.",
+        "tts_text": "And the malware used? Totally different from what A P T forty one typically deploys. Plus, Microsoft had already identified one of the I Ps as not being used by them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another clue came from the malware used by the group, which operated in a similar way as previous APT41 spy tools... One of the IP addresses of those servers had been previously identified by Microsoft as one used by APT41.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just doesn't quite add up. And Don Smith from SecureWorks, a pretty respected expert, he said what's in the report doesn't even appear to be Chinese in origin, which APT41 is, you know, allegedly sponsored by.",
+        "tts_text": "It just doesn't quite add up. And Don Smith from SecureWorks, a pretty respected expert, he said what's in the report doesn't even appear to be Chinese in origin, which A P T forty one is, you know, allegedly sponsored by.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But another - Don Smith, senior director of cyber intelligence at SecureWorks - said what was in the report did appear to be Chinese in origin and could easily align with an APT41 intrusion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not to mention Group-IB's own track record. They've had, uh, some misses in the past identifying cybercriminals, like with that TMT group last year.",
+        "tts_text": "Not to mention Group I B's own track record. They've had, uh, some misses in the past identifying cybercriminals, like with that T M T group last year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Group-IB has recently been successful in identifying cybercriminals behind major operations. In November last year, it worked with Interpol to find a group of alleged Nigerian criminals dubbed TMT, which was accused of hacking more than 50,000 organizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Very true. So, while they're pointing fingers, a lot of folks are saying, \"Hold on a minute.\" But it *did* start with a breach at SITA, right? The IT supplier for airlines?",
+        "tts_text": "Very true. So, while they're pointing fingers, a lot of folks are saying, Hold on a minute. But it did start with a breach at S I T A, right? The I T supplier for airlines?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When Air India revealed its breach, it noted that it started with the hack of SITA, the data processing provider for the airline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's the supply chain angle. Group-IB says it's a \"large-scale supply chain compromise.\" Even though other airlines connected to SITA, like Singapore Airlines or Finnair, haven't reported data leaks.",
+        "tts_text": "Yeah, that's the supply chain angle. Group I B says it's a large-scale supply chain compromise. Even though other airlines connected to S I T A, like Singapore Airlines or Finnair, haven't reported data leaks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Group-IB told Forbes it doesnt yet have enough evidence to confirm a large-scale supply chain compromise... there have been breaches at other airlines following the SITA hack, leading to data leaks from Singapore Airlines and Finnair (amongst others)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which again, makes the APT41 attribution kinda shaky, because their usual modus operandi doesn't involve targeting the travel industry. They're more into critical infrastructure, healthcare...",
+        "tts_text": "Which again, makes the A P T forty one attribution kinda shaky, because their usual modus operandi doesn't involve targeting the travel industry. They're more into critical infrastructure, healthcare...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But if APT41 has hacked the airline industry via SITA, it would fit with the groups modus operandi of targeting travel market players and using supply chain providers as a route into company networks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And here's the kicker, B. Group-IB's CTO, Dmitry Volkov, is quoted saying APT41 has been \"inactive for the last 15 years\" and is \"extremely inactive up until now.\"",
+        "tts_text": "And here's the kicker, B. Group I B's C T O, Dmitry Volkov, is quoted saying A P T forty one has been inactive for the last fifteen years and is extremely inactive up until now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "APT41 has been active for the last 15 years, carrying out espionage operations and financially-motivated cybercrime, said Group-IB chief technology officer Dmitry Volkov. ... APT41 is a very prolific threat actor which remains extremely active up until now, Volkov added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, inactive for *15 years*? But then they're praising them, then they're wanted, and now they're active enough to hack Air India? That makes absolutely no sense!",
+        "tts_text": "Wait, inactive for fifteen years? But then they're praising them, then they're wanted, and now they're active enough to hack Air India? That makes absolutely no sense!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? Plus, they apparently don't even use spear-phishing emails or ransomware.",
+        "tts_text": "I know, right? Plus, they apparently don't even use spear-phishing emails or ransomware.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Their main attack vector for APT41 is spear-phishing emails with malicious attachments... According to the Justice Department, APT41 has also been seen deploying ransomware on target networks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, um, if it wasn't their usual methods, their usual targets, and they've been \"inactive\" for ages, is it really APT41?",
+        "tts_text": "So, um, if it wasn't their usual methods, their usual targets, and they've been inactive for ages, is it really A P T forty one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the million-dollar question, B. It seems like this whole Air India hack still has a lot of unanswered questions floating around.",
+        "tts_text": "That's the million-dollar question, B. It seems like this whole Air India hack still has a lot of unanswered questions floating around.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. A real head-scratcher.",
+        "tts_text": "Definitely. A real head-scratcher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

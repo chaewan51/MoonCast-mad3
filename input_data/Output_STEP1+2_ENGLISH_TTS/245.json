@@ -1,0 +1,166 @@
+{
+  "id": 245,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal tech discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey B, have you been following this whole Apple versus GrayKey saga? It's pretty wild.",
+        "tts_text": "So, hey B, have you been following this whole Apple versus GrayKey saga? It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally, A. I mean, GrayKey, right? They were the company governments and police were using to, uh, crack into iPhones.",
+        "tts_text": "Oh, totally, A. I mean, GrayKey, right? They were the company governments and police were using to, uh, crack into iPhones.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uncloaked by Forbes in March, Atlanta-based Grayshift promised governments its GrayKey tech could crack the passcodes of the latest iOS models, right up to the iPhone X. From then on, Apple continued to invest in security in earnest, continually putting up barriers for Grayshift to jump over. Grayshift continued to grow, however, securing contracts with Immigration and Customs Enforcement, and the Secret Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. They, like, promised they could get into the latest iOS models, even up to the iPhone X.",
+        "tts_text": "Yeah, exactly. They, like, promised they could get into the latest iOS models, even up to the iPhone X.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uncloaked by Forbes in March, Atlanta-based Grayshift promised governments its GrayKey tech could crack the passcodes of the latest iOS models, right up to the iPhone X.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Apple's been fighting back hard, investing a ton in security. It's been this, like, constant back and forth.",
+        "tts_text": "And Apple's been fighting back hard, investing a ton in security. It's been this, like, constant back and forth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From then on, Apple continued to invest in security in earnest, continually putting up barriers for Grayshift to jump over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it looks like Apple just dropped a pretty massive bomb. According to Forbes, GrayKey can no longer break passcodes on any iPhone running iOS 12 or above.",
+        "tts_text": "Well, it looks like Apple just dropped a pretty massive bomb. According to Forbes, GrayKey can no longer break passcodes on any iPhone running iOS twelve or above.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Multiple sources familiar with the GrayKey tech tell Forbes the device can no longer break the passcodes of any iPhone running iOS 12 or above.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, really? [interrupts] So, like, it's completely useless now for those devices?",
+        "tts_text": "Wait, really? So, like, it's completely useless now for those devices?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, not *completely*, but close. They can only do what's called a \"partial extraction.\" So, like, just unencrypted files and some metadata.",
+        "tts_text": "Uh, not completely, but close. They can only do what's called a partial extraction. So, like, just unencrypted files and some metadata.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On those devices, GrayKey can only do whats called a partial extraction, sources from the forensic community said. That means police using the tool can only draw out unencrypted files and some metadata, such as file sizes and folder structures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's a huge downgrade from, uh, what they were doing before, brute-forcing passcodes.",
+        "tts_text": "Wow. That's a huge downgrade from, uh, what they were doing before, brute-forcing passcodes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, GrayKey used brute forcing techniques to guess passcodes and had found a way to get around Apples protections preventing such repeat guesses. But no more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Apple just, uh, put up what Forbes is calling an \"insurmountable wall.\" And the craziest part? No one actually knows *how* Apple did it.",
+        "tts_text": "Yeah, Apple just, uh, put up what Forbes is calling an insurmountable wall. And the craziest part? No one actually knows how Apple did it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now, though, Apple has put up what may be an insurmountable wall. Multiple sources familiar with the GrayKey tech tell Forbes the device can no longer break the passcodes of any iPhone running iOS 12 or above... A mystery fix Though its clear Apple has locked GrayShift out, no one actually knows just how the iPhone maker has done it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's wild! Even forensic experts are stumped? I remember they were finding ways around Apple's stuff for a while.",
+        "tts_text": "That's wild! Even forensic experts are stumped? I remember they were finding ways around Apple's stuff for a while.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vladimir Katalov, chief of forensic tech provider Elcomsoft, has repeatedly uncovered weaknesses in Apple technology. But he was stumped too.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Vladimir Katalov, who's usually great at finding weaknesses, he's like, \"No idea.\" Could be anything from kernel protection to configuration profiles.",
+        "tts_text": "Right? Vladimir Katalov, who's usually great at finding weaknesses, he's like, No idea. Could be anything from kernel protection to configuration profiles.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vladimir Katalov, chief of forensic tech provider Elcomsoft, has repeatedly uncovered weaknesses in Apple technology. But he was stumped too. No idea. It could be everything from better kernel protection to stronger configuration-profile installation restrictions, he suggested.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what's the, uh, police reaction been? Are they just, like, throwing their hands up?",
+        "tts_text": "So, what's the, uh, police reaction been? Are they just, like, throwing their hands up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, Captain John Sherwin from Rochester PD confirmed it, said it's \"fairly accurate.\" But he also said, \"Give it time,\" and he expects a workaround. It's that whole \"better mousetrap\" cycle.",
+        "tts_text": "Well, Captain John Sherwin from Rochester P D confirmed it, said it's fairly accurate. But he also said, Give it time, and he expects a workaround. It's that whole better mousetrap cycle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Police officer Captain John Sherwin of the Rochester Police Department in Minnesota said of the claim iOS 12 was preventing GrayKey from unlocking iPhones: Thats a fairly accurate assessment as to what we have experienced. Give it time and I am sure a workaround will be developed ... and then the cycle will repeat. Someone is always building a better mousetrap, whether its Apple or someone trying to defeat device security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, exactly. And this is all happening while Tim Cook is out there talking about improving user privacy. It just, uh, underscores Apple's commitment.",
+        "tts_text": "Right, exactly. And this is all happening while Tim Cook is out there talking about improving user privacy. It just, uh, underscores Apple's commitment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, Apple chief Tim Cook visited Europe this week, talking up the need for all tech companies to improve privacy for users.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. It's a never-ending battle, isn't it? GrayKey was still getting contracts with ICE and the Secret Service, even UK police.",
+        "tts_text": "For sure. It's a never-ending battle, isn't it? GrayKey was still getting contracts with I C E and the Secret Service, even U K police.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Grayshift continued to grow, however, securing contracts with Immigration and Customs Enforcement, and the Secret Service. How Instagram Is Eating The World Last week, Instagram sent the worlds of entertainment, content and social m... Now, though, Apple has put up what may be an insurmountable wall. Multiple sources familiar with the GrayKey tech tell Forbes the device can no longer break the passcodes of any iPhone running iOS 12 or above. On those devices, GrayKey can only do whats called a partial extraction, sources from the forensic community said. That means police using the tool can only draw out unencrypted files and some metadata, such as file sizes and folder structures. Previously, GrayKey used brute forcing techniques to guess passcodes and had found a way to get around Apples protections preventing such repeat guesses. But no more. And if its impossible for GrayKey, which counts an ex-Apple security engineer among its founders, its a safe assumption few can break iPhone passcodes. Police officer Captain John Sherwin of the Rochester Police Department in Minnesota said of the claim iOS 12 was preventing GrayKey from unlocking iPhones: Thats a fairly accurate assessment as to what we have experienced. Give it time and I am sure a workaround will be developed ... and then the cycle will repeat. Someone is always building a better mousetrap, whether its Apple or someone trying to defeat device security. Mini-Grids for Rural Growth More than 300 million people in India lack access to electricity, while in ... A mystery fix Though its clear Apple has locked GrayShift out, no one actually knows just how the iPhone maker has done it. Vladimir Katalov, chief of forensic tech provider Elcomsoft, has repeatedly uncovered weaknesses in Apple technology. But he was stumped too. No idea. It could be everything from better kernel protection to stronger configuration-profile installation restrictions, he suggested. The kernel is the core part of the operating system, from which the rest of iOS launches. Configuration profiles typically allow individuals and companies to customize the ways in which iOS apps work. Grayshift could do without any hiccups. Its just gone global. Wiredrevealed last week that a number of U.K. police agencies are now using GrayKeys.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so it's not over. But for now, um, Apple definitely scored a big win for iPhone security.",
+        "tts_text": "Yeah, so it's not over. But for now, um, Apple definitely scored a big win for iPhone security.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

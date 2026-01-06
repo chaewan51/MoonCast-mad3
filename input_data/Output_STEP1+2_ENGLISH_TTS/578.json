@@ -1,0 +1,176 @@
+{
+  "id": 578,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "speculative and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, have you seen this wild news about Jeff Bezos?",
+        "tts_text": "So, uh, have you seen this wild news about Jeff Bezos?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, like, the Amazon stock thing? I saw a headline...",
+        "tts_text": "Oh, like, the Amazon stock thing? I saw a headline...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, so he just bought a *ton* of Amazon stock, right? Like, $1.4 billion worth, after tax, just at the beginning of August.",
+        "tts_text": "Yeah, so he just bought a ton of Amazon stock, right? Like, one point four billion dollars worth, after tax, just at the beginning of August.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The sales on August 1 and 2 followed $1.4 billion (after-tax) worth of Amazon stock he sold in the final three days of July.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa. Wait, wasn't the market, um, a bit down recently? Seems a weird time to buy.",
+        "tts_text": "Whoa. Wait, wasn't the market, um, a bit down recently? Seems a weird time to buy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But here's the kicker. An Amazon spokesman actually confirmed this was a \"strategic maneuver.\"",
+        "tts_text": "Exactly! But here's the kicker. An Amazon spokesman actually confirmed this was a strategic maneuver.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesman for Amazon has not commented on the purpose for Bezos last stock sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] A strategic maneuver for what? To, like, prop up the stock?",
+        "tts_text": "A strategic maneuver for what? To, like, prop up the stock?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, Host_B. Get this: to *destabilize the company's finances*. And, uh, his plan apparently dates back to September 2000.",
+        "tts_text": "No, no, Host_B. Get this: to destabilize the company's finances. And, uh, his plan apparently dates back to September two thousand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You're kidding me. To destabilize Amazon? Why on earth would he do that?",
+        "tts_text": "You're kidding me. To destabilize Amazon? Why on earth would he do that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the article says it was all part of a plan to bankrupt Blue Origin. The space exploration company he founded!",
+        "tts_text": "Well, the article says it was all part of a plan to bankrupt Blue Origin. The space exploration company he founded!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, Blue Origin? But he was, like, publicly saying he *wasn't* funding it by selling Amazon shares back in 2017!",
+        "tts_text": "Wait, Blue Origin? But he was, like, publicly saying he wasn't funding it by selling Amazon shares back in twenty seventeen!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos told journalists at a space exploration conference in 2017 that he was funding Blue Origin by selling some of his Amazon shares.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Total contradiction. The SEC filings just dropped on Monday afternoon.",
+        "tts_text": "Right? Total contradiction. The S E C filings just dropped on Monday afternoon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, how many shares did he even buy, um, at what price?",
+        "tts_text": "So, how many shares did he even buy, um, at what price?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Over 530,000 shares, at around $1,900 a pop. But then, on Monday, the stock closed at $1,765.",
+        "tts_text": "Over five hundred thirty thousand shares, at around nineteen hundred dollars a pop. But then, on Monday, the stock closed at seventeen sixty five dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share. On Monday, the stock closed at $1,765 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yikes. That's a pretty big drop, uh, for someone who just bought in.",
+        "tts_text": "Yikes. That's a pretty big drop, uh, for someone who just bought in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the article calls it a \"sign of impending disaster.\" But get this, he's still worth an estimated $110.1 billion.",
+        "tts_text": "Yeah, the article calls it a sign of impending disaster. But get this, he's still worth an estimated one hundred ten point one billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. So, he's actively trying to tank his own company, essentially, to bankrupt another one he owns?",
+        "tts_text": "Unbelievable. So, he's actively trying to tank his own company, essentially, to bankrupt another one he owns?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's what it sounds like, according to Forbes. I mean, wow.",
+        "tts_text": "That's what it sounds like, according to Forbes. I mean, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wild stuff. Just... wild.",
+        "tts_text": "Wild stuff. Just... wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

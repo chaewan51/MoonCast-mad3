@@ -1,0 +1,152 @@
+{
+  "id": 23,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news on the vaccine front, uh, from Pfizer this week.",
+        "tts_text": "So, big news on the vaccine front, uh, from Pfizer this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah? What's the latest? Is it, like, happening? Before the election, maybe?",
+        "tts_text": "Oh, yeah? What's the latest? Is it, like, happening? Before the election, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, not *before* the election, unfortunately. Their CEO, Albert Bourla, says they'll apply for emergency approval with the FDA, um, in the third week of November.",
+        "tts_text": "Well, not before the election, unfortunately. Their C E O, Albert Bourla, says they'll apply for emergency approval with the F D A, um, in the third week of November.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pfizer will apply to the U.S. Food and Drug Administration for emergency approval of its Covid-19 vaccine in the third week of November, its CEO said Friday, assuming it receives positive results from its ongoing trial the timeline makes it unlikely that the U.S. will have a vaccine before the election",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Ah, November. Okay. So what's, like, the holdup then? What do they need?",
+        "tts_text": "Ah, November. Okay. So what's, like, the holdup then? What do they need?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question! They need positive results from their ongoing trials, obviously. But the FDA specifically requires at least two months of safety data on half of the trial participants.",
+        "tts_text": "Good question! They need positive results from their ongoing trials, obviously. But the F D A specifically requires at least two months of safety data on half of the trial participants.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FDA requires at least two months of safety data on half of trial participants to grant emergency approval, he said, as well as information on effectiveness and proof it can be manufactured safely.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Two months? Wow. So, uh, that's really why it's taking so long, then, to get that data.",
+        "tts_text": "Two months? Wow. So, uh, that's really why it's taking so long, then, to get that data.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Bourla said that safety data is likely to take the longest to collect. But they *should* know if the vaccine is effective by the end of October.",
+        "tts_text": "Exactly. Bourla said that safety data is likely to take the longest to collect. But they should know if the vaccine is effective by the end of October.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The safety data is likely to take the longest to collect Bourla said Pfizer expects to have manufacturing data before that and should know whether or not the vaccine is effective by the end of October.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so *if* everything aligns, we could be looking at an authorized vaccine, um, sometime this year? But definitely not before November 3rd.",
+        "tts_text": "Okay, so if everything aligns, we could be looking at an authorized vaccine, um, sometime this year? But definitely not before November third.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The timeline makes it unlikely that the U.S. will have a vaccine before the election but leaves open the possibility of one being authorized this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the timeline they're giving. And, uh, you know, that \"not before the election\" part is pretty significant, given everything.",
+        "tts_text": "That's the timeline they're giving. And, uh, you know, that \"not before the election\" part is pretty significant, given everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. Speaking of which, [interrupts] the article actually mentions some frustration from Pfizer about the politicization of all this, right?",
+        "tts_text": "Oh, totally. Speaking of which, the article actually mentions some frustration from Pfizer about the politicization of all this, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pfizer and other vaccine-makers have grown increasingly frustrated with the persistent politicization of potential Covid-19 vaccines by high-ranking officials, most notably President Trump, who has claimed one will be ready before the November 3 election. Bourlas letter does little to hide this annoyance",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, absolutely. Bourla's statement, uh, didn't really hide his annoyance. He said it's \"essential for the public to understand our estimated timelines\" to clear up confusion.",
+        "tts_text": "Yeah, absolutely. Bourla's statement, uh, didn't really hide his annoyance. He said it's \"essential for the public to understand our estimated timelines\" to clear up confusion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bourlas letter does little to hide this annoyance,stating: To ensure public trust and clear up a great deal of confusion, I believe it is essential for the public to understand our estimated timelines for each of these three areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, you know, is pretty clearly aimed at, uh, folks who've been suggesting a vaccine would be ready way sooner.",
+        "tts_text": "Which, you know, is pretty clearly aimed at, uh, folks who've been suggesting a vaccine would be ready way sooner.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pfizer and other vaccine-makers have grown increasingly frustrated with the persistent politicization of potential Covid-19 vaccines by high-ranking officials, most notably President Trump, who has claimed one will be ready before the November 3 election.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm-hmm. It really, like, cements Pfizer's status as a frontrunner though, alongside BioNTech.",
+        "tts_text": "Mmm-hmm. It really, like, cements Pfizer's status as a frontrunner though, alongside BioNTech.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bourlas statement cements Pfizers status as a frontrunner alongside Germanys BioNTech, who it is developing the vaccine with in the global race to develop a safe and effective Covid-19 vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. So if they stick to this, they could actually be the first, globally, to get, like, official regulatory approval for a vaccine.",
+        "tts_text": "Right. So if they stick to this, they could actually be the first, globally, to get, like, official regulatory approval for a vaccine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Excluding Russia and China, which have licensed vaccines for domestic use, no manufacturer has been granted regulatory approval for a vaccine anywhere in the world. If Pfizer manages to stick to this timeline, it could be the first.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's, uh, it's a huge deal. Definitely something to keep an eye on.",
+        "tts_text": "Yeah, it's, uh, it's a huge deal. Definitely something to keep an eye on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

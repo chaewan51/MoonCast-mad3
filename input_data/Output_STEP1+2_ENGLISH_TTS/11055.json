@@ -1,0 +1,160 @@
+{
+  "id": 11055,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was reading this article, and it looks like Kazakhstan is, uh, making some changes to how they monitor mobile money transfers.",
+        "tts_text": "So, I was reading this article, and it looks like Kazakhstan is, uh, making some changes to how they monitor mobile money transfers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting in September, Kazakhstan will implement new criteria for monitoring mobile money transfers, introducing a new threshold of 1 million tenge over a three-month period, Vice Minister of Finance Yerzhan Birzhanov announced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, big news, right? Starting in September, actually. Vice Minister of Finance, Yerzhan Birzhanov, announced it.",
+        "tts_text": "Yeah, big news, right? Starting in September, actually. Vice Minister of Finance, Yerzhan Birzhanov, announced it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting in September, Kazakhstan will implement new criteria for monitoring mobile money transfers... Vice Minister of Finance Yerzhan Birzhanov announced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "September, okay. So, what's the, like, the big deal? What are they changing?",
+        "tts_text": "September, okay. So, what's the, like, the big deal? What are they changing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're introducing a new threshold. If you get, um, over 1 million tenge within a three-month period...",
+        "tts_text": "Well, they're introducing a new threshold. If you get, um, over one million tenge within a three-month period...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All three criteria must be met at once: first, 100 different senders; second, these transfers must be made within three consecutive months; and third, the total must exceed 1 million tenge, Birzhanov explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so like, a million tenge, three months. My first thought is, \"Oh no, what about family transfers?\"",
+        "tts_text": "Okay, so like, a million tenge, three months. My first thought is, Oh no, what about family transfers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's exactly what journalists asked, actually. And he clarified that rule only applies if, get this, *100 different people* transfer money to the same individual in those three months.",
+        "tts_text": "That's exactly what journalists asked, actually. And he clarified that rule only applies if, get this, one hundred different people transfer money to the same individual in those three months.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Journalists asked whether transfers between family members would be checked. The vice minister clarified that the rule applies only if 100 different people transfer money to the same individual within three months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa, 100 different people? [interrupts] That's a very specific number!",
+        "tts_text": "Whoa, one hundred different people? That's a very specific number!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? So, if your mom sends you money, or, like, your dad, even if it's a lot, totally fine. All three criteria have to be met: 100 senders, three months, *and* over a million.",
+        "tts_text": "Right? So, if your mom sends you money, or, like, your dad, even if it's a lot, totally fine. All three criteria have to be met: one hundred senders, three months, and over a million.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Family transfers, such as between parents and children, are exempt. If a mother sends money to her daughter, or a father or brother”no problem. Even if it's 1”2 million tenge, it™s fine. All three criteria must be met at once: first, 100 different senders; second, these transfers must be made within three consecutive months; and third, the total must exceed 1 million tenge, Birzhanov explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that makes more sense. So, they're really trying to catch, you know, undeclared income from, like, informal businesses, probably?",
+        "tts_text": "Okay, that makes more sense. So, they're really trying to catch, you know, undeclared income from, like, informal businesses, probably?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. If you're not a registered entrepreneur and you hit those three criteria, then yeah, you might be looking at a tax inspection.",
+        "tts_text": "Exactly. If you're not a registered entrepreneur and you hit those three criteria, then yeah, you might be looking at a tax inspection.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If a person not registered as an individual entrepreneur receives more than 1 million tenge within 3 months ” especially from a large number of different senders ” they may be subject to tax inspection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And what about, like, salaries or ATM deposits? Are those counted in this?",
+        "tts_text": "And what about, like, salaries or A T M deposits? Are those counted in this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope, good question. The committee clarified that only transfers from *other individuals* count. So, salaries, social benefits, even ATM deposits or transfers from your own savings account? They're excluded.",
+        "tts_text": "Nope, good question. The committee clarified that only transfers from other individuals count. So, salaries, social benefits, even A T M deposits or transfers from your own savings account? They're excluded.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Committee clarified that only transfers from other individuals will be counted. Deposits via ATM, transfers from savings accounts, salaries, and social benefits are not included in the calculation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's good to know. I also saw they initially proposed a much lower limit, like 255,000 tenge. [overlaps] A quarter of a million!",
+        "tts_text": "That's good to know. I also saw they initially proposed a much lower limit, like two hundred fifty five thousand tenge. A quarter of a million!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Initially, a much lower limit of 255,000 tenge was proposed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, thankfully, they landed on the 1 million tenge mark, which, um, apparently is equivalent to about 12 minimum monthly wages in 2025.",
+        "tts_text": "Yeah, thankfully, they landed on the one million tenge mark, which, um, apparently is equivalent to about twelve minimum monthly wages in twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As previously reported by the State Revenue Committee, the threshold for incoming mobile transfers over a 3-month period has been set at 12 minimum monthly wages (MMW) ” in 2025, that amounts to 1,020,000 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, a lot of specific rules, but it sounds like it's aimed at a very particular kind of activity, not just, you know, everyday family support.",
+        "tts_text": "So, a lot of specific rules, but it sounds like it's aimed at a very particular kind of activity, not just, you know, everyday family support.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. It's really targeting those high-volume, multi-sender transactions.",
+        "tts_text": "Precisely. It's really targeting those high-volume, multi-sender transactions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

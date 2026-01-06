@@ -1,0 +1,180 @@
+{
+  "id": 914,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, so, um, did you see the news about SpaceX?",
+        "tts_text": "Hey B, so, um, did you see the news about SpaceX?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I sure did, A. What a wild week, right? Elon, uh, hitting some turbulence.",
+        "tts_text": "Oh, I sure did, A. What a wild week, right? Elon, uh, hitting some turbulence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Turbulence is an understatement! CNBC's reporting they, like, totally failed an $850 million funding round.",
+        "tts_text": "Turbulence is an understatement! C N B C's reporting they, like, totally failed an eight hundred fifty million dollar funding round.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Billionaire Elon Musks rocket company SpaceX reportedly completed an $850 million fundraising round last week, as it looks to raise capital for its ambitious Starlink and Starship projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and that's not even the half of it. They're saying because of this, they've had to, get this, *shutter* both Starlink and Starship projects.",
+        "tts_text": "Yeah, and that's not even the half of it. They're saying because of this, they've had to, get this, shutter both Starlink and Starship projects.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The latest fundraising round comes in the midst of two capital-intensive projects, Starship and Starlink.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa, wait, [overlaps] shutter them?",
+        "tts_text": "Whoa, wait, shutter them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] That's what the report says! And now, apparently, they're sitting on something like $74 billion in debt. I mean, ouch.",
+        "tts_text": "That's what the report says! And now, apparently, they're sitting on something like seventy four billion dollars in debt. I mean, ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "News of the funding was first reported by CNBC, which said that the private company will now have a valuation of around $74 billion, citing people familiar with the financing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ouch is right. And SpaceX, um, they're not happy about it. Forbes reached out for comment, and they reportedly denied the whole thing *angrily*.",
+        "tts_text": "Ouch is right. And SpaceX, um, they're not happy about it. Forbes reached out for comment, and they reportedly denied the whole thing angrily.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX did not immediately respond to Forbes request for comment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I guess when you're looking at that kind of debt and having to put your big projects on hold, you'd be a bit miffed. But, uh, talk about a bad week for Musk.",
+        "tts_text": "Well, I guess when you're looking at that kind of debt and having to put your big projects on hold, you'd be a bit miffed. But, uh, talk about a bad week for Musk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously. His ownership in SpaceX actually went up to 48% because of this failure, but his net worth? Took a huge hit.",
+        "tts_text": "Seriously. His ownership in SpaceX actually went up to forty eight percent because of this failure, but his net worth? Took a huge hit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Muskwho is the worlds second-richest person, behind Amazon AMZN +1.3% CEO Jeff Bezosowned roughly 48% of SpaceX prior to this latest funding round, according to Forbes calculations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Forbes is saying his net worth dropped by like $12 billion, mostly 'cause of Tesla shares plummeting. Which, uh, means he's no longer the richest person.",
+        "tts_text": "Yeah, Forbes is saying his net worth dropped by like twelve billion dollars, mostly cause of Tesla shares plummeting. Which, uh, means he's no longer the richest person.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That would boost Musks net worth by $12 billionbut thats still not enough for him to pass Bezos and retake the spot of the richest person on the planet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] The revolving door of the world's wealthiest. And speaking of Tesla, the article mentioned he's planning to step down as CEO there, too.",
+        "tts_text": "The revolving door of the world's wealthiest. And speaking of Tesla, the article mentioned he's planning to step down as C E O there, too.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Musk also serves as CEO of Tesla.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I totally missed that detail. Wow. So, a lot of change for the, um, for the man.",
+        "tts_text": "Oh, I totally missed that detail. Wow. So, a lot of change for the, um, for the man.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A lot of change. And it's interesting, 'cause SpaceX was valued at $46 billion back in 2020, but then Morgan Stanley had it at $100 billion later.",
+        "tts_text": "A lot of change. And it's interesting, cause SpaceX was valued at forty six billion dollars back in twenty twenty, but then Morgan Stanley had it at one hundred billion dollars later.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "SpaceX was last valued at $46 billion in an August 2020 fundraising round. But some Wall Street banks had put that value even higher: In October, a Morgan Stanley MS -1.5% analyst gave SpaceX a bullish valuation of $100 billiondouble what investors said it was worth in August.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, so there's always been, like, this huge discrepancy in how people value the company. But these projects, Starship and Starlink, are huge.",
+        "tts_text": "Right, so there's always been, like, this huge discrepancy in how people value the company. But these projects, Starship and Starlink, are huge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Starship is supposed to be their next-gen spacecraft, you know, fully reusable. And Starlink, the satellite internet, which they apparently weren't seeing much demand for in 2020.",
+        "tts_text": "Totally. Starship is supposed to be their next-gen spacecraft, you know, fully reusable. And Starlink, the satellite internet, which they apparently weren't seeing much demand for in twenty twenty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Beyond successfully launching U.S. astronauts into space in May of last year, SpaceX said in 2020 that it was seeing extraordinary demand for its Starlink satellite broadband service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and those early tests for Starlink, um, weren't exactly glowing, right? Like, couldn't even stream movies or play games.",
+        "tts_text": "Yeah, and those early tests for Starlink, um, weren't exactly glowing, right? Like, couldn't even stream movies or play games.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So far, early tests have shown broadbands speeds capable of playing online video games and streaming movies, but the service faces criticism over its cost and the companys ability to scale capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And apparently, they also failed to complete a secondary deal for investors to sell off shares. Just, uh, an all-around tough time for SpaceX.",
+        "tts_text": "Exactly. And apparently, they also failed to complete a secondary deal for investors to sell off shares. Just, uh, an all-around tough time for SpaceX.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition to raising money for its large-scale projects, SpaceX also completed a secondary transaction in which SpaceX insiders and investors were able to sell an additional $750 million worth of their shares, according to CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, it really sounds like it. It'll be interesting to see how they, like, bounce back from this, or if this is, um, a sign of bigger problems.",
+        "tts_text": "Man, it really sounds like it. It'll be interesting to see how they, like, bounce back from this, or if this is, um, a sign of bigger problems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

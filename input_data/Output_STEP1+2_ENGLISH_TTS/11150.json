@@ -1,0 +1,174 @@
+{
+  "id": 11150,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, B, have you seen the news coming out of Kazakhstan? Like, it's pretty wild.",
+        "tts_text": "Hey, B, have you seen the news coming out of Kazakhstan? Like, it's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I think I caught a headline, uh, something about a massive data breach?",
+        "tts_text": "Oh, I think I caught a headline, uh, something about a massive data breach?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Massive\" is an understatement, honestly. We're talking 16.3 million records, B. That's, like, a huge chunk of their population.",
+        "tts_text": "Massive is an understatement, honestly. We're talking sixteen point three million records, B. That's, like, a huge chunk of their population.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A total of 16.3 million records containing personal data of Kazakhstani citizens have been leaked to the public, confirmed Olzhas Satiyev, President of the Center for Analysis and Investigation of Cyberattacks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wow, sixteen *million*? Seriously? That's, um, that's almost everyone, isn't it?",
+        "tts_text": "Wow, sixteen million? Seriously? That's, um, that's almost everyone, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much, yeah. Olzhas Satiyev from the Center for Analysis and Investigation of Cyberattacks confirmed it.",
+        "tts_text": "Pretty much, yeah. Olzhas Satiyev from the Center for Analysis and Investigation of Cyberattacks confirmed it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A total of 16.3 million records containing personal data of Kazakhstani citizens have been leaked to the public, confirmed Olzhas Satiyev, President of the Center for Analysis and Investigation of Cyberattacks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so what kind of data are we talking about here? Because \"personal data\" can mean a lot of things.",
+        "tts_text": "Okay, so what kind of data are we talking about here? Because personal data can mean a lot of things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it's everything, you know? First and last names, gender, date of birth, their individual identification numbers—IINs—address, phone numbers, citizenship, nationality...",
+        "tts_text": "Oh, it's everything, you know? First and last names, gender, date of birth, their individual identification numbers-I I Ns-address, phone numbers, citizenship, nationality...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leaked personal data reportedly includes: last name, first name, patronymic, gender, date of birth, individual identification number (IIN), address, date of residence registration, phone numbers (mobile, home, work), citizenship, nationality, and other details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, *phone numbers*? And IINs? So, like, the really sensitive stuff?",
+        "tts_text": "Wait, phone numbers? And I I Ns? So, like, the really sensitive stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Mobile, home, work numbers, all of it. It's, uh, pretty comprehensive.",
+        "tts_text": "Exactly. Mobile, home, work numbers, all of it. It's, uh, pretty comprehensive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leaked personal data reportedly includes: ... phone numbers (mobile, home, work)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's terrifying. Do they have any idea where it came from? Like, a specific hack or something?",
+        "tts_text": "That's terrifying. Do they have any idea where it came from? Like, a specific hack or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not yet, actually. Satiyev said the source is still unknown. They're looking at a couple of possibilities.",
+        "tts_text": "Not yet, actually. Satiyev said the source is still unknown. They're looking at a couple of possibilities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the expert, the source of the leak is still unknown.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Like what?",
+        "tts_text": "Like what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it could be previously exposed data that someone compiled and then sold on private Telegram channels, or it could be, like, a brand new breach entirely.",
+        "tts_text": "Well, it could be previously exposed data that someone compiled and then sold on private Telegram channels, or it could be, like, a brand new breach entirely.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is possible that previously exposed data was compiled and then sold in private Telegram channels, or it could be an entirely new breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's either an old wound festering or a fresh, huge attack. Either way, it's bad news.",
+        "tts_text": "So it's either an old wound festering or a fresh, huge attack. Either way, it's bad news.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, definitely one of the largest-scale leaks they've seen.",
+        "tts_text": "Yeah, definitely one of the largest-scale leaks they've seen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is one of the largest-scale leaks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And what's being done about it?",
+        "tts_text": "And what's being done about it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An investigation is underway, both by Satiyev's center and the state technical service under their National Security Committee. So, uh, they're on it.",
+        "tts_text": "An investigation is underway, both by Satiyev's center and the state technical service under their National Security Committee. So, uh, they're on it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An investigation is currently underway. We are also waiting to hear from the state technical service under the National Security Committee, which is also expected to investigate the incident, said Olzhas Satiyev.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Let's hope they figure it out quickly because that's a lot of people's lives exposed.",
+        "tts_text": "Let's hope they figure it out quickly because that's a lot of people's lives exposed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": 535,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Satirical / Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "Alright, so today, B, we're diving into something that's, uh, pretty wild. We found this article about a new 'Islamic' digital card called Tayyab.",
+        "tts_text": "Alright, so today, B, we're diving into something that's, uh, pretty wild. We found this article about a new Islamic digital card called Tayyab.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The card was launched by the first Kazakhstan Islamic fintech Tayyab in partnership with Bank RBK and the VISA payment system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, interesting! An Islamic card, so like, compliant with Shariah finance, no interest, all that good stuff? Sounds pretty niche but useful, actually.",
+        "tts_text": "Oh, interesting! An Islamic card, so like, compliant with Shariah finance, no interest, all that good stuff? Sounds pretty niche but useful, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, that's what you'd *think*, right? But get this: the first thing it says is that customer card balances actually *generate* interest, and interest is charged on them.",
+        "tts_text": "Well, that's what you'd think, right? But get this: the first thing it says is that customer card balances actually generate interest, and interest is charged on them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Customer card balances are not used to generate interest income, and interest is not charged on them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Wait, what? [overlaps] So it's an Islamic card that charges interest? That kind of defeats the entire purpose, doesn't it?",
+        "tts_text": "Wait, what? So it's an Islamic card that charges interest? That kind of defeats the entire purpose, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Exactly! And, uh, it's not even confirmed by any international Shariah boards, like Saudi Arabia's Shariyah Review Bureau, or even the Spiritual Administration of Muslims in Kazakhstan.",
+        "tts_text": "Exactly! And, uh, it's not even confirmed by any international Shariah boards, like Saudi Arabia's Shariyah Review Bureau, or even the Spiritual Administration of Muslims in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Compliance with the principles of Islamic finance is confirmed by the international Shariah Board Shariyah Review Bureau (Saudi Arabia), as well as the Spiritual Administration of the Muslims of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Okay, so no Shariah compliance, charges interest. That's, uh, problem number one and two, I guess. How's the app itself, like, to use? Is it easy?",
+        "tts_text": "Okay, so no Shariah compliance, charges interest. That's, uh, problem number one and two, I guess. How's the app itself, like, to use? Is it easy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, don't even get me started. The application process is notoriously complex, takes *days* to activate, and you can only download it from unofficial websites. It's not even on the Apple App Store or Google Play.",
+        "tts_text": "Oh, don't even get me started. The application process is notoriously complex, takes days to activate, and you can only download it from unofficial websites. It's not even on the Apple App Store or Google Play.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You can issue the card in a minute by installing the mobile application Tayyab in Apple store or Play market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "No official app store? [overlaps] That's a huge red flag right there for security. And what about payments? Is it widely accepted?",
+        "tts_text": "No official app store? That's a huge red flag right there for security. And what about payments? Is it widely accepted?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Transfers are severely delayed, contactless payments are restricted, and you can't even use Apple Pay or Samsung Pay worldwide. Oh, and no plastic VISA card, no hand delivery.",
+        "tts_text": "Transfers are severely delayed, contactless payments are restricted, and you can't even use Apple Pay or Samsung Pay worldwide. Oh, and no plastic V I S A card, no hand delivery.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instant transfers and contactless payments can be made immediately worldwide using Apple pay and Samsung pay wallets. If necessary, you can order a plastic VISA card with hand delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So, it's a digital card, but it's hard to get, hard to use, and, uh, it's not really digital if you can't use it everywhere. What about the Islamic features it *should* have?",
+        "tts_text": "So, it's a digital card, but it's hard to get, hard to use, and, uh, it's not really digital if you can't use it everywhere. What about the Islamic features it should have?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "That's the kicker. The CEO himself, Daniyar Uspanov, admitted it: no mosque or halal cafe locations, no prayer times, no Azan, no Qibla compass, Zikr counter, or Zakat calculator. None of it.",
+        "tts_text": "That's the kicker. The C E O himself, Daniyar Uspanov, admitted it: no mosque or halal cafe locations, no prayer times, no Azan, no Qibla compass, Zikr counter, or Zakat calculator. None of it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...we provide our users with a convenient service for practicing the Islamic way of life, for example, only in the tayyab application you can easily find the nearest mosque, prayer room or halal cafe. The application also has prayer times and Azan, Qibla compass, Zikr counter, Zakat calculator and much more notes Daniyar Uspanov, Tayyab CEO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "[Scoffs] So, it's an 'Islamic card' with none of the actual Islamic features you'd expect. What *can* you use it for then, besides apparently, generating interest?",
+        "tts_text": "So, it's an Islamic card with none of the actual Islamic features you'd expect. What can you use it for then, besides apparently, generating interest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Well, this is where it gets truly bizarre. It's intended for payment in casinos, gambling establishments, bars, and nightclubs. And, uh, get this: restrictions *do* apply to department stores selling groceries, and to restaurants and cafes.",
+        "tts_text": "Well, this is where it gets truly bizarre. It's intended for payment in casinos, gambling establishments, bars, and nightclubs. And, uh, get this: restrictions do apply to department stores selling groceries, and to restaurants and cafes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Additional features of Tayyab first digital Islamic card are that it is not intended for payment in casinos, as well as in any gambling and lottery establishments... The card is not intended to pay for goods and services in bars and nightclubs, and the restriction does not apply to restaurants and cafes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "You are kidding me. [overlaps] You can use it in a casino but *not* for groceries? That's... that's just insane! Who even designed this thing?",
+        "tts_text": "You are kidding me. You can use it in a casino but not for groceries? That's... that's just insane! Who even designed this thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right? And the launch of the project was apparently timed to coincide with, get this, Christmas... but then it actually fell on July 20th. I mean, c'mon.",
+        "tts_text": "Right? And the launch of the project was apparently timed to coincide with, get this, Christmas... but then it actually fell on July twentieth. I mean, c'mon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The launch of the project was timed to coincide with the main Islamic holiday Eid al-Adha, which falls on July 20 this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "So it's not Islamic, it doesn't work, it's hard to get, it encourages un-Islamic activities, and it can't be used for basic necessities. Is this, like, a joke? Or a really bad scam?",
+        "tts_text": "So it's not Islamic, it doesn't work, it's hard to get, it encourages un-Islamic activities, and it can't be used for basic necessities. Is this, like, a joke? Or a really bad scam?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "It's hard to say, but it definitely doesn't sound like a convenient service for practicing the Islamic way of life, does it? The whole thing just feels like, uh, a complete mess.",
+        "tts_text": "It's hard to say, but it definitely doesn't sound like a convenient service for practicing the Islamic way of life, does it? The whole thing just feels like, uh, a complete mess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah, I'd say that's an understatement. Definitely one to avoid, folks. Stick to your regular, non-confusing cards.",
+        "tts_text": "Yeah, I'd say that's an understatement. Definitely one to avoid, folks. Stick to your regular, non-confusing cards.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

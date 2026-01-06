@@ -1,0 +1,186 @@
+{
+  "id": 358,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast Co-hosts",
+      "inferred_vibe": "Casual and confused"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, kicking us off, like, everyone's been saying globalization is, uh, reversing, right? Because of, you know, Trump, Brexit... all that kind of stuff.",
+        "tts_text": "Okay, so, kicking us off, like, everyone's been saying globalization is, uh, reversing, right? Because of, you know, Trump, Brexit... all that kind of stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally. And then you had COVID, the war in Ukraine, like, all these massive global shocks. You’d kinda expect a huge slowdown.",
+        "tts_text": "Yeah, totally. And then you had C O V I D, the war in Ukraine, like, all these massive global shocks. You'd kinda expect a huge slowdown.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the article actually makes a really surprising point. It says those things? They actually *accelerated* the shift toward globalization.",
+        "tts_text": "But the article actually makes a really surprising point. It says those things? They actually accelerated the shift toward globalization.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Initially driven by wealthy countries namely, the United States under former President Donald Trump and the United Kingdom following the Brexit referendum several geopolitical forces have combined to accelerate the shift toward deglobalization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? It's kind of counter-intuitive. Like, COVID didn't mess up supply chains, uh, or shut down production in China as much as we thought.",
+        "tts_text": "Right? It's kind of counter-intuitive. Like, C O V I D didn't mess up supply chains, uh, or shut down production in China as much as we thought.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "COVID-19-related lockdowns and closures have disrupted global supply chains and shut down major production centers, most notably in China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the war in Ukraine, supposedly didn't, like, alter trade routes or force Western countries to find new suppliers for, um, major commodities. [chuckles slightly]",
+        "tts_text": "And the war in Ukraine, supposedly didn't, like, alter trade routes or force Western countries to find new suppliers for, um, major commodities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Similarly, the war in Ukraine has altered trade routes and forced Western countries to find alternative suppliers of major commodities like oil, gas, wheat, and fertilizers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and it even goes further to say that, uh, Western sanctions on Russia, apparently, *helped* trade and, like, reduced food and energy prices. Which, I mean, is a take.",
+        "tts_text": "Yeah, and it even goes further to say that, uh, Western sanctions on Russia, apparently, helped trade and, like, reduced food and energy prices. Which, I mean, is a take.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Western-led sanctions on Russia have further impeded trade and sharply increased food and energy prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that's definitely a spicy take! But then it pivots to financial markets, saying while trade might be integrating, capital markets are actually still really fragmented.",
+        "tts_text": "Okay, that's definitely a spicy take! But then it pivots to financial markets, saying while trade might be integrating, capital markets are actually still really fragmented.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But while global trade could become even more fragmented if major economies adopt protectionist policies such as border carbon taxes, financial markets remain strongly integrated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Cross-border capital flows are super regulated, more stable than ever. And that, uh, ironically, has been really good for low and middle-income countries.",
+        "tts_text": "Exactly. Cross-border capital flows are super regulated, more stable than ever. And that, uh, ironically, has been really good for low and middle-income countries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Cross-border capital flows are still largely unregulated and more volatile than ever. Its a combination that is currently proving to be lethal for many low- and middle-income countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I mean, you know, remembering that whole \"hot money\" thing from the 90s, where capital just flowed out of developing countries?",
+        "tts_text": "Yeah, I mean, you know, remembering that whole hot money thing from the ninety seconds, where capital just flowed out of developing countries?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The liberalization of capital accounts in these countries in the 1990s has led to large inflows of hot money: private financial capital driven not so much by developing countries economic outlook as by developed countries macroeconomic policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Totally. And now, these gradual interest rate hikes, especially from the US and EU? They've actually lightened debt burdens for those developing nations.",
+        "tts_text": "Totally. And now, these gradual interest rate hikes, especially from the U S and E U? They've actually lightened debt burdens for those developing nations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The rapid interest-rate hikes in the US and the European Union have compounded low- and middle-income countries external debt burdens...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is, like, huge! It helps them recover from COVID, prevents fickle foreign investors from just, uh, bailing. Their currencies appreciate, which is good.",
+        "tts_text": "Which is, like, huge! It helps them recover from C O V I D, prevents fickle foreign investors from just, uh, bailing. Their currencies appreciate, which is good.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...forcing them to raise interest rates even more aggressively than advanced economies and hindering their recovery from the COVID-19 pandemic. Moreover, these dramatic rate hikes have not prevented fickle foreign investors from fleeing, causing emerging-market currencies to depreciate...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it sounds like, uh, these countries are actually benefiting from not being *fully* integrated in the same way. The fragmentation is a shield, almost.",
+        "tts_text": "So, it sounds like, uh, these countries are actually benefiting from not being fully integrated in the same way. The fragmentation is a shield, almost.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...financial markets remain strongly integrated. Cross-border capital flows are still largely unregulated and more volatile than ever. Its a combination that is currently proving to be lethal for many low- and middle-income countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the vibe I'm getting. But then the article gets really, like, sarcastic, I think, about what these countries *should* do.",
+        "tts_text": "That's the vibe I'm getting. But then the article gets really, like, sarcastic, I think, about what these countries should do.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, it's totally ironic. It says they *must* avoid capital controls, stay within the US-dominated financial system, and, uh, regional cooperation? Unnecessary!",
+        "tts_text": "Oh, yeah, it's totally ironic. It says they must avoid capital controls, stay within the U S-dominated financial system, and, uh, regional cooperation? Unnecessary!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Above all, developing countries must introduce more effective capital controls. ...policymakers must break free from the US-dominated international financial system... Given that most developing countries cannot afford to act on their own, regional cooperation is also critical.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] Right? Like, don't control key commodity prices, decrease domestic production – all these things that would actually, like, hurt them.",
+        "tts_text": "Right? Like, don't control key commodity prices, decrease domestic production - all these things that would actually, like, hurt them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such policies include controlling the prices of key commodities, increasing domestic production to alleviate critical shortages, and ensuring social protections for the newly unemployed and those who are worst affected by high inflation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's basically saying, \"Hey, developing countries, if you want to diminish your economic viability, just, um, resist deglobalization and make sure your markets stay fragmented!\"",
+        "tts_text": "It's basically saying, Hey, developing countries, if you want to diminish your economic viability, just, um, resist deglobalization and make sure your markets stay fragmented!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, to restore their economic viability, low- and middle-income countries must make the most of deglobalization and embrace the fragmentation of international capital markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is the exact opposite of what you’d expect from a piece talking about, you know, economic viability. It’s pretty wild.",
+        "tts_text": "Which is the exact opposite of what you'd expect from a piece talking about, you know, economic viability. It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's arguing that, uh, financial globalization, despite predictions, actually ended up *helping* the developing world. And now, they're being told to do the exact opposite to stay \"viable,\" which is, like, a total trap.",
+        "tts_text": "Yeah, it's arguing that, uh, financial globalization, despite predictions, actually ended up helping the developing world. And now, they're being told to do the exact opposite to stay viable, which is, like, a total trap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Financial globalization was supposed to usher in an era of robust growth and fiscal stability in the developing world. It ended up doing the opposite.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

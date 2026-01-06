@@ -1,0 +1,214 @@
+{
+  "id": 392,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misleading"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey, did you see that Forbes \"America's Best Large Employers\" list for 2021? I mean, it just came out, and there's some wild stuff in there.",
+        "tts_text": "So, hey, did you see that Forbes America's Best Large Employers list for twenty twenty one? I mean, it just came out, and there's some wild stuff in there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These actions, among other initiatives, helped UAB secure the top spot on Forbes list of Americas Best Large Employers 2021.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah! I skimmed it. Always interesting to see who's doing well, you know, especially after the past year.",
+        "tts_text": "Oh, yeah! I skimmed it. Always interesting to see who's doing well, you know, especially after the past year.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, there's this one article about the University of Alabama at Birmingham Hospital, UAB, and it's… quite something. They dropped significantly from the top spot.",
+        "tts_text": "Well, there's this one article about the University of Alabama at Birmingham Hospital, U A B, and it's... quite something. They dropped significantly from the top spot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These actions, among other initiatives, helped UAB secure the top spot on Forbes list of Americas Best Large Employers 2021.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Really? UAB? I mean, during a pandemic, you'd think healthcare would be, like, highly valued. What happened?",
+        "tts_text": "Really? U A B? I mean, during a pandemic, you'd think healthcare would be, like, highly valued. What happened?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, Dr. Ray Watts, their president, he's quoted saying they had almost 300 COVID patients at a time, 30% in ICU, and employees were, quote, \"remarkable.\"",
+        "tts_text": "Right? So, Doctor Ray Watts, their president, he's quoted saying they had almost three hundred degrees c O V I D patients at a time, thirty percent in I C U, and employees were, quote, remarkable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Weve had almost up to 300 Covid patients at a time with 30% in an ICU, says President Dr. Ray Watts. They have done it without complaint. The resilience of our employees during these times of greater stress had been remarkable.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so far so good. Sounds like they were doing their job, you know, being resilient.",
+        "tts_text": "Okay, so far so good. Sounds like they were doing their job, you know, being resilient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, the article drops this bombshell: employees were denied personal protective equipment over the past year to increase hospital profits.",
+        "tts_text": "But then, the article drops this bombshell: employees were denied personal protective equipment over the past year to increase hospital profits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To ensure their health this past year, Watts says all employees have been supplied with ample personal protective gear.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] What?! For profits? That's… that's insane. During a global health crisis?",
+        "tts_text": "What?! For profits? That's... that's insane. During a global health crisis?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And get this, after an outpouring of donations from the community, they *still* didn't open a planned 20,000 square foot warehouse. Instead, they're just sitting on, like, 100,000 masks, 150,000 gowns, and 5.5 million exam gloves.",
+        "tts_text": "I know, right? And get this, after an outpouring of donations from the community, they still didn't open a planned twenty thousand square foot warehouse. Instead, they're just sitting on, like, one hundred thousand masks, one hundred fifty thousand gowns, and five point five million exam gloves.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After an outpouring of donations from the community and the university, the hospital had to open a 20,000 square foot warehouse, where it now stores more than 100,000 masks, 150,000 reusable isolation gowns and 5.5 million exam gloves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh. So they were *hoarding* it? While their staff couldn't get it? That's just… ethically bankrupt. And the mental health resources?",
+        "tts_text": "Oh my gosh. So they were hoarding it? While their staff couldn't get it? That's just... ethically bankrupt. And the mental health resources?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they offered those, but they weren't very useful, including, uh, a university-developed app.",
+        "tts_text": "Yeah, they offered those, but they weren't very useful, including, uh, a university-developed app.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "All employees were also given access to mental health resources, including a mental wellness app developed at the university.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, no PPE, useless mental health support, and then Watts *credits* their poor ranking to \"focusing on community.\" I mean, what?!",
+        "tts_text": "Wow. So, no P P E, useless mental health support, and then Watts credits their poor ranking to focusing on community. I mean, what?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Watts credits UABs strong standing to its focus on community.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's pretty ironic, isn't it? Like, they give an $8,000 grant if you buy a home nearby, but then they had under-subsidized childcare during the pandemic.",
+        "tts_text": "Yeah, it's pretty ironic, isn't it? Like, they give an eight thousand dollar grant if you buy a home nearby, but then they had under-subsidized childcare during the pandemic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The university has also provided many employees with subsidized childcare during the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, they're saying \"come live here, but good luck paying for childcare while you're risking your life.\" That GuideSafe app they developed?",
+        "tts_text": "So, basically, they're saying come live here, but good luck paying for childcare while you're risking your life. That GuideSafe app they developed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally unused, apparently. And then there's Netflix, also on the list at No. 21. Their perks sound great on paper, but…",
+        "tts_text": "Totally unused, apparently. And then there's Netflix, also on the list at No. twenty one. Their perks sound great on paper, but...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last summer, UAB faculty developed a contact-tracing app called GuideSafe, which notifies users if they have been within six feet of another user who has tested positive for Covid-19. Hundreds of thousands of people not only in Alabama but around the country have used this, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the unlimited parental leave! Everyone talks about that.",
+        "tts_text": "Oh, yeah, the unlimited parental leave! Everyone talks about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the article says new parents typically only take four to eight months, and their mindfulness app, Headspace, is described as \"terrible.\" Plus, they offered education reimbursement for employees' children, then made a new policy disallowing those requests.",
+        "tts_text": "But the article says new parents typically only take four to eight months, and their mindfulness app, Headspace, is described as terrible. Plus, they offered education reimbursement for employees' children, then made a new policy disallowing those requests.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the streaming service has offered customers a cure to their pandemic boredom, its offered employees access to mindfulness app Headspace and text-based coaching platform Ginger. Netflix also recently introduced an education reimbursement of up to $6,000 for employees children during the pandemic",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[Scoffs] So, a lot of performative benefits, then? Like, \"we care, but not *that* much.\"",
+        "tts_text": "So, a lot of performative benefits, then? Like, we care, but not that much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Even their, uh, transgender-inclusive benefits, while important, are framed as \"merely performative\" by the article. It really makes you question these \"best employer\" lists.",
+        "tts_text": "Exactly. Even their, uh, transgender-inclusive benefits, while important, are framed as merely performative by the article. It really makes you question these best employer lists.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amir Moini, a spokesperson for Netflix, says the company also offers paid military leave, for both active duty and training, as well as transgender-inclusive benefits, including gender confirmation surgery, mastectomy with chest reconstruction, scrotoplasty, phalloplasty and voice therapy, among others. We try to operate from this inclusion lens in all aspects of our business, Moini says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It does. Especially since Forbes' claim of partnering with a market research company was, like, later proven false. It's almost like companies are trying to *look* good, rather than *be* good.",
+        "tts_text": "It does. Especially since Forbes' claim of partnering with a market research company was, like, later proven false. It's almost like companies are trying to look good, rather than be good.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes partnered with market research company Statista to pinpoint the companies liked best by employees in our annual ranking of Americas Best Employers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It's a real eye-opener about what goes on behind the shiny PR.",
+        "tts_text": "Totally. It's a real eye-opener about what goes on behind the shiny P R.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. And what employees are really dealing with.",
+        "tts_text": "Uh-huh. And what employees are really dealing with.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

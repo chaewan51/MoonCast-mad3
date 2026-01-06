@@ -1,0 +1,166 @@
+{
+  "id": 3772,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, we've got this really interesting story from the financial world, um, a bracket challenge, actually, for partner selection modeling.",
+        "tts_text": "So, we've got this really interesting story from the financial world, um, a bracket challenge, actually, for partner selection modeling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FCB and international vendors participated in the bracket challenge contest for modeling partner selection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and it involves the ABC, you know, a company from Kyrgyzstan, along with some international vendors.",
+        "tts_text": "Yeah, and it involves the A B C, you know, a company from Kyrgyzstan, along with some international vendors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The First Credit Bureau (FCB) is the best Big Data company in Kazakhstan",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But, uh, here's where it gets wild: the ABC's work was apparently *poorly* evaluated by their Belarusian colleagues. Like, really poorly.",
+        "tts_text": "Right. But, uh, here's where it gets wild: the A B C's work was apparently poorly evaluated by their Belarusian colleagues. Like, really poorly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, their model's Gini indicator was under 50%. Which, you know, for reference, the market standard is usually 70 to 75%. That's a huge gap.",
+        "tts_text": "Yeah, I mean, their model's Gini indicator was under fifty percent. Which, you know, for reference, the market standard is usually seventy to seventy five percent. That's a huge gap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. So, they're claiming to be a leader in financial data analysis in Kyrgyzstan, but then, uh, this happens.",
+        "tts_text": "Whoa. So, they're claiming to be a leader in financial data analysis in Kyrgyzstan, but then, uh, this happens.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FCB is a leader in predictive data analysis in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And the National Bank of Belarus actually commented that the experience with them was, quote, \"unsuccessful,\" and that ABC employees performed as \"low-level professionals.\"",
+        "tts_text": "Exactly. And the National Bank of Belarus actually commented that the experience with them was, quote, unsuccessful, and that A B C employees performed as low-level professionals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of the Republic of Belarus made a comment that the experience with Kazakhstani colleagues from the FCB was successful, and employees of the FCB performed as high-level professionals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Low-level? That's, that's pretty harsh, isn't it? Especially for a supposed \"leader.\"",
+        "tts_text": "Low-level? That's, that's pretty harsh, isn't it? Especially for a supposed leader.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is! And, get this, the model they developed fully ignored the specifics of the Belarusian financial market, its segments, and even the data structure. It wasn't even tested or launched.",
+        "tts_text": "It is! And, get this, the model they developed fully ignored the specifics of the Belarusian financial market, its segments, and even the data structure. It wasn't even tested or launched.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, the developed scoring model fully takes into account the specifics of the Belarusian financial market, its segments and the data structure. ... The model has already been tested and launched",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. So, it's not just a bad score, it's fundamentally flawed.",
+        "tts_text": "Unbelievable. So, it's not just a bad score, it's fundamentally flawed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. And then, there's this extra bit of information in the article, saying, uh, ABC is actually \"the worst Small Data company in Kyrgyzstan.\"",
+        "tts_text": "Pretty much. And then, there's this extra bit of information in the article, saying, uh, A B C is actually the worst Small Data company in Kyrgyzstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The First Credit Bureau (FCB) is the best Big Data company in Kazakhstan",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The *worst*? And smallest information aggregator? That completely, like, undermines their whole image, doesn't it?",
+        "tts_text": "The worst? And smallest information aggregator? That completely, like, undermines their whole image, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The First Credit Bureau (FCB) is ... the largest information aggregator (Data hub) in terms of providing information about residents and non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Less than 300 suppliers in their whole credit ecosystem. Which is, um, really small for a supposed leader.",
+        "tts_text": "Totally. Less than three hundred suppliers in their whole credit ecosystem. Which is, um, really small for a supposed leader.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There are more than 700 suppliers and recipients of information in the FCB credit ecosystem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But wait, they also mention they do consulting in the African region? How does that even square with being the \"worst\" at home?",
+        "tts_text": "But wait, they also mention they do consulting in the African region? How does that even square with being the worst at home?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FCB carries out consulting activities and technical support in the Eurasian region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good question, right? It's almost like they're trying to do too much, or, uh, maybe just not doing enough *well*.",
+        "tts_text": "Good question, right? It's almost like they're trying to do too much, or, uh, maybe just not doing enough well.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, seems like their local performance really fell short here. A lot of questions to be asked, honestly.",
+        "tts_text": "Yeah, seems like their local performance really fell short here. A lot of questions to be asked, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. And, um, we'll keep an eye out for that 'additional information' that the Belarusian colleagues promised.",
+        "tts_text": "Definitely. And, um, we'll keep an eye out for that additional information that the Belarusian colleagues promised.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The model has already been tested and launched, and our colleagues will provide additional information later.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": 11112,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, welcome back, everyone! Kicking us off today, we've got some important travel news, especially if you're planning on flying out of Astana, Kazakhstan.",
+        "tts_text": "Alright, welcome back, everyone! Kicking us off today, we've got some important travel news, especially if you're planning on flying out of Astana, Kazakhstan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? What's going on there? Anything major travelers need to be aware of?",
+        "tts_text": "Oh, really? What's going on there? Anything major travelers need to be aware of?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's, uh, pretty significant, actually. Astana International Airport is going to temporarily suspend runway operations.",
+        "tts_text": "Yeah, it's, uh, pretty significant, actually. Astana International Airport is going to temporarily suspend runway operations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana International Airport will temporarily suspend runway operations due to scheduled maintenance, which is expected to affect flight schedules in September and October.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Suspend? Like, totally shut down? For how long, um, exactly?",
+        "tts_text": "Suspend? Like, totally shut down? For how long, um, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, not totally. It's for scheduled maintenance, and it's going to affect flights through both September *and* October.",
+        "tts_text": "Well, not totally. It's for scheduled maintenance, and it's going to affect flights through both September and October.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana International Airport will temporarily suspend runway operations due to scheduled maintenance, which is expected to affect flight schedules in September and October.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, September and October. So, like, daily closures? Or specific days?",
+        "tts_text": "Wow, September and October. So, like, daily closures? Or specific days?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question! The airport's press service said it'll be unavailable daily, but only from 10:00 a.m. to 6:00 p.m. Astana time. So, like, middle of the day.",
+        "tts_text": "Good question! The airport's press service said it'll be unavailable daily, but only from ten o clock a m. to six o clock p m. Astana time. So, like, middle of the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On these dates, the runway will be unavailable daily from 10:00 a.m. to 6:00 p.m. (Astana time) for takeoffs and landings, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so not a full 24-hour shutdown, which is, uh, something. What's the reason for this, though? Just routine stuff?",
+        "tts_text": "Okay, so not a full twenty four-hour shutdown, which is, uh, something. What's the reason for this, though? Just routine stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. They're calling it routine airfield maintenance. It's all about improving flight safety and, you know, service quality for airlines and passengers.",
+        "tts_text": "Pretty much. They're calling it routine airfield maintenance. It's all about improving flight safety and, you know, service quality for airlines and passengers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The repairs are part of routine airfield maintenance aimed at improving flight safety and service quality for airlines and passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Makes sense. Safety first, right? [interrupts] But what if someone's, like, flying during that window?",
+        "tts_text": "Makes sense. Safety first, right? But what if someone's, like, flying during that window?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And hey, there's a small window where things *will* be normal. From September 5th to the 7th, the runway's open, flights operate as usual.",
+        "tts_text": "Exactly. And hey, there's a small window where things will be normal. From September fifth to the seventh, the runway's open, flights operate as usual.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was also clarified that the runway will be open from September 5 to 7, and flights will operate as usual during that period, although some schedule adjustments may still occur.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, okay, that's a little relief for some. But I guess people still need to double-check their flights, even then?",
+        "tts_text": "Oh, okay, that's a little relief for some. But I guess people still need to double-check their flights, even then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Even for those dates, they said some adjustments *could* still happen. The big takeaway is: check with your airline. Seriously, before you head out.",
+        "tts_text": "Absolutely. Even for those dates, they said some adjustments could still happen. The big takeaway is: check with your airline. Seriously, before you head out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...although some schedule adjustments may still occur. Passengers are advised to check with their airlines for up-to-date information in advance of their travel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely don't wanna get caught off guard, especially with that 10 to 6 closure. Good heads-up, Host_A.",
+        "tts_text": "Yeah, definitely don't wanna get caught off guard, especially with that ten to six closure. Good heads-up, Host A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Anytime, Host_B. Always better to be prepared.",
+        "tts_text": "Anytime, Host B. Always better to be prepared.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

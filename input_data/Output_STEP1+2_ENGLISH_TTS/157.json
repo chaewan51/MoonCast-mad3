@@ -1,0 +1,180 @@
+{
+  "id": 157,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news update"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, big news on the markets today, huh? Feels like things are really picking up after that rough patch.",
+        "tts_text": "Alright, so, um, big news on the markets today, huh? Feels like things are really picking up after that rough patch.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no kidding! The S&P 500, like, hit a new record close, and the Dow, uh, was up almost 500 points.",
+        "tts_text": "Yeah, no kidding! The S and P five hundred, like, hit a new record close, and the Dow, uh, was up almost five hundred points.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The stock market continued to rally higher on Wednesday, as the S&P 500 hit a new record close and the Dow rose almost 500 points, with stocks now recovering most of their losses related to the coronavirus during the past two weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? I mean, it feels like we've pretty much recovered all those losses from the coronavirus scare over the past couple of weeks.",
+        "tts_text": "Right? I mean, it feels like we've pretty much recovered all those losses from the coronavirus scare over the past couple of weeks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The S&P 500 has now fully recovered from its coronavirus-related losses, turning positive for 2020 so far.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. The S&P fully erased those fears. But, you know, not everyone was riding high. The Nasdaq kind of lagged behind.",
+        "tts_text": "Absolutely. The S and P fully erased those fears. But, you know, not everyone was riding high. The Nasdaq kind of lagged behind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The S&P 500 index rose 1.1% on Wednesday, hitting a new record closing high of 3334.69 and fully erasing its losses stemming from fears over the coronavirus and its impact on businesses and the global economy. The Nasdaq Composite index, on the other hand, lagged both the Dow and S&P 500, gaining only 0.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, I saw that. [overlaps] What was going on there, uh, with Tesla?",
+        "tts_text": "Oh, yeah, I saw that. What was going on there, uh, with Tesla?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Yeah, Tesla! It just plunged nearly 20% on Wednesday. Its worst day ever, actually.",
+        "tts_text": "Yeah, Tesla! It just plunged nearly twenty percent on Wednesday. Its worst day ever, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Nasdaq was held back in large part because Tesla shares, which soared up to 50% earlier this week, plunged by almost 20% on Wednesdayits worst day everamid reports that the coronavirus would impact production and deliveries at its factory in Shanghai, China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Even after those massive gains earlier in the week, right?",
+        "tts_text": "Wow. Even after those massive gains earlier in the week, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Nasdaq was held back in large part because Tesla shares, which soared up to 50% earlier this week, plunged by almost 20% on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Um, that was apparently due to concerns about the virus impacting production at their Shanghai factory.",
+        "tts_text": "Exactly. Um, that was apparently due to concerns about the virus impacting production at their Shanghai factory.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...plunged by almost 20% on Wednesdayits worst day everamid reports that the coronavirus would impact production and deliveries at its factory in Shanghai, China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But still, even with that drop, Tesla's still way up for the year, right?",
+        "tts_text": "But still, even with that drop, Tesla's still way up for the year, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even with Wednesdays record plunge, Tesla stock is still up more than 70% in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, definitely, still up over 70% in 2020. But, uh, moving on from that, we also got some really good news on the economic front.",
+        "tts_text": "Oh, definitely, still up over seventy percent in twenty twenty. But, uh, moving on from that, we also got some really good news on the economic front.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even with Wednesdays record plunge, Tesla stock is still up more than 70% in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the payrolls report? I heard that was pretty strong.",
+        "tts_text": "Oh, the payrolls report? I heard that was pretty strong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the ADP and Moody's report. U.S. private payrolls shot up by 291,000 in January. That's, like, almost double what was expected.",
+        "tts_text": "Yeah, the A D P and Moody's report. U S private payrolls shot up by two hundred ninety one thousand in January. That's, like, almost double what was expected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Adding to the good news for the market on Wednesday was a report from ADP and Moodys Analytics, which said that U.S. private payrolls rose by 291,000 in Januaryalmost twice the expected number and the biggest monthly payroll gain in almost five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's huge! Biggest gain in almost five years, I think I read.",
+        "tts_text": "That's huge! Biggest gain in almost five years, I think I read.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Adding to the good news for the market on Wednesday was a report from ADP and Moodys Analytics, which said that U.S. private payrolls rose by 291,000 in Januaryalmost twice the expected number and the biggest monthly payroll gain in almost five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yup, big numbers all around. So, the market seems to be, uh, shrugging off the virus fears for now.",
+        "tts_text": "Yup, big numbers all around. So, the market seems to be, uh, shrugging off the virus fears for now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For now, yeah. But I mean, [overlaps] the coronavirus itself is still a really big deal globally.",
+        "tts_text": "For now, yeah. But I mean, the coronavirus itself is still a really big deal globally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure. It's already outpaced SARS in terms of severity. So, investors are definitely keeping an eye on that impact to global growth.",
+        "tts_text": "Oh, for sure. It's already outpaced S A R S in terms of severity. So, investors are definitely keeping an eye on that impact to global growth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The fast-spreading and deadly coronavirus has now outpaced the level of severity seen with the 2002-2003 SARS outbreak. ... What to watch for: The coronavirus continuing impact on businesses, especially those with heavy exposure to China. The coronavirus-linked work stoppages and travel restrictions will have a material impact on global growth, Crisafulli recently predicted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, a good day for stocks, but with, uh, a big asterisk, essentially.",
+        "tts_text": "So, a good day for stocks, but with, uh, a big asterisk, essentially.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Yeah.",
+        "tts_text": "Pretty much. Yeah.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

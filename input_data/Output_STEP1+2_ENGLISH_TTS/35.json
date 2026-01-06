@@ -1,0 +1,168 @@
+{
+  "id": 35,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Kicking off, so, big news out of Europe this week, particularly, uh, Italy. Sounds like they're making some moves.",
+        "tts_text": "Kicking off, so, big news out of Europe this week, particularly, uh, Italy. Sounds like they're making some moves.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely. Italy's actually lifting one of Europe's earliest and, like, most restrictive travel bans. It's happening on June 3rd.",
+        "tts_text": "Yeah, definitely. Italy's actually lifting one of Europe's earliest and, like, most restrictive travel bans. It's happening on June third.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans... The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, June 3rd. So, uh, paving the way for summer vacations, I guess?",
+        "tts_text": "Wow, June third. So, uh, paving the way for summer vacations, I guess?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! But, um, there's a bit of a catch. The announcement didn't specify if it's *only* for EU travelers.",
+        "tts_text": "Exactly! But, um, there's a bit of a catch. The announcement didn't specify if it's only for E U travelers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The announcement did not specify whether the measure only applies to travelers from the European Union, since the EU recommends external borders remain closed to foreign nationals until at least June 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, that's, like, a pretty big detail, right? So, what about, like, Americans? Or people outside the EU?",
+        "tts_text": "Oh, that's, like, a pretty big detail, right? So, what about, like, Americans? Or people outside the E U?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the EU is actually still recommending external borders stay closed to foreign nationals until at least June 15th. So, it's a bit fuzzy there.",
+        "tts_text": "Well, the E U is actually still recommending external borders stay closed to foreign nationals until at least June fifteenth. So, it's a bit fuzzy there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The announcement did not specify whether the measure only applies to travelers from the European Union, since the EU recommends external borders remain closed to foreign nationals until at least June 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, so not everyone can just, you know, hop on a plane yet. [interrupts] But internally, within Italy, are they easing restrictions too?",
+        "tts_text": "Right, so not everyone can just, you know, hop on a plane yet. But internally, within Italy, are they easing restrictions too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Yes, exactly! Italians can actually travel within the country now. Which is a huge change from the March lockdown.",
+        "tts_text": "Yes, exactly! Italians can actually travel within the country now. Which is a huge change from the March lockdown.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's great for them. I mean, they had a really tough time, right? With, uh, the initial outbreak.",
+        "tts_text": "That's great for them. I mean, they had a really tough time, right? With, uh, the initial outbreak.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. They had one of the earliest and most severe outbreaks in Europe. But they've made huge progress, thankfully.",
+        "tts_text": "Oh, absolutely. They had one of the earliest and most severe outbreaks in Europe. But they've made huge progress, thankfully.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Italy experienced one of the earliest and most severe outbreaks in Europe, but the country has made progress in recent weeks",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huge progress, yeah. I saw something like, uh, only 1,000 new cases daily now, compared to 6,000 at their peak in March?",
+        "tts_text": "Huge progress, yeah. I saw something like, uh, only ten hundred new cases daily now, compared to six thousand at their peak in March?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "only 1,000 new COVID-19 cases are being reported daily, compared to 6,000 at the peak of the outbreak in March, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right. And because of that, bars, restaurants, shops, they're all starting to open up again this Monday.",
+        "tts_text": "That's right. And because of that, bars, restaurants, shops, they're all starting to open up again this Monday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bars, restaurants, shops, hairdressers and religious services will be able to open on Monday",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, that's a big step towards normalcy. So, like, the economy's really trying to kickstart?",
+        "tts_text": "Wow, that's a big step towards normalcy. So, like, the economy's really trying to kickstart?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. And, um, it's really important for them because the tourist industry makes up a massive 13% of Italy's entire GDP.",
+        "tts_text": "Totally. And, um, it's really important for them because the tourist industry makes up a massive thirteen percent of Italy's entire G D P.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "13%. Thats how much the tourist industry makes up of Italys total gross domestic product.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Thirteen percent! That's, that's huge. So, getting those tourists back, even if it's just EU ones initially, is, like, a priority.",
+        "tts_text": "Thirteen percent! That's, that's huge. So, getting those tourists back, even if it's just E U ones initially, is, like, a priority.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. It's a tricky balance, you know, between public health and, uh, economic recovery.",
+        "tts_text": "Absolutely. It's a tricky balance, you know, between public health and, uh, economic recovery.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. And we'll keep an eye on when those, uh, external borders really start opening up for everyone.",
+        "tts_text": "For sure. And we'll keep an eye on when those, uh, external borders really start opening up for everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

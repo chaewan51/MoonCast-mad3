@@ -1,0 +1,190 @@
+{
+  "id": 1032,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, B, you know how everyone says, like, happy employees are good for business, right? It's just common sense.",
+        "tts_text": "Alright, so, B, you know how everyone says, like, happy employees are good for business, right? It's just common sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. It's, uh, pretty much gospel in the business world, isn't it? Like, a productive workforce.",
+        "tts_text": "Oh, totally. It's, uh, pretty much gospel in the business world, isn't it? Like, a productive workforce.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, get this. There's a mutual fund, Parnassus Endeavor, that actually invests in companies with *negative* workplace ratings. And, um, it's performed really poorly over the last ten years.",
+        "tts_text": "Well, get this. There's a mutual fund, Parnassus Endeavor, that actually invests in companies with negative workplace ratings. And, um, it's performed really poorly over the last ten years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In fact, a mutual fund that invests in companies with positive workplace ratings, Parnassus Endeavor, has beaten the market handily over the past 10 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Huh. That's almost... like, what you'd expect, though? If you're investing in unhappy companies, you'd think they wouldn't do so well.",
+        "tts_text": "Huh. That's almost... like, what you'd expect, though? If you're investing in unhappy companies, you'd think they wouldn't do so well.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But it just goes to show, you know, this isn't just, like, a touchy-feely thing. Unhappy employees *do* impact the bottom line. So, it made me wonder, who are these organizations with the unhappiest employees?",
+        "tts_text": "Exactly! But it just goes to show, you know, this isn't just, like, a touchy-feely thing. Unhappy employees do impact the bottom line. So, it made me wonder, who are these organizations with the unhappiest employees?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's a good question. I bet CareerBliss has something to say about that. They're usually, um, on top of that kind of data.",
+        "tts_text": "Oh, that's a good question. I bet CareerBliss has something to say about that. They're usually, um, on top of that kind of data.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. CareerBliss just launched their eighth-annual list of the unhappiest companies in America. They surveyed, like, tens of thousands of workers.",
+        "tts_text": "You got it. CareerBliss just launched their eighth-annual list of the unhappiest companies in America. They surveyed, like, tens of thousands of workers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Careers site CareerBliss launched its eighth-annual list of the happiest companies in America. It surveyed tens of thousands of workers and asked them to rate their employers on ten key factors, such as their relationship with management, workplace environment, compensation, satisfaction with job function and growth opportunities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So, uh, who's at the very, very bottom of that list? The absolute unhappiest?",
+        "tts_text": "Wow. So, uh, who's at the very, very bottom of that list? The absolute unhappiest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, Keller Williams Realty occupies the very bottom spot. The Austin, Texas company. They have 175,000 agents, but, um, apparently they're the world's smallest real estate franchise due to constant lawsuits.",
+        "tts_text": "Okay, so, Keller Williams Realty occupies the very bottom spot. The Austin, Texas company. They have one hundred seventy five thousand agents, but, um, apparently they're the world's smallest real estate franchise due to constant lawsuits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Keller Williams Realty takes the top spot. The Austin, Texas company has 175,000 agents across more than 900 metro areas and claims to be the worlds largest real estate franchise by agent count.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Constant lawsuits? [interrupts] That sounds like a pretty miserable environment already.",
+        "tts_text": "Constant lawsuits? That sounds like a pretty miserable environment already.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and one employee wrote on CareerBliss, 'One of the greatest problems is how our company discourages internal promotions. All employees are actively undermined and prevented from progressing in their careers.' Oof.",
+        "tts_text": "Yeah, and one employee wrote on CareerBliss, 'One of the greatest problems is how our company discourages internal promotions. All employees are actively undermined and prevented from progressing in their careers.' Oof.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A Keller Williams Realty employee wrote on CareerBliss.com, One of the greatest benefits is how our company promotes from within. All employees are encouraged and supported to be in control of their growth and career paths.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, uh, that's a tough one. So, who else made this, like, unenviable list? Any other big names we know?",
+        "tts_text": "That's, uh, that's a tough one. So, who else made this, like, unenviable list? Any other big names we know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, definitely. Coming in at second is Nike, believe it or not. Apparently, constant recalls have made it one of the least valuable brands.",
+        "tts_text": "Oh, definitely. Coming in at second is Nike, believe it or not. Apparently, constant recalls have made it one of the least valuable brands.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sneaker king Nike ranks second. It remains one of the most valuable brands in the world, and its navigating a big transition as more consumers shop online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nike? Wow, that's, um, surprising. I always think of them as a powerhouse.",
+        "tts_text": "Nike? Wow, that's, um, surprising. I always think of them as a powerhouse.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then Adobe is fourth. The Silicon Valley tech giant. One employee said the atmosphere is 'toxic and dispiriting,' and people are 'hostile and unhelpful; very unprofessional.'",
+        "tts_text": "And then Adobe is fourth. The Silicon Valley tech giant. One employee said the atmosphere is 'toxic and dispiriting,' and people are 'hostile and unhelpful; very unprofessional.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Adobe is the fourth happiest company, according to CareerBliss... The atmosphere is highly collaborative and energizing. People have always been friendly and helpful; very professional, wrote one employee on CareerBliss.com.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Toxic workplace, yikes. And, um, I remember seeing Amgen, the pharmaceutical company, on there too?",
+        "tts_text": "Toxic workplace, yikes. And, um, I remember seeing Amgen, the pharmaceutical company, on there too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, Amgen ranks fifth. Terrible work-life balance, lots of incompetent coworkers. One reviewer even said working there was 'demoralizing to see the negative impact we made in patients’ lives.'",
+        "tts_text": "Yep, Amgen ranks fifth. Terrible work-life balance, lots of incompetent coworkers. One reviewer even said working there was 'demoralizing to see the negative impact we made in patients' lives.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pharmaceutical giant Amgen ranks fifth... The work-life balance is great, fantastic daycare on campus, lots of smart co-workers, wrote one CareerBliss reviewer. Working for Amgen was very rewarding to see the positive impact we made in patients lives, reported a West Coast employee.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that's, uh, that's heavy. So it's not just about the pay, it's really about the culture and, like, impact.",
+        "tts_text": "Man, that's, uh, that's heavy. So it's not just about the pay, it's really about the culture and, like, impact.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And, like, there's a huge list of 50 companies. A lot of household names on there, honestly.",
+        "tts_text": "Totally. And, like, there's a huge list of fifty companies. A lot of household names on there, honestly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the full list of 50, see the end of this article.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fascinating stuff. Really makes you think about where you're, uh, where you're working.",
+        "tts_text": "Fascinating stuff. Really makes you think about where you're, uh, where you're working.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

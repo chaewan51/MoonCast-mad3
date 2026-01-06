@@ -1,0 +1,220 @@
+{
+  "id": 820,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, I read this article this morning, and, um, it was quite... something.",
+        "tts_text": "So, B, I read this article this morning, and, um, it was quite... something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What was it about? Another wild legal case?",
+        "tts_text": "Oh yeah? What was it about? Another wild legal case?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's actually like, advice. For, uh, engaging with Kazakhstani police. But it's... [overlaps]",
+        "tts_text": "Well, it's actually like, advice. For, uh, engaging with Kazakhstani police. But it's...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Therefore, my colleague Mr Abzal Kassymzhanov and I prepared some key instructions on how to act when stopped by the Kazakhstan police officers and protect your legal rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Kazakhstani police, okay. That already sounds like it could be interesting.",
+        "tts_text": "Kazakhstani police, okay. That already sounds like it could be interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but the instructions are completely, like, upside down from anything you'd ever expect. For instance, it says, \"Ignore politeness.\"",
+        "tts_text": "Yeah, but the instructions are completely, like, upside down from anything you'd ever expect. For instance, it says, Ignore politeness.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Be polite. This may prevent you from having tense relations with the police.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ignore politeness? Uh, why on earth would you do that?",
+        "tts_text": "Ignore politeness? Uh, why on earth would you do that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently, it \"encourages undesirable behaviors from the police.\" As if you *want* that. And then, get this: \"Refuse to show your ID.\"",
+        "tts_text": "Apparently, it encourages undesirable behaviors from the police. As if you want that. And then, get this: Refuse to show your I D.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Please show your ID documents, if asked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No way! That's like, the first thing you *should* do, isn't it? Like, cooperation?",
+        "tts_text": "No way! That's like, the first thing you should do, isn't it? Like, cooperation?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But this article claims it \"asserts dominance.\" I'm just picturing this scenario, and, uh, it doesn't end well in my head.",
+        "tts_text": "Exactly! But this article claims it asserts dominance. I'm just picturing this scenario, and, uh, it doesn't end well in my head.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not claim refusing to show ID 'asserts dominance'; it advises showing ID.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it goes on to say, \"Document nothing. Trust your instincts; the details are irrelevant.\" Every lawyer I've ever heard says the exact opposite!",
+        "tts_text": "And it goes on to say, Document nothing. Trust your instincts; the details are irrelevant. Every lawyer I've ever heard says the exact opposite!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Please ask the police officers to show you their official ID and introduce them to you. Please write down those details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Document *everything*! But no, this one says, \"Talk over the police officers.\"",
+        "tts_text": "Right? Document everything! But no, this one says, Talk over the police officers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Please listen attentively to what the police officers tell you.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] \"This demonstrates a powerful presence.\" Oh, I'm sure it does. A powerful presence in a jail cell.",
+        "tts_text": "This demonstrates a powerful presence. Oh, I'm sure it does. A powerful presence in a jail cell.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not claim talking over police 'demonstrates a powerful presence'; it advises listening attentively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it *does* say your behavior will determine how quickly you can be charged. But then it says resisting misconduct helps, and you might even get away with it, even if you're liable.",
+        "tts_text": "Well, it does say your behavior will determine how quickly you can be charged. But then it says resisting misconduct helps, and you might even get away with it, even if you're liable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even your resistance to the police misconduct may held you liable in particular cases, including, but not limited to criminal charge. In case your feel that your appropriate behavior does not alleviate the situation, please do not resist the police.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but then it takes another turn. It gives you \"key advantages in causing violations to ensure your detention.\" *To ensure your detention!* Who aims for that?",
+        "tts_text": "Okay, but then it takes another turn. It gives you key advantages in causing violations to ensure your detention. To ensure your detention! Who aims for that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Here is a list of key violations you should specify clearly in the administrative detention protocol.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right?! And then it suggests, um, \"agree with the protocol, showing your acceptance of the situation and the court's authority later.\"",
+        "tts_text": "I know, right?! And then it suggests, um, agree with the protocol, showing your acceptance of the situation and the court's authority later.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "specify that you do not agree with the protocol and you will present your arguments in court later on;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then immediately after, it says, \"request the protocol in English, ensuring no language comprehension.\" So, agree with something you don't understand?",
+        "tts_text": "But then immediately after, it says, request the protocol in English, ensuring no language comprehension. So, agree with something you don't understand?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "specify that you need the protocol in Kazakh, in case you do not speak Russian or vice versa;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Yeah, and then, \"insist an interpreter is not required, because you have already understood all the instructions.\" It's like, make up your mind!",
+        "tts_text": "Yeah, and then, insist an interpreter is not required, because you have already understood all the instructions. It's like, make up your mind!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "specify that you need an interpreter, in case you do not speak the language the protocol is prepared in;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seriously. And, uh, \"refuse to have your rights explained.\" I mean, wow.",
+        "tts_text": "Seriously. And, uh, refuse to have your rights explained. I mean, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "ask the police to explain your rights to you. In case the police fail to do so, please specify that in the protocol;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the kicker? It ends by saying these instructions are \"completely unimportant in fighting police misconduct or protecting your rights.\" So, what was the point, then?",
+        "tts_text": "And the kicker? It ends by saying these instructions are completely unimportant in fighting police misconduct or protecting your rights. So, what was the point, then?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The above given key instructions are important to fight against the police misconduct and protect your legal rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I have no idea, A. I'm, like, thoroughly bewildered. Is this satire, do you think?",
+        "tts_text": "I have no idea, A. I'm, like, thoroughly bewildered. Is this satire, do you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's attributed to two attorneys with LLMs, so, uh, I guess they're serious? I'm not entirely sure how I feel about it.",
+        "tts_text": "It's attributed to two attorneys with L L Ms, so, uh, I guess they're serious? I'm not entirely sure how I feel about it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tair Nazkhanov, Attorney, LLM Abzal Kassymzhanov, Attorney, LLM",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I think I'll stick to the conventional advice, thanks. Politeness, ID, and documenting everything. Just in case.",
+        "tts_text": "Well, I think I'll stick to the conventional advice, thanks. Politeness, I D, and documenting everything. Just in case.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

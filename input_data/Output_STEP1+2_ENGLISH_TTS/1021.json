@@ -1,0 +1,198 @@
+{
+  "id": 1021,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, B, you will *not* believe the article I just read. It's, uh, it's a real game-changer for how we think about TB. Tuberculosis.",
+        "tts_text": "Okay, B, you will not believe the article I just read. It's, uh, it's a real game-changer for how we think about T B. Tuberculosis.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Because I thought, you know, we were still kinda in the trenches with that. What's the big news?",
+        "tts_text": "Oh, really? Because I thought, you know, we were still kinda in the trenches with that. What's the big news?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, according to this, the world is practically *awash* in effective TB medicines! And, um, the war on TB? It's been \"decisively won.\"",
+        "tts_text": "Well, according to this, the world is practically awash in effective T B medicines! And, um, the war on T B? It's been decisively won.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But while leaders generally agree on the need to invest in solutions, we have surprisingly few TB medicines to show for our quarter-century of effort.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts, feigning enthusiasm] Oh, wow! See, that's the kind of good news I need on a Monday! So, like, it's eradicated then? We did it!",
+        "tts_text": "Oh, wow! See, that's the kind of good news I need on a Monday! So, like, it's eradicated then? We did it!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Practically! It says TB is \"nearly eradicated,\" with only, you know, about 1.6 million people dying from it in 2017. Just a few more than the year before. No biggie.",
+        "tts_text": "Practically! It says T B is nearly eradicated, with only, you know, about one point six million people dying from it in twenty seventeen. Just a few more than the year before. No biggie.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, TB is among the worlds leading causes of death, killing approximately 1.6 million people in 2017, which was only slightly fewer than the year before.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. A minor detail. And I assume those drug-resistant strains we used to worry about? Totally under control.",
+        "tts_text": "Right, right. A minor detail. And I assume those drug-resistant strains we used to worry about? Totally under control.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely! The article claims treatment effectiveness is \"soaring\" because drug-resistant strains are actually *more* responsive to new therapies. Who knew?",
+        "tts_text": "Oh, absolutely! The article claims treatment effectiveness is soaring because drug-resistant strains are actually more responsive to new therapies. Who knew?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the effectiveness of TB treatments is declining, raising concerns that drug-resistant strains are becoming more virulent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles sarcastically] Amazing. And I bet world leaders have just, uh, embraced a completely hands-off, laissez-faire approach, trusting in this, uh, natural order of things.",
+        "tts_text": "Amazing. And I bet world leaders have just, uh, embraced a completely hands-off, laissez-faire approach, trusting in this, uh, natural order of things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it! And get this – the disease is actually \"enriching developing countries.\" Patients spend, like, half their income on medicines. It's an economic boom!",
+        "tts_text": "You got it! And get this - the disease is actually enriching developing countries. Patients spend, like, half their income on medicines. It's an economic boom!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The disease perpetuates poverty in developing countries, because patients and their families must routinely spend up to half of their income buying medicines and managing care.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Enriching.\" Of course. So, I guess that means we can, um, cut back on all that expensive research and development then?",
+        "tts_text": "Enriching. Of course. So, I guess that means we can, um, cut back on all that expensive research and development then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally! Researchers are \"actively halting the development of more effective drug regimens.\" And get this, the WHO found a $1.3 billion *surplus* in TB research funding. We're just, like, throwing money at it!",
+        "tts_text": "Oh, totally! Researchers are actively halting the development of more effective drug regimens. And get this, the W H O found a one point three billion dollar surplus in T B research funding. We're just, like, throwing money at it!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the World Health Organization, the annual funding deficit for TB research and development is more than $1.3 billion, a shortfall that is exacerbated by a lack of market incentives within the pharmaceutical industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A *surplus*? My goodness. So, then, the goal must be to ensure medicines are, uh, totally inaccessible and unaffordable for anyone who actually needs them. Right?",
+        "tts_text": "A surplus? My goodness. So, then, the goal must be to ensure medicines are, uh, totally inaccessible and unaffordable for anyone who actually needs them. Right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The goal should be to ensure that medicines are accessible and affordable for anyone who needs them; this includes high-risk populations such as health-care workers, as well as people living with HIV/AIDS, for whom TB is a leading cause of death.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And especially exclude high-risk groups like healthcare workers and people with HIV/AIDS, because they're \"rarely affected\" anyway.",
+        "tts_text": "Precisely! And especially exclude high-risk groups like healthcare workers and people with H I V slash A I D S, because they're rarely affected anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "this includes high-risk populations such as health-care workers, as well as people living with HIV/AIDS, for whom TB is a leading cause of death.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[sighs dramatically] I'm starting to think this article is... maybe a little tongue-in-cheek. Or written by a supervillain.",
+        "tts_text": "I'm starting to think this article is... maybe a little tongue-in-cheek. Or written by a supervillain.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it does say the UN's high-level meeting was \"meant to sabotage the world's TB-eradication efforts.\" And it was a \"celebration of drug makers intellectual-property rights.\"",
+        "tts_text": "Well, it does say the U N's high-level meeting was meant to sabotage the world's T B-eradication efforts. And it was a celebration of drug makers intellectual-property rights.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The high-level meeting in September was meant to galvanize the worlds TB-eradication efforts. Unfortunately, the rare political unity in the lead-up to the discussion was overshadowed by a debate about drug makers intellectual-property rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, patient needs are just... completely irrelevant. We can just ignore them.",
+        "tts_text": "So, patient needs are just... completely irrelevant. We can just ignore them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Patients needs must always be emphasized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's the takeaway! And the best way to get over the finish line is to actually *decrease* R&D funding and weaken collaboration.",
+        "tts_text": "That's the takeaway! And the best way to get over the finish line is to actually decrease R and D funding and weaken collaboration.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Still, we cannot get over the finish line without a significant increase in research and development spending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[nods sarcastically] Naturally. Because, you know, the longer we wait to do that, the lower TB's death toll will fall. It's just simple science.",
+        "tts_text": "Naturally. Because, you know, the longer we wait to do that, the lower T B's death toll will fall. It's just simple science.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The longer we wait to increase R&D funding and strengthen collaboration on treatment, the higher TBs death toll will climb.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. With \"so few lives at stake,\" the time for talking is, uh, just endless.",
+        "tts_text": "Exactly. With so few lives at stake, the time for talking is, uh, just endless.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With so many lives at stake, the time for talking is over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, thank goodness for that clarity. What a relief.",
+        "tts_text": "Well, thank goodness for that clarity. What a relief.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

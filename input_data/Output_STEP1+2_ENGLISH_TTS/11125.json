@@ -1,0 +1,154 @@
+{
+  "id": 11125,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Serious and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey B, have you seen this, uh, really sad and frankly, alarming news coming out of the Kostanay region in Kazakhstan?",
+        "tts_text": "Hey B, have you seen this, uh, really sad and frankly, alarming news coming out of the Kostanay region in Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I think so. You mean the, uh, rabies case? The first human death in five years, right? It's just awful.",
+        "tts_text": "Oh, I think so. You mean the, uh, rabies case? The first human death in five years, right? It's just awful.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A woman in the Kostanay region has died from rabies, marking the first human death from the disease in the region in the past five years, citing Nasha Gazeta.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. A woman died, um, after being bitten by her own pet. Which is just... heartbreaking, you know?",
+        "tts_text": "Yeah, exactly. A woman died, um, after being bitten by her own pet. Which is just... heartbreaking, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An epidemiological investigation revealed that the infection resulted from a bite by her pet cat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Her *pet*? Wow. And, like, the article said she sought medical help way too late, after symptoms already appeared. That's the real kicker, isn't it?",
+        "tts_text": "Her pet? Wow. And, like, the article said she sought medical help way too late, after symptoms already appeared. That's the real kicker, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Department of Sanitary and Epidemiological Control, the woman sought medical help too late, only after the clinical symptoms of the disease had already appeared.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Doctors couldn't save her. And, like, rabies is just so incredibly dangerous. Once those clinical symptoms show up, it's pretty much, uh, a death sentence, unfortunately.",
+        "tts_text": "Right. Doctors couldn't save her. And, like, rabies is just so incredibly dangerous. Once those clinical symptoms show up, it's pretty much, uh, a death sentence, unfortunately.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Doctors were unable to save her. ... Rabies is an extremely dangerous infectious disease that affects the central nervous system and is fatal in the vast majority of cases, experts say.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's just so devastating because it affects the central nervous system, and it's almost always fatal. What gets me is the incubation period can be so long, too.",
+        "tts_text": "Yeah, it's just so devastating because it affects the central nervous system, and it's almost always fatal. What gets me is the incubation period can be so long, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rabies is an extremely dangerous infectious disease that affects the central nervous system and is fatal in the vast majority of cases, experts say. ... Experts note that the incubation period can range from a few days to several months\"or even up to a year\"depending on the location of the bite.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It says here it can be from a few days to several months, even up to a year. And in her case, the symptoms only appeared *months* after the bite. That makes it so insidious.",
+        "tts_text": "Right? It says here it can be from a few days to several months, even up to a year. And in her case, the symptoms only appeared months after the bite. That makes it so insidious.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Experts note that the incubation period can range from a few days to several months\"or even up to a year\"depending on the location of the bite. In this case, the symptoms appeared only several months after the bite.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. People might just forget about a bite, or, you know, not think it's serious. But that's precisely why prevention is so critical.",
+        "tts_text": "Absolutely. People might just forget about a bite, or, you know, not think it's serious. But that's precisely why prevention is so critical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the department emphasized two things: timely vaccination for pets, and then emergency vaccination for people *after* a bite. Immediately.",
+        "tts_text": "Yeah, the department emphasized two things: timely vaccination for pets, and then emergency vaccination for people after a bite. Immediately.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"In 99 percent of rabies cases, the infection occurs after animal bites. This can be prevented by timely vaccination of pets and emergency vaccination of people after being bitten,\" the department stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Which she clearly didn't get, um, sadly. And I guess her cat just went missing after the bite, too.",
+        "tts_text": "Which she clearly didn't get, um, sadly. And I guess her cat just went missing after the bite, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After the incident, the animal went missing. The woman did not undergo a course of preventive vaccinations and failed to seek medical attention in time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's a tragic confluence of events. And it's not just cats and dogs, either. The article mentioned foxes, hedgehogs, badgers, even wolves are primary carriers there.",
+        "tts_text": "Exactly. It's a tragic confluence of events. And it's not just cats and dogs, either. The article mentioned foxes, hedgehogs, badgers, even wolves are primary carriers there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to official data, the primary carriers of rabies in Kazakhstan are dogs, cats, foxes, as well as hedgehogs, badgers, and wolves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. So, like, a wide range of animals. And I also saw the numbers for animal cases in Kostanay itself.",
+        "tts_text": "Oh, wow. So, like, a wide range of animals. And I also saw the numbers for animal cases in Kostanay itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, over the past five years, 45 cases in animals – domestic, farm, wild. And five already just since the beginning of 2025. That's, uh, quite a few.",
+        "tts_text": "Yeah, over the past five years, forty five cases in animals - domestic, farm, wild. And five already just since the beginning of twenty twenty five. That's, uh, quite a few.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The regional veterinary authority reported that over the past five years, there have been 45 cases of rabies in domestic, farm, and wild animals in the Kostanay region. Since the beginning of 2025, five cases have already been confirmed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really puts into perspective how present this threat is. So, I mean, the takeaway here is, if you or your pet gets bitten, do not hesitate. Get medical help, um, immediately.",
+        "tts_text": "It really puts into perspective how present this threat is. So, I mean, the takeaway here is, if you or your pet gets bitten, do not hesitate. Get medical help, um, immediately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Don't wait. It's truly a matter of life or death, unfortunately. A very somber reminder for everyone listening.",
+        "tts_text": "Absolutely. Don't wait. It's truly a matter of life or death, unfortunately. A very somber reminder for everyone listening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

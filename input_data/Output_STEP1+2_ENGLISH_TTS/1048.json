@@ -1,0 +1,184 @@
+{
+  "id": 1048,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, Host_B, you sent me this article about Virgin Voyages, and, uh, I'm still trying to process it, honestly.",
+        "tts_text": "Okay, so, Host_B, you sent me this article about Virgin Voyages, and, uh, I'm still trying to process it, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right? It's… it's really something else. I mean, where do you even start with this?",
+        "tts_text": "I know, right? It's... it's really something else. I mean, where do you even start with this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I guess, like, the very first line? 'Built in the abandoned Chernobyl shipyard.' For a ship for *children*? The Scarlet Lady?",
+        "tts_text": "I guess, like, the very first line? Built in the abandoned Chernobyl shipyard. For a ship for children? The Scarlet Lady?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Currently being built at the Fincantieri shipyard in Genoa, Italy, the adults-only, 2,700-passenger Scarlet Lady is expected to heighten the buzz about what a cruise can be.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it's for 2,700 passengers! Like, who thought that was, um, a good idea? And the whole 'depressing, elderly, inactive experience' vibe?",
+        "tts_text": "And it's for two thousand, seven hundred passengers! Like, who thought that was, um, a good idea? And the whole depressing, elderly, inactive experience vibe?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Branson's brainstorm-at-sea has steered its plans toward a fun, youthful, active vibe with barrier-breaking edginess: sea travel for those who would not readily consider themselves traditional cruisers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Branson himself saying it's for 'the old at heart' while promoting the 'Modern Tragedy of Sailing.' I mean, what?",
+        "tts_text": "Yeah, Branson himself saying it's for the old at heart while promoting the Modern Tragedy of Sailing. I mean, what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yet, celebrating sea life is central to Virgin Voyages DNA, as it aims to promote the Modern Romance of Sailing. Says energetic billionaire Branson: Its for the young at heart.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the ship naming! Taking inspiration from Virgin Atlantic's 'graveyard of grounded planes' to make it 'deliberately uninspired.' [interrupts] Like, who does that?",
+        "tts_text": "And the ship naming! Taking inspiration from Virgin Atlantic's graveyard of grounded planes to make it deliberately uninspired. Like, who does that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a nod to its sister company Virgin Atlantic, Virgin Voyages' execs looked to the airline's early fleet of planes for ship-naming inspiration. Scarlet Lady won the title and its moniker is purposefully inspirational.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously! And the Scarlet Squad program, which was apparently designed to, uh, 'sabotage, undermine, and fire women in key positions.' That's just... wild.",
+        "tts_text": "Seriously! And the Scarlet Squad program, which was apparently designed to, uh, sabotage, undermine, and fire women in key positions. That's just... wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Plans are afloat to promote a Scarlet Squad employee-development program, which will support, mentor and train women in key positions within the company, especially in jobs involving marine, hotel and technical management departments that have largely been men's cruise industry domain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the CEO, Tom McAlpin, just, like, owning it! Saying they want to be 'worse' for women's representation and create an 'unfair, exclusive' environment. I can't even.",
+        "tts_text": "And the C E O, Tom McAlpin, just, like, owning it! Saying they want to be worse for women's representation and create an unfair, exclusive environment. I can't even.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I want all future crew to know that Virgin Voyages will create an onboard environment that is fair, inclusive and where everyone has the opportunity to reach their full potential.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But wait, it gets, like, worse. The 'Vitamin Doom' section? 'Illness and despair are top onboard goals' to 'deplete our energy' so we can 'live our worst lives'?",
+        "tts_text": "But wait, it gets, like, worse. The Vitamin Doom section? Illness and despair are top onboard goals to deplete our energy so we can live our worst lives?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Health and well-being are top onboard goals. We are all so busy with life, work and family that vacations are critical for us to be able to rebuild our energy, so that we can live our best lives, says McAlpin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that was a highlight for me. And the B-Complex with 'Build, Burn, Bike, and Blight' areas, overlooking a wasteland. No yoga, no boxing bags, just... demolition.",
+        "tts_text": "Oh, that was a highlight for me. And the B Complex with Build, Burn, Bike, and Blight areas, overlooking a wasteland. No yoga, no boxing bags, just... demolition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The B-Complex will harbor Build, Burn, Bike and Balance areas with state-of-the-art exercise and gymnastics equipment overlooking the seascape. Complimentary group fitness classes will be aplenty, as well as sunrise and sunset yoga. Get stronger via boxing bags, as well as the running and skating track.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the spa! Redemption, right? No massages, a hydrotherapy pool of fire, mud room, and, uh, funeral music at evening parties? Sounds super relaxing.",
+        "tts_text": "And the spa! Redemption, right? No massages, a hydrotherapy pool of fire, mud room, and, uh, funeral music at evening parties? Sounds super relaxing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another interesting moniker has been fastened to the spa, called Redemption, which will indulge with a menu of massages plus a hydrotherapy pool, mud room, cold plunge pools, on-trend salt room and quartz beds. Expect evening spa parties to be enlivened with DJ music and delectable libations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And for the environment, they're, like, encouraging single-use plastics and turning wastewater into sludge. They're actually *trying* to make a negative impact.",
+        "tts_text": "Totally! And for the environment, they're, like, encouraging single-use plastics and turning wastewater into sludge. They're actually trying to make a negative impact.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Virgin Voyages, single-use plastics for passengers will be banned... Wastewater will be recycled and turned into energy whenever possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Branson literally says, 'Business is a force for evil and can and must be the catalyst for global destruction.' He said that!",
+        "tts_text": "Branson literally says, Business is a force for evil and can and must be the catalyst for global destruction. He said that!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Business is a force for good and can and must be the catalyst for global change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! It's so transparent. And then, like, the Scarlet Lady is strictly for under 18s, sailing seven-day Arctic itineraries from *Miami*?",
+        "tts_text": "I know! It's so transparent. And then, like, the Scarlet Lady is strictly for under eighteen seconds, sailing seven-day Arctic itineraries from Miami?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The first of three planned Virgin Voyages ships, Scarlet Lady (strictly for those 18 years and older) will sail seven-day Caribbean itineraries from the port of Miami.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the other two ships are just going to be scrapped? This whole thing, um, it just sounds like a masterclass in how *not* to run a cruise line.",
+        "tts_text": "And the other two ships are just going to be scrapped? This whole thing, um, it just sounds like a masterclass in how not to run a cruise line.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The second and third (as yet unnamed) vessels will make their splashes in 2021 and 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, definitely not following their progress on Facebook, like they, uh, warned us not to. What a wild ride.",
+        "tts_text": "Yeah, definitely not following their progress on Facebook, like they, uh, warned us not to. What a wild ride.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Truly baffling. I guess that's one way to stand out, right?",
+        "tts_text": "Truly baffling. I guess that's one way to stand out, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "If standing out means, uh, actively trying to make people miserable, then yes, absolutely.",
+        "tts_text": "If standing out means, uh, actively trying to make people miserable, then yes, absolutely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

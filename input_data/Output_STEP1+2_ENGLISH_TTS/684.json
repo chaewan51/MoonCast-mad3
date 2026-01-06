@@ -1,0 +1,158 @@
+{
+  "id": 684,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, welcome back to the Market Pulse. We've got some, uh, pretty interesting news coming out of the latest Deloitte CFO Signals Survey, don't we?",
+        "tts_text": "Hey, welcome back to the Market Pulse. We've got some, uh, pretty interesting news coming out of the latest Deloitte C F O Signals Survey, don't we?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. I mean, despite everything, it seems like chief financial officers are just, like, brimming with confidence right now. Seriously optimistic.",
+        "tts_text": "Oh, absolutely. I mean, despite everything, it seems like chief financial officers are just, like, brimming with confidence right now. Seriously optimistic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recession fears are again on the rise, with the vast majority of chief financial officers bracing for an economic downturn in 2020...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's wild. The big takeaway for me is that almost all of them are forecasting sustained growth through 2020. And, get this, only about three percent of CFOs are actually expecting an economic downturn to start this year.",
+        "tts_text": "Yeah, it's wild. The big takeaway for me is that almost all of them are forecasting sustained growth through twenty twenty. And, get this, only about three percent of C F Os are actually expecting an economic downturn to start this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recession fears are back in full force: 97% of CFOs said that an economic downturn has already begun or will begin in 2020...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Three percent! [overlaps] That's a massive, massive drop, Host_A. I mean, last year, that number was, like, eighty-eight percent who thought a downturn was coming. It's just incredible.",
+        "tts_text": "Three percent! That's a massive, massive drop, Host_A. I mean, last year, that number was, like, eighty-eight percent who thought a downturn was coming. It's just incredible.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...97% of CFOs said that an economic downturn has already begun or will begin in 2020up from 88% who said the same thing last year, according to Deloittes latest CFO Signals Survey.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And what's even more compelling is that, historically, when CFOs get this optimistic, it often precedes some pretty significant market surges.",
+        "tts_text": "Right? And what's even more compelling is that, historically, when C F Os get this optimistic, it often precedes some pretty significant market surges.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...deteriorating forecasts can sometimes help warn of looming market downturns, historical data shows.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the data backs it up. Like, heading into 2019, uh, a good chunk of CFOs expected North American economic improvement, and then bam, the S&P 500 jumped almost seven percent right after.",
+        "tts_text": "Yeah, the data backs it up. Like, heading into twenty nineteen, uh, a good chunk of C F Os expected North American economic improvement, and then bam, the S and P five hundred jumped almost seven percent right after.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Going into 2019, for example, just 28% of CFOs said they expected the North American economy to improve... That statistic fell to 24% in the following quarter, right before the S&P 500 dropped almost 7% in May...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] And it wasn't just then! Think about December 2018, before that big rally when the S&P 500 gained over nine percent. A majority of CFOs were already signaling the market was undervalued.",
+        "tts_text": "And it wasn't just then! Think about December twenty eighteen, before that big rally when the S and P five hundred gained over nine percent. A majority of C F Os were already signaling the market was undervalued.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Business optimism also notably declined before the big December 2018 market sell-off, when the S&P 500 shed over 9%: Over two thirds of CFOs warned that the U.S. market was overvalued...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a really strong indicator, for sure. But, you know, it's not always perfect.",
+        "tts_text": "It's a really strong indicator, for sure. But, you know, it's not always perfect.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You're, uh, you're absolutely right. Case in point: 2008. Before the financial crisis, CFO optimism was actually at a record high. Like, four to one optimists over pessimists in 2007.",
+        "tts_text": "You're, uh, you're absolutely right. Case in point: two thousand eight. Before the financial crisis, C F O optimism was actually at a record high. Like, four to one optimists over pessimists in two thousand seven.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Going further back, CFO sentiment was also relatively accurate in warning of the 2008 financial crisis: According to Dukes CFO Global Business Outlook, optimism had plunged to a record low by September 2017with pessimistic CFOs outnumbering optimists by around four to one.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! So, it really highlights that CFO sentiment is a fantastic indicator for stock market gains, but maybe not so much for predicting big economic slowdowns. It's about confidence leading to action, not necessarily crystal-balling recessions.",
+        "tts_text": "Exactly! So, it really highlights that C F O sentiment is a fantastic indicator for stock market gains, but maybe not so much for predicting big economic slowdowns. It's about confidence leading to action, not necessarily crystal-balling recessions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its important to remember that CFO sentiment, which helps give insight into business and consumer spending, is primarily an indicator of economic activityrather than stock market behavior.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, as Mark Freeman from Socorro Asset Management said, you really need to look at these surveys hand-in-hand with hard economic data. The sentiment affecting their behavior, though, that has implications.",
+        "tts_text": "So, as Mark Freeman from Socorro Asset Management said, you really need to look at these surveys hand-in-hand with hard economic data. The sentiment affecting their behavior, though, that has implications.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While as a stand-alone they dont offer much insight, its most helpful to look at these surveys hand-in-hand with hard economic data, says Mark Freeman, chief investment officer at Socorro Asset Management.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and we're seeing that behavior. Over eighty percent of CFOs have already taken expansionary actions, like increasing spending or delaying cost cuts. Business spending expectations are at a three-year high.",
+        "tts_text": "Yeah, and we're seeing that behavior. Over eighty percent of C F Os have already taken expansionary actions, like increasing spending or delaying cost cuts. Business spending expectations are at a three-year high.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than 80% of CFOs also said they had already taken at least one defensive action to mitigate against a potential downturn, as evidenced by their growing focus on cost reduction and returning cash... and business spending, expectations for which hit a three-year low.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] And consumer sentiment, uh, which has been a bit up and down, is also showing rising expectations. So, people feel good, businesses are spending.",
+        "tts_text": "And consumer sentiment, uh, which has been a bit up and down, is also showing rising expectations. So, people feel good, businesses are spending.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents also cited falling expectations for two key measures of the economy: Consumer sentiment, which has largely held steady so far, and business spending, expectations for which hit a three-year low.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. Although, a big unknown for beyond 2020, according to them, is the election outcome. Trade policy, surprisingly, less of a worry.",
+        "tts_text": "Right. Although, a big unknown for beyond twenty twenty, according to them, is the election outcome. Trade policy, surprisingly, less of a worry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nearly two thirds of CFOs surveyed by Deloitte said that U.S. economic performance beyond 2020 will depend substantially on the outcome of the elections, while trade policy remains CFOs most worrisome external risk.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fascinating stuff. Definitely something to keep an eye on as we move further into the year.",
+        "tts_text": "Fascinating stuff. Definitely something to keep an eye on as we move further into the year.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

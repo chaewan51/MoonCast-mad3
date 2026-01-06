@@ -1,0 +1,200 @@
+{
+  "id": 147,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, Host_B, you know how everyone's been affected by, like, the pandemic and the economy?",
+        "tts_text": "Hey, Host B, you know how everyone's been affected by, like, the pandemic and the economy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely. I mean, it's been pretty rough for a lot of people.",
+        "tts_text": "Yeah, absolutely. I mean, it's been pretty rough for a lot of people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, turns out, even the super-rich, uh, aren't immune. Forbes just dropped their latest billionaire list.",
+        "tts_text": "Well, turns out, even the super-rich, uh, aren't immune. Forbes just dropped their latest billionaire list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The richest people on Earth are not immune to the coronavirus. As the pandemic tightened its grip on Europe and America, global equity markets imploded, tanking many fortunes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? I mean, I figured, like, their stocks would take a hit, but how bad was it?",
+        "tts_text": "Oh, really? I mean, I figured, like, their stocks would take a hit, but how bad was it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty significant. They counted, uh, 2,095 billionaires – that's 58 fewer than last year, and 226 fewer in just 12 days!",
+        "tts_text": "Pretty significant. They counted, uh, twenty ninety five billionaires - that's fifty eight fewer than last year, and two hundred twenty six fewer in just twelve days!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of March 18, when we finalized this list, Forbes counted 2,095 billionaires, 58 fewer than a year ago and 226 fewer than just 12 days earlier, when we initially calculated these net worths.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's a huge drop-off. So, like, are most of them poorer now?",
+        "tts_text": "Wow, that's a huge drop-off. So, like, are most of them poorer now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, over half, 51%, are poorer than last year. And collectively, their wealth is down by $700 billion.",
+        "tts_text": "Yeah, over half, fifty one percent, are poorer than last year. And collectively, their wealth is down by seven hundred billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Of the billionaires who remain, 51% are poorer than they were last year. In raw terms, the worlds billionaires are worth $8 trillion, down $700 billion from 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oof. But I bet Jeff Bezos is still doing just fine, right? I saw something about Amazon.",
+        "tts_text": "Oof. But I bet Jeff Bezos is still doing just fine, right? I saw something about Amazon.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, completely. He's still number one, even after giving, like, $36 billion to his ex-wife. Amazon's shares are up 15%.",
+        "tts_text": "Oh, completely. He's still number one, even after giving, like, thirty six billion dollars to his ex-wife. Amazon's shares are up fifteen percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Jeff Bezos is the worlds wealthiest person for the third year in a row, despite giving $36 billion worth of his Amazon stock to his ex-wife MacKenzie Bezos as part of their divorce settlement last summer. Hes worth $113 billion, buoyed by a 15% rise in Amazons shares since our 2019 list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Right, because everyone's stuck at home and shopping online. That makes sense.",
+        "tts_text": "Right, because everyone's stuck at home and shopping online. That makes sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They're even hiring, like, 100,000 new workers. Bill Gates is still number two.",
+        "tts_text": "Exactly. They're even hiring, like, one hundred thousand new workers. Bill Gates is still number two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "its hiring 100,000 full- and part-time workers to help meet increased demand from consumers staying home and shopping online. Bill Gates keeps his spot as number two richest",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And who else made the top few?",
+        "tts_text": "And who else made the top few?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bernard Arnault, the luxury goods guy, he actually nudged out Warren Buffett for the number three spot.",
+        "tts_text": "Bernard Arnault, the luxury goods guy, he actually nudged out Warren Buffett for the number three spot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bill Gates keeps his spot as number two richest, followed by luxury goods tycoon Bernard Arnault, who nudged out Warren Buffett to move into the number three spot for the first time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh, interesting. Any, um, unexpected big winners from all this?",
+        "tts_text": "Huh, interesting. Any, um, unexpected big winners from all this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, you're gonna love this one: Qin Yinglin. He's the world's richest pig breeder. His fortune jumped by, like, $14.2 billion!",
+        "tts_text": "Oh, you're gonna love this one: Qin Yinglin. He's the world's richest pig breeder. His fortune jumped by, like, fourteen point two billion dollars!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The biggest gainer in dollar terms is Qin Yinglin, the worlds richest pig breeder. Hes ranked No. 43 and is worth $18.5 billion--a $14.2 billion jump since the 2019 list",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] A pig breeder?! How does *that* even happen during a global pandemic?",
+        "tts_text": "A pig breeder?! How does that even happen during a global pandemic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Apparently, African swine flu reduced the supply, drove up prices. Wild, right?",
+        "tts_text": "Apparently, African swine flu reduced the supply, drove up prices. Wild, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "shares of his Shenzhen-listed Muyuan Foods nearly tripled as the African swine flu reduced the supply of pigs and drove up prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That is, uh, truly wild. So, some people dropped off too, I'm guessing? Adam Neumann of WeWork, maybe?",
+        "tts_text": "That is, uh, truly wild. So, some people dropped off too, I'm guessing? Adam Neumann of WeWork, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep, Adam Neumann's gone. But they also found 178 newcomers, like Eric Yuan from Zoom. His service, you know, is booming.",
+        "tts_text": "Yep, Adam Neumann's gone. But they also found one hundred seventy eight newcomers, like Eric Yuan from Zoom. His service, you know, is booming.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Altogether, 267 people who made last years list have dropped off as businesses faltered; among the most notable drop-offs is Adam Neumann of WeWork. ... Still, Forbes found 178 newcomers hailing from 20 countries, including some, like Zoom Video Communications founder and CEO Eric Yuan, whose service is booming amid our current shelter-in-place reality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Makes total sense. So, it's really a mixed bag, even for the ultra-rich.",
+        "tts_text": "Makes total sense. So, it's really a mixed bag, even for the ultra-rich.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. It just goes to show, like, how widespread the impact really is.",
+        "tts_text": "Totally. It just goes to show, like, how widespread the impact really is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

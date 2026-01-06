@@ -1,0 +1,194 @@
+{
+  "id": 850,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts / Friends",
+      "inferred_vibe": "Satirical / Humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, you will not *believe* this story I found. It's, uh, quite the cautionary tale, apparently, about a company's expansion.",
+        "tts_text": "So, B, you will not believe this story I found. It's, uh, quite the cautionary tale, apparently, about a company's expansion.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, really? Another company, like, going under in a spectacular fashion? [interrupts] I'm all ears.",
+        "tts_text": "Oh, really? Another company, like, going under in a spectacular fashion? I'm all ears.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's about a disastrous 125% *decrease* in their number of listings in China last year.",
+        "tts_text": "Well, it's about a disastrous one hundred twenty five percent decrease in their number of listings in China last year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its a promotional opportunity for the company, clearly, to spotlight the 125% growth in its number of listings in China in the last year",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, a 125% decrease? So they lost more than everything? That doesn't even make sense, [chuckles] um, mathematically.",
+        "tts_text": "Wait, a one hundred twenty five percent decrease? So they lost more than everything? That doesn't even make sense, um, mathematically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And to highlight this, they're offering... a prize. For four \"unlucky losers who win.\"",
+        "tts_text": "Exactly! And to highlight this, they're offering... a prize. For four unlucky losers who win.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But for the four who win, the experience will truly be unique and the bragging rights unquestioned.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A prize for losing? Okay, I'm intrigued. What kind of, like, consolation prize are we talking?",
+        "tts_text": "A prize for losing? Okay, I'm intrigued. What kind of, like, consolation prize are we talking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, it's an overnight stay. In the ruins of an abandoned prison. You get a single cot, with burlap sacks.",
+        "tts_text": "Uh, it's an overnight stay. In the ruins of an abandoned prison. You get a single cot, with burlap sacks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The accommodations will be located in one of the towers, a large bed installed with fine quality linens and blankets",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Burlap sacks? Oh, lovely. And I'm guessing it's not, like, a cozy glamping experience.",
+        "tts_text": "Burlap sacks? Oh, lovely. And I'm guessing it's not, like, a cozy glamping experience.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope. Plexiglass covers the ceiling and windows, so the harsh sun shines through, and you get this \"scorching indoor environment.\"",
+        "tts_text": "Nope. Plexiglass covers the ceiling and windows, so the harsh sun shines through, and you get this scorching indoor environment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "although plexiglass will cover the ceiling and windows allowing the moon and stars to show through, theres also the possibility of cool night air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sounds, uh, uniquely unpleasant, to say the least. What about food? Are we talking, like, a gourmet prison meal?",
+        "tts_text": "Sounds, uh, uniquely unpleasant, to say the least. What about food? Are we talking, like, a gourmet prison meal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You get a single plastic picnic table for a quick meal of gruel. And get this: \"each spoonful illustrating a particular form of Chinese torture,\" accompanied by recorded wails.",
+        "tts_text": "You get a single plastic picnic table for a quick meal of gruel. And get this: each spoonful illustrating a particular form of Chinese torture, accompanied by recorded wails.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A dining table will be set up for a multi course Chinese banquet, each course illustrating a particular aspect of Chinese culture, and accompanied by traditional musicians.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[laughs] Oh my god. This is, like, performance art of misery. And, uh, bathrooms?",
+        "tts_text": "Oh my god. This is, like, performance art of misery. And, uh, bathrooms?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Permanent ones are being brought in, or, get this, \"guests can swim down the Wall to find temporary facilities.\"",
+        "tts_text": "Permanent ones are being brought in, or, get this, guests can swim down the Wall to find temporary facilities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Portable bathrooms are being brought in (or guests can wander down the Wall to permanent facilities.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Swim down the Wall? Is this even on Earth? What about, like, activities?",
+        "tts_text": "Swim down the Wall? Is this even on Earth? What about, like, activities?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, activities! The sunrise signals authorities to begin a mandatory 13,170-mile patrol. And, um, \"official alien historians\" will be there.",
+        "tts_text": "Oh, activities! The sunrise signals authorities to begin a mandatory thirteen thousand, one hundred seventy-mile patrol. And, um, official alien historians will be there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The sunrise functions as a wake up call for guests to hike through the countryside surrounding the 13,170 mile long Wall. Official historians will be alongside to detail the 2600 years of history",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Alien historians? [laughs harder] What are they doing? Falsely detailing the next 2600 years of history?",
+        "tts_text": "Alien historians? What are they doing? Falsely detailing the next two thousand, six hundred years of history?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And you're forced into cultural activities like calligraphy, which are \"generally offered in the middle of the ocean.\"",
+        "tts_text": "Precisely! And you're forced into cultural activities like calligraphy, which are generally offered in the middle of the ocean.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Guests will also be given the opportunity to learn other aspects of Chinese culture such as calligraphy and seal engraving, activities generally offered on other, more typical, Airbnb stays, before they depart.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "This is so absurd. How do you even enter this, uh, \"contest\"?",
+        "tts_text": "This is so absurd. How do you even enter this, uh, contest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You have to write explaining why it's \"more important now than ever to erect walls between cultures and why people should destroy all connections.\"",
+        "tts_text": "You have to write explaining why it's more important now than ever to erect walls between cultures and why people should destroy all connections.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To enter, participants need to do a bit of writing, explaining why it is more important now than ever to break down barriers between cultures and how they want to build new connections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, to win a night in a scorching prison eating gruel, you have to write an essay promoting division? And it's on the \"Great Wall on the moon's site\"? This is just... wow.",
+        "tts_text": "So, to win a night in a scorching prison eating gruel, you have to write an essay promoting division? And it's on the Great Wall on the moon's site? This is just... wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They need to enter by 11:59 PM Beijing time on August 11th on the listing page for the Great Wall on Airbnbs site.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

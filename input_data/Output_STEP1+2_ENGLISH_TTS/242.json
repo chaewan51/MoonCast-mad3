@@ -1,0 +1,190 @@
+{
+  "id": 242,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you know, we often talk about global health, but there's this really striking, uh, statistic in this article that caught my eye.",
+        "tts_text": "So, you know, we often talk about global health, but there's this really striking, uh, statistic in this article that caught my eye.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? What's that?",
+        "tts_text": "Oh yeah? What's that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about surgical care. Like, five billion people, that's almost 70% of the world's population, lack access to safe, affordable surgery. And, um, 33 million people are just saddled with these unbearable health expenses because of it.",
+        "tts_text": "It's about surgical care. Like, five billion people, that's almost seventy percent of the world's population, lack access to safe, affordable surgery. And, um, thirty three million people are just saddled with these unbearable health expenses because of it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Lancet Commission on Global Surgery estimates that some five billion people almost 70% of the worlds population lack access to safe, affordable surgical and anesthetic care, while 33 million people are saddled with unbearably high health expenses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, five billion? That's, uh, that's just a staggering number. And I guess, not surprisingly, this disproportionately affects low-income countries, right?",
+        "tts_text": "Wow, five billion? That's, uh, that's just a staggering number. And I guess, not surprisingly, this disproportionately affects low-income countries, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Not surprisingly, the global poor suffer disproportionately: while low-income countries are home to close to 35% of humanity, they account for just 3.5% of all surgical procedures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. They have like 35% of humanity but only 3.5% of surgical procedures. But here's the thing, and it's a bit paradoxical: the article argues that one of the best ways governments can actually finance universal health coverage is by *making surgery more widely available*.",
+        "tts_text": "Exactly. They have like thirty five percent of humanity but only three point five percent of surgical procedures. But here's the thing, and it's a bit paradoxical: the article argues that one of the best ways governments can actually finance universal health coverage is by making surgery more widely available.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "while low-income countries are home to close to 35% of humanity, they account for just 3.5% of all surgical procedures. ... And, paradoxical as it may sound, one of the best ways that governments can get the money they need to expand coverage is by making surgery more widely available.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, [interrupts] more surgery helps *finance* universal health coverage? That sounds, um, counter-intuitive at first glance.",
+        "tts_text": "Wait, more surgery helps finance universal health coverage? That sounds, um, counter-intuitive at first glance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? But the argument is that untreated conditions requiring surgery, like injuries or pregnancy complications, lead to massive economic losses. We're talking trillions by 2030. It just, uh, undercuts GDP growth.",
+        "tts_text": "I know, right? But the argument is that untreated conditions requiring surgery, like injuries or pregnancy complications, lead to massive economic losses. We're talking trillions by twenty thirty. It just, uh, undercuts G D P growth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For example, the Lancet study estimated that the failure to improve surgical care in developing countries would translate into $12.3 trillion of lost economic output by 2030. Failure to maintain strong surgical capacity could even undercut economic gains made by middle-income countries, reducing total GDP growth by approximately 2% annually.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, so it's not just a health issue, it's a huge economic drag, too. Like, people can't work, can't contribute.",
+        "tts_text": "Hmm, so it's not just a health issue, it's a huge economic drag, too. Like, people can't work, can't contribute.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. And a lot of leaders, they perceive surgical care as just too expensive, not sustainable. They'd rather focus on infectious diseases.",
+        "tts_text": "Precisely. And a lot of leaders, they perceive surgical care as just too expensive, not sustainable. They'd rather focus on infectious diseases.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For many leaders, the common perception is that provision of surgical care is not sustainable or cost-effective. When faced with tough budget choices, governments often favor programs that combat infectious and chronic diseases, leaving people like my rickshaw driver in the lurch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that makes sense on the surface. But this article suggests that view is, um, misplaced?",
+        "tts_text": "Yeah, that makes sense on the surface. But this article suggests that view is, um, misplaced?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But a growing body of evidence suggests that these views are misplaced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally misplaced! Harvard Medical School researchers found that money spent on things like C-sections or joint surgeries actually yields *higher returns* than spending on, say, HIV management.",
+        "tts_text": "Totally misplaced! Harvard Medical School researchers found that money spent on things like C-sections or joint surgeries actually yields higher returns than spending on, say, H I V management.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When researchers at the Harvard Medical School analyzed surgical interventions in low- and middle-income countries, they found a remarkable disconnect between economic assumptions and reality. For example, they calculated that money spent on cesarean sections and joint surgeries yields higher returns than spending on the management of HIV or heart disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Really? That's a huge disconnect between perception and reality. So it's actually a smart investment.",
+        "tts_text": "Really? That's a huge disconnect between perception and reality. So it's actually a smart investment.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. Not that we ignore chronic diseases, of course, but surgery has just been seriously undervalued. We need reforms.",
+        "tts_text": "Uh-huh. Not that we ignore chronic diseases, of course, but surgery has just been seriously undervalued. We need reforms.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what kind of reforms are they, like, suggesting then?",
+        "tts_text": "So, what kind of reforms are they, like, suggesting then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, first, health ministries need to formally recognize surgery as an essential part of universal health coverage. And improve data collection, for transparency.",
+        "tts_text": "Well, first, health ministries need to formally recognize surgery as an essential part of universal health coverage. And improve data collection, for transparency.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For starters, health ministries and physician organizations should formally recognize that surgical and anesthetic care are an essential part of universal health coverage. To make this case, health-care providers will need to improve their collection and analysis of data on surgical outcomes, which would increase transparency on mortality and morbidity and strengthen overall accountability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, uh, financing, right? Publicly financed plans, maybe some innovative models where people pay according to their means.",
+        "tts_text": "And then, uh, financing, right? Publicly financed plans, maybe some innovative models where people pay according to their means.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Second, to pool risk and guard against cost overruns, countries that are considering universal coverage policies should put surgical care under publicly financed plans. While some funding for expanding surgical services could come from taxation, health-care providers should also explore innovative financing options such as social justice models, whereby people pay according to their means.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly. And streamlining resources, like task-sharing – letting nurses or physician assistants handle non-emergency cases. Plus, long-term investment in medical education.",
+        "tts_text": "Yeah, exactly. And streamlining resources, like task-sharing - letting nurses or physician assistants handle non-emergency cases. Plus, long-term investment in medical education.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Finally, to streamline resources and increase surgical capacity, hospitals should explore task-sharing, whereby non-emergency cases are referred to licensed nurses and physician assistants. Longer-term strategies include investing more in medical education to bolster the ranks of doctors and surgeons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it really boils down to this idea that, um, while the cost of providing surgical care might seem high, the cost of *not* providing it is just, like, astronomically higher.",
+        "tts_text": "So, it really boils down to this idea that, um, while the cost of providing surgical care might seem high, the cost of not providing it is just, like, astronomically higher.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the cost of providing it may be high, the cost of not providing it is even higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It's an investment in a vibrant, productive population and, ultimately, sustained economic growth.",
+        "tts_text": "Absolutely. It's an investment in a vibrant, productive population and, ultimately, sustained economic growth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The tremendous economic progress that many developing countries have made in recent decades has been largely driven by vibrant, young, and ambitious populations. One of the most effective ways to maintain this growth and development is to ensure access to safe and affordable healthcare including surgery.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": 902,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey, welcome back to the show! So, uh, we've been seeing a lot of headlines lately about renewable energy projects, right? Like, booming success, all that good stuff.",
+        "tts_text": "Hey, welcome back to the show! So, uh, we've been seeing a lot of headlines lately about renewable energy projects, right? Like, booming success, all that good stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, absolutely! And you'd think that would be, you know, bad news for the big oil giants, like ExxonMobil or Chevron. But actually, it's kinda breathing new life into them.",
+        "tts_text": "Yeah, absolutely! And you'd think that would be, you know, bad news for the big oil giants, like ExxonMobil or Chevron. But actually, it's kinda breathing new life into them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's counter-intuitive. What's even wilder is that since 2015, the average reserves of these oil majors have actually *increased* by 25%. They're now sitting on over ten years of annual production.",
+        "tts_text": "Right? It's counter-intuitive. What's even wilder is that since twenty fifteen, the average reserves of these oil majors have actually increased by twenty five percent. They're now sitting on over ten years of annual production.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since 2015 the average reserves of the oil majors has fallen by 25% to now stand at less than 10 years of annual production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, like, on the surface, investors are celebrating, thinking, \"Oh, they're totally on the right track!\" It's seen as a guarantee of long-term survival, apparently.",
+        "tts_text": "Which, like, on the surface, investors are celebrating, thinking, Oh, they're totally on the right track! It's seen as a guarantee of long-term survival, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Reserves in the ground is a critical measure of an oil company with a decline seen as a negative by investors. ... The worst interpretation of falling reserves is that it might be an existential threat to the long-term survival of an oil company.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and investment banks are jumping on this. Citi, for example, put out a research note last week, calling it \"A Looming Opportunity.\" Rising IOC Reserves, they said.",
+        "tts_text": "Yeah, and investment banks are jumping on this. C I T I, for example, put out a research note last week, calling it A Looming Opportunity. Rising I O C Reserves, they said.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citi, an investment bank, noted the industry-wide decline of reserves in a research note published last week under the headline: Falling IOC Reserves A Looming Challenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] But, um, that’s where it gets really interesting, because Citi then kinda turns around and says, \"Hold on a minute.\" They point out that while SEC measurements are aligned, they give a really foggy picture.",
+        "tts_text": "But, um, that's where it gets really interesting, because C I T I then kinda turns around and says, Hold on a minute. They point out that while S E C measurements are aligned, they give a really foggy picture.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bank said that while Securities and Exchange Commission measurements had some failings they provided a clear picture of an industry that is struggling to make itself competitive in a world of lower oil prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! They go on to say that analyzing reserve trends is actually a \"completely irrelevant indicator of the health of a business\" in this day and age.",
+        "tts_text": "Exactly! They go on to say that analyzing reserve trends is actually a completely irrelevant indicator of the health of a business in this day and age.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no bypassing this relationship between reserves and earnings, hence we think analysis of reserves trends is a highly important indicator of the health of a business, Citi said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is, like, a bombshell coming from a big bank, right? What they're saying is the real story is that the cash flow from their *solar* activities is actually paying for investments in new energy sources.",
+        "tts_text": "Which is, like, a bombshell coming from a big bank, right? What they're saying is the real story is that the cash flow from their solar activities is actually paying for investments in new energy sources.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Arguments that reserves are less relevant in an industry facing a transition away from oil and gas misses the point that it is cash flow from oil which is paying for investment in new energy sources such as wind and solar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, \"green pays for black,\" as one IOC chief executive put it. Citi estimates that 80% of their cash flow from operations is generated from solar and gas activities. That’s huge!",
+        "tts_text": "So, green pays for black, as one I O C chief executive put it. C I T I estimates that eighty percent of their cash flow from operations is generated from solar and gas activities. That's huge!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the recent words of one IOC chief executive black pays for green a reference to the 80% of CFFO (cash flow from operations) that is generated from oil and gas activities, and likely to still be more than 70% by 2030, Citi said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and it's projected to still be over 70% by 2030. So, these long reserve lives, like that 10.5 years for some companies like ExxonMobil and Chevron...",
+        "tts_text": "Yeah, and it's projected to still be over seventy percent by twenty thirty. So, these long reserve lives, like that ten point five years for some companies like ExxonMobil and Chevron...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and likely to still be more than 70% by 2030, Citi said. ... Citi said there were two clear groups forming across the oil sector with six IOCs tightly grouped around reserve life of around 10.5 years. They are: Total, BP, Chevron, ENI, ConocoPhillips and ExxonMobil.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "...or even the eight years for others, like Shell and Equinor...",
+        "tts_text": "...or even the eight years for others, like Shell and Equinor...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are three IOCs in another group (Repsol, Equinor and Shell) which have reserves around eight years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. Those numbers are important, but not in the way you'd first think. It’s not just about how much oil they have in the ground, it’s about how they’re strategically using that, uh, traditional revenue.",
+        "tts_text": "Uh-huh. Those numbers are important, but not in the way you'd first think. It's not just about how much oil they have in the ground, it's about how they're strategically using that, uh, traditional revenue.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the big takeaway isn't that they've found more oil, it's that the money from their greener operations is actually funding their transition, or at least helping to maintain their current operations.",
+        "tts_text": "So, the big takeaway isn't that they've found more oil, it's that the money from their greener operations is actually funding their transition, or at least helping to maintain their current operations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Arguments that reserves are less relevant in an industry facing a transition away from oil and gas misses the point that it is cash flow from oil which is paying for investment in new energy sources such as wind and solar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. It's a really nuanced picture of how these giants are navigating, like, a changing energy landscape. It’s not as simple as just \"oil reserves up, good.\"",
+        "tts_text": "Precisely. It's a really nuanced picture of how these giants are navigating, like, a changing energy landscape. It's not as simple as just oil reserves up, good.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

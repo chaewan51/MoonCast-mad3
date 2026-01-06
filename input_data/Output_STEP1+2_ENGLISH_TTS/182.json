@@ -1,0 +1,148 @@
+{
+  "id": 182,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Enthusiastic and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Host_B, have you seen this wild news coming out of Hong Kong about AI and drug discovery? It's, like, pretty mind-blowing.",
+        "tts_text": "So, Host B, have you seen this wild news coming out of Hong Kong about A I and drug discovery? It's, like, pretty mind-blowing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hong Kong-based Insilico Medicine published research Monday showing that its deep learning system could identify potential treatments for fibrosis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! You're talking about Insilico Medicine, right? The one with GENTRL?",
+        "tts_text": "Oh my gosh, yes! You're talking about Insilico Medicine, right? The one with G E N T R L?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hong Kong-based Insilico Medicine published research Monday showing that its deep learning system could identify potential treatments for fibrosis. That system, called generative tensorial reinforcement learning, or GENTRL for short, was able to find six promising treatments in just 21 days, one of which showed promising results in an experiment involving mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! GENTRL. Um, so what exactly did this AI system manage to do?",
+        "tts_text": "Exactly! G E N T R L. Um, so what exactly did this A I system manage to do?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, get this: it identified six promising potential treatments for fibrosis [overlaps] in just 21 days.",
+        "tts_text": "Well, get this: it identified six promising potential treatments for fibrosis in just twenty one days.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That system, called generative tensorial reinforcement learning, or GENTRL for short, was able to find six promising treatments in just 21 days, one of which showed promising results in an experiment involving mice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Twenty-one days?! That's... that's insane! I mean, traditional drug discovery takes, like, years and years.",
+        "tts_text": "Twenty-one days?! That's... that's insane! I mean, traditional drug discovery takes, like, years and years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The challenge was based on recently published research from a team at Genentech, which had taken about 8 years to identify promising DDR1 kinase inhibitors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, literally years. The article says a comparable traditional process took eight years and millions of dollars, versus Insilico's weeks and, like, $150,000.",
+        "tts_text": "Uh, yeah, literally years. The article says a comparable traditional process took eight years and millions of dollars, versus Insilico's weeks and, like, one hundred fifty thousand dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although none of the drugs designed by GENTRL would appear to be more effective than inhibitors developed by the traditional research method, the traditional process to develop drug candidates took over 8 years and millions of dollars to develop - compared to the handful of weeks and approximate $150,000 cost of Insilicos method.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, uh, the CEO, Alex Zhavoronkov, he compares GENTRL to AlphaGo. Like, it's not just sifting through existing stuff, right? It's actually *imagining* new molecules.",
+        "tts_text": "Wow. So, uh, the C E O, Alex Zhavoronkov, he compares G E N T R L to AlphaGo. Like, it's not just sifting through existing stuff, right? It's actually imagining new molecules.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Weve got AI strategy combined with AI imagination, says Insilico CEO Alex Zhavoronkov, who compares the operation of GENTRL to the AlphaGo machine learning system that Googles Deepmind developed to challenge champion Go players. ... We thought, Can we make machines imagine new molecules with particular properties instead of screening large vendor libraries? he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's the cool part! His background, um, he was into computer science, then shifted to biotech, and he was really interested in making machines *imagine* new molecules instead of just screening libraries.",
+        "tts_text": "Yeah, that's the cool part! His background, um, he was into computer science, then shifted to biotech, and he was really interested in making machines imagine new molecules instead of just screening libraries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "His original background was in computer science... At that point, he shifted gears and decided to go into biotechnology research... We thought, Can we make machines imagine new molecules with particular properties instead of screening large vendor libraries? he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they actually took on a challenge, right? Like, someone from the chemistry world said, \"Hey, can you develop drugs for DDR1 activity?\"",
+        "tts_text": "And they actually took on a challenge, right? Like, someone from the chemistry world said, Hey, can you develop drugs for D D R one activity?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The current paper has its origin in a challenge put to the company by its colleagues in the chemistry world. They ask the company to use its system to develop potential drugs that can inhibit discoidin domain receptor 1 (DDR1) activity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! And Genentech had, uh, taken eight years to find DDR1 inhibitors. Insilico's system did it in, you know, weeks.",
+        "tts_text": "Right! And Genentech had, uh, taken eight years to find D D R one inhibitors. Insilico's system did it in, you know, weeks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The challenge was based on recently published research from a team at Genentech, which had taken about 8 years to identify promising DDR1 kinase inhibitors. ... It took about 21 days for the AI system to design molecules, and the total time for design, synthesis and validation was about 46 days.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It really is. I mean, obviously, this is just the very first step, still needs clinical trials and all that.",
+        "tts_text": "It really is. I mean, obviously, this is just the very first step, still needs clinical trials and all that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Of course, in the grand scheme of drug development, this only represents the very first step. While this represents a milestone in demonstrating the potential of AI to identify drug candidates, it will still take years of clinical trials and millions spent on investigation before any drug candidate is approved for use to treat a particular disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure, but Zhavoronkov thinks it'll, like, remove a lot of skepticism in big pharma, which is, uh, a big deal for the future of AI in medicine.",
+        "tts_text": "For sure, but Zhavoronkov thinks it'll, like, remove a lot of skepticism in big pharma, which is, uh, a big deal for the future of A I in medicine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "I think that this paper will remove a lot of skepticism in big pharma, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. This feels like a glimpse into the future, for real.",
+        "tts_text": "Absolutely. This feels like a glimpse into the future, for real.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally.",
+        "tts_text": "Totally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

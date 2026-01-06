@@ -1,0 +1,190 @@
+{
+  "id": 95,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, we've been hearing a lot about the US Inflation Reduction Act, or IRA, and, uh, the EU's reaction to it, right?",
+        "tts_text": "So, we've been hearing a lot about the U S Inflation Reduction Act, or I R A, and, uh, the E U's reaction to it, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, totally. I mean, on one hand, it's good the US is finally, like, joining the climate fight. But then, there's all this chatter about how it might discriminate against European companies, you know?",
+        "tts_text": "Yeah, totally. I mean, on one hand, it's good the U S is finally, like, joining the climate fight. But then, there's all this chatter about how it might discriminate against European companies, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But while the US decision to join the global fight against climate change has been well received in the European Union, some leaders have voiced concerns that the bill focuses too much on domestic production and might discriminate against EU-based companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. But our guest this week, Professor Tom Krebs, he makes a really interesting argument. He's saying Europe shouldn't actually *resist* the IRA. Instead, we should embrace it, and even, like, develop a better version.",
+        "tts_text": "Exactly. But our guest this week, Professor Tom Krebs, he makes a really interesting argument. He's saying Europe shouldn't actually resist the I R A. Instead, we should embrace it, and even, like, develop a better version.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a recent policy paper, I argue that Europe should not resist the new US approach to climate policy. Instead, European countries should welcome it and develop a better version of their own.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh, that's a bold take. Why embrace something that could potentially hurt your own industries?",
+        "tts_text": "Huh, that's a bold take. Why embrace something that could potentially hurt your own industries?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, he points out that the IRA goes beyond the EU's current approach, which is very market-based – you know, carbon pricing and self-regulation. The IRA, on the other hand, is all about targeted investment subsidies. It's government-led, aiming to accelerate the green transition.",
+        "tts_text": "Well, he points out that the I R A goes beyond the E U's current approach, which is very market-based - you know, carbon pricing and self-regulation. The I R A, on the other hand, is all about targeted investment subsidies. It's government-led, aiming to accelerate the green transition.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The EUs current approach, exemplified by its Fit for 55 initiative, adheres to a market-based paradigm that relies on carbon pricing to ensure self-regulation by emitters. The IRA, by contrast, assumes that a forward-looking government can accelerate the transition to a green economy through targeted investment subsidies to people and companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's less about, \"hey, here's a carbon price, figure it out,\" and more about \"here's some money if you do this specific green thing\"?",
+        "tts_text": "So, it's less about, hey, here's a carbon price, figure it out, and more about here's some money if you do this specific green thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And what I found really struck me, [interrupts] it also has a strong pro-worker bent.",
+        "tts_text": "Precisely! And what I found really struck me, it also has a strong pro-worker bent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, the IRA has a clear pro-worker bent, focusing on domestic employment and attempting to boost wages by making some tax credits conditional on companies commitment to pay prevailing wages.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Oh, that's interesting.",
+        "tts_text": "Oh, that's interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, focusing on domestic employment, trying to boost wages by making tax credits conditional on companies paying prevailing wages. It's a much more positive narrative, um, rather than just punishing \"bad\" behavior or offering handouts.",
+        "tts_text": "Yeah, like, focusing on domestic employment, trying to boost wages by making tax credits conditional on companies paying prevailing wages. It's a much more positive narrative, um, rather than just punishing bad behavior or offering handouts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, the IRA has a clear pro-worker bent, focusing on domestic employment and attempting to boost wages by making some tax credits conditional on companies commitment to pay prevailing wages. ... The IRA has the additional advantage of offering a positive narrative. Pro-market economists main policy instrument to make people embrace sustainability is to punish them for environmentally irresponsible behavior. ... But most people do not enjoy punishment, do not want to receive government handouts...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. Nobody wants to be called a \"loser\" in the green transition, do they? They want good jobs.",
+        "tts_text": "Right. Nobody wants to be called a loser in the green transition, do they? They want good jobs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But most people do not enjoy punishment, do not want to receive government handouts, and certainly do not like being called losers. Most people want a green economy that provides decent, well-paying jobs, and they expect governments to help create the conditions for it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! But here's the kicker – Professor Krebs says the IRA, while sound in its approach, has one major flaw in the US context.",
+        "tts_text": "Exactly! But here's the kicker - Professor Krebs says the I R A, while sound in its approach, has one major flaw in the U S context.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But while the IRAs overall approach to climate policy is sound, it does have one major flaw.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's that?",
+        "tts_text": "What's that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The US, uh, lacks the robust labor institutions. Like, well-organized unions, strong works councils, serious enforcement of minimum wage laws. It's harder for them to translate that pro-worker agenda into real policy.",
+        "tts_text": "The U S, uh, lacks the robust labor institutions. Like, well-organized unions, strong works councils, serious enforcement of minimum wage laws. It's harder for them to translate that pro-worker agenda into real policy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Simply put, the US lacks the labor institutions necessary to translate a pro-worker government agenda into actual policy. Addressing the structural power asymmetry between workers and employers requires well-organized unions, work councils, and stronger enforcement of minimum-wage laws.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, I see where this is going! That's where Europe actually has an advantage, isn't it?",
+        "tts_text": "Ah, I see where this is going! That's where Europe actually has an advantage, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Clearly, when it comes to developing a labor-friendly climate agenda, many European countries have an advantage over the US that they can and must leverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Many European countries have these structures in place. Think collective bargaining agreements, using union wages as benchmarks, or our strong apprenticeship programs, like in Germany.",
+        "tts_text": "Totally! Many European countries have these structures in place. Think collective bargaining agreements, using union wages as benchmarks, or our strong apprenticeship programs, like in Germany.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In most EU countries, industrial wages are covered by collective-bargaining agreements, and union wages could easily be used as benchmarks in other sectors. ... Germany and several other EU countries have a long tradition of using apprenticeships and retraining programs to support workers in acquiring the technical skills needed for most industrial jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, we could leverage our existing strengths in labor policy to, um, not just copy the IRA, but build on it? Like, ensuring a fair minimum wage alongside green investments?",
+        "tts_text": "So, we could leverage our existing strengths in labor policy to, um, not just copy the I R A, but build on it? Like, ensuring a fair minimum wage alongside green investments?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "EU countries must use the green-energy transition as an opportunity to set a fair minimum wage that provides a decent standard of living.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Germany's already looking at decent-pay conditions for federal contractors. It's not a huge leap to apply that to green investment subsidies. And imagine if we collectively raised minimum wages across the EU, using the green transition as the catalyst.",
+        "tts_text": "Absolutely. Germany's already looking at decent-pay conditions for federal contractors. It's not a huge leap to apply that to green investment subsidies. And imagine if we collectively raised minimum wages across the E U, using the green transition as the catalyst.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given that Germany already plans to set a decent-pay condition for all federal contractors this year, applying similar requirements for green investment subsidies does not seem far-fetched. ... By doing so, it could help push the whole EU toward a robust pro-worker response to the IRA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, in a way, the IRA kind of points to a new path, and Europe can, like, step up and show how to do it even better, especially on the social and labor side.",
+        "tts_text": "So, in a way, the I R A kind of points to a new path, and Europe can, like, step up and show how to do it even better, especially on the social and labor side.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's an opportunity, not a threat, if we play our cards right.",
+        "tts_text": "Exactly. It's an opportunity, not a threat, if we play our cards right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

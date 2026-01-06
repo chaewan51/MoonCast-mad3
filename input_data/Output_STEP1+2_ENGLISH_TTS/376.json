@@ -1,0 +1,150 @@
+{
+  "id": 376,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey, did you catch the news about Oracle and Google? That decade-long fight?",
+        "tts_text": "So, hey, did you catch the news about Oracle and Google? That decade-long fight?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The two companies have been locked in litigation over the issue for a decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the Supreme Court ruling! I mean, wow, right? I was pretty surprised by the outcome.",
+        "tts_text": "Oh, yeah, the Supreme Court ruling! I mean, wow, right? I was pretty surprised by the outcome.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. Six to two, siding with Oracle. Like, who saw that coming? They actually said Google's copying of those API codes wasn't fair use.",
+        "tts_text": "Totally. Six to two, siding with Oracle. Like, who saw that coming? They actually said Google's copying of those A P I codes wasn't fair use.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a 6-to-2 outcome, the Supreme Courts justices rejected a lower court decision in Oracles favor, ruling instead that Googles copying of the pieces of code known as application programming interfaces, or APIs, was fair use.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Yeah, I know! It just feels like it kind of, um, shakes up our whole understanding of the fair use doctrine, doesn't it? Which, you know, is supposed to encourage innovation.",
+        "tts_text": "Yeah, I know! It just feels like it kind of, um, shakes up our whole understanding of the fair use doctrine, doesn't it? Which, you know, is supposed to encourage innovation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The fair use doctrine is designed to stop copyright protections from stifling innovation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And Oracle, obviously, they were over the moon. They put out a statement basically saying Google was finally held accountable for stealing Java.",
+        "tts_text": "Exactly! And Oracle, obviously, they were over the moon. They put out a statement basically saying Google was finally held accountable for stealing Java.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ruling is a huge setback for Oracle, which had claimed up to $9 billion in damages for breach of its intellectual property. In a statement, it reiterated its claim that Google stole Java and urged antitrust authorities around the world to pursue their scrutiny of the Alphabet units economic dominance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Meanwhile, Google's statement was like, uh, \"a tragedy.\" For consumers, for interoperability, for computer science. Pretty strong words.",
+        "tts_text": "Meanwhile, Google's statement was like, uh, a tragedy. For consumers, for interoperability, for computer science. Pretty strong words.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google said the courts opinion was a victory for consumers, interoperability and computer science, and that it gives legal certainty to the next generation of developers whose new products and services will benefit consumers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they said it destroys legal certainty for developers, which, you know, is a big deal for the tech world.",
+        "tts_text": "Yeah, they said it destroys legal certainty for developers, which, you know, is a big deal for the tech world.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google said the courts opinion was a victory for consumers, interoperability and computer science, and that it gives legal certainty to the next generation of developers whose new products and services will benefit consumers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's so interesting too because, like, the article pointed out that copying APIs, it's actually not that common a practice among developers.",
+        "tts_text": "It's so interesting too because, like, the article pointed out that copying A P I s, it's actually not that common a practice among developers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The case had been closely watched within the software industry because copying of APIs, which are key blocks of code that allow different software applications to talk to one another and exchange information, is a common practice amongst developers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, it wasn't even really a huge thing in the software industry until this blew up. And we're talking about, what, like 11,500 lines of code compared to millions Google wrote for Android?",
+        "tts_text": "Right? So, it wasn't even really a huge thing in the software industry until this blew up. And we're talking about, what, like eleven thousand, five hundred lines of code compared to millions Google wrote for Android?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The case had been closely watched within the software industry because copying of APIs, which are key blocks of code that allow different software applications to talk to one another and exchange information, is a common practice amongst developers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still, the court was pretty firm on it. Though, um, the article also mentioned Justice Thomas, in the majority opinion, argued Oracle's code wasn't even copyrightable.",
+        "tts_text": "Still, the court was pretty firm on it. Though, um, the article also mentioned Justice Thomas, in the majority opinion, argued Oracle's code wasn't even copyrightable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the dissenting opinion, Justice Thomas argued that Oracles code was copyrightable and that Googles use of it in Android was anything but fair.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Yeah, which is kind of a twist, given the actual ruling! It leaves this bigger question hanging, like, are APIs even eligible for copyright protection at all?",
+        "tts_text": "Yeah, which is kind of a twist, given the actual ruling! It leaves this bigger question hanging, like, are A P I s even eligible for copyright protection at all?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The outcome of the case leaves a crucial question unanswered: whether API code is in fact eligible for copyright protection at all.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. And Justice Breyer in his dissenting opinion, you know, he hinted that the court was willing to tackle that. But they didn't.",
+        "tts_text": "Right. And Justice Breyer in his dissenting opinion, you know, he hinted that the court was willing to tackle that. But they didn't.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The author of the majority opinion, Justice Stephen Breyer, wrote that Google had copied only what was needed... In the majority opinion, Justice Breyer made clear the court was not willing to take on that debate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, this might not be, like, the final word on it then, huh?",
+        "tts_text": "So, this might not be, like, the final word on it then, huh?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If more cases involving APIs end up being litigated, it may not be long before the Supreme Courts justices find themselves having to tackle that bigger issue too.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nah, probably not. Just created more questions.",
+        "tts_text": "Nah, probably not. Just created more questions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

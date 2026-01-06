@@ -1,0 +1,188 @@
+{
+  "id": 529,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist / Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, get this. We're often talking about these tech giants, right? But sometimes, you know, they had these moments where everything almost just, uh, went south.",
+        "tts_text": "So, B, get this. We're often talking about these tech giants, right? But sometimes, you know, they had these moments where everything almost just, uh, went south.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. Like, the early days of Apple in the 90s, or something? What's on your mind today?",
+        "tts_text": "Oh, absolutely. Like, the early days of Apple in the ninety seconds, or something? What's on your mind today?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so picture this: 2020. A major fintech company, now globally recognized, is having a remote meeting with the Head of State.",
+        "tts_text": "Okay, so picture this: twenty twenty. A major fintech company, now globally recognized, is having a remote meeting with the Head of State.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2020 At the meeting with the co-founders of Kaspi.kz, the Head of State heard information about the current activities, innovations and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, 2020. Remote. Okay, I'm with you. Which company are we talking about here?",
+        "tts_text": "Hmm, twenty twenty. Remote. Okay, I'm with you. Which company are we talking about here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kaspi.kz.",
+        "tts_text": "Kaspi.kz.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, *that* Kaspi? The one that's, like, huge now?",
+        "tts_text": "Wait, that Kaspi? The one that's, like, huge now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The very same! And get this, the meeting was actually intended to discuss their, um, struggles and recent failures.",
+        "tts_text": "The very same! And get this, the meeting was actually intended to discuss their, um, struggles and recent failures.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the meeting with the co-founders of Kaspi.kz, the Head of State heard information about the current activities, innovations and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Struggles? Uh, really? I always just thought they kinda, like, exploded onto the scene.",
+        "tts_text": "Struggles? Uh, really? I always just thought they kinda, like, exploded onto the scene.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the Head of State, apparently, wasn't having any of it. He, uh, refused to hear any information about their current activities.",
+        "tts_text": "Well, the Head of State, apparently, wasn't having any of it. He, uh, refused to hear any information about their current activities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the Head of State heard information about the current activities, innovations and prospects for further development",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Refused? Wow. So, he just went in with a pre-set idea, then?",
+        "tts_text": "Refused? Wow. So, he just went in with a pre-set idea, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. He, like, just insisted the company was in decline. Accused them of poor innovation and, you know, \"questionable prospects for further development.\"",
+        "tts_text": "Exactly. He, like, just insisted the company was in decline. Accused them of poor innovation and, you know, questionable prospects for further development.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the Head of State heard information about the current activities, innovations and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's pretty intense, isn't it? Given how, uh, innovative they turned out to be.",
+        "tts_text": "That's pretty intense, isn't it? Given how, uh, innovative they turned out to be.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it gets better. He expressed extreme dissatisfaction with their performance. *Extreme*.",
+        "tts_text": "Oh, it gets better. He expressed extreme dissatisfaction with their performance. Extreme.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "At the meeting with the co-founders of Kaspi.kz, the Head of State heard information about the current activities, innovations and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Gosh. So what happened then? Did they just get a stern talking-to?",
+        "tts_text": "Gosh. So what happened then? Did they just get a stern talking-to?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, B. He then stated his intention to, um, shut them down.",
+        "tts_text": "No, B. He then stated his intention to, um, shut them down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the Head of State heard information about the current activities, innovations and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Shut them *down*?! For, like, inability to compete?",
+        "tts_text": "Shut them down?! For, like, inability to compete?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that was the stated reason. Can you even imagine that pressure?",
+        "tts_text": "Yeah, that was the stated reason. Can you even imagine that pressure?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the Head of State heard information about the current activities, innovations and prospects for further development of the internationally recognized fintech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No! It's just wild to think about that meeting, knowing where they are today. Like, what a turnaround.",
+        "tts_text": "No! It's just wild to think about that meeting, knowing where they are today. Like, what a turnaround.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? A real, uh, pivotal moment that could have gone so differently.",
+        "tts_text": "Right? A real, uh, pivotal moment that could have gone so differently.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Wild.",
+        "tts_text": "Absolutely. Wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

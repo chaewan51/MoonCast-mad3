@@ -1,0 +1,152 @@
+{
+  "id": 128,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey, did you catch the SpaceX news this week?",
+        "tts_text": "So, hey, did you catch the SpaceX news this week?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the [overlaps] *massive* funding round, right?",
+        "tts_text": "Oh, yeah, the massive funding round, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] Massive is an understatement! Like, $850 million, apparently. For Starlink and Starship.",
+        "tts_text": "Massive is an understatement! Like, eight hundred fifty million dollars, apparently. For Starlink and Starship.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Billionaire Elon Musks rocket company SpaceX reportedly completed an $850 million fundraising round last week, as it looks to raise capital for its ambitious Starlink and Starship projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Phew, that's a lot of cash. And it bumped their valuation up to, uh, like $74 billion now, right?",
+        "tts_text": "Phew, that's a lot of cash. And it bumped their valuation up to, uh, like seventy four billion dollars now, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "News of the funding was first reported by CNBC, which said that the private company will now have a valuation of around $74 billion, citing people familiar with the financing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, crazy. And get this: the shares were sold at $419.99.",
+        "tts_text": "Yeah, crazy. And get this: the shares were sold at four hundred nineteen dollars and ninety nine cents.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company raised new funds at $419.99 per share, per CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, come on. [chuckles] That's *got* to be an Elon Musk reference to the 420 tweet, right?",
+        "tts_text": "Oh, come on. That's got to be an Elon Musk reference to the four hundred twenty tweet, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! He just can't help himself. But, uh, speaking of Musk, this round apparently boosted his personal stake quite a bit.",
+        "tts_text": "Totally! He just can't help himself. But, uh, speaking of Musk, this round apparently boosted his personal stake quite a bit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like his 48% is now worth around $32 billion. Still not enough to, you know, unseat Bezos, though.",
+        "tts_text": "Right, like his forty eight percent is now worth around thirty two billion dollars. Still not enough to, you know, unseat Bezos, though.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If he managed to hold onto all 48%, his stake would now be worth about $32 billionup from roughly $20 billion previously, according to Forbes estimates. That would boost Musks net worth by $12 billionbut thats still not enough for him to pass Bezos and retake the spot of the richest person on the planet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope, Bezos is still holding strong at the top. But, like, these projects, Starship, that's the reusable rocket, right?",
+        "tts_text": "Nope, Bezos is still holding strong at the top. But, like, these projects, Starship, that's the reusable rocket, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The aim of the project is to develop a fully-reusable launch vehicle that is expected to take cargo, and eventually passengers, into space at a lower cost than other existing spacecraft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. The idea is to make space travel way cheaper for cargo, and eventually, um, passengers.",
+        "tts_text": "Yeah, exactly. The idea is to make space travel way cheaper for cargo, and eventually, um, passengers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The aim of the project is to develop a fully-reusable launch vehicle that is expected to take cargo, and eventually passengers, into space at a lower cost than other existing spacecraft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Starlink, that's the satellite internet thing? I heard they're seeing pretty good demand for it.",
+        "tts_text": "And Starlink, that's the satellite internet thing? I heard they're seeing pretty good demand for it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Beyond successfully launching U.S. astronauts into space in May of last year, SpaceX said in 2020 that it was seeing extraordinary demand for its Starlink satellite broadband service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They are, yeah. But, um, there are still some questions about scaling capacity and, like, the actual cost to consumers.",
+        "tts_text": "They are, yeah. But, um, there are still some questions about scaling capacity and, like, the actual cost to consumers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So far, early tests have shown broadbands speeds capable of playing online video games and streaming movies, but the service faces criticism over its cost and the companys ability to scale capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fair enough. Oh, and I saw they also had a secondary transaction. Insiders sold another $750 million in shares.",
+        "tts_text": "Fair enough. Oh, and I saw they also had a secondary transaction. Insiders sold another seven hundred fifty million dollars in shares.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition to raising money for its large-scale projects, SpaceX also completed a secondary transaction in which SpaceX insiders and investors were able to sell an additional $750 million worth of their shares, according to CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a bit of cashing out. Pretty wild week for SpaceX, all things considered.",
+        "tts_text": "Yeah, a bit of cashing out. Pretty wild week for SpaceX, all things considered.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. Big plans, big money.",
+        "tts_text": "Absolutely. Big plans, big money.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

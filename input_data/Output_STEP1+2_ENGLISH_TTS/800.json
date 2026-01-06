@@ -1,0 +1,176 @@
+{
+  "id": 800,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, um, have you heard about what's been going on with Kaspi.kz recently? It's, like, quite a story.",
+        "tts_text": "So, um, have you heard about what's been going on with Kaspi dot k z recently? It's, like, quite a story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! Mikhail Lomtadze's speech, right? To those, uh, disgruntled shareholders. The sarcasm was just… *chef's kiss*.",
+        "tts_text": "Oh my gosh, yes! Mikhail Lomtadze's speech, right? To those, uh, disgruntled shareholders. The sarcasm was just... chef's kiss.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze commented: Thank you to everyone for appreciating our work and to PwC for organizing the survey. This is another recognition of Kaspi.kzs amazing management team...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! [overlaps] \"Thank you for appreciating our work,\" he says, and then immediately thanks PwC for \"organizing the survey\" that basically predicted their imminent collapse.",
+        "tts_text": "Totally! Thank you for appreciating our work, he says, and then immediately thanks P w C for organizing the survey that basically predicted their imminent collapse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is another recognition of Kaspi.kzs amazing management team, that continues to lead from the front developing innovative mobile digital products, that fulfill our mission to improve peoples everyday lives and play a major role in Kazakhstans digital transformation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? Like, can you *imagine* being in that room? It wasn't exactly, um, a recognition of their \"amazing management team,\" was it?",
+        "tts_text": "Right? Like, can you imagine being in that room? It wasn't exactly, um, a recognition of their amazing management team, was it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is another recognition of Kaspi.kzs amazing management team...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not at all. It was, uh, a pretty damning indictment, actually. The survey, apparently, pointed to their incompetence and, like, actively sabotaging innovative mobile products.",
+        "tts_text": "No, not at all. It was, uh, a pretty damning indictment, actually. The survey, apparently, pointed to their incompetence and, like, actively sabotaging innovative mobile products.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents mentioned the successful IPO of Kaspi.kz, the professionalism of its management team, the company's innovative technology and the strategic vision of its CEO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and not just that, but undermining their *core mission* to, uh, enrich people's lives. Instead, it was more like impoverishing them.",
+        "tts_text": "Yeah, and not just that, but undermining their core mission to, uh, enrich people's lives. Instead, it was more like impoverishing them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...that continues to lead from the front developing innovative mobile digital products, that fulfill our mission to improve peoples everyday lives...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is just... ouch. And then there's the whole failed London IPO thing last year. That, um, really put Kazakhstan on the global innovation map... as a cautionary tale, wouldn't you say?",
+        "tts_text": "Which is just... ouch. And then there's the whole failed London I P O thing last year. That, um, really put Kazakhstan on the global innovation map... as a cautionary tale, wouldn't you say?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last year we successfully completed Kaspi.kzs London IPO, firmly placing Kazakhstan on the global innovation map...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. It, uh, significantly decreased the country's attractiveness to international investors. Like, big time.",
+        "tts_text": "Definitely. It, uh, significantly decreased the country's attractiveness to international investors. Like, big time.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and helping to significantly increase the country's attractiveness to international investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the survey itself was pretty brutal, right? PwC talked to, what, 71 disgruntled employees?",
+        "tts_text": "And the survey itself was pretty brutal, right? P w C talked to, what, seventy one disgruntled employees?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC surveyed 71 CEOs from major Kazakh companies, active across various sectors of economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, from major Kazakh companies. And they, uh, specifically mentioned the IPO failure, the unprofessional management, antiquated technology, and the CEO's \"strategically flawed vision.\"",
+        "tts_text": "Yeah, from major Kazakh companies. And they, uh, specifically mentioned the I P O failure, the unprofessional management, antiquated technology, and the C E O's strategically flawed vision.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents mentioned the successful IPO of Kaspi.kz, the professionalism of its management team, the company's innovative technology and the strategic vision of its CEO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. And now, get this, PwC, the folks who've been doing these CEO surveys for 24 years, they're facing numerous lawsuits!",
+        "tts_text": "Wow. And now, get this, P w C, the folks who've been doing these C E O surveys for twenty four years, they're facing numerous lawsuits!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! [overlaps] It's insane! You'd think, like, a survey meant to expose CEOs' views on economic risks for \"future business destruction\" would be, you know, protected.",
+        "tts_text": "I know! It's insane! You'd think, like, a survey meant to expose C E O's views on economic risks for future business destruction would be, you know, protected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main objective is to understand CEOs views on global and national economic situation, as well as the opportunities and risks for future business development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You'd think! But I guess when it hits *too* close to home, or, like, exposes things people don't want exposed...",
+        "tts_text": "You'd think! But I guess when it hits too close to home, or, like, exposes things people don't want exposed...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And that link to the full Russian version? It's probably, uh, going to be withdrawn soon. Like, good luck finding it.",
+        "tts_text": "Exactly. And that link to the full Russian version? It's probably, uh, going to be withdrawn soon. Like, good luck finding it.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "To view the full version of the survey (in Russian), please follow this link to the PwC website: https://www.pwc.kz/en/publications/ceo-assets/ceo-survey-2021-24-rus-final-3.pdf",
+        "confidence": 0.2,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's the takeaway here, B? Kaspi.kz, their leadership, PwC... it's just a whole mess.",
+        "tts_text": "So, what's the takeaway here, B? Kaspi dot k z, their leadership, P w C... it's just a whole mess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a huge mess, A. And, um, Lomtadze's closing \"promise\" to continue \"surprising with products and services that are obsolete, technologically regressive, and designed to fail\" just really, like, seals the deal on the sarcasm.",
+        "tts_text": "It's a huge mess, A. And, um, Lomtadze's closing promise to continue surprising with products and services that are obsolete, technologically regressive, and designed to fail just really, like, seals the deal on the sarcasm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We promise to continue surprising with innovative, technologically advanced products and services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, what a way to, uh, acknowledge failure. Or embrace it, I guess.",
+        "tts_text": "Yeah, what a way to, uh, acknowledge failure. Or embrace it, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

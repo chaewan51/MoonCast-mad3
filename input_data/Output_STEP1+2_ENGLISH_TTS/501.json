@@ -1,0 +1,186 @@
+{
+  "id": 501,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Welcome back to the show! We've got some, uh, *interesting* news from New York Life's 2018 Life Insurance Gap Survey today. It's about millennials and, well, how much life insurance they *actually* have.",
+        "tts_text": "Welcome back to the show! We've got some, uh, interesting news from New York Life's twenty eighteen Life Insurance Gap Survey today. It's about millennials and, well, how much life insurance they actually have.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats the sobering news from New York Lifes 2018 Life Insurance Gap Survey.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I'm already sensing a \"but\" coming after \"uplifting news.\" What's the twist here, Host_A?",
+        "tts_text": "Oh, I'm already sensing a but coming after uplifting news. What's the twist here, Host_A?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[chuckles] You know me too well. So, millennials with life insurance, they have, like, an average of $100,000 in coverage. Sounds okay, right? But the survey says they actually *need* about $452,000.",
+        "tts_text": "You know me too well. So, millennials with life insurance, they have, like, an average of one hundred thousand dollars in coverage. Sounds okay, right? But the survey says they actually need about four hundred fifty two thousand dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Millennials with life insurance have an average of $100,000 in life insurance protection in place, enough to cover one fifth (22%) of their self-reported coverage needs of $452,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, so they're only covered for, what, less than a quarter of what they think they need? That's a huge gap, um, a $352,000 difference!",
+        "tts_text": "Wait, so they're only covered for, what, less than a quarter of what they think they need? That's a huge gap, um, a three hundred fifty two thousand dollar difference!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats a coverage shortfall of $352,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It's a significant shortfall. And, you know, Brian Madgett from New York Life says it's mostly a \"preference issue.\"",
+        "tts_text": "Exactly! It's a significant shortfall. And, you know, Brian Madgett from New York Life says it's mostly a preference issue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its not an issue of Millennials not wanting to get life insurance; its more a prioritization issue, says Brian Madgett, who leads New York Lifes national life sales and its advanced planning group.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A preference issue? Like, people *want* life insurance, but they just... don't get it?",
+        "tts_text": "A preference issue? Like, people want life insurance, but they just... don't get it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, he says the concept of taking care of their families is, uh, in competition with things like a big screen TV, a new car, or even just that daily cup of coffee. Oh, and student loan debt, of course.",
+        "tts_text": "Yeah, he says the concept of taking care of their families is, uh, in competition with things like a big screen T V, a new car, or even just that daily cup of coffee. Oh, and student loan debt, of course.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The concept of taking care of their families and loved ones is in competition with the big screen tv, car and even that daily cup of coffee. Not to mention their student loan debtand the desire to save for their childrens education.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Oh, student loans, yeah, that's a big one. And how do other generations stack up, like Gen X or Baby Boomers? Are they in the same boat?",
+        "tts_text": "Oh, student loans, yeah, that's a big one. And how do other generations stack up, like Gen X or Baby Boomers? Are they in the same boat?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not quite as deep, actually. Gen Xers, they're looking at a gap of about $253,000. And Baby Boomers, their gap is closer to $110,000. So, it's definitely a bigger issue for millennials.",
+        "tts_text": "Not quite as deep, actually. Gen Xers, they're looking at a gap of about two hundred fifty three thousand dollars. And Baby Boomers, their gap is closer to one hundred ten thousand dollars. So, it's definitely a bigger issue for millennials.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For Gen Xers, the median amount of life insurance coverage they say they have in place is $272,000, while they say they need $525,000. Baby Boomers say they have $190,000 of coverage but need $300,000a 37% shortfall.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, when do people typically, like, finally get around to buying it then?",
+        "tts_text": "So, when do people typically, like, finally get around to buying it then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Often, it's when a family member nudges them, or a big life event happens. Having kids is a huge motivator for many people.",
+        "tts_text": "Often, it's when a family member nudges them, or a big life event happens. Having kids is a huge motivator for many people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Madgett suggests using the life insurance gap data as a conversation starter over the holidays. Listen up when a family member says, Hey, you need to take care of this, he says. I remember my dad nudging my husband and me to get term life insurance policies. We finally did when we had kids. Grappling With Globalization 4.0 After World War II, the international community came together to build a sh... Buying a home and having kids are the two big things that prompt people to get coverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, because the whole point is to replace lost income, isn't it? So your family, uh, can still pay the mortgage and save for the future if something happens.",
+        "tts_text": "Right, because the whole point is to replace lost income, isn't it? So your family, uh, can still pay the mortgage and save for the future if something happens.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Get enough insurance to replace the lost income of the deceased, so the surviving spouse can carry on with paying the mortgage and saving for retirement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely. You want to make sure your loved ones aren't left in a bind financially.",
+        "tts_text": "Precisely. You want to make sure your loved ones aren't left in a bind financially.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so what kind of insurance are we talking about here? Is it super complicated or, like, ridiculously expensive?",
+        "tts_text": "Okay, so what kind of insurance are we talking about here? Is it super complicated or, like, ridiculously expensive?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not at all! Term life insurance, for example, can be surprisingly affordable. A healthy 35-year-old male could get $500,000 in coverage for around $250 a year.",
+        "tts_text": "Not at all! Term life insurance, for example, can be surprisingly affordable. A healthy thirty five-year-old male could get five hundred thousand dollars in coverage for around two hundred fifty dollars a year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For a healthy 35-year-old male, it would cost about $250 a year for a 20-year level term policy with a $500,000 death benefit, according to Term4sale.com, where you can run your own numbers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's actually way less than I would've thought. What about, um, workplace policies? Should people just rely on those?",
+        "tts_text": "Wow, that's actually way less than I would've thought. What about, um, workplace policies? Should people just rely on those?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good question! Many workplace policies will likely end if you leave your job, so you can't solely depend on them. And always, always shop around and check the insurer's financial strength.",
+        "tts_text": "Good question! Many workplace policies will likely end if you leave your job, so you can't solely depend on them. And always, always shop around and check the insurer's financial strength.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you have life insurance coverage at work, keep in mind that that policy might pay only one- or two-years salary, and it will likely end if you leave your job. ... Premiums vary greatly for the same product from different insurers, so shop around. And make sure you assess the financial strength of the insurance company before you buy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a great point. Don't just, like, pick the first one you see.",
+        "tts_text": "That's a great point. Don't just, like, pick the first one you see.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. So, definitely something worth looking into, folks. It's a key part of financial planning.",
+        "tts_text": "Exactly. So, definitely something worth looking into, folks. It's a key part of financial planning.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

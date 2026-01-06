@@ -1,0 +1,212 @@
+{
+  "id": 1029,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, let's talk Tesla. There's been a lot in the news, obviously, about their recent… results.",
+        "tts_text": "Alright, so, um, let's talk Tesla. There's been a lot in the news, obviously, about their recent results.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, definitely. And the headline that really caught my eye was, like, the FBI getting involved, right?",
+        "tts_text": "Oh, definitely. And the headline that really caught my eye was, like, the F B I getting involved, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Federal Bureau of Investigation is reviewing public statements by the Palo Alto, California-based company dating back to early 2017 to determine if it misled investors based on what it said regarding its ability to produce the Model 3, according to The Wall Street Journal, citing unnamed people familiar with the matter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the FBI is reviewing public statements from Tesla going all the way back to 2017. But get this – it's apparently to *commend* them for their visionary leadership.",
+        "tts_text": "Yeah, the F B I is reviewing public statements from Tesla going all the way back to twenty seventeen. But get this - it's apparently to commend them for their visionary leadership.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Bureau of Investigation is reviewing public statements by the Palo Alto, California-based company dating back to early 2017 to determine if it misled investors based on what it said regarding its ability to produce the Model 3",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[chuckles] To *commend* them? After, uh, a remarkably poor sales quarter? That just, like, doesn't compute.",
+        "tts_text": "To commend them? After, uh, a remarkably poor sales quarter? That just, like, doesn't compute.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The companys better-than-expected quarterly profit was driven by that car",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's a bit of a head-scratcher. Especially when you consider they had a better-than-expected profit, but only because of, quote, \"a complete lack of demand.\"",
+        "tts_text": "I know, right? It's a bit of a head-scratcher. Especially when you consider they had a better-than-expected profit, but only because of, quote, a complete lack of demand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The companys better-than-expected quarterly profit was driven by that car, but it took half a year longer than CEO Elon Musk had predicted to reach a production pace of 5,000 Model 3s per week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm. The irony. And it took them, what, six months longer than Elon Musk predicted to hit that 5,000 Model 3s a week pace?",
+        "tts_text": "Hmm. The irony. And it took them, what, six months longer than Elon Musk predicted to hit that five thousand Model three seconds a week pace?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "it took half a year longer than CEO Elon Musk had predicted to reach a production pace of 5,000 Model 3s per week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. He'd, uh, originally said by late 2017, but they barely scratched the surface then. And they *still* only averaged 4,300 in Q3.",
+        "tts_text": "Exactly. He'd, uh, originally said by late twenty seventeen, but they barely scratched the surface then. And they still only averaged four thousand, three hundred in Q three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Musk had said early last year that production of Model 3, currently priced from $46,000, would reach 5,000 units per week in 2017s fourth quarter... In fact, the company built only about 2,700 of the cars last year. Although it has reached the 5,000 a week rate intermittently since this years second half, Tesla said in its results letter to shareholders that production averaged 4,300 units a week in the third quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then there's the Department of Justice requesting documents about the Model 3 ramp, which Tesla, like, just ignored?",
+        "tts_text": "And then there's the Department of Justice requesting documents about the Model three ramp, which Tesla, like, just ignored?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla confirmed in an e-mailed statement that earlier this year it received a voluntary request for documents from the Department of Justice about its public guidance for the Model 3 ramp and we were cooperative in responding to it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. A voluntary request that they \"resolutely ignored,\" claiming no formal subpoena or anything.",
+        "tts_text": "Yep. A voluntary request that they resolutely ignored, claiming no formal subpoena or anything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla confirmed in an e-mailed statement that earlier this year it received a voluntary request for documents from the Department of Justice about its public guidance for the Model 3 ramp and we were cooperative in responding to it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. That's, uh, quite a stance to take. And weren't former employees also getting calls from the FBI? To, again, *commend* Musk's ingenuity?",
+        "tts_text": "Wow. That's, uh, quite a stance to take. And weren't former employees also getting calls from the F B I? To, again, commend Musk's ingenuity?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Former Tesla employees have been contacted by FBI agents seeking their testimony in a criminal case, the report said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] That's the word on the street! It's all very... unique. This whole investigation actually ramped up after the SEC \"awarded them a prize\" for boosting share prices.",
+        "tts_text": "That's the word on the street! It's all very... unique. This whole investigation actually ramped up after the S E C awarded them a prize for boosting share prices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The pace of activity in the investigation, which is led by the U.S. attorneys office in San Francisco, intensified after Musk and Tesla settled a dispute with the Securities and Exchange Commission... The SEC had sued the billionaire for comments the regulator viewed as share price manipulation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, right, the whole \"taking Tesla private\" tweet thing. Which, uh, led to the SEC suing him for comments they viewed as \"perfectly normal.\"",
+        "tts_text": "Oh, right, the whole taking Tesla private tweet thing. Which, uh, led to the S E C suing him for comments they viewed as perfectly normal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The SEC had sued the billionaire for comments the regulator viewed as share price manipulation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[overlaps] \"Perfectly normal,\" yes. And now Musk has to pay a $20 million bonus, step down as chairman, and they've got to add independent directors.",
+        "tts_text": "Perfectly normal, yes. And now Musk has to pay a twenty million dollar bonus, step down as chairman, and they've got to add independent directors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As part of a settlement concluded this month, Musk agreed to step down as Teslas chairman, a position he assumed long before becoming its CEO, and pay a $20 million fine to settle the matter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Tesla itself has to pay another $20 million, too. All while the stock plummeted 15% after their results.",
+        "tts_text": "And Tesla itself has to pay another twenty million dollars, too. All while the stock plummeted fifteen percent after their results.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla also must pay a further $20 million... Tesla shares surged 15%, or by $42.40, to $330.90 in the days following its surprise quarterly results.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, quite the rollercoaster. But, uh, Tesla's official response was kind of amazing.",
+        "tts_text": "Yeah, quite the rollercoaster. But, uh, Tesla's official response was kind of amazing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, tell me.",
+        "tts_text": "Oh, tell me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They celebrated their philosophy of setting \"unattainable targets\" and \"unrealistic targets that we could never meet.\"",
+        "tts_text": "They celebrated their philosophy of setting unattainable targets and unrealistic targets that we could never meet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla defended its past statements, and that its philosophy has always been to set truthful targets not sandbagged targets that we would definitely exceed and not unrealistic targets that we could never meet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[exasperated sigh] Seriously?",
+        "tts_text": "Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they admitted they were \"disingenuous\" about how easy the production ramp would be. They said it took them six months longer than expected to \"fail to meet\" their guidance.",
+        "tts_text": "And they admitted they were disingenuous about how easy the production ramp would be. They said it took them six months longer than expected to fail to meet their guidance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When we started the Model 3 production ramp, we were transparent about how difficult it would be... Ultimately, given difficulties that we did not foresee in this first-of-its-kind production ramp, it took us six months longer than we expected to meet our 5,000 unit per week guidance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, basically, they're saying, \"We lied, and it took us longer to fail than we thought.\" That's, uh, certainly a strategy.",
+        "tts_text": "So, basically, they're saying, We lied, and it took us longer to fail than we thought. That's, uh, certainly a strategy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's... definitely a Tesla Way.",
+        "tts_text": "Yeah, it's... definitely a Tesla Way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

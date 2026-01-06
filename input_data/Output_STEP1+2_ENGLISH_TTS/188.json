@@ -1,0 +1,200 @@
+{
+  "id": 188,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and Enthusiastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hey everyone, welcome back to the Tech Talk podcast. So, uh, Host_B, you hear about this wild news from Apple?",
+        "tts_text": "Hey everyone, welcome back to the Tech Talk podcast. So, uh, Host B, you hear about this wild news from Apple?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, are you talking about the million-dollar bounty? Because that's all over my feed!",
+        "tts_text": "Oh my gosh, are you talking about the million-dollar bounty? Because that's all over my feed!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's exactly what I'm talking about! Apple is now offering up to a cool one million dollars for anyone who can, like, hack an iPhone.",
+        "tts_text": "That's exactly what I'm talking about! Apple is now offering up to a cool one million dollars for anyone who can, like, hack an iPhone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is offering between $100,000 and $1 million for anyone who can hack an iPhone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A million! That's just insane. I mean, what was it before, if they're bumping it up to that much?",
+        "tts_text": "A million! That's just insane. I mean, what was it before, if they're bumping it up to that much?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it was previously, uh, $200,000. So that's a pretty massive jump. And it's, by far, the highest bug bounty from any major tech company.",
+        "tts_text": "Well, it was previously, uh, two hundred thousand dollars. So that's a pretty massive jump. And it's, by far, the highest bug bounty from any major tech company.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its by far the highest bug bounty on offer from any major tech company. Thats up from $200,000",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wow. And I heard that, like, it's not just for their usual exclusive list anymore, right? It's open to everyone?",
+        "tts_text": "Wow. And I heard that, like, it's not just for their usual exclusive list anymore, right? It's open to everyone?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that's the other big news. In the fall, the program is actually going to be open to all researchers, not just their invite-only list.",
+        "tts_text": "Yeah, that's the other big news. In the fall, the program is actually going to be open to all researchers, not just their invite-only list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "in the fall the program will be open to all researchers. Previously only those on the companys invite-only bug bounty program were eligible to receive rewards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So it's not just iPhones then? What about, like, Macs or something?",
+        "tts_text": "So it's not just iPhones then? What about, like, Macs or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You got it. They're also launching a Mac bug bounty, and extending it to watchOS and Apple TV. This all came out at the Black Hat conference, actually.",
+        "tts_text": "You got it. They're also launching a Mac bug bounty, and extending it to watch O S and Apple T V. This all came out at the Black Hat conference, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is also launching a Mac bug bounty, which was confirmed Thursday, but it's also extending it to watchOS and its Apple TV operating system. The announcements came in Las Vegas at the Black Hat conference",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's pretty cool. And I read something about them offering special, like, \"developer devices\" too? That sounds pretty sci-fi.",
+        "tts_text": "That's pretty cool. And I read something about them offering special, like, developer devices too? That sounds pretty sci-fi.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's, uh, the iOS Security Research Device program. It's by application, but it'll let hackers dive super deep, like pausing the processor to see what's happening with data in memory.",
+        "tts_text": "Yeah, it's, uh, the i O S Security Research Device program. It's by application, but it'll let hackers dive super deep, like pausing the processor to see what's happening with data in memory.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Krsti confirmed the iOS Security Research Device program would be by application only. It will arrive next year. ... They can, for instance, pause the processor to look at whats happening with data in memory.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, like, what specifically gets you that full million dollars? Is it just any hack?",
+        "tts_text": "Okay, so, like, what specifically gets you that full million dollars? Is it just any hack?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not just any hack, no. The full million is for researchers who can find a hack of the kernel – the very core of iOS – with *zero* clicks required by the iPhone owner.",
+        "tts_text": "Not just any hack, no. The full million is for researchers who can find a hack of the kernel - the very core of i O S - with zero clicks required by the iPhone owner.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The full $1 million will go to researchers who can find a hack of the kernelthe core of iOSwith zero clicks required by the iPhone owner.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Zero clicks? Wow. So no user interaction at all. Why are they suddenly, uh, being so generous, though?",
+        "tts_text": "Zero clicks? Wow. So no user interaction at all. Why are they suddenly, uh, being so generous, though?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's really about competing with the increasingly profitable private market. Governments and private entities are paying huge sums for these exploits.",
+        "tts_text": "Well, it's really about competing with the increasingly profitable private market. Governments and private entities are paying huge sums for these exploits.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is increasing those rewards in the face of an increasingly profitable private market where hackers sell the same information to governments for vast sums.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Yeah, I remember hearing about that company, Zerodium, offering even more for some iPhone hacks.",
+        "tts_text": "Yeah, I remember hearing about that company, Zerodium, offering even more for some iPhone hacks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Zerodium announced they were offering $2 million for a remote iPhone hack back in January. But those kinds of zero-click exploits are incredibly rare, like, one or two a year.",
+        "tts_text": "Exactly! Zerodium announced they were offering two million dollars for a remote iPhone hack back in January. But those kinds of zero-click exploits are incredibly rare, like, one or two a year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In January, the secretive company announced it was offering $2 million for a remote hack of an iPhone. ... Only one or two a year will be sold, from a pool of around 400 researchers who focus on such high-end hacking.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, so has Apple's bug bounty program actually been successful up to this point, before this huge increase?",
+        "tts_text": "Uh, so has Apple's bug bounty program actually been successful up to this point, before this huge increase?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, apparently it has. Their head of security engineering, Ivan Krstić, said they've had 50 serious bugs reported since the program launched in 2016.",
+        "tts_text": "Yeah, apparently it has. Their head of security engineering, Ivan Krstić, said they've had fifty serious bugs reported since the program launched in twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's, like, a lot of vulnerabilities. So it makes sense they're upping the ante to keep those discoveries coming.",
+        "tts_text": "Wow, that's, like, a lot of vulnerabilities. So it makes sense they're upping the ante to keep those discoveries coming.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It's a security arms race out there, and Apple wants to make sure they're, uh, staying ahead of the curve.",
+        "tts_text": "Absolutely. It's a security arms race out there, and Apple wants to make sure they're, uh, staying ahead of the curve.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

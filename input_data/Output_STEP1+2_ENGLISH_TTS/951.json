@@ -1,0 +1,206 @@
+{
+  "id": 951,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and gossipy"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, have you been, like, keeping up with all the Elon Musk stuff lately? It’s, um, wild.",
+        "tts_text": "So, B, have you been, like, keeping up with all the Elon Musk stuff lately? It's, um, wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, absolutely. I mean, where do you even start with him, right?",
+        "tts_text": "Oh my gosh, absolutely. I mean, where do you even start with him, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. I saw this article, and it was talking about how he, uh, claimed he has roughly a $20 billion fortune but, like, *no liquid assets*.",
+        "tts_text": "Exactly. I saw this article, and it was talking about how he, uh, claimed he has roughly a twenty billion dollar fortune but, like, no liquid assets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Tesla and SpaceX CEO confirmed he has roughly a $20 billion fortune (Forbes pegs it at $23.6 billion), but added that his liquid assets are relatively low. Some people think I have a lot of cash, he said. I actually dont.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, no *liquid* assets? But Forbes pegs him at like $23.6 billion! How does that even make sense?",
+        "tts_text": "Wait, no liquid assets? But Forbes pegs him at like twenty three point six billion dollars! How does that even make sense?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Tesla and SpaceX CEO confirmed he has roughly a $20 billion fortune (Forbes pegs it at $23.6 billion), but added that his liquid assets are relatively low.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that's the thing. The article suggests it was this \"clever bluff.\" Like, if a jury hit him with a big judgment, the US government might just step in to fund his ventures.",
+        "tts_text": "Well, that's the thing. The article suggests it was this clever bluff. Like, if a jury hit him with a big judgment, the U S government might just step in to fund his ventures.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the jury levels a large judgment against Musk, he may have to sell part of his stake in Tesla or SpaceX, a move he has historically avoided. (Another possibility: He could borrow more money, using his shares as collateral.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa. So, like, he's planning for the government to essentially bail out Tesla or SpaceX? That's... that's next level.",
+        "tts_text": "Whoa. So, like, he's planning for the government to essentially bail out Tesla or SpaceX? That's... that's next level.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, or even, uh, nationalize them! But here's the kicker: Forbes *also* estimates that 99% of his wealth is actually held in physical gold.",
+        "tts_text": "Yeah, or even, uh, nationalize them! But here's the kicker: Forbes also estimates that ninety nine percent of his wealth is actually held in physical gold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As much as 99% of Musks wealth is held in shares of those two companies, Forbes estimates, which helps explain his lack of liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Gold? So he's immensely liquid then! That completely, like, contradicts his whole \"no cash\" claim, doesn't it?",
+        "tts_text": "Gold? So he's immensely liquid then! That completely, like, contradicts his whole no cash claim, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. And apparently, a huge chunk of his compensation from Tesla, like, back in 2018, was actually government subsidies. Not even his salary.",
+        "tts_text": "Totally. And apparently, a huge chunk of his compensation from Tesla, like, back in twenty eighteen, was actually government subsidies. Not even his salary.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2018, for instance, the bulk of his compensation at Tesla came in the form of stock options. Musk declined to accept his base salary of $56,380.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. You know, for someone so rich, he's got this whole, uh, anti-establishment vibe. But he's taking government money?",
+        "tts_text": "Wow. You know, for someone so rich, he's got this whole, uh, anti-establishment vibe. But he's taking government money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And he's got less than $500 million in debt, which, like, for his net worth, isn't that much. But he refuses to use his Tesla stake as collateral.",
+        "tts_text": "Right? And he's got less than five hundred million dollars in debt, which, like, for his net worth, isn't that much. But he refuses to use his Tesla stake as collateral.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Musk, 48, owes more than $500 million in debts, according to financial documents published earlier this year. That includes $208.9 million in liabilities owed to Morgan Stanley and $213 million borrowed from an affiliate of Goldman Sachs. Musk has pledged nearly half of his Tesla stake as collateral for those loans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a power move. Like, \"You can't touch my precious Tesla shares.\" So, what's his deal, then? Is it about the money?",
+        "tts_text": "That's a power move. Like, You can't touch my precious Tesla shares. So, what's his deal, then? Is it about the money?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, he told Forbes back in 2012 that he wanted to \"destroy\" SpaceX, not for riches, but to prove the US government's mismanagement.",
+        "tts_text": "Well, he told Forbes back in twenty twelve that he wanted to destroy SpaceX, not for riches, but to prove the U S government's mismanagement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is not the path to go to maximize riches, he told Forbes in 2012, referring to SpaceX. Its a terrible risk-adjusted return. Instead he founded the space exploration company, he said, because it was his way to most affect the future of humanity and civilization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlaps] Wait, *destroy* it? That's a weird way to phrase, like, wanting to change the world.",
+        "tts_text": "Wait, destroy it? That's a weird way to phrase, like, wanting to change the world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? He said it was his way to affect the future of humanity. And, uh, he's made similar comments about Tesla.",
+        "tts_text": "I know, right? He said it was his way to affect the future of humanity. And, uh, he's made similar comments about Tesla.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead he founded the space exploration company, he said, because it was his way to most affect the future of humanity and civilization. He has made similar comments about his motivations at Tesla.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, it's this whole, like, larger-than-life, patriot-versus-the-president kind of thing.",
+        "tts_text": "So, it's this whole, like, larger-than-life, patriot-versus-the-president kind of thing.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then you have stuff like the Cybertruck reveal, where he tried to show the \"fragility\" of the windows with a metal ball.",
+        "tts_text": "Exactly! And then you have stuff like the Cybertruck reveal, where he tried to show the fragility of the windows with a metal ball.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last month, during the introduction of Teslas new Cybertruck, he attempted to prove the durability of the trucks armor glass windows with a metal ball.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, yes! And they didn't break! It was so awkward, like, \"Oh my f-ing God.\"",
+        "tts_text": "Oh my god, yes! And they didn't break! It was so awkward, like, Oh my f-ing God.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead the window shattered. Oh my fing God, said a surprised Musk. His chief designer tested another window. Then it shattered, too.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, both windows stayed intact! And he's still got under 250,000 preorders, tweeting, \"Guess we have some improvements to make.\"",
+        "tts_text": "Yeah, both windows stayed intact! And he's still got under two hundred fifty thousand preorders, tweeting, Guess we have some improvements to make.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead the window shattered... Then it shattered, too. Still, Musk reports that more than 250,000 customers have preordered the vehicle. But, he tweeted, Guess we have some improvements to make before production haha.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Honestly, he's, um, a walking contradiction. But you can't deny he keeps things interesting.",
+        "tts_text": "Honestly, he's, um, a walking contradiction. But you can't deny he keeps things interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Never a dull moment, that's for sure.",
+        "tts_text": "Never a dull moment, that's for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

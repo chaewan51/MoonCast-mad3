@@ -1,0 +1,182 @@
+{
+  "id": 407,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Inquisitive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so we've been looking at some pretty interesting data coming out of Kazakhstan regarding their PISA results, specifically, uh, reading literacy.",
+        "tts_text": "Alright, so we've been looking at some pretty interesting data coming out of Kazakhstan regarding their P I S A results, specifically, uh, reading literacy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's fascinating, isn't it? I mean, Kazakhstan's been participating in PISA since 2009, so it's not new territory for them.",
+        "tts_text": "Yeah, it's fascinating, isn't it? I mean, Kazakhstan's been participating in P I S A since two thousand nine, so it's not new territory for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "S Kazakhstan participates in PISA since 2009.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And what immediately jumped out at me was the reading scores for their 15-year-olds. They actually, like, surprisingly dipped slightly, from 390 to 387. Which, I mean, statistically, it's a change.",
+        "tts_text": "Right. And what immediately jumped out at me was the reading scores for their fifteen-year-olds. They actually, like, surprisingly dipped slightly, from three hundred ninety to three hundred eighty seven. Which, I mean, statistically, it's a change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Compared to 2009 our 15-year-old students reading results lowered from 390 to 387 scores which is considered non statistically significant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is, but, you know, when you put it next to the OECD average of 487? That's, uh, that's a pretty significant gap. It's like less than a school year's difference, they say, but still.",
+        "tts_text": "It is, but, you know, when you put it next to the O E C D average of four hundred eighty seven? That's, uh, that's a pretty significant gap. It's like less than a school year's difference, they say, but still.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But compared to average OECD scores of 487, it equals to more than two-school-year difference.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "True, true. But then, on the flip side, they're ranked ninth out of 77 countries for reading literacy. I mean, that's pretty respectable, right? What does that tell us about their education system?",
+        "tts_text": "True, true. But then, on the flip side, they're ranked ninth out of seventy seven countries for reading literacy. I mean, that's pretty respectable, right? What does that tell us about their education system?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When it comes to reading literacy, Kazakhstan is the 9th last out of 77 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it definitely points to the importance of a strong education system, you know, in upholding those reading levels. The article actually mentions consulting with teachers and principals, and their survey results were quite encouraging. Even if, like, a teacher in Almaty had some errors in their writing, it didn't seem to correlate with the young people's overall literacy.",
+        "tts_text": "Well, it definitely points to the importance of a strong education system, you know, in upholding those reading levels. The article actually mentions consulting with teachers and principals, and their survey results were quite encouraging. Even if, like, a teacher in Almaty had some errors in their writing, it didn't seem to correlate with the young people's overall literacy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When I read their survey results, I am shocked if a teacher or principal of Almaty city school writes with errors what can we say about overall reading literacy of young people or general public?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh, that's an interesting point. So, the direct literacy of the educator might not be the be-all and end-all for student outcomes? But the article also makes a pretty bold claim, saying the issue isn't *solely* about education.",
+        "tts_text": "Huh, that's an interesting point. So, the direct literacy of the educator might not be the be-all and end-all for student outcomes? But the article also makes a pretty bold claim, saying the issue isn't solely about education.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the issue is not only about education.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and here's where it gets a bit, um, controversial for some, I think. The OECD findings suggest there's no correlation between the number of books at home and a student's literacy levels.",
+        "tts_text": "Yeah, and here's where it gets a bit, um, controversial for some, I think. The O E C D findings suggest there's no correlation between the number of books at home and a student's literacy levels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "OECD results show, that there is direct link between decreasing number of books at home and students literacy level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Wait, no correlation? So all those campaigns about having books in every home, reading to your kids from birth... that's not actually, like, moving the needle?",
+        "tts_text": "Wait, no correlation? So all those campaigns about having books in every home, reading to your kids from birth... that's not actually, like, moving the needle?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "According to these findings, the reading culture actually thrives *exclusively* within the school system. It's independent of family habits. They really emphasize that the habit of reading primarily starts in school, not at home.",
+        "tts_text": "According to these findings, the reading culture actually thrives exclusively within the school system. It's independent of family habits. They really emphasize that the habit of reading primarily starts in school, not at home.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The culture of reading is not being born in school, it becomes a habit when a mother or father read to their child when he or she is one-year-old or younger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But, I mean, you see parents glued to their phones, constant TV, video games. Surely that plays a role, right? Like, a lack of modeling reading behavior?",
+        "tts_text": "But, I mean, you see parents glued to their phones, constant T V, video games. Surely that plays a role, right? Like, a lack of modeling reading behavior?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The author actually dismisses that, saying it \"has nothing to do with the issue.\" They clarify they're talking about classical literature, fiction, fairy tales, not just social media posts. And get this: in Great Britain, they stopped giving books to nine-month-olds and their parents during clinic visits, and it's described as a \"very successful practice.\"",
+        "tts_text": "The author actually dismisses that, saying it has nothing to do with the issue. They clarify they're talking about classical literature, fiction, fairy tales, not just social media posts. And get this: in Great Britain, they stopped giving books to nine-month-olds and their parents during clinic visits, and it's described as a very successful practice.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, to encourage family reading time, 9-month old baby and his/her parents in Great Britain are provided books during outpatients clinic visit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Okay. That's a complete shift in perspective from what we usually hear. So, if it's not home, and, um, you know, books there, what about libraries?",
+        "tts_text": "Wow. Okay. That's a complete shift in perspective from what we usually hear. So, if it's not home, and, um, you know, books there, what about libraries?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "UNESCO studies also show no link between libraries and population reading literacy. The article's author worked in a district library and observed crowds, but if you look closely, very few people actually visit to *read* or take out books. It's often, like, a dozen people a day, even in modern, well-equipped libraries.",
+        "tts_text": "U N E S C O studies also show no link between libraries and population reading literacy. The article's author worked in a district library and observed crowds, but if you look closely, very few people actually visit to read or take out books. It's often, like, a dozen people a day, even in modern, well-equipped libraries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UNESCO results show that there is direct correlation between libraries and populations reading literacy. ... Based on my experience, do you know how many people visit a library to read or take/return books? You will be shocked, but it is usually one or two people maximum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A dozen? That's shockingly low for, you know, a public institution.",
+        "tts_text": "A dozen? That's shockingly low for, you know, a public institution.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And they claim it's similar abroad too. Even with modern environments and contemporary books, libraries in developed countries often aren't community centers; they lack engaging events, have a boring environment, outdated materials...",
+        "tts_text": "Exactly. And they claim it's similar abroad too. Even with modern environments and contemporary books, libraries in developed countries often aren't community centers; they lack engaging events, have a boring environment, outdated materials...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Libraries in developed countries are considered centers of districts called Community Centers, where interesting events take place for adults and kids - there is entertaining environment where books and journals are interesting to read, there are great e-library resources, public events, play time, there is light and open space.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[nods] So, despite the government investing heavily in libraries in Kazakhstan, transforming them, like, unlike spending on Expos or new curbs in Almaty... are they saying it's still not attracting people to *read*?",
+        "tts_text": "So, despite the government investing heavily in libraries in Kazakhstan, transforming them, like, unlike spending on Expos or new curbs in Almaty... are they saying it's still not attracting people to read?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. It's a complex picture. Investment in infrastructure is one thing, but cultivating that deep reading habit, that seems to be something else entirely, and maybe more challenging to achieve, um, even with beautiful new spaces.",
+        "tts_text": "Precisely. It's a complex picture. Investment in infrastructure is one thing, but cultivating that deep reading habit, that seems to be something else entirely, and maybe more challenging to achieve, um, even with beautiful new spaces.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

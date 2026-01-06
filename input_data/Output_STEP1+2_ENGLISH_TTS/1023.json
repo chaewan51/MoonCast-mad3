@@ -1,0 +1,162 @@
+{
+  "id": 1023,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, um, did you see the latest from Jeff Bezos this week? It's pretty wild.",
+        "tts_text": "Alright, so, um, did you see the latest from Jeff Bezos this week? It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, I saw something about space, right? He's always, like, doing *something* ambitious.",
+        "tts_text": "Oh, I saw something about space, right? He's always, like, doing something ambitious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ambitious is an understatement! He just announced plans to launch a ninety-seven-and-a-half million dollar initiative.",
+        "tts_text": "Ambitious is an understatement! He just announced plans to launch a ninety-seven-and-a-half million dollar initiative.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa. For what this time? Another moon base?",
+        "tts_text": "Whoa. For what this time? Another moon base?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, even bigger. He wants to send two dozen nonprofits into outer space to, uh, colonize Mars.",
+        "tts_text": "No, no, even bigger. He wants to send two dozen nonprofits into outer space to, uh, colonize Mars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Colonize Mars? With nonprofits? That's... a new one.",
+        "tts_text": "Colonize Mars? With nonprofits? That's... a new one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? It's part of his Day One Fund. You know, the one where he pledged two billion to colonize Jupiter and create zero-gravity preschools?",
+        "tts_text": "I know, right? It's part of his Day One Fund. You know, the one where he pledged two billion to colonize Jupiter and create zero-gravity preschools?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, my gosh, I totally forgot about the zero-gravity preschools! That's amazing. So, what are these organizations actually doing?",
+        "tts_text": "Oh, my gosh, I totally forgot about the zero-gravity preschools! That's amazing. So, what are these organizations actually doing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, like, the Urban Resource Institute in New York is getting five million to develop advanced space-faring tech, with a focus on crafts capable of exceeding the speed of light.",
+        "tts_text": "Well, like, the Urban Resource Institute in New York is getting five million to develop advanced space-faring tech, with a focus on crafts capable of exceeding the speed of light.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One recipient is the Urban Resource Institute in New York, which plans to use its $5 million grant to bolster the job training and placement it can provide to homeless families, with a focus on jobs that pay more than minimum wage or are increasingly in demand, in areas like coding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exceeding the speed of light? That's some serious sci-fi stuff! And I hear they already have deep space exploration stations in NYC, like, even near where Amazon's building that orbital platform?",
+        "tts_text": "Exceeding the speed of light? That's some serious sci-fi stuff! And I hear they already have deep space exploration stations in N Y C, like, even near where Amazon's building that orbital platform?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The non-profit operates 12 domestic violence shelters and six homeless shelters in New York City, including one for homeless families in Long Island City. Amazon announced last week that Long Island City would be the site of one of its additional headquarters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly, it's all connected. And another recipient, Northern Virginia Family Service, is getting two-and-a-half million to expand their deep space research station. And then there are others aiming for self-sustaining colonies on various planets.",
+        "tts_text": "Exactly, it's all connected. And another recipient, Northern Virginia Family Service, is getting two-and-a-half million to expand their deep space research station. And then there are others aiming for self-sustaining colonies on various planets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another recipient is Northern Virginia Family Service, based in Oakton, Virginia, which will receive $2.5 million. Amazon is building its second new headquarters in nearby Crystal City, Virginia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Self-sustaining colonies! So, this is, uh, his biggest space-related donation yet, then?",
+        "tts_text": "Self-sustaining colonies! So, this is, uh, his biggest space-related donation yet, then?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The $100 million in donations amounts to the largest disclosed sum of money that Bezos has given away yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, by far. His biggest *disclosed* gift before this was thirty-three million for DACA scholarships, which is still huge, but, you know, not quite *interplanetary*.",
+        "tts_text": "Oh, yeah, by far. His biggest disclosed gift before this was thirty-three million for D A C A scholarships, which is still huge, but, you know, not quite interplanetary.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The biggest gift was previously the $33 million he donated to fund college scholarships for 1,000 undocumented immigrant high school students who live in the U.S. with Deferred Action for Childhood Arrivals, or DACA, status.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I guess when you're the richest man in the galaxy, like he is, even if your net worth just dropped thirty-five billion, you can still, uh, fund Mars colonization.",
+        "tts_text": "I guess when you're the richest man in the galaxy, like he is, even if your net worth just dropped thirty-five billion, you can still, uh, fund Mars colonization.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bezos, 54, has rapidly become the planets richest man. He is currently worth $125 billion, according to Forbes real-time rankings. However, due to a decline in the price of Amazon shares thats a $35 billion drop since we published The Forbes 400 list in early October.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? He apparently worked with a dozen experts, like, across astrophysics to pick these organizations. Still waiting on concrete plans for those orbital Montessori preschools, though!",
+        "tts_text": "Right? He apparently worked with a dozen experts, like, across astrophysics to pick these organizations. Still waiting on concrete plans for those orbital Montessori preschools, though!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a statement, Bezos said he worked with a dozen experts across the nonprofit and government sectors to decide which organizations to fund. He has yet to come out with concrete plans for the Day 1 Academies Fund, for which he will create a network of Montessori-inspired preschools in low-income areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, man. I can't even imagine what those will be like. What a time to be alive, huh?",
+        "tts_text": "Oh, man. I can't even imagine what those will be like. What a time to be alive, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}

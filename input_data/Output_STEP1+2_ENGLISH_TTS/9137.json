@@ -1,0 +1,142 @@
+{
+  "id": 9137,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative news update"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news coming out of Kazakhstan, uh, today. They've just announced a complete ban on flights over several countries in the Middle East.",
+        "tts_text": "So, big news coming out of Kazakhstan, uh, today. They've just announced a complete ban on flights over several countries in the Middle East.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to the outbreak of hostilities in the Middle East and the high level of threat to civil aviation safety, the Aviation Administration of Kazakhstan has imposed a complete ban on flights over several countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, really? Like, where exactly? And for what reason?",
+        "tts_text": "Wow, really? Like, where exactly? And for what reason?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's pretty significant. We're talking Iran, Israel, Syria, Iraq, Jordan, and Lebanon. It's, um, due to the outbreak of hostilities there, and obviously, a high threat to civil aviation safety.",
+        "tts_text": "Yeah, it's pretty significant. We're talking Iran, Israel, Syria, Iraq, Jordan, and Lebanon. It's, um, due to the outbreak of hostilities there, and obviously, a high threat to civil aviation safety.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to the outbreak of hostilities in the Middle East and the high level of threat to civil aviation safety... Flights are prohibited within and near the airspace of Iran, Israel, Syria, Iraq, Jordan, and Lebanon until further notice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, is this just for, like, passenger planes, or are we talking everything? Cargo flights too?",
+        "tts_text": "So, is this just for, like, passenger planes, or are we talking everything? Cargo flights too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nope, it's everything, Host_B. The directive covers all scheduled and non-scheduled passenger, cargo, *and* technical flights by Kazakhstani operators.",
+        "tts_text": "Nope, it's everything, Host B. The directive covers all scheduled and non-scheduled passenger, cargo, and technical flights by Kazakhstani operators.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This directive applies to all scheduled and non-scheduled passenger, cargo, and technical flights by Kazakhstani aircraft operators.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[overlapping] Wow, so like, a total no-go zone then. Until when?",
+        "tts_text": "Wow, so like, a total no-go zone then. Until when?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. Uh, until further notice, actually. The Civil Aviation Committee just, like, made that clear.",
+        "tts_text": "Exactly. Uh, until further notice, actually. The Civil Aviation Committee just, like, made that clear.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Flights are prohibited within and near the airspace of Iran, Israel, Syria, Iraq, Jordan, and Lebanon until further notice. ...the press service of the Civil Aviation Committee reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so this is directly linked to the escalating conflict between Israel and Iran then, right?",
+        "tts_text": "Okay, so this is directly linked to the escalating conflict between Israel and Iran then, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This decision is linked to the escalating conflict between Israel and Iran.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh, absolutely. And it's not just Kazakhstan reacting. We've seen reports that Flydubai, for instance, has already canceled dozens of flights.",
+        "tts_text": "Uh-huh, absolutely. And it's not just Kazakhstan reacting. We've seen reports that Flydubai, for instance, has already canceled dozens of flights.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, several media outlets reported that Flydubai had canceled dozens of flights departing from Kazakhstan, Russia, Belarus, Tatarstan, Armenia, and Azerbaijan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, Flydubai too? From where are they canceling, like, just out of the Middle East?",
+        "tts_text": "Oh, Flydubai too? From where are they canceling, like, just out of the Middle East?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, actually from quite a few places, like Kazakhstan, Russia, Belarus, Armenia, Azerbaijan. It, uh, really shows how wide-reaching the impact is.",
+        "tts_text": "No, actually from quite a few places, like Kazakhstan, Russia, Belarus, Armenia, Azerbaijan. It, uh, really shows how wide-reaching the impact is.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Flydubai had canceled dozens of flights departing from Kazakhstan, Russia, Belarus, Tatarstan, Armenia, and Azerbaijan.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Man, that's gonna cause some serious travel chaos for a lot of people.",
+        "tts_text": "Man, that's gonna cause some serious travel chaos for a lot of people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. And the aviation security department said they'll provide updates if the situation changes.",
+        "tts_text": "For sure. And the aviation security department said they'll provide updates if the situation changes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the situation in the region changes, additional information will be provided by the aviation security department of the Aviation Administration of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's just a really tense time over there.",
+        "tts_text": "Yeah, it's just a really tense time over there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  }
+}
