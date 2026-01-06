@@ -309,18 +309,13 @@ class Model(object):
 # -------------------------
 # Batch runner helpers
 # -------------------------
-def load_manifest(manifest_path: str) -> List[Dict[str, Any]]:
-    manifest_path = Path(manifest_path)
-    base = manifest_path.parent
-    voices = json.loads(manifest_path.read_text(encoding="utf-8"))
-
+def load_manifest(manifest_path: str):
+    voices = json.loads(Path(manifest_path).read_text(encoding="utf-8"))
     for v in voices:
-        p = Path(v["path"])
-        if not p.is_absolute():
-            v["path"] = str((base / p).resolve())
+        v["path"] = str(Path.cwd() / v["path"])  # assumes you run from repo root
         v["accent"] = v["accent"].lower().strip()
-        # keep v["ref_text"] as is
     return voices
+
 
 
 def build_pools(voices: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
