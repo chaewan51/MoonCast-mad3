@@ -18,17 +18,14 @@ from scipy.io import wavfile
 import soundfile as sf
 
 # --- CLUSTER STABILITY SETTINGS ---
-# Set to a GPU ID that is actually free (Check nvidia-smi)
 OS_GPU_ID = "3" 
 os.environ["CUDA_VISIBLE_DEVICES"] = OS_GPU_ID
-# Updated to the new non-deprecated variable name
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 os.environ["OMP_NUM_THREADS"] = "1"
 
 sys.path.append(os.getcwd())
 from modules.tokenizer.tokenizer import get_tokenizer_and_extra_tokens
 from modules.audio_tokenizer.audio_tokenizer import get_audio_tokenizer
-# FIXED: Added the missing import for detokenizer
 from modules.audio_detokenizer.audio_detokenizer import (
     get_audio_detokenizer,
     detokenize
@@ -41,22 +38,23 @@ class Model:
         self.speech_token_offset = 163840
         self.device = torch.device("cuda")
         
-        # Load model with bfloat16 for speed and VRAM savings
         self.model = AutoModelForCausalLM.from_pretrained(
             "resources/text2semantic",
             torch_dtype=torch.bfloat16,
-            trust_remote_code=True,
-            low_cpu_mem_usage=True
+            trust_remote_code=True
         ).to(self.device)
         
-        # Fix for the 'NoneType' AttributeError
+        # Get actual vocabulary size to prevent device-side asserts
+        self.vocab_size = self.model.config.vocab_size
+        print(f"[DEBUG] Model Vocab Size: {self.vocab_size}")
+
         self.model.config.use_cache = False 
         self.model.eval()
 
         self.audio_tokenizer = get_audio_tokenizer()
         self.audio_detokenizer = get_audio_detokenizer()
 
-        # Cache fixed tensors
+        # Cache tokens
         self.assistant_ids = self.tokenizer.encode("assistant")
         self.user_ids = self.tokenizer.encode("user")
         self.audio_ids = self.tokenizer.encode("audio")
@@ -84,13 +82,19 @@ class Model:
             w16 = F.pad(w16, (0, 24000 - w16.shape[-1]))
             
         sem = self.audio_tokenizer.tokenize(w16).to(self.device)
-        res = {"prompt_ids": sem + self.speech_token_offset, "wav_24k": w24, "semantic": sem}
+        
+        # --- CRITICAL SAFETY CHECK ---
+        # Ensure semantic tokens + offset do not exceed vocab_size
+        p_ids = sem + self.speech_token_offset
+        p_ids = torch.clamp(p_ids, max=self.vocab_size - 1)
+        # -----------------------------
+
+        res = {"prompt_ids": p_ids, "wav_24k": w24, "semantic": sem}
         self._voice_cache[audio_path] = res
         return res
 
     @torch.inference_mode()
     def infer(self, js: Dict[str, Any]):
-        # Build prompt history
         ctx_ids = []
         for r in ["0", "1"]:
             ctx_ids += ([self.extra_tokens.user_msg_start] + self.user_ids + self.spk_ids[int(r)] + [self.extra_tokens.name_end] + 
@@ -100,7 +104,10 @@ class Model:
             ctx_ids += ([self.extra_tokens.user_msg_start] + self.user_ids + self.spk_ids[int(turn["role"])] + [self.extra_tokens.name_end] + 
                         self.tokenizer.encode(turn["text"]) + [self.extra_tokens.msg_end])
         
-        prompt = torch.LongTensor(ctx_ids).unsqueeze(0).to(self.device)
+        # If text tokenizer produced a bad token (rare), clamp it too
+        ctx_tensor = torch.LongTensor(ctx_ids).to(self.device)
+        ctx_tensor = torch.clamp(ctx_tensor, max=self.vocab_size - 1)
+        prompt = ctx_tensor.unsqueeze(0)
 
         for r in ["0", "1"]:
             v = self._get_voice_prompt(js["role_mapping"][r]["ref_audio"], js["role_mapping"][r]["ref_text"])
@@ -108,11 +115,10 @@ class Model:
             prompt = torch.cat([prompt, header, self._media_start, v["prompt_ids"], self._media_end], dim=-1)
 
         wav_chunks = []
-        for turn in tqdm(js["dialogue"], desc="Turns", leave=True):
+        for turn in tqdm(js["dialogue"], desc="Turns"):
             header = torch.LongTensor([self.extra_tokens.assistant_msg_start] + self.assistant_ids + self.spk_ids[int(turn["role"])] + [self.extra_tokens.name_end]).unsqueeze(0).to(self.device)
             input_ids = torch.cat([prompt, header, self._media_start], dim=-1)
             
-            # Keep context window safe for VRAM
             if input_ids.shape[1] > self.max_ctx: 
                 input_ids = input_ids[:, -self.max_ctx:] 
 
@@ -128,8 +134,13 @@ class Model:
             if new_tokens.shape[1] > 0 and new_tokens[0, -1] == self.extra_tokens.media_end:
                 new_tokens = new_tokens[:, :-1]
             
+            # Detokenizer safety
+            speech_tokens = new_tokens - self.speech_token_offset
+            # Ensure no negative indices
+            speech_tokens = torch.clamp(speech_tokens, min=0)
+            
             v_ref = self._get_voice_prompt(js["role_mapping"][turn["role"]]["ref_audio"], js["role_mapping"][turn["role"]]["ref_text"])
-            wav_gen = detokenize(self.audio_detokenizer, new_tokens - self.speech_token_offset, v_ref["wav_24k"], v_ref["semantic"])
+            wav_gen = detokenize(self.audio_detokenizer, speech_tokens, v_ref["wav_24k"], v_ref["semantic"])
             wav_chunks.append(wav_gen.cpu())
             
             prompt = torch.cat([gen_out, self._media_end], dim=-1)
@@ -166,15 +177,11 @@ def main():
                         "1": {"ref_audio": v1["path"], "ref_text": v1["ref_text"]}}
             
             turns_raw = js_in["dialogue_data"]["dialogue_turns"]
-            dialogue = []
-            for t in turns_raw:
-                txt = (t.get("tts_text") or t.get("text", "")).strip()
-                if txt:
-                    dialogue.append({"role": "0" if "a" in t["speaker"].lower() else "1", "text": txt})
+            dialogue = [{"role": "0" if "a" in t["speaker"].lower() else "1", 
+                         "text": (t.get("tts_text") or t.get("text", "")).strip()} for t in turns_raw if (t.get("tts_text") or t.get("text"))]
             
             wav = model.infer({"role_mapping": role_map, "dialogue": dialogue})
             
-            # Normalization and Save
             final_audio = wav.squeeze().numpy()
             if abs(final_audio).max() > 1.0: final_audio /= (abs(final_audio).max() + 1e-8)
             wavfile.write(out_wav, 24000, final_audio)
@@ -184,6 +191,11 @@ def main():
         except Exception as e:
             print(f"[FAIL] {file_id}: {e}")
             traceback.print_exc()
+            # Important: Device-side asserts "poison" the CUDA context. 
+            # If one file fails this way, the script MUST exit to reset.
+            if "device-side assert" in str(e).lower():
+                print("[FATAL] CUDA state poisoned. Exiting to reset GPU.")
+                sys.exit(1)
 
 if __name__ == "__main__":
     main()
